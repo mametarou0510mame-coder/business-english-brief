@@ -8,7 +8,7 @@
   python engine/build.py ig-due [--dry]              post Instagram reels whose time has come
   python engine/build.py check                       show which YouTube channel / IG account the secrets belong to
 """
-import json, os, sys, math, shutil, datetime as dt
+import json, os, sys, math, shutil, time, datetime as dt
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, "engine"))
@@ -73,8 +73,10 @@ def validate(ep_dir, sheet=True):
                 errs.append(f"{b['id']}: vis.t must be one of {sorted(TEMPLATES_OK)}")
             if b["kind"] in ("jp", "en_insert") and not (b.get("jp") and b.get("en")):
                 errs.append(f"{b['id']}: jp and en are both required")
-    if len(ep.get("shorts", [])) < 2:
-        errs.append("need 2 shorts")
+    if not ep.get("shorts"):
+        errs.append("need at least 1 short")
+    if len(ep.get("publish", {}).get("shorts", [])) < len(ep.get("shorts", [])):
+        errs.append("publish.shorts needs one time per short")
     for s in ep.get("shorts", []):
         for k in ("phrase", "hook", "ctx", "title", "ig_caption"):
             if k not in s:
@@ -112,6 +114,15 @@ def validate(ep_dir, sheet=True):
 
 
 # ---------------------------------------------------------------- render
+def narrate_ep(ep_dir):
+    import tts
+    ep = E.load(ep_dir)
+    ok = tts.run(ep_dir, E.tts_lines(ep), CH["voices"])
+    print(f"narrated {ep_dir}: {ok}")
+    if not ok:
+        raise SystemExit("narration failed")
+
+
 def render_ep(ep_dir):
     import tts, render as R, short, thumb
     ep = E.load(ep_dir)
@@ -171,7 +182,8 @@ def publish_ep(ep_dir, dry=False):
         if i < len(rec["shorts"]) and rec["shorts"][i]:
             continue
         P = ep["phrases"][s["phrase"]]
-        desc = (s.get("description") or f"{P['en']}（{P['jp']}）\n例文：{P['ex']}") + \
+        desc = "📰 " + ep["youtube"]["summary"] + "\n\n" + \
+            (s.get("description") or f"{P['en']}（{P['jp']}）\n例文：{P['ex']}") + \
             f"\n\n▼ ニュースの解説は本編で\n{long_url}\n\n出典：" + " / ".join(x["title"] for x in ep["sources"][:2]) + \
             "\n※ナレーションはAI音声（Microsoft Azure AI Speech）を使用しています。\n\n#ビジネス英語 #英語学習 #ニュース英語"
         when = ep["publish"]["shorts"][i]
@@ -193,11 +205,33 @@ def publish_ep(ep_dir, dry=False):
         shutil.copy(os.path.join(out, f"short{i + 1}.jpg"), os.path.join(dst, f"s{i + 1}.jpg"))
         q.append({"ep": ep["id"], "n": i, "at": ep["publish"]["shorts"][i],
                   "video": f"{CH['pages_base']}/{ep['id']}/s{i + 1}.mp4", "cover": f"{CH['pages_base']}/{ep['id']}/s{i + 1}.jpg",
-                  "caption": s["ig_caption"], "status": "pending"})
+                  "caption": ig_caption(ep, s), "status": "pending"})
     jsave(QUEUE, q)
     rec["status"] = "scheduled"
     state[ep["id"]] = rec
     jsave(STATE, state)
+
+
+def wait_url(url, tries=20):
+    import urllib.request
+    for _ in range(tries):
+        try:
+            with urllib.request.urlopen(urllib.request.Request(url, method="HEAD"), timeout=30) as r:
+                if r.status == 200:
+                    return True
+        except Exception:
+            pass
+        time.sleep(30)
+    return False
+
+
+def ig_caption(ep, s):
+    cap = s["ig_caption"]
+    news = "📰 今日のニュース\n" + ep["youtube"]["summary"]
+    if "{news}" in cap:
+        return cap.replace("{news}", news)
+    head, _, rest = cap.partition("\n\n")
+    return f"{head}\n\n{news}\n\n{rest}" if rest else f"{cap}\n\n{news}"
 
 
 def pending():
@@ -231,10 +265,15 @@ def ig_due(dry=False):
         if dry:
             print("[dry] would post", x["video"])
             continue
+        if not wait_url(x["video"]):
+            print("media not reachable yet, will retry next run:", x["video"])
+            continue
         try:
             mid, link = I.publish_reel(x["video"], x["cover"], x["caption"])
             x.update(status="posted", media_id=mid, permalink=link, posted_at=now().isoformat())
             print("posted", link)
+            if x is not due[-1]:
+                time.sleep(int(os.environ.get("IG_SPACING", "150")))
         except Exception as e:
             x.update(status="error", error=str(e)[:300])
             print("ERROR", e)
@@ -291,6 +330,9 @@ if __name__ == "__main__":
     if cmd == "validate":
         ok = all(validate(a) for a in args)
         sys.exit(0 if ok else 1)
+    elif cmd == "narrate":
+        for a in args:
+            narrate_ep(a)
     elif cmd == "render":
         for a in args:
             render_ep(a)

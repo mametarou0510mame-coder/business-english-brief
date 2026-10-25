@@ -1,7 +1,9 @@
 name: Build & schedule
 
-# New or changed episodes/*/episode.json → narration (Azure) → videos → YouTube scheduled upload
-# → Instagram queue + shorts published to the `media` branch (GitHub Pages) for Instagram to fetch.
+# New or changed episodes/*/episode.json →
+#   plan (find pending) → narrate (Azure, one job, rate-limited) → render (one job per episode, in parallel)
+#   → publish (YouTube scheduled/immediate upload, Instagram queue, shorts to the `media` branch for GitHub Pages)
+#   → start the Instagram workflow so reels that are already due go out right away.
 on:
   push:
     branches: [main]
@@ -16,56 +18,113 @@ on:
 permissions:
   contents: write
   pages: write
+  actions: write
 
 concurrency:
   group: build
   cancel-in-progress: false
 
+env:
+  DRY: ${{ github.event.inputs.dry || 'false' }}
+
 jobs:
-  build:
+  plan:
     runs-on: ubuntu-24.04
-    timeout-minutes: 300
+    outputs:
+      eps: ${{ steps.p.outputs.eps }}
+      count: ${{ steps.p.outputs.count }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: p
+        run: |
+          python engine/build.py pending > pending.txt || true
+          cat pending.txt
+          echo "count=$(grep -c . pending.txt || true)" >> "$GITHUB_OUTPUT"
+          echo "eps=$(python -c 'import json;print(json.dumps([l.strip() for l in open("pending.txt") if l.strip()]))')" >> "$GITHUB_OUTPUT"
+
+  narrate:
+    needs: plan
+    if: needs.plan.outputs.count != '0'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 120
     env:
       AZURE_SPEECH_KEY: ${{ secrets.AZURE_SPEECH_KEY }}
       AZURE_SPEECH_REGION: ${{ secrets.AZURE_SPEECH_REGION }}
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-inter fonts-noto-cjk fonts-noto-cjk-extra > /dev/null && pip install -q pillow
+      - name: Validate
+        run: python engine/build.py validate ${{ join(fromJSON(needs.plan.outputs.eps), ' ') }}
+      - name: Narrate
+        run: python engine/build.py narrate ${{ join(fromJSON(needs.plan.outputs.eps), ' ') }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: audio
+          path: episodes/*/audio/
+          retention-days: 3
+
+  render:
+    needs: [plan, narrate]
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    strategy:
+      fail-fast: false
+      max-parallel: 10
+      matrix:
+        ep: ${{ fromJSON(needs.plan.outputs.eps) }}
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-inter fonts-noto-cjk fonts-noto-cjk-extra > /dev/null && pip install -q pillow
+      - uses: actions/download-artifact@v4
+        with:
+          name: audio
+          path: episodes
+      - name: Render
+        run: python engine/build.py render "${{ matrix.ep }}"
+      - id: n
+        run: echo "name=out-$(basename '${{ matrix.ep }}')" >> "$GITHUB_OUTPUT"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ${{ steps.n.outputs.name }}
+          path: |
+            ${{ matrix.ep }}/out/*.mp4
+            ${{ matrix.ep }}/out/*.jpg
+            ${{ matrix.ep }}/out/*.png
+            ${{ matrix.ep }}/out/*.txt
+            ${{ matrix.ep }}/out/*.srt
+            ${{ matrix.ep }}/out/timeline.json
+          retention-days: 7
+
+  publish:
+    needs: [plan, render]
+    if: always() && needs.plan.outputs.count != '0'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 120
+    env:
       YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
       YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
       YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
-      DRY: ${{ github.event.inputs.dry || 'false' }}
     steps:
       - uses: actions/checkout@v4
-      - name: Install tools and fonts
-        run: |
-          sudo apt-get update -qq
-          sudo apt-get install -y -qq ffmpeg fonts-inter fonts-noto-cjk fonts-noto-cjk-extra > /dev/null
-          pip install -q pillow
-      - name: Find pending episodes
-        id: p
-        run: |
-          python engine/build.py pending | tee pending.txt
-          echo "count=$(wc -l < pending.txt)" >> "$GITHUB_OUTPUT"
-      - name: Validate
-        if: steps.p.outputs.count != '0'
-        run: python engine/build.py validate $(cat pending.txt)
-      - name: Render and publish
-        if: steps.p.outputs.count != '0'
-        run: |
-          for ep in $(cat pending.txt); do
-            echo "::group::$ep"
-            python engine/build.py render "$ep"
-            if [ "$DRY" = "true" ]; then python engine/build.py publish "$ep" --dry; else python engine/build.py publish "$ep"; fi
-            echo "::endgroup::"
-          done
-      - name: Upload previews
-        if: always() && steps.p.outputs.count != '0'
-        uses: actions/upload-artifact@v4
+      - uses: actions/download-artifact@v4
         with:
-          name: build-output
-          path: |
-            episodes/*/out/*.png
-            episodes/*/out/*.mp4
-            episodes/*/out/description.txt
-          retention-days: 7
+          pattern: out-*
+          path: /tmp/outs
+      - name: Put outputs back in place
+        run: |
+          for d in /tmp/outs/out-*; do
+            id=$(basename "$d"); id=${id#out-}
+            mkdir -p "episodes/$id/out"
+            # artifact keeps the path below the common root; find the files wherever they landed
+            find "$d" -type f -exec cp {} "episodes/$id/out/" \;
+          done
+          ls episodes/*/out | head -50
+      - name: Publish
+        run: |
+          for ep in ${{ join(fromJSON(needs.plan.outputs.eps), ' ') }}; do
+            if [ ! -f "$ep/out/long.mp4" ]; then echo "::warning::$ep was not rendered; skipped"; continue; fi
+            if [ "$DRY" = "true" ]; then python engine/build.py publish "$ep" --dry; else python engine/build.py publish "$ep" || echo "::error::publish failed for $ep"; fi
+          done
       - name: Save state
         if: always()
         run: |
@@ -77,7 +136,7 @@ jobs:
           for i in 1 2 3 4 5; do git pull --rebase -X theirs origin main && git push && exit 0; sleep 10; done
           exit 1
       - name: Publish shorts to the media branch (GitHub Pages)
-        if: env.DRY != 'true' && steps.p.outputs.count != '0'
+        if: env.DRY != 'true'
         run: |
           git fetch origin media --depth 1 || true
           rm -rf /tmp/media && mkdir -p /tmp/media
@@ -87,5 +146,9 @@ jobs:
           git init -q -b media && git add -A
           git -c user.name="github-actions[bot]" -c user.email="41898283+github-actions[bot]@users.noreply.github.com" commit -q -m "media $(date -u +%F)"
           git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" media
+      - name: Start Instagram posting for anything already due
+        if: env.DRY != 'true'
+        run: |
+          sleep 90
           curl -s -X POST -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" -H "Accept: application/vnd.github+json" \
-            "https://api.github.com/repos/${{ github.repository }}/pages/builds" || true
+            "https://api.github.com/repos/${{ github.repository }}/actions/workflows/instagram.yml/dispatches" -d '{"ref":"main","inputs":{"dry":"false"}}'
