@@ -47,7 +47,7 @@ def t_hero_side(d, v, x):
     big = str(v["big"])
     xb = lerp(W / 2, 560, p)
     s = lerp(380, 300, p)
-    font = fit_font("in_bl" if big.isascii() else "jp_bl", s, big, 700)
+    font = fit_font("in_bl" if big.isascii() else "jp_bl", s, big, lerp(1500, 600, p))
     txt(d, (xb, 450), big, font, C(v.get("color", "red")), "mm")
     full = v.get("text", "")
     n = int(clamp((x.vt - 0.4) / 0.9) * len(full))
@@ -194,7 +194,7 @@ def t_vs(d, v, x):
         rr(d, (x0, 200, x0 + 620, 760), 28, fill=mix(PANEL, p), outline=mix(col, p * 0.6), width=3)
         if s.get("en"):
             spaced(d, (x0 + 310, 270), s["en"].upper(), F("in_b", 30), mix(col, p), 6, "m")
-        txt(d, (x0 + 310, 340), s.get("label", ""), F("jp_b", 44), mix(TEXT, p), "mm")
+        txt(d, (x0 + 310, 340), s.get("label", ""), fit_font("jp_b", 44, s.get("label", ""), 560), mix(TEXT, p), "mm")
         cx, cy = x0 + 310, 500
         dy = -1 if up else 1
         off = 14 * math.sin(x.ts * 2.4) * p

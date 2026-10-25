@@ -1,0 +1,609 @@
+{
+ "id": "2026-10-25-php-ai-flaws",
+ "episode": "#02",
+ "date": "2026-10-21",
+ "series": "テックとAI",
+ "title_card": {
+  "line1": "AIが20年前の欠陥を発見。",
+  "line2": "世界のサイトの7割が使うPHPに警告"
+ },
+ "readings": [
+  [
+   "PHP",
+   "ピーエイチピー"
+  ],
+  [
+   "NSA",
+   "エヌエスエー"
+  ],
+  [
+   "OpenAI",
+   "オープンエーアイ"
+  ],
+  [
+   "SNS",
+   "エスエヌエス"
+  ]
+ ],
+ "phrases": [
+  {
+   "en": "take the site offline",
+   "jp": "サイトを停止する",
+   "ex": "Let's take the site offline until the patch is applied.",
+   "ex_jp": "修正が適用されるまで、サイトを停止しましょう。"
+  },
+  {
+   "en": "as a precaution",
+   "jp": "予防措置として",
+   "ex": "As a precaution, we've paused all external logins tonight.",
+   "ex_jp": "予防措置として、今夜は外部からのログインをすべて止めています。"
+  },
+  {
+   "en": "a double-edged sword",
+   "jp": "もろ刃の剣",
+   "ex": "Automation is a double-edged sword for our support team.",
+   "ex_jp": "自動化は、サポートチームにとってもろ刃の剣です。"
+  }
+ ],
+ "words": [
+  {
+   "en": "vulnerability",
+   "jp": "脆弱性"
+  },
+  {
+   "en": "patch",
+   "jp": "修正プログラム"
+  },
+  {
+   "en": "exploit",
+   "jp": "悪用する"
+  }
+ ],
+ "homework": {
+  "en": "What is a double-edged sword in your work?",
+  "jp": "あなたの仕事で「もろ刃の剣」は?",
+  "hl": [
+   "a double-edged sword"
+  ],
+  "say": "最後に宿題です。あなたの仕事で、もろ刃の剣になっているものは何ですか。英語で、コメント欄に書いてみてください。"
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "beats": [
+    {
+     "id": "h01",
+     "kind": "jp",
+     "jp": "世界のウェブサイトのおよそ7割が使うプログラミング言語、PHPに、重大な欠陥が見つかりました。",
+     "en": "Critical flaws were found in PHP, which runs about 70% of websites.",
+     "vis": {
+      "t": "hero",
+      "kicker": "security alert",
+      "big": "70%",
+      "color": "red",
+      "sub": "のサイトが使うPHPに重大な欠陥",
+      "sub_color": "gold"
+     },
+     "hl": [
+      "Critical flaws"
+     ]
+    },
+    {
+     "id": "h02",
+     "kind": "jp",
+     "jp": "しかも、その欠陥を見つけたのは、AIでした。",
+     "en": "And the flaws were found with the help of AI.",
+     "vis": {
+      "t": "hero_side",
+      "big": "AI",
+      "color": "gold",
+      "text": "found by AI",
+      "jp": "見つけたのはAI"
+     },
+     "hl": [
+      "AI"
+     ]
+    },
+    {
+     "id": "h03",
+     "kind": "jp",
+     "jp": "今日はこのニュースから、会議で使える英語を3つ。最後に答え合わせをします。",
+     "en": "Three phrases for your next meeting. Answers at the end.",
+     "vis": {
+      "t": "teaser"
+     }
+    }
+   ]
+  },
+  {
+   "id": "what",
+   "chapter": "何が起きたか",
+   "beats": [
+    {
+     "id": "p01",
+     "kind": "jp",
+     "jp": "アメリカの国家安全保障局、NSAは10月21日、PHPの2つの重大な欠陥について、異例の警告を出しました。",
+     "en": "On October 21, the NSA issued a rare warning about two critical PHP flaws.",
+     "vis": {
+      "t": "counter",
+      "kicker": "NSA WARNING",
+      "big": "2件",
+      "color": "red",
+      "sub": "PHPの重大な欠陥",
+      "note": "2026年10月21日 米国家安全保障局"
+     },
+     "hl": [
+      "rare warning"
+     ]
+    },
+    {
+     "id": "p02",
+     "kind": "jp",
+     "jp": "欠陥は、2004年に公開されたPHP 5から、すべてのバージョンに潜んでいました。約20年、誰も気づかなかったのです。",
+     "en": "The flaws had been in every version since PHP 5, released in 2004.",
+     "vis": {
+      "t": "timeline",
+      "items": [
+       {
+        "when": "2004年",
+        "text": "PHP 5 公開。欠陥はこの頃から存在",
+        "color": "red"
+       },
+       {
+        "when": "8月11日",
+        "text": "Calif(OpenAIと協力)が1件目を報告",
+        "color": "gold"
+       },
+       {
+        "when": "8月24日",
+        "text": "Wiz(グーグル傘下)が2件目を報告",
+        "color": "gold"
+       },
+       {
+        "when": "10月21日",
+        "text": "米NSAが異例の警告。修正版も公開",
+        "color": "green"
+       }
+      ],
+      "show": 1
+     }
+    },
+    {
+     "id": "p03",
+     "kind": "jp",
+     "jp": "見つけたのは、OpenAIと協力するセキュリティ企業カリフと、グーグル傘下のウィズ。どちらもAIを使っていました。",
+     "en": "Calif, working with OpenAI, and Google-owned Wiz found them using AI.",
+     "vis": {
+      "t": "timeline",
+      "items": [
+       {
+        "when": "2004年",
+        "text": "PHP 5 公開。欠陥はこの頃から存在",
+        "color": "red"
+       },
+       {
+        "when": "8月11日",
+        "text": "Calif(OpenAIと協力)が1件目を報告",
+        "color": "gold"
+       },
+       {
+        "when": "8月24日",
+        "text": "Wiz(グーグル傘下)が2件目を報告",
+        "color": "gold"
+       },
+       {
+        "when": "10月21日",
+        "text": "米NSAが異例の警告。修正版も公開",
+        "color": "green"
+       }
+      ],
+      "show": 4
+     }
+    },
+    {
+     "id": "p04",
+     "kind": "jp",
+     "jp": "NSAの呼びかけは、すぐに修正できないなら、修正できるまでサイトを止めること、でした。",
+     "en": "Its advice: if you can't patch now, take the site offline until you can.",
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "If you can't patch it now,",
+       "take the site offline."
+      ],
+      "hl": [
+       "take the site offline"
+      ],
+      "by": "米国家安全保障局(NSA)の呼びかけの要旨(TechCrunchの報道より)"
+     },
+     "hl": [
+      "take the site offline"
+     ],
+     "star": true
+    },
+    {
+     "id": "p05",
+     "kind": "en_insert",
+     "en": "Take the site offline until you can patch it.",
+     "jp": "修正できるまで、サイトを止めてください",
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "If you can't patch it now,",
+       "take the site offline."
+      ],
+      "hl": [
+       "take the site offline"
+      ],
+      "by": "米国家安全保障局(NSA)の呼びかけの要旨(TechCrunchの報道より)"
+     },
+     "star": true,
+     "hl": [
+      "take the site offline"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "world",
+   "chapter": "世界の反応",
+   "beats": [
+    {
+     "id": "q01",
+     "kind": "jp",
+     "jp": "各国も動きました。ドイツやフランスは、予防措置として、政府の一部のサイトを止めました。",
+     "en": "Germany and France took some government sites offline as a precaution.",
+     "vis": {
+      "t": "cards",
+      "footer": "各国が予防的に対応",
+      "items": [
+       {
+        "name": "ドイツ",
+        "big": "一部停止",
+        "sub": "デジタル省のサイト",
+        "note": "予防措置として",
+        "color": "red"
+       },
+       {
+        "name": "フランス",
+        "big": "停止",
+        "sub": "地方行政機関のサイト",
+        "note": "内務省",
+        "color": "red"
+       },
+       {
+        "name": "日本",
+        "big": "注意喚起",
+        "sub": "高市首相がSNSで",
+        "note": "",
+        "color": "gold"
+       }
+      ],
+      "show": 2
+     },
+     "hl": [
+      "as a precaution"
+     ],
+     "star": true
+    },
+    {
+     "id": "q02",
+     "kind": "en_insert",
+     "en": "as a precaution",
+     "jp": "予防措置として",
+     "vis": {
+      "t": "cards",
+      "footer": "各国が予防的に対応",
+      "items": [
+       {
+        "name": "ドイツ",
+        "big": "一部停止",
+        "sub": "デジタル省のサイト",
+        "note": "予防措置として",
+        "color": "red"
+       },
+       {
+        "name": "フランス",
+        "big": "停止",
+        "sub": "地方行政機関のサイト",
+        "note": "内務省",
+        "color": "red"
+       },
+       {
+        "name": "日本",
+        "big": "注意喚起",
+        "sub": "高市首相がSNSで",
+        "note": "",
+        "color": "gold"
+       }
+      ],
+      "show": 2
+     },
+     "star": true,
+     "hl": [
+      "as a precaution"
+     ]
+    },
+    {
+     "id": "q03",
+     "kind": "jp",
+     "jp": "日本でも、高市首相がSNSで注意を呼びかけました。",
+     "en": "In Japan, Prime Minister Takaichi posted a warning on social media.",
+     "vis": {
+      "t": "cards",
+      "footer": "各国が予防的に対応",
+      "items": [
+       {
+        "name": "ドイツ",
+        "big": "一部停止",
+        "sub": "デジタル省のサイト",
+        "note": "予防措置として",
+        "color": "red"
+       },
+       {
+        "name": "フランス",
+        "big": "停止",
+        "sub": "地方行政機関のサイト",
+        "note": "内務省",
+        "color": "red"
+       },
+       {
+        "name": "日本",
+        "big": "注意喚起",
+        "sub": "高市首相がSNSで",
+        "note": "",
+        "color": "gold"
+       }
+      ],
+      "show": 3
+     }
+    },
+    {
+     "id": "q04",
+     "kind": "jp",
+     "jp": "幸い、研究者が先に見つけたため、今のところ悪用されたという報告はありません。",
+     "en": "Researchers found them first, and there are no reports of attacks so far.",
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "守る側がAIで欠陥を発見",
+        "mid": "AI",
+        "res": "先に修正できる",
+        "ok": true
+       },
+       {
+        "a": "攻める側がAIを使う",
+        "mid": "AI",
+        "res": "攻撃の準備が速くなる",
+        "ok": false
+       }
+      ]
+     }
+    },
+    {
+     "id": "q05",
+     "kind": "jp",
+     "jp": "ただし、ウィズは、AIを使えば攻撃の準備も簡単になると警告しています。AIは、守る側にも攻める側にも使える、もろ刃の剣なのです。",
+     "en": "But Wiz warns AI makes attacks easier, too. AI is a double-edged sword.",
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "守る側がAIで欠陥を発見",
+        "mid": "AI",
+        "res": "先に修正できる",
+        "ok": true
+       },
+       {
+        "a": "攻める側がAIを使う",
+        "mid": "AI",
+        "res": "攻撃の準備が速くなる",
+        "ok": false
+       }
+      ]
+     },
+     "hl": [
+      "a double-edged sword"
+     ],
+     "star": true
+    },
+    {
+     "id": "q06",
+     "kind": "en_insert",
+     "en": "AI is a double-edged sword.",
+     "jp": "AIはもろ刃の剣だ",
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "守る側がAIで欠陥を発見",
+        "mid": "AI",
+        "res": "先に修正できる",
+        "ok": true
+       },
+       {
+        "a": "攻める側がAIを使う",
+        "mid": "AI",
+        "res": "攻撃の準備が速くなる",
+        "ok": false
+       }
+      ]
+     },
+     "star": true,
+     "hl": [
+      "a double-edged sword"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "meaning",
+   "chapter": "私たちへの意味",
+   "beats": [
+    {
+     "id": "m01",
+     "kind": "jp",
+     "jp": "では、私たちの会社にとって、どんな意味があるでしょうか。",
+     "en": "What does this mean for our companies?",
+     "vis": {
+      "t": "statement",
+      "kicker": "SO WHAT?",
+      "text": "あなたの会社のサイト、大丈夫ですか?"
+     }
+    },
+    {
+     "id": "m02",
+     "kind": "jp",
+     "jp": "まずは、自社や取引先のサイトが、古いPHPのまま動いていないか確認することです。8.1以前のバージョンは、すでにサポートが終わっています。",
+     "en": "First, check your sites and vendors. PHP 8.1 and older are no longer supported.",
+     "vis": {
+      "t": "points",
+      "items": [
+       {
+        "head": "まず確認",
+        "big": "PHPの\nバージョン",
+        "sub": "8.1以前はサポート終了\n委託先にも確認を",
+        "color": "red"
+       },
+       {
+        "head": "逆の見方",
+        "big": "AIは\n守りにも効く",
+        "sub": "今回は守る側が\n先に見つけた",
+        "color": "blue"
+       },
+       {
+        "head": "英語の出番",
+        "big": "警告は\n英語で出る",
+        "sub": "一次情報を速く読む\nことが対応力になる",
+        "color": "green"
+       }
+      ],
+      "show": 1
+     }
+    },
+    {
+     "id": "m03",
+     "kind": "jp",
+     "jp": "一方で、今回は守る側がAIを使い、攻撃者より先に穴を見つけました。AIは脅威であると同時に、強い味方にもなります。",
+     "en": "This time, defenders used AI to find the holes first. AI can be an ally, too.",
+     "vis": {
+      "t": "points",
+      "items": [
+       {
+        "head": "まず確認",
+        "big": "PHPの\nバージョン",
+        "sub": "8.1以前はサポート終了\n委託先にも確認を",
+        "color": "red"
+       },
+       {
+        "head": "逆の見方",
+        "big": "AIは\n守りにも効く",
+        "sub": "今回は守る側が\n先に見つけた",
+        "color": "blue"
+       },
+       {
+        "head": "英語の出番",
+        "big": "警告は\n英語で出る",
+        "sub": "一次情報を速く読む\nことが対応力になる",
+        "color": "green"
+       }
+      ],
+      "show": 2
+     }
+    },
+    {
+     "id": "m04",
+     "kind": "jp",
+     "jp": "そして、こうした警告は、まず英語で出ます。英語の一次情報を速く読めるかどうかが、対応の速さを左右します。",
+     "en": "Warnings like this come out in English first. Reading them fast matters.",
+     "vis": {
+      "t": "points",
+      "items": [
+       {
+        "head": "まず確認",
+        "big": "PHPの\nバージョン",
+        "sub": "8.1以前はサポート終了\n委託先にも確認を",
+        "color": "red"
+       },
+       {
+        "head": "逆の見方",
+        "big": "AIは\n守りにも効く",
+        "sub": "今回は守る側が\n先に見つけた",
+        "color": "blue"
+       },
+       {
+        "head": "英語の出番",
+        "big": "警告は\n英語で出る",
+        "sub": "一次情報を速く読む\nことが対応力になる",
+        "color": "green"
+       }
+      ],
+      "show": 3
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "AIが20年前の欠陥を発見。世界のサイトの7割が使うPHPに警告【ニュースで学ぶビジネス英語 #02】",
+  "summary": "米国家安全保障局(NSA)は2026年10月21日、世界のウェブサイトの約7割が使うPHPで見つかった2つの重大な欠陥について、異例の警告を出しました。欠陥は2004年から存在し、見つけたのはAIを使うセキュリティ企業でした。このニュースを解説し、会議で使える英語を学びます。",
+  "tags": [
+   "PHP",
+   "脆弱性",
+   "NSA",
+   "サイバーセキュリティ",
+   "AI",
+   "ビジネス英語",
+   "英語学習",
+   "ニュース英語",
+   "時事英語",
+   "会議 英語",
+   "教養",
+   "社会人 英語",
+   "business English"
+  ]
+ },
+ "thumbnail": {
+  "big": "70%",
+  "big_color": "red",
+  "under": "のサイトに警告",
+  "badge": "見つけたのはAI",
+  "badge_color": "gold",
+  "question": "20年前の欠陥",
+  "pill": "take it offline",
+  "bottom": "会議で使える英語3つ"
+ },
+ "shorts": [
+  {
+   "phrase": 0,
+   "hook": [
+    "「サイトを止める」",
+    "英語で言える?"
+   ],
+   "news_hook": [
+    "AIが20年前の欠陥を発見",
+    "PHPに異例の警告"
+   ],
+   "ctx": "米NSAが世界のサイト運営者に呼びかけた言葉",
+   "title": "「サイトを止める」は英語で?AIが見つけた欠陥にNSAが異例の警告 #ビジネス英語 #shorts",
+   "ig_caption": "「サイトを止める」を英語で言えますか?\n\n✅ take the site offline\nサイトを停止する\n\n例文:Let's take the site offline until the patch is applied.\n(修正が適用されるまで、サイトを停止しましょう。)\n\n米NSAが、PHPの重大な欠陥について出した呼びかけの要旨です。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  }
+ ],
+ "sources": [
+  {
+   "title": "TechCrunch「PHP Armageddon: OpenAI, Google's Wiz find ancient holes」(2026年10月21日)",
+   "url": "https://techcrunch.com/2026/10/21/php-armageddon-openai-googles-wiz-find-ancient-holes-panicking-the-internet/"
+  },
+  {
+   "title": "Al Jazeera「World leaders warn of security flaws found in PHP programming language」(2026年10月22日)",
+   "url": "https://www.aljazeera.com/news/2026/10/22/world-leaders-warn-against-security-flaw-found-in-php-computer-programming"
+  }
+ ],
+ "publish": {
+  "long": "2026-10-25T17:00:00+09:00",
+  "shorts": [
+   "2026-10-25T17:00:00+09:00"
+  ]
+ }
+}

@@ -1,0 +1,461 @@
+{
+ "id": "2026-10-25-volvo-cars-guidance",
+ "episode": "#11",
+ "date": "2026-10-02",
+ "series": "決算と数字の英語",
+ "title_card": {
+  "line1": "ボルボが業績見通しを取り下げ。",
+  "line2": "中国で販売41%減、何が起きている?"
+ },
+ "readings": [
+  [
+   "EV",
+   "イーブイ"
+  ]
+ ],
+ "phrases": [
+  {
+   "en": "pull guidance",
+   "jp": "業績見通しを取り下げる",
+   "ex": "If the market keeps falling, we may have to pull guidance.",
+   "ex_jp": "市場の落ち込みが続けば、業績見通しを取り下げることになるかもしれません。"
+  },
+  {
+   "en": "shows no signs of easing",
+   "jp": "和らぐ気配がない",
+   "ex": "Price competition shows no signs of easing this quarter.",
+   "ex_jp": "今期も、価格競争が和らぐ気配はありません。"
+  },
+  {
+   "en": "partly expected",
+   "jp": "ある程度予想されていた",
+   "ex": "The delay was partly expected, given the supplier issues.",
+   "ex_jp": "取引先の問題を考えると、遅れはある程度予想されていました。"
+  }
+ ],
+ "words": [
+  {
+   "en": "deliveries",
+   "jp": "販売台数(納車台数)"
+  },
+  {
+   "en": "free cash flow",
+   "jp": "フリーキャッシュフロー"
+  },
+  {
+   "en": "price war",
+   "jp": "値下げ競争"
+  }
+ ],
+ "homework": {
+  "en": "What problem at work shows no signs of easing?",
+  "jp": "和らぐ気配のない仕事の課題は?",
+  "hl": [
+   "shows no signs of easing"
+  ],
+  "say": "最後に宿題です。あなたの仕事で、和らぐ気配のない課題は何ですか。英語で、コメント欄に書いてみてください。"
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "beats": [
+    {
+     "id": "h01",
+     "kind": "jp",
+     "jp": "スウェーデンの自動車メーカー、ボルボ・カーズの、中国での販売台数が、4割以上も減りました。",
+     "en": "Volvo Cars' sales in China fell by more than 40%.",
+     "vis": {
+      "t": "hero",
+      "kicker": "china sales",
+      "big": "−41%",
+      "color": "red",
+      "crack": true,
+      "sub": "ボルボ・カーズの中国販売",
+      "sub_color": "gold"
+     },
+     "hl": [
+      "fell"
+     ]
+    },
+    {
+     "id": "h02",
+     "kind": "jp",
+     "jp": "会社は、今年の業績の見通しを取り下げました。",
+     "en": "The company pulled its guidance for the year.",
+     "vis": {
+      "t": "hero_side",
+      "big": "−41%",
+      "color": "red",
+      "text": "pull guidance",
+      "jp": "見通しを取り下げる"
+     },
+     "hl": [
+      "pulled its guidance"
+     ]
+    },
+    {
+     "id": "h03",
+     "kind": "jp",
+     "jp": "今日はこのニュースから、会議で使える英語を3つ。最後に答え合わせをします。",
+     "en": "Three phrases for your next meeting. Answers at the end.",
+     "vis": {
+      "t": "teaser"
+     }
+    }
+   ]
+  },
+  {
+   "id": "what",
+   "chapter": "何が起きたか",
+   "beats": [
+    {
+     "id": "p01",
+     "kind": "jp",
+     "jp": "ボルボ・カーズが10月2日に発表した、7月から9月の販売台数は14万1609台。去年より11%減りました。",
+     "en": "Volvo Cars sold 141,609 cars in the third quarter, down 11%.",
+     "vis": {
+      "t": "bars",
+      "title": "ボルボ・カーズの7〜9月の販売台数(前年比)",
+      "unit": "%",
+      "items": [
+       {
+        "label": "世界全体",
+        "value": -11,
+        "display": "−11%(141,609台)",
+        "color": "gold"
+       }
+      ]
+     }
+    },
+    {
+     "id": "p02",
+     "kind": "jp",
+     "jp": "とくに中国は41%減と、大きく落ち込みました。アメリカも14%減です。一方で、ヨーロッパなどは2%増えています。",
+     "en": "China fell 41% and the U.S. 14%, while Europe and other markets rose 2%.",
+     "vis": {
+      "t": "bars",
+      "title": "ボルボ・カーズの7〜9月の販売台数(前年比)",
+      "unit": "%",
+      "items": [
+       {
+        "label": "中国",
+        "value": -41,
+        "display": "−41%(約2万台)",
+        "color": "red"
+       },
+       {
+        "label": "米国",
+        "value": -14,
+        "display": "−14%(30,777台)",
+        "color": "red"
+       },
+       {
+        "label": "欧州など",
+        "value": 2,
+        "display": "+2%(90,548台)",
+        "color": "green"
+       },
+       {
+        "label": "世界全体",
+        "value": -11,
+        "display": "−11%(141,609台)",
+        "color": "gold"
+       }
+      ]
+     }
+    },
+    {
+     "id": "p03",
+     "kind": "jp",
+     "jp": "会社は、今年の販売台数と、手元に残るお金の見通しを取り下げ、新しい見通しも示しませんでした。業績見通しを取り下げる、という表現です。",
+     "en": "Volvo withdrew its sales and cash flow guidance and gave no new numbers.",
+     "vis": {
+      "t": "statement",
+      "kicker": "GUIDANCE PULLED",
+      "text": "今年の販売台数とキャッシュフローの見通しを取り下げ",
+      "sub": "新しい見通しは示さず"
+     },
+     "hl": [
+      "guidance"
+     ],
+     "star": true
+    },
+    {
+     "id": "p04",
+     "kind": "en_insert",
+     "en": "Volvo pulled its guidance.",
+     "jp": "ボルボは業績見通しを取り下げた",
+     "vis": {
+      "t": "statement",
+      "kicker": "GUIDANCE PULLED",
+      "text": "今年の販売台数とキャッシュフローの見通しを取り下げ",
+      "sub": "新しい見通しは示さず"
+     },
+     "star": true,
+     "hl": [
+      "pulled its guidance"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "why",
+   "chapter": "なぜ落ち込んだか",
+   "beats": [
+    {
+     "id": "q01",
+     "kind": "jp",
+     "jp": "中国では、国内の値下げ競争と景気の弱さが続いています。会社は、中国の落ち込みが和らぐ気配はない、と説明しました。",
+     "en": "In China, price wars and a weak economy continue. The downturn shows no signs of easing.",
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "中国の値下げ競争",
+        "mid": "販売",
+        "res": "中国で41%減",
+        "ok": false
+       },
+       {
+        "a": "米国の高級車の回復が遅い",
+        "mid": "販売",
+        "res": "米国で14%減",
+        "ok": false
+       }
+      ]
+     },
+     "hl": [
+      "shows no signs of easing"
+     ],
+     "star": true
+    },
+    {
+     "id": "q02",
+     "kind": "en_insert",
+     "en": "The downturn shows no signs of easing.",
+     "jp": "落ち込みは和らぐ気配がない",
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "中国の値下げ競争",
+        "mid": "販売",
+        "res": "中国で41%減",
+        "ok": false
+       },
+       {
+        "a": "米国の高級車の回復が遅い",
+        "mid": "販売",
+        "res": "米国で14%減",
+        "ok": false
+       }
+      ]
+     },
+     "star": true,
+     "hl": [
+      "shows no signs of easing"
+     ]
+    },
+    {
+     "id": "q03",
+     "kind": "jp",
+     "jp": "スウェーデンの銀行、ハンデルスバンケンのアナリストは、厳しい市場を考えると、見通しの取り下げはある程度予想されていた、と話しています。",
+     "en": "A Handelsbanken analyst said the cut was partly expected.",
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "The guidance cut was",
+       "partly expected."
+      ],
+      "hl": [
+       "partly expected"
+      ],
+      "by": "ハンデルスバンケンのアナリストの発言の要旨(報道より)"
+     },
+     "hl": [
+      "partly expected"
+     ],
+     "star": true
+    },
+    {
+     "id": "q04",
+     "kind": "en_insert",
+     "en": "It was partly expected.",
+     "jp": "ある程度予想されていた",
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "The guidance cut was",
+       "partly expected."
+      ],
+      "hl": [
+       "partly expected"
+      ],
+      "by": "ハンデルスバンケンのアナリストの発言の要旨(報道より)"
+     },
+     "star": true,
+     "hl": [
+      "partly expected"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "meaning",
+   "chapter": "私たちへの意味",
+   "beats": [
+    {
+     "id": "m01",
+     "kind": "jp",
+     "jp": "中国の自動車市場は、地元メーカーとの値下げ競争で、海外のメーカーにとって厳しい場所になっています。",
+     "en": "China has become a tough market for foreign carmakers.",
+     "vis": {
+      "t": "points",
+      "show": 1,
+      "items": [
+       {
+        "head": "読み取れること",
+        "big": "中国の値下げ\n競争が厳しい",
+        "sub": "海外勢にとって\n苦しい市場に",
+        "color": "red"
+       },
+       {
+        "head": "逆の見方",
+        "big": "欧州は\n増加",
+        "sub": "欧州などは\n2%増の90,548台",
+        "color": "green"
+       },
+       {
+        "head": "日本の現場",
+        "big": "日本の\n自動車にも",
+        "sub": "中国・米国の動きは\n他人事ではない",
+        "color": "gold"
+       }
+      ]
+     }
+    },
+    {
+     "id": "m02",
+     "kind": "jp",
+     "jp": "一方で、ヨーロッパなどの販売は2%増えました。悪い話ばかりではありません。",
+     "en": "But sales in Europe and other markets rose 2%.",
+     "vis": {
+      "t": "points",
+      "show": 2,
+      "items": [
+       {
+        "head": "読み取れること",
+        "big": "中国の値下げ\n競争が厳しい",
+        "sub": "海外勢にとって\n苦しい市場に",
+        "color": "red"
+       },
+       {
+        "head": "逆の見方",
+        "big": "欧州は\n増加",
+        "sub": "欧州などは\n2%増の90,548台",
+        "color": "green"
+       },
+       {
+        "head": "日本の現場",
+        "big": "日本の\n自動車にも",
+        "sub": "中国・米国の動きは\n他人事ではない",
+        "color": "gold"
+       }
+      ]
+     }
+    },
+    {
+     "id": "m03",
+     "kind": "jp",
+     "jp": "中国とアメリカの市場の変化は、日本の自動車メーカーや部品メーカーにとっても他人事ではありません。英語の決算発表から、変化を早くつかみましょう。",
+     "en": "These shifts matter for Japanese carmakers and suppliers, too.",
+     "vis": {
+      "t": "points",
+      "show": 3,
+      "items": [
+       {
+        "head": "読み取れること",
+        "big": "中国の値下げ\n競争が厳しい",
+        "sub": "海外勢にとって\n苦しい市場に",
+        "color": "red"
+       },
+       {
+        "head": "逆の見方",
+        "big": "欧州は\n増加",
+        "sub": "欧州などは\n2%増の90,548台",
+        "color": "green"
+       },
+       {
+        "head": "日本の現場",
+        "big": "日本の\n自動車にも",
+        "sub": "中国・米国の動きは\n他人事ではない",
+        "color": "gold"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "ボルボが業績見通しを取り下げ。中国で販売41%減【ニュースで学ぶビジネス英語 #11】",
+  "summary": "ボルボ・カーズは2026年10月2日、7〜9月の販売台数が前年比11%減の14万1609台だったと発表しました。中国は41%減、米国は14%減で、年間の販売台数とキャッシュフローの見通しを取り下げました。このニュースから、業績の会話で使える英語を学びます。",
+  "tags": [
+   "ボルボ",
+   "Volvo",
+   "自動車",
+   "中国市場",
+   "業績見通し",
+   "ビジネス英語",
+   "英語学習",
+   "ニュース英語",
+   "時事英語",
+   "会議 英語",
+   "教養",
+   "社会人 英語",
+   "business English"
+  ]
+ },
+ "thumbnail": {
+  "big": "−41%",
+  "big_color": "red",
+  "under": "中国で販売減",
+  "badge": "ボルボ・カーズ",
+  "badge_color": "gold",
+  "question": "見通しを撤回",
+  "pill": "pull guidance",
+  "bottom": "会議で使える英語3つ"
+ },
+ "shorts": [
+  {
+   "phrase": 0,
+   "hook": [
+    "「業績見通しを取り下げる」",
+    "英語で言える?"
+   ],
+   "news_hook": [
+    "ボルボの中国販売が41%減",
+    "見通しを取り下げ"
+   ],
+   "ctx": "ボルボ・カーズが10月に発表した内容",
+   "title": "「業績見通しを取り下げる」は英語で?ボルボの中国販売41%減 #ビジネス英語 #shorts",
+   "ig_caption": "「業績見通しを取り下げる」を英語で言えますか?\n\n✅ pull guidance\n業績見通しを取り下げる\n\n例文:If the market keeps falling, we may have to pull guidance.\n(市場の落ち込みが続けば、業績見通しを取り下げることになるかもしれません。)\n\nボルボ・カーズが、中国での販売の落ち込みを受けて取った対応です。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  }
+ ],
+ "sources": [
+  {
+   "title": "TimesLIVE(Reuters)「Volvo Cars pulls sales guidance on Chinese outlook and slow US rebound」(2026年10月2日)",
+   "url": "https://www.timeslive.co.za/motoring/2026-10-02-volvo-cars-pulls-sales-guidance-on-chinese-outlook-and-slow-us-rebound/"
+  },
+  {
+   "title": "Parameter「Volvo Cars scraps annual forecast after 41% China sales collapse」(2026年10月2日)",
+   "url": "https://parameter.io/volvo-cars-scraps-annual-forecast-after-41-china-sales-collapse-drags-q3-results/"
+  }
+ ],
+ "publish": {
+  "long": "2026-10-25T17:00:00+09:00",
+  "shorts": [
+   "2026-10-25T17:00:00+09:00"
+  ]
+ }
+}

@@ -1,0 +1,558 @@
+{
+ "id": "2026-10-25-moderna-data-leak",
+ "episode": "#10",
+ "date": "2026-10-22",
+ "series": "決算と数字の英語",
+ "title_card": {
+  "line1": "良い結果なのに株価が急落。",
+  "line2": "モデルナに起きた「織り込み済み」"
+ },
+ "readings": [
+  [
+   "mRNA",
+   "エムアールエヌエー"
+  ]
+ ],
+ "phrases": [
+  {
+   "en": "exceed expectations",
+   "jp": "期待を上回る",
+   "ex": "The pilot results will exceed expectations if we keep this pace.",
+   "ex_jp": "このペースなら、試験導入の結果は期待を上回るでしょう。"
+  },
+  {
+   "en": "priced in",
+   "jp": "織り込み済みの",
+   "ex": "The price increase was already priced in to our forecast.",
+   "ex_jp": "値上げは、すでに私たちの予測に織り込み済みでした。"
+  },
+  {
+   "en": "ahead of the announcement",
+   "jp": "発表の前に",
+   "ex": "Please don't share the numbers ahead of the announcement.",
+   "ex_jp": "発表の前に、数字を共有しないでください。"
+  }
+ ],
+ "words": [
+  {
+   "en": "clinical trial",
+   "jp": "臨床試験"
+  },
+  {
+   "en": "downgrade",
+   "jp": "格下げ"
+  },
+  {
+   "en": "valuation",
+   "jp": "企業価値の評価"
+  }
+ ],
+ "homework": {
+  "en": "When did your results exceed expectations?",
+  "jp": "結果が期待を上回ったのはどんなとき?",
+  "hl": [
+   "exceed expectations"
+  ],
+  "say": "最後に宿題です。あなたの仕事で、結果が期待を上回ったのはどんなときですか。英語で、コメント欄に書いてみてください。"
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "beats": [
+    {
+     "id": "h01",
+     "kind": "jp",
+     "jp": "がんワクチンの臨床試験で、良い結果が出たのに、製薬会社モデルナの株価が、大きく下がりました。",
+     "en": "Moderna's cancer vaccine trial had good results, yet its shares fell sharply.",
+     "vis": {
+      "t": "hero",
+      "kicker": "stock plunge",
+      "big": "−17.6%",
+      "color": "red",
+      "crack": true,
+      "sub": "良い結果なのに株価が急落",
+      "sub_color": "gold"
+     },
+     "hl": [
+      "fell sharply"
+     ]
+    },
+    {
+     "id": "h02",
+     "kind": "jp",
+     "jp": "市場は、良いニュースをすでに織り込んでいたのです。",
+     "en": "The good news was already priced in.",
+     "vis": {
+      "t": "hero_side",
+      "big": "−17.6%",
+      "color": "red",
+      "text": "priced in",
+      "jp": "織り込み済み"
+     },
+     "hl": [
+      "priced in"
+     ]
+    },
+    {
+     "id": "h03",
+     "kind": "jp",
+     "jp": "今日はこのニュースから、会議で使える英語を3つ。最後に答え合わせをします。",
+     "en": "Three phrases for your next meeting. Answers at the end.",
+     "vis": {
+      "t": "teaser"
+     }
+    }
+   ]
+  },
+  {
+   "id": "what",
+   "chapter": "何が起きたか",
+   "beats": [
+    {
+     "id": "p01",
+     "kind": "jp",
+     "jp": "モデルナは、メルクと一緒に、皮膚がんの一種、メラノーマ向けの個別化がんワクチンを開発しています。",
+     "en": "Moderna and Merck are developing a personalized vaccine for melanoma.",
+     "vis": {
+      "t": "cards",
+      "footer": "共同開発する2社",
+      "items": [
+       {
+        "name": "Moderna",
+        "big": "ワクチン",
+        "sub": "mRNAの個別化ワクチン",
+        "color": "blue"
+       },
+       {
+        "name": "Merck",
+        "big": "併用薬",
+        "sub": "がん治療薬キイトルーダ",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "p02",
+     "kind": "jp",
+     "jp": "最終段階の臨床試験のデータが、10月24日の学会での発表の前に、医療ニュースのサイトに載ってしまいました。発表の前に、データが流出したのです。",
+     "en": "Late-stage trial data appeared on a medical news site ahead of the announcement.",
+     "vis": {
+      "t": "timeline",
+      "items": [
+       {
+        "when": "8月18日〜",
+        "text": "株価が10月21日までに約290%上昇",
+        "color": "green"
+       },
+       {
+        "when": "9月30日",
+        "text": "シティが株価は「正当化できない」と格下げ",
+        "color": "muted"
+       },
+       {
+        "when": "10月22日",
+        "text": "学会発表の前にデータが流出。株価が急落",
+        "color": "red"
+       },
+       {
+        "when": "10月24日",
+        "text": "マドリードの学会で詳しい結果を発表予定",
+        "color": "blue"
+       }
+      ],
+      "show": 3
+     },
+     "hl": [
+      "ahead of the announcement"
+     ],
+     "star": true
+    },
+    {
+     "id": "p03",
+     "kind": "en_insert",
+     "en": "The data leaked ahead of the announcement.",
+     "jp": "発表の前にデータが流出した",
+     "vis": {
+      "t": "timeline",
+      "items": [
+       {
+        "when": "8月18日〜",
+        "text": "株価が10月21日までに約290%上昇",
+        "color": "green"
+       },
+       {
+        "when": "9月30日",
+        "text": "シティが株価は「正当化できない」と格下げ",
+        "color": "muted"
+       },
+       {
+        "when": "10月22日",
+        "text": "学会発表の前にデータが流出。株価が急落",
+        "color": "red"
+       },
+       {
+        "when": "10月24日",
+        "text": "マドリードの学会で詳しい結果を発表予定",
+        "color": "blue"
+       }
+      ],
+      "show": 3
+     },
+     "star": true,
+     "hl": [
+      "ahead of the announcement"
+     ]
+    },
+    {
+     "id": "p04",
+     "kind": "jp",
+     "jp": "結果は、がんの再発を防ぐ効果について、投資家の期待を上回るものでした。",
+     "en": "The results on preventing relapse exceeded investor expectations.",
+     "vis": {
+      "t": "timeline",
+      "items": [
+       {
+        "when": "8月18日〜",
+        "text": "株価が10月21日までに約290%上昇",
+        "color": "green"
+       },
+       {
+        "when": "9月30日",
+        "text": "シティが株価は「正当化できない」と格下げ",
+        "color": "muted"
+       },
+       {
+        "when": "10月22日",
+        "text": "学会発表の前にデータが流出。株価が急落",
+        "color": "red"
+       },
+       {
+        "when": "10月24日",
+        "text": "マドリードの学会で詳しい結果を発表予定",
+        "color": "blue"
+       }
+      ],
+      "show": 3
+     },
+     "hl": [
+      "exceeded investor expectations"
+     ],
+     "star": true
+    },
+    {
+     "id": "p05",
+     "kind": "en_insert",
+     "en": "The results exceeded expectations.",
+     "jp": "結果は期待を上回った",
+     "vis": {
+      "t": "timeline",
+      "items": [
+       {
+        "when": "8月18日〜",
+        "text": "株価が10月21日までに約290%上昇",
+        "color": "green"
+       },
+       {
+        "when": "9月30日",
+        "text": "シティが株価は「正当化できない」と格下げ",
+        "color": "muted"
+       },
+       {
+        "when": "10月22日",
+        "text": "学会発表の前にデータが流出。株価が急落",
+        "color": "red"
+       },
+       {
+        "when": "10月24日",
+        "text": "マドリードの学会で詳しい結果を発表予定",
+        "color": "blue"
+       }
+      ],
+      "show": 3
+     },
+     "star": true,
+     "hl": [
+      "exceeded expectations"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "why",
+   "chapter": "なぜ下がったのか",
+   "beats": [
+    {
+     "id": "q01",
+     "kind": "jp",
+     "jp": "それでも、モデルナの株価は、この日17.6%下がりました。取引の途中では、2割以上下がる場面もありました。",
+     "en": "Still, Moderna's shares closed down 17.6%, after falling over 20% during the day.",
+     "vis": {
+      "t": "bars",
+      "title": "10月22日のモデルナの株価の動き(%)",
+      "unit": "%",
+      "items": [
+       {
+        "label": "取引中の最大下落",
+        "value": 25,
+        "display": "約−25%",
+        "color": "red"
+       },
+       {
+        "label": "終値",
+        "value": 17.6,
+        "display": "−17.6%",
+        "color": "red"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q02",
+     "kind": "jp",
+     "jp": "理由は、8月18日から10月21日までに、株価がすでにおよそ290%も上がっていたことです。良い結果は、株価に織り込み済みでした。",
+     "en": "Shares had already risen about 290% since August 18. The good news was priced in.",
+     "vis": {
+      "t": "timeline",
+      "items": [
+       {
+        "when": "8月18日〜",
+        "text": "株価が10月21日までに約290%上昇",
+        "color": "green"
+       },
+       {
+        "when": "9月30日",
+        "text": "シティが株価は「正当化できない」と格下げ",
+        "color": "muted"
+       },
+       {
+        "when": "10月22日",
+        "text": "学会発表の前にデータが流出。株価が急落",
+        "color": "red"
+       },
+       {
+        "when": "10月24日",
+        "text": "マドリードの学会で詳しい結果を発表予定",
+        "color": "blue"
+       }
+      ],
+      "show": 2
+     },
+     "hl": [
+      "priced in"
+     ],
+     "star": true
+    },
+    {
+     "id": "q03",
+     "kind": "en_insert",
+     "en": "It was already priced in.",
+     "jp": "すでに織り込み済みだった",
+     "vis": {
+      "t": "timeline",
+      "items": [
+       {
+        "when": "8月18日〜",
+        "text": "株価が10月21日までに約290%上昇",
+        "color": "green"
+       },
+       {
+        "when": "9月30日",
+        "text": "シティが株価は「正当化できない」と格下げ",
+        "color": "muted"
+       },
+       {
+        "when": "10月22日",
+        "text": "学会発表の前にデータが流出。株価が急落",
+        "color": "red"
+       },
+       {
+        "when": "10月24日",
+        "text": "マドリードの学会で詳しい結果を発表予定",
+        "color": "blue"
+       }
+      ],
+      "show": 2
+     },
+     "star": true,
+     "hl": [
+      "priced in"
+     ]
+    },
+    {
+     "id": "q04",
+     "kind": "jp",
+     "jp": "アメリカの調査会社バーンスタインは、事実で売る、いわゆる、セル・ザ・ニュースの動きだと分析しています。",
+     "en": "Bernstein called it a 'sell the news' event.",
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "A sell-the-news event."
+      ],
+      "hl": [
+       "sell-the-news"
+      ],
+      "by": "バーンスタインの分析の要旨(Yahoo Financeの報道より)"
+     }
+    }
+   ]
+  },
+  {
+   "id": "meaning",
+   "chapter": "私たちへの意味",
+   "beats": [
+    {
+     "id": "m01",
+     "kind": "jp",
+     "jp": "良い結果が出ても、期待がそれ以上に高ければ、評価は下がることがあります。",
+     "en": "Even good results can disappoint if expectations were higher.",
+     "vis": {
+      "t": "points",
+      "show": 1,
+      "items": [
+       {
+        "head": "読み取れること",
+        "big": "良い結果でも\n下がることがある",
+        "sub": "期待がどこまで\n織り込まれていたか",
+        "color": "gold"
+       },
+       {
+        "head": "逆の見方",
+        "big": "結果そのものは\n前向き",
+        "sub": "生存期間のデータは\nまだ出ていない",
+        "color": "blue"
+       },
+       {
+        "head": "日本の現場",
+        "big": "期待値を\n管理する",
+        "sub": "社内の発表でも\n同じことが起きる",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "m02",
+     "kind": "jp",
+     "jp": "一方で、結果そのものは前向きなものです。命を延ばす効果のデータは、まだ出ていません。",
+     "en": "On the other hand, the results themselves are positive. Survival data isn't mature yet.",
+     "vis": {
+      "t": "points",
+      "show": 2,
+      "items": [
+       {
+        "head": "読み取れること",
+        "big": "良い結果でも\n下がることがある",
+        "sub": "期待がどこまで\n織り込まれていたか",
+        "color": "gold"
+       },
+       {
+        "head": "逆の見方",
+        "big": "結果そのものは\n前向き",
+        "sub": "生存期間のデータは\nまだ出ていない",
+        "color": "blue"
+       },
+       {
+        "head": "日本の現場",
+        "big": "期待値を\n管理する",
+        "sub": "社内の発表でも\n同じことが起きる",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "m03",
+     "kind": "jp",
+     "jp": "これは会社の中でも同じです。上司やお客様の期待を前もって調整しておくことが、成果を正しく評価してもらうコツです。",
+     "en": "It's the same at work. Managing expectations early helps your results get fair credit.",
+     "vis": {
+      "t": "points",
+      "show": 3,
+      "items": [
+       {
+        "head": "読み取れること",
+        "big": "良い結果でも\n下がることがある",
+        "sub": "期待がどこまで\n織り込まれていたか",
+        "color": "gold"
+       },
+       {
+        "head": "逆の見方",
+        "big": "結果そのものは\n前向き",
+        "sub": "生存期間のデータは\nまだ出ていない",
+        "color": "blue"
+       },
+       {
+        "head": "日本の現場",
+        "big": "期待値を\n管理する",
+        "sub": "社内の発表でも\n同じことが起きる",
+        "color": "green"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "良い結果なのに株価急落。モデルナに学ぶ「織り込み済み」の英語【ニュースで学ぶビジネス英語 #10】",
+  "summary": "モデルナとメルクが開発するがんワクチンの最終段階の臨床試験データが、2026年10月22日、学会発表の前に流出しました。結果は投資家の期待を上回るものでしたが、モデルナの株価は17.6%下落しました。このニュースから、数字の会話で使える英語を学びます(特定の銘柄の売買を勧めるものではありません)。",
+  "tags": [
+   "モデルナ",
+   "Moderna",
+   "がんワクチン",
+   "株価",
+   "織り込み済み",
+   "ビジネス英語",
+   "英語学習",
+   "ニュース英語",
+   "時事英語",
+   "会議 英語",
+   "教養",
+   "社会人 英語",
+   "business English"
+  ]
+ },
+ "thumbnail": {
+  "big": "−17.6%",
+  "big_color": "red",
+  "under": "良い結果なのに",
+  "badge": "モデルナ",
+  "badge_color": "red",
+  "question": "なぜ下がった?",
+  "pill": "priced in",
+  "bottom": "会議で使える英語3つ"
+ },
+ "shorts": [
+  {
+   "phrase": 0,
+   "hook": [
+    "「期待を上回る」",
+    "英語で言える?"
+   ],
+   "news_hook": [
+    "良い結果なのに",
+    "モデルナ株が急落"
+   ],
+   "ctx": "モデルナのがんワクチンの結果について使われた表現",
+   "title": "「期待を上回る」は英語で?良い結果なのにモデルナ株が急落 #ビジネス英語 #shorts",
+   "ig_caption": "「期待を上回る」を英語で言えますか?\n\n✅ exceed expectations\n期待を上回る\n\n例文:The pilot results will exceed expectations if we keep this pace.\n(このペースなら、試験導入の結果は期待を上回るでしょう。)\n\nモデルナのがんワクチンの結果は、投資家の期待を上回るものでした。それでも株価は下がりました。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Forbes「Moderna Stock Plunges 25% After Apparent Leak Of Cancer Vaccine Data」(2026年10月22日)",
+   "url": "https://www.forbes.com/sites/maryroeloffs/2026/10/22/moderna-stock-plunges-25-after-possible-cancer-vaccine-data-leak/"
+  },
+  {
+   "title": "Yahoo Finance「Moderna stock's 17% slump was a 'sell the news' event, analyst says」",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/moderna-stock-17-slump-sell-001835145.html"
+  }
+ ],
+ "publish": {
+  "long": "2026-10-25T17:00:00+09:00",
+  "shorts": [
+   "2026-10-25T17:00:00+09:00"
+  ]
+ }
+}

@@ -1,0 +1,605 @@
+{
+ "id": "2026-10-25-japan-cpi-boj",
+ "episode": "#06",
+ "date": "2026-10-23",
+ "series": "海外メディアが報じる日本",
+ "title_card": {
+  "line1": "日本の物価、9か月ぶりに目標超え。",
+  "line2": "海外メディアは「利上げを後押し」と報道"
+ },
+ "readings": [
+  [
+   "CPI",
+   "シーピーアイ"
+  ],
+  [
+   "1.25%",
+   "1.25パーセント"
+  ],
+  [
+   "2.1%",
+   "2.1パーセント"
+  ],
+  [
+   "2.4%",
+   "2.4パーセント"
+  ],
+  [
+   "1.5%",
+   "1.5パーセント"
+  ]
+ ],
+ "phrases": [
+  {
+   "en": "above target",
+   "jp": "目標を上回って",
+   "ex": "Sales came in above target for the third month in a row.",
+   "ex_jp": "売上は3か月連続で目標を上回りました。"
+  },
+  {
+   "en": "broad-based",
+   "jp": "広範囲に及ぶ",
+   "ex": "The cost increases are broad-based, not just energy.",
+   "ex_jp": "コストの上昇はエネルギーだけでなく、広い範囲に及んでいます。"
+  },
+  {
+   "en": "hold steady",
+   "jp": "据え置く・横ばいを保つ",
+   "ex": "We'll hold steady on prices until the end of March.",
+   "ex_jp": "3月末までは、価格を据え置きます。"
+  }
+ ],
+ "words": [
+  {
+   "en": "core inflation",
+   "jp": "コアインフレ率"
+  },
+  {
+   "en": "rate hike",
+   "jp": "利上げ"
+  },
+  {
+   "en": "policy rate",
+   "jp": "政策金利"
+  }
+ ],
+ "homework": {
+  "en": "What has risen above target at your company?",
+  "jp": "あなたの会社で目標を上回ったものは?",
+  "hl": [
+   "above target"
+  ],
+  "say": "最後に宿題です。あなたの会社で、目標を上回ったものは何ですか。英語で、コメント欄に書いてみてください。"
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "beats": [
+    {
+     "id": "h01",
+     "kind": "jp",
+     "jp": "日本の物価上昇率が、9か月ぶりに、日銀の目標の2%を上回りました。",
+     "en": "Japan's inflation rose above the BOJ's 2% target for the first time in nine months.",
+     "vis": {
+      "t": "hero",
+      "kicker": "japan inflation",
+      "big": "2.1%",
+      "color": "red",
+      "sub": "9か月ぶりに日銀の目標を上回る",
+      "sub_color": "gold"
+     },
+     "hl": [
+      "above the BOJ's 2% target"
+     ]
+    },
+    {
+     "id": "h02",
+     "kind": "jp",
+     "jp": "海外メディアは、この数字を、利上げを後押しするものだと伝えています。",
+     "en": "Overseas media say the data backs more rate hikes.",
+     "vis": {
+      "t": "hero_side",
+      "big": "2.1%",
+      "color": "red",
+      "text": "above target",
+      "jp": "目標を上回る"
+     },
+     "hl": [
+      "rate hikes"
+     ]
+    },
+    {
+     "id": "h03",
+     "kind": "jp",
+     "jp": "今日はこのニュースから、会議で使える英語を3つ。最後に答え合わせをします。",
+     "en": "Three phrases for your next meeting. Answers at the end.",
+     "vis": {
+      "t": "teaser"
+     }
+    }
+   ]
+  },
+  {
+   "id": "what",
+   "chapter": "何が起きたか",
+   "beats": [
+    {
+     "id": "p01",
+     "kind": "jp",
+     "jp": "10月23日に発表された9月の全国の消費者物価は、生鮮食品を除いて、前の年より2.1%上がりました。",
+     "en": "Japan's core CPI rose 2.1% in September from a year earlier.",
+     "vis": {
+      "t": "bars",
+      "title": "日本の消費者物価(前年比・2026年9月)",
+      "unit": "%",
+      "items": [
+       {
+        "label": "日銀の目標",
+        "value": 2.0,
+        "display": "2.0%",
+        "color": "muted"
+       },
+       {
+        "label": "コアCPI",
+        "value": 2.1,
+        "display": "2.1%",
+        "color": "gold"
+       },
+       {
+        "label": "生鮮食品とエネルギーを除く",
+        "value": 2.4,
+        "display": "2.4%",
+        "color": "red"
+       }
+      ],
+      "note": "コアは生鮮食品を除く指数"
+     }
+    },
+    {
+     "id": "p02",
+     "kind": "jp",
+     "jp": "日銀が目標とする2%を上回ったのは、9か月ぶりです。目標を上回った、という表現です。",
+     "en": "It's the first time in nine months that inflation came in above target.",
+     "vis": {
+      "t": "bars",
+      "title": "日本の消費者物価(前年比・2026年9月)",
+      "unit": "%",
+      "items": [
+       {
+        "label": "日銀の目標",
+        "value": 2.0,
+        "display": "2.0%",
+        "color": "muted"
+       },
+       {
+        "label": "コアCPI",
+        "value": 2.1,
+        "display": "2.1%",
+        "color": "gold"
+       },
+       {
+        "label": "生鮮食品とエネルギーを除く",
+        "value": 2.4,
+        "display": "2.4%",
+        "color": "red"
+       }
+      ],
+      "note": "コアは生鮮食品を除く指数"
+     },
+     "hl": [
+      "above target"
+     ],
+     "star": true
+    },
+    {
+     "id": "p03",
+     "kind": "en_insert",
+     "en": "Inflation came in above target.",
+     "jp": "物価が目標を上回った",
+     "vis": {
+      "t": "bars",
+      "title": "日本の消費者物価(前年比・2026年9月)",
+      "unit": "%",
+      "items": [
+       {
+        "label": "日銀の目標",
+        "value": 2.0,
+        "display": "2.0%",
+        "color": "muted"
+       },
+       {
+        "label": "コアCPI",
+        "value": 2.1,
+        "display": "2.1%",
+        "color": "gold"
+       },
+       {
+        "label": "生鮮食品とエネルギーを除く",
+        "value": 2.4,
+        "display": "2.4%",
+        "color": "red"
+       }
+      ],
+      "note": "コアは生鮮食品を除く指数"
+     },
+     "star": true,
+     "hl": [
+      "above target"
+     ]
+    },
+    {
+     "id": "p04",
+     "kind": "jp",
+     "jp": "さらに、生鮮食品とエネルギーを除いた物価は2.4%。モノだけでなく、サービスの値上がりも加速しています。",
+     "en": "Excluding fresh food and energy, prices rose 2.4%. Price gains are broad-based.",
+     "vis": {
+      "t": "bars",
+      "title": "日本の消費者物価(前年比・2026年9月)",
+      "unit": "%",
+      "items": [
+       {
+        "label": "日銀の目標",
+        "value": 2.0,
+        "display": "2.0%",
+        "color": "muted"
+       },
+       {
+        "label": "コアCPI",
+        "value": 2.1,
+        "display": "2.1%",
+        "color": "gold"
+       },
+       {
+        "label": "生鮮食品とエネルギーを除く",
+        "value": 2.4,
+        "display": "2.4%",
+        "color": "red"
+       }
+      ],
+      "note": "コアは生鮮食品を除く指数"
+     },
+     "hl": [
+      "broad-based"
+     ],
+     "star": true
+    },
+    {
+     "id": "p05",
+     "kind": "en_insert",
+     "en": "The price increases are broad-based.",
+     "jp": "値上がりが広い範囲に及んでいる",
+     "vis": {
+      "t": "bars",
+      "title": "日本の消費者物価(前年比・2026年9月)",
+      "unit": "%",
+      "items": [
+       {
+        "label": "日銀の目標",
+        "value": 2.0,
+        "display": "2.0%",
+        "color": "muted"
+       },
+       {
+        "label": "コアCPI",
+        "value": 2.1,
+        "display": "2.1%",
+        "color": "gold"
+       },
+       {
+        "label": "生鮮食品とエネルギーを除く",
+        "value": 2.4,
+        "display": "2.4%",
+        "color": "red"
+       }
+      ],
+      "note": "コアは生鮮食品を除く指数"
+     },
+     "star": true,
+     "hl": [
+      "broad-based"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "boj",
+   "chapter": "日銀はどう動く",
+   "beats": [
+    {
+     "id": "q01",
+     "kind": "jp",
+     "jp": "日銀は9月に利上げし、政策金利は1.25%と、31年ぶりの高さになっています。",
+     "en": "The BOJ raised its policy rate to 1.25% in September, a 31-year high.",
+     "vis": {
+      "t": "timeline",
+      "items": [
+       {
+        "when": "9月",
+        "text": "日銀が利上げ。政策金利1.25%(31年ぶりの高さ)",
+        "color": "gold"
+       },
+       {
+        "when": "10月23日",
+        "text": "9月の物価が2.1%。9か月ぶりに目標超え",
+        "color": "red"
+       },
+       {
+        "when": "10月30日",
+        "text": "日銀の会合。据え置きの見方が多い",
+        "color": "blue"
+       },
+       {
+        "when": "12月",
+        "text": "1.5%への利上げを予想する声も",
+        "color": "green"
+       }
+      ],
+      "show": 2
+     }
+    },
+    {
+     "id": "q02",
+     "kind": "jp",
+     "jp": "10月30日に終わる会合では、金利を据え置くとの見方が多くなっています。",
+     "en": "Many expect the BOJ to hold rates steady at the meeting ending October 30.",
+     "vis": {
+      "t": "timeline",
+      "items": [
+       {
+        "when": "9月",
+        "text": "日銀が利上げ。政策金利1.25%(31年ぶりの高さ)",
+        "color": "gold"
+       },
+       {
+        "when": "10月23日",
+        "text": "9月の物価が2.1%。9か月ぶりに目標超え",
+        "color": "red"
+       },
+       {
+        "when": "10月30日",
+        "text": "日銀の会合。据え置きの見方が多い",
+        "color": "blue"
+       },
+       {
+        "when": "12月",
+        "text": "1.5%への利上げを予想する声も",
+        "color": "green"
+       }
+      ],
+      "show": 3
+     },
+     "hl": [
+      "hold rates steady"
+     ],
+     "star": true
+    },
+    {
+     "id": "q03",
+     "kind": "en_insert",
+     "en": "The BOJ is expected to hold steady.",
+     "jp": "日銀は据え置くとみられる",
+     "vis": {
+      "t": "timeline",
+      "items": [
+       {
+        "when": "9月",
+        "text": "日銀が利上げ。政策金利1.25%(31年ぶりの高さ)",
+        "color": "gold"
+       },
+       {
+        "when": "10月23日",
+        "text": "9月の物価が2.1%。9か月ぶりに目標超え",
+        "color": "red"
+       },
+       {
+        "when": "10月30日",
+        "text": "日銀の会合。据え置きの見方が多い",
+        "color": "blue"
+       },
+       {
+        "when": "12月",
+        "text": "1.5%への利上げを予想する声も",
+        "color": "green"
+       }
+      ],
+      "show": 3
+     },
+     "star": true,
+     "hl": [
+      "hold steady"
+     ]
+    },
+    {
+     "id": "q04",
+     "kind": "jp",
+     "jp": "その次の12月の会合では、1.5%への利上げを予想する声が多く出ています。",
+     "en": "Many analysts expect a hike to 1.5% in December.",
+     "vis": {
+      "t": "timeline",
+      "items": [
+       {
+        "when": "9月",
+        "text": "日銀が利上げ。政策金利1.25%(31年ぶりの高さ)",
+        "color": "gold"
+       },
+       {
+        "when": "10月23日",
+        "text": "9月の物価が2.1%。9か月ぶりに目標超え",
+        "color": "red"
+       },
+       {
+        "when": "10月30日",
+        "text": "日銀の会合。据え置きの見方が多い",
+        "color": "blue"
+       },
+       {
+        "when": "12月",
+        "text": "1.5%への利上げを予想する声も",
+        "color": "green"
+       }
+      ],
+      "show": 4
+     }
+    }
+   ]
+  },
+  {
+   "id": "meaning",
+   "chapter": "私たちへの意味",
+   "beats": [
+    {
+     "id": "m01",
+     "kind": "jp",
+     "jp": "金利が上がる局面では、会社の借り入れや住宅ローン、取引先との値上げ交渉にも影響が出てきます。",
+     "en": "Rising rates affect company loans, mortgages and price talks with partners.",
+     "vis": {
+      "t": "points",
+      "show": 1,
+      "items": [
+       {
+        "head": "家計と会社",
+        "big": "金利が\n上がる局面",
+        "sub": "借入・住宅ローン・\n値上げ交渉に影響",
+        "color": "gold"
+       },
+       {
+        "head": "逆の見方",
+        "big": "12月とは\n限らない",
+        "sub": "来年1月を本命と\nみる金融機関も",
+        "color": "red"
+       },
+       {
+        "head": "英語の出番",
+        "big": "日本は\nこう報じられる",
+        "sub": "海外の同僚に\n英語で説明できるか",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "m02",
+     "kind": "jp",
+     "jp": "ただし、イギリスの大手銀行スタンダード・チャータードは、次の利上げは来年1月が本命だと見ています。12月と決まったわけではありません。",
+     "en": "But Standard Chartered sees January, not December, as the most likely timing.",
+     "vis": {
+      "t": "points",
+      "show": 2,
+      "items": [
+       {
+        "head": "家計と会社",
+        "big": "金利が\n上がる局面",
+        "sub": "借入・住宅ローン・\n値上げ交渉に影響",
+        "color": "gold"
+       },
+       {
+        "head": "逆の見方",
+        "big": "12月とは\n限らない",
+        "sub": "来年1月を本命と\nみる金融機関も",
+        "color": "red"
+       },
+       {
+        "head": "英語の出番",
+        "big": "日本は\nこう報じられる",
+        "sub": "海外の同僚に\n英語で説明できるか",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "m03",
+     "kind": "jp",
+     "jp": "海外の同僚に、日本の物価や金利の状況を英語で説明できると、会議での存在感が変わります。",
+     "en": "Being able to explain Japan's rates in English makes you stand out in global meetings.",
+     "vis": {
+      "t": "points",
+      "show": 3,
+      "items": [
+       {
+        "head": "家計と会社",
+        "big": "金利が\n上がる局面",
+        "sub": "借入・住宅ローン・\n値上げ交渉に影響",
+        "color": "gold"
+       },
+       {
+        "head": "逆の見方",
+        "big": "12月とは\n限らない",
+        "sub": "来年1月を本命と\nみる金融機関も",
+        "color": "red"
+       },
+       {
+        "head": "英語の出番",
+        "big": "日本は\nこう報じられる",
+        "sub": "海外の同僚に\n英語で説明できるか",
+        "color": "green"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "日本の物価、9か月ぶりに目標超え。海外はどう報じた?【ニュースで学ぶビジネス英語 #06】",
+  "summary": "2026年10月23日に発表された9月の全国消費者物価(生鮮食品を除く)は前年比2.1%上昇し、9か月ぶりに日銀の目標の2%を上回りました。海外メディアは、日銀の利上げを後押しする内容だと報じています。このニュースを解説し、会議で使える英語を学びます。",
+  "tags": [
+   "日銀",
+   "物価",
+   "CPI",
+   "利上げ",
+   "日本経済",
+   "ビジネス英語",
+   "英語学習",
+   "ニュース英語",
+   "時事英語",
+   "会議 英語",
+   "教養",
+   "社会人 英語",
+   "business English"
+  ]
+ },
+ "thumbnail": {
+  "big": "2.1%",
+  "big_color": "red",
+  "under": "物価が目標超え",
+  "badge": "9か月ぶり",
+  "badge_color": "gold",
+  "question": "12月に利上げ?",
+  "pill": "above target",
+  "bottom": "会議で使える英語3つ",
+  "crack": false
+ },
+ "shorts": [
+  {
+   "phrase": 0,
+   "hook": [
+    "「目標を上回る」",
+    "英語で言える?"
+   ],
+   "news_hook": [
+    "日本の物価が2.1%",
+    "9か月ぶりに目標超え"
+   ],
+   "ctx": "日本の物価のニュースで海外メディアが使った表現",
+   "title": "「目標を上回る」は英語で?日本の物価が9か月ぶりに目標超え #ビジネス英語 #shorts",
+   "ig_caption": "「目標を上回る」を英語で言えますか?\n\n✅ above target\n目標を上回って\n\n例文:Sales came in above target for the third month in a row.\n(売上は3か月連続で目標を上回りました。)\n\n日本の物価が、9か月ぶりに日銀の目標を上回ったニュースで使われた表現です。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  }
+ ],
+ "sources": [
+  {
+   "title": "FXStreet「Japanese Yen gathers strength as CPI inflation exceeds target, backing BoJ rate hikes」(2026年10月23日)",
+   "url": "https://www.fxstreet.com/news/japanese-yen-gathers-strength-as-cpi-inflation-exceeds-target-backing-boj-rate-hikes-202610230028"
+  },
+  {
+   "title": "Digg(Reuters・CNBCの報道のまとめ)「Japan's core inflation rises to 2.1% in September」",
+   "url": "https://digg.com/world-business/xxtaemic"
+  }
+ ],
+ "publish": {
+  "long": "2026-10-25T17:00:00+09:00",
+  "shorts": [
+   "2026-10-25T17:00:00+09:00"
+  ]
+ }
+}

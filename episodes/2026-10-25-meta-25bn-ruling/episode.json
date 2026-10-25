@@ -1,0 +1,516 @@
+{
+ "id": "2026-10-25-meta-25bn-ruling",
+ "episode": "#03",
+ "date": "2026-10-21",
+ "series": "Weekly Brief",
+ "title_card": {
+  "line1": "メタに罰金250億ドル。",
+  "line2": "「プライバシーの約束はうそだった」"
+ },
+ "readings": [
+  [
+   "FTC",
+   "エフティーシー"
+  ]
+ ],
+ "phrases": [
+  {
+   "en": "mislead customers",
+   "jp": "顧客を誤解させる",
+   "ex": "We can't mislead customers about how we use their data.",
+   "ex_jp": "データの使い方について、顧客を誤解させるわけにはいきません。"
+  },
+  {
+   "en": "appeal the ruling",
+   "jp": "判決を不服として上訴する",
+   "ex": "Our lawyers recommend that we appeal the ruling.",
+   "ex_jp": "弁護士は、判決を不服として上訴するよう勧めています。"
+  },
+  {
+   "en": "set a precedent",
+   "jp": "前例をつくる",
+   "ex": "If we give one client a discount, we'll set a precedent.",
+   "ex_jp": "1社だけ値引きすると、前例をつくることになります。"
+  }
+ ],
+ "words": [
+  {
+   "en": "jury",
+   "jp": "陪審"
+  },
+  {
+   "en": "consumer protection law",
+   "jp": "消費者保護法"
+  },
+  {
+   "en": "penalty",
+   "jp": "制裁金"
+  }
+ ],
+ "homework": {
+  "en": "Have you ever set a precedent at work?",
+  "jp": "仕事で前例をつくったことは?",
+  "hl": [
+   "set a precedent"
+  ],
+  "say": "最後に宿題です。あなたが仕事で前例をつくった経験はありますか。英語で、コメント欄に書いてみてください。"
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "beats": [
+    {
+     "id": "h01",
+     "kind": "jp",
+     "jp": "フェイスブックを運営するメタに、250億ドル、およそ3兆9千億円の支払いが命じられました。",
+     "en": "Meta has been ordered to pay $25 billion.",
+     "vis": {
+      "t": "hero",
+      "kicker": "court ruling",
+      "big": "$25B",
+      "color": "red",
+      "sub": "約3.9兆円の支払い命令",
+      "sub_color": "gold"
+     },
+     "hl": [
+      "ordered to pay"
+     ]
+    },
+    {
+     "id": "h02",
+     "kind": "jp",
+     "jp": "理由は、プライバシーについて、利用者を誤解させたことです。",
+     "en": "The reason: it misled users about their privacy.",
+     "vis": {
+      "t": "hero_side",
+      "big": "$25B",
+      "color": "red",
+      "text": "misled users",
+      "jp": "利用者を誤解させた"
+     },
+     "hl": [
+      "misled users"
+     ]
+    },
+    {
+     "id": "h03",
+     "kind": "jp",
+     "jp": "今日はこのニュースから、会議で使える英語を3つ。最後に答え合わせをします。",
+     "en": "Three phrases for your next meeting. Answers at the end.",
+     "vis": {
+      "t": "teaser"
+     }
+    }
+   ]
+  },
+  {
+   "id": "what",
+   "chapter": "何が起きたか",
+   "beats": [
+    {
+     "id": "p01",
+     "kind": "jp",
+     "jp": "アメリカのニューメキシコ州の裁判所は10月21日、メタに250億ドルの支払いを命じました。メタへの罰金としては過去最大です。",
+     "en": "On October 21, a New Mexico court ordered Meta to pay $25 billion, its largest fine ever.",
+     "vis": {
+      "t": "counter",
+      "kicker": "NEW MEXICO COURT",
+      "to": 25,
+      "prefix": "$",
+      "suffix": "B",
+      "color": "red",
+      "sub": "メタへの罰金として過去最大",
+      "note": "2026年10月21日 ニューメキシコ州地裁"
+     }
+    },
+    {
+     "id": "p02",
+     "kind": "jp",
+     "jp": "陪審は、メタと経営陣による29の発言のうち、26がうそや誤解を招くものだったと判断しました。",
+     "en": "The jury found 26 of 29 statements by Meta and its leaders misleading.",
+     "vis": {
+      "t": "people",
+      "total": 29,
+      "hit": 26,
+      "label": "29の発言のうち26が誤解を招く",
+      "panel": {
+       "kicker": "MISLEADING STATEMENTS",
+       "big": "26 / 29",
+       "color": "red",
+       "sub": "privacy & moderation",
+       "note": "プライバシーと投稿管理について"
+      }
+     },
+     "hl": [
+      "misleading"
+     ]
+    },
+    {
+     "id": "p03",
+     "kind": "jp",
+     "jp": "判事は、利用者が自分のデータを管理できる、という約束は事実ではなかった、と述べています。",
+     "en": "The judge said Facebook's promise that users controlled their data was false.",
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "Facebook promised users",
+       "that they controlled their data.",
+       "This was false."
+      ],
+      "hl": [
+       "This was false"
+      ],
+      "by": "フランシス・マシュー判事(Al Jazeeraの報道より)"
+     }
+    },
+    {
+     "id": "p04",
+     "kind": "jp",
+     "jp": "つまり、顧客を誤解させた、と認定されたのです。",
+     "en": "In short, the court found that Meta misled its customers.",
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "Meta misled",
+       "its customers."
+      ],
+      "hl": [
+       "misled"
+      ],
+      "by": "今日のフレーズ ①"
+     },
+     "hl": [
+      "misled its customers"
+     ],
+     "star": true
+    },
+    {
+     "id": "p05",
+     "kind": "en_insert",
+     "en": "We can't mislead customers.",
+     "jp": "顧客を誤解させてはいけない",
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "Meta misled",
+       "its customers."
+      ],
+      "hl": [
+       "misled"
+      ],
+      "by": "今日のフレーズ ①"
+     },
+     "star": true,
+     "hl": [
+      "mislead customers"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "next",
+   "chapter": "メタの反応",
+   "beats": [
+    {
+     "id": "q01",
+     "kind": "jp",
+     "jp": "金額の大きさも際立っています。2019年にアメリカの連邦取引委員会がフェイスブックに科した50億ドルの、5倍にあたります。",
+     "en": "That's five times the $5 billion fine the FTC imposed in 2019.",
+     "vis": {
+      "t": "bars",
+      "title": "米国でのメタへの罰金・賠償(億ドル)",
+      "unit": "億ドル",
+      "items": [
+       {
+        "label": "2019年 FTC",
+        "value": 50,
+        "display": "50億ドル",
+        "color": "muted"
+       },
+       {
+        "label": "2026年 ニューメキシコ州",
+        "value": 250,
+        "display": "250億ドル",
+        "color": "red"
+       }
+      ],
+      "note": "今回は2019年のFTCの制裁金の5倍"
+     },
+     "hl": [
+      "five times"
+     ]
+    },
+    {
+     "id": "q02",
+     "kind": "jp",
+     "jp": "メタは上訴する方針で、勝てると自信を示しています。",
+     "en": "Meta plans to appeal and says it is confident it will win.",
+     "vis": {
+      "t": "vs",
+      "left": {
+       "en": "state",
+       "label": "州の主張",
+       "val": "うその約束",
+       "up": false,
+       "color": "red"
+      },
+      "right": {
+       "en": "meta",
+       "label": "メタの主張",
+       "val": "上訴へ",
+       "up": true,
+       "color": "blue"
+      },
+      "mid": "対立"
+     },
+     "hl": [
+      "appeal"
+     ],
+     "star": true
+    },
+    {
+     "id": "q03",
+     "kind": "en_insert",
+     "en": "We will appeal the ruling.",
+     "jp": "判決を不服として上訴します",
+     "vis": {
+      "t": "vs",
+      "left": {
+       "en": "state",
+       "label": "州の主張",
+       "val": "うその約束",
+       "up": false,
+       "color": "red"
+      },
+      "right": {
+       "en": "meta",
+       "label": "メタの主張",
+       "val": "上訴へ",
+       "up": true,
+       "color": "blue"
+      },
+      "mid": "対立"
+     },
+     "star": true,
+     "hl": [
+      "appeal the ruling"
+     ]
+    },
+    {
+     "id": "q04",
+     "kind": "jp",
+     "jp": "メタの法務責任者は、この判決では州で事業をするのがほぼ不可能になる、と反発しています。",
+     "en": "Meta's chief legal officer said the ruling makes business in the state almost impossible.",
+     "vis": {
+      "t": "timeline",
+      "items": [
+       {
+        "when": "2021年",
+        "text": "州がメタを提訴",
+        "color": "muted"
+       },
+       {
+        "when": "2026年9月",
+        "text": "陪審が評決",
+        "color": "gold"
+       },
+       {
+        "when": "10月21日",
+        "text": "250億ドルの判決",
+        "color": "red"
+       },
+       {
+        "when": "これから",
+        "text": "メタは上訴の方針",
+        "color": "blue"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "meaning",
+   "chapter": "私たちへの意味",
+   "beats": [
+    {
+     "id": "m01",
+     "kind": "jp",
+     "jp": "この判決は、ほかの州や国が同じような訴えを起こす前例になるかもしれません。",
+     "en": "This ruling could set a precedent for other states and countries.",
+     "vis": {
+      "t": "statement",
+      "kicker": "SET A PRECEDENT",
+      "text": "1つの州の判決が、世界の基準に?"
+     },
+     "hl": [
+      "set a precedent"
+     ],
+     "star": true
+    },
+    {
+     "id": "m02",
+     "kind": "en_insert",
+     "en": "This could set a precedent.",
+     "jp": "前例になる可能性がある",
+     "vis": {
+      "t": "statement",
+      "kicker": "SET A PRECEDENT",
+      "text": "1つの州の判決が、世界の基準に?"
+     },
+     "star": true,
+     "hl": [
+      "set a precedent"
+     ]
+    },
+    {
+     "id": "m03",
+     "kind": "jp",
+     "jp": "日本企業にとっての教訓は、プライバシーポリシーやサイトの説明が、実際の運用と合っているかです。言葉と中身のずれが、訴えの対象になりました。",
+     "en": "For Japanese firms, the lesson is to make sure privacy promises match what you actually do.",
+     "vis": {
+      "t": "points",
+      "show": 1,
+      "items": [
+       {
+        "head": "教訓",
+        "big": "約束と運用を\n一致させる",
+        "sub": "ポリシーの文言が\n訴訟の根拠に",
+        "color": "red"
+       },
+       {
+        "head": "逆の見方",
+        "big": "上訴で\n覆る可能性",
+        "sub": "メタは「害は\n証明されていない」",
+        "color": "blue"
+       },
+       {
+        "head": "英語の出番",
+        "big": "海外の規約を\n英語で確認",
+        "sub": "海外向けサービスは\n英文の約束が基準",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "m04",
+     "kind": "jp",
+     "jp": "一方で、メタは、利用者が実際に被害を受けたとは証明されていないと主張しています。上訴で結論が変わる可能性もあります。",
+     "en": "Meta argues no one was shown to be harmed. The appeal could change the outcome.",
+     "vis": {
+      "t": "points",
+      "show": 2,
+      "items": [
+       {
+        "head": "教訓",
+        "big": "約束と運用を\n一致させる",
+        "sub": "ポリシーの文言が\n訴訟の根拠に",
+        "color": "red"
+       },
+       {
+        "head": "逆の見方",
+        "big": "上訴で\n覆る可能性",
+        "sub": "メタは「害は\n証明されていない」",
+        "color": "blue"
+       },
+       {
+        "head": "英語の出番",
+        "big": "海外の規約を\n英語で確認",
+        "sub": "海外向けサービスは\n英文の約束が基準",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "m05",
+     "kind": "jp",
+     "jp": "海外向けのサービスでは、英語で書いた約束がそのまま基準になります。英文の規約を自分の目で読めることが、リスク管理になります。",
+     "en": "For global services, the English wording is what counts. Reading it yourself is risk control.",
+     "vis": {
+      "t": "points",
+      "show": 3,
+      "items": [
+       {
+        "head": "教訓",
+        "big": "約束と運用を\n一致させる",
+        "sub": "ポリシーの文言が\n訴訟の根拠に",
+        "color": "red"
+       },
+       {
+        "head": "逆の見方",
+        "big": "上訴で\n覆る可能性",
+        "sub": "メタは「害は\n証明されていない」",
+        "color": "blue"
+       },
+       {
+        "head": "英語の出番",
+        "big": "海外の規約を\n英語で確認",
+        "sub": "海外向けサービスは\n英文の約束が基準",
+        "color": "green"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "メタに罰金250億ドル。「顧客を誤解させた」を英語で言うと?【ニュースで学ぶビジネス英語 #03】",
+  "summary": "米ニューメキシコ州の裁判所は2026年10月21日、フェイスブックの利用者にプライバシーについて誤解を与えたとして、メタに250億ドル(約3.9兆円)の支払いを命じました。メタへの罰金として過去最大で、メタは上訴する方針です。このニュースを解説し、会議で使える英語を学びます。",
+  "tags": [
+   "メタ",
+   "Meta",
+   "Facebook",
+   "プライバシー",
+   "判決",
+   "ビジネス英語",
+   "英語学習",
+   "ニュース英語",
+   "時事英語",
+   "会議 英語",
+   "教養",
+   "社会人 英語",
+   "business English"
+  ]
+ },
+ "thumbnail": {
+  "big": "$25B",
+  "big_color": "red",
+  "under": "メタに罰金",
+  "badge": "過去最大",
+  "badge_color": "red",
+  "question": "約束はうそだった?",
+  "pill": "mislead customers",
+  "bottom": "会議で使える英語3つ"
+ },
+ "shorts": [
+  {
+   "phrase": 0,
+   "hook": [
+    "「顧客を誤解させる」",
+    "英語で言える?"
+   ],
+   "news_hook": [
+    "メタに罰金250億ドル",
+    "プライバシーの約束が争点"
+   ],
+   "ctx": "メタに過去最大の罰金が命じられた理由",
+   "title": "メタに罰金250億ドル。「顧客を誤解させる」は英語で? #ビジネス英語 #shorts",
+   "ig_caption": "「顧客を誤解させる」を英語で言えますか?\n\n✅ mislead customers\n顧客を誤解させる\n\n例文:We can't mislead customers about how we use their data.\n(データの使い方について、顧客を誤解させるわけにはいきません。)\n\nメタに250億ドルの支払いが命じられた理由が、まさにこれでした。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Al Jazeera「Judge orders Meta to pay $25bn in fines for Facebook privacy violations」(2026年10月21日)",
+   "url": "https://www.aljazeera.com/news/2026/10/21/judge-orders-meta-to-pay-25bn-in-fines-for-facebook-privacy-violations"
+  }
+ ],
+ "publish": {
+  "long": "2026-10-25T17:00:00+09:00",
+  "shorts": [
+   "2026-10-25T17:00:00+09:00"
+  ]
+ }
+}

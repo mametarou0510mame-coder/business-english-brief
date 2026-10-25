@@ -1,0 +1,494 @@
+{
+ "id": "2026-10-25-iphone-duo-china",
+ "episode": "#09",
+ "date": "2026-10-17",
+ "series": "テックとAI",
+ "title_card": {
+  "line1": "折りたたみiPhone、中国で完売。",
+  "line2": "出荷は来年1月、転売価格も上昇"
+ },
+ "readings": [
+  [
+   "iPhone Duo",
+   "アイフォーン・デュオ"
+  ],
+  [
+   "iPhone",
+   "アイフォーン"
+  ],
+  [
+   "2TB",
+   "2テラバイト"
+  ]
+ ],
+ "phrases": [
+  {
+   "en": "sell out",
+   "jp": "売り切れる・完売する",
+   "ex": "The early-bird tickets will sell out in two hours.",
+   "ex_jp": "早割チケットは2時間で売り切れるでしょう。"
+  },
+  {
+   "en": "pushed back to",
+   "jp": "〜にずれ込む・延期される",
+   "ex": "The launch has been pushed back to January.",
+   "ex_jp": "発売は1月にずれ込みました。"
+  },
+  {
+   "en": "at a markup",
+   "jp": "上乗せした値段で",
+   "ex": "Resellers are offering the units at a markup.",
+   "ex_jp": "転売業者が、上乗せした値段で売っています。"
+  }
+ ],
+ "words": [
+  {
+   "en": "pre-order",
+   "jp": "予約注文"
+  },
+  {
+   "en": "reseller",
+   "jp": "転売業者"
+  },
+  {
+   "en": "flagship store",
+   "jp": "旗艦店"
+  }
+ ],
+ "homework": {
+  "en": "What was pushed back at your work recently?",
+  "jp": "最近、仕事で延期になったことは?",
+  "hl": [
+   "pushed back"
+  ],
+  "say": "最後に宿題です。最近、仕事で延期になったことは何ですか。英語で、コメント欄に書いてみてください。"
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "beats": [
+    {
+     "id": "h01",
+     "kind": "jp",
+     "jp": "アップル初の折りたたみスマホ、アイフォーン・デュオ。中国で予約が始まると、最初の出荷分がすぐに売り切れました。",
+     "en": "Apple's first foldable, the iPhone Duo, sold out fast in China.",
+     "vis": {
+      "t": "hero",
+      "kicker": "sold out",
+      "big": "完売",
+      "color": "red",
+      "sub": "折りたたみiPhone、中国で",
+      "sub_color": "gold"
+     },
+     "hl": [
+      "sold out"
+     ]
+    },
+    {
+     "id": "h02",
+     "kind": "jp",
+     "jp": "今から頼むと、届くのは来年の1月です。",
+     "en": "New orders won't ship until January.",
+     "vis": {
+      "t": "hero_side",
+      "big": "1月",
+      "color": "red",
+      "text": "pushed back to January",
+      "jp": "来年1月にずれ込み"
+     },
+     "hl": [
+      "January"
+     ]
+    },
+    {
+     "id": "h03",
+     "kind": "jp",
+     "jp": "今日はこのニュースから、会議で使える英語を3つ。最後に答え合わせをします。",
+     "en": "Three phrases for your next meeting. Answers at the end.",
+     "vis": {
+      "t": "teaser"
+     }
+    }
+   ]
+  },
+  {
+   "id": "what",
+   "chapter": "何が起きたか",
+   "beats": [
+    {
+     "id": "p01",
+     "kind": "jp",
+     "jp": "アイフォーン・デュオの中国での予約は、10月16日の夜8時に始まりました。アップルの中国のサイトは、一時つながらなくなりました。",
+     "en": "Pre-orders opened on October 16 at 8 p.m. Apple's China site briefly went down.",
+     "vis": {
+      "t": "timeline",
+      "items": [
+       {
+        "when": "10月16日 20時",
+        "text": "中国で予約開始。公式サイトが一時つながらず",
+        "color": "gold"
+       },
+       {
+        "when": "10月23日",
+        "text": "最初の出荷分は、すぐに売り切れ",
+        "color": "red"
+       },
+       {
+        "when": "2027年1月",
+        "text": "今から注文すると出荷は来年1月に",
+        "color": "blue"
+       }
+      ],
+      "show": 1
+     }
+    },
+    {
+     "id": "p02",
+     "kind": "jp",
+     "jp": "最初に出荷される10月23日の分は、すぐに売り切れました。",
+     "en": "The first batch, shipping October 23, quickly sold out.",
+     "vis": {
+      "t": "timeline",
+      "items": [
+       {
+        "when": "10月16日 20時",
+        "text": "中国で予約開始。公式サイトが一時つながらず",
+        "color": "gold"
+       },
+       {
+        "when": "10月23日",
+        "text": "最初の出荷分は、すぐに売り切れ",
+        "color": "red"
+       },
+       {
+        "when": "2027年1月",
+        "text": "今から注文すると出荷は来年1月に",
+        "color": "blue"
+       }
+      ],
+      "show": 2
+     },
+     "hl": [
+      "sold out"
+     ],
+     "star": true
+    },
+    {
+     "id": "p03",
+     "kind": "en_insert",
+     "en": "The first batch sold out.",
+     "jp": "最初の出荷分が売り切れた",
+     "vis": {
+      "t": "timeline",
+      "items": [
+       {
+        "when": "10月16日 20時",
+        "text": "中国で予約開始。公式サイトが一時つながらず",
+        "color": "gold"
+       },
+       {
+        "when": "10月23日",
+        "text": "最初の出荷分は、すぐに売り切れ",
+        "color": "red"
+       },
+       {
+        "when": "2027年1月",
+        "text": "今から注文すると出荷は来年1月に",
+        "color": "blue"
+       }
+      ],
+      "show": 2
+     },
+     "star": true,
+     "hl": [
+      "sold out"
+     ]
+    },
+    {
+     "id": "p04",
+     "kind": "jp",
+     "jp": "アップルの公式サイトなどでは、出荷の予定が、来年の1月にずれ込んでいます。",
+     "en": "On Apple's site, shipping dates have been pushed back to January 2027.",
+     "vis": {
+      "t": "timeline",
+      "items": [
+       {
+        "when": "10月16日 20時",
+        "text": "中国で予約開始。公式サイトが一時つながらず",
+        "color": "gold"
+       },
+       {
+        "when": "10月23日",
+        "text": "最初の出荷分は、すぐに売り切れ",
+        "color": "red"
+       },
+       {
+        "when": "2027年1月",
+        "text": "今から注文すると出荷は来年1月に",
+        "color": "blue"
+       }
+      ],
+      "show": 3
+     },
+     "hl": [
+      "pushed back to"
+     ],
+     "star": true
+    },
+    {
+     "id": "p05",
+     "kind": "en_insert",
+     "en": "Shipping has been pushed back to January.",
+     "jp": "出荷が1月にずれ込んだ",
+     "vis": {
+      "t": "timeline",
+      "items": [
+       {
+        "when": "10月16日 20時",
+        "text": "中国で予約開始。公式サイトが一時つながらず",
+        "color": "gold"
+       },
+       {
+        "when": "10月23日",
+        "text": "最初の出荷分は、すぐに売り切れ",
+        "color": "red"
+       },
+       {
+        "when": "2027年1月",
+        "text": "今から注文すると出荷は来年1月に",
+        "color": "blue"
+       }
+      ],
+      "show": 3
+     },
+     "star": true,
+     "hl": [
+      "pushed back to"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "price",
+   "chapter": "値段と転売",
+   "beats": [
+    {
+     "id": "q01",
+     "kind": "jp",
+     "jp": "値段は、いちばん安いモデルでも1万5999元。最上位の2テラバイトのモデルは2万6499元です。",
+     "en": "It starts at 15,999 yuan. The top 2TB model costs 26,499 yuan.",
+     "vis": {
+      "t": "bars",
+      "title": "iPhone Duoの中国での価格(元)",
+      "unit": "元",
+      "items": [
+       {
+        "label": "最も安いモデル",
+        "value": 15999,
+        "display": "15,999元",
+        "color": "gold"
+       },
+       {
+        "label": "2TBモデル",
+        "value": 26499,
+        "display": "26,499元",
+        "color": "red"
+       }
+      ],
+      "note": "中国での販売価格"
+     }
+    },
+    {
+     "id": "q02",
+     "kind": "jp",
+     "jp": "早く届く枠を手に入れた人の中には、500元から1000元以上を上乗せした値段で転売する人も出ています。一部では6000元の上乗せも報じられました。",
+     "en": "Some resell early units at a markup of 500 to over 1,000 yuan, and up to 6,000 yuan on some sites.",
+     "vis": {
+      "t": "counter",
+      "kicker": "RESELLER MARKUP",
+      "big": "+6,000元",
+      "color": "red",
+      "sub": "一部の転売サイトでの上乗せ額",
+      "note": "多くは500〜1000元以上の上乗せ"
+     },
+     "hl": [
+      "at a markup"
+     ],
+     "star": true
+    },
+    {
+     "id": "q03",
+     "kind": "en_insert",
+     "en": "They're reselling it at a markup.",
+     "jp": "上乗せした値段で転売している",
+     "vis": {
+      "t": "counter",
+      "kicker": "RESELLER MARKUP",
+      "big": "+6,000元",
+      "color": "red",
+      "sub": "一部の転売サイトでの上乗せ額",
+      "note": "多くは500〜1000元以上の上乗せ"
+     },
+     "star": true,
+     "hl": [
+      "at a markup"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "meaning",
+   "chapter": "私たちへの意味",
+   "beats": [
+    {
+     "id": "m01",
+     "kind": "jp",
+     "jp": "景気が強くないと言われる中国でも、1万6000元近いスマホを、発売前から欲しがる人がたくさんいます。",
+     "en": "Even in a slower Chinese economy, many people want a phone that costs nearly 16,000 yuan.",
+     "vis": {
+      "t": "points",
+      "show": 1,
+      "items": [
+       {
+        "head": "読み取れること",
+        "big": "高くても\n欲しい人はいる",
+        "sub": "最上位は\n26,499元",
+        "color": "gold"
+       },
+       {
+        "head": "逆の見方",
+        "big": "販売数は\n不明",
+        "sub": "総販売台数は\n公表されていない",
+        "color": "red"
+       },
+       {
+        "head": "日本の現場",
+        "big": "値段より\n体験を売る",
+        "sub": "高価格でも選ばれる\n理由を説明できるか",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "m02",
+     "kind": "jp",
+     "jp": "ただし、全部で何台売れたのかは、まだ公表されていません。最初の在庫が少なかった可能性もあります。",
+     "en": "But total sales haven't been disclosed. The first batch may have been small.",
+     "vis": {
+      "t": "points",
+      "show": 2,
+      "items": [
+       {
+        "head": "読み取れること",
+        "big": "高くても\n欲しい人はいる",
+        "sub": "最上位は\n26,499元",
+        "color": "gold"
+       },
+       {
+        "head": "逆の見方",
+        "big": "販売数は\n不明",
+        "sub": "総販売台数は\n公表されていない",
+        "color": "red"
+       },
+       {
+        "head": "日本の現場",
+        "big": "値段より\n体験を売る",
+        "sub": "高価格でも選ばれる\n理由を説明できるか",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "m03",
+     "kind": "jp",
+     "jp": "高い商品でも選ばれる理由を、英語で説明できるか。海外の顧客と話すときに、とても役立つ視点です。",
+     "en": "Can you explain in English why a premium product wins? It's a useful skill with global clients.",
+     "vis": {
+      "t": "points",
+      "show": 3,
+      "items": [
+       {
+        "head": "読み取れること",
+        "big": "高くても\n欲しい人はいる",
+        "sub": "最上位は\n26,499元",
+        "color": "gold"
+       },
+       {
+        "head": "逆の見方",
+        "big": "販売数は\n不明",
+        "sub": "総販売台数は\n公表されていない",
+        "color": "red"
+       },
+       {
+        "head": "日本の現場",
+        "big": "値段より\n体験を売る",
+        "sub": "高価格でも選ばれる\n理由を説明できるか",
+        "color": "green"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "折りたたみiPhone、中国で即完売。「売り切れる」を英語で【ニュースで学ぶビジネス英語 #09】",
+  "summary": "アップル初の折りたたみスマホ「iPhone Duo」は2026年10月16日に中国で予約が始まり、最初の出荷分がすぐに売り切れました。公式サイトでは出荷が2027年1月にずれ込み、転売価格も上がっています。このニュースから、会議で使える英語を学びます。",
+  "tags": [
+   "iPhone",
+   "アップル",
+   "Apple",
+   "折りたたみスマホ",
+   "中国",
+   "ビジネス英語",
+   "英語学習",
+   "ニュース英語",
+   "時事英語",
+   "会議 英語",
+   "教養",
+   "社会人 英語",
+   "business English"
+  ]
+ },
+ "thumbnail": {
+  "big": "完売",
+  "big_color": "red",
+  "under": "折りたたみiPhone",
+  "badge": "中国で即完売",
+  "badge_color": "red",
+  "question": "出荷は来年1月",
+  "pill": "sold out",
+  "bottom": "会議で使える英語3つ",
+  "crack": false
+ },
+ "shorts": [
+  {
+   "phrase": 0,
+   "hook": [
+    "「売り切れる」",
+    "英語で言える?"
+   ],
+   "news_hook": [
+    "折りたたみiPhone",
+    "中国で即完売"
+   ],
+   "ctx": "iPhone Duoの中国の予約で起きたこと",
+   "title": "「売り切れる」は英語で?折りたたみiPhoneが中国で即完売 #ビジネス英語 #shorts",
+   "ig_caption": "「売り切れる」を英語で言えますか?\n\n✅ sell out\n売り切れる・完売する\n\n例文:The early-bird tickets will sell out in two hours.\n(早割チケットは2時間で売り切れるでしょう。)\n\nアップルの折りたたみiPhoneが、中国で予約開始後すぐに売り切れました。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  }
+ ],
+ "sources": [
+  {
+   "title": "中央通訊社(CNA)「iPhone Duo中國市場熱銷 發貨排至明年、黃牛價高漲」(2026年10月17日)",
+   "url": "https://www.cna.com.tw/news/acn/202610170102.aspx"
+  }
+ ],
+ "publish": {
+  "long": "2026-10-25T17:00:00+09:00",
+  "shorts": [
+   "2026-10-25T17:00:00+09:00"
+  ]
+ }
+}

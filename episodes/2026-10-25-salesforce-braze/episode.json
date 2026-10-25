@@ -1,0 +1,520 @@
+{
+ "id": "2026-10-25-salesforce-braze",
+ "episode": "#04",
+ "date": "2026-10-20",
+ "series": "決算と数字の英語",
+ "title_card": {
+  "line1": "セールスフォースが56億ドルで買収。",
+  "line2": "「上乗せ58%」の理由を英語で読む"
+ },
+ "readings": [
+  [
+   "AI",
+   "エーアイ"
+  ]
+ ],
+ "phrases": [
+  {
+   "en": "at a premium",
+   "jp": "上乗せした価格で",
+   "ex": "They're offering to buy our shares at a premium.",
+   "ex_jp": "彼らは、株を上乗せした価格で買うと提案しています。"
+  },
+  {
+   "en": "fill a gap",
+   "jp": "足りない部分を埋める",
+   "ex": "This new hire will fill a gap in our data team.",
+   "ex_jp": "今回の採用で、データチームの足りない部分が埋まります。"
+  },
+  {
+   "en": "walk away from the deal",
+   "jp": "取引から手を引く",
+   "ex": "If the price goes up again, we should walk away from the deal.",
+   "ex_jp": "また値上げされたら、この取引から手を引くべきです。"
+  }
+ ],
+ "words": [
+  {
+   "en": "acquisition",
+   "jp": "買収"
+  },
+  {
+   "en": "termination fee",
+   "jp": "契約解除料"
+  },
+  {
+   "en": "in cash",
+   "jp": "現金で"
+  }
+ ],
+ "homework": {
+  "en": "What gap would you fill in your team?",
+  "jp": "あなたのチームで埋めたい穴は?",
+  "hl": [
+   "fill"
+  ],
+  "say": "最後に宿題です。あなたのチームで、埋めたい足りない部分は何ですか。英語で、コメント欄に書いてみてください。"
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "beats": [
+    {
+     "id": "h01",
+     "kind": "jp",
+     "jp": "セールスフォースが、マーケティング支援のブレイズを、およそ56億ドルで買収します。",
+     "en": "Salesforce will buy marketing platform Braze for about $5.66 billion.",
+     "vis": {
+      "t": "hero",
+      "kicker": "acquisition",
+      "big": "$5.66B",
+      "color": "gold",
+      "sub": "セールスフォースがブレイズを買収",
+      "sub_color": "text"
+     },
+     "hl": [
+      "buy"
+     ]
+    },
+    {
+     "id": "h02",
+     "kind": "jp",
+     "jp": "提示した価格は、直前の株価に58%を上乗せしたものでした。",
+     "en": "The offer was a 58% premium to Braze's last close.",
+     "vis": {
+      "t": "hero_side",
+      "big": "+58%",
+      "color": "green",
+      "text": "at a premium",
+      "jp": "上乗せした価格で"
+     },
+     "hl": [
+      "premium"
+     ]
+    },
+    {
+     "id": "h03",
+     "kind": "jp",
+     "jp": "今日はこのニュースから、会議で使える英語を3つ。最後に答え合わせをします。",
+     "en": "Three phrases for your next meeting. Answers at the end.",
+     "vis": {
+      "t": "teaser"
+     }
+    }
+   ]
+  },
+  {
+   "id": "what",
+   "chapter": "何が起きたか",
+   "beats": [
+    {
+     "id": "p01",
+     "kind": "jp",
+     "jp": "セールスフォースは10月20日、ブレイズを1株47ドル50セント、現金で買収すると発表しました。",
+     "en": "On October 20, Salesforce agreed to buy Braze for $47.50 a share in cash.",
+     "vis": {
+      "t": "counter",
+      "kicker": "PRICE PER SHARE",
+      "to": 47.5,
+      "decimals": 2,
+      "prefix": "$",
+      "color": "gold",
+      "sub": "1株あたり・現金で",
+      "note": "2026年10月20日 発表"
+     },
+     "hl": [
+      "in cash"
+     ]
+    },
+    {
+     "id": "p02",
+     "kind": "jp",
+     "jp": "これは、直前の終値に、約58%を上乗せした価格です。つまり、上乗せした価格で買う、ということです。",
+     "en": "That's about a 58% premium. In other words, they're buying at a premium.",
+     "vis": {
+      "t": "bars",
+      "title": "ブレイズの株価と買収価格(1株・ドル)",
+      "unit": "ドル",
+      "items": [
+       {
+        "label": "直前の終値",
+        "value": 30.04,
+        "display": "約30ドル",
+        "color": "muted"
+       },
+       {
+        "label": "買収価格",
+        "value": 47.5,
+        "display": "47.50ドル(+58%)",
+        "color": "gold"
+       }
+      ],
+      "note": "終値は買収価格と上乗せ率からの概算"
+     },
+     "hl": [
+      "at a premium"
+     ],
+     "star": true
+    },
+    {
+     "id": "p03",
+     "kind": "en_insert",
+     "en": "They're buying at a premium.",
+     "jp": "上乗せした価格で買っている",
+     "vis": {
+      "t": "bars",
+      "title": "ブレイズの株価と買収価格(1株・ドル)",
+      "unit": "ドル",
+      "items": [
+       {
+        "label": "直前の終値",
+        "value": 30.04,
+        "display": "約30ドル",
+        "color": "muted"
+       },
+       {
+        "label": "買収価格",
+        "value": 47.5,
+        "display": "47.50ドル(+58%)",
+        "color": "gold"
+       }
+      ],
+      "note": "終値は買収価格と上乗せ率からの概算"
+     },
+     "star": true,
+     "hl": [
+      "at a premium"
+     ]
+    },
+    {
+     "id": "p04",
+     "kind": "jp",
+     "jp": "ブレイズの顧客は約2770社。キャンバやインスタカートなど、AIを使って、メッセージの内容や送るタイミングを最適化する仕組みを提供しています。",
+     "en": "Braze has about 2,770 customers, including Canva and Instacart, and uses AI to tune messages.",
+     "vis": {
+      "t": "cards",
+      "footer": "ブレイズの主な顧客",
+      "items": [
+       {
+        "name": "Canva",
+        "big": "デザイン",
+        "sub": "オンラインツール",
+        "color": "blue"
+       },
+       {
+        "name": "Instacart",
+        "big": "宅配",
+        "sub": "食料品の配達",
+        "color": "green"
+       },
+       {
+        "name": "Venmo",
+        "big": "送金",
+        "sub": "個人間の決済",
+        "color": "gold"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "why",
+   "chapter": "なぜ買うのか",
+   "beats": [
+    {
+     "id": "q01",
+     "kind": "jp",
+     "jp": "アナリストは、ブレイズを、セールスフォースのマーケティング事業に欠けていた、リアルタイムで顧客とつながる層だと評価しています。",
+     "en": "An analyst called Braze the real-time engagement layer Salesforce had lacked.",
+     "vis": {
+      "t": "layers",
+      "layers": [
+       "顧客データ  Data",
+       "マーケティング  Marketing"
+      ],
+      "icing": {
+       "label": "Braze",
+       "en": "real-time engagement",
+       "jp": "= リアルタイムの接点",
+       "en2": "the missing layer",
+       "jp2": "= 欠けていた部分"
+      }
+     }
+    },
+    {
+     "id": "q02",
+     "kind": "jp",
+     "jp": "足りない部分を埋める買収、というわけです。",
+     "en": "It's an acquisition to fill a gap.",
+     "vis": {
+      "t": "layers",
+      "layers": [
+       "顧客データ  Data",
+       "マーケティング  Marketing"
+      ],
+      "icing": {
+       "label": "Braze",
+       "en": "real-time engagement",
+       "jp": "= リアルタイムの接点",
+       "en2": "the missing layer",
+       "jp2": "= 欠けていた部分"
+      },
+      "glow": true,
+      "footer": "fill a gap"
+     },
+     "hl": [
+      "fill a gap"
+     ],
+     "star": true
+    },
+    {
+     "id": "q03",
+     "kind": "en_insert",
+     "en": "This deal will fill a gap.",
+     "jp": "この買収で足りない部分が埋まる",
+     "vis": {
+      "t": "layers",
+      "layers": [
+       "顧客データ  Data",
+       "マーケティング  Marketing"
+      ],
+      "icing": {
+       "label": "Braze",
+       "en": "real-time engagement",
+       "jp": "= リアルタイムの接点",
+       "en2": "the missing layer",
+       "jp2": "= 欠けていた部分"
+      },
+      "glow": true,
+      "footer": "fill a gap"
+     },
+     "star": true,
+     "hl": [
+      "fill a gap"
+     ]
+    },
+    {
+     "id": "q04",
+     "kind": "jp",
+     "jp": "契約には、どちらかが手を引いた場合の違約金も決められています。セールスフォースなら3億ドル、ブレイズなら約1億9千万ドルです。",
+     "en": "If either side walks away from the deal, it pays a fee: $300 million or $191.4 million.",
+     "vis": {
+      "t": "vs",
+      "left": {
+       "en": "salesforce",
+       "label": "セールスフォースが手を引くと",
+       "val": "3億ドル",
+       "up": false,
+       "color": "red"
+      },
+      "right": {
+       "en": "braze",
+       "label": "ブレイズが手を引くと",
+       "val": "1.9億ドル",
+       "up": false,
+       "color": "red"
+      },
+      "mid": "違約金"
+     },
+     "hl": [
+      "walks away from the deal"
+     ],
+     "star": true
+    },
+    {
+     "id": "q05",
+     "kind": "en_insert",
+     "en": "We can still walk away from the deal.",
+     "jp": "まだ取引から手を引ける",
+     "vis": {
+      "t": "vs",
+      "left": {
+       "en": "salesforce",
+       "label": "セールスフォースが手を引くと",
+       "val": "3億ドル",
+       "up": false,
+       "color": "red"
+      },
+      "right": {
+       "en": "braze",
+       "label": "ブレイズが手を引くと",
+       "val": "1.9億ドル",
+       "up": false,
+       "color": "red"
+      },
+      "mid": "違約金"
+     },
+     "star": true,
+     "hl": [
+      "walk away from the deal"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "meaning",
+   "chapter": "私たちへの意味",
+   "beats": [
+    {
+     "id": "m01",
+     "kind": "jp",
+     "jp": "このニュースから、私たちは何を学べるでしょうか。",
+     "en": "What can we learn from this deal?",
+     "vis": {
+      "t": "statement",
+      "kicker": "SO WHAT?",
+      "text": "自前で作るか、買うか"
+     }
+    },
+    {
+     "id": "m02",
+     "kind": "jp",
+     "jp": "AIの機能を、自社でゼロから作るより、すでに顧客を持つ会社ごと買う方が早い。大企業の多くが、この判断をしています。",
+     "en": "Buying a company with customers can be faster than building AI features yourself.",
+     "vis": {
+      "t": "points",
+      "show": 1,
+      "items": [
+       {
+        "head": "読み取れること",
+        "big": "作るより\n買う方が速い",
+        "sub": "顧客ごと手に入る",
+        "color": "gold"
+       },
+       {
+        "head": "逆の見方",
+        "big": "高値づかみ\nのリスク",
+        "sub": "58%の上乗せを\n回収できるか",
+        "color": "red"
+       },
+       {
+        "head": "日本の現場",
+        "big": "外資の\n買収が身近に",
+        "sub": "取引先の親会社が\n変わることも",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "m03",
+     "kind": "jp",
+     "jp": "ただし、58%の上乗せを、将来の利益で取り戻せるかはまだ分かりません。高値で買いすぎるリスクもあります。",
+     "en": "But whether a 58% premium pays off is still unknown.",
+     "vis": {
+      "t": "points",
+      "show": 2,
+      "items": [
+       {
+        "head": "読み取れること",
+        "big": "作るより\n買う方が速い",
+        "sub": "顧客ごと手に入る",
+        "color": "gold"
+       },
+       {
+        "head": "逆の見方",
+        "big": "高値づかみ\nのリスク",
+        "sub": "58%の上乗せを\n回収できるか",
+        "color": "red"
+       },
+       {
+        "head": "日本の現場",
+        "big": "外資の\n買収が身近に",
+        "sub": "取引先の親会社が\n変わることも",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "m04",
+     "kind": "jp",
+     "jp": "日本でも、使っている海外のツールの会社が、突然買収されることがあります。英語の発表を読めると、契約や料金の変化に早く気づけます。",
+     "en": "The overseas tools you use can change owners. Reading the English news helps you react early.",
+     "vis": {
+      "t": "points",
+      "show": 3,
+      "items": [
+       {
+        "head": "読み取れること",
+        "big": "作るより\n買う方が速い",
+        "sub": "顧客ごと手に入る",
+        "color": "gold"
+       },
+       {
+        "head": "逆の見方",
+        "big": "高値づかみ\nのリスク",
+        "sub": "58%の上乗せを\n回収できるか",
+        "color": "red"
+       },
+       {
+        "head": "日本の現場",
+        "big": "外資の\n買収が身近に",
+        "sub": "取引先の親会社が\n変わることも",
+        "color": "green"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "セールスフォースが58%上乗せで買収。「足りない部分を埋める」を英語で【ニュースで学ぶビジネス英語 #04】",
+  "summary": "セールスフォースは2026年10月20日、マーケティング支援のブレイズを約56億6千万ドルで買収すると発表しました。1株47.50ドルの現金で、直前の株価に約58%を上乗せした価格です。このニュースを解説し、M&Aの会話で使える英語を学びます。",
+  "tags": [
+   "セールスフォース",
+   "Salesforce",
+   "Braze",
+   "買収",
+   "M&A",
+   "ビジネス英語",
+   "英語学習",
+   "ニュース英語",
+   "時事英語",
+   "会議 英語",
+   "教養",
+   "社会人 英語",
+   "business English"
+  ]
+ },
+ "thumbnail": {
+  "big": "+58%",
+  "big_color": "green",
+  "under": "上乗せで買収",
+  "badge": "セールスフォース",
+  "badge_color": "gold",
+  "question": "なぜ高く買う?",
+  "pill": "fill a gap",
+  "bottom": "会議で使える英語3つ"
+ },
+ "shorts": [
+  {
+   "phrase": 0,
+   "hook": [
+    "「上乗せした価格で」",
+    "英語で言える?"
+   ],
+   "news_hook": [
+    "セールスフォースが買収",
+    "58%上乗せの56億ドル"
+   ],
+   "ctx": "セールスフォースのブレイズ買収で話題の表現",
+   "title": "「上乗せした価格で」は英語で?セールスフォースが58%上乗せで買収 #ビジネス英語 #shorts",
+   "ig_caption": "「上乗せした価格で」を英語で言えますか?\n\n✅ at a premium\n上乗せした価格で\n\n例文:They're offering to buy our shares at a premium.\n(彼らは、株を上乗せした価格で買うと提案しています。)\n\nセールスフォースが、ブレイズを58%上乗せの価格で買収すると発表しました。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  }
+ ],
+ "sources": [
+  {
+   "title": "The Star(Reuters)「Salesforce to acquire Braze in a $5.66 billion deal」(2026年10月20日)",
+   "url": "https://www.thestar.com.my/tech/tech-news/2026/10/20/salesforce-to-acquire-braze-in-a-566-billion-deal"
+  }
+ ],
+ "publish": {
+  "long": "2026-10-25T17:00:00+09:00",
+  "shorts": [
+   "2026-10-25T17:00:00+09:00"
+  ]
+ }
+}

@@ -1,0 +1,509 @@
+{
+ "id": "2026-10-25-kfc-coca-cola",
+ "episode": "#08",
+ "date": "2026-10-16",
+ "series": "Weekly Brief",
+ "title_card": {
+  "line1": "KFCがペプシをやめてコーラに。",
+  "line2": "約40年の関係を解消した理由"
+ },
+ "readings": [
+  [
+   "KFC",
+   "ケーエフシー"
+  ]
+ ],
+ "phrases": [
+  {
+   "en": "part ways with",
+   "jp": "〜と関係を解消する",
+   "ex": "We decided to part ways with our old logistics provider.",
+   "ex_jp": "以前の物流会社との取引をやめることにしました。"
+  },
+  {
+   "en": "a long-standing partner",
+   "jp": "長年の取引先",
+   "ex": "They have been a long-standing partner for over twenty years.",
+   "ex_jp": "彼らは20年以上の長年の取引先です。"
+  },
+  {
+   "en": "renew the contract",
+   "jp": "契約を更新する",
+   "ex": "We'll renew the contract if they keep the same price.",
+   "ex_jp": "同じ価格を維持してくれるなら、契約を更新します。"
+  }
+ ],
+ "words": [
+  {
+   "en": "beverage partner",
+   "jp": "飲料の取引先"
+  },
+  {
+   "en": "transition",
+   "jp": "移行"
+  },
+  {
+   "en": "spin off",
+   "jp": "分離・独立させる"
+  }
+ ],
+ "homework": {
+  "en": "Who is a long-standing partner of your team?",
+  "jp": "あなたのチームの長年の取引先は?",
+  "hl": [
+   "a long-standing partner"
+  ],
+  "say": "最後に宿題です。あなたのチームの、長年の取引先はどこですか。英語で、コメント欄に書いてみてください。"
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "beats": [
+    {
+     "id": "h01",
+     "kind": "jp",
+     "jp": "ケンタッキー・フライド・チキン、KFCが、アメリカの店で出す飲み物を、ペプシからコカ・コーラに切り替えます。",
+     "en": "KFC is switching from Pepsi to Coca-Cola at its U.S. restaurants.",
+     "vis": {
+      "t": "hero",
+      "kicker": "switching drinks",
+      "big": "40年",
+      "color": "red",
+      "crack": true,
+      "sub": "ペプシとの関係に幕",
+      "sub_color": "gold"
+     },
+     "hl": [
+      "switching"
+     ]
+    },
+    {
+     "id": "h02",
+     "kind": "jp",
+     "jp": "およそ40年続いた関係に、終止符を打ちます。",
+     "en": "It ends a partnership of nearly 40 years.",
+     "vis": {
+      "t": "hero_side",
+      "big": "40年",
+      "color": "red",
+      "text": "part ways",
+      "jp": "関係を解消する"
+     }
+    },
+    {
+     "id": "h03",
+     "kind": "jp",
+     "jp": "今日はこのニュースから、会議で使える英語を3つ。最後に答え合わせをします。",
+     "en": "Three phrases for your next meeting. Answers at the end.",
+     "vis": {
+      "t": "teaser"
+     }
+    }
+   ]
+  },
+  {
+   "id": "what",
+   "chapter": "何が起きたか",
+   "beats": [
+    {
+     "id": "p01",
+     "kind": "jp",
+     "jp": "KFCは10月16日、アメリカにある約3700店で、飲み物をコカ・コーラの商品に替えると発表しました。",
+     "en": "On October 16, KFC said it will switch to Coca-Cola at about 3,700 U.S. restaurants.",
+     "vis": {
+      "t": "counter",
+      "kicker": "KFC U.S. RESTAURANTS",
+      "to": 3700,
+      "prefix": "約",
+      "suffix": "店",
+      "color": "red",
+      "sub": "飲み物をコカ・コーラに",
+      "note": "2027年1月から順次・春までに完了予定"
+     }
+    },
+    {
+     "id": "p02",
+     "kind": "jp",
+     "jp": "KFCとペプシの関係は長く、1986年にはペプシコがKFCを買収したこともあります。KFCにとって、長年の取引先でした。",
+     "en": "PepsiCo bought KFC in 1986. Pepsi was a long-standing partner.",
+     "vis": {
+      "t": "timeline",
+      "items": [
+       {
+        "when": "1986年",
+        "text": "ペプシコがKFCを買収",
+        "color": "blue"
+       },
+       {
+        "when": "1997年",
+        "text": "KFCを分離。その後も飲み物はペプシ",
+        "color": "blue"
+       },
+       {
+        "when": "2026年10月",
+        "text": "KFCがコカ・コーラへの切り替えを発表",
+        "color": "red"
+       },
+       {
+        "when": "2027年春",
+        "text": "全米約3700店で切り替え完了の予定",
+        "color": "gold"
+       }
+      ],
+      "show": 2
+     },
+     "hl": [
+      "a long-standing partner"
+     ],
+     "star": true
+    },
+    {
+     "id": "p03",
+     "kind": "en_insert",
+     "en": "Pepsi was a long-standing partner.",
+     "jp": "ペプシは長年の取引先だった",
+     "vis": {
+      "t": "timeline",
+      "items": [
+       {
+        "when": "1986年",
+        "text": "ペプシコがKFCを買収",
+        "color": "blue"
+       },
+       {
+        "when": "1997年",
+        "text": "KFCを分離。その後も飲み物はペプシ",
+        "color": "blue"
+       },
+       {
+        "when": "2026年10月",
+        "text": "KFCがコカ・コーラへの切り替えを発表",
+        "color": "red"
+       },
+       {
+        "when": "2027年春",
+        "text": "全米約3700店で切り替え完了の予定",
+        "color": "gold"
+       }
+      ],
+      "show": 2
+     },
+     "star": true,
+     "hl": [
+      "a long-standing partner"
+     ]
+    },
+    {
+     "id": "p04",
+     "kind": "jp",
+     "jp": "その関係を解消して、コカ・コーラと組みます。切り替えは2027年1月に始まり、春までに全店で終える予定です。",
+     "en": "KFC will part ways with Pepsi. The switch starts in January 2027.",
+     "vis": {
+      "t": "timeline",
+      "items": [
+       {
+        "when": "1986年",
+        "text": "ペプシコがKFCを買収",
+        "color": "blue"
+       },
+       {
+        "when": "1997年",
+        "text": "KFCを分離。その後も飲み物はペプシ",
+        "color": "blue"
+       },
+       {
+        "when": "2026年10月",
+        "text": "KFCがコカ・コーラへの切り替えを発表",
+        "color": "red"
+       },
+       {
+        "when": "2027年春",
+        "text": "全米約3700店で切り替え完了の予定",
+        "color": "gold"
+       }
+      ],
+      "show": 4
+     },
+     "hl": [
+      "part ways with"
+     ],
+     "star": true
+    },
+    {
+     "id": "p05",
+     "kind": "en_insert",
+     "en": "KFC will part ways with Pepsi.",
+     "jp": "KFCはペプシとの関係を解消する",
+     "vis": {
+      "t": "timeline",
+      "items": [
+       {
+        "when": "1986年",
+        "text": "ペプシコがKFCを買収",
+        "color": "blue"
+       },
+       {
+        "when": "1997年",
+        "text": "KFCを分離。その後も飲み物はペプシ",
+        "color": "blue"
+       },
+       {
+        "when": "2026年10月",
+        "text": "KFCがコカ・コーラへの切り替えを発表",
+        "color": "red"
+       },
+       {
+        "when": "2027年春",
+        "text": "全米約3700店で切り替え完了の予定",
+        "color": "gold"
+       }
+      ],
+      "show": 4
+     },
+     "star": true,
+     "hl": [
+      "part ways with"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "why",
+   "chapter": "なぜ替えるのか",
+   "beats": [
+    {
+     "id": "q01",
+     "kind": "jp",
+     "jp": "KFCは、店に来る理由を増やす改革の一環だと説明しています。新しい料理と飲み物の組み合わせも狙っています。",
+     "en": "KFC says it's part of a plan to give customers more reasons to visit.",
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "飲み物をコカ・コーラに",
+        "mid": "改革",
+        "res": "料理との新しい組み合わせ",
+        "ok": true
+       },
+       {
+        "a": "飲み物の選択肢を増やす",
+        "mid": "改革",
+        "res": "店に来る理由を増やす",
+        "ok": true
+       }
+      ]
+     }
+    },
+    {
+     "id": "q02",
+     "kind": "jp",
+     "jp": "一方のペプシコも、負けてばかりではありません。報道によると、同じグループのタコベルや、海外のKFCとの契約は更新しています。",
+     "en": "PepsiCo recently renewed deals for Taco Bell and KFC's international restaurants.",
+     "vis": {
+      "t": "vs",
+      "left": {
+       "en": "lost",
+       "label": "米国のKFC",
+       "val": "コカ・コーラへ",
+       "up": false,
+       "color": "red"
+      },
+      "right": {
+       "en": "renewed",
+       "label": "タコベル・海外KFC",
+       "val": "契約を更新",
+       "up": true,
+       "color": "blue"
+      },
+      "mid": "一方で"
+     },
+     "hl": [
+      "renewed"
+     ],
+     "star": true
+    },
+    {
+     "id": "q03",
+     "kind": "en_insert",
+     "en": "PepsiCo renewed the contract.",
+     "jp": "ペプシコは契約を更新した",
+     "vis": {
+      "t": "vs",
+      "left": {
+       "en": "lost",
+       "label": "米国のKFC",
+       "val": "コカ・コーラへ",
+       "up": false,
+       "color": "red"
+      },
+      "right": {
+       "en": "renewed",
+       "label": "タコベル・海外KFC",
+       "val": "契約を更新",
+       "up": true,
+       "color": "blue"
+      },
+      "mid": "一方で"
+     },
+     "star": true,
+     "hl": [
+      "renewed the contract"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "meaning",
+   "chapter": "私たちへの意味",
+   "beats": [
+    {
+     "id": "m01",
+     "kind": "jp",
+     "jp": "40年の関係でも、相手の戦略が変われば見直されます。関係の長さだけでは、取引は続きません。",
+     "en": "Even a 40-year relationship gets reviewed when strategy changes.",
+     "vis": {
+      "t": "points",
+      "show": 1,
+      "items": [
+       {
+        "head": "読み取れること",
+        "big": "長年の関係も\n見直される",
+        "sub": "「店に来る理由」を\n増やすための判断",
+        "color": "red"
+       },
+       {
+        "head": "逆の見方",
+        "big": "ペプシは\n更新も勝ち取る",
+        "sub": "タコベルや海外の\nKFCは継続",
+        "color": "blue"
+       },
+       {
+        "head": "日本の現場",
+        "big": "取引先の\n見直しは普通",
+        "sub": "関係が長くても\n提案は欠かせない",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "m02",
+     "kind": "jp",
+     "jp": "ただし、ペプシコはほかの契約を守っています。失った取引だけでなく、守った取引にも目を向ける必要があります。",
+     "en": "But PepsiCo kept other deals. Look at what was kept, not only what was lost.",
+     "vis": {
+      "t": "points",
+      "show": 2,
+      "items": [
+       {
+        "head": "読み取れること",
+        "big": "長年の関係も\n見直される",
+        "sub": "「店に来る理由」を\n増やすための判断",
+        "color": "red"
+       },
+       {
+        "head": "逆の見方",
+        "big": "ペプシは\n更新も勝ち取る",
+        "sub": "タコベルや海外の\nKFCは継続",
+        "color": "blue"
+       },
+       {
+        "head": "日本の現場",
+        "big": "取引先の\n見直しは普通",
+        "sub": "関係が長くても\n提案は欠かせない",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "m03",
+     "kind": "jp",
+     "jp": "日本の会社でも、取引先の見直しはよくあることです。長年の取引先こそ、新しい提案を続けることが大切です。",
+     "en": "In Japan, too, long-standing partners need to keep bringing new ideas.",
+     "vis": {
+      "t": "points",
+      "show": 3,
+      "items": [
+       {
+        "head": "読み取れること",
+        "big": "長年の関係も\n見直される",
+        "sub": "「店に来る理由」を\n増やすための判断",
+        "color": "red"
+       },
+       {
+        "head": "逆の見方",
+        "big": "ペプシは\n更新も勝ち取る",
+        "sub": "タコベルや海外の\nKFCは継続",
+        "color": "blue"
+       },
+       {
+        "head": "日本の現場",
+        "big": "取引先の\n見直しは普通",
+        "sub": "関係が長くても\n提案は欠かせない",
+        "color": "green"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "KFCがペプシと決別、コーラへ。「関係を解消する」を英語で【ニュースで学ぶビジネス英語 #08】",
+  "summary": "KFCは2026年10月16日、アメリカの約3700店で出す飲み物を、ペプシからコカ・コーラに切り替えると発表しました。約40年続いた関係の解消で、2027年春までに全店で切り替える予定です。このニュースから、取引先との会話で使える英語を学びます。",
+  "tags": [
+   "KFC",
+   "コカ・コーラ",
+   "ペプシ",
+   "取引先",
+   "外食",
+   "ビジネス英語",
+   "英語学習",
+   "ニュース英語",
+   "時事英語",
+   "会議 英語",
+   "教養",
+   "社会人 英語",
+   "business English"
+  ]
+ },
+ "thumbnail": {
+  "big": "40年",
+  "big_color": "red",
+  "under": "の関係を解消",
+  "badge": "KFC→コカ・コーラ",
+  "badge_color": "red",
+  "question": "なぜ替えた?",
+  "pill": "part ways with",
+  "bottom": "会議で使える英語3つ"
+ },
+ "shorts": [
+  {
+   "phrase": 0,
+   "hook": [
+    "「関係を解消する」",
+    "英語で言える?"
+   ],
+   "news_hook": [
+    "KFCがペプシをやめて",
+    "コカ・コーラに"
+   ],
+   "ctx": "KFCが約40年続いたペプシとの関係を見直した",
+   "title": "「関係を解消する」は英語で?KFCがペプシと40年で決別 #ビジネス英語 #shorts",
+   "ig_caption": "「関係を解消する」を英語で言えますか?\n\n✅ part ways with\n〜と関係を解消する\n\n例文:We decided to part ways with our old logistics provider.\n(以前の物流会社との取引をやめることにしました。)\n\nKFCが、約40年続いたペプシとの関係を解消するニュースで使える表現です。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  }
+ ],
+ "sources": [
+  {
+   "title": "FOX 5 Atlanta(FOX Business)「KFC replacing Pepsi with Coca-Cola at 3,700 US restaurants after nearly four decades」(2026年10月16日)",
+   "url": "https://www.fox5atlanta.com/news/kfc-replacing-pepsi-coca-cola-3700-us-restaurants-after-nearly-four-decades"
+  }
+ ],
+ "publish": {
+  "long": "2026-10-25T17:00:00+09:00",
+  "shorts": [
+   "2026-10-25T17:00:00+09:00"
+  ]
+ }
+}

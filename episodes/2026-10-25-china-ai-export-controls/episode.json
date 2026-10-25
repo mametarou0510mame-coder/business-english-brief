@@ -1,0 +1,523 @@
+{
+ "id": "2026-10-25-china-ai-export-controls",
+ "episode": "#07",
+ "date": "2026-10-16",
+ "series": "テックとAI",
+ "title_card": {
+  "line1": "中国がAI技術の輸出を規制へ。",
+  "line2": "40の技術、その理由を英語で読む"
+ },
+ "readings": [
+  [
+   "AI",
+   "エーアイ"
+  ]
+ ],
+ "phrases": [
+  {
+   "en": "on national security grounds",
+   "jp": "国家安全保障を理由に",
+   "ex": "The deal was blocked on national security grounds.",
+   "ex_jp": "その取引は、国家安全保障を理由に差し止められました。"
+  },
+  {
+   "en": "tighten controls",
+   "jp": "管理を厳しくする",
+   "ex": "We need to tighten controls on who can access customer data.",
+   "ex_jp": "顧客データにアクセスできる人の管理を、厳しくする必要があります。"
+  },
+  {
+   "en": "in response to",
+   "jp": "〜を受けて・〜への対応として",
+   "ex": "In response to your feedback, we've changed the schedule.",
+   "ex_jp": "いただいたご意見を受けて、スケジュールを変更しました。"
+  }
+ ],
+ "words": [
+  {
+   "en": "export controls",
+   "jp": "輸出規制"
+  },
+  {
+   "en": "draft rules",
+   "jp": "規則案"
+  },
+  {
+   "en": "sovereignty",
+   "jp": "主権"
+  }
+ ],
+ "homework": {
+  "en": "What did your team change in response to feedback?",
+  "jp": "意見を受けて変えたことは?",
+  "hl": [
+   "in response to"
+  ],
+  "say": "最後に宿題です。あなたのチームが、意見を受けて変えたことは何ですか。英語で、コメント欄に書いてみてください。"
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "beats": [
+    {
+     "id": "h01",
+     "kind": "jp",
+     "jp": "中国が、AIを含む40の技術について、輸出を制限したり禁止したりする案を出しました。",
+     "en": "China has proposed restricting or banning exports of 40 technologies, including AI.",
+     "vis": {
+      "t": "hero",
+      "kicker": "export controls",
+      "big": "40",
+      "color": "red",
+      "sub": "の技術で輸出を制限・禁止へ",
+      "sub_color": "gold"
+     },
+     "hl": [
+      "restricting or banning exports"
+     ]
+    },
+    {
+     "id": "h02",
+     "kind": "jp",
+     "jp": "そのうち23は、AIの技術です。",
+     "en": "Twenty-three of them are AI technologies.",
+     "vis": {
+      "t": "hero_side",
+      "big": "23",
+      "color": "red",
+      "text": "AI technologies",
+      "jp": "AIの技術"
+     }
+    },
+    {
+     "id": "h03",
+     "kind": "jp",
+     "jp": "今日はこのニュースから、会議で使える英語を3つ。最後に答え合わせをします。",
+     "en": "Three phrases for your next meeting. Answers at the end.",
+     "vis": {
+      "t": "teaser"
+     }
+    }
+   ]
+  },
+  {
+   "id": "what",
+   "chapter": "何が起きたか",
+   "beats": [
+    {
+     "id": "p01",
+     "kind": "jp",
+     "jp": "中国の商務省と科学技術省は10月16日、輸出を制限、または禁止する技術の一覧の改定案を公表しました。",
+     "en": "On October 16, China's commerce and science ministries published draft export rules.",
+     "vis": {
+      "t": "counter",
+      "kicker": "DRAFT RULES",
+      "big": "40の技術",
+      "color": "red",
+      "sub": "輸出の制限・禁止の対象に",
+      "note": "2026年10月16日 中国商務省・科学技術省"
+     }
+    },
+    {
+     "id": "p02",
+     "kind": "jp",
+     "jp": "AIでは、大規模なモデルからAIエージェントまで23の技術が並びます。2兆以上のパラメータを持つモデルも、制限の対象になりえます。",
+     "en": "The AI list runs from large models to agents. Models with 2 trillion parameters or more could be restricted.",
+     "vis": {
+      "t": "cards",
+      "footer": "輸出の制限・禁止を検討する40の技術",
+      "items": [
+       {
+        "name": "AI",
+        "big": "23",
+        "sub": "大規模モデル〜エージェント",
+        "note": "2兆パラメータ以上も対象に",
+        "color": "red"
+       },
+       {
+        "name": "太陽光",
+        "big": "12",
+        "sub": "ポリシリコンの製造など",
+        "note": "",
+        "color": "gold"
+       },
+       {
+        "name": "バイオ医療",
+        "big": "5",
+        "sub": "細胞・遺伝子治療など",
+        "note": "",
+        "color": "blue"
+       }
+      ],
+      "show": 1
+     }
+    },
+    {
+     "id": "p03",
+     "kind": "jp",
+     "jp": "ほかにも、太陽光パネルの材料をつくる技術や、細胞や遺伝子の治療の技術が含まれています。",
+     "en": "Solar and biomedical technologies are also on the list.",
+     "vis": {
+      "t": "cards",
+      "footer": "輸出の制限・禁止を検討する40の技術",
+      "items": [
+       {
+        "name": "AI",
+        "big": "23",
+        "sub": "大規模モデル〜エージェント",
+        "note": "2兆パラメータ以上も対象に",
+        "color": "red"
+       },
+       {
+        "name": "太陽光",
+        "big": "12",
+        "sub": "ポリシリコンの製造など",
+        "note": "",
+        "color": "gold"
+       },
+       {
+        "name": "バイオ医療",
+        "big": "5",
+        "sub": "細胞・遺伝子治療など",
+        "note": "",
+        "color": "blue"
+       }
+      ],
+      "show": 3
+     }
+    },
+    {
+     "id": "p04",
+     "kind": "jp",
+     "jp": "中国の商務省は、国家安全保障を理由に、この措置は必要だと説明しています。",
+     "en": "The commerce ministry called the move necessary on national security grounds.",
+     "vis": {
+      "t": "cards",
+      "footer": "輸出の制限・禁止を検討する40の技術",
+      "items": [
+       {
+        "name": "AI",
+        "big": "23",
+        "sub": "大規模モデル〜エージェント",
+        "note": "2兆パラメータ以上も対象に",
+        "color": "red"
+       },
+       {
+        "name": "太陽光",
+        "big": "12",
+        "sub": "ポリシリコンの製造など",
+        "note": "",
+        "color": "gold"
+       },
+       {
+        "name": "バイオ医療",
+        "big": "5",
+        "sub": "細胞・遺伝子治療など",
+        "note": "",
+        "color": "blue"
+       }
+      ],
+      "show": 3
+     },
+     "hl": [
+      "on national security grounds"
+     ],
+     "star": true
+    },
+    {
+     "id": "p05",
+     "kind": "en_insert",
+     "en": "It was done on national security grounds.",
+     "jp": "国家安全保障を理由に行われた",
+     "vis": {
+      "t": "cards",
+      "footer": "輸出の制限・禁止を検討する40の技術",
+      "items": [
+       {
+        "name": "AI",
+        "big": "23",
+        "sub": "大規模モデル〜エージェント",
+        "note": "2兆パラメータ以上も対象に",
+        "color": "red"
+       },
+       {
+        "name": "太陽光",
+        "big": "12",
+        "sub": "ポリシリコンの製造など",
+        "note": "",
+        "color": "gold"
+       },
+       {
+        "name": "バイオ医療",
+        "big": "5",
+        "sub": "細胞・遺伝子治療など",
+        "note": "",
+        "color": "blue"
+       }
+      ],
+      "show": 3
+     },
+     "star": true,
+     "hl": [
+      "on national security grounds"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "why",
+   "chapter": "なぜ今か",
+   "beats": [
+    {
+     "id": "q01",
+     "kind": "jp",
+     "jp": "商務省は、AIが人間の管理のもとにあるようにするため、とも説明しています。管理を厳しくする、という流れです。",
+     "en": "It also said AI must remain under human control. It's a move to tighten controls.",
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "AI must remain",
+       "under human control."
+      ],
+      "hl": [
+       "under human control"
+      ],
+      "by": "中国商務省の説明の要旨(AP通信の報道より)"
+     },
+     "hl": [
+      "tighten controls"
+     ],
+     "star": true
+    },
+    {
+     "id": "q02",
+     "kind": "en_insert",
+     "en": "They want to tighten controls.",
+     "jp": "管理を厳しくしたい",
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "AI must remain",
+       "under human control."
+      ],
+      "hl": [
+       "under human control"
+      ],
+      "by": "中国商務省の説明の要旨(AP通信の報道より)"
+     },
+     "star": true,
+     "hl": [
+      "tighten controls"
+     ]
+    },
+    {
+     "id": "q03",
+     "kind": "jp",
+     "jp": "調査会社オムディアのアナリストは、欧米の国々が重要な技術に主権の条件を設けていることへの、対応だと見ています。",
+     "en": "An Omdia analyst sees it as a response to Western sovereignty requirements.",
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "欧米が技術の主権を重視",
+        "mid": "規制",
+        "res": "中国も自国の技術を囲い込む",
+        "ok": false
+       },
+       {
+        "a": "AIの安全への懸念",
+        "mid": "管理",
+        "res": "人間の管理下に置く",
+        "ok": true
+       }
+      ]
+     },
+     "hl": [
+      "a response to"
+     ],
+     "star": true
+    },
+    {
+     "id": "q04",
+     "kind": "en_insert",
+     "en": "This is in response to Western rules.",
+     "jp": "欧米の規則への対応だ",
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "欧米が技術の主権を重視",
+        "mid": "規制",
+        "res": "中国も自国の技術を囲い込む",
+        "ok": false
+       },
+       {
+        "a": "AIの安全への懸念",
+        "mid": "管理",
+        "res": "人間の管理下に置く",
+        "ok": true
+       }
+      ]
+     },
+     "star": true,
+     "hl": [
+      "in response to"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "meaning",
+   "chapter": "私たちへの意味",
+   "beats": [
+    {
+     "id": "m01",
+     "kind": "jp",
+     "jp": "中国の企業と一緒に開発していたり、中国の技術を使った製品を扱っていたりする会社は、影響がないか確認が必要です。",
+     "en": "Companies working with Chinese partners should check whether they are affected.",
+     "vis": {
+      "t": "points",
+      "show": 1,
+      "items": [
+       {
+        "head": "影響",
+        "big": "中国発の\n技術に制限",
+        "sub": "中国の協力先との\n開発・調達を確認",
+        "color": "red"
+       },
+       {
+        "head": "逆の見方",
+        "big": "まだ\n案の段階",
+        "sub": "具体的なモデル名は\n挙がっていない",
+        "color": "blue"
+       },
+       {
+        "head": "英語の出番",
+        "big": "規制の原文は\n英語で追う",
+        "sub": "各国の動きを\n比べて読む",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "m02",
+     "kind": "jp",
+     "jp": "ただし、まだ案の段階で、具体的なモデルの名前は挙がっていません。最終的な内容を待つ必要があります。",
+     "en": "But these are draft rules, and no specific models were named.",
+     "vis": {
+      "t": "points",
+      "show": 2,
+      "items": [
+       {
+        "head": "影響",
+        "big": "中国発の\n技術に制限",
+        "sub": "中国の協力先との\n開発・調達を確認",
+        "color": "red"
+       },
+       {
+        "head": "逆の見方",
+        "big": "まだ\n案の段階",
+        "sub": "具体的なモデル名は\n挙がっていない",
+        "color": "blue"
+       },
+       {
+        "head": "英語の出番",
+        "big": "規制の原文は\n英語で追う",
+        "sub": "各国の動きを\n比べて読む",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "m03",
+     "kind": "jp",
+     "jp": "アメリカ、ヨーロッパ、中国と、技術の規制は国ごとに変わっていきます。英語で各国の動きを比べて読めることが、仕事の武器になります。",
+     "en": "Tech rules differ by country. Comparing them in English is a real skill.",
+     "vis": {
+      "t": "points",
+      "show": 3,
+      "items": [
+       {
+        "head": "影響",
+        "big": "中国発の\n技術に制限",
+        "sub": "中国の協力先との\n開発・調達を確認",
+        "color": "red"
+       },
+       {
+        "head": "逆の見方",
+        "big": "まだ\n案の段階",
+        "sub": "具体的なモデル名は\n挙がっていない",
+        "color": "blue"
+       },
+       {
+        "head": "英語の出番",
+        "big": "規制の原文は\n英語で追う",
+        "sub": "各国の動きを\n比べて読む",
+        "color": "green"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "中国がAI技術の輸出を規制へ。「国家安全保障を理由に」を英語で【ニュースで学ぶビジネス英語 #07】",
+  "summary": "中国の商務省と科学技術省は2026年10月16日、AIを含む40の技術について輸出を制限・禁止する規則案を公表しました。うち23がAI技術で、国家安全保障を理由に挙げています。このニュースを解説し、会議で使える英語を学びます。",
+  "tags": [
+   "中国",
+   "輸出規制",
+   "AI",
+   "経済安全保障",
+   "生成AI",
+   "ビジネス英語",
+   "英語学習",
+   "ニュース英語",
+   "時事英語",
+   "会議 英語",
+   "教養",
+   "社会人 英語",
+   "business English"
+  ]
+ },
+ "thumbnail": {
+  "big": "40",
+  "big_color": "red",
+  "under": "の技術を規制",
+  "badge": "うちAIが23",
+  "badge_color": "gold",
+  "question": "なぜ今?",
+  "pill": "national security",
+  "bottom": "会議で使える英語3つ"
+ },
+ "shorts": [
+  {
+   "phrase": 0,
+   "hook": [
+    "「国家安全保障を理由に」",
+    "英語で言える?"
+   ],
+   "news_hook": [
+    "中国がAI技術の",
+    "輸出を規制へ"
+   ],
+   "ctx": "中国が40の技術の輸出規制に挙げた理由",
+   "title": "「国家安全保障を理由に」は英語で?中国がAI技術の輸出を規制へ #ビジネス英語 #shorts",
+   "ig_caption": "「国家安全保障を理由に」を英語で言えますか?\n\n✅ on national security grounds\n国家安全保障を理由に\n\n例文:The deal was blocked on national security grounds.\n(その取引は、国家安全保障を理由に差し止められました。)\n\n中国が、AIを含む40の技術の輸出規制案で挙げた理由です。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  }
+ ],
+ "sources": [
+  {
+   "title": "ITV News(AP)「China moves to curb tech exports, including for AI and solar」(2026年10月16日)",
+   "url": "https://www.itv.com/news/2026-10-16/china-moves-to-curb-tech-exports-including-for-ai-and-solar"
+  }
+ ],
+ "publish": {
+  "long": "2026-10-25T17:00:00+09:00",
+  "shorts": [
+   "2026-10-25T17:00:00+09:00"
+  ]
+ }
+}

@@ -1,0 +1,454 @@
+{
+ "id": "2026-10-25-spacex-tesla-merger",
+ "episode": "#05",
+ "date": "2026-10-21",
+ "series": "経営者の一言を読む",
+ "title_card": {
+  "line1": "スペースXとテスラが合併?",
+  "line2": "マスク氏が「決めるのは委員会」と言う理由"
+ },
+ "readings": [
+  [
+   "SpaceX",
+   "スペースエックス"
+  ]
+ ],
+ "phrases": [
+  {
+   "en": "a conflict of interest",
+   "jp": "利益相反",
+   "ex": "I have a conflict of interest, so I'll stay out of this decision.",
+   "ex_jp": "利益相反があるので、この判断には加わりません。"
+  },
+  {
+   "en": "it's premature to",
+   "jp": "〜するのは時期尚早だ",
+   "ex": "It's premature to announce the launch date.",
+   "ex_jp": "発売日を発表するのは、まだ時期尚早です。"
+  },
+  {
+   "en": "it's up to",
+   "jp": "〜次第だ・〜が決めることだ",
+   "ex": "It's up to the finance team to set the budget.",
+   "ex_jp": "予算を決めるのは財務チームです。"
+  }
+ ],
+ "words": [
+  {
+   "en": "merger",
+   "jp": "合併"
+  },
+  {
+   "en": "special committee",
+   "jp": "特別委員会"
+  },
+  {
+   "en": "shareholder approval",
+   "jp": "株主の承認"
+  }
+ ],
+ "homework": {
+  "en": "What decision at work is up to you?",
+  "jp": "仕事で、あなたが決めることは?",
+  "hl": [
+   "up to you"
+  ],
+  "say": "最後に宿題です。仕事で、あなたが決めることになっているのは何ですか。英語で、コメント欄に書いてみてください。"
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "beats": [
+    {
+     "id": "h01",
+     "kind": "jp",
+     "jp": "イーロン・マスク氏が率いる、スペースXとテスラ。この2社が、合併に向けた検討を始めました。",
+     "en": "SpaceX and Tesla, both led by Elon Musk, have begun exploring a merger.",
+     "vis": {
+      "t": "hero",
+      "kicker": "merger talks",
+      "big": "SpaceX × Tesla",
+      "color": "gold",
+      "sub": "合併の検討を開始",
+      "sub_color": "text"
+     },
+     "hl": [
+      "exploring a merger"
+     ]
+    },
+    {
+     "id": "h02",
+     "kind": "jp",
+     "jp": "ところがマスク氏は、決めるのは自分ではない、と言います。",
+     "en": "But Musk says it's not his decision.",
+     "vis": {
+      "t": "hero_side",
+      "big": "?",
+      "color": "gold",
+      "text": "up to the committees",
+      "jp": "決めるのは委員会"
+     },
+     "hl": [
+      "not his decision"
+     ]
+    },
+    {
+     "id": "h03",
+     "kind": "jp",
+     "jp": "今日はこのニュースから、会議で使える英語を3つ。最後に答え合わせをします。",
+     "en": "Three phrases for your next meeting. Answers at the end.",
+     "vis": {
+      "t": "teaser"
+     }
+    }
+   ]
+  },
+  {
+   "id": "what",
+   "chapter": "何が起きたか",
+   "beats": [
+    {
+     "id": "p01",
+     "kind": "jp",
+     "jp": "マスク氏は10月21日、スペースXとテスラの合併は、良い考えだと述べました。ただし、決めるのは両社の特別委員会次第だ、とも話しています。",
+     "en": "On October 21, Musk called a merger a good idea, but said it's up to the special committees.",
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "It's a good idea,",
+       "but it's really up to",
+       "the special committees."
+      ],
+      "hl": [
+       "up to"
+      ],
+      "by": "イーロン・マスク氏(Reuters/Khaleej Timesの報道より要約)"
+     },
+     "hl": [
+      "it's up to"
+     ],
+     "star": true
+    },
+    {
+     "id": "p02",
+     "kind": "en_insert",
+     "en": "It's really up to the committees.",
+     "jp": "決めるのは委員会だ",
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "It's a good idea,",
+       "but it's really up to",
+       "the special committees."
+      ],
+      "hl": [
+       "up to"
+      ],
+      "by": "イーロン・マスク氏(Reuters/Khaleej Timesの報道より要約)"
+     },
+     "star": true,
+     "hl": [
+      "up to"
+     ]
+    },
+    {
+     "id": "p03",
+     "kind": "jp",
+     "jp": "マスク氏は、テスラの株のおよそ5分の1、スペースXの株の半分近くを持っています。",
+     "en": "Musk owns nearly a fifth of Tesla and just under half of SpaceX.",
+     "vis": {
+      "t": "cards",
+      "footer": "マスク氏の持ち分(報道による)",
+      "items": [
+       {
+        "name": "Tesla",
+        "big": "約1/5",
+        "sub": "テスラ株の保有",
+        "note": "nearly a fifth",
+        "color": "red"
+       },
+       {
+        "name": "SpaceX",
+        "big": "約1/2",
+        "sub": "スペースX株の保有",
+        "note": "just under half",
+        "color": "gold"
+       }
+      ]
+     }
+    },
+    {
+     "id": "p04",
+     "kind": "jp",
+     "jp": "両方の大株主なので、どちらの側に立つのか、という利益相反があります。そのため、マスク氏は話し合いに加わりません。",
+     "en": "As a big owner of both, he has a conflict of interest, so he stays out of the talks.",
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "マスク氏(両社の大株主)",
+        "mid": "利益相反",
+        "res": "話し合いに参加しない",
+        "ok": true
+       },
+       {
+        "a": "独立取締役の特別委員会",
+        "mid": "交渉",
+        "res": "条件を決め、株主が承認",
+        "ok": true
+       }
+      ]
+     },
+     "hl": [
+      "a conflict of interest"
+     ],
+     "star": true
+    },
+    {
+     "id": "p05",
+     "kind": "en_insert",
+     "en": "He has a conflict of interest.",
+     "jp": "彼には利益相反がある",
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "マスク氏(両社の大株主)",
+        "mid": "利益相反",
+        "res": "話し合いに参加しない",
+        "ok": true
+       },
+       {
+        "a": "独立取締役の特別委員会",
+        "mid": "交渉",
+        "res": "条件を決め、株主が承認",
+        "ok": true
+       }
+      ]
+     },
+     "star": true,
+     "hl": [
+      "a conflict of interest"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "market",
+   "chapter": "市場の反応",
+   "beats": [
+    {
+     "id": "q01",
+     "kind": "jp",
+     "jp": "このニュースで、時間外取引では、スペースXの株が約8%、テスラの株が約1.8%上がりました。",
+     "en": "In after-hours trading, SpaceX rose about 8% and Tesla about 1.8%.",
+     "vis": {
+      "t": "bars",
+      "title": "時間外取引の値動き(%)",
+      "unit": "%",
+      "items": [
+       {
+        "label": "SpaceX",
+        "value": 8,
+        "display": "+8%",
+        "color": "green"
+       },
+       {
+        "label": "Tesla",
+        "value": 1.8,
+        "display": "+1.8%",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q02",
+     "kind": "jp",
+     "jp": "ただし、マスク氏自身は、合併が実現すると考えるのは時期尚早だ、と慎重です。条件はまだ何も合意していません。",
+     "en": "But Musk said it's premature to assume a deal will happen. No terms are agreed.",
+     "vis": {
+      "t": "statement",
+      "kicker": "PREMATURE",
+      "text": "合併が決まったと考えるのは、まだ早い",
+      "sub": "条件は未合意・株主の承認も必要"
+     },
+     "hl": [
+      "it's premature to"
+     ],
+     "star": true
+    },
+    {
+     "id": "q03",
+     "kind": "en_insert",
+     "en": "It's premature to assume a deal.",
+     "jp": "合併を前提にするのは時期尚早だ",
+     "vis": {
+      "t": "statement",
+      "kicker": "PREMATURE",
+      "text": "合併が決まったと考えるのは、まだ早い",
+      "sub": "条件は未合意・株主の承認も必要"
+     },
+     "star": true,
+     "hl": [
+      "It's premature to"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "meaning",
+   "chapter": "私たちへの意味",
+   "beats": [
+    {
+     "id": "m01",
+     "kind": "jp",
+     "jp": "ここから学べるのは、利益相反は、当事者が判断から外れる手続きで管理する、という考え方です。",
+     "en": "The lesson: manage a conflict of interest by stepping out of the decision.",
+     "vis": {
+      "t": "points",
+      "show": 1,
+      "items": [
+       {
+        "head": "読み取れること",
+        "big": "利益相反は\n手続きで管理",
+        "sub": "当事者は判断から\n外れる",
+        "color": "gold"
+       },
+       {
+        "head": "逆の見方",
+        "big": "実現は\n未定",
+        "sub": "条件は未合意\n株主の承認も必要",
+        "color": "red"
+       },
+       {
+        "head": "日本の現場",
+        "big": "親子上場・\n兼務でも同じ",
+        "sub": "誰が決めるかを\n英語で説明できるか",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "m02",
+     "kind": "jp",
+     "jp": "一方で、委員会が合意しない可能性もあります。株主の承認も必要で、実現するかはまだ分かりません。",
+     "en": "On the other hand, the committees may never agree, and shareholders must approve.",
+     "vis": {
+      "t": "points",
+      "show": 2,
+      "items": [
+       {
+        "head": "読み取れること",
+        "big": "利益相反は\n手続きで管理",
+        "sub": "当事者は判断から\n外れる",
+        "color": "gold"
+       },
+       {
+        "head": "逆の見方",
+        "big": "実現は\n未定",
+        "sub": "条件は未合意\n株主の承認も必要",
+        "color": "red"
+       },
+       {
+        "head": "日本の現場",
+        "big": "親子上場・\n兼務でも同じ",
+        "sub": "誰が決めるかを\n英語で説明できるか",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "m03",
+     "kind": "jp",
+     "jp": "日本でも、親子上場や役員の兼務で、同じ問題が起きます。誰が決めるのかを英語で説明できると、海外の投資家や取引先の信頼につながります。",
+     "en": "In Japan, too, explaining who decides, in English, builds trust with global partners.",
+     "vis": {
+      "t": "points",
+      "show": 3,
+      "items": [
+       {
+        "head": "読み取れること",
+        "big": "利益相反は\n手続きで管理",
+        "sub": "当事者は判断から\n外れる",
+        "color": "gold"
+       },
+       {
+        "head": "逆の見方",
+        "big": "実現は\n未定",
+        "sub": "条件は未合意\n株主の承認も必要",
+        "color": "red"
+       },
+       {
+        "head": "日本の現場",
+        "big": "親子上場・\n兼務でも同じ",
+        "sub": "誰が決めるかを\n英語で説明できるか",
+        "color": "green"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "スペースXとテスラが合併?マスク氏「決めるのは委員会」の英語【ニュースで学ぶビジネス英語 #05】",
+  "summary": "イーロン・マスク氏は2026年10月21日、スペースXとテスラの合併は「良い考え」だとしつつ、判断は両社の独立した特別委員会に委ねると述べました。マスク氏は利益相反があるとして話し合いに加わらず、合併の実現は未定です。このニュースから、会議で使える英語を学びます。",
+  "tags": [
+   "イーロン・マスク",
+   "テスラ",
+   "スペースX",
+   "合併",
+   "利益相反",
+   "ビジネス英語",
+   "英語学習",
+   "ニュース英語",
+   "時事英語",
+   "会議 英語",
+   "教養",
+   "社会人 英語",
+   "business English"
+  ]
+ },
+ "thumbnail": {
+  "big": "?",
+  "big_color": "gold",
+  "under": "テスラ×スペースX",
+  "badge": "合併を検討",
+  "badge_color": "gold",
+  "question": "決めるのは誰?",
+  "pill": "conflict of interest",
+  "bottom": "会議で使える英語3つ",
+  "crack": false
+ },
+ "shorts": [
+  {
+   "phrase": 0,
+   "hook": [
+    "「利益相反」",
+    "英語で言える?"
+   ],
+   "news_hook": [
+    "スペースXとテスラが合併?",
+    "マスク氏は話し合いに不参加"
+   ],
+   "ctx": "マスク氏が合併の話し合いに加わらない理由",
+   "title": "「利益相反」は英語で?テスラ合併でマスク氏が身を引く理由 #ビジネス英語 #shorts",
+   "ig_caption": "「利益相反」を英語で言えますか?\n\n✅ a conflict of interest\n利益相反\n\n例文:I have a conflict of interest, so I'll stay out of this decision.\n(利益相反があるので、この判断には加わりません。)\n\nマスク氏が、スペースXとテスラの合併の話し合いに加わらない理由です。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Khaleej Times(Reuters)「Elon Musk says SpaceX-Tesla merger is 'a good idea' as companies form deal committees」(2026年10月21日)",
+   "url": "https://khaleejtimes.com/business/elon-musk-says-spacex-tesla-merger-is-a-good-idea-as-companies-form-deal-committees"
+  }
+ ],
+ "publish": {
+  "long": "2026-10-25T17:00:00+09:00",
+  "shorts": [
+   "2026-10-25T17:00:00+09:00"
+  ]
+ }
+}
