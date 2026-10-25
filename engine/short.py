@@ -64,7 +64,7 @@ def _captions(d, b, tb, y0):
         y += 52
 
 
-def build(ep, tl, idx, long_mp4, out):
+def build(ep, tl, idx, long_mp4, out, preview=None):
     spec = ep["shorts"][idx]
     P = ep["phrases"][spec["phrase"]]
     segs = _segments(ep, tl, spec)
@@ -115,7 +115,7 @@ def build(ep, tl, idx, long_mp4, out):
             if kind == "news":
                 b = R.find(tl, src_t)
                 if b["kind"] not in ("silent", "pause"):
-                    _captions(d, b, src_t - b["start"], 1150)
+                    _captions(d, b, src_t - b["start"], 1105)
         else:
             p = ease((ts - body) / 0.4)
             rr(d, (70, 640, SW - 70, 1060), 30, fill=mix(PANEL, p), outline=mix(LINE, p), width=2)
@@ -124,10 +124,14 @@ def build(ep, tl, idx, long_mp4, out):
             txt(d, (SW / 2, 980), "保存して、次の会議前に見返そう", F("jp_m", 34), mix(MUTED, p), "mm")
         if kind != "news":
             txt(d, (SW / 2, 1200), spec.get("ctx", ""), fit_font("jp_m", 34, spec.get("ctx", ""), 980), MUTED, "mm")
-        rr(d, (SW / 2 - 300, 1400, SW / 2 + 300, 1480), 40, outline=GOLD, width=3)
-        txt(d, (SW / 2, 1440), "くわしい解説は本編で", F("jp_b", 36), GOLD, "mm")
+        if kind != "news":   # the news part's captions use this space, so the CTA only shows with the quiz and end card
+            rr(d, (SW / 2 - 300, 1400, SW / 2 + 300, 1480), 40, outline=GOLD, width=3)
+            txt(d, (SW / 2, 1440), "くわしい解説は本編で", F("jp_b", 36), GOLD, "mm")
         d.rectangle((0, SH - 8, int(SW * ts / total), SH), fill=GOLD)
         return img
+
+    if preview is not None:   # list of local times -> return frames without encoding
+        return [frame(x) for x in preview], parts
 
     tmpv = out + ".v.mp4"
     cmd = ["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{SW}x{SH}", "-r", str(FPS),
