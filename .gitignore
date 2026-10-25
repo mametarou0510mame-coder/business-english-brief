@@ -1,0 +1,5 @@
+episodes/*/audio/
+episodes/*/out/
+_media/
+__pycache__/
+*.pyc

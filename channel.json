@@ -1,0 +1,10 @@
+{
+  "name": "Business English Brief",
+  "youtube_channel_id": "UCx6TDoZwvygiryXsOk5TYpA",
+  "youtube_handle": "@bizenglishbrief",
+  "instagram_username": "businessenglishbrief",
+  "pages_base": "https://mametarou0510mame-coder.github.io/business-english-brief",
+  "voices": {"jp": "ja-JP-DaichiNeural", "en": "en-US-AvaNeural"},
+  "slots": {"long": "07:00", "shorts": ["12:00", "21:00"]},
+  "timezone": "+09:00"
+}

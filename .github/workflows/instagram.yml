@@ -1,0 +1,44 @@
+name: Instagram reels
+
+# Posts queued reels (state/ig_queue.json) whose time has come. Runs just after 12:00 and 21:00 JST.
+on:
+  schedule:
+    - cron: "3 3 * * *"   # 12:03 JST
+    - cron: "3 12 * * *"  # 21:03 JST
+  workflow_dispatch:
+    inputs:
+      dry:
+        description: "true = show what would be posted"
+        required: true
+        default: "false"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: instagram
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      IG_USER_ID: ${{ secrets.IG_USER_ID }}
+      IG_TOKEN: ${{ secrets.IG_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Post due reels
+        run: |
+          if [ -z "$IG_TOKEN" ]; then echo "IG secrets not set"; exit 0; fi
+          if [ "${{ github.event.inputs.dry }}" = "true" ]; then python engine/build.py ig-due --dry; else python engine/build.py ig-due; fi
+      - name: Save queue
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add state/ig_queue.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Update Instagram queue"
+          for i in 1 2 3 4 5; do git pull --rebase -X theirs origin main && git push && exit 0; sleep 10; done
+          exit 1

@@ -1,0 +1,729 @@
+{
+ "id": "2026-10-25-amex-ai-cuts",
+ "episode": "#01",
+ "date": "2026-10-24",
+ "status": "published_manually",
+ "series": "経営者の一言を読む",
+ "title_card": {
+  "line1": "好決算なのに5%削減。",
+  "line2": "Amexの「AIに備える」を英語で読む"
+ },
+ "publish": {
+  "long": "2026-10-25T12:05:00+09:00",
+  "shorts": [
+   "2026-10-25T12:07:00+09:00",
+   "2026-10-25T21:00:00+09:00"
+  ]
+ },
+ "phrases": [
+  {
+   "en": "leaner and more agile",
+   "jp": "よりスリムで、機動的な",
+   "ex": "We need to become leaner and more agile before the next fiscal year.",
+   "ex_jp": "来年度までに、もっとスリムで機動的な組織にならなければなりません。"
+  },
+  {
+   "en": "reduce layers",
+   "jp": "階層を減らす",
+   "ex": "If we reduce layers, decisions can move faster.",
+   "ex_jp": "階層を減らせば、意思決定はもっと速くなります。"
+  },
+  {
+   "en": "the icing on the cake, not the cake",
+   "jp": "おまけであって、本質ではない",
+   "ex": "AI is the icing on the cake, not the cake. Let's fix the process first.",
+   "ex_jp": "AIはおまけで、本質ではありません。まず業務プロセスを直しましょう。"
+  }
+ ],
+ "words": [
+  {
+   "en": "restructuring charge",
+   "jp": "リストラ費用"
+  },
+  {
+   "en": "headcount",
+   "jp": "人員数"
+  },
+  {
+   "en": "beat expectations",
+   "jp": "予想を上回る"
+  }
+ ],
+ "homework": {
+  "en": "How would you make your team leaner?",
+  "jp": "あなたのチームをもっとリーンにするなら?",
+  "hl": [
+   "leaner"
+  ],
+  "say": "最後に宿題です。あなたのチームを、もっとリーンにするなら何をしますか。英語で、コメント欄に書いてみてください。"
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "beats": [
+    {
+     "kind": "jp",
+     "jp": "好決算を発表したその日に、従業員の5%を削減。",
+     "en": "Strong earnings — and a 5% job cut, on the same day.",
+     "id": "h01",
+     "vis": {
+      "t": "hero",
+      "kicker": "job cuts",
+      "big": "5%",
+      "crack": true,
+      "sub": "決算は予想超え ▲"
+     }
+    },
+    {
+     "kind": "jp",
+     "jp": "理由は、AIに備えるため。",
+     "en": "The reason: to prepare for AI.",
+     "hl": [
+      "prepare for AI"
+     ],
+     "id": "h02",
+     "vis": {
+      "t": "hero_side",
+      "big": "5%",
+      "text": "prepare for AI",
+      "jp": "AIに備えるため"
+     }
+    },
+    {
+     "kind": "jp",
+     "jp": "今日はこのニュースから、会議で使える英語を3つ。最後に答え合わせをします。",
+     "en": "Three phrases for your next meeting. Answers at the end.",
+     "id": "h03",
+     "vis": {
+      "t": "teaser"
+     }
+    }
+   ]
+  },
+  {
+   "id": "what",
+   "chapter": "何が起きたか",
+   "beats": [
+    {
+     "kind": "jp",
+     "jp": "アメリカン・エキスプレスは10月23日、第3四半期の決算説明会で、全世界の従業員の約5%を削減すると発表しました。",
+     "en": "On October 23, American Express said it would cut about 5% of its global workforce.",
+     "hl": [
+      "5% of its global workforce"
+     ],
+     "id": "n01",
+     "vis": {
+      "t": "people",
+      "total": 100,
+      "hit": 5,
+      "label": "100人のうち5人",
+      "panel": {
+       "big": "約5%",
+       "color": "red",
+       "sub": "of its global workforce",
+       "note": "全世界の従業員",
+       "size": 170
+      }
+     }
+    },
+    {
+     "kind": "jp",
+     "jp": "2025年末の従業員は、約7万7,000人。報道では、およそ3,500人規模の削減とされています。",
+     "en": "It had about 77,000 employees at the end of 2025.",
+     "id": "n02",
+     "vis": {
+      "t": "people",
+      "total": 100,
+      "hit": 5,
+      "label": "100人のうち5人",
+      "panel": [
+       {
+        "kicker": "従業員(2025年末)",
+        "count": {
+         "to": 77000,
+         "prefix": "約",
+         "suffix": "人"
+        }
+       },
+       {
+        "kicker": "削減規模(報道)",
+        "big": "約3,500人",
+        "color": "red"
+       }
+      ]
+     }
+    },
+    {
+     "kind": "jp",
+     "jp": "この再編に伴い、3億3,600万ドル、日本円でおよそ530億円の費用を計上します。",
+     "en": "It is taking a $336 million restructuring charge.",
+     "hl": [
+      "restructuring charge"
+     ],
+     "id": "n03",
+     "vis": {
+      "t": "people",
+      "total": 100,
+      "hit": 5,
+      "label": "100人のうち5人",
+      "panel": {
+       "kicker": "RESTRUCTURING CHARGE",
+       "count": {
+        "to": 336,
+        "prefix": "$",
+        "suffix": "M"
+       },
+       "size": 150,
+       "sub": "リストラ(事業再編)費用",
+       "note": "≈ 530億円(1ドル157円換算)"
+      }
+     }
+    },
+    {
+     "kind": "jp",
+     "jp": "注目すべきは、決算そのものは市場予想を上回っていたことです。",
+     "en": "Its profit beat Wall Street's expectations.",
+     "hl": [
+      "beat",
+      "expectations"
+     ],
+     "id": "n04",
+     "vis": {
+      "t": "vs",
+      "left": {
+       "en": "profit",
+       "label": "業績",
+       "val": "予想超え",
+       "up": true
+      },
+      "right": {
+       "en": "headcount",
+       "label": "人員",
+       "val": "−5%",
+       "up": false
+      },
+      "mid": "なのに"
+     }
+    },
+    {
+     "kind": "jp",
+     "jp": "業績が悪いから削るのではなく、好調なうちに組織を作り変える。ここがポイントです。",
+     "en": "Not a cut from weakness — a redesign from strength.",
+     "id": "n05",
+     "vis": {
+      "t": "vs",
+      "left": {
+       "en": "profit",
+       "label": "業績",
+       "val": "予想超え",
+       "up": true
+      },
+      "right": {
+       "en": "headcount",
+       "label": "人員",
+       "val": "−5%",
+       "up": false
+      },
+      "mid": "なのに"
+     }
+    }
+   ]
+  },
+  {
+   "id": "why",
+   "chapter": "なぜ削減するのか",
+   "beats": [
+    {
+     "kind": "jp",
+     "jp": "では、なぜ削減するのか。CFOのクリストフ・ル・カイエック氏は、目的をこう説明しました。",
+     "en": "So why cut? The CFO explained the goal.",
+     "id": "y01",
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "leaner, more agile,",
+       "and also to prepare for AI"
+      ],
+      "hl": [
+       "leaner, more agile"
+      ],
+      "by": "Christophe Le Caillec, CFO, American Express(CNBCのインタビュー)"
+     }
+    },
+    {
+     "kind": "jp",
+     "jp": "会社をよりスリムで、機動的にする。そして、AIに備える。",
+     "en": "To make the company leaner, more agile — and prepared for AI.",
+     "hl": [
+      "leaner, more agile"
+     ],
+     "star": true,
+     "id": "y02",
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "leaner, more agile,",
+       "and also to prepare for AI"
+      ],
+      "hl": [
+       "leaner, more agile"
+      ],
+      "by": "Christophe Le Caillec, CFO, American Express(CNBCのインタビュー)"
+     }
+    },
+    {
+     "kind": "en_insert",
+     "jp": "よりスリムで、機動的に。そしてAIに備えるため",
+     "en": "leaner, more agile, and also to prepare for AI",
+     "hl": [
+      "leaner, more agile"
+     ],
+     "star": true,
+     "id": "y03",
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "leaner, more agile,",
+       "and also to prepare for AI"
+      ],
+      "hl": [
+       "leaner, more agile"
+      ],
+      "by": "Christophe Le Caillec, CFO, American Express(CNBCのインタビュー)"
+     }
+    },
+    {
+     "kind": "jp",
+     "jp": "具体的には、管理の階層を減らし、1人のマネージャーが見る範囲を広げる。",
+     "en": "Concretely: fewer layers, wider spans of control.",
+     "hl": [
+      "fewer layers"
+     ],
+     "star": true,
+     "id": "y04",
+     "vis": {
+      "t": "org"
+     }
+    },
+    {
+     "kind": "en_insert",
+     "jp": "階層を減らし、管理範囲を広げる",
+     "en": "reduce layers and increase spans of control",
+     "hl": [
+      "reduce layers"
+     ],
+     "star": true,
+     "id": "y05",
+     "vis": {
+      "t": "org",
+      "flat": true,
+      "label": "reduce layers"
+     }
+    },
+    {
+     "kind": "jp",
+     "jp": "そうして初めて、今後数年で、AIによる自動化を進められる。というわけです。",
+     "en": "Only then can they automate and take advantage of AI.",
+     "id": "y06",
+     "vis": {
+      "t": "org",
+      "flat": true,
+      "label": "reduce layers"
+     }
+    },
+    {
+     "kind": "jp",
+     "jp": "彼はこうも語っています。最適化されていない業務プロセスを、そのまま自動化してはいけない。",
+     "en": "Don't automate processes that aren't well designed.",
+     "id": "y07",
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "業務プロセスがそのまま",
+        "res": "非効率まで自動化される",
+        "ok": false
+       },
+       {
+        "a": "業務プロセスを設計し直す",
+        "res": "AIの効果が出る",
+        "ok": true
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "trend",
+   "chapter": "金融業界の流れ",
+   "beats": [
+    {
+     "kind": "jp",
+     "jp": "この動きは、アメックスだけではありません。前日には、イギリスの大手銀行バークレイズも、年内に約5,000人を削減すると報じられました。",
+     "en": "A day earlier, Barclays was reported to be cutting about 5,000 jobs this year.",
+     "id": "r01",
+     "vis": {
+      "t": "cards",
+      "show": 2,
+      "footer": "金融大手で続く、AIを見据えた人員削減",
+      "items": [
+       {
+        "name": "American Express",
+        "big": "約5%",
+        "sub": "≈3,500人",
+        "note": "10月23日 発表",
+        "color": "red"
+       },
+       {
+        "name": "Barclays",
+        "big": "約5,000人",
+        "sub": "2026年内",
+        "note": "10月22日 報道",
+        "color": "red"
+       },
+       {
+        "name": "Standard Chartered",
+        "big": "15%",
+        "sub": "2030年までに",
+        "note": "計画",
+        "color": "red"
+       }
+      ]
+     }
+    },
+    {
+     "kind": "jp",
+     "jp": "スタンダード・チャータードも、2030年までに従業員の15%を減らす計画です。",
+     "en": "Standard Chartered plans to cut 15% of its workforce by 2030.",
+     "id": "r02",
+     "vis": {
+      "t": "cards",
+      "show": 3,
+      "footer": "金融大手で続く、AIを見据えた人員削減",
+      "items": [
+       {
+        "name": "American Express",
+        "big": "約5%",
+        "sub": "≈3,500人",
+        "note": "10月23日 発表",
+        "color": "red"
+       },
+       {
+        "name": "Barclays",
+        "big": "約5,000人",
+        "sub": "2026年内",
+        "note": "10月22日 報道",
+        "color": "red"
+       },
+       {
+        "name": "Standard Chartered",
+        "big": "15%",
+        "sub": "2030年までに",
+        "note": "計画",
+        "color": "red"
+       }
+      ]
+     }
+    },
+    {
+     "kind": "jp",
+     "jp": "ただ、バークレイズのトップは、AIについて興味深い言い方をしています。",
+     "en": "But Barclays' chief put it in an interesting way.",
+     "id": "r03",
+     "vis": {
+      "t": "layers",
+      "layers": [
+       "組織  Organization",
+       "データ  Data",
+       "業務プロセス  Process"
+      ]
+     }
+    },
+    {
+     "kind": "jp",
+     "jp": "AIは、ケーキの上のアイシング。ケーキそのものではない、と。",
+     "en": "AI is the icing on the cake — not the cake.",
+     "hl": [
+      "the icing on the cake"
+     ],
+     "star": true,
+     "id": "r04",
+     "vis": {
+      "t": "layers",
+      "layers": [
+       "組織  Organization",
+       "データ  Data",
+       "業務プロセス  Process"
+      ],
+      "icing": {
+       "label": "AI",
+       "en": "the icing on the cake",
+       "jp": "= おまけ・仕上げ",
+       "en2": "not the cake",
+       "jp2": "= 本体ではない"
+      }
+     }
+    },
+    {
+     "kind": "en_insert",
+     "jp": "AIはおまけであって、本質ではない",
+     "en": "AI is the icing on the cake, not the cake.",
+     "hl": [
+      "the icing on the cake"
+     ],
+     "star": true,
+     "id": "r05",
+     "vis": {
+      "t": "layers",
+      "layers": [
+       "組織  Organization",
+       "データ  Data",
+       "業務プロセス  Process"
+      ],
+      "icing": {
+       "label": "AI",
+       "en": "the icing on the cake",
+       "jp": "= おまけ・仕上げ",
+       "en2": "not the cake",
+       "jp2": "= 本体ではない"
+      }
+     }
+    },
+    {
+     "kind": "jp",
+     "jp": "土台となる仕組みづくりが先で、AIはその上に乗るもの。という考え方です。",
+     "en": "Build the foundation first. AI comes on top.",
+     "id": "r06",
+     "vis": {
+      "t": "layers",
+      "layers": [
+       "組織  Organization",
+       "データ  Data",
+       "業務プロセス  Process"
+      ],
+      "icing": {
+       "label": "AI",
+       "en": "the icing on the cake",
+       "jp": "= おまけ・仕上げ",
+       "en2": "not the cake",
+       "jp2": "= 本体ではない"
+      },
+      "glow": true,
+      "footer": "Foundation first."
+     }
+    }
+   ]
+  },
+  {
+   "id": "insight",
+   "chapter": "私たちへの意味",
+   "beats": [
+    {
+     "kind": "jp",
+     "jp": "ここからは、日本で働く私たちにとっての意味を考えます。",
+     "en": "What does this mean for those of us working in Japan?",
+     "id": "i01",
+     "vis": {
+      "t": "statement",
+      "kicker": "SO WHAT?",
+      "text": "日本で働く私たちにとっての意味"
+     }
+    },
+    {
+     "kind": "jp",
+     "jp": "ポイントは、削られているのが「階層」だということ。真っ先に影響を受けるのは、情報を上から下へ流すだけの仕事です。",
+     "en": "The first target is layers — roles that only pass information along.",
+     "id": "i02",
+     "vis": {
+      "t": "points",
+      "show": 1,
+      "items": [
+       {
+        "head": "削られるのは",
+        "big": "「階層」",
+        "sub": "情報を流すだけの\n中間管理の仕事",
+        "color": "red"
+       },
+       {
+        "head": "逆の見方",
+        "big": "半数が再雇用",
+        "sub": "ガートナー予測\n(2027年まで・別の職名で)",
+        "color": "blue"
+       },
+       {
+        "head": "価値が上がるのは",
+        "big": "業務を設計\nし直せる人",
+        "sub": "英語で議論に\n参加できる人",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "kind": "jp",
+     "jp": "一方で、逆の見方もあります。調査会社のガートナーは、AIを理由に人を減らした企業の半数が、2027年までに、別の職名で人を雇い直すと予測しています。",
+     "en": "Gartner predicts half of the firms that cut staff for AI will rehire by 2027.",
+     "id": "i03",
+     "vis": {
+      "t": "points",
+      "show": 2,
+      "items": [
+       {
+        "head": "削られるのは",
+        "big": "「階層」",
+        "sub": "情報を流すだけの\n中間管理の仕事",
+        "color": "red"
+       },
+       {
+        "head": "逆の見方",
+        "big": "半数が再雇用",
+        "sub": "ガートナー予測\n(2027年まで・別の職名で)",
+        "color": "blue"
+       },
+       {
+        "head": "価値が上がるのは",
+        "big": "業務を設計\nし直せる人",
+        "sub": "英語で議論に\n参加できる人",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "kind": "jp",
+     "jp": "AIを入れれば人がいらなくなる、という単純な話ではありません。業務を設計し直せる人の価値は、むしろ上がります。",
+     "en": "People who can redesign the work become more valuable, not less.",
+     "id": "i04",
+     "vis": {
+      "t": "points",
+      "show": 3,
+      "items": [
+       {
+        "head": "削られるのは",
+        "big": "「階層」",
+        "sub": "情報を流すだけの\n中間管理の仕事",
+        "color": "red"
+       },
+       {
+        "head": "逆の見方",
+        "big": "半数が再雇用",
+        "sub": "ガートナー予測\n(2027年まで・別の職名で)",
+        "color": "blue"
+       },
+       {
+        "head": "価値が上がるのは",
+        "big": "業務を設計\nし直せる人",
+        "sub": "英語で議論に\n参加できる人",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "kind": "jp",
+     "jp": "だからこそ、この議論に英語で参加できることが、強い武器になります。",
+     "en": "Joining this conversation in English is a real advantage.",
+     "id": "i05",
+     "vis": {
+      "t": "points",
+      "show": 3,
+      "items": [
+       {
+        "head": "削られるのは",
+        "big": "「階層」",
+        "sub": "情報を流すだけの\n中間管理の仕事",
+        "color": "red"
+       },
+       {
+        "head": "逆の見方",
+        "big": "半数が再雇用",
+        "sub": "ガートナー予測\n(2027年まで・別の職名で)",
+        "color": "blue"
+       },
+       {
+        "head": "価値が上がるのは",
+        "big": "業務を設計\nし直せる人",
+        "sub": "英語で議論に\n参加できる人",
+        "color": "green"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "好決算なのに5%削減。Amexの「prepare for AI」で学ぶ会議の英語3つ【ニュースで学ぶビジネス英語 #01】",
+  "summary": "アメリカン・エキスプレスは2026年10月23日、決算が市場予想を上回る中で、全世界の従業員の約5%を削減すると発表しました。理由は「AIに備えるため」。このニュースを日本語で解説し、会議で使える英語を身につけます。",
+  "tags": [
+   "ビジネス英語",
+   "英語学習",
+   "ニュース英語",
+   "時事英語",
+   "会議 英語",
+   "アメックス",
+   "American Express",
+   "AI リストラ",
+   "人員削減",
+   "決算",
+   "教養",
+   "社会人 英語",
+   "business English"
+  ]
+ },
+ "thumbnail": {
+  "big": "5%",
+  "big_color": "red",
+  "under": "人員削減",
+  "badge": "決算は予想超え",
+  "badge_color": "green",
+  "question": "なのに、なぜ?",
+  "pill": "prepare for AI",
+  "bottom": "会議で使える英語3つ"
+ },
+ "shorts": [
+  {
+   "phrase": 0,
+   "hook": [
+    "AmexのCFOが",
+    "使った一言"
+   ],
+   "ctx": "AIに備えた5%削減を説明したときの英語",
+   "title": "「もっとスリムで機動的な組織に」を英語で?AmexのCFOが使った一言 #ビジネス英語 #shorts",
+   "ig_caption": "(posted manually)"
+  },
+  {
+   "phrase": 1,
+   "hook": [
+    "AI時代の",
+    "組織改革ワード"
+   ],
+   "ctx": "人員削減のニュースで必ず出てくる表現",
+   "title": "「階層を減らす」は英語で何と言う?AI時代の組織改革ワード #ビジネス英語 #shorts",
+   "ig_caption": "(posted manually)"
+  }
+ ],
+ "sources": [
+  {
+   "title": "CNBC「American Express is cutting 5% of its workforce to 'prepare for AI'」(2026年10月23日)",
+   "url": "https://www.cnbc.com/2026/10/23/american-express-job-cuts.html"
+  },
+  {
+   "title": "Canadian HR Reporter「Amex to cut 5 per cent of workforce 'to prepare for AI'」",
+   "url": "https://www.hrreporter.com/news/hr-news/amex-to-cut-5-per-cent-of-workforce-to-prepare-for-ai/395071"
+  },
+  {
+   "title": "Quartz「American Express is cutting about 3,500 jobs to make room for AI」",
+   "url": "https://qz.com/american-express-job-cuts-ai-restructuring-workforce-102326"
+  },
+  {
+   "title": "Fast Company「American Express layoffs」",
+   "url": "https://www.fastcompany.com/91629156/american-express-layoffs-today-amex-slashes-jobs-ai-push"
+  },
+  {
+   "title": "FinTech Futures「Top five news stories of the week – 23 October 2026」",
+   "url": "https://fintechfutures.com/fintech/fintech-futures-top-five-news-stories-of-the-week-23-october-2026"
+  }
+ ]
+}

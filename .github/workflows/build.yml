@@ -1,0 +1,91 @@
+name: Build & schedule
+
+# New or changed episodes/*/episode.json → narration (Azure) → videos → YouTube scheduled upload
+# → Instagram queue + shorts published to the `media` branch (GitHub Pages) for Instagram to fetch.
+on:
+  push:
+    branches: [main]
+    paths: ["episodes/**/episode.json"]
+  workflow_dispatch:
+    inputs:
+      dry:
+        description: "true = build only, do not upload"
+        required: true
+        default: "false"
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: build
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    env:
+      AZURE_SPEECH_KEY: ${{ secrets.AZURE_SPEECH_KEY }}
+      AZURE_SPEECH_REGION: ${{ secrets.AZURE_SPEECH_REGION }}
+      YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+      YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+      YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+      DRY: ${{ github.event.inputs.dry || 'false' }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install tools and fonts
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg fonts-inter fonts-noto-cjk fonts-noto-cjk-extra > /dev/null
+          pip install -q pillow
+      - name: Find pending episodes
+        id: p
+        run: |
+          python engine/build.py pending | tee pending.txt
+          echo "count=$(wc -l < pending.txt)" >> "$GITHUB_OUTPUT"
+      - name: Validate
+        if: steps.p.outputs.count != '0'
+        run: python engine/build.py validate $(cat pending.txt)
+      - name: Render and publish
+        if: steps.p.outputs.count != '0'
+        run: |
+          for ep in $(cat pending.txt); do
+            echo "::group::$ep"
+            python engine/build.py render "$ep"
+            if [ "$DRY" = "true" ]; then python engine/build.py publish "$ep" --dry; else python engine/build.py publish "$ep"; fi
+            echo "::endgroup::"
+          done
+      - name: Upload previews
+        if: always() && steps.p.outputs.count != '0'
+        uses: actions/upload-artifact@v4
+        with:
+          name: build-output
+          path: |
+            episodes/*/out/*.png
+            episodes/*/out/*.mp4
+            episodes/*/out/description.txt
+          retention-days: 7
+      - name: Save state
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add state/
+          git diff --cached --quiet && exit 0
+          git commit -m "Update publishing state"
+          for i in 1 2 3 4 5; do git pull --rebase -X theirs origin main && git push && exit 0; sleep 10; done
+          exit 1
+      - name: Publish shorts to the media branch (GitHub Pages)
+        if: env.DRY != 'true' && steps.p.outputs.count != '0'
+        run: |
+          git fetch origin media --depth 1 || true
+          rm -rf /tmp/media && mkdir -p /tmp/media
+          if git rev-parse -q --verify origin/media >/dev/null; then git --work-tree=/tmp/media checkout origin/media -- . ; fi
+          python engine/build.py media-sync /tmp/media
+          cd /tmp/media
+          git init -q -b media && git add -A
+          git -c user.name="github-actions[bot]" -c user.email="41898283+github-actions[bot]@users.noreply.github.com" commit -q -m "media $(date -u +%F)"
+          git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" media
+          curl -s -X POST -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/${{ github.repository }}/pages/builds" || true
