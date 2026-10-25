@@ -20,6 +20,13 @@ def _http(method, url, data=None):
 def guard(expected_username):
     uid, tok = os.environ["IG_USER_ID"], os.environ["IG_TOKEN"]
     j = _http("GET", f"{API}/{uid}?fields=username&access_token={tok}")
+    if not j.get("username"):
+        try:
+            pg = _http("GET", f"{API}/{uid}?fields=name,instagram_business_account&access_token={tok}")
+        except Exception as e:
+            pg = {"error": str(e)[:200]}
+        raise SystemExit(f"STOP: IG_USER_ID {uid} is not an Instagram account. Looked up as: {pg}. "
+                         "If this is the Facebook page, use its instagram_business_account id as IG_USER_ID.")
     if j.get("username", "").lower() != expected_username.lower():
         raise SystemExit(f"STOP: IG token is for @{j.get('username')}, expected @{expected_username}. Nothing was posted.")
     return j["username"]
