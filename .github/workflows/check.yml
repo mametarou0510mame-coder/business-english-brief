@@ -20,4 +20,7 @@ jobs:
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
           AZURE_SPEECH_KEY: ${{ secrets.AZURE_SPEECH_KEY }}
           AZURE_SPEECH_REGION: ${{ secrets.AZURE_SPEECH_REGION }}
-        run: python engine/build.py check | tee -a "$GITHUB_STEP_SUMMARY"
+        run: |
+          python engine/build.py check > out.txt 2>&1 || true
+          cat out.txt | tee -a "$GITHUB_STEP_SUMMARY"
+          while IFS= read -r line; do echo "::notice title=check::$line"; done < out.txt
