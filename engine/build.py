@@ -203,7 +203,10 @@ def publish_ep(ep_dir, dry=False):
         os.makedirs(dst, exist_ok=True)
         shutil.copy(os.path.join(out, f"short{i + 1}.mp4"), os.path.join(dst, f"s{i + 1}.mp4"))
         shutil.copy(os.path.join(out, f"short{i + 1}.jpg"), os.path.join(dst, f"s{i + 1}.jpg"))
-        q.append({"ep": ep["id"], "n": i, "at": ep["publish"]["shorts"][i],
+        at = ep["publish"]["shorts"][i]
+        if parse(at) < now():   # uploaded late (e.g. after a quota retry): post on Instagram now, not "6h late"
+            at = now().isoformat()
+        q.append({"ep": ep["id"], "n": i, "at": at,
                   "video": f"{CH['pages_base']}/{ep['id']}/s{i + 1}.mp4", "cover": f"{CH['pages_base']}/{ep['id']}/s{i + 1}.jpg",
                   "caption": ig_caption(ep, s), "status": "pending"})
     jsave(QUEUE, q)

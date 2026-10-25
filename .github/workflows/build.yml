@@ -8,6 +8,8 @@ on:
   push:
     branches: [main]
     paths: ["episodes/**/episode.json"]
+  schedule:
+    - cron: "10 8 * * *"   # 17:10 JST, after the YouTube API daily quota resets: retry anything not yet uploaded
   workflow_dispatch:
     inputs:
       dry:
@@ -123,7 +125,7 @@ jobs:
         run: |
           for ep in ${{ join(fromJSON(needs.plan.outputs.eps), ' ') }}; do
             if [ ! -f "$ep/out/long.mp4" ]; then echo "::warning::$ep was not rendered; skipped"; continue; fi
-            if [ "$DRY" = "true" ]; then python engine/build.py publish "$ep" --dry; else python engine/build.py publish "$ep" || echo "::error::publish failed for $ep"; fi
+            if [ "$DRY" = "true" ]; then python engine/build.py publish "$ep" --dry; else if python engine/build.py publish "$ep" 2>err.txt; then cat err.txt >&2; else cat err.txt >&2; echo "::error::publish failed for $ep: $(tail -c 400 err.txt | tr '\n' ' ')"; fi; fi
           done
       - name: Save state
         if: always()
