@@ -1,0 +1,24 @@
+name: Stats
+
+# Read-only snapshot of YouTube / Instagram performance. Uploads nothing.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  stats:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+        run: |
+          python engine/stats.py > out.txt 2>&1 || true
+          cat out.txt | tee -a "$GITHUB_STEP_SUMMARY"
+          while IFS= read -r line; do echo "::notice title=stats::$line"; done < out.txt
