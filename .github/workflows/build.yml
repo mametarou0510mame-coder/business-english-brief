@@ -130,6 +130,7 @@ jobs:
       - name: Instagram carousels and title updates
         if: env.DRY != 'true'
         run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq fonts-inter fonts-noto-cjk fonts-noto-cjk-extra > /dev/null && pip install -q pillow
           python engine/build.py carousels || echo "::warning::carousel step failed"
           python engine/build.py sync-titles || echo "::warning::title sync failed"
       - name: Save state
