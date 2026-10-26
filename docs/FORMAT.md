@@ -20,9 +20,9 @@ Beat ids starting with `v`, `w`, `o`, `t` followed by digits are reserved for th
 | `words` | 3 × `{en, jp}` |
 | `homework` | `{en, jp, hl:[word], say}`; `say` = the Japanese narration line |
 | `scenes` | content scenes (below) |
-| `youtube` | `{title (≤100 chars), summary (2–3 sentences), tags:[…]}` — description is assembled automatically |
+| `youtube` | `{title (≤100 chars), summary (2–3 sentences), tags:[…]}` — description is assembled automatically. Title pattern (search-first): `「<phrase jp>」は英語で?<phrase en>の使い方|<news in ≤20 chars>【ビジネス英語ニュース #NN】` |
 | `thumbnail` | `{big, big_color, under, badge, badge_color, question, pill, bottom}` (see thumb.py) |
-| `shorts` | 2 × `{phrase: 0-2, hook:[line1, line2], ctx, title, ig_caption}` |
+| `shorts` | 1–2 × `{phrase: 0-2, news_hook:[line1, line2], hook:[line1, line2], ctx, title, ig_caption}` — `news_hook` is the 2-line headline on the short's first frame (≤13 chars per line) |
 | `sources` | `[{title, url}]` pages you actually opened |
 | `readings` | optional `[["表記", "よみ"], …]` pronunciation fixes for the Japanese voice |
 

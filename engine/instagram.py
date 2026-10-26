@@ -53,3 +53,33 @@ def publish_reel(video_url, cover_url, caption):
     except Exception:
         link = None
     return mid, link
+
+
+def _wait(cid, tok, tries=60):
+    for _ in range(tries):
+        st = _http("GET", f"{API}/{cid}?fields=status_code&access_token={tok}")
+        if st.get("status_code") in (None, "FINISHED"):
+            return
+        if st.get("status_code") in ("ERROR", "EXPIRED"):
+            raise RuntimeError(f"Instagram processing failed: {st}")
+        time.sleep(5)
+    raise RuntimeError("Instagram processing timed out")
+
+
+def publish_carousel(image_urls, caption):
+    uid, tok = os.environ["IG_USER_ID"], os.environ["IG_TOKEN"]
+    kids = []
+    for u in image_urls[:10]:
+        c = _http("POST", f"{API}/{uid}/media", {"image_url": u, "is_carousel_item": "true", "access_token": tok})
+        _wait(c["id"], tok)
+        kids.append(c["id"])
+    c = _http("POST", f"{API}/{uid}/media", {"media_type": "CAROUSEL", "children": ",".join(kids), "caption": caption,
+                                             "access_token": tok})
+    _wait(c["id"], tok)
+    r = _http("POST", f"{API}/{uid}/media_publish", {"creation_id": c["id"], "access_token": tok})
+    mid = r["id"]
+    try:
+        link = _http("GET", f"{API}/{mid}?fields=permalink&access_token={tok}").get("permalink")
+    except Exception:
+        link = None
+    return mid, link

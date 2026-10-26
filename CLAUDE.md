@@ -40,7 +40,9 @@ Format spec: `docs/FORMAT.md`. Engine: `engine/`. State: `state/published.json`,
    - The "私たちへの意味" scene must contain a genuinely specific angle for people working in Japan, and a counter-view.
    - Vary the visuals: each episode should use at least 5 different templates, and don't open two days in a row with the same template.
    - Phrases must be genuinely useful in meetings/email, at B1–B2 level, and each example sentence must be a realistic Japanese workplace line.
-   - Shorts: `hook` is 2 short lines that make people want the answer; `ig_caption` follows the #01 style
+   - Long video title: search-first pattern `「<phrase jp>」は英語で?<phrase en>の使い方|<news ≤20 chars>【ビジネス英語ニュース #NN】`.
+   - Each episode also becomes a 5-slide Instagram carousel automatically (engine/carousel.py); keep phrases/examples short enough to fit.
+   - Shorts: `news_hook` is the 2-line headline shown on frame 0; `hook` is 2 short lines that make people want the answer; `ig_caption` follows the #01 style
      (question → ✅ phrase → meaning → example → one line of context → 📌 保存 → ▼ YouTube → 7 hashtags).
 5. Run `python engine/build.py validate episodes/<id>` for each and **look at** `out/preview_sheet.png` and `out/thumbnail.png`.
    Fix overflowing text, empty-looking frames and awkward line breaks before pushing.

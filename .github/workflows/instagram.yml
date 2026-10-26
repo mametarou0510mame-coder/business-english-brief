@@ -1,8 +1,9 @@
 name: Instagram reels
 
-# Posts queued reels (state/ig_queue.json) whose time has come. Runs just after 12:00 and 21:00 JST.
+# Posts queued reels and carousels (state/ig_queue.json) whose time has come. Runs just after 12:00 and 21:00 JST.
 on:
   schedule:
+    - cron: "33 22 * * *" # 07:33 JST (carousels)
     - cron: "3 3 * * *"   # 12:03 JST
     - cron: "3 12 * * *"  # 21:03 JST
   workflow_dispatch:

@@ -6,6 +6,8 @@
   python engine/build.py publish  episodes/<id> [--dry]   upload to YouTube (scheduled) + queue Instagram
   python engine/build.py pending                     list episode dirs not yet published
   python engine/build.py ig-due [--dry]              post Instagram reels whose time has come
+  python engine/build.py carousels                   build + queue Instagram carousels for published episodes
+  python engine/build.py sync-titles                 push changed episode titles to uploaded long videos
   python engine/build.py check                       show which YouTube channel / IG account the secrets belong to
 """
 import json, os, sys, math, shutil, time, datetime as dt
@@ -173,6 +175,7 @@ def publish_ep(ep_dir, dry=False):
                        {"title": ep["youtube"]["title"], "description": desc, "tags": tags, "publish_at": _when(ep["publish"]["long"])})
         Y.set_thumbnail(tok, vid, os.path.join(out, "thumbnail.png"))
         rec["long"] = vid
+        rec["title"] = ep["youtube"]["title"]
         state[ep["id"]] = rec
         jsave(STATE, state)
         print("long uploaded:", vid)
@@ -268,11 +271,15 @@ def ig_due(dry=False):
         if dry:
             print("[dry] would post", x["video"])
             continue
-        if not wait_url(x["video"]):
-            print("media not reachable yet, will retry next run:", x["video"])
+        probe = x["images"][0] if x.get("type") == "carousel" else x["video"]
+        if not wait_url(probe):
+            print("media not reachable yet, will retry next run:", probe)
             continue
         try:
-            mid, link = I.publish_reel(x["video"], x["cover"], x["caption"])
+            if x.get("type") == "carousel":
+                mid, link = I.publish_carousel(x["images"], x["caption"])
+            else:
+                mid, link = I.publish_reel(x["video"], x["cover"], x["caption"])
             x.update(status="posted", media_id=mid, permalink=link, posted_at=now().isoformat())
             print("posted", link)
             if x is not due[-1]:
@@ -282,6 +289,66 @@ def ig_due(dry=False):
             print("ERROR", e)
         jsave(QUEUE, q)
     jsave(QUEUE, q)
+
+
+CAROUSEL_GAP = dt.timedelta(hours=10)   # at most ~2 carousels a day while a backlog drains
+
+
+def carousels():
+    """Build and queue an Instagram carousel for every published episode that does not have one yet."""
+    import carousel as K
+    state, q = jload(STATE, {}), jload(QUEUE, [])
+    have = {x["ep"] for x in q if x.get("type") == "carousel"}
+    last = max((parse(x["at"]) for x in q if x.get("type") == "carousel"), default=None)
+    d = os.path.join(ROOT, "episodes")
+    eps = []
+    for name in sorted(os.listdir(d)):
+        p = os.path.join(d, name)
+        if not os.path.exists(os.path.join(p, "episode.json")):
+            continue
+        ep = E.load(p)
+        if ep["id"] in have or not (state.get(ep["id"], {}).get("long") or ep.get("status") == "published_manually"):
+            continue
+        eps.append(ep)
+    eps.sort(key=lambda e: (e["publish"]["long"] if e.get("publish") else "", e["episode"]))
+    for ep in eps:
+        dst = os.path.join(MEDIA, ep["id"])
+        files = K.build(ep, dst)
+        at = max(parse(ep["publish"]["long"]) + dt.timedelta(minutes=30) if ep.get("publish") else now(), now())
+        if last and at < last + CAROUSEL_GAP:
+            at = last + CAROUSEL_GAP
+        last = at
+        q.append({"ep": ep["id"], "n": "c", "type": "carousel", "at": at.isoformat(),
+                  "images": [f"{CH['pages_base']}/{ep['id']}/{os.path.basename(f)}" for f in files],
+                  "caption": K.caption(ep), "status": "pending"})
+        print("carousel queued:", ep["id"], at.isoformat())
+    jsave(QUEUE, q)
+
+
+def sync_titles():
+    """Apply episode.json youtube.title to already uploaded long videos whose title changed."""
+    import youtube as Y
+    state = jload(STATE, {})
+    tok = Y.token()
+    Y.guard(tok, CH["youtube_channel_id"])
+    d = os.path.join(ROOT, "episodes")
+    for name in sorted(os.listdir(d)):
+        p = os.path.join(d, name)
+        if not os.path.exists(os.path.join(p, "episode.json")):
+            continue
+        ep = E.load(p)
+        rec = state.get(ep["id"], {})
+        want = ep["youtube"]["title"]
+        if not rec.get("long") or rec.get("title") == want:
+            continue
+        try:
+            Y.set_title(tok, rec["long"], want)
+            rec["title"] = want
+            state[ep["id"]] = rec
+            jsave(STATE, state)
+            print("retitled", rec["long"], want)
+        except Exception as e:
+            print("::warning::retitle failed for", ep["id"], str(e)[:200])
 
 
 def media_sync(dst):
@@ -346,6 +413,10 @@ if __name__ == "__main__":
         pending()
     elif cmd == "ig-due":
         ig_due(dry)
+    elif cmd == "carousels":
+        carousels()
+    elif cmd == "sync-titles":
+        sync_titles()
     elif cmd == "media-sync":
         media_sync(args[0])
     elif cmd == "check":

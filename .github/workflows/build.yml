@@ -127,6 +127,11 @@ jobs:
             if [ ! -f "$ep/out/long.mp4" ]; then echo "::warning::$ep was not rendered; skipped"; continue; fi
             if [ "$DRY" = "true" ]; then python engine/build.py publish "$ep" --dry; else if python engine/build.py publish "$ep" 2>err.txt; then cat err.txt >&2; else cat err.txt >&2; echo "::error::publish failed for $ep: $(tail -c 400 err.txt | tr '\n' ' ')"; fi; fi
           done
+      - name: Instagram carousels and title updates
+        if: env.DRY != 'true'
+        run: |
+          python engine/build.py carousels || echo "::warning::carousel step failed"
+          python engine/build.py sync-titles || echo "::warning::title sync failed"
       - name: Save state
         if: always()
         run: |

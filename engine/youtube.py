@@ -76,3 +76,12 @@ def set_thumbnail(tok, vid, png):
     with open(png, "rb") as f:
         data = f.read()
     _req("POST", f"{UP}/thumbnails/set?videoId={vid}", headers={"Authorization": f"Bearer {tok}", "Content-Type": "image/png"}, raw=data)
+
+
+def set_title(tok, vid, title):
+    H = {"Authorization": f"Bearer {tok}"}
+    _, j = _req("GET", f"{API}/videos?part=snippet&id={vid}", headers=H)
+    sn = j["items"][0]["snippet"]
+    body = {"id": vid, "snippet": {"title": title[:100], "description": sn.get("description", ""), "tags": sn.get("tags", []),
+                                   "categoryId": sn.get("categoryId", "27"), "defaultLanguage": sn.get("defaultLanguage", "ja")}}
+    _req("PUT", f"{API}/videos?part=snippet", body, {**H, "Content-Type": "application/json"})
