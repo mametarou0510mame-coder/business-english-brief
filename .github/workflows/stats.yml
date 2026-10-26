@@ -21,4 +21,5 @@ jobs:
         run: |
           python engine/stats.py > out.txt 2>&1 || true
           cat out.txt | tee -a "$GITHUB_STEP_SUMMARY"
-          while IFS= read -r line; do echo "::notice title=stats::$line"; done < out.txt
+          # annotations are capped at 10 per step, so send the report in chunks of 8 lines
+          split -l 8 out.txt part_ && for f in part_*; do echo "::notice title=stats::$(sed ':a;N;$!ba;s/\n/%0A/g' "$f")"; done
