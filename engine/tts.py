@@ -7,6 +7,7 @@ import os, sys, time, subprocess, urllib.request, urllib.error
 from xml.sax.saxutils import escape
 
 FREE_TIER_INTERVAL = 3.2  # F0: 20 requests / 60 s
+STATS = {}
 
 
 def synth(ssml, key, region):
@@ -20,10 +21,13 @@ def synth(ssml, key, region):
                 return r.read()
         except urllib.error.HTTPError as e:
             if e.code in (429, 500, 502, 503):
-                time.sleep(10 * (attempt + 1))
+                STATS[e.code] = STATS.get(e.code, 0) + 1
+                ra = e.headers.get("Retry-After") if e.headers else None
+                time.sleep(float(ra) if ra and ra.replace(".", "").isdigit() else 10 * (attempt + 1))
                 continue
             raise RuntimeError(f"Azure TTS {e.code}: {e.read()[:200]!r}")
-        except urllib.error.URLError:
+        except (urllib.error.URLError, TimeoutError, OSError):
+            STATS["net"] = STATS.get("net", 0) + 1
             time.sleep(5 * (attempt + 1))
     raise RuntimeError("Azure TTS: too many retries")
 
@@ -52,6 +56,7 @@ def run(ep_dir, lines, voices):
     if todo and not key:
         print(f"[tts] AZURE_SPEECH_KEY not set; {len(todo)} clips will use estimated timing", file=sys.stderr)
         return False
+    start = time.time()
     for i, l in enumerate(todo):
         t0 = time.time()
         mp3 = os.path.join(adir, l["id"] + ".mp3")
@@ -63,4 +68,5 @@ def run(ep_dir, lines, voices):
         wait = FREE_TIER_INTERVAL - (time.time() - t0)
         if wait > 0:
             time.sleep(wait)
+    print(f"::notice title=tts::{os.path.basename(ep_dir)}: {len(todo)} clips in {time.time() - start:.0f}s, retries {STATS}", flush=True)
     return True
