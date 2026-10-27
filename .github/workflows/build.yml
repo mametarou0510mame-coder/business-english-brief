@@ -54,7 +54,7 @@ jobs:
       AZURE_SPEECH_REGION: ${{ secrets.AZURE_SPEECH_REGION }}
     steps:
       - uses: actions/checkout@v4
-      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-inter fonts-noto-cjk fonts-noto-cjk-extra > /dev/null && pip install -q pillow
+      - run: for i in 1 2 3; do timeout 600 sudo apt-get update -qq -o Acquire::Retries=3 && timeout 900 sudo apt-get install -y -qq -o Acquire::Retries=3 ffmpeg fonts-inter fonts-noto-cjk fonts-noto-cjk-extra > /dev/null && break; echo "apt retry $i"; done && pip install -q pillow
       - name: Validate
         run: python engine/build.py validate ${{ join(fromJSON(needs.plan.outputs.eps), ' ') }}
       - name: Narrate
@@ -68,7 +68,7 @@ jobs:
   render:
     needs: [plan, narrate]
     runs-on: ubuntu-24.04
-    timeout-minutes: 90
+    timeout-minutes: 120
     strategy:
       fail-fast: false
       max-parallel: 10
@@ -76,7 +76,7 @@ jobs:
         ep: ${{ fromJSON(needs.plan.outputs.eps) }}
     steps:
       - uses: actions/checkout@v4
-      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-inter fonts-noto-cjk fonts-noto-cjk-extra > /dev/null && pip install -q pillow
+      - run: for i in 1 2 3; do timeout 600 sudo apt-get update -qq -o Acquire::Retries=3 && timeout 900 sudo apt-get install -y -qq -o Acquire::Retries=3 ffmpeg fonts-inter fonts-noto-cjk fonts-noto-cjk-extra > /dev/null && break; echo "apt retry $i"; done && pip install -q pillow
       - uses: actions/download-artifact@v4
         with:
           name: audio
@@ -130,7 +130,7 @@ jobs:
       - name: Instagram carousels and title updates
         if: env.DRY != 'true'
         run: |
-          sudo apt-get update -qq && sudo apt-get install -y -qq fonts-inter fonts-noto-cjk fonts-noto-cjk-extra > /dev/null && pip install -q pillow
+          for i in 1 2 3; do timeout 600 sudo apt-get update -qq -o Acquire::Retries=3 && timeout 900 sudo apt-get install -y -qq -o Acquire::Retries=3 fonts-inter fonts-noto-cjk fonts-noto-cjk-extra > /dev/null && break; echo "apt retry $i"; done && pip install -q pillow
           python engine/build.py carousels || echo "::warning::carousel step failed"
           python engine/build.py sync-titles || echo "::warning::title sync failed"
       - name: Save state
