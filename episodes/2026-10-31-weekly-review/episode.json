@@ -1,0 +1,582 @@
+{
+ "id": "2026-10-31-weekly-review",
+ "episode": "#14",
+ "date": "2026-10-31",
+ "series": "今週の英単語 総復習",
+ "title_card": {
+  "line1": "今週の英語、総復習。",
+  "line2": "ニュースから選んだ3つを、職場で使う"
+ },
+ "readings": [
+  [
+   "iPhone",
+   "アイフォーン"
+  ]
+ ],
+ "phrases": [
+  {
+   "en": "pushed back to",
+   "jp": "〜にずれ込む・延期される",
+   "ex": "The kickoff meeting has been pushed back to Thursday.",
+   "ex_jp": "キックオフ会議は木曜日にずれ込みました。"
+  },
+  {
+   "en": "priced in",
+   "jp": "織り込み済みの",
+   "ex": "The cost increase is already priced in to next year's plan.",
+   "ex_jp": "コストの上昇は、来年の計画にすでに織り込み済みです。"
+  },
+  {
+   "en": "fill a gap",
+   "jp": "足りない部分を埋める",
+   "ex": "Hiring a data analyst will fill a gap in our team.",
+   "ex_jp": "データ分析の担当者を採用すれば、チームの足りない部分を埋められます。"
+  }
+ ],
+ "words": [
+  {
+   "en": "kickoff meeting",
+   "jp": "キックオフ会議(立ち上げの会議)"
+  },
+  {
+   "en": "headcount",
+   "jp": "人員数"
+  },
+  {
+   "en": "forecast",
+   "jp": "予測・見通し"
+  }
+ ],
+ "homework": {
+  "en": "What was pushed back this week?",
+  "jp": "今週、ずれ込んだ予定は?",
+  "hl": [
+   "pushed back"
+  ],
+  "say": "最後に宿題です。今週、あなたの職場でずれ込んだ予定は何ですか。英語で、コメント欄に書いてみてください。"
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "beats": [
+    {
+     "id": "h01",
+     "kind": "jp",
+     "jp": "この1週間で、10本のニュースから、たくさんの英語を学びました。",
+     "en": "This week, we learned a lot of English from ten news stories.",
+     "vis": {
+      "t": "hero",
+      "kicker": "weekly review",
+      "big": "10本",
+      "color": "gold",
+      "sub": "今週のニュースで学んだ英語",
+      "sub_color": "text"
+     }
+    },
+    {
+     "id": "h02",
+     "kind": "jp",
+     "jp": "今日はその中から、職場ですぐに使える3つを選んで、新しい場面で練習します。",
+     "en": "Today, we'll practice three of them in new workplace situations.",
+     "vis": {
+      "t": "hero_side",
+      "big": "3",
+      "color": "gold",
+      "text": "practice",
+      "jp": "新しい場面で練習"
+     },
+     "hl": [
+      "practice"
+     ]
+    },
+    {
+     "id": "h03",
+     "kind": "jp",
+     "jp": "今日はこのニュースから、会議で使える英語を3つ。最後に答え合わせをします。",
+     "en": "Three phrases for your next meeting. Answers at the end.",
+     "vis": {
+      "t": "teaser"
+     }
+    }
+   ]
+  },
+  {
+   "id": "p1",
+   "chapter": "ずれ込む",
+   "beats": [
+    {
+     "id": "a01",
+     "kind": "jp",
+     "jp": "1つ目は、ずれ込む、延期される、です。折りたたみのアイフォーンは、出荷が来年の1月にずれ込みました。",
+     "en": "First: pushed back to. The foldable iPhone's shipping was pushed back to January.",
+     "vis": {
+      "t": "cards",
+      "footer": "今週のニュースで登場した3つの表現",
+      "items": [
+       {
+        "name": "pushed back to",
+        "big": "ずれ込む",
+        "sub": "iPhoneの出荷が1月に",
+        "note": "#09 折りたたみiPhone",
+        "color": "blue"
+       },
+       {
+        "name": "priced in",
+        "big": "織り込み済み",
+        "sub": "良い結果でも株価が下落",
+        "note": "#10 モデルナ",
+        "color": "red"
+       },
+       {
+        "name": "fill a gap",
+        "big": "穴を埋める",
+        "sub": "足りない機能を買収で",
+        "note": "#04 セールスフォース",
+        "color": "green"
+       }
+      ],
+      "show": 1
+     },
+     "hl": [
+      "pushed back to"
+     ],
+     "star": true
+    },
+    {
+     "id": "a02",
+     "kind": "jp",
+     "jp": "職場では、会議の予定が変わったときに、とても便利です。",
+     "en": "At work, it's useful when a meeting is rescheduled.",
+     "vis": {
+      "t": "timeline",
+      "items": [
+       {
+        "when": "月曜",
+        "text": "キックオフ会議の予定",
+        "color": "muted"
+       },
+       {
+        "when": "木曜",
+        "text": "→ 木曜にずれ込み",
+        "color": "gold"
+       }
+      ]
+     }
+    },
+    {
+     "id": "a03",
+     "kind": "en_insert",
+     "en": "The meeting has been pushed back to Thursday.",
+     "jp": "会議は木曜日にずれ込んだ",
+     "vis": {
+      "t": "timeline",
+      "items": [
+       {
+        "when": "月曜",
+        "text": "キックオフ会議の予定",
+        "color": "muted"
+       },
+       {
+        "when": "木曜",
+        "text": "→ 木曜にずれ込み",
+        "color": "gold"
+       }
+      ]
+     },
+     "star": true,
+     "hl": [
+      "pushed back to"
+     ]
+    },
+    {
+     "id": "a04",
+     "kind": "jp",
+     "jp": "前置きの to のあとに、新しい日付を入れるのがポイントです。延期されただけなら、 pushed back だけでも使えます。",
+     "en": "Put the new date after 'to'. Without a date, just say 'pushed back'.",
+     "vis": {
+      "t": "vs",
+      "label": "日付まで言う",
+      "mid": "使い分け",
+      "left": {
+       "en": "pushed back",
+       "label": "延期された",
+       "val": "日付なし",
+       "color": "blue"
+      },
+      "right": {
+       "en": "pushed back to",
+       "label": "〜にずれ込んだ",
+       "val": "+ 新しい日付",
+       "color": "gold"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "p2",
+   "chapter": "織り込み済み",
+   "beats": [
+    {
+     "id": "b01",
+     "kind": "jp",
+     "jp": "2つ目は、織り込み済み、です。モデルナの株価は、良い結果がすでに織り込まれていたので、下がりました。",
+     "en": "Second: priced in. Moderna's good news was already priced in.",
+     "vis": {
+      "t": "cards",
+      "footer": "今週のニュースで登場した3つの表現",
+      "items": [
+       {
+        "name": "pushed back to",
+        "big": "ずれ込む",
+        "sub": "iPhoneの出荷が1月に",
+        "note": "#09 折りたたみiPhone",
+        "color": "blue"
+       },
+       {
+        "name": "priced in",
+        "big": "織り込み済み",
+        "sub": "良い結果でも株価が下落",
+        "note": "#10 モデルナ",
+        "color": "red"
+       },
+       {
+        "name": "fill a gap",
+        "big": "穴を埋める",
+        "sub": "足りない機能を買収で",
+        "note": "#04 セールスフォース",
+        "color": "green"
+       }
+      ],
+      "show": 2
+     },
+     "hl": [
+      "priced in"
+     ],
+     "star": true
+    },
+    {
+     "id": "b02",
+     "kind": "jp",
+     "jp": "職場では、予算や計画の話でよく使います。予想できていたコストは、もう計画に入っています、という意味です。",
+     "en": "At work, use it for plans and budgets: an expected cost is already in the plan.",
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "原材料の値上がり",
+        "mid": "計画",
+        "res": "来年の計画に入っている",
+        "ok": true
+       },
+       {
+        "a": "急な円高",
+        "mid": "計画",
+        "res": "計画には入っていない",
+        "ok": false
+       }
+      ]
+     }
+    },
+    {
+     "id": "b03",
+     "kind": "en_insert",
+     "en": "The cost increase is already priced in.",
+     "jp": "コストの上昇は織り込み済み",
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "原材料の値上がり",
+        "mid": "計画",
+        "res": "来年の計画に入っている",
+        "ok": true
+       },
+       {
+        "a": "急な円高",
+        "mid": "計画",
+        "res": "計画には入っていない",
+        "ok": false
+       }
+      ]
+     },
+     "star": true,
+     "hl": [
+      "priced in"
+     ]
+    },
+    {
+     "id": "b04",
+     "kind": "jp",
+     "jp": "逆に、まだ入っていないときは、 not priced in yet と言えます。",
+     "en": "If it isn't included yet, say 'not priced in yet'.",
+     "vis": {
+      "t": "statement",
+      "kicker": "not priced in yet",
+      "text": "まだ織り込まれていない",
+      "sub": "リスクを指摘するときに便利"
+     }
+    }
+   ]
+  },
+  {
+   "id": "p3",
+   "chapter": "足りない部分を埋める",
+   "beats": [
+    {
+     "id": "c01",
+     "kind": "jp",
+     "jp": "3つ目は、足りない部分を埋める、です。セールスフォースは、足りない機能を、買収で埋めようとしています。",
+     "en": "Third: fill a gap. Salesforce is filling a gap with an acquisition.",
+     "vis": {
+      "t": "cards",
+      "footer": "今週のニュースで登場した3つの表現",
+      "items": [
+       {
+        "name": "pushed back to",
+        "big": "ずれ込む",
+        "sub": "iPhoneの出荷が1月に",
+        "note": "#09 折りたたみiPhone",
+        "color": "blue"
+       },
+       {
+        "name": "priced in",
+        "big": "織り込み済み",
+        "sub": "良い結果でも株価が下落",
+        "note": "#10 モデルナ",
+        "color": "red"
+       },
+       {
+        "name": "fill a gap",
+        "big": "穴を埋める",
+        "sub": "足りない機能を買収で",
+        "note": "#04 セールスフォース",
+        "color": "green"
+       }
+      ],
+      "show": 3
+     },
+     "hl": [
+      "fill a gap"
+     ],
+     "star": true
+    },
+    {
+     "id": "c02",
+     "kind": "jp",
+     "jp": "職場では、人を採用するときや、新しいサービスを提案するときに使えます。",
+     "en": "At work, use it when hiring or pitching a new service.",
+     "vis": {
+      "t": "network",
+      "title": "チームの足りない部分を埋める",
+      "center": {
+       "label": "チーム",
+       "sub": "今の体制"
+      },
+      "nodes": [
+       {
+        "label": "営業",
+        "color": "green"
+       },
+       {
+        "label": "企画",
+        "color": "green"
+       },
+       {
+        "label": "開発",
+        "color": "green"
+       },
+       {
+        "label": "データ分析",
+        "color": "gold"
+       }
+      ],
+      "inward": true
+     }
+    },
+    {
+     "id": "c03",
+     "kind": "en_insert",
+     "en": "A data analyst will fill a gap in our team.",
+     "jp": "データ分析の担当者がチームの穴を埋める",
+     "vis": {
+      "t": "network",
+      "title": "チームの足りない部分を埋める",
+      "center": {
+       "label": "チーム",
+       "sub": "今の体制"
+      },
+      "nodes": [
+       {
+        "label": "営業",
+        "color": "green"
+       },
+       {
+        "label": "企画",
+        "color": "green"
+       },
+       {
+        "label": "開発",
+        "color": "green"
+       },
+       {
+        "label": "データ分析",
+        "color": "gold"
+       }
+      ],
+      "inward": true
+     },
+     "star": true,
+     "hl": [
+      "fill a gap"
+     ]
+    },
+    {
+     "id": "c04",
+     "kind": "jp",
+     "jp": "お客様への提案では、この新しいサービスは、御社の足りない部分を埋めます、という言い方ができます。",
+     "en": "In a pitch: this service fills a gap in your current setup.",
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "This service fills a gap",
+       "in your current setup."
+      ],
+      "hl": [
+       "fills a gap"
+      ],
+      "by": "提案の場面で使える一文"
+     }
+    }
+   ]
+  },
+  {
+   "id": "meaning",
+   "chapter": "今週のまとめ",
+   "beats": [
+    {
+     "id": "m01",
+     "kind": "jp",
+     "jp": "3つとも、ニュースで覚えた表現を、自分の職場の話に置きかえるのがコツです。",
+     "en": "The key is to move phrases from the news into your own work.",
+     "vis": {
+      "t": "points",
+      "show": 3,
+      "items": [
+       {
+        "head": "ずれ込む",
+        "big": "pushed\nback to",
+        "sub": "予定の変更を伝える",
+        "color": "blue"
+       },
+       {
+        "head": "織り込み済み",
+        "big": "priced in",
+        "sub": "計画や予算の話で",
+        "color": "red"
+       },
+       {
+        "head": "穴を埋める",
+        "big": "fill a gap",
+        "sub": "採用や提案の場面で",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "m02",
+     "kind": "jp",
+     "jp": "来週の会議で、ひとつでいいので、実際に使ってみてください。",
+     "en": "Try using just one of them in a meeting next week.",
+     "vis": {
+      "t": "statement",
+      "kicker": "TRY ONE",
+      "text": "来週の会議で、ひとつ使ってみよう",
+      "sub": "使った表現は、忘れにくくなります"
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "「ずれ込む」は英語で?pushed back toの使い方|今週のニュース英語 総復習【ビジネス英語ニュース #14】",
+  "summary": "今週のニュースで学んだ英語の中から、職場ですぐ使える3つ(pushed back to/priced in/fill a gap)を選び、会議や提案の新しい場面で練習します。iPhone Duoの出荷延期、モデルナの株価、セールスフォースの買収のニュースを振り返ります。",
+  "tags": [
+   "総復習",
+   "英語フレーズ",
+   "会議英語",
+   "pushed back",
+   "priced in",
+   "ビジネス英語",
+   "英語学習",
+   "ニュース英語",
+   "時事英語",
+   "会議 英語",
+   "教養",
+   "社会人 英語",
+   "business English"
+  ]
+ },
+ "thumbnail": {
+  "big": "総復習",
+  "big_color": "gold",
+  "under": "今週の英語3つ",
+  "badge": "保存版",
+  "badge_color": "gold",
+  "question": "職場で使える?",
+  "pill": "pushed back to",
+  "bottom": "会議で使える英語3つ"
+ },
+ "shorts": [
+  {
+   "phrase": 0,
+   "hook": [
+    "「ずれ込む」",
+    "英語で言える?"
+   ],
+   "news_hook": [
+    "今週の英語",
+    "総復習"
+   ],
+   "ctx": "折りたたみiPhoneのニュースで登場した表現",
+   "title": "「〜にずれ込む」は英語で?会議の予定変更で使える一言 #ビジネス英語 #shorts",
+   "ig_caption": "「〜にずれ込む」を英語で言えますか?\n\n✅ pushed back to\n〜にずれ込む・延期される\n\n例文:The kickoff meeting has been pushed back to Thursday.\n(キックオフ会議は木曜日にずれ込みました。)\n\n今週の折りたたみiPhoneのニュースで登場した表現を、職場の場面で練習します。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  },
+  {
+   "phrase": 2,
+   "hook": [
+    "「穴を埋める」",
+    "英語で言える?"
+   ],
+   "news_hook": [
+    "今週の英語",
+    "総復習"
+   ],
+   "ctx": "セールスフォースのニュースで登場した表現",
+   "title": "「足りない部分を埋める」は英語で?採用や提案で使える一言 #ビジネス英語 #shorts",
+   "ig_caption": "「足りない部分を埋める」を英語で言えますか?\n\n✅ fill a gap\n足りない部分を埋める\n\n例文:Hiring a data analyst will fill a gap in our team.\n(データ分析の担当者を採用すれば、チームの足りない部分を埋められます。)\n\nセールスフォースの買収のニュースで登場した表現を、職場の場面で練習します。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  }
+ ],
+ "sources": [
+  {
+   "title": "中央通訊社(CNA)「iPhone Duo中國市場熱銷 發貨排至明年」(2026年10月17日)",
+   "url": "https://www.cna.com.tw/news/acn/202610170102.aspx"
+  },
+  {
+   "title": "Yahoo Finance「Moderna stock's 17% slump was a 'sell the news' event, analyst says」",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/moderna-stock-17-slump-sell-001835145.html"
+  },
+  {
+   "title": "The Star(Reuters)「Salesforce to acquire Braze in a $5.66 billion deal」(2026年10月20日)",
+   "url": "https://www.thestar.com.my/tech/tech-news/2026/10/20/salesforce-to-acquire-braze-in-a-566-billion-deal"
+  }
+ ],
+ "publish": {
+  "long": "2026-10-31T07:00:00+09:00",
+  "shorts": [
+   "2026-10-31T12:00:00+09:00",
+   "2026-10-31T21:00:00+09:00"
+  ]
+ }
+}

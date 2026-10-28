@@ -1,0 +1,494 @@
+{
+ "id": "2026-11-01-disagree-politely",
+ "episode": "#15",
+ "date": "2026-11-01",
+ "series": "場面別の英語",
+ "title_card": {
+  "line1": "会議で、角を立てずに反対する。",
+  "line2": "アナリストの意見が割れたモデルナから学ぶ"
+ },
+ "readings": [
+  [
+   "Citi",
+   "シティ"
+  ]
+ ],
+ "phrases": [
+  {
+   "en": "I see your point, but",
+   "jp": "おっしゃることはわかりますが",
+   "ex": "I see your point, but the deadline is too tight.",
+   "ex_jp": "おっしゃることはわかりますが、締め切りが厳しすぎます。"
+  },
+  {
+   "en": "I'm not sure that's the case",
+   "jp": "そうとは限らないと思います",
+   "ex": "I'm not sure that's the case for our Asian customers.",
+   "ex_jp": "アジアの顧客については、そうとは限らないと思います。"
+  },
+  {
+   "en": "look at it from another angle",
+   "jp": "別の角度から見る",
+   "ex": "Could we look at it from another angle before we decide?",
+   "ex_jp": "決める前に、別の角度から見てみませんか。"
+  }
+ ],
+ "words": [
+  {
+   "en": "pushback",
+   "jp": "反対意見・抵抗"
+  },
+  {
+   "en": "concern",
+   "jp": "懸念"
+  },
+  {
+   "en": "alternative",
+   "jp": "代わりの案"
+  }
+ ],
+ "homework": {
+  "en": "Reply politely: 'We should cut the budget by half.'",
+  "jp": "「予算を半分にすべきだ」に丁寧に反対すると?",
+  "hl": [
+   "politely"
+  ],
+  "say": "最後に宿題です。予算を半分にすべきだ、という意見に、丁寧に反対するとしたら、英語でどう言いますか。コメント欄に書いてみてください。"
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "beats": [
+    {
+     "id": "h01",
+     "kind": "jp",
+     "jp": "会議で、上司やお客様の意見に反対したいとき。英語だと、言い方がきつくなっていませんか。",
+     "en": "When you disagree in a meeting, does your English sound too strong?",
+     "vis": {
+      "t": "vs",
+      "label": "丁寧な反対",
+      "mid": "同じ反対でも",
+      "left": {
+       "en": "too direct",
+       "label": "You're wrong.",
+       "val": "角が立つ",
+       "color": "red",
+       "up": false
+      },
+      "right": {
+       "en": "polite",
+       "label": "I see your point, but…",
+       "val": "話が続く",
+       "color": "green",
+       "up": true
+      }
+     }
+    },
+    {
+     "id": "h02",
+     "kind": "jp",
+     "jp": "今日は、角を立てずに反対する英語を、3つのステップで学びます。",
+     "en": "Today: three steps to disagree politely.",
+     "vis": {
+      "t": "hero_side",
+      "big": "3",
+      "color": "gold",
+      "text": "disagree politely",
+      "jp": "丁寧に反対する"
+     },
+     "hl": [
+      "disagree politely"
+     ]
+    },
+    {
+     "id": "h03",
+     "kind": "jp",
+     "jp": "今日はこのニュースから、会議で使える英語を3つ。最後に答え合わせをします。",
+     "en": "Three phrases for your next meeting. Answers at the end.",
+     "vis": {
+      "t": "teaser"
+     }
+    }
+   ]
+  },
+  {
+   "id": "news",
+   "chapter": "ニュースでは",
+   "beats": [
+    {
+     "id": "n01",
+     "kind": "jp",
+     "jp": "ビジネスの世界では、専門家の意見が割れることはよくあります。先週取り上げたモデルナがその例です。",
+     "en": "Experts often disagree. Moderna, from last week, is a good example.",
+     "vis": {
+      "t": "timeline",
+      "items": [
+       {
+        "when": "9月30日",
+        "text": "シティが株価は「正当化できない」として格下げ",
+        "color": "red"
+       },
+       {
+        "when": "〜10月21日",
+        "text": "それでも株価は8月18日から約290%上昇",
+        "color": "green"
+       },
+       {
+        "when": "10月22日",
+        "text": "良い結果の流出後、株価は17.6%下落",
+        "color": "gold"
+       }
+      ]
+     }
+    },
+    {
+     "id": "n02",
+     "kind": "jp",
+     "jp": "同じデータを見ても、高すぎると考える人と、まだ上がると考える人がいました。大事なのは、違う意見を、どう伝えるかです。",
+     "en": "People read the same data differently. What matters is how you express a different view.",
+     "vis": {
+      "t": "cards",
+      "footer": "同じデータ、違う見方",
+      "items": [
+       {
+        "name": "View A",
+        "big": "高すぎる",
+        "sub": "株価は正当化できない",
+        "color": "red"
+       },
+       {
+        "name": "View B",
+        "big": "まだ上がる",
+        "sub": "株価はその後も上昇",
+        "color": "green"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "s1",
+   "chapter": "ステップ1 受け止める",
+   "beats": [
+    {
+     "id": "s11",
+     "kind": "jp",
+     "jp": "ステップ1は、まず相手の意見を受け止めることです。おっしゃることはわかりますが、と前置きします。",
+     "en": "Step 1: acknowledge their view first. Start with 'I see your point, but'.",
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "① 相手の意見を受け止める",
+        "mid": "認める",
+        "res": "I see your point, but…",
+        "ok": true
+       }
+      ]
+     },
+     "hl": [
+      "I see your point, but"
+     ],
+     "star": true
+    },
+    {
+     "id": "s12",
+     "kind": "en_insert",
+     "en": "I see your point, but the deadline is too tight.",
+     "jp": "おっしゃることはわかりますが、締め切りが厳しすぎます",
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "① 相手の意見を受け止める",
+        "mid": "認める",
+        "res": "I see your point, but…",
+        "ok": true
+       }
+      ]
+     },
+     "star": true,
+     "hl": [
+      "I see your point, but"
+     ]
+    },
+    {
+     "id": "s13",
+     "kind": "jp",
+     "jp": "いきなり、あなたは間違っている、と言うより、ずっと話が続きやすくなります。",
+     "en": "It keeps the conversation going, unlike 'You're wrong.'",
+     "vis": {
+      "t": "vs",
+      "label": "丁寧な反対",
+      "mid": "同じ反対でも",
+      "left": {
+       "en": "too direct",
+       "label": "You're wrong.",
+       "val": "角が立つ",
+       "color": "red",
+       "up": false
+      },
+      "right": {
+       "en": "polite",
+       "label": "I see your point, but…",
+       "val": "話が続く",
+       "color": "green",
+       "up": true
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "chapter": "ステップ2 違う意見を伝える",
+   "beats": [
+    {
+     "id": "s21",
+     "kind": "jp",
+     "jp": "ステップ2は、理由をつけて違う意見を伝えることです。そうとは限らないと思います、は I'm not sure that's the case です。",
+     "en": "Step 2: give your view with a reason. 'I'm not sure that's the case.'",
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "① 相手の意見を受け止める",
+        "mid": "認める",
+        "res": "I see your point, but…",
+        "ok": true
+       },
+       {
+        "a": "② 理由をつけて違う意見を言う",
+        "mid": "伝える",
+        "res": "I'm not sure that's the case…",
+        "ok": true
+       }
+      ]
+     },
+     "hl": [
+      "I'm not sure that's the case"
+     ],
+     "star": true
+    },
+    {
+     "id": "s22",
+     "kind": "en_insert",
+     "en": "I'm not sure that's the case for our Asian customers.",
+     "jp": "アジアの顧客については、そうとは限らないと思います",
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "① 相手の意見を受け止める",
+        "mid": "認める",
+        "res": "I see your point, but…",
+        "ok": true
+       },
+       {
+        "a": "② 理由をつけて違う意見を言う",
+        "mid": "伝える",
+        "res": "I'm not sure that's the case…",
+        "ok": true
+       }
+      ]
+     },
+     "star": true,
+     "hl": [
+      "I'm not sure that's the case"
+     ]
+    },
+    {
+     "id": "s23",
+     "kind": "jp",
+     "jp": "I don't agree と言うより、柔らかく聞こえます。後ろに、 for ... をつけて、どこが違うのかをはっきりさせましょう。",
+     "en": "It sounds softer than 'I don't agree.' Add 'for…' to show exactly where you differ.",
+     "vis": {
+      "t": "statement",
+      "kicker": "for + 対象",
+      "text": "どこが違うのかを、はっきりさせる",
+      "sub": "for our Asian customers / for this quarter"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "chapter": "ステップ3 提案する",
+   "beats": [
+    {
+     "id": "s31",
+     "kind": "jp",
+     "jp": "ステップ3は、次の一手を提案することです。別の角度から見てみませんか、と言って、話を前に進めます。",
+     "en": "Step 3: propose a next step. 'Could we look at it from another angle?'",
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "① 相手の意見を受け止める",
+        "mid": "認める",
+        "res": "I see your point, but…",
+        "ok": true
+       },
+       {
+        "a": "② 理由をつけて違う意見を言う",
+        "mid": "伝える",
+        "res": "I'm not sure that's the case…",
+        "ok": true
+       },
+       {
+        "a": "③ 次の一手を提案する",
+        "mid": "提案",
+        "res": "Could we look at it…?",
+        "ok": true
+       }
+      ]
+     },
+     "hl": [
+      "look at it from another angle"
+     ],
+     "star": true
+    },
+    {
+     "id": "s32",
+     "kind": "en_insert",
+     "en": "Could we look at it from another angle?",
+     "jp": "別の角度から見てみませんか",
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "① 相手の意見を受け止める",
+        "mid": "認める",
+        "res": "I see your point, but…",
+        "ok": true
+       },
+       {
+        "a": "② 理由をつけて違う意見を言う",
+        "mid": "伝える",
+        "res": "I'm not sure that's the case…",
+        "ok": true
+       },
+       {
+        "a": "③ 次の一手を提案する",
+        "mid": "提案",
+        "res": "Could we look at it…?",
+        "ok": true
+       }
+      ]
+     },
+     "star": true,
+     "hl": [
+      "look at it from another angle"
+     ]
+    },
+    {
+     "id": "s33",
+     "kind": "jp",
+     "jp": "反対で終わらせずに、提案で終わらせる。これが、海外の相手とも信頼関係を保つコツです。",
+     "en": "End with a proposal, not just a no. That's how you keep trust with global partners.",
+     "vis": {
+      "t": "points",
+      "show": 3,
+      "items": [
+       {
+        "head": "ステップ1",
+        "big": "受け止める",
+        "sub": "I see your point, but",
+        "color": "blue"
+       },
+       {
+        "head": "ステップ2",
+        "big": "理由を言う",
+        "sub": "I'm not sure that's\nthe case",
+        "color": "gold"
+       },
+       {
+        "head": "ステップ3",
+        "big": "提案する",
+        "sub": "look at it from\nanother angle",
+        "color": "green"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "「おっしゃることはわかりますが」は英語で?I see your point, butの使い方|丁寧に反対する【ビジネス英語ニュース #15】",
+  "summary": "会議で上司やお客様の意見に反対したいときに、角を立てずに伝える英語を3つのステップで学びます。アナリストの見方が割れたモデルナの株価のニュースを例に、受け止める・理由を言う・提案する、の順で練習します。",
+  "tags": [
+   "反対意見",
+   "丁寧な英語",
+   "会議英語",
+   "英語フレーズ",
+   "モデルナ",
+   "ビジネス英語",
+   "英語学習",
+   "ニュース英語",
+   "時事英語",
+   "会議 英語",
+   "教養",
+   "社会人 英語",
+   "business English"
+  ]
+ },
+ "thumbnail": {
+  "big": "反対",
+  "big_color": "gold",
+  "under": "角を立てずに",
+  "badge": "会議の英語",
+  "badge_color": "gold",
+  "question": "どう言う?",
+  "pill": "I see your point, but",
+  "bottom": "会議で使える英語3つ"
+ },
+ "shorts": [
+  {
+   "phrase": 0,
+   "hook": [
+    "「おっしゃることは",
+    "わかりますが」"
+   ],
+   "news_hook": [
+    "会議で",
+    "角を立てずに反対"
+   ],
+   "ctx": "会議で丁寧に反対するときの最初の一言",
+   "title": "「おっしゃることはわかりますが」は英語で?丁寧に反対する一言 #ビジネス英語 #shorts",
+   "ig_caption": "「おっしゃることはわかりますが」を英語で言えますか?\n\n✅ I see your point, but\nおっしゃることはわかりますが\n\n例文:I see your point, but the deadline is too tight.\n(おっしゃることはわかりますが、締め切りが厳しすぎます。)\n\n会議で、角を立てずに反対するときの最初の一言です。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  },
+  {
+   "phrase": 2,
+   "hook": [
+    "「別の角度から",
+    "見てみませんか」"
+   ],
+   "news_hook": [
+    "会議で",
+    "話を前に進める"
+   ],
+   "ctx": "反対したあとに提案するときの一言",
+   "title": "「別の角度から見てみませんか」は英語で?会議を前に進める一言 #ビジネス英語 #shorts",
+   "ig_caption": "「別の角度から見てみませんか」を英語で言えますか?\n\n✅ look at it from another angle\n別の角度から見る\n\n例文:Could we look at it from another angle before we decide?\n(決める前に、別の角度から見てみませんか。)\n\n反対で終わらせずに、提案で終わらせるための一言です。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Forbes「Moderna Stock Plunges 25% After Apparent Leak Of Cancer Vaccine Data」(2026年10月22日)",
+   "url": "https://www.forbes.com/sites/maryroeloffs/2026/10/22/moderna-stock-plunges-25-after-possible-cancer-vaccine-data-leak/"
+  },
+  {
+   "title": "Yahoo Finance「Moderna stock's 17% slump was a 'sell the news' event, analyst says」",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/moderna-stock-17-slump-sell-001835145.html"
+  }
+ ],
+ "publish": {
+  "long": "2026-11-01T07:00:00+09:00",
+  "shorts": [
+   "2026-11-01T12:00:00+09:00",
+   "2026-11-01T21:00:00+09:00"
+  ]
+ }
+}

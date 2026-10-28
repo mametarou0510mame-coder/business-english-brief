@@ -62,6 +62,9 @@ Beat ids starting with `v`, `w`, `o`, `t` followed by digits are reserved for th
 | `org` | flat, label | org chart getting flatter |
 | `statement` | kicker, text, sub | section opener ("SO WHAT?") |
 | `timeline` | items[{when, text, color}], show | sequence of events / dates |
+| `globe` | title, lines[{text, color}], points[{label, lat, lon, color}], arcs[[i, j]], lon (centre longitude), lat (tilt) | rotating CG globe with land dots, glowing markers and flight arcs — cross-border stories |
+| `line` | title, points[{label, value}], color, display (end label), mark[{i, text}], note | animated glowing line chart — only with real data points |
+| `network` | title, center{label, sub}, nodes[{label, color}], inward | hub-and-spoke network with flowing packets — ecosystems, portfolios, teams |
 
 Colors: `red` (bad/down), `green` (good/up), `gold` (key), `blue`, `text`, `muted`.
 
@@ -72,3 +75,6 @@ python engine/build.py validate episodes/<id>
 ```
 prints the estimated length and writes `out/preview_sheet.png` and `out/thumbnail.png` — open them and look.
 Target length 4–7 minutes (≈1,800–2,800 TTS characters).
+
+Motion (automatic, no fields): living background (drifting grid, orb, particles), slow camera push-in per scene,
+light-sweep scene transitions, extruded 3D type with a shine pass on `hero`, `hero_side`, `counter` and the title card.

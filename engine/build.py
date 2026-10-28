@@ -21,7 +21,7 @@ STATE = os.path.join(ROOT, "state", "published.json")
 QUEUE = os.path.join(ROOT, "state", "ig_queue.json")
 MEDIA = os.path.join(ROOT, "_media")
 TEMPLATES_OK = {"hero", "hero_side", "teaser", "people", "counter", "bars", "vs", "quote", "cards", "points",
-                "flow", "layers", "org", "statement", "timeline"}
+                "flow", "layers", "org", "statement", "timeline", "globe", "line", "network"}
 
 
 def jload(p, default):

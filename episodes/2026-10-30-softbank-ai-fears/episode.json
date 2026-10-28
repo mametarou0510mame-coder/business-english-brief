@@ -1,0 +1,613 @@
+{
+ "id": "2026-10-30-softbank-ai-fears",
+ "episode": "#13",
+ "date": "2026-10-22",
+ "series": "海外メディアが報じる日本",
+ "title_card": {
+  "line1": "ソフトバンク、時価総額が半分に。",
+  "line2": "海外メディアはどう報じた?"
+ },
+ "readings": [
+  [
+   "SoftBank",
+   "ソフトバンク"
+  ],
+  [
+   "OpenAI",
+   "オープンエーアイ"
+  ],
+  [
+   "AI",
+   "エーアイ"
+  ]
+ ],
+ "phrases": [
+  {
+   "en": "scrutinize",
+   "jp": "厳しくチェックする・精査する",
+   "ex": "The board will scrutinize the budget next week.",
+   "ex_jp": "来週、取締役会が予算を厳しくチェックします。"
+  },
+  {
+   "en": "highly leveraged",
+   "jp": "借入への依存度が高い",
+   "ex": "The buyer is highly leveraged, so let's check their cash flow first.",
+   "ex_jp": "買い手は借入への依存度が高いので、まず資金繰りを確認しましょう。"
+  },
+  {
+   "en": "wiped out",
+   "jp": "(利益などが)帳消しになった",
+   "ex": "The weak yen wiped out most of our price increase.",
+   "ex_jp": "円安で、値上げの効果のほとんどが帳消しになりました。"
+  }
+ ],
+ "words": [
+  {
+   "en": "market value",
+   "jp": "時価総額"
+  },
+  {
+   "en": "junk bond",
+   "jp": "ジャンク債(低格付けの社債)"
+  },
+  {
+   "en": "credit-default swap",
+   "jp": "倒産リスクに備える保険(CDS)"
+  }
+ ],
+ "homework": {
+  "en": "What does your boss scrutinize most?",
+  "jp": "上司がいちばん厳しくチェックするものは?",
+  "hl": [
+   "scrutinize"
+  ],
+  "say": "最後に宿題です。あなたの上司がいちばん厳しくチェックするものは何ですか。英語で、コメント欄に書いてみてください。"
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "beats": [
+    {
+     "id": "h01",
+     "kind": "jp",
+     "jp": "ソフトバンクグループの時価総額が、6月の最高値から、およそ半分になりました。",
+     "en": "SoftBank's market value has halved from its June peak.",
+     "vis": {
+      "t": "hero",
+      "kicker": "market value",
+      "big": "−50%",
+      "color": "red",
+      "crack": true,
+      "sub": "最高値から、およそ半分に",
+      "sub_color": "gold"
+     },
+     "hl": [
+      "halved"
+     ]
+    },
+    {
+     "id": "h02",
+     "kind": "jp",
+     "jp": "海外メディアは、これを、AIへの不安の表れとして報じています。",
+     "en": "Overseas media see it as a sign of AI fears.",
+     "vis": {
+      "t": "hero_side",
+      "big": "AI",
+      "color": "gold",
+      "text": "AI fears",
+      "jp": "AIへの不安"
+     },
+     "hl": [
+      "AI fears"
+     ]
+    },
+    {
+     "id": "h03",
+     "kind": "jp",
+     "jp": "今日はこのニュースから、会議で使える英語を3つ。最後に答え合わせをします。",
+     "en": "Three phrases for your next meeting. Answers at the end.",
+     "vis": {
+      "t": "teaser"
+     }
+    }
+   ]
+  },
+  {
+   "id": "what",
+   "chapter": "何が起きたか",
+   "beats": [
+    {
+     "id": "p01",
+     "kind": "jp",
+     "jp": "ソフトバンクの株価は10月22日、6.9%下がりました。時価総額は、およそ24兆7000億円。日立製作所やリクルートよりも小さくなりました。",
+     "en": "On October 22, shares fell 6.9%, leaving a market value of about ¥24.7 trillion, below Hitachi and Recruit.",
+     "vis": {
+      "t": "counter",
+      "kicker": "MARKET VALUE",
+      "big": "¥24.7兆",
+      "color": "red",
+      "sub": "日立・リクルートを下回る",
+      "note": "10月22日時点、約1570億ドル"
+     }
+    },
+    {
+     "id": "p02",
+     "kind": "jp",
+     "jp": "4か月前には、一時トヨタを抜いて、日本で最も価値の高い会社になっていました。",
+     "en": "Four months earlier, it had briefly overtaken Toyota as Japan's most valuable company.",
+     "vis": {
+      "t": "timeline",
+      "items": [
+       {
+        "when": "6月2日",
+        "text": "株価が最高値。同じころ一時トヨタを抜き日本一の時価総額に",
+        "color": "green"
+       },
+       {
+        "when": "9月",
+        "text": "過去最大規模のジャンク債で111億ドルを調達",
+        "color": "gold"
+       },
+       {
+        "when": "10月",
+        "text": "AI関連企業の資金繰りへの不安が広がる",
+        "color": "muted"
+       },
+       {
+        "when": "10月22日",
+        "text": "株価が6.9%下落。最高値からおよそ半分に",
+        "color": "red"
+       }
+      ],
+      "show": 1
+     }
+    },
+    {
+     "id": "p03",
+     "kind": "jp",
+     "jp": "9月には、過去最大規模のジャンク債で、111億ドルを集めています。",
+     "en": "In September, it raised $11.1 billion in a record junk bond sale.",
+     "vis": {
+      "t": "timeline",
+      "items": [
+       {
+        "when": "6月2日",
+        "text": "株価が最高値。同じころ一時トヨタを抜き日本一の時価総額に",
+        "color": "green"
+       },
+       {
+        "when": "9月",
+        "text": "過去最大規模のジャンク債で111億ドルを調達",
+        "color": "gold"
+       },
+       {
+        "when": "10月",
+        "text": "AI関連企業の資金繰りへの不安が広がる",
+        "color": "muted"
+       },
+       {
+        "when": "10月22日",
+        "text": "株価が6.9%下落。最高値からおよそ半分に",
+        "color": "red"
+       }
+      ],
+      "show": 2
+     }
+    },
+    {
+     "id": "p04",
+     "kind": "jp",
+     "jp": "10月に入って、AIの関連企業の資金繰りへの不安が広がり、株価は今月だけで3割以上下がりました。9月の上昇分は、帳消しになりました。",
+     "en": "AI worries spread in October. The stock fell over 30% this month, and September's gains were wiped out.",
+     "vis": {
+      "t": "timeline",
+      "items": [
+       {
+        "when": "6月2日",
+        "text": "株価が最高値。同じころ一時トヨタを抜き日本一の時価総額に",
+        "color": "green"
+       },
+       {
+        "when": "9月",
+        "text": "過去最大規模のジャンク債で111億ドルを調達",
+        "color": "gold"
+       },
+       {
+        "when": "10月",
+        "text": "AI関連企業の資金繰りへの不安が広がる",
+        "color": "muted"
+       },
+       {
+        "when": "10月22日",
+        "text": "株価が6.9%下落。最高値からおよそ半分に",
+        "color": "red"
+       }
+      ],
+      "show": 4
+     },
+     "hl": [
+      "wiped out"
+     ],
+     "star": true
+    },
+    {
+     "id": "p05",
+     "kind": "en_insert",
+     "en": "September's gains were wiped out.",
+     "jp": "9月の上昇分が帳消しになった",
+     "vis": {
+      "t": "timeline",
+      "items": [
+       {
+        "when": "6月2日",
+        "text": "株価が最高値。同じころ一時トヨタを抜き日本一の時価総額に",
+        "color": "green"
+       },
+       {
+        "when": "9月",
+        "text": "過去最大規模のジャンク債で111億ドルを調達",
+        "color": "gold"
+       },
+       {
+        "when": "10月",
+        "text": "AI関連企業の資金繰りへの不安が広がる",
+        "color": "muted"
+       },
+       {
+        "when": "10月22日",
+        "text": "株価が6.9%下落。最高値からおよそ半分に",
+        "color": "red"
+       }
+      ],
+      "show": 4
+     },
+     "star": true,
+     "hl": [
+      "wiped out"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "why",
+   "chapter": "なぜ下がったのか",
+   "beats": [
+    {
+     "id": "q01",
+     "kind": "jp",
+     "jp": "ソフトバンクは、オープンエーアイに、およそ650億ドルを投資しています。",
+     "en": "SoftBank has invested about $65 billion in OpenAI.",
+     "vis": {
+      "t": "globe",
+      "title": "海外が見るソフトバンク",
+      "lon": -170,
+      "lat": 25,
+      "points": [
+       {
+        "label": "東京 ソフトバンク",
+        "lat": 35.7,
+        "lon": 139.7,
+        "color": "gold"
+       },
+       {
+        "label": "米国 OpenAI",
+        "lat": 37.8,
+        "lon": -122.4,
+        "color": "red"
+       }
+      ],
+      "arcs": [
+       [
+        0,
+        1
+       ]
+      ],
+      "lines": [
+       {
+        "text": "OpenAIに約650億ドルを投資",
+        "color": "gold"
+       },
+       {
+        "text": "AIへの不安が株価に直撃",
+        "color": "red"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q02",
+     "kind": "jp",
+     "jp": "その資金の多くを、借入でまかなっています。借入への依存度が高い会社は、金利が上がると苦しくなります。",
+     "en": "It funds much of this with debt. Highly leveraged companies suffer when borrowing costs rise.",
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "AIへの巨額投資",
+        "mid": "借入",
+        "res": "借入コストの上昇が重荷に",
+        "ok": false
+       },
+       {
+        "a": "米国のAI企業の社債が急落",
+        "mid": "不安",
+        "res": "AI全体の資金繰りを疑う声",
+        "ok": false
+       },
+       {
+        "a": "中国の安いAIモデル",
+        "mid": "競争",
+        "res": "OpenAIの優位が揺らぐ懸念",
+        "ok": false
+       }
+      ]
+     },
+     "hl": [
+      "Highly leveraged"
+     ],
+     "star": true
+    },
+    {
+     "id": "q03",
+     "kind": "en_insert",
+     "en": "SoftBank is highly leveraged.",
+     "jp": "ソフトバンクは借入への依存度が高い",
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "AIへの巨額投資",
+        "mid": "借入",
+        "res": "借入コストの上昇が重荷に",
+        "ok": false
+       },
+       {
+        "a": "米国のAI企業の社債が急落",
+        "mid": "不安",
+        "res": "AI全体の資金繰りを疑う声",
+        "ok": false
+       },
+       {
+        "a": "中国の安いAIモデル",
+        "mid": "競争",
+        "res": "OpenAIの優位が揺らぐ懸念",
+        "ok": false
+       }
+      ]
+     },
+     "star": true,
+     "hl": [
+      "highly leveraged"
+     ]
+    },
+    {
+     "id": "q04",
+     "kind": "jp",
+     "jp": "倒産のリスクに備える保険の料金も、ここ4年近くで最も高い水準に上がりました。",
+     "en": "The cost of insuring its debt against default hit a near four-year high.",
+     "vis": {
+      "t": "statement",
+      "kicker": "CDS",
+      "text": "倒産リスクに備える保険料が\n約4年ぶりの高さに",
+      "sub": "クレジット・デフォルト・スワップ(CDS)の上昇"
+     }
+    },
+    {
+     "id": "q05",
+     "kind": "jp",
+     "jp": "日本の運用会社、なごみキャピタルの村松和幸氏は、投資家がAI関連企業の財務の健全性を、ますます厳しくチェックする中で、ソフトバンクの弱さが目立っている、と話しています。",
+     "en": "An analyst said SoftBank's vulnerability stands out as investors scrutinize AI firms' finances.",
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "…as investors increasingly scrutinise",
+       "the financial health of AI-related companies"
+      ],
+      "hl": [
+       "scrutinise"
+      ],
+      "by": "なごみキャピタル 村松和幸氏の発言の一部(The Edge Malaysiaの報道より)"
+     },
+     "hl": [
+      "scrutinize"
+     ],
+     "star": true
+    },
+    {
+     "id": "q06",
+     "kind": "en_insert",
+     "en": "Investors scrutinize AI companies.",
+     "jp": "投資家がAI企業を厳しくチェックする",
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "…as investors increasingly scrutinise",
+       "the financial health of AI-related companies"
+      ],
+      "hl": [
+       "scrutinise"
+      ],
+      "by": "なごみキャピタル 村松和幸氏の発言の一部(The Edge Malaysiaの報道より)"
+     },
+     "star": true,
+     "hl": [
+      "scrutinize"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "meaning",
+   "chapter": "私たちへの意味",
+   "beats": [
+    {
+     "id": "m01",
+     "kind": "jp",
+     "jp": "海外のメディアは、ソフトバンクを、世界のAIへの期待と不安を映す温度計のように扱っています。日本の一企業のニュースとしてではありません。",
+     "en": "Overseas media treat SoftBank as a gauge of global AI sentiment, not just a Japanese company story.",
+     "vis": {
+      "t": "points",
+      "show": 1,
+      "items": [
+       {
+        "head": "読み取れること",
+        "big": "AI不安の\n「温度計」",
+        "sub": "海外メディアは\nAI全体の象徴として報道",
+        "color": "red"
+       },
+       {
+        "head": "逆の見方",
+        "big": "投資先の価値が\n半分ではない",
+        "sub": "株価と保有資産の\n評価には差がある",
+        "color": "blue"
+       },
+       {
+        "head": "日本の現場",
+        "big": "借入の\n説明力",
+        "sub": "海外の相手は\n財務の健全性を厳しく見る",
+        "color": "gold"
+       }
+      ]
+     }
+    },
+    {
+     "id": "m02",
+     "kind": "jp",
+     "jp": "一方で、株価が半分になったからといって、保有している資産の価値が半分になったわけではありません。株価と、保有資産の評価には、もともと差があると指摘されています。",
+     "en": "But a halved share price doesn't mean its assets halved. There has long been a gap between its market value and asset value.",
+     "vis": {
+      "t": "points",
+      "show": 2,
+      "items": [
+       {
+        "head": "読み取れること",
+        "big": "AI不安の\n「温度計」",
+        "sub": "海外メディアは\nAI全体の象徴として報道",
+        "color": "red"
+       },
+       {
+        "head": "逆の見方",
+        "big": "投資先の価値が\n半分ではない",
+        "sub": "株価と保有資産の\n評価には差がある",
+        "color": "blue"
+       },
+       {
+        "head": "日本の現場",
+        "big": "借入の\n説明力",
+        "sub": "海外の相手は\n財務の健全性を厳しく見る",
+        "color": "gold"
+       }
+      ]
+     }
+    },
+    {
+     "id": "m03",
+     "kind": "jp",
+     "jp": "海外の取引先は、相手の財務の健全性を厳しくチェックします。借入が多い場合は、なぜ大丈夫なのかを、英語で説明できるようにしておきましょう。",
+     "en": "Overseas partners scrutinize finances. Be ready to explain your debt in English.",
+     "vis": {
+      "t": "points",
+      "show": 3,
+      "items": [
+       {
+        "head": "読み取れること",
+        "big": "AI不安の\n「温度計」",
+        "sub": "海外メディアは\nAI全体の象徴として報道",
+        "color": "red"
+       },
+       {
+        "head": "逆の見方",
+        "big": "投資先の価値が\n半分ではない",
+        "sub": "株価と保有資産の\n評価には差がある",
+        "color": "blue"
+       },
+       {
+        "head": "日本の現場",
+        "big": "借入の\n説明力",
+        "sub": "海外の相手は\n財務の健全性を厳しく見る",
+        "color": "gold"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "「厳しくチェックする」は英語で?scrutinizeの使い方|ソフトバンク時価総額が半減【ビジネス英語ニュース #13】",
+  "summary": "ソフトバンクグループの株価は2026年10月22日に6.9%下がり、時価総額は6月の最高値からおよそ半分の約24兆7000億円になりました。海外メディアは、OpenAIへの巨額投資と借入への依存を背景に、AIへの不安の表れとして報じています。このニュースから、会議で使える英語を学びます(特定の銘柄の売買を勧めるものではありません)。",
+  "tags": [
+   "ソフトバンク",
+   "SoftBank",
+   "OpenAI",
+   "AI",
+   "時価総額",
+   "ビジネス英語",
+   "英語学習",
+   "ニュース英語",
+   "時事英語",
+   "会議 英語",
+   "教養",
+   "社会人 英語",
+   "business English"
+  ]
+ },
+ "thumbnail": {
+  "big": "−50%",
+  "big_color": "red",
+  "under": "ソフトバンク",
+  "badge": "海外メディアの見方",
+  "badge_color": "gold",
+  "question": "AIへの不安?",
+  "pill": "scrutinize",
+  "bottom": "会議で使える英語3つ",
+  "crack": true
+ },
+ "shorts": [
+  {
+   "phrase": 0,
+   "hook": [
+    "「厳しくチェックする」",
+    "英語で言える?"
+   ],
+   "news_hook": [
+    "ソフトバンクの",
+    "時価総額が半分に"
+   ],
+   "ctx": "海外メディアがソフトバンクについて使った表現",
+   "title": "「厳しくチェックする」は英語で?ソフトバンクの時価総額が半減 #ビジネス英語 #shorts",
+   "ig_caption": "「厳しくチェックする」を英語で言えますか?\n\n✅ scrutinize\n厳しくチェックする・精査する\n\n例文:The board will scrutinize the budget next week.\n(来週、取締役会が予算を厳しくチェックします。)\n\n投資家がAI関連企業の財務を見る目について、海外メディアが使った表現です。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  },
+  {
+   "phrase": 2,
+   "hook": [
+    "「帳消しになった」",
+    "英語で言える?"
+   ],
+   "news_hook": [
+    "ソフトバンク株",
+    "今月3割以上下落"
+   ],
+   "ctx": "ソフトバンクの株価の動きを表す表現",
+   "title": "「帳消しになった」は英語で?ソフトバンク株が今月3割超下落 #ビジネス英語 #shorts",
+   "ig_caption": "「帳消しになった」を英語で言えますか?\n\n✅ wiped out\n(利益などが)帳消しになった\n\n例文:The weak yen wiped out most of our price increase.\n(円安で、値上げの効果のほとんどが帳消しになりました。)\n\nソフトバンクの株価は10月に3割以上下がり、9月の上昇分が帳消しになりました。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  }
+ ],
+ "sources": [
+  {
+   "title": "The Edge Malaysia「SoftBank market value halves from peak as AI fears grow」(2026年10月22日)",
+   "url": "https://theedgemalaysia.com/node/822844"
+  },
+  {
+   "title": "The Wealth Advisor「Masayoshi Son's AI empire just lost half its market value」(2026年10月22日)",
+   "url": "https://www.thewealthadvisor.com/article/masayoshi-sons-ai-empire-just-lost-half-its-market-value-debt-becoming-story"
+  }
+ ],
+ "publish": {
+  "long": "2026-10-30T07:00:00+09:00",
+  "shorts": [
+   "2026-10-30T12:00:00+09:00",
+   "2026-10-30T21:00:00+09:00"
+  ]
+ }
+}

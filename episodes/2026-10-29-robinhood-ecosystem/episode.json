@@ -1,0 +1,623 @@
+{
+ "id": "2026-10-29-robinhood-ecosystem",
+ "episode": "#12",
+ "date": "2026-10-27",
+ "series": "経営者の一言を読む",
+ "title_card": {
+  "line1": "「お金はアプリから出ていかない」",
+  "line2": "ロビンフッドCEOの一言を読む"
+ },
+ "readings": [
+  [
+   "Robinhood",
+   "ロビンフッド"
+  ],
+  [
+   "Zelle",
+   "ゼル"
+  ],
+  [
+   "CEO",
+   "シーイーオー"
+  ],
+  [
+   "CFO",
+   "シーエフオー"
+  ]
+ ],
+ "phrases": [
+  {
+   "en": "offset",
+   "jp": "(減った分を)埋め合わせる・相殺する",
+   "ex": "Strong sales in Europe offset the drop in Asia.",
+   "ex_jp": "欧州の好調な売り上げが、アジアの落ち込みを埋め合わせました。"
+  },
+  {
+   "en": "trust us with",
+   "jp": "〜を私たちに任せてくれる",
+   "ex": "The client is starting to trust us with bigger projects.",
+   "ex_jp": "その顧客は、より大きな案件を私たちに任せてくれるようになっています。"
+  },
+  {
+   "en": "diversify our revenue",
+   "jp": "収益源を多様化する",
+   "ex": "We need to diversify our revenue beyond one big client.",
+   "ex_jp": "大口顧客1社に頼らないよう、収益源を多様化する必要があります。"
+  }
+ ],
+ "words": [
+  {
+   "en": "record revenue",
+   "jp": "過去最高の売上高"
+  },
+  {
+   "en": "deposits",
+   "jp": "預金・預かり資産"
+  },
+  {
+   "en": "subscription",
+   "jp": "定額制サービス"
+  }
+ ],
+ "homework": {
+  "en": "What offset a loss in your team this year?",
+  "jp": "今年、チームの落ち込みを埋め合わせたものは?",
+  "hl": [
+   "offset"
+  ],
+  "say": "最後に宿題です。今年、あなたのチームで、落ち込みを埋め合わせたものは何でしたか。英語で、コメント欄に書いてみてください。"
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "beats": [
+    {
+     "id": "h01",
+     "kind": "jp",
+     "jp": "アメリカの投資アプリ、ロビンフッドの7月から9月の売り上げが、過去最高になりました。",
+     "en": "Robinhood's quarterly revenue hit a record high.",
+     "vis": {
+      "t": "hero",
+      "kicker": "record revenue",
+      "big": "$1.42B",
+      "color": "green",
+      "sub": "7〜9月の売上高、過去最高",
+      "sub_color": "gold"
+     },
+     "hl": [
+      "record high"
+     ]
+    },
+    {
+     "id": "h02",
+     "kind": "jp",
+     "jp": "それなのに、暗号資産の収益は、半分以下に減っています。",
+     "en": "Yet crypto revenue fell by more than half.",
+     "vis": {
+      "t": "hero_side",
+      "big": "−55%",
+      "color": "red",
+      "text": "crypto revenue",
+      "jp": "暗号資産の収益"
+     },
+     "hl": [
+      "fell by more than half"
+     ]
+    },
+    {
+     "id": "h03",
+     "kind": "jp",
+     "jp": "今日はこのニュースから、会議で使える英語を3つ。最後に答え合わせをします。",
+     "en": "Three phrases for your next meeting. Answers at the end.",
+     "vis": {
+      "t": "teaser"
+     }
+    }
+   ]
+  },
+  {
+   "id": "what",
+   "chapter": "何が起きたか",
+   "beats": [
+    {
+     "id": "p01",
+     "kind": "jp",
+     "jp": "ロビンフッドは10月27日、7月から9月の決算を発表しました。売上高は14億2000万ドル。去年より12%増えて、過去最高です。",
+     "en": "On October 27, Robinhood reported record revenue of $1.42 billion, up 12%.",
+     "vis": {
+      "t": "counter",
+      "kicker": "Q3 REVENUE",
+      "to": 1.42,
+      "decimals": 2,
+      "prefix": "$",
+      "suffix": "B",
+      "color": "green",
+      "sub": "前年比 +12%、過去最高",
+      "note": "2026年7〜9月期"
+     }
+    },
+    {
+     "id": "p02",
+     "kind": "jp",
+     "jp": "中身を見ると、暗号資産の収益は55%減りました。一方で、オプション取引は31%増え、予測市場は6倍以上に伸びています。",
+     "en": "Crypto fell 55%, but options rose 31% and prediction markets grew more than sixfold.",
+     "vis": {
+      "t": "bars",
+      "title": "ロビンフッドの7〜9月の取引収益(前年比)",
+      "unit": "",
+      "items": [
+       {
+        "label": "オプション",
+        "value": 399,
+        "display": "3億9900万ドル(+31%)",
+        "color": "green"
+       },
+       {
+        "label": "予測市場",
+        "value": 173,
+        "display": "1億7300万ドル(6倍超)",
+        "color": "green"
+       },
+       {
+        "label": "株式",
+        "value": 121,
+        "display": "1億2100万ドル(+41%)",
+        "color": "green"
+       },
+       {
+        "label": "暗号資産",
+        "value": 120,
+        "display": "1億2000万ドル(−55%)",
+        "color": "red"
+       }
+      ]
+     }
+    },
+    {
+     "id": "p03",
+     "kind": "jp",
+     "jp": "暗号資産の落ち込みを、ほかの商品が埋め合わせた形です。埋め合わせる、相殺する、は英語で offset です。",
+     "en": "Other products offset the drop in crypto.",
+     "vis": {
+      "t": "bars",
+      "title": "ロビンフッドの7〜9月の取引収益(前年比)",
+      "unit": "",
+      "items": [
+       {
+        "label": "オプション",
+        "value": 399,
+        "display": "3億9900万ドル(+31%)",
+        "color": "green"
+       },
+       {
+        "label": "予測市場",
+        "value": 173,
+        "display": "1億7300万ドル(6倍超)",
+        "color": "green"
+       },
+       {
+        "label": "株式",
+        "value": 121,
+        "display": "1億2100万ドル(+41%)",
+        "color": "green"
+       },
+       {
+        "label": "暗号資産",
+        "value": 120,
+        "display": "1億2000万ドル(−55%)",
+        "color": "red"
+       }
+      ]
+     },
+     "hl": [
+      "offset"
+     ],
+     "star": true
+    },
+    {
+     "id": "p04",
+     "kind": "en_insert",
+     "en": "Other products offset the drop.",
+     "jp": "ほかの商品が落ち込みを埋め合わせた",
+     "vis": {
+      "t": "bars",
+      "title": "ロビンフッドの7〜9月の取引収益(前年比)",
+      "unit": "",
+      "items": [
+       {
+        "label": "オプション",
+        "value": 399,
+        "display": "3億9900万ドル(+31%)",
+        "color": "green"
+       },
+       {
+        "label": "予測市場",
+        "value": 173,
+        "display": "1億7300万ドル(6倍超)",
+        "color": "green"
+       },
+       {
+        "label": "株式",
+        "value": 121,
+        "display": "1億2100万ドル(+41%)",
+        "color": "green"
+       },
+       {
+        "label": "暗号資産",
+        "value": 120,
+        "display": "1億2000万ドル(−55%)",
+        "color": "red"
+       }
+      ]
+     },
+     "star": true,
+     "hl": [
+      "offset"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ceo",
+   "chapter": "CEOの一言",
+   "beats": [
+    {
+     "id": "c01",
+     "kind": "jp",
+     "jp": "今回、力を入れているのが銀行のサービスです。35万人以上の顧客から、50億ドル近い預金が集まりました。",
+     "en": "Its new banking service has drawn nearly $5 billion from over 350,000 customers.",
+     "vis": {
+      "t": "cards",
+      "footer": "ロビンフッドの新しい柱",
+      "items": [
+       {
+        "name": "Banking",
+        "big": "約50億ドル",
+        "sub": "銀行サービスの預金",
+        "color": "gold"
+       },
+       {
+        "name": "Customers",
+        "big": "35万人超",
+        "sub": "お金を入れた顧客",
+        "color": "blue"
+       },
+       {
+        "name": "Gold",
+        "big": "520万人",
+        "sub": "有料会員(+34%)",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "c02",
+     "kind": "jp",
+     "jp": "ブラッド・テネフCEOは、決算説明会でこう話しました。そのお金は、ロビンフッドの経済圏から出ていかない。人々の口座にとどまるのだ、と。",
+     "en": "CEO Vlad Tenev said the money is not leaving the Robinhood ecosystem.",
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "That money is not leaving",
+       "the Robinhood ecosystem."
+      ],
+      "hl": [
+       "ecosystem"
+      ],
+      "by": "ブラッド・テネフCEO(10月27日の決算説明会、PYMNTSの報道より)"
+     },
+     "hl": [
+      "ecosystem"
+     ]
+    },
+    {
+     "id": "c03",
+     "kind": "jp",
+     "jp": "株、銀行、送金、予測市場、AIを使った取引まで。ひとつのアプリの中で、お金が回る仕組みです。",
+     "en": "Stocks, banking, payments, prediction markets and AI trading, all in one app.",
+     "vis": {
+      "t": "network",
+      "title": "お金がアプリの中にとどまる",
+      "center": {
+       "label": "Robinhood",
+       "sub": "ひとつのアプリ"
+      },
+      "nodes": [
+       {
+        "label": "株式",
+        "color": "green"
+       },
+       {
+        "label": "銀行口座",
+        "color": "gold"
+       },
+       {
+        "label": "送金",
+        "color": "blue"
+       },
+       {
+        "label": "予測市場",
+        "color": "red"
+       },
+       {
+        "label": "暗号資産",
+        "color": "blue"
+       },
+       {
+        "label": "AI取引",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "c04",
+     "kind": "jp",
+     "jp": "個人間の送金サービスについては、アメリカで広く使われているゼルを挙げて、「ゼルなんて要らないよね」と冗談まじりに話しました。",
+     "en": "On payments, he joked, 'Who needs Zelle, right?'",
+     "vis": {
+      "t": "statement",
+      "kicker": "Who needs Zelle, right?",
+      "text": "「ゼルなんて要らないよね?」",
+      "sub": "米国で広く使われる送金サービスを引き合いに出した、テネフCEOの冗談"
+     }
+    },
+    {
+     "id": "c05",
+     "kind": "jp",
+     "jp": "一方、シバ・ヴァーマCFOは、お客様が、より多くの資産を私たちに任せてくれている、と話しています。任せてくれる、は trust us with です。",
+     "en": "CFO Shiv Verma said customers are trusting the company with more of their assets.",
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "Customers are trusting us",
+       "with more of their assets."
+      ],
+      "hl": [
+       "trusting us",
+       "with"
+      ],
+      "by": "シバ・ヴァーマCFO(決算発表資料より)"
+     },
+     "hl": [
+      "trusting the company with"
+     ],
+     "star": true
+    },
+    {
+     "id": "c06",
+     "kind": "en_insert",
+     "en": "Customers are trusting us with more.",
+     "jp": "顧客がより多くを任せてくれている",
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "Customers are trusting us",
+       "with more of their assets."
+      ],
+      "hl": [
+       "trusting us",
+       "with"
+      ],
+      "by": "シバ・ヴァーマCFO(決算発表資料より)"
+     },
+     "star": true,
+     "hl": [
+      "trusting us with"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "meaning",
+   "chapter": "私たちへの意味",
+   "beats": [
+    {
+     "id": "m01",
+     "kind": "jp",
+     "jp": "ロビンフッドは、ひとつの商品に頼らず、収益源を多様化しています。暗号資産が落ちても、全体の売り上げは過去最高でした。",
+     "en": "Robinhood is diversifying its revenue, so a crypto slump didn't stop a record quarter.",
+     "vis": {
+      "t": "points",
+      "show": 1,
+      "items": [
+       {
+        "head": "読み取れること",
+        "big": "ひとつの商品に\n頼らない",
+        "sub": "暗号資産の落ち込みを\n他の商品で埋めた",
+        "color": "green"
+       },
+       {
+        "head": "逆の見方",
+        "big": "利益は\n14%減",
+        "sub": "売り上げは過去最高でも\n純利益は減った",
+        "color": "red"
+       },
+       {
+        "head": "日本の現場",
+        "big": "「経済圏」\nと同じ発想",
+        "sub": "ポイント・銀行・証券を\nまとめて使ってもらう",
+        "color": "gold"
+       }
+      ]
+     },
+     "hl": [
+      "diversifying its revenue"
+     ],
+     "star": true
+    },
+    {
+     "id": "m02",
+     "kind": "en_insert",
+     "en": "We need to diversify our revenue.",
+     "jp": "収益源を多様化する必要がある",
+     "vis": {
+      "t": "points",
+      "show": 1,
+      "items": [
+       {
+        "head": "読み取れること",
+        "big": "ひとつの商品に\n頼らない",
+        "sub": "暗号資産の落ち込みを\n他の商品で埋めた",
+        "color": "green"
+       },
+       {
+        "head": "逆の見方",
+        "big": "利益は\n14%減",
+        "sub": "売り上げは過去最高でも\n純利益は減った",
+        "color": "red"
+       },
+       {
+        "head": "日本の現場",
+        "big": "「経済圏」\nと同じ発想",
+        "sub": "ポイント・銀行・証券を\nまとめて使ってもらう",
+        "color": "gold"
+       }
+      ]
+     },
+     "star": true,
+     "hl": [
+      "diversify our revenue"
+     ]
+    },
+    {
+     "id": "m03",
+     "kind": "jp",
+     "jp": "ただし、純利益は14%減っています。売り上げが過去最高でも、利益まで伸びたわけではありません。",
+     "en": "But net income fell 14%. Record revenue didn't mean record profit.",
+     "vis": {
+      "t": "points",
+      "show": 2,
+      "items": [
+       {
+        "head": "読み取れること",
+        "big": "ひとつの商品に\n頼らない",
+        "sub": "暗号資産の落ち込みを\n他の商品で埋めた",
+        "color": "green"
+       },
+       {
+        "head": "逆の見方",
+        "big": "利益は\n14%減",
+        "sub": "売り上げは過去最高でも\n純利益は減った",
+        "color": "red"
+       },
+       {
+        "head": "日本の現場",
+        "big": "「経済圏」\nと同じ発想",
+        "sub": "ポイント・銀行・証券を\nまとめて使ってもらう",
+        "color": "gold"
+       }
+      ]
+     }
+    },
+    {
+     "id": "m04",
+     "kind": "jp",
+     "jp": "日本でも、ポイントや銀行、証券をまとめて使ってもらう「経済圏」の考え方があります。海外の同業者の話をするときに、ecosystem という言葉は、そのまま使えます。",
+     "en": "In Japan, the 'economic zone' idea is similar. 'Ecosystem' works well when you discuss it in English.",
+     "vis": {
+      "t": "points",
+      "show": 3,
+      "items": [
+       {
+        "head": "読み取れること",
+        "big": "ひとつの商品に\n頼らない",
+        "sub": "暗号資産の落ち込みを\n他の商品で埋めた",
+        "color": "green"
+       },
+       {
+        "head": "逆の見方",
+        "big": "利益は\n14%減",
+        "sub": "売り上げは過去最高でも\n純利益は減った",
+        "color": "red"
+       },
+       {
+        "head": "日本の現場",
+        "big": "「経済圏」\nと同じ発想",
+        "sub": "ポイント・銀行・証券を\nまとめて使ってもらう",
+        "color": "gold"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "「埋め合わせる」は英語で?offsetの使い方|ロビンフッドが過去最高売上【ビジネス英語ニュース #12】",
+  "summary": "米投資アプリのロビンフッドは2026年10月27日、7〜9月の売上高が前年比12%増の14億2000万ドルと過去最高だったと発表しました。暗号資産の収益は55%減りましたが、オプションや予測市場が伸びて埋め合わせました。テネフCEOとヴァーマCFOの言葉から、会議で使える英語を学びます(特定の銘柄の売買を勧めるものではありません)。",
+  "tags": [
+   "ロビンフッド",
+   "Robinhood",
+   "決算",
+   "フィンテック",
+   "経済圏",
+   "ビジネス英語",
+   "英語学習",
+   "ニュース英語",
+   "時事英語",
+   "会議 英語",
+   "教養",
+   "社会人 英語",
+   "business English"
+  ]
+ },
+ "thumbnail": {
+  "big": "$1.42B",
+  "big_color": "green",
+  "under": "過去最高の売上",
+  "badge": "ロビンフッド",
+  "badge_color": "green",
+  "question": "暗号資産は−55%",
+  "pill": "offset",
+  "bottom": "会議で使える英語3つ"
+ },
+ "shorts": [
+  {
+   "phrase": 0,
+   "hook": [
+    "「埋め合わせる」",
+    "英語で言える?"
+   ],
+   "news_hook": [
+    "ロビンフッドが",
+    "過去最高の売上"
+   ],
+   "ctx": "ロビンフッドの決算で起きたこと",
+   "title": "「埋め合わせる」は英語で?ロビンフッドが過去最高の売上 #ビジネス英語 #shorts",
+   "ig_caption": "「埋め合わせる」を英語で言えますか?\n\n✅ offset\n(減った分を)埋め合わせる・相殺する\n\n例文:Strong sales in Europe offset the drop in Asia.\n(欧州の好調な売り上げが、アジアの落ち込みを埋め合わせました。)\n\nロビンフッドは、暗号資産の落ち込みを、ほかの商品の伸びで埋め合わせました。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  },
+  {
+   "phrase": 1,
+   "hook": [
+    "「任せてくれる」",
+    "英語で言える?"
+   ],
+   "news_hook": [
+    "CFOが語った",
+    "顧客の信頼"
+   ],
+   "ctx": "ロビンフッドのCFOが使った表現",
+   "title": "「〜を任せてくれる」は英語で?ロビンフッドCFOの一言 #ビジネス英語 #shorts",
+   "ig_caption": "「〜を任せてくれる」を英語で言えますか?\n\n✅ trust us with\n〜を私たちに任せてくれる\n\n例文:The client is starting to trust us with bigger projects.\n(その顧客は、より大きな案件を私たちに任せてくれるようになっています。)\n\nロビンフッドのCFOが、決算発表で使った表現です。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Robinhood Markets「Third Quarter 2026 Results」(SEC Form 8-K, Exhibit 99.1, 2026年10月27日)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001783879/000178387926000164/q32026robinhoodexhibit991.htm"
+  },
+  {
+   "title": "PYMNTS「Robinhood Looks Beyond Crypto to Banking and Agentic Trading」(2026年10月27日)",
+   "url": "https://pymnts.com/earnings/2026/robinhood-looks-beyond-crypto-to-banking-and-agentic-trading"
+  }
+ ],
+ "publish": {
+  "long": "2026-10-29T07:00:00+09:00",
+  "shorts": [
+   "2026-10-29T12:00:00+09:00",
+   "2026-10-29T21:00:00+09:00"
+  ]
+ }
+}

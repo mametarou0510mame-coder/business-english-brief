@@ -4,6 +4,7 @@ from types import SimpleNamespace
 from PIL import Image, ImageDraw
 from core import *  # noqa
 from templates import TEMPLATES
+import fx
 
 NO_SUB = {"silent", "pause", "rv_en", "rv_jp"}
 ORDER = ["quiz", "count", "reveal", "example", "repeat", "example_jp", "final"]
@@ -59,12 +60,16 @@ def subtitles(d, b, tb):
         txt(d, (255, y0 - 32), "ENGLISH AUDIO", F("in_b", 18), mix(GOLD, a), "mm")
 
 
-def v_title(d, ep, vt):
+def v_title(d, ep, vt, img=None):
     tc = ep["title_card"]
     a = ease(vt / 0.6)
     spaced(d, (W / 2, 330), "BUSINESS ENGLISH BRIEF   " + str(ep["episode"]), F("in_b", 30), mix(GOLD, a), 8, "m")
     p = ease((vt - 0.2) / 0.6)
-    txt(d, (W / 2, 470 + (1 - p) * 20), tc["line1"], fit_font("jp_bl", 96, tc["line1"], 1700), mix(TEXT, p), "mm")
+    f1 = fit_font("jp_bl", 96, tc["line1"], 1700)
+    if img is not None:
+        fx.text3d(img, W / 2, 470 + (1 - p) * 20, tc["line1"], "jp_bl", f1.size, TEXT, p, depth=10, shine_t=(vt - 0.9) / 1.0)
+    else:
+        txt(d, (W / 2, 470 + (1 - p) * 20), tc["line1"], f1, mix(TEXT, p), "mm")
     p2 = ease((vt - 0.45) / 0.6)
     txt(d, (W / 2, 600 + (1 - p2) * 20), tc["line2"], fit_font("jp_b", 60, tc["line2"], 1700), mix(TEXT, p2), "mm")
     p3 = ease((vt - 0.8) / 0.8)
@@ -195,31 +200,36 @@ def find(tl, t):
 
 
 def frame(ep, tl, t):
-    img = background().copy()
+    bg = fx.living_bg(t)
+    img = bg.copy()
     d = ImageDraw.Draw(img)
     b = find(tl, t)
     sc = tl["scenes"][b["scene"]]
     tb, vt, ts = t - b["start"], t - b["vis_t0"], t - sc["start"]
     vis = sc["visual"]
+    # 1) content (moves with the camera)
     if vis == "title":
-        v_title(d, ep, vt)
+        v_title(d, ep, vt, img)
+    elif vis == "review":
+        v_review(d, ep, b, vt, ts)
+    elif vis == "outro":
+        v_outro(d, ep, b, vt)
     else:
+        v = b.get("vis")
+        if isinstance(v, dict) and v.get("t") in TEMPLATES:
+            TEMPLATES[v["t"]](d, v, SimpleNamespace(vt=vt, ts=ts, cont=b.get("cont", False), ep=ep, img=img))
+    if vis not in ("review",):
+        img = fx.camera(img, ts, sc["end"] - sc["start"])
+    img = fx.sweep_in(img, bg, ts)
+    # 2) overlays (fixed): chrome + subtitles
+    d = ImageDraw.Draw(img)
+    if vis != "title":
         chrome(d, ep, tl, t, sc)
-        if vis == "review":
-            v_review(d, ep, b, vt, ts)
-        elif vis == "outro":
-            v_outro(d, ep, b, vt)
-        else:
-            v = b.get("vis")
-            if isinstance(v, dict) and v.get("t") in TEMPLATES:
-                TEMPLATES[v["t"]](d, v, SimpleNamespace(vt=vt, ts=ts, cont=b.get("cont", False), ep=ep))
         if b["kind"] not in NO_SUB and tb < b["dur"] + 0.01:
             subtitles(d, b, tb)
-    if ts < 0.25:
-        img = Image.blend(background(), img, ease(ts / 0.25))
     end = sc["end"] - t
-    if 0 <= end < 0.5 and b["scene"] < len(tl["scenes"]) - 1:
-        img = Image.blend(background(), img, clamp(end / 0.4))
+    if 0 <= end < 0.35 and b["scene"] < len(tl["scenes"]) - 1:
+        img = Image.blend(bg, img, clamp(end / 0.3))
     return img
 
 

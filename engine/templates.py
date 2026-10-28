@@ -23,8 +23,14 @@ def t_hero(d, v, x):
     big = str(v["big"])
     size = 380 if len(big) <= 4 else (260 if len(big) <= 7 else 180)
     s = size * (0.85 + 0.15 * ease(x.vt / 0.6))
-    font = fit_font("jp_bl" if not big.isascii() else "in_bl", s, big, 1600)
-    txt(d, (W / 2, 470), big, font, mix(C(v.get("color", "red")), a), "mm")
+    fname = "jp_bl" if not big.isascii() else "in_bl"
+    font = fit_font(fname, s, big, 1600)
+    if getattr(x, "img", None) is not None:
+        import fx
+        fx.text3d(x.img, W / 2, 470, big, fname, font.size, C(v.get("color", "red")), a, depth=20,
+                  shine_t=(x.vt - 0.7) / 0.9)
+    else:
+        txt(d, (W / 2, 470), big, font, mix(C(v.get("color", "red")), a), "mm")
     if v.get("crack"):
         p = ease((x.vt - 0.5) / 0.7)
         pts = [(620, 330), (820, 430), (900, 400), (1040, 520), (1120, 490), (1320, 610)]
@@ -47,8 +53,13 @@ def t_hero_side(d, v, x):
     big = str(v["big"])
     xb = lerp(W / 2, 560, p)
     s = lerp(380, 300, p)
-    font = fit_font("in_bl" if big.isascii() else "jp_bl", s, big, lerp(1500, 600, p))
-    txt(d, (xb, 450), big, font, C(v.get("color", "red")), "mm")
+    fname = "in_bl" if big.isascii() else "jp_bl"
+    font = fit_font(fname, s, big, lerp(1500, 600, p))
+    if getattr(x, "img", None) is not None:
+        import fx
+        fx.text3d(x.img, xb, 450, big, fname, font.size, C(v.get("color", "red")), 1.0, depth=16)
+    else:
+        txt(d, (xb, 450), big, font, C(v.get("color", "red")), "mm")
     full = v.get("text", "")
     n = int(clamp((x.vt - 0.4) / 0.9) * len(full))
     f = fit_font("in_xb" if full.isascii() else "jp_bl", 104, full, 980)
@@ -152,8 +163,14 @@ def t_counter(d, v, x):
         spaced(d, (W / 2, 230), k.upper(), F("in_b", 32), mix(GOLD, a), 6, "m") if k.isascii() else \
             txt(d, (W / 2, 230), k, F("jp_b", 40), mix(GOLD, a), "mm")
     s = _count_text(v, x.vt / 1.4) if "to" in v else str(v.get("big", ""))
-    f = fit_font("in_bl" if s.isascii() else "jp_bl", 220, s, 1600)
-    txt(d, (W / 2, 430), s, f, mix(C(v.get("color", "text")), a), "mm")
+    fname = "in_bl" if s.isascii() else "jp_bl"
+    f = fit_font(fname, 220, s, 1600)
+    if getattr(x, "img", None) is not None:
+        import fx
+        fx.text3d(x.img, W / 2, 430, s, fname, f.size, C(v.get("color", "text")), a, depth=14,
+                  shine_t=(x.vt - 1.5) / 0.9)
+    else:
+        txt(d, (W / 2, 430), s, f, mix(C(v.get("color", "text")), a), "mm")
     p2 = _a(x, 1.0)
     if v.get("sub"):
         txt(d, (W / 2, 600), v["sub"], F("jp_b", 46), mix(TEXT, p2), "mm")
@@ -204,7 +221,11 @@ def t_vs(d, v, x):
         val = s.get("val", "")
         txt(d, (cx, 670), val, fit_font("jp_bl", 64, val, 560), mix(col, p), "mm")
     if v.get("mid"):
-        txt(d, (W / 2, 480), v["mid"], F("jp_b", 40), mix(MUTED, _a(x, 0.9)), "mm")
+        f = F("jp_b", 34)
+        wv = tw(f, v["mid"]) + 40
+        q = _a(x, 0.9)
+        rr(d, (W / 2 - wv / 2, 455, W / 2 + wv / 2, 505), 25, fill=mix(BG2, q), outline=mix(LINE, q), width=2)
+        txt(d, (W / 2, 480), v["mid"], f, mix(SOFT, q), "mm")
 
 
 def t_quote(d, v, x):
@@ -424,7 +445,7 @@ def t_timeline(d, v, x):
     items = v["items"]
     show = v.get("show", len(items))
     n = len(items)
-    y0, y1 = 220, 740
+    y0, y1 = 220, (740 if n <= 3 else 690)
     step = (y1 - y0) / max(1, n - 1) if n > 1 else 0
     d.line((420, y0, 420, y0 + step * (n - 1)), fill=LINE, width=4)
     for i in range(show):
@@ -443,3 +464,5 @@ TEMPLATES = {
     "vs": t_vs, "quote": t_quote, "cards": t_cards, "points": t_points,
     "flow": t_flow, "layers": t_layers, "org": t_org, "statement": t_statement, "timeline": t_timeline,
 }
+from fx import CG as _CG  # noqa: E402
+TEMPLATES.update(_CG)
