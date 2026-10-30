@@ -1,0 +1,568 @@
+{
+ "id": "2026-11-07-weekly-review",
+ "episode": "#21",
+ "date": "2026-11-07",
+ "series": "今週の英単語 総復習",
+ "title_card": {
+  "line1": "今週の英語、総復習。",
+  "line2": "AIと半導体のニュースから、職場で使う3つ"
+ },
+ "publish": {
+  "long": "2026-11-07T07:00:00+09:00",
+  "shorts": [
+   "2026-11-07T12:00:00+09:00",
+   "2026-11-07T21:00:00+09:00"
+  ]
+ },
+ "phrases": [
+  {
+   "en": "fall short of",
+   "jp": "〜に届かない・〜を下回る",
+   "ex": "Orders may fall short of our forecast this month.",
+   "ex_jp": "今月の受注は、予測に届かないかもしれません。"
+  },
+  {
+   "en": "keep our options open",
+   "jp": "選択肢を残しておく",
+   "ex": "Let's keep our options open on the venue for now.",
+   "ex_jp": "会場については、今のところ選択肢を残しておきましょう。"
+  },
+  {
+   "en": "demand exceeds supply",
+   "jp": "需要が供給を上回る",
+   "ex": "Demand exceeds supply, so delivery takes three weeks.",
+   "ex_jp": "需要が供給を上回っているため、納品まで3週間かかります。"
+  }
+ ],
+ "words": [
+  {
+   "en": "forecast",
+   "jp": "予測・見通し"
+  },
+  {
+   "en": "venue",
+   "jp": "会場"
+  },
+  {
+   "en": "lead time",
+   "jp": "リードタイム(注文から納品までの期間)"
+  }
+ ],
+ "homework": {
+  "en": "What are you keeping your options open on?",
+  "jp": "今、選択肢を残していることは?",
+  "hl": [
+   "options open"
+  ],
+  "say": "最後に宿題です。あなたが今、まだ決めずに選択肢を残していることは何ですか。英語で、コメント欄に書いてみてください。"
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "beats": [
+    {
+     "id": "h01",
+     "kind": "jp",
+     "jp": "今週は、インテル、オラクル、マイクロソフトと、AIと半導体のニュースが続きました。",
+     "en": "This week brought AI and chip news from Intel, Oracle and Microsoft.",
+     "vis": {
+      "t": "cards",
+      "show": 3,
+      "footer": "今週のニュースから選んだ3つ",
+      "items": [
+       {
+        "name": "火曜 Intel",
+        "big": "−28%",
+        "sub": "見通しが期待に届かず",
+        "color": "red"
+       },
+       {
+        "name": "水曜 Oracle",
+        "big": "6社",
+        "sub": "AI半導体を1社に決めない",
+        "color": "gold"
+       },
+       {
+        "name": "木曜 Microsoft",
+        "big": "+48%",
+        "sub": "それでも供給が足りない",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "h02",
+     "kind": "jp",
+     "jp": "今日はその中から、職場ですぐに使える3つを選んで、新しい場面で練習します。",
+     "en": "Today we'll practice three of them in new workplace situations.",
+     "vis": {
+      "t": "hero_side",
+      "big": "3",
+      "color": "gold",
+      "text": "practice at work",
+      "jp": "職場の場面で練習"
+     }
+    },
+    {
+     "id": "h03",
+     "kind": "jp",
+     "jp": "今日はこのニュースから、会議で使える英語を3つ。最後に答え合わせをします。",
+     "en": "Three phrases for your next meeting. Answers at the end.",
+     "vis": {
+      "t": "teaser"
+     }
+    }
+   ]
+  },
+  {
+   "id": "p1",
+   "chapter": "〜に届かない",
+   "beats": [
+    {
+     "id": "a01",
+     "kind": "jp",
+     "jp": "1つ目は、〜に届かない、です。インテルは、次の四半期の売上の見通しが、市場の期待に届かず、株価が大きく下がりました。",
+     "en": "First: fall short of. Intel's outlook fell short of expectations.",
+     "hl": [
+      "fall short of"
+     ],
+     "star": true,
+     "vis": {
+      "t": "counter",
+      "kicker": "INTEL Q4 GUIDANCE",
+      "big": "$15〜16B",
+      "color": "red",
+      "sub": "10〜12月の売上見通し",
+      "note": "市場の期待に届かず"
+     }
+    },
+    {
+     "id": "a02",
+     "kind": "jp",
+     "jp": "職場では、目標や予測と比べて、数字が足りなかったときに使います。",
+     "en": "At work, use it when numbers come in below a target or forecast.",
+     "vis": {
+      "t": "vs",
+      "mid": "届かず",
+      "left": {
+       "en": "forecast",
+       "label": "予測",
+       "val": "100件",
+       "up": true,
+       "color": "blue"
+      },
+      "right": {
+       "en": "actual",
+       "label": "実績",
+       "val": "88件",
+       "up": false,
+       "color": "red"
+      }
+     }
+    },
+    {
+     "id": "a03",
+     "kind": "en_insert",
+     "jp": "今月の受注は、予測に届かないかもしれない",
+     "en": "Orders may fall short of our forecast this month.",
+     "hl": [
+      "fall short of"
+     ],
+     "star": true,
+     "vis": {
+      "t": "vs",
+      "mid": "届かず",
+      "left": {
+       "en": "forecast",
+       "label": "予測",
+       "val": "100件",
+       "up": true,
+       "color": "blue"
+      },
+      "right": {
+       "en": "actual",
+       "label": "実績",
+       "val": "88件",
+       "up": false,
+       "color": "red"
+      }
+     }
+    },
+    {
+     "id": "a04",
+     "kind": "jp",
+     "jp": "どれくらい足りないかは、バイのあとに入れます。予測に12%届かない、なら、バイ12パーセントです。",
+     "en": "Add the gap with 'by': fall short by 12 percent.",
+     "vis": {
+      "t": "statement",
+      "kicker": "TIP",
+      "text": "fall short of ... by 12%",
+      "sub": "by のあとに、差を入れる"
+     }
+    },
+    {
+     "id": "a05",
+     "kind": "jp",
+     "jp": "報告では、まず、届かなかったという事実を言ってから、理由と、次の手を話すと、相手に伝わりやすくなります。",
+     "en": "In a report, state the shortfall first, then the reason and the next step.",
+     "vis": {
+      "t": "vs",
+      "mid": "届かず",
+      "left": {
+       "en": "forecast",
+       "label": "予測",
+       "val": "100件",
+       "up": true,
+       "color": "blue"
+      },
+      "right": {
+       "en": "actual",
+       "label": "実績",
+       "val": "88件",
+       "up": false,
+       "color": "red"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "p2",
+   "chapter": "選択肢を残しておく",
+   "beats": [
+    {
+     "id": "b01",
+     "kind": "jp",
+     "jp": "2つ目は、選択肢を残しておく、です。オラクルは、AIの半導体を、1社に決めずに、いくつもの会社から選べるようにしました。",
+     "en": "Second: keep our options open. Oracle chose not to rely on one chip maker.",
+     "hl": [
+      "keep our options open"
+     ],
+     "star": true,
+     "vis": {
+      "t": "network",
+      "title": "1社に決めない",
+      "center": {
+       "label": "Oracle",
+       "sub": "AIクラウド"
+      },
+      "nodes": [
+       {
+        "label": "Nvidia",
+        "color": "green"
+       },
+       {
+        "label": "Google TPU",
+        "color": "gold"
+       },
+       {
+        "label": "Cerebras",
+        "color": "blue"
+       },
+       {
+        "label": "SambaNova",
+        "color": "blue"
+       },
+       {
+        "label": "Positron",
+        "color": "blue"
+       },
+       {
+        "label": "OpenAI",
+        "color": "gold"
+       }
+      ],
+      "inward": true
+     }
+    },
+    {
+     "id": "b02",
+     "kind": "jp",
+     "jp": "職場では、まだ決めるには早いときに、とても便利です。たとえば、イベントの会場選びです。",
+     "en": "At work, use it when it's too early to decide, like choosing a venue.",
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "会場をすぐ1か所に決める",
+        "mid": "早すぎる決定",
+        "res": "あとで変えにくい",
+        "ok": false
+       },
+       {
+        "a": "候補を2〜3か所残す",
+        "mid": "比較",
+        "res": "条件を比べて決められる",
+        "ok": true
+       }
+      ]
+     }
+    },
+    {
+     "id": "b03",
+     "kind": "en_insert",
+     "jp": "会場は、今のところ選択肢を残しておこう",
+     "en": "Let's keep our options open on the venue for now.",
+     "hl": [
+      "keep our options open"
+     ],
+     "star": true,
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "会場をすぐ1か所に決める",
+        "mid": "早すぎる決定",
+        "res": "あとで変えにくい",
+        "ok": false
+       },
+       {
+        "a": "候補を2〜3か所残す",
+        "mid": "比較",
+        "res": "条件を比べて決められる",
+        "ok": true
+       }
+      ]
+     }
+    },
+    {
+     "id": "b04",
+     "kind": "jp",
+     "jp": "最後に、フォー・ナウ、今のところは、をつけると、あとで決めます、というニュアンスが伝わります。",
+     "en": "Add 'for now' to show you'll decide later.",
+     "vis": {
+      "t": "statement",
+      "kicker": "TIP",
+      "text": "... for now",
+      "sub": "今のところは = あとで決める"
+     }
+    },
+    {
+     "id": "b05",
+     "kind": "jp",
+     "jp": "反対に、そろそろ1つに決めましょう、と言いたいときは、レッツ・コミット・トゥ・ワン、と言えます。",
+     "en": "To push for a decision, say: let's commit to one.",
+     "vis": {
+      "t": "statement",
+      "kicker": "REVERSE",
+      "text": "Let's commit to one.",
+      "sub": "そろそろ1つに決めましょう"
+     }
+    }
+   ]
+  },
+  {
+   "id": "p3",
+   "chapter": "需要が供給を上回る",
+   "beats": [
+    {
+     "id": "c01",
+     "kind": "jp",
+     "jp": "3つ目は、需要が供給を上回る、です。マイクロソフトは、クラウドが48%伸びても、まだ需要に追いつかないと説明しました。",
+     "en": "Third: demand exceeds supply. Microsoft's cloud grew 48% and still can't keep up.",
+     "hl": [
+      "demand exceeds supply"
+     ],
+     "star": true,
+     "vis": {
+      "t": "line",
+      "title": "マイクロソフト アジュールの成長率(前年比)",
+      "points": [
+       {
+        "label": "4〜6月",
+        "value": 43
+       },
+       {
+        "label": "7〜9月",
+        "value": 48
+       },
+       {
+        "label": "10〜12月(見通し)",
+        "value": 49.5
+       }
+      ],
+      "color": "green",
+      "display": "49〜50%",
+      "note": "10〜12月は会社の見通し"
+     }
+    },
+    {
+     "id": "c02",
+     "kind": "jp",
+     "jp": "職場では、人気の商品の納期が延びるとき、お客様に理由を説明するのに使えます。",
+     "en": "At work, use it to explain longer lead times to customers.",
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "Demand exceeds supply,",
+       "so delivery takes three weeks."
+      ],
+      "hl": [
+       "Demand exceeds supply"
+      ],
+      "by": "お客様への説明の例"
+     }
+    },
+    {
+     "id": "c03",
+     "kind": "en_insert",
+     "jp": "需要が供給を上回っているため、納品まで3週間かかる",
+     "en": "Demand exceeds supply, so delivery takes three weeks.",
+     "hl": [
+      "Demand exceeds supply"
+     ],
+     "star": true,
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "Demand exceeds supply,",
+       "so delivery takes three weeks."
+      ],
+      "hl": [
+       "Demand exceeds supply"
+      ],
+      "by": "お客様への説明の例"
+     }
+    },
+    {
+     "id": "c04",
+     "kind": "jp",
+     "jp": "反対に、在庫がだぶついているときは、サプライ・エクシーズ・デマンドと、入れかえるだけです。",
+     "en": "For the reverse, just swap them: supply exceeds demand.",
+     "vis": {
+      "t": "statement",
+      "kicker": "TIP",
+      "text": "supply exceeds demand",
+      "sub": "供給が需要を上回る(在庫がだぶつく)"
+     }
+    }
+   ]
+  },
+  {
+   "id": "meaning",
+   "chapter": "今週のまとめ",
+   "beats": [
+    {
+     "id": "m01",
+     "kind": "jp",
+     "jp": "3つとも、数字や予定の話で、毎週のように使える表現です。",
+     "en": "All three come up every week in talk about numbers and plans.",
+     "vis": {
+      "t": "points",
+      "show": 3,
+      "items": [
+       {
+        "head": "数字の報告",
+        "big": "届かない",
+        "sub": "fall short of\n+ by で差を言う",
+        "color": "red"
+       },
+       {
+        "head": "決める前に",
+        "big": "選択肢を\n残す",
+        "sub": "keep our options open\n+ for now",
+        "color": "gold"
+       },
+       {
+        "head": "納期の説明",
+        "big": "需要>供給",
+        "sub": "demand exceeds supply\n逆は supply exceeds demand",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "m02",
+     "kind": "jp",
+     "jp": "来週の会議で、ひとつでいいので、実際に使ってみてください。",
+     "en": "Try using just one of them in a meeting next week.",
+     "vis": {
+      "t": "statement",
+      "kicker": "TRY IT",
+      "text": "来週、ひとつ使ってみる",
+      "sub": "fall short of / keep our options open / demand exceeds supply"
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "「選択肢を残しておく」は英語で?keep our options openの使い方|今週のニュース英語 総復習【ビジネス英語ニュース #21】",
+  "summary": "今週取り上げたインテル、オラクル、マイクロソフトのニュースから、職場ですぐに使える英語を3つ選び、受注の報告や会場選び、納期の説明といった新しい場面で練習します。",
+  "tags": [
+   "ビジネス英語",
+   "英語学習",
+   "ニュース英語",
+   "会議 英語",
+   "英語 復習",
+   "英単語",
+   "fall short of",
+   "keep our options open",
+   "demand exceeds supply",
+   "教養",
+   "社会人 英語",
+   "business English"
+  ]
+ },
+ "thumbnail": {
+  "big": "総復習",
+  "big_color": "gold",
+  "under": "今週の英語3つ",
+  "badge": "保存版",
+  "badge_color": "gold",
+  "question": "職場で使える?",
+  "pill": "keep our options open",
+  "bottom": "会議で使える英語3つ"
+ },
+ "shorts": [
+  {
+   "phrase": 0,
+   "hook": [
+    "「予測に届かない」",
+    "英語で言える?"
+   ],
+   "news_hook": [
+    "今週の英語",
+    "総復習"
+   ],
+   "ctx": "インテルのニュースで登場した表現",
+   "title": "「予測に届かない」は英語で?数字の報告で使える一言 #ビジネス英語 #shorts",
+   "ig_caption": "「〜に届かない」を英語で言えますか?\n\n✅ fall short of\n〜に届かない・〜を下回る\n\n例文:Orders may fall short of our forecast this month.\n(今月の受注は、予測に届かないかもしれません。)\n\n今週のインテルの決算のニュースで登場した表現を、職場の場面で練習します。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  },
+  {
+   "phrase": 2,
+   "hook": [
+    "「需要に供給が",
+    "追いつかない」"
+   ],
+   "news_hook": [
+    "今週の英語",
+    "総復習"
+   ],
+   "ctx": "マイクロソフトのニュースで登場した表現",
+   "title": "「需要が供給を上回る」は英語で?納期の説明で使える一言 #ビジネス英語 #shorts",
+   "ig_caption": "「需要が供給を上回る」を英語で言えますか?\n\n✅ demand exceeds supply\n需要が供給を上回る\n\n例文:Demand exceeds supply, so delivery takes three weeks.\n(需要が供給を上回っているため、納品まで3週間かかります。)\n\n今週のマイクロソフトの決算のニュースで登場した表現を、納期の説明で練習します。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Intel「Intel Reports Third-Quarter 2026 Financial Results」(2026年10月29日)",
+   "url": "https://www.intc.com/news-events/press-releases/detail/1786/intel-reports-third-quarter-2026-financial-results"
+  },
+  {
+   "title": "Data Center Knowledge「Oracle Cloud to Offer Google TPUs and New AI Chips」(2026年10月28日)",
+   "url": "https://datacenterknowledge.com/data-center-chips/oracle-cloud-to-offer-google-tpus-and-new-ai-chips"
+  },
+  {
+   "title": "TradingKey「Microsoft (MSFT) FY2027 Q1 Earnings Call: Azure Growth Reaches 48%」",
+   "url": "https://www.tradingkey.com/news/transcripts/262249601-tradingkey"
+  },
+  {
+   "title": "Techzine「Azure growth accelerates, demand for AI capacity exceeds supply」(2026年7月30日)",
+   "url": "https://www.techzine.eu/news/applications/143284/azure-growth-accelerates-demand-for-ai-capacity-exceeds-supply/"
+  }
+ ],
+ "readings": []
+}

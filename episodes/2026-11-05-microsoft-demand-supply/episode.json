@@ -1,0 +1,702 @@
+{
+ "id": "2026-11-05-microsoft-demand-supply",
+ "episode": "#19",
+ "date": "2026-10-28",
+ "series": "経営者の一言を読む",
+ "title_card": {
+  "line1": "48%伸びても、まだ足りない。",
+  "line2": "マイクロソフトCFOの一言を英語で読む"
+ },
+ "publish": {
+  "long": "2026-11-05T07:00:00+09:00",
+  "shorts": [
+   "2026-11-05T12:00:00+09:00",
+   "2026-11-05T21:00:00+09:00"
+  ]
+ },
+ "phrases": [
+  {
+   "en": "demand exceeds supply",
+   "jp": "需要が供給を上回る",
+   "ex": "Demand exceeds supply, so we need to prioritize key accounts.",
+   "ex_jp": "需要が供給を上回っているので、重要な顧客を優先する必要があります。"
+  },
+  {
+   "en": "I've never been more confident",
+   "jp": "今ほど自信を持ったことはない",
+   "ex": "I've never been more confident in this team.",
+   "ex_jp": "このチームに、今ほど自信を持ったことはありません。"
+  },
+  {
+   "en": "add capacity",
+   "jp": "供給能力を増やす",
+   "ex": "We plan to add capacity at the Osaka plant next year.",
+   "ex_jp": "来年、大阪工場の生産能力を増やす予定です。"
+  }
+ ],
+ "words": [
+  {
+   "en": "backlog",
+   "jp": "受注残"
+  },
+  {
+   "en": "constant currency",
+   "jp": "為替の影響を除いたベース"
+  },
+  {
+   "en": "data center",
+   "jp": "データセンター"
+  }
+ ],
+ "homework": {
+  "en": "What are you most confident about at work?",
+  "jp": "仕事で、いちばん自信があることは?",
+  "hl": [
+   "confident"
+  ],
+  "say": "最後に宿題です。あなたが今、仕事でいちばん自信を持っていることは何ですか。英語で、コメント欄に書いてみてください。"
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "beats": [
+    {
+     "id": "h01",
+     "kind": "jp",
+     "jp": "まだ、需要が供給を上回っている。マイクロソフトのCFOは、決算説明会で、こう話しました。",
+     "en": "'We still have demand that exceeds supply,' said Microsoft's CFO.",
+     "hl": [
+      "demand that exceeds supply"
+     ],
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "we still have demand",
+       "that exceeds supply"
+      ],
+      "hl": [
+       "demand that exceeds supply"
+      ],
+      "by": "Amy Hood, CFO, Microsoft(10月28日の決算説明会)"
+     }
+    },
+    {
+     "id": "h02",
+     "kind": "jp",
+     "jp": "クラウド事業のアジュールは、48%の成長。それでも、まだ足りないというのです。",
+     "en": "Azure grew 48%, and it still can't keep up.",
+     "hl": [
+      "demand exceeds supply"
+     ],
+     "vis": {
+      "t": "hero_side",
+      "big": "+48%",
+      "color": "green",
+      "text": "demand exceeds supply",
+      "jp": "需要が供給を上回る"
+     }
+    },
+    {
+     "id": "h03",
+     "kind": "jp",
+     "jp": "今日はこのニュースから、会議で使える英語を3つ。最後に答え合わせをします。",
+     "en": "Three phrases for your next meeting. Answers at the end.",
+     "vis": {
+      "t": "teaser"
+     }
+    }
+   ]
+  },
+  {
+   "id": "what",
+   "chapter": "決算のポイント",
+   "beats": [
+    {
+     "id": "n01",
+     "kind": "jp",
+     "jp": "マイクロソフトの7月から9月の売上は、923億ドル。前の年より19%増えて、市場の予想を上回りました。",
+     "en": "Revenue rose 19% to $92.3 billion, beating estimates.",
+     "vis": {
+      "t": "counter",
+      "kicker": "REVENUE (JUL–SEP)",
+      "to": 92.3,
+      "prefix": "$",
+      "suffix": "B",
+      "decimals": 1,
+      "color": "green",
+      "sub": "前年比 +19%",
+      "note": "≈ 14兆5000億円(1ドル157円換算)"
+     }
+    },
+    {
+     "id": "n02",
+     "kind": "jp",
+     "jp": "注目のクラウド、アジュールは、今回初めて、売上の金額を公表しました。332億ドルで、48%の増加です。",
+     "en": "Azure revenue, disclosed for the first time, was $33.2 billion, up 48%.",
+     "vis": {
+      "t": "bars",
+      "title": "アジュールの売上(7〜9月)",
+      "unit": "",
+      "items": [
+       {
+        "label": "2025年",
+        "value": 22.4,
+        "display": "224億ドル",
+        "color": "muted"
+       },
+       {
+        "label": "2026年",
+        "value": 33.2,
+        "display": "332億ドル(+48%)",
+        "color": "green"
+       }
+      ],
+      "note": "今回はじめて金額を公表"
+     }
+    },
+    {
+     "id": "n03",
+     "kind": "jp",
+     "jp": "次の四半期は、49から50%の成長を見込んでいます。伸びは、さらに加速する計算です。",
+     "en": "Next quarter, it expects 49 to 50% growth, even faster.",
+     "vis": {
+      "t": "line",
+      "title": "アジュールの成長率(前年比)",
+      "points": [
+       {
+        "label": "4〜6月",
+        "value": 43
+       },
+       {
+        "label": "7〜9月",
+        "value": 48
+       },
+       {
+        "label": "10〜12月(見通し)",
+        "value": 49.5
+       }
+      ],
+      "color": "green",
+      "display": "49〜50%",
+      "note": "10〜12月は会社の見通し(為替の影響を除く)"
+     }
+    },
+    {
+     "id": "n03b",
+     "kind": "jp",
+     "jp": "ちなみに、為替の影響を除いた数字は、英語でコンスタント・カレンシーと言います。決算資料でよく見る言葉です。",
+     "en": "Figures that exclude currency moves are called 'constant currency.'",
+     "hl": [
+      "constant currency"
+     ],
+     "vis": {
+      "t": "line",
+      "title": "アジュールの成長率(前年比)",
+      "points": [
+       {
+        "label": "4〜6月",
+        "value": 43
+       },
+       {
+        "label": "7〜9月",
+        "value": 48
+       },
+       {
+        "label": "10〜12月(見通し)",
+        "value": 49.5
+       }
+      ],
+      "color": "green",
+      "display": "49〜50%",
+      "note": "10〜12月は会社の見通し(為替の影響を除く)"
+     }
+    },
+    {
+     "id": "n03c",
+     "kind": "jp",
+     "jp": "すでに契約済みで、まだ売上になっていない受注残は、6770億ドル。前の年より73%増えています。",
+     "en": "Its commercial backlog reached $677 billion, up 73%.",
+     "hl": [
+      "backlog"
+     ],
+     "vis": {
+      "t": "counter",
+      "kicker": "BACKLOG",
+      "big": "$677B",
+      "color": "gold",
+      "sub": "契約済みで、まだ売上になっていない額",
+      "note": "前年比 +73%(commercial RPO)"
+     }
+    },
+    {
+     "id": "n04",
+     "kind": "jp",
+     "jp": "株価は、決算発表のあとの時間外取引で、およそ5%上がりました。",
+     "en": "Shares rose about 5% in after-hours trading.",
+     "vis": {
+      "t": "hero",
+      "kicker": "MSFT shares",
+      "big": "+5%",
+      "color": "green",
+      "sub": "決算発表後の時間外取引",
+      "sub_color": "gold"
+     }
+    }
+   ]
+  },
+  {
+   "id": "why",
+   "chapter": "CFOとCEOの一言を読む",
+   "beats": [
+    {
+     "id": "y01",
+     "kind": "jp",
+     "jp": "では、CFOのエイミー・フッド氏の言葉を、詳しく見てみましょう。",
+     "en": "Let's look closely at what CFO Amy Hood said.",
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "Customer demand continues",
+       "to exceed available supply"
+      ],
+      "hl": [
+       "exceed available supply"
+      ],
+      "by": "Amy Hood, CFO, Microsoft(決算説明会)"
+     }
+    },
+    {
+     "id": "y02",
+     "kind": "jp",
+     "jp": "お客様の需要が、使える供給を上回り続けている。データセンターを作っても、まだ足りないという意味です。",
+     "en": "Customer demand keeps exceeding available supply. Even new data centers aren't enough.",
+     "hl": [
+      "exceed available supply"
+     ],
+     "star": true,
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "Customer demand continues",
+       "to exceed available supply"
+      ],
+      "hl": [
+       "exceed available supply"
+      ],
+      "by": "Amy Hood, CFO, Microsoft(決算説明会)"
+     }
+    },
+    {
+     "id": "y03",
+     "kind": "en_insert",
+     "jp": "需要が供給を上回っている",
+     "en": "Demand exceeds supply.",
+     "hl": [
+      "Demand exceeds supply"
+     ],
+     "star": true,
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "Customer demand continues",
+       "to exceed available supply"
+      ],
+      "hl": [
+       "exceed available supply"
+      ],
+      "by": "Amy Hood, CFO, Microsoft(決算説明会)"
+     }
+    },
+    {
+     "id": "y04",
+     "kind": "jp",
+     "jp": "供給が足りない理由のひとつは、ほかの会社から買うGPUの納入が、遅れていることです。",
+     "en": "One reason: deliveries of third-party GPUs were delayed.",
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "GPUの納入が遅れる",
+        "mid": "供給不足",
+        "res": "需要に追いつかない",
+        "ok": false
+       },
+       {
+        "a": "ソフトの効率化",
+        "mid": "工夫",
+        "res": "同じ設備でより多く処理",
+        "ok": true
+       },
+       {
+        "a": "データセンターを増設",
+        "mid": "投資",
+        "res": "供給能力を増やす",
+        "ok": true
+       }
+      ]
+     }
+    },
+    {
+     "id": "y05",
+     "kind": "jp",
+     "jp": "そこで、ソフトの工夫で効率を上げながら、データセンターを増やし、供給能力を増やしています。この四半期だけで、5つの大陸に24か所です。",
+     "en": "So it's adding capacity: 24 new data centers across five continents this quarter.",
+     "hl": [
+      "adding capacity"
+     ],
+     "star": true,
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "GPUの納入が遅れる",
+        "mid": "供給不足",
+        "res": "需要に追いつかない",
+        "ok": false
+       },
+       {
+        "a": "ソフトの効率化",
+        "mid": "工夫",
+        "res": "同じ設備でより多く処理",
+        "ok": true
+       },
+       {
+        "a": "データセンターを増設",
+        "mid": "投資",
+        "res": "供給能力を増やす",
+        "ok": true
+       }
+      ]
+     }
+    },
+    {
+     "id": "y06",
+     "kind": "en_insert",
+     "jp": "供給能力を増やす",
+     "en": "add capacity",
+     "hl": [
+      "add capacity"
+     ],
+     "star": true,
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "GPUの納入が遅れる",
+        "mid": "供給不足",
+        "res": "需要に追いつかない",
+        "ok": false
+       },
+       {
+        "a": "ソフトの効率化",
+        "mid": "工夫",
+        "res": "同じ設備でより多く処理",
+        "ok": true
+       },
+       {
+        "a": "データセンターを増設",
+        "mid": "投資",
+        "res": "供給能力を増やす",
+        "ok": true
+       }
+      ]
+     }
+    },
+    {
+     "id": "y07",
+     "kind": "jp",
+     "jp": "設備投資は、10月から12月だけで500億ドルを超え、今年1年では、およそ1700億ドルになる見込みです。",
+     "en": "Capex will top $50 billion next quarter and reach about $170 billion this calendar year.",
+     "vis": {
+      "t": "counter",
+      "kicker": "CAPEX 2026",
+      "big": "約$170B",
+      "color": "gold",
+      "sub": "今年1年の設備投資の見込み",
+      "note": "≈ 26兆7000億円(1ドル157円換算)"
+     }
+    },
+    {
+     "id": "y08",
+     "kind": "jp",
+     "jp": "そしてナデラCEOは、投資の長期的なリターンに、今ほど自信を持ったことはない、と言い切りました。",
+     "en": "The CEO said he has never been more confident in the long-term returns.",
+     "hl": [
+      "I've never been more confident"
+     ],
+     "star": true,
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "I've never been more confident",
+       "in the long-term returns",
+       "for our investments"
+      ],
+      "hl": [
+       "I've never been more confident"
+      ],
+      "by": "Satya Nadella, CEO, Microsoft(決算説明会)"
+     }
+    },
+    {
+     "id": "y09",
+     "kind": "en_insert",
+     "jp": "今ほど自信を持ったことはない",
+     "en": "I've never been more confident.",
+     "hl": [
+      "I've never been more confident"
+     ],
+     "star": true,
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "I've never been more confident",
+       "in the long-term returns",
+       "for our investments"
+      ],
+      "hl": [
+       "I've never been more confident"
+      ],
+      "by": "Satya Nadella, CEO, Microsoft(決算説明会)"
+     }
+    }
+   ]
+  },
+  {
+   "id": "insight",
+   "chapter": "私たちへの意味",
+   "beats": [
+    {
+     "id": "i01",
+     "kind": "jp",
+     "jp": "ここからは、日本で働く私たちにとっての意味を考えます。",
+     "en": "What does this mean for those of us working in Japan?",
+     "vis": {
+      "t": "statement",
+      "kicker": "SO WHAT?",
+      "text": "日本で働く私たちにとっての意味"
+     }
+    },
+    {
+     "id": "i02",
+     "kind": "jp",
+     "jp": "読み取れるのは、今のAIでは、需要よりも、設備のほうが足りないということです。",
+     "en": "In AI right now, capacity, not demand, is the bottleneck.",
+     "vis": {
+      "t": "points",
+      "show": 1,
+      "items": [
+       {
+        "head": "読み取れること",
+        "big": "足りないのは\n設備",
+        "sub": "AIは需要より\n供給が追いつかない",
+        "color": "gold"
+       },
+       {
+        "head": "逆の見方",
+        "big": "設備が\n余るリスク",
+        "sub": "需要が落ち着けば\n過剰投資に",
+        "color": "blue"
+       },
+       {
+        "head": "日本の現場",
+        "big": "納期遅れを\n前向きに",
+        "sub": "理由を英語で\n落ち着いて説明",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i03",
+     "kind": "jp",
+     "jp": "一方で、逆の見方もあります。今週は、アルファベットのお金の流出も注目されました。需要が落ち着けば、作った設備が余るリスクもあります。",
+     "en": "But if demand cools, all this new capacity could end up unused.",
+     "vis": {
+      "t": "points",
+      "show": 2,
+      "items": [
+       {
+        "head": "読み取れること",
+        "big": "足りないのは\n設備",
+        "sub": "AIは需要より\n供給が追いつかない",
+        "color": "gold"
+       },
+       {
+        "head": "逆の見方",
+        "big": "設備が\n余るリスク",
+        "sub": "需要が落ち着けば\n過剰投資に",
+        "color": "blue"
+       },
+       {
+        "head": "日本の現場",
+        "big": "納期遅れを\n前向きに",
+        "sub": "理由を英語で\n落ち着いて説明",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i04",
+     "kind": "jp",
+     "jp": "日本の現場でも、人気の製品で、納期が遅れることはあります。そんなとき、需要が供給を上回っている、と説明すれば、前向きに伝わります。",
+     "en": "When a popular product is delayed, 'demand exceeds supply' frames it positively.",
+     "hl": [
+      "demand exceeds supply"
+     ],
+     "vis": {
+      "t": "points",
+      "show": 3,
+      "items": [
+       {
+        "head": "読み取れること",
+        "big": "足りないのは\n設備",
+        "sub": "AIは需要より\n供給が追いつかない",
+        "color": "gold"
+       },
+       {
+        "head": "逆の見方",
+        "big": "設備が\n余るリスク",
+        "sub": "需要が落ち着けば\n過剰投資に",
+        "color": "blue"
+       },
+       {
+        "head": "日本の現場",
+        "big": "納期遅れを\n前向きに",
+        "sub": "理由を英語で\n落ち着いて説明",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i05",
+     "kind": "jp",
+     "jp": "そして、自分のチームや計画を推すときは、今ほど自信を持ったことはない、という言い方が使えます。",
+     "en": "And when you back your team or plan, say: I've never been more confident.",
+     "hl": [
+      "I've never been more confident"
+     ],
+     "vis": {
+      "t": "points",
+      "show": 3,
+      "items": [
+       {
+        "head": "読み取れること",
+        "big": "足りないのは\n設備",
+        "sub": "AIは需要より\n供給が追いつかない",
+        "color": "gold"
+       },
+       {
+        "head": "逆の見方",
+        "big": "設備が\n余るリスク",
+        "sub": "需要が落ち着けば\n過剰投資に",
+        "color": "blue"
+       },
+       {
+        "head": "日本の現場",
+        "big": "納期遅れを\n前向きに",
+        "sub": "理由を英語で\n落ち着いて説明",
+        "color": "green"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "「需要が供給を上回る」は英語で?demand exceeds supplyの使い方|マイクロソフトCFOの一言【ビジネス英語ニュース #19】",
+  "summary": "マイクロソフトは2026年10月28日、クラウドのアジュールが48%伸びたと発表しました。それでもCFOは「需要が供給を上回っている」と説明し、CEOは投資のリターンに「今ほど自信を持ったことはない」と語りました。経営者の英語を日本語で読み解きます。",
+  "tags": [
+   "ビジネス英語",
+   "英語学習",
+   "ニュース英語",
+   "時事英語",
+   "会議 英語",
+   "マイクロソフト",
+   "Microsoft",
+   "Azure",
+   "決算",
+   "データセンター",
+   "経営者 英語",
+   "教養",
+   "社会人 英語",
+   "business English"
+  ]
+ },
+ "thumbnail": {
+  "big": "+48%",
+  "big_color": "green",
+  "under": "クラウド事業",
+  "badge": "マイクロソフト決算",
+  "badge_color": "gold",
+  "question": "それでも足りない?",
+  "pill": "demand exceeds supply",
+  "bottom": "会議で使える英語3つ",
+  "crack": false
+ },
+ "shorts": [
+  {
+   "phrase": 0,
+   "hook": [
+    "「需要が供給を",
+    "上回る」英語で?"
+   ],
+   "news_hook": [
+    "マイクロソフト",
+    "48%伸びても不足"
+   ],
+   "ctx": "マイクロソフトのCFOが決算説明会で使った表現",
+   "title": "「需要が供給を上回る」は英語で?マイクロソフトCFOの一言 #ビジネス英語 #shorts",
+   "ig_caption": "「需要が供給を上回る」を英語で言えますか?\n\n✅ demand exceeds supply\n需要が供給を上回る\n\n例文:Demand exceeds supply, so we need to prioritize key accounts.\n(需要が供給を上回っているので、重要な顧客を優先する必要があります。)\n\nクラウドが48%伸びても、まだ足りない。マイクロソフトのCFOが決算説明会で使った表現です。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  },
+  {
+   "phrase": 1,
+   "hook": [
+    "「今ほど自信を",
+    "持ったことはない」"
+   ],
+   "news_hook": [
+    "ナデラCEOが",
+    "言い切った一言"
+   ],
+   "ctx": "マイクロソフトのCEOが投資について語った一言",
+   "title": "「今ほど自信を持ったことはない」は英語で?ナデラCEOの一言 #ビジネス英語 #shorts",
+   "ig_caption": "「今ほど自信を持ったことはない」を英語で言えますか?\n\n✅ I've never been more confident\n今ほど自信を持ったことはない\n\n例文:I've never been more confident in this team.\n(このチームに、今ほど自信を持ったことはありません。)\n\nマイクロソフトのナデラCEOが、AIへの投資のリターンについて語った一言です。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  }
+ ],
+ "sources": [
+  {
+   "title": "TradingKey「Microsoft (MSFT) FY2027 Q1 Earnings Call: Azure Growth Reaches 48%」(決算説明会の書き起こし)",
+   "url": "https://www.tradingkey.com/news/transcripts/262249601-tradingkey"
+  },
+  {
+   "title": "Unite.AI「Microsoft Posts 19% Revenue Growth as Azure Revenue Jumps 48%」(2026年10月28日)",
+   "url": "https://www.unite.ai/microsoft-posts-19-revenue-growth-as-azure-revenue-jumps-48/"
+  },
+  {
+   "title": "Tech Times「Azure Accelerates to 48% as Microsoft Free Cash Flow Beats Estimates by $10B」(2026年10月30日)",
+   "url": "https://www.techtimes.com/articles/329763/20261030/azure-accelerates-48-microsoft-free-cash-flow-beats-estimates-10b.htm"
+  },
+  {
+   "title": "Techzine「Azure growth accelerates, demand for AI capacity exceeds supply」(2026年7月30日)",
+   "url": "https://www.techzine.eu/news/applications/143284/azure-growth-accelerates-demand-for-ai-capacity-exceeds-supply/"
+  },
+  {
+   "title": "FTI Consulting「News Bytes - 30 October 2026」",
+   "url": "https://fticommunications.com/fti-consulting-news-bytes-30-october-2026/"
+  }
+ ],
+ "readings": [
+  [
+   "Azure",
+   "アジュール"
+  ],
+  [
+   "GPU",
+   "ジーピーユー"
+  ]
+ ]
+}

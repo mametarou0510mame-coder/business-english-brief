@@ -1,0 +1,699 @@
+{
+ "id": "2026-11-03-intel-pc-slowdown",
+ "episode": "#17",
+ "date": "2026-10-29",
+ "series": "決算と数字の英語",
+ "title_card": {
+  "line1": "売上21%増でも、株価は3割近く急落。",
+  "line2": "インテルの決算を、数字の英語で読む"
+ },
+ "publish": {
+  "long": "2026-11-03T07:00:00+09:00",
+  "shorts": [
+   "2026-11-03T12:00:00+09:00",
+   "2026-11-03T21:00:00+09:00"
+  ]
+ },
+ "phrases": [
+  {
+   "en": "fall short of",
+   "jp": "〜に届かない・〜を下回る",
+   "ex": "Sales may fall short of the target by 5 percent.",
+   "ex_jp": "売上は、目標に5%届かないかもしれません。"
+  },
+  {
+   "en": "year over year",
+   "jp": "前年同期比で",
+   "ex": "Revenue grew 12 percent year over year.",
+   "ex_jp": "売上は、前年同期比で12%増えました。"
+  },
+  {
+   "en": "at least through",
+   "jp": "少なくとも〜までは",
+   "ex": "We expect tight supply at least through March.",
+   "ex_jp": "少なくとも3月までは、供給不足が続く見込みです。"
+  }
+ ],
+ "words": [
+  {
+   "en": "guidance",
+   "jp": "業績見通し"
+  },
+  {
+   "en": "gross margin",
+   "jp": "粗利率(売上総利益率)"
+  },
+  {
+   "en": "midpoint",
+   "jp": "(予想レンジの)中央値"
+  }
+ ],
+ "homework": {
+  "en": "Did anything fall short of your plan this month?",
+  "jp": "今月、計画に届かなかったことは?",
+  "hl": [
+   "fall short of"
+  ],
+  "say": "最後に宿題です。今月、あなたの仕事で、計画に届かなかったことはありますか。英語で、コメント欄に書いてみてください。"
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "beats": [
+    {
+     "id": "h01",
+     "kind": "jp",
+     "jp": "半導体大手インテルの株価が、決算発表の翌日、一時3割近く下がりました。",
+     "en": "Intel's shares fell nearly 30% the day after its earnings.",
+     "vis": {
+      "t": "counter",
+      "kicker": "INTEL SHARES",
+      "big": "−28%",
+      "color": "red",
+      "sub": "決算発表の翌日(10月30日・取引時間中)",
+      "note": "一時の下落率"
+     }
+    },
+    {
+     "id": "h02",
+     "kind": "jp",
+     "jp": "売上は前の年より21%も増えたのに、です。理由は、次の見通しが、市場の期待に届かなかったから。",
+     "en": "Revenue was up 21%, but the outlook fell short of expectations.",
+     "hl": [
+      "fell short of"
+     ],
+     "vis": {
+      "t": "hero_side",
+      "big": "+21%",
+      "color": "green",
+      "text": "fell short of expectations",
+      "jp": "見通しが期待に届かず"
+     }
+    },
+    {
+     "id": "h03",
+     "kind": "jp",
+     "jp": "今日はこのニュースから、会議で使える英語を3つ。最後に答え合わせをします。",
+     "en": "Three phrases for your next meeting. Answers at the end.",
+     "vis": {
+      "t": "teaser"
+     }
+    }
+   ]
+  },
+  {
+   "id": "numbers",
+   "chapter": "数字で見る決算",
+   "beats": [
+    {
+     "id": "n01",
+     "kind": "jp",
+     "jp": "まずは数字から。7月から9月の売上は、165億ドル。前年同期比で、21%の増加です。",
+     "en": "Q3 revenue was $16.5 billion, up 21% year over year.",
+     "hl": [
+      "year over year"
+     ],
+     "star": true,
+     "vis": {
+      "t": "counter",
+      "kicker": "Q3 REVENUE",
+      "to": 16.5,
+      "prefix": "$",
+      "suffix": "B",
+      "decimals": 1,
+      "color": "green",
+      "sub": "前年同期比 +21%",
+      "note": "≈ 2兆5900億円(1ドル157円換算)"
+     }
+    },
+    {
+     "id": "n02",
+     "kind": "en_insert",
+     "jp": "前年同期比で21%増",
+     "en": "up 21 percent year over year",
+     "hl": [
+      "year over year"
+     ],
+     "star": true,
+     "vis": {
+      "t": "counter",
+      "kicker": "Q3 REVENUE",
+      "to": 16.5,
+      "prefix": "$",
+      "suffix": "B",
+      "decimals": 1,
+      "color": "green",
+      "sub": "前年同期比 +21%",
+      "note": "≈ 2兆5900億円(1ドル157円換算)"
+     }
+    },
+    {
+     "id": "n03",
+     "kind": "jp",
+     "jp": "数字のあとに、イヤー・オーバー・イヤーを置くのが基本です。資料では、ワイ・オー・ワイと略して書くこともあります。",
+     "en": "Put 'year over year' after the number. In slides, it's often written YoY.",
+     "vis": {
+      "t": "statement",
+      "kicker": "YoY",
+      "text": "up 21% year over year",
+      "sub": "前年同期比で21%増(YoYと略すことも)"
+     }
+    },
+    {
+     "id": "n04",
+     "kind": "jp",
+     "jp": "部門別に見ると、明暗がはっきり分かれました。データセンターとAI向けは78%増。一方、パソコン向けは5%減です。",
+     "en": "Data center and AI grew 78%, while PC chips fell 5%.",
+     "vis": {
+      "t": "bars",
+      "title": "インテルの部門別の売上(7〜9月・前年同期比)",
+      "unit": "",
+      "items": [
+       {
+        "label": "データセンター・AI",
+        "value": 7.3,
+        "display": "73億ドル(+78%)",
+        "color": "green"
+       },
+       {
+        "label": "ファウンドリー",
+        "value": 6.7,
+        "display": "67億ドル(+58%)",
+        "color": "green"
+       },
+       {
+        "label": "パソコン向け",
+        "value": 8.1,
+        "display": "81億ドル(−5%)",
+        "color": "red"
+       }
+      ],
+      "note": "up 78 percent / down 5 percent"
+     }
+    },
+    {
+     "id": "n05",
+     "kind": "jp",
+     "jp": "増えたときは、アップ78パーセント。減ったときは、ダウン5パーセント。アップとダウンで、方向を先に言います。",
+     "en": "Say 'up 78 percent' or 'down 5 percent'. The direction comes first.",
+     "vis": {
+      "t": "bars",
+      "title": "インテルの部門別の売上(7〜9月・前年同期比)",
+      "unit": "",
+      "items": [
+       {
+        "label": "データセンター・AI",
+        "value": 7.3,
+        "display": "73億ドル(+78%)",
+        "color": "green"
+       },
+       {
+        "label": "ファウンドリー",
+        "value": 6.7,
+        "display": "67億ドル(+58%)",
+        "color": "green"
+       },
+       {
+        "label": "パソコン向け",
+        "value": 8.1,
+        "display": "81億ドル(−5%)",
+        "color": "red"
+       }
+      ],
+      "note": "up 78 percent / down 5 percent"
+     }
+    },
+    {
+     "id": "n06",
+     "kind": "jp",
+     "jp": "前の四半期と比べるときは、クォーター・オーバー・クォーターと言います。何と比べた数字なのかを、はっきりさせるのが大切です。",
+     "en": "Compared with the previous quarter, say 'quarter over quarter.' Always make the comparison clear.",
+     "vis": {
+      "t": "statement",
+      "kicker": "QoQ",
+      "text": "quarter over quarter",
+      "sub": "前の四半期と比べて(前期比)"
+     }
+    }
+   ]
+  },
+  {
+   "id": "why",
+   "chapter": "なぜ株価が下がったのか",
+   "beats": [
+    {
+     "id": "y01",
+     "kind": "jp",
+     "jp": "では、なぜ株価が下がったのか。10月から12月の売上の見通しは、150億から160億ドル。市場の期待に届きませんでした。",
+     "en": "Q4 guidance was $15 to $16 billion, short of what the market hoped for.",
+     "hl": [
+      "guidance"
+     ],
+     "vis": {
+      "t": "cards",
+      "footer": "株価を動かしたのは「次の見通し」",
+      "items": [
+       {
+        "name": "7〜9月 実績",
+        "big": "$16.5B",
+        "sub": "売上",
+        "note": "会社の予想は上回る",
+        "color": "green"
+       },
+       {
+        "name": "10〜12月 見通し",
+        "big": "$15〜16B",
+        "sub": "売上",
+        "note": "市場の期待に届かず",
+        "color": "red"
+       },
+       {
+        "name": "粗利率の見通し",
+        "big": "38%",
+        "sub": "7〜9月は44.1%",
+        "note": "non-GAAPベース",
+        "color": "red"
+       }
+      ],
+      "show": 2
+     }
+    },
+    {
+     "id": "y02",
+     "kind": "jp",
+     "jp": "中央値で見ると、7月から9月より、およそ10億ドル少ない計算です。利益率の見通しも、44.1%から38%に下がります。",
+     "en": "At the midpoint, that's about $1 billion less than Q3. Gross margin is guided down to 38%.",
+     "hl": [
+      "midpoint"
+     ],
+     "vis": {
+      "t": "cards",
+      "footer": "株価を動かしたのは「次の見通し」",
+      "items": [
+       {
+        "name": "7〜9月 実績",
+        "big": "$16.5B",
+        "sub": "売上",
+        "note": "会社の予想は上回る",
+        "color": "green"
+       },
+       {
+        "name": "10〜12月 見通し",
+        "big": "$15〜16B",
+        "sub": "売上",
+        "note": "市場の期待に届かず",
+        "color": "red"
+       },
+       {
+        "name": "粗利率の見通し",
+        "big": "38%",
+        "sub": "7〜9月は44.1%",
+        "note": "non-GAAPベース",
+        "color": "red"
+       }
+      ],
+      "show": 3
+     }
+    },
+    {
+     "id": "y02b",
+     "kind": "jp",
+     "jp": "さらに、イスラエルの工場が事故で止まった影響で、10月から12月の売上が、およそ3億ドル減る見込みです。",
+     "en": "A factory accident in Israel will also cut about $300 million from Q4 sales.",
+     "vis": {
+      "t": "cards",
+      "footer": "株価を動かしたのは「次の見通し」",
+      "items": [
+       {
+        "name": "7〜9月 実績",
+        "big": "$16.5B",
+        "sub": "売上",
+        "note": "会社の予想は上回る",
+        "color": "green"
+       },
+       {
+        "name": "10〜12月 見通し",
+        "big": "$15〜16B",
+        "sub": "売上",
+        "note": "市場の期待に届かず",
+        "color": "red"
+       },
+       {
+        "name": "粗利率の見通し",
+        "big": "38%",
+        "sub": "7〜9月は44.1%",
+        "note": "non-GAAPベース",
+        "color": "red"
+       }
+      ],
+      "show": 3
+     }
+    },
+    {
+     "id": "y03",
+     "kind": "jp",
+     "jp": "CFOのジンズナー氏は、パソコンの減速は、少なくとも来年の前半までは続く、と話しました。",
+     "en": "The CFO sees the PC slowdown lasting at least through the first half of next year.",
+     "hl": [
+      "at least through"
+     ],
+     "star": true,
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "we see the PC slowdown continuing",
+       "at least through the first half",
+       "of next year"
+      ],
+      "hl": [
+       "at least through"
+      ],
+      "by": "David Zinsner, CFO, Intel(Yahoo Financeの報道より)"
+     }
+    },
+    {
+     "id": "y04",
+     "kind": "en_insert",
+     "jp": "少なくとも来年の前半までは",
+     "en": "at least through the first half of next year",
+     "hl": [
+      "at least through"
+     ],
+     "star": true,
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "we see the PC slowdown continuing",
+       "at least through the first half",
+       "of next year"
+      ],
+      "hl": [
+       "at least through"
+      ],
+      "by": "David Zinsner, CFO, Intel(Yahoo Financeの報道より)"
+     }
+    },
+    {
+     "id": "y05",
+     "kind": "jp",
+     "jp": "背景にあるのは、メモリーの値上がりです。報道によると、パソコンメーカーが値上げを進め、パソコンが売れにくくなっています。",
+     "en": "Rising memory prices are making PCs pricier, and sales are slowing.",
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "メモリーの値上がり",
+        "mid": "コスト増",
+        "res": "パソコンが値上がり",
+        "ok": false
+       },
+       {
+        "a": "パソコンの値上がり",
+        "mid": "需要減",
+        "res": "パソコン向けの売上が減る",
+        "ok": false
+       },
+       {
+        "a": "サーバー向けは好調",
+        "mid": "部品不足",
+        "res": "落ち込みを埋めきれない",
+        "ok": false
+       }
+      ]
+     }
+    },
+    {
+     "id": "y06",
+     "kind": "jp",
+     "jp": "サーバー向けの需要は強いものの、部品が足りず、作りきれません。そのため、パソコンの落ち込みを埋められないのです。",
+     "en": "Server demand is strong, but supply shortages mean it can't make up for the PC slump.",
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "メモリーの値上がり",
+        "mid": "コスト増",
+        "res": "パソコンが値上がり",
+        "ok": false
+       },
+       {
+        "a": "パソコンの値上がり",
+        "mid": "需要減",
+        "res": "パソコン向けの売上が減る",
+        "ok": false
+       },
+       {
+        "a": "サーバー向けは好調",
+        "mid": "部品不足",
+        "res": "落ち込みを埋めきれない",
+        "ok": false
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "insight",
+   "chapter": "私たちへの意味",
+   "beats": [
+    {
+     "id": "i01",
+     "kind": "jp",
+     "jp": "ここからは、日本で働く私たちにとっての意味を考えます。",
+     "en": "What does this mean for those of us working in Japan?",
+     "vis": {
+      "t": "statement",
+      "kicker": "SO WHAT?",
+      "text": "日本で働く私たちにとっての意味"
+     }
+    },
+    {
+     "id": "i02",
+     "kind": "jp",
+     "jp": "読み取れるのは、市場は過去の実績よりも、次の見通しで会社を評価するということです。",
+     "en": "Markets judge the outlook more than past results.",
+     "vis": {
+      "t": "points",
+      "show": 1,
+      "items": [
+       {
+        "head": "読み取れること",
+        "big": "見通しが\n株価を動かす",
+        "sub": "過去の実績より\n次の四半期",
+        "color": "gold"
+       },
+       {
+        "head": "逆の見方",
+        "big": "データセンター\n+78%",
+        "sub": "成長分野は\n大きく伸びている",
+        "color": "blue"
+       },
+       {
+        "head": "日本の現場",
+        "big": "数字は\n前年同期比で",
+        "sub": "海外への報告は\nyear over yearが基本",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i03",
+     "kind": "jp",
+     "jp": "一方で、逆の見方もあります。データセンター向けは78%も伸び、調査会社は、来年サーバー向けの生産能力が5割以上増えると予測しています。",
+     "en": "Data center sales grew 78%, and one research firm expects server capacity to grow over 50% next year.",
+     "vis": {
+      "t": "points",
+      "show": 2,
+      "items": [
+       {
+        "head": "読み取れること",
+        "big": "見通しが\n株価を動かす",
+        "sub": "過去の実績より\n次の四半期",
+        "color": "gold"
+       },
+       {
+        "head": "逆の見方",
+        "big": "データセンター\n+78%",
+        "sub": "成長分野は\n大きく伸びている",
+        "color": "blue"
+       },
+       {
+        "head": "日本の現場",
+        "big": "数字は\n前年同期比で",
+        "sub": "海外への報告は\nyear over yearが基本",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i04",
+     "kind": "jp",
+     "jp": "日本の会社でも、海外の本社や取引先への報告では、数字を前年同期比で示すのが基本です。",
+     "en": "When reporting to overseas HQ or partners, show numbers year over year.",
+     "vis": {
+      "t": "points",
+      "show": 3,
+      "items": [
+       {
+        "head": "読み取れること",
+        "big": "見通しが\n株価を動かす",
+        "sub": "過去の実績より\n次の四半期",
+        "color": "gold"
+       },
+       {
+        "head": "逆の見方",
+        "big": "データセンター\n+78%",
+        "sub": "成長分野は\n大きく伸びている",
+        "color": "blue"
+       },
+       {
+        "head": "日本の現場",
+        "big": "数字は\n前年同期比で",
+        "sub": "海外への報告は\nyear over yearが基本",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i05",
+     "kind": "jp",
+     "jp": "そして、目標に届かなかったときは、フォール・ショート・オブを使えば、事実を落ち着いて伝えられます。",
+     "en": "And if you miss a target, 'fall short of' states it calmly.",
+     "hl": [
+      "fall short of"
+     ],
+     "star": true,
+     "vis": {
+      "t": "vs",
+      "mid": "目標と比べると",
+      "left": {
+       "en": "target",
+       "label": "目標",
+       "val": "100",
+       "up": true,
+       "color": "blue"
+      },
+      "right": {
+       "en": "actual",
+       "label": "実績",
+       "val": "95",
+       "up": false,
+       "color": "red"
+      }
+     }
+    },
+    {
+     "id": "i06",
+     "kind": "en_insert",
+     "jp": "売上は目標に5%届かないかもしれない",
+     "en": "Sales may fall short of the target by 5 percent.",
+     "hl": [
+      "fall short of"
+     ],
+     "star": true,
+     "vis": {
+      "t": "vs",
+      "mid": "目標と比べると",
+      "left": {
+       "en": "target",
+       "label": "目標",
+       "val": "100",
+       "up": true,
+       "color": "blue"
+      },
+      "right": {
+       "en": "actual",
+       "label": "実績",
+       "val": "95",
+       "up": false,
+       "color": "red"
+      }
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "「〜に届かない」は英語で?fall short ofの使い方|インテル株が3割近く急落【ビジネス英語ニュース #17】",
+  "summary": "インテルは2026年10月29日、7〜9月の売上が前年同期比21%増の165億ドルだったと発表しましたが、次の四半期の見通しが市場の期待に届かず、株価は翌日3割近く下がりました。決算の数字の読み方と、会議で使える英語を日本語で解説します。",
+  "tags": [
+   "ビジネス英語",
+   "英語学習",
+   "ニュース英語",
+   "時事英語",
+   "決算 英語",
+   "数字 英語",
+   "インテル",
+   "Intel",
+   "半導体",
+   "前年同期比",
+   "教養",
+   "社会人 英語",
+   "business English"
+  ]
+ },
+ "thumbnail": {
+  "big": "−28%",
+  "big_color": "red",
+  "under": "インテル株",
+  "badge": "売上は21%増",
+  "badge_color": "green",
+  "question": "なのに、なぜ?",
+  "pill": "fall short of",
+  "bottom": "会議で使える英語3つ",
+  "crack": true
+ },
+ "shorts": [
+  {
+   "phrase": 0,
+   "hook": [
+    "「目標に届かない」",
+    "英語で言える?"
+   ],
+   "news_hook": [
+    "インテル株が",
+    "3割近く急落"
+   ],
+   "ctx": "インテルの見通しが市場の期待を下回ったときの表現",
+   "title": "「〜に届かない」は英語で?インテル株が3割近く急落 #ビジネス英語 #shorts",
+   "ig_caption": "「〜に届かない」を英語で言えますか?\n\n✅ fall short of\n〜に届かない・〜を下回る\n\n例文:Sales may fall short of the target by 5 percent.\n(売上は、目標に5%届かないかもしれません。)\n\nインテルの次の四半期の見通しは、市場の期待に届かず、株価が急落しました。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  },
+  {
+   "phrase": 1,
+   "hook": [
+    "「前年同期比で」",
+    "英語で言える?"
+   ],
+   "news_hook": [
+    "売上は21%増",
+    "数字の英語"
+   ],
+   "ctx": "決算の数字を説明するときの基本表現",
+   "title": "「前年同期比で」は英語で?決算の数字を説明する一言 #ビジネス英語 #shorts",
+   "ig_caption": "「前年同期比で」を英語で言えますか?\n\n✅ year over year\n前年同期比で\n\n例文:Revenue grew 12 percent year over year.\n(売上は、前年同期比で12%増えました。)\n\nインテルの売上は前年同期比で21%増。海外への数字の報告で、いちばんよく使う表現です。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Intel「Intel Reports Third-Quarter 2026 Financial Results」(2026年10月29日)",
+   "url": "https://www.intc.com/news-events/press-releases/detail/1786/intel-reports-third-quarter-2026-financial-results"
+  },
+  {
+   "title": "Yahoo Finance「Intel Sinks 29% as Weak Outlook Shows It's \"Still PC Dependent\"」",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/intel-sinks-29-weak-outlook-133944045.html"
+  },
+  {
+   "title": "StockTitan「Stock Market Today Live October 30, 2026」",
+   "url": "https://stocktitan.net/articles/stock-market-today-live-october-30-2026"
+  },
+  {
+   "title": "InformationWeek「The week of Oct. 26-30: What happened, what matters, what's next」",
+   "url": "https://www.informationweek.com/it-infrastructure/the-week-of-oct-26-30-what-happened-what-matters-what-s-next"
+  }
+ ],
+ "readings": []
+}

@@ -1,0 +1,709 @@
+{
+ "id": "2026-11-02-big-tech-ai-bill",
+ "episode": "#16",
+ "date": "2026-10-30",
+ "series": "Weekly Brief",
+ "title_card": {
+  "line1": "売上は25%増、株価は10%安。",
+  "line2": "AI投資に、市場が「いつ実を結ぶ?」"
+ },
+ "publish": {
+  "long": "2026-11-02T07:00:00+09:00",
+  "shorts": [
+   "2026-11-02T12:00:00+09:00",
+   "2026-11-02T21:00:00+09:00"
+  ]
+ },
+ "phrases": [
+  {
+   "en": "pay off",
+   "jp": "(投資や努力が)実を結ぶ",
+   "ex": "We believe this investment will pay off within two years.",
+   "ex_jp": "この投資は、2年以内に実を結ぶと考えています。"
+  },
+  {
+   "en": "in line with",
+   "jp": "〜とほぼ同じ・〜どおり",
+   "ex": "Sales were in line with our forecast this quarter.",
+   "ex_jp": "今期の売上は、ほぼ予測どおりでした。"
+  },
+  {
+   "en": "run rate",
+   "jp": "(今のペースでの)年換算の規模",
+   "ex": "The new service is on a 100 million yen annual run rate.",
+   "ex_jp": "新サービスは、今のペースだと年間1億円規模です。"
+  }
+ ],
+ "words": [
+  {
+   "en": "free cash flow",
+   "jp": "フリーキャッシュフロー(自由に使える現金)"
+  },
+  {
+   "en": "capital expenditure",
+   "jp": "設備投資(capex)"
+  },
+  {
+   "en": "equity offering",
+   "jp": "株式の発行による資金調達"
+  }
+ ],
+ "homework": {
+  "en": "What investment at your work will pay off?",
+  "jp": "あなたの職場で、実を結びそうな投資は?",
+  "hl": [
+   "pay off"
+  ],
+  "say": "最後に宿題です。あなたの職場で、これから実を結びそうな投資は何ですか。英語で、コメント欄に書いてみてください。"
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "beats": [
+    {
+     "id": "h01",
+     "kind": "jp",
+     "jp": "グーグルの親会社、アルファベットの株価が、決算発表のあと、10%以上下がりました。",
+     "en": "Alphabet's shares fell more than 10% after its earnings.",
+     "vis": {
+      "t": "hero",
+      "kicker": "Alphabet shares",
+      "big": "−10%",
+      "color": "red",
+      "crack": true,
+      "sub": "売上は25%増なのに",
+      "sub_color": "gold"
+     }
+    },
+    {
+     "id": "h02",
+     "kind": "jp",
+     "jp": "市場が問い始めたのは、AIへの巨額の投資は、本当に実を結ぶのか、ということです。",
+     "en": "Investors are asking: will the huge AI spending pay off?",
+     "hl": [
+      "pay off"
+     ],
+     "vis": {
+      "t": "hero_side",
+      "big": "−10%",
+      "color": "red",
+      "text": "Will it pay off?",
+      "jp": "AI投資は実を結ぶのか"
+     }
+    },
+    {
+     "id": "h03",
+     "kind": "jp",
+     "jp": "今日はこのニュースから、会議で使える英語を3つ。最後に答え合わせをします。",
+     "en": "Three phrases for your next meeting. Answers at the end.",
+     "vis": {
+      "t": "teaser"
+     }
+    }
+   ]
+  },
+  {
+   "id": "what",
+   "chapter": "何が起きたか",
+   "beats": [
+    {
+     "id": "n01",
+     "kind": "jp",
+     "jp": "アルファベットの7月から9月の売上は、1276億ドル。前の年より25%増え、ほぼ市場の予想どおりでした。",
+     "en": "Revenue rose 25% to $127.6 billion, roughly in line with forecasts.",
+     "hl": [
+      "in line with"
+     ],
+     "star": true,
+     "vis": {
+      "t": "counter",
+      "kicker": "Q3 REVENUE",
+      "to": 127.6,
+      "prefix": "$",
+      "suffix": "B",
+      "decimals": 1,
+      "color": "green",
+      "sub": "前年比 +25%",
+      "note": "ほぼ市場予想どおり(in line with)"
+     }
+    },
+    {
+     "id": "n02",
+     "kind": "en_insert",
+     "jp": "売上は、ほぼ予想どおりだった",
+     "en": "Revenue was roughly in line with expectations.",
+     "hl": [
+      "in line with"
+     ],
+     "star": true,
+     "vis": {
+      "t": "counter",
+      "kicker": "Q3 REVENUE",
+      "to": 127.6,
+      "prefix": "$",
+      "suffix": "B",
+      "decimals": 1,
+      "color": "green",
+      "sub": "前年比 +25%",
+      "note": "ほぼ市場予想どおり(in line with)"
+     }
+    },
+    {
+     "id": "n03",
+     "kind": "jp",
+     "jp": "一方で、設備投資は、過去最高の514億ドル。1年前の2倍以上です。",
+     "en": "But capital spending hit a record $51.4 billion, more than double a year ago.",
+     "vis": {
+      "t": "bars",
+      "title": "アルファベットの設備投資(7〜9月)",
+      "unit": "",
+      "items": [
+       {
+        "label": "2025年",
+        "value": 24,
+        "display": "240億ドル",
+        "color": "muted"
+       },
+       {
+        "label": "2026年",
+        "value": 51.4,
+        "display": "514億ドル(過去最高)",
+        "color": "red"
+       }
+      ],
+      "note": "AI向けのデータセンターなど"
+     }
+    },
+    {
+     "id": "n04",
+     "kind": "jp",
+     "jp": "その結果、手元に残る現金、フリーキャッシュフローは、91億ドルのマイナスになりました。",
+     "en": "Free cash flow was negative $9.1 billion.",
+     "hl": [
+      "free cash flow"
+     ],
+     "vis": {
+      "t": "counter",
+      "kicker": "FREE CASH FLOW",
+      "big": "−$9.1B",
+      "color": "red",
+      "sub": "フリーキャッシュフロー(7〜9月)",
+      "note": "≈ −1.4兆円(1ドル157円換算)"
+     }
+    },
+    {
+     "id": "n05",
+     "kind": "jp",
+     "jp": "苦しいのは、アルファベットだけではありません。アマゾンも、直近12か月のフリーキャッシュフローが、424億ドルのマイナスでした。",
+     "en": "Amazon's trailing 12-month free cash flow was negative $42.4 billion.",
+     "vis": {
+      "t": "cards",
+      "footer": "AIの建設費を、だれが払うのか",
+      "items": [
+       {
+        "name": "Alphabet",
+        "big": "−$9.1B",
+        "sub": "7〜9月のFCF",
+        "note": "10月28日 決算",
+        "color": "red"
+       },
+       {
+        "name": "Amazon",
+        "big": "−$42.4B",
+        "sub": "直近12か月のFCF",
+        "note": "10月29日 決算",
+        "color": "red"
+       },
+       {
+        "name": "Meta",
+        "big": "$95B",
+        "sub": "株式で資金を調達",
+        "note": "10月26日 発表",
+        "color": "gold"
+       }
+      ],
+      "show": 2
+     }
+    },
+    {
+     "id": "n06",
+     "kind": "jp",
+     "jp": "そしてメタは、AIのインフラに投資するため、株式を発行して、合わせて950億ドルを集める計画を発表しました。",
+     "en": "Meta plans to raise $95 billion by selling shares to fund AI infrastructure.",
+     "vis": {
+      "t": "cards",
+      "footer": "AIの建設費を、だれが払うのか",
+      "items": [
+       {
+        "name": "Alphabet",
+        "big": "−$9.1B",
+        "sub": "7〜9月のFCF",
+        "note": "10月28日 決算",
+        "color": "red"
+       },
+       {
+        "name": "Amazon",
+        "big": "−$42.4B",
+        "sub": "直近12か月のFCF",
+        "note": "10月29日 決算",
+        "color": "red"
+       },
+       {
+        "name": "Meta",
+        "big": "$95B",
+        "sub": "株式で資金を調達",
+        "note": "10月26日 発表",
+        "color": "gold"
+       }
+      ],
+      "show": 3
+     }
+    },
+    {
+     "id": "n07",
+     "kind": "jp",
+     "jp": "メタは、今年の設備投資を、1350億から1450億ドルと見込んでいます。手元のお金だけでは、足りないということです。",
+     "en": "Meta expects $135 to $145 billion of capex this year. Its own cash isn't enough.",
+     "vis": {
+      "t": "counter",
+      "kicker": "META CAPEX 2026",
+      "big": "$135〜145B",
+      "color": "gold",
+      "sub": "今年の設備投資の見込み",
+      "note": "≈ 21兆〜23兆円(1ドル157円換算)"
+     }
+    }
+   ]
+  },
+  {
+   "id": "why",
+   "chapter": "なぜ株価が下がったのか",
+   "beats": [
+    {
+     "id": "y01",
+     "kind": "jp",
+     "jp": "グーグルのピチャイCEOは、強い四半期だったと強調しました。今のペースなら、年間の売上は5000億ドル規模だ、と。",
+     "en": "The CEO called it a strong quarter, with a half-trillion-dollar run rate.",
+     "hl": [
+      "run rate"
+     ],
+     "star": true,
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "We had a strong quarter and are now",
+       "on a half-trillion dollar",
+       "revenue run rate"
+      ],
+      "hl": [
+       "run rate"
+      ],
+      "by": "Sundar Pichai, CEO, Alphabet(Fortuneの報道より)"
+     }
+    },
+    {
+     "id": "y02",
+     "kind": "en_insert",
+     "jp": "年換算で5000億ドル規模の売上",
+     "en": "a half-trillion dollar revenue run rate",
+     "hl": [
+      "run rate"
+     ],
+     "star": true,
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "We had a strong quarter and are now",
+       "on a half-trillion dollar",
+       "revenue run rate"
+      ],
+      "hl": [
+       "run rate"
+      ],
+      "by": "Sundar Pichai, CEO, Alphabet(Fortuneの報道より)"
+     }
+    },
+    {
+     "id": "y02b",
+     "kind": "jp",
+     "jp": "ランレートは、今のペースが1年続いたら、という計算です。四半期の売上を、ほぼ4倍にした数字だと考えると、わかりやすいでしょう。",
+     "en": "A run rate assumes today's pace lasts a full year: roughly quarterly sales times four.",
+     "hl": [
+      "run rate"
+     ],
+     "vis": {
+      "t": "statement",
+      "kicker": "RUN RATE",
+      "text": "四半期の売上 × 4",
+      "sub": "今のペースが1年続いたら、という年換算の数字"
+     }
+    },
+    {
+     "id": "y03",
+     "kind": "jp",
+     "jp": "それでも市場が売ったのは、お金が出ていく時期と、戻ってくる時期に、ずれがあるからです。",
+     "en": "Investors sold anyway: the spending comes long before the returns.",
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "データセンター・半導体",
+        "mid": "今すぐ",
+        "res": "巨額の現金が出ていく",
+        "ok": false
+       },
+       {
+        "a": "AIサービスの売上",
+        "mid": "数年かけて",
+        "res": "回収の時期は未知数",
+        "ok": false
+       }
+      ]
+     }
+    },
+    {
+     "id": "y04",
+     "kind": "jp",
+     "jp": "ある独立系のアナリストは、アルファベットは自分の現金ではなく、株主のお金でAIを作っている、と厳しく指摘しています。",
+     "en": "One analyst said Alphabet now funds AI with shareholders' money, not its own cash.",
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "データセンター・半導体",
+        "mid": "今すぐ",
+        "res": "巨額の現金が出ていく",
+        "ok": false
+       },
+       {
+        "a": "AIサービスの売上",
+        "mid": "数年かけて",
+        "res": "回収の時期は未知数",
+        "ok": false
+       }
+      ]
+     }
+    },
+    {
+     "id": "y05",
+     "kind": "jp",
+     "jp": "市場が知りたいのは、ひとつだけ。この投資は、いつ実を結ぶのか、です。",
+     "en": "The market wants one answer: when will it pay off?",
+     "hl": [
+      "pay off"
+     ],
+     "star": true,
+     "vis": {
+      "t": "statement",
+      "kicker": "THE QUESTION",
+      "text": "When will it pay off?",
+      "sub": "この投資は、いつ実を結ぶのか"
+     }
+    },
+    {
+     "id": "y06",
+     "kind": "en_insert",
+     "jp": "この投資は、いつ実を結ぶのか",
+     "en": "When will this investment pay off?",
+     "hl": [
+      "pay off"
+     ],
+     "star": true,
+     "vis": {
+      "t": "statement",
+      "kicker": "THE QUESTION",
+      "text": "When will it pay off?",
+      "sub": "この投資は、いつ実を結ぶのか"
+     }
+    }
+   ]
+  },
+  {
+   "id": "contrast",
+   "chapter": "明暗を分けたもの",
+   "beats": [
+    {
+     "id": "c01",
+     "kind": "jp",
+     "jp": "一方、同じ週に決算を発表したマイクロソフトは、株価が上がりました。",
+     "en": "Microsoft, reporting the same week, saw its shares rise.",
+     "vis": {
+      "t": "vs",
+      "mid": "同じ週",
+      "left": {
+       "en": "Microsoft",
+       "label": "FCF +186億ドル",
+       "val": "株価 上昇",
+       "up": true,
+       "color": "green"
+      },
+      "right": {
+       "en": "Alphabet",
+       "label": "FCF −91億ドル",
+       "val": "株価 −10%超",
+       "up": false,
+       "color": "red"
+      }
+     }
+    },
+    {
+     "id": "c02",
+     "kind": "jp",
+     "jp": "違いは、投資がすでに現金を生んでいるかどうか。マイクロソフトのフリーキャッシュフローは、186億ドルのプラスでした。",
+     "en": "The difference: Microsoft's spending already brings in cash, with $18.6 billion of free cash flow.",
+     "vis": {
+      "t": "vs",
+      "mid": "同じ週",
+      "left": {
+       "en": "Microsoft",
+       "label": "FCF +186億ドル",
+       "val": "株価 上昇",
+       "up": true,
+       "color": "green"
+      },
+      "right": {
+       "en": "Alphabet",
+       "label": "FCF −91億ドル",
+       "val": "株価 −10%超",
+       "up": false,
+       "color": "red"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "insight",
+   "chapter": "私たちへの意味",
+   "beats": [
+    {
+     "id": "i01",
+     "kind": "jp",
+     "jp": "ここからは、日本で働く私たちにとっての意味を考えます。",
+     "en": "What does this mean for those of us working in Japan?",
+     "vis": {
+      "t": "statement",
+      "kicker": "SO WHAT?",
+      "text": "日本で働く私たちにとっての意味"
+     }
+    },
+    {
+     "id": "i02",
+     "kind": "jp",
+     "jp": "読み取れるのは、投資の大きさよりも、いつ回収できるかが、問われ始めたということです。",
+     "en": "The question has shifted from how much to when it pays off.",
+     "vis": {
+      "t": "points",
+      "show": 1,
+      "items": [
+       {
+        "head": "読み取れること",
+        "big": "「いつ回収?」",
+        "sub": "投資の大きさより\n回収の時期が問われる",
+        "color": "gold"
+       },
+       {
+        "head": "逆の見方",
+        "big": "クラウドは\n2倍",
+        "sub": "グーグルクラウドの売上は\n307億ドルに倍増",
+        "color": "blue"
+       },
+       {
+        "head": "日本の現場",
+        "big": "回収計画を\n英語で",
+        "sub": "AI投資の稟議は\n数字で説明する",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i03",
+     "kind": "jp",
+     "jp": "一方で、逆の見方もあります。グーグルのクラウドの売上は、2倍以上の307億ドルに伸びました。需要があること自体は、はっきりしています。",
+     "en": "On the other hand, Google Cloud revenue more than doubled to $30.7 billion. The demand is real.",
+     "vis": {
+      "t": "points",
+      "show": 2,
+      "items": [
+       {
+        "head": "読み取れること",
+        "big": "「いつ回収?」",
+        "sub": "投資の大きさより\n回収の時期が問われる",
+        "color": "gold"
+       },
+       {
+        "head": "逆の見方",
+        "big": "クラウドは\n2倍",
+        "sub": "グーグルクラウドの売上は\n307億ドルに倍増",
+        "color": "blue"
+       },
+       {
+        "head": "日本の現場",
+        "big": "回収計画を\n英語で",
+        "sub": "AI投資の稟議は\n数字で説明する",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i04",
+     "kind": "jp",
+     "jp": "日本の会社でも、AIやデジタル化への投資の稟議では、いつ実を結ぶのかを、数字で説明することが求められます。",
+     "en": "In Japan too, AI proposals need a clear story of when they pay off.",
+     "vis": {
+      "t": "points",
+      "show": 3,
+      "items": [
+       {
+        "head": "読み取れること",
+        "big": "「いつ回収?」",
+        "sub": "投資の大きさより\n回収の時期が問われる",
+        "color": "gold"
+       },
+       {
+        "head": "逆の見方",
+        "big": "クラウドは\n2倍",
+        "sub": "グーグルクラウドの売上は\n307億ドルに倍増",
+        "color": "blue"
+       },
+       {
+        "head": "日本の現場",
+        "big": "回収計画を\n英語で",
+        "sub": "AI投資の稟議は\n数字で説明する",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i05",
+     "kind": "jp",
+     "jp": "海外の相手に、この投資は2年以内に実を結びます、と英語で言えるように準備しておきましょう。",
+     "en": "Be ready to say: this investment will pay off within two years.",
+     "hl": [
+      "pay off"
+     ],
+     "vis": {
+      "t": "points",
+      "show": 3,
+      "items": [
+       {
+        "head": "読み取れること",
+        "big": "「いつ回収?」",
+        "sub": "投資の大きさより\n回収の時期が問われる",
+        "color": "gold"
+       },
+       {
+        "head": "逆の見方",
+        "big": "クラウドは\n2倍",
+        "sub": "グーグルクラウドの売上は\n307億ドルに倍増",
+        "color": "blue"
+       },
+       {
+        "head": "日本の現場",
+        "big": "回収計画を\n英語で",
+        "sub": "AI投資の稟議は\n数字で説明する",
+        "color": "green"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "「実を結ぶ」は英語で?pay offの使い方|AI投資に市場が疑問符【ビジネス英語ニュース #16】",
+  "summary": "グーグルの親会社アルファベットは2026年10月28日の決算で売上を25%伸ばしましたが、AI向けの設備投資がふくらみ、株価は10%以上下落しました。アマゾンやメタも含めた「AI投資は実を結ぶのか」という市場の問いを日本語で解説し、会議で使える英語を身につけます。",
+  "tags": [
+   "ビジネス英語",
+   "英語学習",
+   "ニュース英語",
+   "時事英語",
+   "会議 英語",
+   "アルファベット",
+   "グーグル",
+   "Alphabet",
+   "AI投資",
+   "決算",
+   "フリーキャッシュフロー",
+   "教養",
+   "社会人 英語",
+   "business English"
+  ]
+ },
+ "thumbnail": {
+  "big": "−10%",
+  "big_color": "red",
+  "under": "グーグル親会社",
+  "badge": "売上は25%増",
+  "badge_color": "green",
+  "question": "なのに、なぜ?",
+  "pill": "pay off",
+  "bottom": "会議で使える英語3つ",
+  "crack": true
+ },
+ "shorts": [
+  {
+   "phrase": 0,
+   "hook": [
+    "「実を結ぶ」",
+    "英語で言える?"
+   ],
+   "news_hook": [
+    "グーグル親会社",
+    "株価10%超下落"
+   ],
+   "ctx": "AIへの巨額投資を、市場が問い直したときの表現",
+   "title": "「実を結ぶ」は英語で?グーグル親会社の株価が10%超下落 #ビジネス英語 #shorts",
+   "ig_caption": "「実を結ぶ」を英語で言えますか?\n\n✅ pay off\n(投資や努力が)実を結ぶ\n\n例文:We believe this investment will pay off within two years.\n(この投資は、2年以内に実を結ぶと考えています。)\n\nAIへの巨額投資は、いつ実を結ぶのか。今週、海外の市場が問い始めた表現です。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  },
+  {
+   "phrase": 1,
+   "hook": [
+    "「ほぼ予想どおり」",
+    "英語で言える?"
+   ],
+   "news_hook": [
+    "売上は予想どおり",
+    "でも株価は下落"
+   ],
+   "ctx": "決算の数字を予想と比べるときの表現",
+   "title": "「ほぼ予想どおり」は英語で?決算の数字を説明する一言 #ビジネス英語 #shorts",
+   "ig_caption": "「ほぼ予想どおり」を英語で言えますか?\n\n✅ in line with\n〜とほぼ同じ・〜どおり\n\n例文:Sales were in line with our forecast this quarter.\n(今期の売上は、ほぼ予測どおりでした。)\n\nアルファベットの売上は、ほぼ市場の予想どおり。決算の報告で毎回のように使う表現です。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Fortune「Alphabet's Google Cloud revenue doubles to $31 billion as cash flow stays deep red」(2026年10月28日)",
+   "url": "https://fortune.com/2026/10/28/alphabet-google-stock-drops-cloud-revenue-doubles-free-cash-flow-negative/"
+  },
+  {
+   "title": "FTI Consulting「News Bytes - 30 October 2026」",
+   "url": "https://fticommunications.com/fti-consulting-news-bytes-30-october-2026/"
+  },
+  {
+   "title": "InformationWeek「The week of Oct. 26-30: What happened, what matters, what's next」",
+   "url": "https://www.informationweek.com/it-infrastructure/the-week-of-oct-26-30-what-happened-what-matters-what-s-next"
+  },
+  {
+   "title": "StockTitan「Stock Market Today Live October 30, 2026」",
+   "url": "https://stocktitan.net/articles/stock-market-today-live-october-30-2026"
+  },
+  {
+   "title": "Hargreaves Lansdown「Meta launches $95bn equity raise to fund expanding AI infrastructure buildout」(2026年10月26日)",
+   "url": "https://www.hl.co.uk/shares/stock-market-news/company--news/meta-launches-$95bn-equity-raise-to-fund-expanding-ai-infrastructure-buildout"
+  },
+  {
+   "title": "Tech Times「Azure Accelerates to 48% as Microsoft Free Cash Flow Beats Estimates by $10B」(2026年10月30日)",
+   "url": "https://www.techtimes.com/articles/329763/20261030/azure-accelerates-48-microsoft-free-cash-flow-beats-estimates-10b.htm"
+  }
+ ],
+ "readings": [
+  [
+   "Alphabet",
+   "アルファベット"
+  ]
+ ]
+}

@@ -1,0 +1,697 @@
+{
+ "id": "2026-11-06-boj-target-met",
+ "episode": "#20",
+ "date": "2026-10-30",
+ "series": "海外メディアが報じる日本",
+ "title_card": {
+  "line1": "日銀、物価2%に「おおむね到達」。",
+  "line2": "海外メディアはどう報じた?"
+ },
+ "publish": {
+  "long": "2026-11-06T07:00:00+09:00",
+  "shorts": [
+   "2026-11-06T12:00:00+09:00",
+   "2026-11-06T21:00:00+09:00"
+  ]
+ },
+ "phrases": [
+  {
+   "en": "generally consistent with",
+   "jp": "おおむね〜と一致している",
+   "ex": "The results are generally consistent with our forecast.",
+   "ex_jp": "結果は、おおむね私たちの予測と一致しています。"
+  },
+  {
+   "en": "overshoot",
+   "jp": "(目標や予算を)行き過ぎる・上回ってしまう",
+   "ex": "We don't want costs to overshoot the budget.",
+   "ex_jp": "コストが予算を上回ってしまうのは避けたいです。"
+  },
+  {
+   "en": "send a signal",
+   "jp": "シグナルを送る・意思を示す",
+   "ex": "This price change will send a signal to our competitors.",
+   "ex_jp": "この価格変更は、競合他社へのシグナルになります。"
+  }
+ ],
+ "words": [
+  {
+   "en": "policy rate",
+   "jp": "政策金利"
+  },
+  {
+   "en": "dissent",
+   "jp": "反対(票を投じる)"
+  },
+  {
+   "en": "outlook report",
+   "jp": "展望リポート(経済・物価の見通し)"
+  }
+ ],
+ "homework": {
+  "en": "What signal do you want to send to your team?",
+  "jp": "チームに送りたいシグナルは?",
+  "hl": [
+   "send"
+  ],
+  "say": "最後に宿題です。あなたが今、チームに送りたいシグナルは何ですか。英語で、コメント欄に書いてみてください。"
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "beats": [
+    {
+     "id": "h01",
+     "kind": "jp",
+     "jp": "日本銀行が、物価2%の目標に、おおむね届いたという判断を示しました。",
+     "en": "The Bank of Japan said underlying inflation is now roughly at its 2% target.",
+     "vis": {
+      "t": "hero",
+      "kicker": "Bank of Japan",
+      "big": "2%",
+      "color": "gold",
+      "crack": false,
+      "sub": "物価目標に「おおむね到達」",
+      "sub_color": "gold"
+     }
+    },
+    {
+     "id": "h02",
+     "kind": "jp",
+     "jp": "海外メディアが注目したのは、この、おおむね一致している、という英語の表現です。",
+     "en": "Overseas media focused on one phrase: 'generally consistent with.'",
+     "hl": [
+      "generally consistent with"
+     ],
+     "vis": {
+      "t": "hero_side",
+      "big": "2%",
+      "color": "gold",
+      "text": "generally consistent with",
+      "jp": "おおむね一致している"
+     }
+    },
+    {
+     "id": "h03",
+     "kind": "jp",
+     "jp": "今日はこのニュースから、会議で使える英語を3つ。最後に答え合わせをします。",
+     "en": "Three phrases for your next meeting. Answers at the end.",
+     "vis": {
+      "t": "teaser"
+     }
+    }
+   ]
+  },
+  {
+   "id": "what",
+   "chapter": "何が起きたか",
+   "beats": [
+    {
+     "id": "n01",
+     "kind": "jp",
+     "jp": "日銀は10月30日、政策金利を1.25%のまま、据え置きました。9人のうち1人は、利上げを主張して反対しました。",
+     "en": "On October 30, the BOJ kept its policy rate at 1.25%. One of nine members wanted a hike.",
+     "hl": [
+      "policy rate"
+     ],
+     "vis": {
+      "t": "counter",
+      "kicker": "POLICY RATE",
+      "big": "1.25%",
+      "color": "gold",
+      "sub": "据え置き(賛成8・反対1)",
+      "note": "10月29〜30日 金融政策決定会合"
+     }
+    },
+    {
+     "id": "n02",
+     "kind": "jp",
+     "jp": "そして、経済と物価の見通しをまとめた展望リポートで、基調的な物価の上昇率は、2%の目標と、おおむね一致している、と書きました。",
+     "en": "Its outlook report said underlying inflation is generally consistent with the 2% target.",
+     "hl": [
+      "generally consistent with"
+     ],
+     "star": true,
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "underlying CPI inflation is at a level",
+       "that is generally consistent with",
+       "the price stability target of 2 percent"
+      ],
+      "hl": [
+       "generally consistent with"
+      ],
+      "by": "日本銀行「経済・物価情勢の展望」英語版(2026年10月30日)"
+     }
+    },
+    {
+     "id": "n03",
+     "kind": "en_insert",
+     "jp": "基調的な物価上昇率は、2%の目標とおおむね一致",
+     "en": "generally consistent with the price stability target of 2 percent",
+     "hl": [
+      "generally consistent with"
+     ],
+     "star": true,
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "underlying CPI inflation is at a level",
+       "that is generally consistent with",
+       "the price stability target of 2 percent"
+      ],
+      "hl": [
+       "generally consistent with"
+      ],
+      "by": "日本銀行「経済・物価情勢の展望」英語版(2026年10月30日)"
+     }
+    },
+    {
+     "id": "n03b",
+     "kind": "jp",
+     "jp": "基調的とは、一時的な値動きを除いた、物価の大きな流れのことです。英語では、アンダーライングと言います。",
+     "en": "'Underlying' means the broad trend, excluding temporary price swings.",
+     "hl": [
+      "Underlying"
+     ],
+     "vis": {
+      "t": "statement",
+      "kicker": "UNDERLYING",
+      "text": "基調的な物価",
+      "sub": "一時的な値動きを除いた、物価の大きな流れ"
+     }
+    },
+    {
+     "id": "n04",
+     "kind": "jp",
+     "jp": "振り返ると、2013年、当時の黒田総裁は、2%の物価目標を、2年程度で達成することを目指していました。",
+     "en": "In 2013, then-Governor Kuroda aimed to hit 2% inflation in about two years.",
+     "vis": {
+      "t": "timeline",
+      "items": [
+       {
+        "when": "2013年",
+        "text": "黒田総裁「2%の物価目標を2年程度で」",
+        "color": "muted"
+       },
+       {
+        "when": "2026年6月・9月",
+        "text": "利上げ。間隔が短くなる",
+        "color": "gold"
+       },
+       {
+        "when": "10月30日",
+        "text": "基調的な物価は2%と「おおむね一致」",
+        "color": "green"
+       }
+      ],
+      "show": 1
+     }
+    },
+    {
+     "id": "n05",
+     "kind": "jp",
+     "jp": "それから13年。今年は6月と9月に利上げを行い、ついに、目標とおおむね一致したと判断したのです。",
+     "en": "Thirteen years later, after hikes in June and September, the BOJ says it's roughly there.",
+     "vis": {
+      "t": "timeline",
+      "items": [
+       {
+        "when": "2013年",
+        "text": "黒田総裁「2%の物価目標を2年程度で」",
+        "color": "muted"
+       },
+       {
+        "when": "2026年6月・9月",
+        "text": "利上げ。間隔が短くなる",
+        "color": "gold"
+       },
+       {
+        "when": "10月30日",
+        "text": "基調的な物価は2%と「おおむね一致」",
+        "color": "green"
+       }
+      ],
+      "show": 3
+     }
+    },
+    {
+     "id": "n06",
+     "kind": "jp",
+     "jp": "物価の見通しは、今年度が2.5%、来年度が2.6%。リスクは、上振れの方向にあるとしています。",
+     "en": "It forecasts 2.5% inflation this fiscal year and 2.6% next, with risks to the upside.",
+     "vis": {
+      "t": "bars",
+      "title": "日銀の物価見通し(生鮮食品を除く・中央値)",
+      "unit": "",
+      "items": [
+       {
+        "label": "2026年度",
+        "value": 2.5,
+        "display": "+2.5%",
+        "color": "gold"
+       },
+       {
+        "label": "2027年度",
+        "value": 2.6,
+        "display": "+2.6%",
+        "color": "red"
+       },
+       {
+        "label": "2028年度",
+        "value": 2.0,
+        "display": "+2.0%",
+        "color": "green"
+       }
+      ],
+      "note": "2026年10月 展望リポート"
+     }
+    }
+   ]
+  },
+  {
+   "id": "media",
+   "chapter": "海外メディアの読み方",
+   "beats": [
+    {
+     "id": "m01",
+     "kind": "jp",
+     "jp": "海外の通信社は、市場の専門家の反応を、すぐに世界に伝えました。",
+     "en": "Global wire services quickly relayed analysts' reactions.",
+     "vis": {
+      "t": "globe",
+      "title": "海外が見る日銀の判断",
+      "lon": 140,
+      "lat": 25,
+      "points": [
+       {
+        "label": "東京 日本銀行",
+        "lat": 35.7,
+        "lon": 139.7,
+        "color": "gold"
+       },
+       {
+        "label": "シンガポール",
+        "lat": 1.3,
+        "lon": 103.8,
+        "color": "blue"
+       },
+       {
+        "label": "香港",
+        "lat": 22.3,
+        "lon": 114.2,
+        "color": "blue"
+       },
+       {
+        "label": "ニューヨーク",
+        "lat": 40.7,
+        "lon": -74.0,
+        "color": "blue"
+       }
+      ],
+      "arcs": [
+       [
+        0,
+        1
+       ],
+       [
+        0,
+        2
+       ],
+       [
+        0,
+        3
+       ]
+      ],
+      "lines": [
+       {
+        "text": "「退屈な据え置き、でも重要な変化」",
+        "color": "gold"
+       },
+       {
+        "text": "12月の利上げへのシグナル",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "m02",
+     "kind": "jp",
+     "jp": "ある運用会社の専門家は、退屈な据え置きだが、展望リポートには重要な変化がある、と表現しました。",
+     "en": "One strategist called it a boring hold, but an important shift in the outlook report.",
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "A boring hold,",
+       "but an important shift",
+       "in the Outlook Report"
+      ],
+      "hl": [
+       "an important shift"
+      ],
+      "by": "Masahiko Loo, State Street Investment Management(ロイターの報道より)"
+     }
+    },
+    {
+     "id": "m03",
+     "kind": "jp",
+     "jp": "また、日本の研究所のエコノミストは、日銀は、物価が目標を行き過ぎる可能性を、ますます意識している、と指摘しています。",
+     "en": "An economist said the BOJ is increasingly wary that inflation could overshoot.",
+     "hl": [
+      "overshoot"
+     ],
+     "star": true,
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "the BOJ seems increasingly conscious",
+       "of the possibility that",
+       "inflation could overshoot"
+      ],
+      "hl": [
+       "overshoot"
+      ],
+      "by": "前田和孝氏, 明治安田総合研究所(ロイターの報道より)"
+     }
+    },
+    {
+     "id": "m04",
+     "kind": "en_insert",
+     "jp": "物価が行き過ぎるかもしれない",
+     "en": "Inflation could overshoot.",
+     "hl": [
+      "overshoot"
+     ],
+     "star": true,
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "the BOJ seems increasingly conscious",
+       "of the possibility that",
+       "inflation could overshoot"
+      ],
+      "hl": [
+       "overshoot"
+      ],
+      "by": "前田和孝氏, 明治安田総合研究所(ロイターの報道より)"
+     }
+    },
+    {
+     "id": "m05",
+     "kind": "jp",
+     "jp": "別の専門家は、今回の判断は、12月の利上げに向けたシグナルと受け止められる、と話しています。",
+     "en": "Another analyst said it can be read as a signal toward a December hike.",
+     "hl": [
+      "signal"
+     ],
+     "star": true,
+     "vis": {
+      "t": "statement",
+      "kicker": "DECEMBER?",
+      "text": "12月の利上げへのシグナル",
+      "sub": "a signal toward a December rate hike"
+     }
+    },
+    {
+     "id": "m06",
+     "kind": "en_insert",
+     "jp": "市場にシグナルを送る",
+     "en": "It sends a signal to the market.",
+     "hl": [
+      "sends a signal"
+     ],
+     "star": true,
+     "vis": {
+      "t": "statement",
+      "kicker": "DECEMBER?",
+      "text": "12月の利上げへのシグナル",
+      "sub": "a signal toward a December rate hike"
+     }
+    },
+    {
+     "id": "m07",
+     "kind": "jp",
+     "jp": "為替市場では、発表のあと、ドルに対して円が上がる場面もありましたが、予想どおりの内容だったため、その動きは縮まりました。",
+     "en": "The yen briefly gained after the decision, but the move faded since it was expected.",
+     "vis": {
+      "t": "vs",
+      "mid": "発表直後",
+      "left": {
+       "en": "yen",
+       "label": "円",
+       "val": "一時 上昇",
+       "up": true,
+       "color": "green"
+      },
+      "right": {
+       "en": "dollar",
+       "label": "ドル",
+       "val": "一時 下落",
+       "up": false,
+       "color": "red"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "insight",
+   "chapter": "私たちへの意味",
+   "beats": [
+    {
+     "id": "i01",
+     "kind": "jp",
+     "jp": "ここからは、日本で働く私たちにとっての意味を考えます。",
+     "en": "What does this mean for those of us working in Japan?",
+     "vis": {
+      "t": "statement",
+      "kicker": "SO WHAT?",
+      "text": "日本で働く私たちにとっての意味"
+     }
+    },
+    {
+     "id": "i02",
+     "kind": "jp",
+     "jp": "海外のメディアにとって、日本はもう、デフレの国ではなく、利上げを続ける国として報じられています。",
+     "en": "Overseas media now cover Japan as a rate-hike story, not a deflation story.",
+     "vis": {
+      "t": "points",
+      "show": 1,
+      "items": [
+       {
+        "head": "読み取れること",
+        "big": "デフレの国\nではない",
+        "sub": "海外は日本を\n「利上げを続ける国」と見る",
+        "color": "gold"
+       },
+       {
+        "head": "逆の見方",
+        "big": "成長は\n0.7%",
+        "sub": "物価は2%台でも\n成長率の見通しは低い",
+        "color": "blue"
+       },
+       {
+        "head": "日本の現場",
+        "big": "値上げを\n英語で説明",
+        "sub": "物価と金利の話が\n海外と同じ土俵に",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i03",
+     "kind": "jp",
+     "jp": "ただし、逆の見方もあります。日銀の成長率の見通しは、今年度も来年度も0.7%。物価だけが2%台で進む形です。",
+     "en": "But the BOJ sees growth of only 0.7% in both years, while prices rise over 2%.",
+     "vis": {
+      "t": "points",
+      "show": 2,
+      "items": [
+       {
+        "head": "読み取れること",
+        "big": "デフレの国\nではない",
+        "sub": "海外は日本を\n「利上げを続ける国」と見る",
+        "color": "gold"
+       },
+       {
+        "head": "逆の見方",
+        "big": "成長は\n0.7%",
+        "sub": "物価は2%台でも\n成長率の見通しは低い",
+        "color": "blue"
+       },
+       {
+        "head": "日本の現場",
+        "big": "値上げを\n英語で説明",
+        "sub": "物価と金利の話が\n海外と同じ土俵に",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i04",
+     "kind": "jp",
+     "jp": "日本の職場でも、値上げや金利の上昇を、海外の相手に説明する場面が、増えていくはずです。",
+     "en": "Expect more talks with overseas partners about price increases and rising rates.",
+     "vis": {
+      "t": "points",
+      "show": 3,
+      "items": [
+       {
+        "head": "読み取れること",
+        "big": "デフレの国\nではない",
+        "sub": "海外は日本を\n「利上げを続ける国」と見る",
+        "color": "gold"
+       },
+       {
+        "head": "逆の見方",
+        "big": "成長は\n0.7%",
+        "sub": "物価は2%台でも\n成長率の見通しは低い",
+        "color": "blue"
+       },
+       {
+        "head": "日本の現場",
+        "big": "値上げを\n英語で説明",
+        "sub": "物価と金利の話が\n海外と同じ土俵に",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i05",
+     "kind": "jp",
+     "jp": "そんなときは、今回の価格は、市場の動きとおおむね一致しています、と言えば、落ち着いた印象で伝わります。",
+     "en": "Try: 'Our new price is generally consistent with the market.'",
+     "hl": [
+      "generally consistent with"
+     ],
+     "vis": {
+      "t": "points",
+      "show": 3,
+      "items": [
+       {
+        "head": "読み取れること",
+        "big": "デフレの国\nではない",
+        "sub": "海外は日本を\n「利上げを続ける国」と見る",
+        "color": "gold"
+       },
+       {
+        "head": "逆の見方",
+        "big": "成長は\n0.7%",
+        "sub": "物価は2%台でも\n成長率の見通しは低い",
+        "color": "blue"
+       },
+       {
+        "head": "日本の現場",
+        "big": "値上げを\n英語で説明",
+        "sub": "物価と金利の話が\n海外と同じ土俵に",
+        "color": "green"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "「おおむね一致している」は英語で?generally consistent withの使い方|日銀「物価2%」到達と判断【ビジネス英語ニュース #20】",
+  "summary": "日本銀行は2026年10月30日、政策金利を1.25%に据え置く一方、基調的な物価上昇率が2%の目標と「おおむね一致している」と判断しました。海外メディアと市場の専門家がどう受け止めたかを日本語で解説し、会議で使える英語を身につけます。",
+  "tags": [
+   "ビジネス英語",
+   "英語学習",
+   "ニュース英語",
+   "時事英語",
+   "会議 英語",
+   "日銀",
+   "日本銀行",
+   "Bank of Japan",
+   "物価目標",
+   "利上げ",
+   "海外メディア",
+   "教養",
+   "社会人 英語",
+   "business English"
+  ]
+ },
+ "thumbnail": {
+  "big": "2%",
+  "big_color": "gold",
+  "under": "日銀の物価目標",
+  "badge": "海外メディアの見方",
+  "badge_color": "gold",
+  "question": "ついに到達?",
+  "pill": "generally consistent with",
+  "bottom": "会議で使える英語3つ",
+  "crack": false
+ },
+ "shorts": [
+  {
+   "phrase": 0,
+   "hook": [
+    "「おおむね",
+    "一致している」"
+   ],
+   "news_hook": [
+    "日銀が物価2%に",
+    "「おおむね到達」"
+   ],
+   "ctx": "日銀が英語の展望リポートで使った表現",
+   "title": "「おおむね一致している」は英語で?日銀が物価2%到達と判断 #ビジネス英語 #shorts",
+   "ig_caption": "「おおむね一致している」を英語で言えますか?\n\n✅ generally consistent with\nおおむね〜と一致している\n\n例文:The results are generally consistent with our forecast.\n(結果は、おおむね私たちの予測と一致しています。)\n\n日銀は、基調的な物価が2%の目標と「おおむね一致している」と判断しました。英語版の展望リポートで使われた表現です。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  },
+  {
+   "phrase": 1,
+   "hook": [
+    "「予算を",
+    "上回ってしまう」"
+   ],
+   "news_hook": [
+    "日銀は物価の",
+    "行き過ぎを警戒"
+   ],
+   "ctx": "物価が目標を行き過ぎるリスクを表す表現",
+   "title": "「行き過ぎる・上回ってしまう」は英語で?日銀が物価の上振れを警戒 #ビジネス英語 #shorts",
+   "ig_caption": "「行き過ぎる」を英語で言えますか?\n\n✅ overshoot\n(目標や予算を)行き過ぎる・上回ってしまう\n\n例文:We don't want costs to overshoot the budget.\n(コストが予算を上回ってしまうのは避けたいです。)\n\n日銀は、物価が目標を行き過ぎる可能性を、ますます意識していると指摘されています。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  }
+ ],
+ "sources": [
+  {
+   "title": "日本銀行「Outlook for Economic Activity and Prices(The Bank's View)」(2026年10月30日)",
+   "url": "https://www.boj.or.jp/en/mopo/outlook/gor2610a.pdf"
+  },
+  {
+   "title": "Reuters via Yahoo Finance「Analysts react to BOJ decision to keep rates steady」(2026年10月30日)",
+   "url": "https://finance.yahoo.com/economy/policy/articles/instant-view-analysts-react-boj-032614967.html"
+  },
+  {
+   "title": "Tradingpedia「Sterling-Yen Firm as BoJ Keeps Cautious Policy Stance」(2026年10月30日)",
+   "url": "https://www.tradingpedia.com/2026/10/30/sterling-yen-firm-as-boj-keeps-cautious-policy-stance/"
+  },
+  {
+   "title": "Tradingpedia「Yen Gains as BoJ Holds Rates, Signals Hawkish Stance」(2026年10月30日)",
+   "url": "https://www.tradingpedia.com/2026/10/30/yen-gains-as-boj-holds-rates-signals-hawkish-stance/"
+  },
+  {
+   "title": "Reuters via Yahoo Finance「BOJ to hold rates, signal near-term hikes」(2026年10月29日)",
+   "url": "https://finance.yahoo.com/economy/policy/articles/bank-japan-hold-rates-signal-210126915.html"
+  },
+  {
+   "title": "City A.M.「Bank of Japan touts victories」(2013年10月10日)",
+   "url": "https://cityam.com/?p=539720"
+  }
+ ],
+ "readings": [
+  [
+   "日銀",
+   "にちぎん"
+  ],
+  [
+   "1.25%",
+   "1.25パーセント"
+  ]
+ ]
+}

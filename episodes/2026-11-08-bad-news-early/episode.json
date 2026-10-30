@@ -1,0 +1,556 @@
+{
+ "id": "2026-11-08-bad-news-early",
+ "episode": "#22",
+ "date": "2026-11-08",
+ "series": "場面別の英語",
+ "title_card": {
+  "line1": "悪い知らせを、上手に伝える。",
+  "line2": "インテルの見通しから学ぶ3ステップ"
+ },
+ "publish": {
+  "long": "2026-11-08T07:00:00+09:00",
+  "shorts": [
+   "2026-11-08T12:00:00+09:00",
+   "2026-11-08T21:00:00+09:00"
+  ]
+ },
+ "phrases": [
+  {
+   "en": "give you a heads-up",
+   "jp": "前もってお知らせする",
+   "ex": "I wanted to give you a heads-up about a delay.",
+   "ex_jp": "遅れについて、前もってお知らせしておきたくて。"
+  },
+  {
+   "en": "I'm afraid",
+   "jp": "申し訳ないのですが・残念ながら",
+   "ex": "I'm afraid the shipment will be two days late.",
+   "ex_jp": "申し訳ないのですが、出荷が2日遅れます。"
+  },
+  {
+   "en": "here's what we're doing about it",
+   "jp": "対応策はこちらです",
+   "ex": "Here's what we're doing about it: we've added a second line.",
+   "ex_jp": "対応策ですが、2本目のラインを追加しました。"
+  }
+ ],
+ "words": [
+  {
+   "en": "delay",
+   "jp": "遅れ"
+  },
+  {
+   "en": "impact",
+   "jp": "影響"
+  },
+  {
+   "en": "workaround",
+   "jp": "回避策"
+  }
+ ],
+ "homework": {
+  "en": "Tell your boss: the report will be one day late.",
+  "jp": "「報告書が1日遅れる」と上司に伝えると?",
+  "hl": [
+   "late"
+  ],
+  "say": "最後に宿題です。報告書が1日遅れることを、上司に英語でどう伝えますか。今日の3ステップを使って、コメント欄に書いてみてください。"
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "beats": [
+    {
+     "id": "h01",
+     "kind": "jp",
+     "jp": "仕事で、悪い知らせを伝えなければならないとき。英語だと、つい後回しにしていませんか。",
+     "en": "When you have bad news, do you put it off, especially in English?",
+     "vis": {
+      "t": "vs",
+      "mid": "悪い知らせ",
+      "left": {
+       "en": "late & vague",
+       "label": "遅くて、あいまい",
+       "val": "信頼を失う",
+       "up": false,
+       "color": "red"
+      },
+      "right": {
+       "en": "early & clear",
+       "label": "早くて、具体的",
+       "val": "信頼が残る",
+       "up": true,
+       "color": "green"
+      }
+     }
+    },
+    {
+     "id": "h02",
+     "kind": "jp",
+     "jp": "今日は、悪い知らせを上手に伝える英語を、3つのステップで学びます。",
+     "en": "Today: three steps to deliver bad news well.",
+     "vis": {
+      "t": "hero_side",
+      "big": "3",
+      "color": "gold",
+      "text": "deliver bad news",
+      "jp": "悪い知らせを伝える"
+     }
+    },
+    {
+     "id": "h03",
+     "kind": "jp",
+     "jp": "今日はこのニュースから、会議で使える英語を3つ。最後に答え合わせをします。",
+     "en": "Three phrases for your next meeting. Answers at the end.",
+     "vis": {
+      "t": "teaser"
+     }
+    }
+   ]
+  },
+  {
+   "id": "news",
+   "chapter": "ニュースでは",
+   "beats": [
+    {
+     "id": "n01",
+     "kind": "jp",
+     "jp": "今週取り上げたインテルの決算が、ひとつの例です。イスラエルの工場が事故で止まり、次の四半期の売上が、およそ3億ドル減る見込みだと説明しました。",
+     "en": "Intel said a factory accident would cut about $300 million from next quarter's sales.",
+     "vis": {
+      "t": "cards",
+      "show": 3,
+      "footer": "悪い数字も、見通しの段階で具体的に",
+      "items": [
+       {
+        "name": "工場の事故",
+        "big": "約$300M",
+        "sub": "10〜12月の売上への影響",
+        "note": "イスラエルの工場",
+        "color": "red"
+       },
+       {
+        "name": "売上見通し",
+        "big": "$15〜16B",
+        "sub": "10〜12月",
+        "note": "市場の期待に届かず",
+        "color": "gold"
+       },
+       {
+        "name": "CFOの説明",
+        "big": "来年前半",
+        "sub": "までPCの減速が続く",
+        "note": "at least through",
+        "color": "blue"
+       }
+      ]
+     }
+    },
+    {
+     "id": "n02",
+     "kind": "jp",
+     "jp": "株価は大きく下がりましたが、悪い数字を、先に、具体的な金額で示したわけです。大事なのは、悪い知らせを、どう伝えるかです。",
+     "en": "Shares fell, but the bad numbers came early and with specific figures. What matters is how you deliver bad news.",
+     "vis": {
+      "t": "cards",
+      "show": 3,
+      "footer": "悪い数字も、見通しの段階で具体的に",
+      "items": [
+       {
+        "name": "工場の事故",
+        "big": "約$300M",
+        "sub": "10〜12月の売上への影響",
+        "note": "イスラエルの工場",
+        "color": "red"
+       },
+       {
+        "name": "売上見通し",
+        "big": "$15〜16B",
+        "sub": "10〜12月",
+        "note": "市場の期待に届かず",
+        "color": "gold"
+       },
+       {
+        "name": "CFOの説明",
+        "big": "来年前半",
+        "sub": "までPCの減速が続く",
+        "note": "at least through",
+        "color": "blue"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "s1",
+   "chapter": "ステップ1 早めに知らせる",
+   "beats": [
+    {
+     "id": "s11",
+     "kind": "jp",
+     "jp": "ステップ1は、早めに知らせることです。前もってお知らせしたくて、と切り出します。",
+     "en": "Step 1: tell them early. Start with 'I wanted to give you a heads-up.'",
+     "hl": [
+      "give you a heads-up"
+     ],
+     "star": true,
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "問題に気づく",
+        "mid": "すぐ連絡",
+        "res": "相手が準備できる",
+        "ok": true
+       },
+       {
+        "a": "問題に気づく",
+        "mid": "様子を見る",
+        "res": "あとで大きな問題に",
+        "ok": false
+       }
+      ]
+     }
+    },
+    {
+     "id": "s12",
+     "kind": "en_insert",
+     "jp": "遅れについて、前もってお知らせしておきたくて",
+     "en": "I wanted to give you a heads-up about a delay.",
+     "hl": [
+      "give you a heads-up"
+     ],
+     "star": true,
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "問題に気づく",
+        "mid": "すぐ連絡",
+        "res": "相手が準備できる",
+        "ok": true
+       },
+       {
+        "a": "問題に気づく",
+        "mid": "様子を見る",
+        "res": "あとで大きな問題に",
+        "ok": false
+       }
+      ]
+     }
+    },
+    {
+     "id": "s13",
+     "kind": "jp",
+     "jp": "ヘッズアップは、まだ確定していない段階でも使えます。相手に、心の準備をしてもらう一言です。",
+     "en": "You can use it even before things are final. It helps people prepare.",
+     "vis": {
+      "t": "statement",
+      "kicker": "HEADS-UP",
+      "text": "事前の連絡・予告",
+      "sub": "まだ確定していなくても使える"
+     }
+    },
+    {
+     "id": "s14",
+     "kind": "jp",
+     "jp": "メールでも同じです。件名の最初に、ヘッズアップ、と入れておくと、相手は、大事な連絡だとすぐに気づきます。",
+     "en": "In email too: put 'Heads-up' at the start of the subject line.",
+     "vis": {
+      "t": "statement",
+      "kicker": "EMAIL",
+      "text": "Heads-up: shipment delay",
+      "sub": "件名の最初に入れると、大事な連絡だと伝わる"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "chapter": "ステップ2 事実を伝える",
+   "beats": [
+    {
+     "id": "s21",
+     "kind": "jp",
+     "jp": "ステップ2は、クッションの一言のあとに、事実をはっきり伝えることです。申し訳ないのですが、はアイム・アフレイドです。",
+     "en": "Step 2: soften, then state the facts. Use 'I'm afraid.'",
+     "hl": [
+      "I'm afraid"
+     ],
+     "star": true,
+     "vis": {
+      "t": "vs",
+      "mid": "比べると",
+      "left": {
+       "en": "Sorry, sorry...",
+       "label": "謝りすぎ",
+       "val": "事実が伝わらない",
+       "up": false,
+       "color": "red"
+      },
+      "right": {
+       "en": "I'm afraid...",
+       "label": "クッション+事実",
+       "val": "はっきり伝わる",
+       "up": true,
+       "color": "green"
+      }
+     }
+    },
+    {
+     "id": "s22",
+     "kind": "en_insert",
+     "jp": "申し訳ないのですが、出荷が2日遅れます",
+     "en": "I'm afraid the shipment will be two days late.",
+     "hl": [
+      "I'm afraid"
+     ],
+     "star": true,
+     "vis": {
+      "t": "vs",
+      "mid": "比べると",
+      "left": {
+       "en": "Sorry, sorry...",
+       "label": "謝りすぎ",
+       "val": "事実が伝わらない",
+       "up": false,
+       "color": "red"
+      },
+      "right": {
+       "en": "I'm afraid...",
+       "label": "クッション+事実",
+       "val": "はっきり伝わる",
+       "up": true,
+       "color": "green"
+      }
+     }
+    },
+    {
+     "id": "s23",
+     "kind": "jp",
+     "jp": "何度も謝るより、何が、いつ、どれくらい、という数字を入れるほうが、相手は助かります。",
+     "en": "Numbers and dates help more than repeated apologies.",
+     "vis": {
+      "t": "statement",
+      "kicker": "TIP",
+      "text": "I'm afraid + 事実と数字",
+      "sub": "謝罪を重ねるより、何が・いつ・どれくらい"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "chapter": "ステップ3 対応策を示す",
+   "beats": [
+    {
+     "id": "s31",
+     "kind": "jp",
+     "jp": "ステップ3は、対応策を示すことです。対応策はこちらです、と言って、次の一手を伝えます。",
+     "en": "Step 3: show the fix. Say 'Here's what we're doing about it.'",
+     "hl": [
+      "Here's what we're doing about it"
+     ],
+     "star": true,
+     "vis": {
+      "t": "points",
+      "show": 3,
+      "items": [
+       {
+        "head": "何が",
+        "big": "出荷が\n2日遅れ",
+        "sub": "事実と数字",
+        "color": "red"
+       },
+       {
+        "head": "なぜ",
+        "big": "部品の\n不足",
+        "sub": "短い理由",
+        "color": "gold"
+       },
+       {
+        "head": "どうする",
+        "big": "ラインを\n追加",
+        "sub": "次の一手",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "s32",
+     "kind": "en_insert",
+     "jp": "対応策ですが、2本目のラインを追加しました",
+     "en": "Here's what we're doing about it: we've added a second line.",
+     "hl": [
+      "Here's what we're doing about it"
+     ],
+     "star": true,
+     "vis": {
+      "t": "points",
+      "show": 3,
+      "items": [
+       {
+        "head": "何が",
+        "big": "出荷が\n2日遅れ",
+        "sub": "事実と数字",
+        "color": "red"
+       },
+       {
+        "head": "なぜ",
+        "big": "部品の\n不足",
+        "sub": "短い理由",
+        "color": "gold"
+       },
+       {
+        "head": "どうする",
+        "big": "ラインを\n追加",
+        "sub": "次の一手",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "s32b",
+     "kind": "jp",
+     "jp": "対応策がまだ決まっていないときは、次にいつ連絡するかを伝えるだけでも、相手は安心します。たとえば、金曜までに改めてご連絡します、です。",
+     "en": "No fix yet? Say when you'll update them: I'll update you by Friday.",
+     "vis": {
+      "t": "statement",
+      "kicker": "NO FIX YET?",
+      "text": "I'll update you by Friday.",
+      "sub": "対応策が未定なら、次の連絡の期限を伝える"
+     }
+    },
+    {
+     "id": "s33",
+     "kind": "jp",
+     "jp": "知らせる、事実を伝える、対応策を示す。この順番で話せば、悪い知らせでも、相手との信頼は残ります。",
+     "en": "Heads-up, facts, then the fix. In that order, trust survives bad news.",
+     "vis": {
+      "t": "timeline",
+      "show": 3,
+      "items": [
+       {
+        "when": "1",
+        "text": "I wanted to give you a heads-up.",
+        "color": "gold"
+       },
+       {
+        "when": "2",
+        "text": "I'm afraid ... (事実と数字)",
+        "color": "red"
+       },
+       {
+        "when": "3",
+        "text": "Here's what we're doing about it.",
+        "color": "green"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "meaning",
+   "chapter": "日本の職場では",
+   "beats": [
+    {
+     "id": "m01",
+     "kind": "jp",
+     "jp": "日本の職場では、悪い知らせは、確定してから伝える、という考え方もあります。海外の相手は、未確定でも、早めに知りたいと考えることが多いようです。",
+     "en": "In Japan, people often wait until bad news is final. Overseas partners usually want to hear early.",
+     "vis": {
+      "t": "statement",
+      "kicker": "SO WHAT?",
+      "text": "未確定でも、早めに伝える",
+      "sub": "海外の相手は「早く知りたい」"
+     }
+    },
+    {
+     "id": "m02",
+     "kind": "jp",
+     "jp": "ただ、早すぎる連絡で、相手を混乱させないことも大切です。わかっていることと、まだわからないことを、分けて伝えましょう。",
+     "en": "But don't confuse people. Separate what you know from what you don't know yet.",
+     "vis": {
+      "t": "statement",
+      "kicker": "BUT",
+      "text": "わかっていること / まだわからないこと",
+      "sub": "分けて伝えれば、早い連絡も混乱しない"
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "「前もってお知らせします」は英語で?give you a heads-upの使い方|悪い知らせを伝える【ビジネス英語ニュース #22】",
+  "summary": "納期の遅れや、目標に届かない数字など、悪い知らせを英語で伝えるための3ステップを学びます。工場の事故の影響を見通しに入れて発表したインテルの例をきっかけに、早めに知らせる、事実を伝える、対応策を示す、の順で練習します。",
+  "tags": [
+   "ビジネス英語",
+   "英語学習",
+   "会議 英語",
+   "英語 メール",
+   "悪い知らせ 英語",
+   "納期 遅れ 英語",
+   "heads-up",
+   "I'm afraid",
+   "報連相 英語",
+   "教養",
+   "社会人 英語",
+   "business English"
+  ]
+ },
+ "thumbnail": {
+  "big": "悪い知らせ",
+  "big_color": "red",
+  "under": "上手に伝える",
+  "badge": "会議とメールの英語",
+  "badge_color": "gold",
+  "question": "どう言う?",
+  "pill": "give you a heads-up",
+  "bottom": "会議で使える英語3つ"
+ },
+ "shorts": [
+  {
+   "phrase": 0,
+   "hook": [
+    "「前もって",
+    "お知らせします」"
+   ],
+   "news_hook": [
+    "悪い知らせを",
+    "上手に伝える"
+   ],
+   "ctx": "悪い知らせを早めに伝えるときの最初の一言",
+   "title": "「前もってお知らせします」は英語で?悪い知らせを伝える最初の一言 #ビジネス英語 #shorts",
+   "ig_caption": "「前もってお知らせしておきます」を英語で言えますか?\n\n✅ give you a heads-up\n前もってお知らせする\n\n例文:I wanted to give you a heads-up about a delay.\n(遅れについて、前もってお知らせしておきたくて。)\n\n納期の遅れなど、悪い知らせを早めに伝えるときの最初の一言です。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  },
+  {
+   "phrase": 2,
+   "hook": [
+    "「対応策は",
+    "こちらです」"
+   ],
+   "news_hook": [
+    "謝って終わり",
+    "にしない英語"
+   ],
+   "ctx": "悪い知らせのあとに、次の一手を示す一言",
+   "title": "「対応策はこちらです」は英語で?悪い知らせを信頼に変える一言 #ビジネス英語 #shorts",
+   "ig_caption": "「対応策はこちらです」を英語で言えますか?\n\n✅ here's what we're doing about it\n対応策はこちらです\n\n例文:Here's what we're doing about it: we've added a second line.\n(対応策ですが、2本目のラインを追加しました。)\n\n謝って終わりにせず、次の一手を示すと、悪い知らせでも信頼が残ります。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Yahoo Finance「Intel Sinks 29% as Weak Outlook Shows It's \"Still PC Dependent\"」",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/intel-sinks-29-weak-outlook-133944045.html"
+  },
+  {
+   "title": "Intel「Intel Reports Third-Quarter 2026 Financial Results」(2026年10月29日)",
+   "url": "https://www.intc.com/news-events/press-releases/detail/1786/intel-reports-third-quarter-2026-financial-results"
+  }
+ ],
+ "readings": []
+}

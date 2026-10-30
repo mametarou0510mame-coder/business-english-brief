@@ -1,0 +1,699 @@
+{
+ "id": "2026-11-04-oracle-ai-chips",
+ "episode": "#18",
+ "date": "2026-10-27",
+ "series": "テックとAI",
+ "title_card": {
+  "line1": "AIの半導体、1社に頼らない。",
+  "line2": "オラクルの「選べるクラウド」戦略"
+ },
+ "publish": {
+  "long": "2026-11-04T07:00:00+09:00",
+  "shorts": [
+   "2026-11-04T12:00:00+09:00",
+   "2026-11-04T21:00:00+09:00"
+  ]
+ },
+ "phrases": [
+  {
+   "en": "rely on a single supplier",
+   "jp": "1社の仕入れ先に頼る",
+   "ex": "We shouldn't rely on a single supplier for this part.",
+   "ex_jp": "この部品は、1社の仕入れ先に頼るべきではありません。"
+  },
+  {
+   "en": "keep our options open",
+   "jp": "選択肢を残しておく",
+   "ex": "Let's keep our options open until the pilot ends.",
+   "ex_jp": "試験導入が終わるまで、選択肢を残しておきましょう。"
+  },
+  {
+   "en": "bargaining power",
+   "jp": "交渉力",
+   "ex": "A second vendor gives us more bargaining power.",
+   "ex_jp": "2社目の取引先があれば、交渉力が高まります。"
+  }
+ ],
+ "words": [
+  {
+   "en": "inference",
+   "jp": "推論(AIが答えを出す処理)"
+  },
+  {
+   "en": "vendor",
+   "jp": "売り手・取引先"
+  },
+  {
+   "en": "capital spending",
+   "jp": "設備投資"
+  }
+ ],
+ "homework": {
+  "en": "What decision should your team keep options open on?",
+  "jp": "選択肢を残しておくべき決定は?",
+  "hl": [
+   "keep options open"
+  ],
+  "say": "最後に宿題です。あなたのチームで、まだ選択肢を残しておくべき決定は何ですか。英語で、コメント欄に書いてみてください。"
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "beats": [
+    {
+     "id": "h01",
+     "kind": "jp",
+     "jp": "アメリカのオラクルが、AIの半導体を、エヌビディアだけでなく、いくつもの会社から調達して、お客様に提供すると発表しました。",
+     "en": "Oracle will offer AI chips from several makers, not just Nvidia.",
+     "vis": {
+      "t": "network",
+      "title": "オラクルのクラウドで選べるAI半導体",
+      "center": {
+       "label": "Oracle",
+       "sub": "OCI(クラウド)"
+      },
+      "nodes": [
+       {
+        "label": "Nvidia",
+        "color": "green"
+       },
+       {
+        "label": "Google TPU",
+        "color": "gold"
+       },
+       {
+        "label": "Cerebras",
+        "color": "blue"
+       },
+       {
+        "label": "SambaNova",
+        "color": "blue"
+       },
+       {
+        "label": "Positron",
+        "color": "blue"
+       },
+       {
+        "label": "OpenAI",
+        "color": "gold"
+       }
+      ],
+      "inward": true
+     }
+    },
+    {
+     "id": "h02",
+     "kind": "jp",
+     "jp": "キーワードは、1社に頼らず、選択肢を残しておくことです。",
+     "en": "The key idea: don't rely on one supplier. Keep your options open.",
+     "hl": [
+      "keep our options open"
+     ],
+     "vis": {
+      "t": "hero_side",
+      "big": "6社",
+      "color": "gold",
+      "text": "keep our options open",
+      "jp": "選択肢を残しておく"
+     }
+    },
+    {
+     "id": "h03",
+     "kind": "jp",
+     "jp": "今日はこのニュースから、会議で使える英語を3つ。最後に答え合わせをします。",
+     "en": "Three phrases for your next meeting. Answers at the end.",
+     "vis": {
+      "t": "teaser"
+     }
+    }
+   ]
+  },
+  {
+   "id": "what",
+   "chapter": "何が起きたか",
+   "beats": [
+    {
+     "id": "n01",
+     "kind": "jp",
+     "jp": "オラクルは10月27日、ラスベガスで開いたイベントで、エヌビディアとの提携を広げると発表しました。最新のシステムを、数ギガワットという大きな規模で導入します。",
+     "en": "On October 27, Oracle expanded its Nvidia deal to multi-gigawatt scale.",
+     "vis": {
+      "t": "cards",
+      "footer": "オラクルのクラウドに加わるAI半導体",
+      "items": [
+       {
+        "name": "Nvidia",
+        "big": "Vera Rubin",
+        "sub": "数ギガワット規模へ",
+        "note": "提供開始",
+        "color": "green"
+       },
+       {
+        "name": "Google",
+        "big": "TPU",
+        "sub": "2027年から",
+        "note": "グーグル以外で初",
+        "color": "gold"
+       },
+       {
+        "name": "新興メーカー",
+        "big": "推論向け",
+        "sub": "Cerebrasは2027年から",
+        "note": "SambaNova・Positronも",
+        "color": "blue"
+       }
+      ],
+      "show": 1
+     }
+    },
+    {
+     "id": "n02",
+     "kind": "jp",
+     "jp": "同時に、グーグルが開発したAI半導体、TPUを、2027年から提供します。グーグル以外の大手クラウドでは、初めてだとしています。",
+     "en": "It will also offer Google's TPUs from 2027, a first outside Google's cloud, Oracle says.",
+     "vis": {
+      "t": "cards",
+      "footer": "オラクルのクラウドに加わるAI半導体",
+      "items": [
+       {
+        "name": "Nvidia",
+        "big": "Vera Rubin",
+        "sub": "数ギガワット規模へ",
+        "note": "提供開始",
+        "color": "green"
+       },
+       {
+        "name": "Google",
+        "big": "TPU",
+        "sub": "2027年から",
+        "note": "グーグル以外で初",
+        "color": "gold"
+       },
+       {
+        "name": "新興メーカー",
+        "big": "推論向け",
+        "sub": "Cerebrasは2027年から",
+        "note": "SambaNova・Positronも",
+        "color": "blue"
+       }
+      ],
+      "show": 2
+     }
+    },
+    {
+     "id": "n03",
+     "kind": "jp",
+     "jp": "さらに、セレブラスや、サンバノバといった、新しいメーカーの半導体も加えます。",
+     "en": "Chips from newer players like Cerebras and SambaNova are coming too.",
+     "vis": {
+      "t": "cards",
+      "footer": "オラクルのクラウドに加わるAI半導体",
+      "items": [
+       {
+        "name": "Nvidia",
+        "big": "Vera Rubin",
+        "sub": "数ギガワット規模へ",
+        "note": "提供開始",
+        "color": "green"
+       },
+       {
+        "name": "Google",
+        "big": "TPU",
+        "sub": "2027年から",
+        "note": "グーグル以外で初",
+        "color": "gold"
+       },
+       {
+        "name": "新興メーカー",
+        "big": "推論向け",
+        "sub": "Cerebrasは2027年から",
+        "note": "SambaNova・Positronも",
+        "color": "blue"
+       }
+      ],
+      "show": 3
+     }
+    },
+    {
+     "id": "n04",
+     "kind": "jp",
+     "jp": "オラクルは、2027年度の設備投資を、およそ900億から950億ドルと、改めて示しています。それだけ大きな買い物だということです。",
+     "en": "Oracle reiterated capital spending of about $90 to $95 billion for fiscal 2027.",
+     "vis": {
+      "t": "counter",
+      "kicker": "CAPEX FY2027",
+      "big": "$90〜95B",
+      "color": "gold",
+      "sub": "オラクルの設備投資の計画",
+      "note": "≈ 14兆〜15兆円(1ドル157円換算)"
+     }
+    },
+    {
+     "id": "n05",
+     "kind": "jp",
+     "jp": "また、一部のシステムでは、データをやり取りするネットワークの部分に、エヌビディアではなく、自社の技術を使います。",
+     "en": "In some Nvidia-based systems, Oracle uses its own networking instead of Nvidia's.",
+     "vis": {
+      "t": "statement",
+      "kicker": "NETWORKING",
+      "text": "ネットワークは自社の技術で",
+      "sub": "利益を自分の側に寄せる狙いも(Finimizeの分析)"
+     }
+    }
+   ]
+  },
+  {
+   "id": "why",
+   "chapter": "なぜ1社に頼らないのか",
+   "beats": [
+    {
+     "id": "y01",
+     "kind": "jp",
+     "jp": "なぜ、1社の仕入れ先に頼らないのか。理由は、大きく2つあります。",
+     "en": "Why not rely on a single supplier? There are two main reasons.",
+     "hl": [
+      "rely on a single supplier"
+     ],
+     "star": true,
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "1社だけに頼る",
+        "mid": "依存",
+        "res": "値段も納期も相手次第",
+        "ok": false
+       },
+       {
+        "a": "複数の会社から選ぶ",
+        "mid": "比較",
+        "res": "速さとコストで選べる",
+        "ok": true
+       }
+      ]
+     }
+    },
+    {
+     "id": "y02",
+     "kind": "en_insert",
+     "jp": "1社の仕入れ先に頼る",
+     "en": "rely on a single supplier",
+     "hl": [
+      "rely on a single supplier"
+     ],
+     "star": true,
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "1社だけに頼る",
+        "mid": "依存",
+        "res": "値段も納期も相手次第",
+        "ok": false
+       },
+       {
+        "a": "複数の会社から選ぶ",
+        "mid": "比較",
+        "res": "速さとコストで選べる",
+        "ok": true
+       }
+      ]
+     }
+    },
+    {
+     "id": "y03",
+     "kind": "jp",
+     "jp": "1つ目は、比べられることです。AIが答えを出す、推論という処理は、半導体を乗り換えやすく、お客様が速さとコストで選べます。",
+     "en": "First, comparison. Inference is easier to move between chips, so customers can choose on speed and cost.",
+     "hl": [
+      "inference"
+     ],
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "1社だけに頼る",
+        "mid": "依存",
+        "res": "値段も納期も相手次第",
+        "ok": false
+       },
+       {
+        "a": "複数の会社から選ぶ",
+        "mid": "比較",
+        "res": "速さとコストで選べる",
+        "ok": true
+       }
+      ]
+     }
+    },
+    {
+     "id": "y04",
+     "kind": "jp",
+     "jp": "2つ目は、交渉力です。代わりがあれば、1社だけが高い値段をつけることは、難しくなります。",
+     "en": "Second, bargaining power. With substitutes, no single vendor can charge a big premium.",
+     "hl": [
+      "bargaining power"
+     ],
+     "star": true,
+     "vis": {
+      "t": "vs",
+      "mid": "比べると",
+      "left": {
+       "en": "one vendor",
+       "label": "1社だけ",
+       "val": "交渉力 弱",
+       "up": false,
+       "color": "red"
+      },
+      "right": {
+       "en": "many vendors",
+       "label": "複数の会社",
+       "val": "交渉力 強",
+       "up": true,
+       "color": "green"
+      }
+     }
+    },
+    {
+     "id": "y05",
+     "kind": "en_insert",
+     "jp": "2社目の取引先がいれば、交渉力が高まる",
+     "en": "A second vendor gives us more bargaining power.",
+     "hl": [
+      "bargaining power"
+     ],
+     "star": true,
+     "vis": {
+      "t": "vs",
+      "mid": "比べると",
+      "left": {
+       "en": "one vendor",
+       "label": "1社だけ",
+       "val": "交渉力 弱",
+       "up": false,
+       "color": "red"
+      },
+      "right": {
+       "en": "many vendors",
+       "label": "複数の会社",
+       "val": "交渉力 強",
+       "up": true,
+       "color": "green"
+      }
+     }
+    },
+    {
+     "id": "y06",
+     "kind": "jp",
+     "jp": "調査会社のアナリストは、オラクルは、だれにでも合うものがある、開かれた半導体のクラウドを目指している、と評価しています。",
+     "en": "An analyst said Oracle wants to be an open chip cloud with something for everybody.",
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "This is Oracle trying to be",
+       "the open silicon cloud –",
+       "something for everybody"
+      ],
+      "hl": [
+       "something for everybody"
+      ],
+      "by": "Matt Kimball, Moor Insights & Strategy(Data Center Knowledgeの報道より)"
+     }
+    },
+    {
+     "id": "y07",
+     "kind": "jp",
+     "jp": "売る側のグーグルにとっても、自社で使うだけでなく、外に提供するほうが価値が高い、という見方があります。",
+     "en": "Another analyst said Google gains more by offering its chips than by keeping them in-house.",
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "There's higher value",
+       "in making it available",
+       "than using it all internally"
+      ],
+      "hl": [
+       "higher value"
+      ],
+      "by": "Brendan Burke, Futurum Group(Data Center Knowledgeの報道より)"
+     }
+    }
+   ]
+  },
+  {
+   "id": "insight",
+   "chapter": "私たちへの意味",
+   "beats": [
+    {
+     "id": "i01",
+     "kind": "jp",
+     "jp": "ここからは、日本で働く私たちにとっての意味を考えます。",
+     "en": "What does this mean for those of us working in Japan?",
+     "vis": {
+      "t": "statement",
+      "kicker": "SO WHAT?",
+      "text": "日本で働く私たちにとっての意味"
+     }
+    },
+    {
+     "id": "i02",
+     "kind": "jp",
+     "jp": "読み取れるのは、AIの世界でも、選べること自体が、価値になってきたということです。",
+     "en": "Even in AI, the ability to choose is becoming a selling point.",
+     "vis": {
+      "t": "points",
+      "show": 1,
+      "items": [
+       {
+        "head": "読み取れること",
+        "big": "選べることが\n価値になる",
+        "sub": "クラウドも\n仕入れ先を分散",
+        "color": "gold"
+       },
+       {
+        "head": "逆の見方",
+        "big": "管理が\n複雑に",
+        "sub": "性能と提供時期が\n本当の評価を決める",
+        "color": "blue"
+       },
+       {
+        "head": "日本の現場",
+        "big": "1社依存を\n見直す",
+        "sub": "取引先の会議で\n英語で提案する",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i03",
+     "kind": "jp",
+     "jp": "一方で、逆の見方もあります。種類が増えるほど、管理の手間は増えます。実際の性能や、本当に使える時期が、評価を決めます。",
+     "en": "But more chip types mean more complexity. Real performance and timing will decide.",
+     "vis": {
+      "t": "points",
+      "show": 2,
+      "items": [
+       {
+        "head": "読み取れること",
+        "big": "選べることが\n価値になる",
+        "sub": "クラウドも\n仕入れ先を分散",
+        "color": "gold"
+       },
+       {
+        "head": "逆の見方",
+        "big": "管理が\n複雑に",
+        "sub": "性能と提供時期が\n本当の評価を決める",
+        "color": "blue"
+       },
+       {
+        "head": "日本の現場",
+        "big": "1社依存を\n見直す",
+        "sub": "取引先の会議で\n英語で提案する",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i04",
+     "kind": "jp",
+     "jp": "日本の製造業でも、数年前の半導体不足で、1社に頼る怖さを経験した会社は多いのではないでしょうか。",
+     "en": "Many Japanese manufacturers felt the risk of single sourcing during the chip shortage.",
+     "vis": {
+      "t": "points",
+      "show": 3,
+      "items": [
+       {
+        "head": "読み取れること",
+        "big": "選べることが\n価値になる",
+        "sub": "クラウドも\n仕入れ先を分散",
+        "color": "gold"
+       },
+       {
+        "head": "逆の見方",
+        "big": "管理が\n複雑に",
+        "sub": "性能と提供時期が\n本当の評価を決める",
+        "color": "blue"
+       },
+       {
+        "head": "日本の現場",
+        "big": "1社依存を\n見直す",
+        "sub": "取引先の会議で\n英語で提案する",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i05",
+     "kind": "jp",
+     "jp": "取引先を決める会議では、すぐに1社に絞らず、選択肢を残しておきましょう、と英語で提案してみてください。",
+     "en": "In vendor meetings, suggest: let's keep our options open.",
+     "hl": [
+      "keep our options open"
+     ],
+     "star": true,
+     "vis": {
+      "t": "points",
+      "show": 3,
+      "items": [
+       {
+        "head": "読み取れること",
+        "big": "選べることが\n価値になる",
+        "sub": "クラウドも\n仕入れ先を分散",
+        "color": "gold"
+       },
+       {
+        "head": "逆の見方",
+        "big": "管理が\n複雑に",
+        "sub": "性能と提供時期が\n本当の評価を決める",
+        "color": "blue"
+       },
+       {
+        "head": "日本の現場",
+        "big": "1社依存を\n見直す",
+        "sub": "取引先の会議で\n英語で提案する",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i06",
+     "kind": "en_insert",
+     "jp": "試験導入が終わるまで、選択肢を残しておこう",
+     "en": "Let's keep our options open until the pilot ends.",
+     "hl": [
+      "keep our options open"
+     ],
+     "star": true,
+     "vis": {
+      "t": "points",
+      "show": 3,
+      "items": [
+       {
+        "head": "読み取れること",
+        "big": "選べることが\n価値になる",
+        "sub": "クラウドも\n仕入れ先を分散",
+        "color": "gold"
+       },
+       {
+        "head": "逆の見方",
+        "big": "管理が\n複雑に",
+        "sub": "性能と提供時期が\n本当の評価を決める",
+        "color": "blue"
+       },
+       {
+        "head": "日本の現場",
+        "big": "1社依存を\n見直す",
+        "sub": "取引先の会議で\n英語で提案する",
+        "color": "green"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "「選択肢を残しておく」は英語で?keep our options openの使い方|オラクルがAI半導体を分散【ビジネス英語ニュース #18】",
+  "summary": "オラクルは2026年10月27日、エヌビディアとの提携拡大に加えて、グーグルのTPUやセレブラスなど複数のAI半導体をクラウドで提供すると発表しました。1社に頼らない戦略の狙いを日本語で解説し、取引先選びの会議で使える英語を身につけます。",
+  "tags": [
+   "ビジネス英語",
+   "英語学習",
+   "ニュース英語",
+   "時事英語",
+   "会議 英語",
+   "オラクル",
+   "Oracle",
+   "エヌビディア",
+   "AI 半導体",
+   "クラウド",
+   "調達",
+   "教養",
+   "社会人 英語",
+   "business English"
+  ]
+ },
+ "thumbnail": {
+  "big": "6社から",
+  "big_color": "gold",
+  "under": "AI半導体を調達",
+  "badge": "オラクルの戦略",
+  "badge_color": "gold",
+  "question": "1社に頼らない?",
+  "pill": "keep our options open",
+  "bottom": "会議で使える英語3つ"
+ },
+ "shorts": [
+  {
+   "phrase": 1,
+   "hook": [
+    "「選択肢を",
+    "残しておこう」"
+   ],
+   "news_hook": [
+    "オラクルが",
+    "AI半導体を分散"
+   ],
+   "ctx": "取引先や方針を、すぐに1つに決めないときの一言",
+   "title": "「選択肢を残しておこう」は英語で?オラクルのAI半導体戦略 #ビジネス英語 #shorts",
+   "ig_caption": "「選択肢を残しておく」を英語で言えますか?\n\n✅ keep our options open\n選択肢を残しておく\n\n例文:Let's keep our options open until the pilot ends.\n(試験導入が終わるまで、選択肢を残しておきましょう。)\n\nオラクルは、AIの半導体を1社に決めず、複数の会社から選べるようにしました。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  },
+  {
+   "phrase": 2,
+   "hook": [
+    "「交渉力が高まる」",
+    "英語で言える?"
+   ],
+   "news_hook": [
+    "1社に頼らない",
+    "AIクラウド"
+   ],
+   "ctx": "仕入れ先を増やすメリットを説明するときの表現",
+   "title": "「交渉力」は英語で?仕入れ先を増やす理由を説明する一言 #ビジネス英語 #shorts",
+   "ig_caption": "「交渉力」を英語で言えますか?\n\n✅ bargaining power\n交渉力\n\n例文:A second vendor gives us more bargaining power.\n(2社目の取引先があれば、交渉力が高まります。)\n\n代わりの取引先があれば、1社だけが高い値段をつけにくくなります。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Data Center Knowledge「Oracle Cloud to Offer Google TPUs and New AI Chips」(2026年10月28日)",
+   "url": "https://datacenterknowledge.com/data-center-chips/oracle-cloud-to-offer-google-tpus-and-new-ai-chips"
+  },
+  {
+   "title": "Finimize「Oracle scales up Nvidia AI servers but adds rivals too」",
+   "url": "https://finimize.com/content/oracle-scales-up-nvidia-ai-servers-but-adds-rivals-too"
+  },
+  {
+   "title": "InformationWeek「The week of Oct. 26-30: What happened, what matters, what's next」",
+   "url": "https://www.informationweek.com/it-infrastructure/the-week-of-oct-26-30-what-happened-what-matters-what-s-next"
+  }
+ ],
+ "readings": [
+  [
+   "Nvidia",
+   "エヌビディア"
+  ]
+ ]
+}
