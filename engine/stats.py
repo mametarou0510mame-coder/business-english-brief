@@ -42,6 +42,30 @@ def main():
                 pass
             out["youtube"].append(row)
             print(f"YT {kind:6} {row['views']:>6} views {row['likes']:>3} likes {row['privacy']} | {row['title']}")
+    # YouTube Analytics (needs the yt-analytics.readonly scope on the refresh token; skipped quietly without it)
+    try:
+        import urllib.parse as up
+        end = dt.date.today().isoformat()
+        q = {"ids": "channel==MINE", "startDate": "2026-10-20", "endDate": end, "dimensions": "video",
+             "metrics": "views,estimatedMinutesWatched,averageViewDuration,averageViewPercentage,subscribersGained",
+             "sort": "-views", "maxResults": "200"}
+        _, a_ = Y._req("GET", "https://youtubeanalytics.googleapis.com/v2/reports?" + up.urlencode(q), headers=H)
+        cols = [c["name"] for c in a_.get("columnHeaders", [])]
+        by = {r[0]: dict(zip(cols, r)) for r in a_.get("rows", [])}
+        for row in out["youtube"]:
+            if row["id"] in by:
+                row["analytics"] = by[row["id"]]
+        q2 = dict(q, dimensions="insightTrafficSourceType", metrics="views", sort="-views")
+        q2.pop("maxResults")
+        _, t_ = Y._req("GET", "https://youtubeanalytics.googleapis.com/v2/reports?" + up.urlencode(q2), headers=H)
+        out["traffic"] = t_.get("rows", [])
+        print("ANALYTICS traffic:", out["traffic"])
+        for row in sorted(out["youtube"], key=lambda r: -r["views"])[:10]:
+            an = row.get("analytics")
+            if an:
+                print(f"ANALYTICS {row['kind']:6} view%={an.get('averageViewPercentage')} avgSec={an.get('averageViewDuration')} subs+={an.get('subscribersGained')} | {row['title'][:40]}")
+    except Exception as e:
+        print("ANALYTICS unavailable:", str(e)[:160])
     import statistics as stt
     pub = [r for r in out["youtube"] if r["privacy"] == "public"]
     for label, f in (("long", lambda r: r["kind"] == "long"), ("short/news", lambda r: r.get("style") == "news"),
