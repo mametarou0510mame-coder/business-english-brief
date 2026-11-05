@@ -10,7 +10,7 @@
   python engine/build.py sync-titles                 push changed episode titles to uploaded long videos
   python engine/build.py check                       show which YouTube channel / IG account the secrets belong to
 """
-import json, os, sys, math, shutil, time, datetime as dt
+import json, re, os, sys, math, shutil, time, datetime as dt
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, "engine"))
@@ -351,6 +351,62 @@ def sync_titles():
             print("::warning::retitle failed for", ep["id"], str(e)[:200])
 
 
+def compile_week(day, slug="weekly-listening"):
+    """Draft the Saturday 'listening' long video: every phrase of the 6 episodes published before `day`, reviewed
+    back to back (EN → pause → JP → example). Claude then polishes titles/hook before pushing."""
+    d0 = dt.date.fromisoformat(day)
+    src = []
+    root = os.path.join(ROOT, "episodes")
+    for name in sorted(os.listdir(root)):
+        p = os.path.join(root, name, "episode.json")
+        if not os.path.exists(p):
+            continue
+        ep = jload(p, {})
+        try:
+            pd_ = dt.date.fromisoformat(ep["publish"]["long"][:10])
+        except Exception:
+            continue
+        if d0 - dt.timedelta(days=6) <= pd_ < d0 and ep.get("series") != "今週の英単語 総復習":
+            src.append(ep)
+    phrases, words, seen = [], [], set()
+    for ep in src:
+        for ph in ep["phrases"]:
+            if ph["en"].lower() not in seen:
+                seen.add(ph["en"].lower())
+                phrases.append(dict(ph, src=ep["episode"]))
+        words += ep.get("words", [])[:1]
+    n = len(phrases)
+    num = max(int(re.sub(r"\D", "", e["episode"]) or 0) for e in src) + 1 if src else 0
+    J = lambda i, jp, en, vis, **k: dict({"id": i, "kind": "jp", "jp": jp, "en": en, "vis": vis}, **k)
+    ep = {
+        "id": f"{day}-{slug}", "episode": f"#{num:02d}", "date": day, "series": "今週の英単語 総復習",
+        "title_card": {"line1": f"今週の会議英語{n}フレーズ", "line2": "聞き流しで、まとめて復習"},
+        "phrases": phrases, "words": words[:3],
+        "homework": {"en": "Which phrase will you use first?", "jp": "最初に使うフレーズはどれ?", "hl": ["use first"],
+                     "say": "最後に宿題です。今週のフレーズの中で、最初に使ってみたいものはどれですか。コメント欄に書いてみてください。"},
+        "scenes": [{"id": "hook", "beats": [
+            J("h01", f"今週のニュースで学んだ、会議で使える英語{n}フレーズを、まとめて復習します。", f"Let's review this week's {n} meeting phrases.",
+              {"t": "hero", "kicker": "weekly listening", "big": f"{n}フレーズ", "color": "gold", "sub": "今週の会議英語をまとめて復習", "sub_color": "text"}),
+            J("h02", "英語のあとに少し間があるので、意味を思い出してから、答えを聞いてください。作業しながらの聞き流しにもどうぞ。",
+              "There's a pause after each phrase. Recall the meaning, then hear the answer.",
+              {"t": "points", "show": 3, "items": [
+                  {"head": "STEP", "big": "英語を聞く", "sub": "フレーズと例文", "color": "blue"},
+                  {"head": "STEP", "big": "思い出す", "sub": "意味を考える間", "color": "gold"},
+                  {"head": "STEP", "big": "答え合わせ", "sub": "日本語の意味", "color": "green"}]})]}],
+        "youtube": {"title": f"【聞き流し】会議で使えるビジネス英語{n}フレーズ|今週のニュースから【ビジネス英語ニュース #{num:02d}】",
+                    "summary": f"今週のニュース動画で学んだ、会議やメールで使えるビジネス英語{n}フレーズを、英語→間→日本語→例文の順でまとめて復習します。作業中の聞き流しにも使えます。",
+                    "tags": ["聞き流し", "ビジネス英語 フレーズ", "会議 英語", "英語 リスニング", "まとめ"]},
+        "thumbnail": {"big": f"{n}", "big_color": "gold", "under": "会議の英語フレーズ", "badge": "聞き流し", "badge_color": "gold",
+                      "question": "今週のまとめ", "pill": "weekly review", "bottom": "ニュースで覚えるビジネス英語"},
+        "shorts": [], "sources": [s_ for e in src for s_ in e.get("sources", [])][:12],
+        "publish": {"long": f"{day}T07:00:00+09:00", "shorts": []},
+    }
+    out = os.path.join(root, ep["id"])
+    os.makedirs(out, exist_ok=True)
+    jsave(os.path.join(out, "episode.json"), ep)
+    print(f"drafted {ep['id']}: {n} phrases from {[e['episode'] for e in src]} — add 2 shorts (style quiz) and polish before pushing")
+
+
 def media_sync(dst):
     """Copy new shorts into the checked-out `media` branch and drop ones already posted."""
     q = jload(QUEUE, [])
@@ -413,6 +469,8 @@ if __name__ == "__main__":
         pending()
     elif cmd == "ig-due":
         ig_due(dry)
+    elif cmd == "compile-week":
+        compile_week(sys.argv[2])
     elif cmd == "carousels":
         carousels()
     elif cmd == "sync-titles":

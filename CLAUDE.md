@@ -17,6 +17,10 @@ Format spec: `docs/FORMAT.md`. Engine: `engine/`. State: `state/published.json`,
 
 ## Weekly production task (run on Saturday)
 
+0. **PDCA first.** Read `docs/PDCA.md` and `stats/latest.json` (the Stats workflow commits it every Saturday 04:30 JST;
+   if it is older than a day, dispatch `stats.yml` and wait). Fill in the "Check" of the running cycle with the real numbers
+   (compare only videos ≥3 days old), decide keep/stop/change for each hypothesis, and when a cycle ends write the next
+   cycle (≤4 hypotheses, each with one change, one metric, one target). Apply the decisions to this week's episodes.
 1. Look at the latest episode number in `episodes/` and continue from it.
 2. Research the past week's business news with WebSearch (and WebFetch only on URLs returned by search).
    Open every page you take a number or quote from, and list it in `sources`.
@@ -33,6 +37,11 @@ Format spec: `docs/FORMAT.md`. Engine: `engine/`. State: `state/published.json`,
    | Sun | 場面別の英語 | evergreen: a meeting/email situation (disagreeing politely, asking for deadlines…) tied to a recent story |
 
    Prefer stories that stay relevant for a week (structural moves, not hour-by-hour market moves).
+   **Reach rule (PDCA H1):** choose stories Japanese viewers already know or care about — famous consumer brands
+   (Apple, Amazon, Nintendo, Toyota, Uniqlo, Starbucks…), Japanese companies or the Japanese economy, or the week's biggest
+   headline in Japanese media (check Japanese news rankings). Avoid obscure B2B names unless the angle is famous.
+   **Saturday** is the listening compilation: run `python engine/build.py compile-week <saturday-date>`, then polish the
+   draft (hook, title, 2 quiz shorts on the most useful phrases) instead of writing a 3-phrase review.
 4. Write each episode per `docs/FORMAT.md`. Quality rules:
    - Facts only from sources you opened. No speculation stated as fact; attribute forecasts ("〜と予測しています").
    - `en` subtitles are your own English, not copied article text. Quote executives only briefly and attribute them.
@@ -42,6 +51,8 @@ Format spec: `docs/FORMAT.md`. Engine: `engine/`. State: `state/published.json`,
    - Phrases must be genuinely useful in meetings/email, at B1–B2 level, and each example sentence must be a realistic Japanese workplace line.
    - Long video title: search-first pattern `「<phrase jp>」は英語で?<phrase en>の使い方|<news ≤20 chars>【ビジネス英語ニュース #NN】`.
    - Each episode also becomes a 5-slide Instagram carousel automatically (engine/carousel.py); keep phrases/examples short enough to fit.
+   - Shorts (PDCA H2 A/B): `shorts[0]` is news-first (`style` omitted); `shorts[1]` is phrase-first with `"style": "quiz"`,
+     `"badge": "会議で使う英語|中級"` (level: 初級/中級/上級) and a short title `「<phrase en>」の意味、わかる?|会議の英語 #shorts`.
    - Shorts: `news_hook` is the 2-line headline shown on frame 0; `hook` is 2 short lines that make people want the answer; `ig_caption` follows the #01 style
      (question → ✅ phrase → meaning → example → one line of context → 📌 保存 → ▼ YouTube → 7 hashtags).
 5. Run `python engine/build.py validate episodes/<id>` for each and **look at** `out/preview_sheet.png` and `out/thumbnail.png`.
@@ -50,7 +61,8 @@ Format spec: `docs/FORMAT.md`. Engine: `engine/`. State: `state/published.json`,
    `Co-Authored-By: Claude <noreply@anthropic.com>` and `Claude-Session: <this session's URL>`.
 7. Watch the "Build & schedule" workflow run (`gh run list --workflow build.yml`, `gh run view <id> --log-failed`).
    If it fails, read the log, fix, push again (already-uploaded videos are skipped via `state/published.json`).
-8. Report to the owner with SendUserMessage in Japanese: the 7 titles with publish times and YouTube Studio links,
+8. Report to the owner with SendUserMessage in Japanese (always Japanese): a 3-line PDCA summary (what the numbers said,
+   what you changed), then the 7 titles with publish times and YouTube Studio links,
    anything you were unsure about, and anything that needs their action.
 
 ## Things that need the owner (never do these yourself)

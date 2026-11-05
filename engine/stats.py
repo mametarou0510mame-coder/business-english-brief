@@ -33,8 +33,22 @@ def main():
             row = {"ep": ep, "kind": kind, "id": vid, "title": it.get("snippet", {}).get("title"),
                    "privacy": it.get("status", {}).get("privacyStatus"), "published": it.get("snippet", {}).get("publishedAt"),
                    "views": int(s.get("viewCount", 0)), "likes": int(s.get("likeCount", 0)), "comments": int(s.get("commentCount", 0))}
+            try:
+                epj = json.load(open(os.path.join(ROOT, "episodes", ep, "episode.json"), encoding="utf-8"))
+                row["series"] = epj.get("series")
+                if kind.startswith("short"):
+                    row["style"] = epj["shorts"][int(kind[5:]) - 1].get("style", "news")
+            except Exception:
+                pass
             out["youtube"].append(row)
             print(f"YT {kind:6} {row['views']:>6} views {row['likes']:>3} likes {row['privacy']} | {row['title']}")
+    import statistics as stt
+    pub = [r for r in out["youtube"] if r["privacy"] == "public"]
+    for label, f in (("long", lambda r: r["kind"] == "long"), ("short/news", lambda r: r.get("style") == "news"),
+                     ("short/quiz", lambda r: r.get("style") == "quiz")):
+        v = [r["views"] for r in pub if f(r)]
+        if v:
+            print(f"SUMMARY {label}: n={len(v)} median={stt.median(v)} mean={sum(v) / len(v):.0f} max={max(v)}")
     if os.environ.get("IG_TOKEN"):
         import instagram as I
         uid, itok = os.environ["IG_USER_ID"], os.environ["IG_TOKEN"]

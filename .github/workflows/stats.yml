@@ -1,11 +1,14 @@
 name: Stats
 
-# Read-only snapshot of YouTube / Instagram performance. Uploads nothing.
+# Read-only snapshot of YouTube / Instagram performance (uploads nothing). Runs every Saturday 04:30 JST,
+# before the weekly production task, and commits stats/latest.json + stats/history/<date>.json for the PDCA log.
 on:
+  schedule:
+    - cron: "30 19 * * 5"
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   stats:
@@ -20,6 +23,11 @@ jobs:
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
         run: |
           python engine/stats.py > out.txt 2>&1 || true
-          cat out.txt | tee -a "$GITHUB_STEP_SUMMARY"
-          # annotations are capped at 10 per step, so send the report in chunks of 8 lines
-          split -l 8 out.txt part_ && for f in part_*; do echo "::notice title=stats::$(sed ':a;N;$!ba;s/\n/%0A/g' "$f")"; done
+          cat out.txt >> "$GITHUB_STEP_SUMMARY"
+          split -l 40 out.txt part_ && for f in part_*; do echo "::notice title=stats::$(sed ':a;N;$!ba;s/\n/%0A/g' "$f")"; done
+      - name: Commit snapshot
+        run: |
+          [ -f stats/latest.json ] || exit 0
+          mkdir -p stats/history && cp stats/latest.json "stats/history/$(TZ=Asia/Tokyo date +%F).json"
+          git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add stats && git commit -qm "Stats snapshot $(TZ=Asia/Tokyo date +%F)" && git pull -q --rebase origin main && git push -q || true

@@ -39,7 +39,8 @@ def _parts(ep, tl, spec):
         hook.append(b)
     quiz = {b["id"][-1]: b for b in tl["beats"] if tl["scenes"][b["scene"]]["visual"] == "review"
             and isinstance(b.get("vis"), dict) and b["vis"].get("card") == card and b["id"].startswith("v")}
-    seq = [("news", "news", b) for b in hook] if spec.get("news", True) else []
+    # style "quiz": no news part — the phrase itself is the hook from frame 0 (A/B test against the news-first style)
+    seq = [("news", "news", b) for b in hook] if (spec.get("news", True) and spec.get("style") != "quiz") else []
     seq += [("quiz", s, quiz[s]) for s in QUIZ_STEPS if s in quiz]
     out, t = [], 0.0
     for kind, ph, b in seq:
@@ -121,7 +122,14 @@ def build(ep, tl, idx, long_mp4, out, preview=None):
         elif kind == "quiz":
             _, ph, b, l0, l1 = p
             tb = ts - l0
-            txt(d, (SW / 2, 260), "QUIZ", F("in_bl", 40), GOLD, "mm")
+            if spec.get("style") == "quiz":
+                badge = spec.get("badge", "会議で使う英語")
+                fb_ = F("jp_b", 34)
+                wv = tw(fb_, badge) + 50
+                rr(d, (SW / 2 - wv / 2, 225, SW / 2 + wv / 2, 290), 32, fill=GOLD)
+                txt(d, (SW / 2, 258), badge, fb_, INK, "mm")
+            else:
+                txt(d, (SW / 2, 260), "QUIZ", F("in_bl", 40), GOLD, "mm")
             q = "この英語、どういう意味?"
             txt(d, (SW / 2, 345), q, fit_font("jp_bl", 66, q, 960), TEXT, "mm")
             a = ease((ts - first_quiz) / 0.25)

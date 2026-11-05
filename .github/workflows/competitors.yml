@@ -18,4 +18,4 @@ jobs:
           YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
         run: |
           python engine/competitors.py > out.txt 2>&1 || true
-          split -l 8 out.txt part_ && for f in part_*; do echo "::notice title=comp::$(sed ':a;N;$!ba;s/\n/%0A/g' "$f")"; done
+          split -l 40 out.txt part_ && for f in part_*; do echo "::notice title=comp::$(sed ':a;N;$!ba;s/\n/%0A/g' "$f")"; done
