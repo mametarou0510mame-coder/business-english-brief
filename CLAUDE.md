@@ -33,7 +33,7 @@ Format spec: `docs/FORMAT.md`. Engine: `engine/`. State: `state/published.json`,
    | Wed | テックとAI | technology / AI business move |
    | Thu | 経営者の一言を読む | a CEO/CFO statement and its business English |
    | Fri | 海外メディアが報じる日本 | how overseas media covered a Japanese company or the Japanese economy |
-   | Sat | 今週の英単語 総復習 | evergreen: revisit 3 of the week's most useful phrases with new example situations (news-light) |
+   | Sat | 今週の英単語 総復習 | 聞き流し compilation of all of the week's phrases (`build.py compile-week`), ~7–10 min |
    | Sun | 場面別の英語 | evergreen: a meeting/email situation (disagreeing politely, asking for deadlines…) tied to a recent story |
 
    Prefer stories that stay relevant for a week (structural moves, not hour-by-hour market moves).
