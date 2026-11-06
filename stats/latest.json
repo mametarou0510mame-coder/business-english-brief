@@ -1,5 +1,5 @@
 {
- "at": "2026-11-05T22:40:16.239384+00:00",
+ "at": "2026-11-06T20:13:14.172252+00:00",
  "youtube": [
   {
    "ep": "2026-10-25-amex-ai-cuts",
@@ -171,7 +171,7 @@
    "title": "「期待を上回る」は英語で?exceed expectationsの使い方|モデルナ株が急落【ビジネス英語ニュース #10】",
    "privacy": "public",
    "published": "2026-10-26T06:01:30Z",
-   "views": 7,
+   "views": 8,
    "likes": 0,
    "comments": 0,
    "series": "決算と数字の英語"
@@ -283,7 +283,7 @@
    "title": "「業績見通しを取り下げる」は英語で?ボルボの中国販売41%減 #ビジネス英語 #shorts",
    "privacy": "public",
    "published": "2026-10-27T11:08:49Z",
-   "views": 739,
+   "views": 740,
    "likes": 3,
    "comments": 0,
    "series": "決算と数字の英語",
@@ -574,7 +574,7 @@
    "title": "「需要が供給を上回る」は英語で?マイクロソフトCFOの一言 #ビジネス英語 #shorts",
    "privacy": "public",
    "published": "2026-11-05T03:00:32Z",
-   "views": 3,
+   "views": 5,
    "likes": 0,
    "comments": 0,
    "series": "経営者の一言を読む",
@@ -610,9 +610,9 @@
    "kind": "short1",
    "id": "qBZRpVz6zVg",
    "title": "「おおむね一致している」は英語で?日銀が物価2%到達と判断 #ビジネス英語 #shorts",
-   "privacy": "private",
-   "published": "2026-11-01T09:08:21Z",
-   "views": 0,
+   "privacy": "public",
+   "published": "2026-11-06T03:00:20Z",
+   "views": 4,
    "likes": 0,
    "comments": 0,
    "series": "海外メディアが報じる日本",
@@ -623,8 +623,8 @@
    "kind": "short2",
    "id": "AIA1LKJOjcY",
    "title": "「行き過ぎる・上回ってしまう」は英語で?日銀が物価の上振れを警戒 #ビジネス英語 #shorts",
-   "privacy": "private",
-   "published": "2026-11-01T09:08:24Z",
+   "privacy": "public",
+   "published": "2026-11-06T12:00:35Z",
    "views": 0,
    "likes": 0,
    "comments": 0,
@@ -918,17 +918,32 @@
    "ep": "2026-11-05-microsoft-demand-supply",
    "permalink": "https://www.instagram.com/reel/DfXE0VhgDmA/",
    "error": "Instagram API 400: b'{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\""
+  },
+  {
+   "ep": "2026-11-06-boj-target-met",
+   "permalink": "https://www.instagram.com/reel/DfYrreYCRgx/",
+   "error": "Instagram API 400: b'{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\""
+  },
+  {
+   "ep": "2026-11-06-boj-target-met",
+   "permalink": "https://www.instagram.com/reel/DfZpORUCZoe/",
+   "error": "Instagram API 400: b'{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\""
+  },
+  {
+   "ep": "2026-11-06-boj-target-met",
+   "permalink": "https://www.instagram.com/p/DfYMlcSjzGV/",
+   "error": "Instagram API 400: b'{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\""
   }
  ],
  "channel": {
-  "viewCount": "4019",
+  "viewCount": "4075",
   "subscriberCount": "2",
   "hiddenSubscriberCount": false,
-  "videoCount": "48"
+  "videoCount": "50"
  },
  "ig_account": {
   "id": "17841415781522836",
-  "followers_count": 127,
-  "media_count": 42
+  "followers_count": 130,
+  "media_count": 45
  }
 }
