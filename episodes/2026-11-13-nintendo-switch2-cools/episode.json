@@ -164,7 +164,7 @@
        {
         "name": "RTE(アイルランド)",
         "big": "slow",
-        "sub": "Switch 2 unit\nsales slow",
+        "sub": "unit sales slow",
         "note": "販売が鈍る",
         "color": "red"
        },
@@ -198,7 +198,7 @@
        {
         "name": "RTE(アイルランド)",
         "big": "slow",
-        "sub": "Switch 2 unit\nsales slow",
+        "sub": "unit sales slow",
         "note": "販売が鈍る",
         "color": "red"
        },
@@ -292,7 +292,7 @@
        {
         "name": "RTE(アイルランド)",
         "big": "slow",
-        "sub": "Switch 2 unit\nsales slow",
+        "sub": "unit sales slow",
         "note": "販売が鈍る",
         "color": "red"
        },
@@ -330,7 +330,7 @@
        {
         "name": "RTE(アイルランド)",
         "big": "slow",
-        "sub": "Switch 2 unit\nsales slow",
+        "sub": "unit sales slow",
         "note": "販売が鈍る",
         "color": "red"
        },
@@ -367,7 +367,7 @@
        {
         "name": "RTE(アイルランド)",
         "big": "slow",
-        "sub": "Switch 2 unit\nsales slow",
+        "sub": "unit sales slow",
         "note": "販売が鈍る",
         "color": "red"
        },
