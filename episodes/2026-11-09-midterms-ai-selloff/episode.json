@@ -1,0 +1,996 @@
+{
+ "id": "2026-11-09-midterms-ai-selloff",
+ "episode": "#23",
+ "date": "2026-11-06",
+ "series": "Weekly Brief",
+ "title_card": {
+  "line1": "選挙のあと、AI株が急落。",
+  "line2": "日経平均6%安を英語で読む"
+ },
+ "publish": {
+  "long": "2026-11-09T07:00:00+09:00",
+  "shorts": [
+   "2026-11-09T12:00:00+09:00",
+   "2026-11-09T21:00:00+09:00"
+  ]
+ },
+ "phrases": [
+  {
+   "en": "reassess",
+   "jp": "見直す・評価し直す",
+   "ex": "Let's reassess the schedule after the client meeting.",
+   "ex_jp": "顧客との打ち合わせのあとで、スケジュールを見直しましょう。"
+  },
+  {
+   "en": "rein in",
+   "jp": "〜を抑える・歯止めをかける",
+   "ex": "We need to rein in travel costs this quarter.",
+   "ex_jp": "今期は、出張費を抑える必要があります。"
+  },
+  {
+   "en": "have a say in",
+   "jp": "〜に意見を言える・決定に関われる",
+   "ex": "The sales team should have a say in the new pricing.",
+   "ex_jp": "新しい価格設定には、営業チームも意見を言えるようにすべきです。"
+  }
+ ],
+ "words": [
+  {
+   "en": "midterm elections",
+   "jp": "中間選挙"
+  },
+  {
+   "en": "moratorium",
+   "jp": "一時停止"
+  },
+  {
+   "en": "bear market",
+   "jp": "弱気相場"
+  }
+ ],
+ "homework": {
+  "en": "What should your team rein in next year?",
+  "jp": "来年、チームで抑えたいものは?",
+  "hl": [
+   "rein in"
+  ],
+  "say": "最後に宿題です。来年、あなたのチームで抑えたいものは何ですか。コストでも、残業でも構いません。英語で、コメント欄に書いてみてください。"
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "beats": [
+    {
+     "id": "h01",
+     "kind": "jp",
+     "jp": "11月6日の金曜日、日経平均は1日でおよそ6%下がりました。きっかけは、アメリカの選挙です。",
+     "en": "On Friday, the Nikkei fell about 6%. The trigger was a U.S. election.",
+     "vis": {
+      "t": "hero",
+      "kicker": "Nikkei 225 · Nov 6",
+      "big": "−6%",
+      "color": "red",
+      "crack": true,
+      "sub": "日経平均、1日で約6%下落",
+      "sub_color": "gold"
+     }
+    },
+    {
+     "id": "h02",
+     "kind": "jp",
+     "jp": "投資家たちは今、AIへの期待を、見直し始めています。この見直す、を英語でどう言うでしょう。",
+     "en": "Investors are reassessing their bets on AI.",
+     "hl": [
+      "reassessing"
+     ],
+     "vis": {
+      "t": "hero_side",
+      "big": "AI株",
+      "color": "red",
+      "text": "reassess",
+      "jp": "見直す・評価し直す"
+     }
+    },
+    {
+     "id": "h03",
+     "kind": "jp",
+     "jp": "今日はこのニュースから、会議で使える英語を3つ。最後に答え合わせをします。",
+     "en": "Three phrases for your next meeting. Answers at the end.",
+     "vis": {
+      "t": "teaser"
+     }
+    }
+   ]
+  },
+  {
+   "id": "what",
+   "chapter": "何が起きたか",
+   "beats": [
+    {
+     "id": "n01",
+     "kind": "jp",
+     "jp": "11月3日、アメリカで中間選挙が行われ、野党の民主党が大きく勝ちました。",
+     "en": "On November 3, Democrats won big in the U.S. midterm elections.",
+     "vis": {
+      "t": "timeline",
+      "items": [
+       {
+        "when": "11月3日(火)",
+        "text": "アメリカの中間選挙。民主党が大きく勝利",
+        "color": "blue"
+       },
+       {
+        "when": "11月4日(水)",
+        "text": "結果がはっきりして、株はいったん上昇",
+        "color": "green"
+       },
+       {
+        "when": "11月5日(木)",
+        "text": "AI・半導体株が急落。ナスダック −5.5%",
+        "color": "red"
+       },
+       {
+        "when": "11月6日(金)",
+        "text": "東京でも日経平均が約6%安",
+        "color": "red"
+       }
+      ],
+      "show": 1
+     }
+    },
+    {
+     "id": "n02",
+     "kind": "jp",
+     "jp": "結果がはっきりした翌日は、株はいったん上がりました。ところが、その次の木曜日に、流れが変わります。",
+     "en": "Stocks rose the next day. Then on Thursday, the mood flipped.",
+     "vis": {
+      "t": "timeline",
+      "items": [
+       {
+        "when": "11月3日(火)",
+        "text": "アメリカの中間選挙。民主党が大きく勝利",
+        "color": "blue"
+       },
+       {
+        "when": "11月4日(水)",
+        "text": "結果がはっきりして、株はいったん上昇",
+        "color": "green"
+       },
+       {
+        "when": "11月5日(木)",
+        "text": "AI・半導体株が急落。ナスダック −5.5%",
+        "color": "red"
+       },
+       {
+        "when": "11月6日(金)",
+        "text": "東京でも日経平均が約6%安",
+        "color": "red"
+       }
+      ],
+      "show": 2
+     }
+    },
+    {
+     "id": "n03",
+     "kind": "jp",
+     "jp": "ハイテク株の多いナスダックは5.5%安。半導体株の指数は、12%も下がりました。",
+     "en": "The Nasdaq fell 5.5%, and a key chip index dropped 12%.",
+     "vis": {
+      "t": "bars",
+      "title": "11月5日(木)の下げ幅",
+      "unit": "%",
+      "items": [
+       {
+        "label": "ダウ平均",
+        "value": 3.4,
+        "display": "−3.4%",
+        "color": "muted"
+       },
+       {
+        "label": "S&P500",
+        "value": 4.4,
+        "display": "−4.4%",
+        "color": "muted"
+       },
+       {
+        "label": "ナスダック",
+        "value": 5.5,
+        "display": "−5.5%",
+        "color": "red"
+       },
+       {
+        "label": "半導体株指数",
+        "value": 12,
+        "display": "−12%",
+        "color": "red"
+       }
+      ],
+      "note": "ナスダックだけで約2兆5000億ドルの時価総額が消えた(ダウ・ジョーンズ調べ)≈390兆円・1ドル157円換算"
+     }
+    },
+    {
+     "id": "n04",
+     "kind": "jp",
+     "jp": "ナスダックだけで、およそ2兆5000億ドル、日本円で390兆円ほどの時価総額が、1日で消えた計算です。",
+     "en": "About $2.5 trillion in Nasdaq market value vanished in a day.",
+     "vis": {
+      "t": "bars",
+      "title": "11月5日(木)の下げ幅",
+      "unit": "%",
+      "items": [
+       {
+        "label": "ダウ平均",
+        "value": 3.4,
+        "display": "−3.4%",
+        "color": "muted"
+       },
+       {
+        "label": "S&P500",
+        "value": 4.4,
+        "display": "−4.4%",
+        "color": "muted"
+       },
+       {
+        "label": "ナスダック",
+        "value": 5.5,
+        "display": "−5.5%",
+        "color": "red"
+       },
+       {
+        "label": "半導体株指数",
+        "value": 12,
+        "display": "−12%",
+        "color": "red"
+       }
+      ],
+      "note": "ナスダックだけで約2兆5000億ドルの時価総額が消えた(ダウ・ジョーンズ調べ)≈390兆円・1ドル157円換算"
+     }
+    },
+    {
+     "id": "n05",
+     "kind": "jp",
+     "jp": "そして金曜日、東京でも日経平均が約6%下がり、6月の最高値から20%以上下落。弱気相場と呼ばれる水準に入りました。",
+     "en": "In Tokyo, the Nikkei fell about 6%, more than 20% below its June record.",
+     "vis": {
+      "t": "globe",
+      "title": "アメリカの選挙が、アジアの株価に",
+      "lon": -160,
+      "lat": 25,
+      "points": [
+       {
+        "label": "ワシントン",
+        "lat": 38.9,
+        "lon": -77.0,
+        "color": "blue"
+       },
+       {
+        "label": "東京 −5.96%",
+        "lat": 35.7,
+        "lon": 139.7,
+        "color": "red"
+       },
+       {
+        "label": "ソウル −8%超",
+        "lat": 37.6,
+        "lon": 127.0,
+        "color": "red"
+       },
+       {
+        "label": "台北 −5%",
+        "lat": 25.0,
+        "lon": 121.5,
+        "color": "red"
+       }
+      ],
+      "arcs": [
+       [
+        0,
+        1
+       ],
+       [
+        0,
+        2
+       ],
+       [
+        0,
+        3
+       ]
+      ],
+      "lines": [
+       {
+        "text": "日経平均は6月の最高値から20%超の下落",
+        "color": "red"
+       },
+       {
+        "text": "韓国では取引が一時停止",
+        "color": "gold"
+       }
+      ]
+     }
+    },
+    {
+     "id": "n06",
+     "kind": "jp",
+     "jp": "韓国では、株価の急落で、取引が一時止まりました。",
+     "en": "In South Korea, trading was briefly halted.",
+     "vis": {
+      "t": "globe",
+      "title": "アメリカの選挙が、アジアの株価に",
+      "lon": -160,
+      "lat": 25,
+      "points": [
+       {
+        "label": "ワシントン",
+        "lat": 38.9,
+        "lon": -77.0,
+        "color": "blue"
+       },
+       {
+        "label": "東京 −5.96%",
+        "lat": 35.7,
+        "lon": 139.7,
+        "color": "red"
+       },
+       {
+        "label": "ソウル −8%超",
+        "lat": 37.6,
+        "lon": 127.0,
+        "color": "red"
+       },
+       {
+        "label": "台北 −5%",
+        "lat": 25.0,
+        "lon": 121.5,
+        "color": "red"
+       }
+      ],
+      "arcs": [
+       [
+        0,
+        1
+       ],
+       [
+        0,
+        2
+       ],
+       [
+        0,
+        3
+       ]
+      ],
+      "lines": [
+       {
+        "text": "日経平均は6月の最高値から20%超の下落",
+        "color": "red"
+       },
+       {
+        "text": "韓国では取引が一時停止",
+        "color": "gold"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "why",
+   "chapter": "なぜAI株が売られたのか",
+   "beats": [
+    {
+     "id": "y01",
+     "kind": "jp",
+     "jp": "なぜ、選挙でAIの株が下がるのでしょうか。カギは、データセンターです。",
+     "en": "Why would an election hit AI stocks? The key is data centers.",
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "選挙で民主党が勝利",
+        "mid": "規制強化への警戒",
+        "res": "データセンター建設が遅れる?",
+        "ok": false
+       },
+       {
+        "a": "建設が遅れる",
+        "mid": "半導体の注文",
+        "res": "AI関連株が売られる",
+        "ok": false
+       },
+       {
+        "a": "アメリカのAI投資",
+        "mid": "日本の装置メーカー",
+        "res": "東京にも波及",
+        "ok": false
+       }
+      ]
+     }
+    },
+    {
+     "id": "y02",
+     "kind": "jp",
+     "jp": "AIを動かすデータセンターは、大量の電気と水を使います。電気代の上昇に、不満を持つ住民も増えていました。",
+     "en": "Data centers use huge amounts of power and water, and many residents were unhappy.",
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "選挙で民主党が勝利",
+        "mid": "規制強化への警戒",
+        "res": "データセンター建設が遅れる?",
+        "ok": false
+       },
+       {
+        "a": "建設が遅れる",
+        "mid": "半導体の注文",
+        "res": "AI関連株が売られる",
+        "ok": false
+       },
+       {
+        "a": "アメリカのAI投資",
+        "mid": "日本の装置メーカー",
+        "res": "東京にも波及",
+        "ok": false
+       }
+      ]
+     }
+    },
+    {
+     "id": "y03",
+     "kind": "jp",
+     "jp": "今回の選挙では、データセンターについての住民投票が45件ありました。そのうち39件で、建設を制限する側が勝っています。",
+     "en": "In 39 of 45 local votes on data centers, restrictions won.",
+     "vis": {
+      "t": "people",
+      "total": 45,
+      "hit": 39,
+      "label": "45件の住民投票のうち39件",
+      "panel": {
+       "kicker": "DATA CENTER BALLOTS",
+       "big": "39 / 45",
+       "color": "red",
+       "sub": "建設を制限する側が勝った",
+       "note": "Data Centers on the Ballot 調べ(アルジャジーラ)",
+       "size": 150
+      }
+     }
+    },
+    {
+     "id": "y04",
+     "kind": "jp",
+     "jp": "さらに、民主党のサンダース上院議員は、全国でデータセンターの建設を一時停止せよ、と投稿しました。",
+     "en": "Senator Bernie Sanders called for a national moratorium on data centers.",
+     "hl": [
+      "moratorium"
+     ],
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "National data center",
+       "moratorium now"
+      ],
+      "hl": [
+       "moratorium"
+      ],
+      "by": "Bernie Sanders, U.S. Senator(Xへの投稿)"
+     }
+    },
+    {
+     "id": "y05",
+     "kind": "jp",
+     "jp": "このように、勢いのあるものに歯止めをかけることを、英語でレイン・インと言います。",
+     "en": "Putting limits on something that's growing fast is called 'rein in.'",
+     "hl": [
+      "rein in"
+     ],
+     "star": true,
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "National data center",
+       "moratorium now"
+      ],
+      "hl": [
+       "moratorium"
+      ],
+      "by": "Bernie Sanders, U.S. Senator(Xへの投稿)"
+     }
+    },
+    {
+     "id": "y06",
+     "kind": "en_insert",
+     "jp": "AIの建設ラッシュに歯止めをかける",
+     "en": "rein in the AI buildout",
+     "hl": [
+      "rein in"
+     ],
+     "star": true,
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "National data center",
+       "moratorium now"
+      ],
+      "hl": [
+       "moratorium"
+      ],
+      "by": "Bernie Sanders, U.S. Senator(Xへの投稿)"
+     }
+    },
+    {
+     "id": "y07",
+     "kind": "jp",
+     "jp": "レインは、馬の手綱のこと。手綱を引いて、走りすぎを抑えるイメージです。会議では、コストを抑える、という意味でよく使います。",
+     "en": "'Reins' guide a horse. In meetings, you often 'rein in costs.'",
+     "hl": [
+      "rein in"
+     ],
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "National data center",
+       "moratorium now"
+      ],
+      "hl": [
+       "moratorium"
+      ],
+      "by": "Bernie Sanders, U.S. Senator(Xへの投稿)"
+     }
+    },
+    {
+     "id": "y08",
+     "kind": "jp",
+     "jp": "銀行のUBSは、建設が止まれば、2028年に予定されるアメリカのデータセンター増設のうち、およそ30%が危うくなると試算しています。",
+     "en": "UBS estimates about 30% of planned U.S. data center additions for 2028 could be at risk.",
+     "vis": {
+      "t": "counter",
+      "kicker": "UBS ESTIMATE",
+      "to": 30,
+      "suffix": "%",
+      "color": "red",
+      "sub": "2028年に予定される\nアメリカのデータセンター増設のうち",
+      "note": "建設の一時停止で、リスクにさらされる割合(UBSの試算)"
+     }
+    },
+    {
+     "id": "y09",
+     "kind": "jp",
+     "jp": "注文が減るかもしれない。そう考えた投資家が、AI関連の株を見直した、というわけです。",
+     "en": "Fewer orders may follow, so investors are reassessing AI stocks.",
+     "hl": [
+      "reassessing"
+     ],
+     "star": true,
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "選挙で民主党が勝利",
+        "mid": "規制強化への警戒",
+        "res": "データセンター建設が遅れる?",
+        "ok": false
+       },
+       {
+        "a": "建設が遅れる",
+        "mid": "半導体の注文",
+        "res": "AI関連株が売られる",
+        "ok": false
+       },
+       {
+        "a": "アメリカのAI投資",
+        "mid": "日本の装置メーカー",
+        "res": "東京にも波及",
+        "ok": false
+       }
+      ]
+     }
+    },
+    {
+     "id": "y10",
+     "kind": "en_insert",
+     "jp": "投資家は、AIへの賭けを見直している",
+     "en": "Investors are reassessing the AI trade.",
+     "hl": [
+      "reassessing"
+     ],
+     "star": true,
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "選挙で民主党が勝利",
+        "mid": "規制強化への警戒",
+        "res": "データセンター建設が遅れる?",
+        "ok": false
+       },
+       {
+        "a": "建設が遅れる",
+        "mid": "半導体の注文",
+        "res": "AI関連株が売られる",
+        "ok": false
+       },
+       {
+        "a": "アメリカのAI投資",
+        "mid": "日本の装置メーカー",
+        "res": "東京にも波及",
+        "ok": false
+       }
+      ]
+     }
+    },
+    {
+     "id": "y11",
+     "kind": "jp",
+     "jp": "リアセスは、一度出した評価を、もう一度考え直すこと。予定や予算の見直しにも使えます。",
+     "en": "To 'reassess' is to judge something again. Use it for plans and budgets too.",
+     "hl": [
+      "reassess"
+     ],
+     "vis": {
+      "t": "hero_side",
+      "big": "AI株",
+      "color": "red",
+      "text": "reassess",
+      "jp": "見直す・評価し直す"
+     }
+    }
+   ]
+  },
+  {
+   "id": "voice",
+   "chapter": "住民の声を英語で",
+   "beats": [
+    {
+     "id": "c01",
+     "kind": "jp",
+     "jp": "選挙で勝った民主党の候補は、地域のことは、そこに住む人が決めるべきだ、と訴えました。",
+     "en": "One winner said local decisions should be made by the people who live there.",
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "decisions ... are made by",
+       "the people who live",
+       "in those communities"
+      ],
+      "hl": [
+       "the people who live"
+      ],
+      "by": "Annie Andrews, South Carolina Democrat(勝利演説)"
+     }
+    },
+    {
+     "id": "c02",
+     "kind": "jp",
+     "jp": "つまり、住民にも、決定に関わる権利があるということ。これを英語で、ハブ・ア・セイ・インと言います。",
+     "en": "In other words, residents should 'have a say in' these projects.",
+     "hl": [
+      "have a say in"
+     ],
+     "star": true,
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "decisions ... are made by",
+       "the people who live",
+       "in those communities"
+      ],
+      "hl": [
+       "the people who live"
+      ],
+      "by": "Annie Andrews, South Carolina Democrat(勝利演説)"
+     }
+    },
+    {
+     "id": "c03",
+     "kind": "en_insert",
+     "jp": "住民も、決定に意見を言えるべきだ",
+     "en": "Residents should have a say in it.",
+     "hl": [
+      "have a say in"
+     ],
+     "star": true,
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "decisions ... are made by",
+       "the people who live",
+       "in those communities"
+      ],
+      "hl": [
+       "the people who live"
+      ],
+      "by": "Annie Andrews, South Carolina Democrat(勝利演説)"
+     }
+    },
+    {
+     "id": "c04",
+     "kind": "jp",
+     "jp": "セイは、発言権のこと。関係する部署にも意見を言ってもらいたい、というときに便利です。",
+     "en": "A 'say' is a voice in the decision. Useful when you want others involved.",
+     "hl": [
+      "have a say in"
+     ],
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "decisions ... are made by",
+       "the people who live",
+       "in those communities"
+      ],
+      "hl": [
+       "the people who live"
+      ],
+      "by": "Annie Andrews, South Carolina Democrat(勝利演説)"
+     }
+    }
+   ]
+  },
+  {
+   "id": "insight",
+   "chapter": "私たちへの意味",
+   "beats": [
+    {
+     "id": "i01",
+     "kind": "jp",
+     "jp": "ここからは、日本で働く私たちにとっての意味を考えます。",
+     "en": "What does this mean for those of us working in Japan?",
+     "vis": {
+      "t": "statement",
+      "kicker": "SO WHAT?",
+      "text": "日本で働く私たちにとっての意味"
+     }
+    },
+    {
+     "id": "i02",
+     "kind": "jp",
+     "jp": "金曜日の東京では、半導体の検査装置を作るアドバンテストが12%、東京エレクトロンが7%下がりました。",
+     "en": "In Tokyo, Advantest fell 12% and Tokyo Electron 7%.",
+     "vis": {
+      "t": "cards",
+      "show": 2,
+      "footer": "11月6日(金)の東京市場(IBTimesの報道)",
+      "items": [
+       {
+        "name": "Advantest",
+        "big": "−12.2%",
+        "sub": "半導体の検査装置",
+        "color": "red"
+       },
+       {
+        "name": "Tokyo Electron",
+        "big": "−7.3%",
+        "sub": "半導体の製造装置",
+        "color": "red"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i03",
+     "kind": "jp",
+     "jp": "アメリカのAI投資は、日本の装置や部品の注文につながっています。遠い国の選挙が、日本の職場の受注見通しに直結するのです。",
+     "en": "U.S. AI spending drives orders in Japan, so a U.S. vote can hit Japanese order books.",
+     "vis": {
+      "t": "points",
+      "show": 1,
+      "items": [
+       {
+        "head": "日本の職場",
+        "big": "遠い国の\n選挙が直撃",
+        "sub": "AI関連の受注見通しに\n影響しうる",
+        "color": "gold"
+       },
+       {
+        "head": "逆の見方",
+        "big": "規制は\nまだ提案",
+        "sub": "法律になるには\n時間がかかる",
+        "color": "blue"
+       },
+       {
+        "head": "会議で",
+        "big": "見直しを\n英語で",
+        "sub": "We're reassessing\nour forecast.",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i04",
+     "kind": "jp",
+     "jp": "一方で、逆の見方もあります。全国での建設停止は、まだ議員の呼びかけの段階です。トランプ大統領は、データセンターの拡大を後押ししてきました。",
+     "en": "But a national pause is still just a call, and President Trump backs more data centers.",
+     "vis": {
+      "t": "points",
+      "show": 2,
+      "items": [
+       {
+        "head": "日本の職場",
+        "big": "遠い国の\n選挙が直撃",
+        "sub": "AI関連の受注見通しに\n影響しうる",
+        "color": "gold"
+       },
+       {
+        "head": "逆の見方",
+        "big": "規制は\nまだ提案",
+        "sub": "法律になるには\n時間がかかる",
+        "color": "blue"
+       },
+       {
+        "head": "会議で",
+        "big": "見直しを\n英語で",
+        "sub": "We're reassessing\nour forecast.",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i05",
+     "kind": "jp",
+     "jp": "先週のマイクロソフトのように、AIの需要そのものは強い、という声もあります。株を売り買いすべきか、という話ではありません。",
+     "en": "Some say AI demand itself is still strong. This isn't about buying or selling stocks.",
+     "vis": {
+      "t": "points",
+      "show": 2,
+      "items": [
+       {
+        "head": "日本の職場",
+        "big": "遠い国の\n選挙が直撃",
+        "sub": "AI関連の受注見通しに\n影響しうる",
+        "color": "gold"
+       },
+       {
+        "head": "逆の見方",
+        "big": "規制は\nまだ提案",
+        "sub": "法律になるには\n時間がかかる",
+        "color": "blue"
+       },
+       {
+        "head": "会議で",
+        "big": "見直しを\n英語で",
+        "sub": "We're reassessing\nour forecast.",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i06",
+     "kind": "jp",
+     "jp": "もし見通しが変わったら、海外の相手には、ウィー・アー・リアセシング・アワ・フォーキャスト。見通しを見直しています、と伝えましょう。",
+     "en": "If your outlook changes, tell partners: we're reassessing our forecast.",
+     "hl": [
+      "reassessing"
+     ],
+     "vis": {
+      "t": "points",
+      "show": 3,
+      "items": [
+       {
+        "head": "日本の職場",
+        "big": "遠い国の\n選挙が直撃",
+        "sub": "AI関連の受注見通しに\n影響しうる",
+        "color": "gold"
+       },
+       {
+        "head": "逆の見方",
+        "big": "規制は\nまだ提案",
+        "sub": "法律になるには\n時間がかかる",
+        "color": "blue"
+       },
+       {
+        "head": "会議で",
+        "big": "見直しを\n英語で",
+        "sub": "We're reassessing\nour forecast.",
+        "color": "green"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "「見直す」は英語で?reassessの使い方|米選挙で日経平均6%安【ビジネス英語ニュース #23】",
+  "summary": "2026年11月3日のアメリカ中間選挙で民主党が大きく勝ち、データセンター規制への警戒から、AI・半導体株が急落しました。11月6日には日経平均も約6%下落。このニュースから、会議で使える英語 reassess、rein in、have a say in を学びます。",
+  "tags": [
+   "ビジネス英語",
+   "英語学習",
+   "ニュース英語",
+   "時事英語",
+   "会議 英語",
+   "中間選挙",
+   "日経平均",
+   "AI株",
+   "半導体",
+   "データセンター",
+   "アメリカ経済",
+   "教養",
+   "社会人 英語",
+   "business English"
+  ]
+ },
+ "thumbnail": {
+  "big": "−6%",
+  "big_color": "red",
+  "under": "日経平均",
+  "badge": "米中間選挙",
+  "badge_color": "gold",
+  "question": "AI株に何が?",
+  "pill": "reassess",
+  "bottom": "会議で使える英語3つ",
+  "crack": true
+ },
+ "shorts": [
+  {
+   "phrase": 0,
+   "news_hook": [
+    "米国の選挙で",
+    "日経平均6%安"
+   ],
+   "hook": [
+    "「見直す」を",
+    "英語で言うと?"
+   ],
+   "ctx": "選挙のあと、投資家がAI株を見直したときの英語",
+   "title": "「見直す」は英語で?米選挙のあと日経平均が6%安 #ビジネス英語 #shorts",
+   "ig_caption": "「見直す・評価し直す」を英語で言えますか?\n\n✅ reassess\n見直す・評価し直す\n\n例文:Let's reassess the schedule after the client meeting.\n(顧客との打ち合わせのあとで、スケジュールを見直しましょう。)\n\nアメリカの中間選挙のあと、投資家がAI株への期待を見直し、日経平均は1日で約6%下がりました。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  },
+  {
+   "phrase": 1,
+   "style": "quiz",
+   "badge": "会議で使う英語|中級",
+   "news_hook": [
+    "AIの建設に",
+    "歯止め?"
+   ],
+   "hook": [
+    "rein in costs",
+    "どういう意味?"
+   ],
+   "ctx": "勢いのあるものに歯止めをかける、会議の定番表現",
+   "title": "「rein in」の意味、わかる?|会議の英語 #shorts",
+   "ig_caption": "「rein in」の意味、わかりますか?\n\n✅ rein in\n〜を抑える・歯止めをかける\n\n例文:We need to rein in travel costs this quarter.\n(今期は、出張費を抑える必要があります。)\n\nレインは馬の手綱。手綱を引いて走りすぎを抑えるイメージです。米国ではAIの建設ラッシュに歯止めを、という声が出ています。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  }
+ ],
+ "sources": [
+  {
+   "title": "IBTimes AU「Nikkei Crashes 6% Into Bear Market as SoftBank, Advantest Lead AI Chip Rout」(2026年11月6日)",
+   "url": "https://www.ibtimes.com.au/japan-nikkei-bear-market-ai-stock-selloff-1878028"
+  },
+  {
+   "title": "Nation Thailand「Asian stocks slide on November 6 after US$2.5tn tech rout」(2026年11月6日)",
+   "url": "https://www.nationthailand.com/business/investment/40073175"
+  },
+  {
+   "title": "Al Jazeera「AI stocks plunge after US election, driving down markets」(2026年11月5日)",
+   "url": "https://aljazeera.com/economy/2026/11/5/ai-stocks-plunge-after-election-driving-down-us-markets"
+  },
+  {
+   "title": "Business Standard「Why Democrats' win in US midterms could spell trouble for the AI boom」(2026年11月6日)",
+   "url": "https://www.business-standard.com/amp/world-news/us-midterms-elections-2026-trump-democrats-republicans-data-centres-stocks-126110600691_1.html"
+  },
+  {
+   "title": "Time News「US Midterm Results Trigger Sell-Off in AI and Semiconductor Shares」(2026年11月6日)",
+   "url": "https://time.news/us-midterm-results-trigger-sell-off-in-ai-and-semiconductor-shares/"
+  },
+  {
+   "title": "Yahoo Finance(Zacks)「Stock Market News for Nov 6, 2026」",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-nov-6-132900980.html"
+  }
+ ],
+ "readings": [
+  [
+   "日経平均",
+   "にっけいへいきん"
+  ],
+  [
+   "UBS",
+   "ユービーエス"
+  ],
+  [
+   "39件",
+   "さんじゅうきゅうけん"
+  ]
+ ]
+}

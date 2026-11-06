@@ -38,3 +38,10 @@ from **the biggest headline Japanese viewers already care about**; (4) consisten
 | H4 | Instagram grows faster than YouTube for this niche | keep 2 reels + carousel daily | IG followers | 127 → 250 |
 
 Check (fill in on 11/14 and 11/21):
+
+- 11/07 (Do, week 1): applied all four changes to episodes #23–#29 (11/09–11/15).
+  H1 topics: 米中間選挙→日経平均6%安, トヨタ決算, ChatGPT vs Google, Apple新CEO, 任天堂スイッチ2 — all household names.
+  H2: every episode has short1 = news-first, short2 = quiz (badge 会議で使う英語|中級); Saturday #28 has 2 quiz shorts.
+  H3: Saturday #28 is the first `compile-week` listening video (18 phrases, ~8 min). Engine: outro now uses a compact
+  grid when an episode has more than 3 phrases. Baseline at start (stats 11/07, videos ≥3 days old):
+  median short 33 views, median long 0, IG 130 followers. First Check on 11/14 (only #16–#22 will be ≥3 days old).

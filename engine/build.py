@@ -397,7 +397,7 @@ def compile_week(day, slug="weekly-listening"):
                     "summary": f"今週のニュース動画で学んだ、会議やメールで使えるビジネス英語{n}フレーズを、英語→間→日本語→例文の順でまとめて復習します。作業中の聞き流しにも使えます。",
                     "tags": ["聞き流し", "ビジネス英語 フレーズ", "会議 英語", "英語 リスニング", "まとめ"]},
         "thumbnail": {"big": f"{n}", "big_color": "gold", "under": "会議の英語フレーズ", "badge": "聞き流し", "badge_color": "gold",
-                      "question": "今週のまとめ", "pill": "weekly review", "bottom": "ニュースで覚えるビジネス英語"},
+                      "question": "今週のまとめ", "pill": "weekly review", "bottom": "ニュースで覚えるビジネス英語", "crack": False},
         "shorts": [], "sources": [s_ for e in src for s_ in e.get("sources", [])][:12],
         "publish": {"long": f"{day}T07:00:00+09:00", "shorts": []},
     }

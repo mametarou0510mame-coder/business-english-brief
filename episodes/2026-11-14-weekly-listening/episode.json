@@ -1,0 +1,331 @@
+{
+ "id": "2026-11-14-weekly-listening",
+ "episode": "#28",
+ "date": "2026-11-14",
+ "series": "今週の英単語 総復習",
+ "title_card": {
+  "line1": "今週の会議英語、18フレーズ。",
+  "line2": "聞き流しで、まとめて復習"
+ },
+ "phrases": [
+  {
+   "en": "give you a heads-up",
+   "jp": "前もってお知らせする",
+   "ex": "I wanted to give you a heads-up about a delay.",
+   "ex_jp": "遅れについて、前もってお知らせしておきたくて。",
+   "src": "#22"
+  },
+  {
+   "en": "I'm afraid",
+   "jp": "申し訳ないのですが・残念ながら",
+   "ex": "I'm afraid the shipment will be two days late.",
+   "ex_jp": "申し訳ないのですが、出荷が2日遅れます。",
+   "src": "#22"
+  },
+  {
+   "en": "here's what we're doing about it",
+   "jp": "対応策はこちらです",
+   "ex": "Here's what we're doing about it: we've added a second line.",
+   "ex_jp": "対応策ですが、2本目のラインを追加しました。",
+   "src": "#22"
+  },
+  {
+   "en": "reassess",
+   "jp": "見直す・評価し直す",
+   "ex": "Let's reassess the schedule after the client meeting.",
+   "ex_jp": "顧客との打ち合わせのあとで、スケジュールを見直しましょう。",
+   "src": "#23"
+  },
+  {
+   "en": "rein in",
+   "jp": "〜を抑える・歯止めをかける",
+   "ex": "We need to rein in travel costs this quarter.",
+   "ex_jp": "今期は、出張費を抑える必要があります。",
+   "src": "#23"
+  },
+  {
+   "en": "have a say in",
+   "jp": "〜に意見を言える・決定に関われる",
+   "ex": "The sales team should have a say in the new pricing.",
+   "ex_jp": "新しい価格設定には、営業チームも意見を言えるようにすべきです。",
+   "src": "#23"
+  },
+  {
+   "en": "raise the forecast",
+   "jp": "見通しを引き上げる・上方修正する",
+   "ex": "We should raise the forecast after strong sales in October.",
+   "ex_jp": "10月の売上が好調だったので、見通しを引き上げるべきです。",
+   "src": "#24"
+  },
+  {
+   "en": "a record high",
+   "jp": "過去最高",
+   "ex": "Online orders hit a record high last month.",
+   "ex_jp": "先月、オンラインの受注が過去最高になりました。",
+   "src": "#24"
+  },
+  {
+   "en": "we can't afford to be complacent",
+   "jp": "油断はできない",
+   "ex": "Sales are up, but we can't afford to be complacent.",
+   "ex_jp": "売上は伸びていますが、油断はできません。",
+   "src": "#24"
+  },
+  {
+   "en": "roughly one-fifth",
+   "jp": "約5分の1",
+   "ex": "Online sales are roughly one-fifth of our total revenue.",
+   "ex_jp": "オンライン販売は、売上全体の約5分の1です。",
+   "src": "#25"
+  },
+  {
+   "en": "an apples-to-apples comparison",
+   "jp": "同じ条件での比較",
+   "ex": "This isn't an apples-to-apples comparison, because the periods are different.",
+   "ex_jp": "期間が違うので、これは同じ条件での比較ではありません。",
+   "src": "#25"
+  },
+  {
+   "en": "it depends on how you define",
+   "jp": "〜をどう定義するかによる",
+   "ex": "It depends on how you define an active user.",
+   "ex_jp": "アクティブユーザーをどう定義するかによります。",
+   "src": "#25"
+  },
+  {
+   "en": "it's a privilege to",
+   "jp": "〜できて光栄です",
+   "ex": "It's a privilege to work with you on this project.",
+   "ex_jp": "このプロジェクトでご一緒できて光栄です。",
+   "src": "#26"
+  },
+  {
+   "en": "unprecedented",
+   "jp": "前例のない・かつてない",
+   "ex": "The demand we're seeing this year is unprecedented.",
+   "ex_jp": "今年の需要は、前例のない水準です。",
+   "src": "#26"
+  },
+  {
+   "en": "a compelling reason",
+   "jp": "説得力のある理由・決め手",
+   "ex": "We need a compelling reason for clients to switch.",
+   "ex_jp": "顧客に乗り換えてもらうには、説得力のある理由が必要です。",
+   "src": "#26"
+  },
+  {
+   "en": "lose momentum",
+   "jp": "勢いを失う・失速する",
+   "ex": "We can't let the project lose momentum.",
+   "ex_jp": "このプロジェクトの勢いを、失わせるわけにはいきません。",
+   "src": "#27"
+  },
+  {
+   "en": "pass on the cost",
+   "jp": "コストを価格に転嫁する",
+   "ex": "We may have to pass on the cost to customers.",
+   "ex_jp": "そのコストを、お客様に転嫁せざるを得ないかもしれません。",
+   "src": "#27"
+  },
+  {
+   "en": "keep customers engaged",
+   "jp": "顧客の関心をつなぎとめる",
+   "ex": "Regular updates keep customers engaged.",
+   "ex_jp": "定期的な更新が、お客様の関心をつなぎとめます。",
+   "src": "#27"
+  }
+ ],
+ "words": [
+  {
+   "en": "delay",
+   "jp": "遅れ"
+  },
+  {
+   "en": "midterm elections",
+   "jp": "中間選挙"
+  },
+  {
+   "en": "trillion",
+   "jp": "兆"
+  }
+ ],
+ "homework": {
+  "en": "Which phrase will you use first?",
+  "jp": "最初に使うフレーズはどれ?",
+  "hl": [
+   "use first"
+  ],
+  "say": "最後に宿題です。今週のフレーズの中で、最初に使ってみたいものはどれですか。コメント欄に書いてみてください。"
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "beats": [
+    {
+     "id": "h01",
+     "kind": "jp",
+     "jp": "トヨタ、アップル、任天堂。今週のニュースで学んだ、会議で使える英語18フレーズを、まとめて復習します。",
+     "en": "Toyota, Apple, Nintendo: let's review this week's 18 meeting phrases.",
+     "vis": {
+      "t": "hero",
+      "kicker": "weekly listening",
+      "big": "18フレーズ",
+      "color": "gold",
+      "sub": "今週の会議英語をまとめて復習",
+      "sub_color": "text"
+     }
+    },
+    {
+     "id": "h02",
+     "kind": "jp",
+     "jp": "英語のあとに少し間があるので、意味を思い出してから、答えを聞いてください。作業しながらの聞き流しにもどうぞ。",
+     "en": "There's a pause after each phrase. Recall the meaning, then hear the answer.",
+     "vis": {
+      "t": "points",
+      "show": 3,
+      "items": [
+       {
+        "head": "STEP",
+        "big": "英語を聞く",
+        "sub": "フレーズと例文",
+        "color": "blue"
+       },
+       {
+        "head": "STEP",
+        "big": "思い出す",
+        "sub": "意味を考える間",
+        "color": "gold"
+       },
+       {
+        "head": "STEP",
+        "big": "答え合わせ",
+        "sub": "日本語の意味",
+        "color": "green"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "【聞き流し】会議で使えるビジネス英語18フレーズ|トヨタ・アップル・任天堂のニュースから【ビジネス英語ニュース #28】",
+  "summary": "今週のニュース動画(米中間選挙と日経平均、トヨタ決算、ChatGPTとグーグル、アップル新CEO、任天堂スイッチ2)で学んだ、会議やメールで使えるビジネス英語18フレーズを、英語→間→日本語→例文の順でまとめて復習します。作業中の聞き流しにも使えます。",
+  "tags": [
+   "聞き流し",
+   "ビジネス英語 フレーズ",
+   "会議 英語",
+   "英語 リスニング",
+   "まとめ",
+   "ビジネス英語",
+   "英語学習",
+   "トヨタ",
+   "アップル",
+   "任天堂",
+   "社会人 英語",
+   "business English"
+  ]
+ },
+ "thumbnail": {
+  "big": "18",
+  "big_color": "gold",
+  "under": "会議の英語フレーズ",
+  "badge": "聞き流し",
+  "badge_color": "gold",
+  "question": "今週のまとめ",
+  "pill": "weekly review",
+  "bottom": "ニュースで覚えるビジネス英語",
+  "crack": false
+ },
+ "shorts": [
+  {
+   "phrase": 11,
+   "style": "quiz",
+   "badge": "会議で使う英語|中級",
+   "news_hook": [
+    "その数字、",
+    "定義は?"
+   ],
+   "hook": [
+    "it depends on",
+    "how you define?"
+   ],
+   "ctx": "数字の議論がかみ合わないときに、定義を確かめる一言",
+   "title": "「it depends on how you define」の意味、わかる?|会議の英語 #shorts",
+   "ig_caption": "「it depends on how you define」の意味、わかりますか?\n\n✅ it depends on how you define\n〜をどう定義するかによる\n\n例文:It depends on how you define an active user.\n(アクティブユーザーをどう定義するかによります。)\n\nChatGPTはグーグル検索の5分の1、という数字も、何を1回の検索と数えるかで変わります。数字の議論がかみ合わないときの一言です。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  },
+  {
+   "phrase": 14,
+   "style": "quiz",
+   "badge": "会議で使う英語|中級",
+   "news_hook": [
+    "提案の",
+    "決め手"
+   ],
+   "hook": [
+    "a compelling reason",
+    "どういう意味?"
+   ],
+   "ctx": "提案の決め手を説明するときに使う一言",
+   "title": "「a compelling reason」の意味、わかる?|会議の英語 #shorts",
+   "ig_caption": "「a compelling reason」の意味、わかりますか?\n\n✅ a compelling reason\n説得力のある理由・決め手\n\n例文:We need a compelling reason for clients to switch.\n(顧客に乗り換えてもらうには、説得力のある理由が必要です。)\n\nアップルの新CEOが、新しいハードは買い替えの説得力のある理由になる、と話したときの表現です。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Yahoo Finance「Intel Sinks 29% as Weak Outlook Shows It's \"Still PC Dependent\"」",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/intel-sinks-29-weak-outlook-133944045.html"
+  },
+  {
+   "title": "Intel「Intel Reports Third-Quarter 2026 Financial Results」(2026年10月29日)",
+   "url": "https://www.intc.com/news-events/press-releases/detail/1786/intel-reports-third-quarter-2026-financial-results"
+  },
+  {
+   "title": "IBTimes AU「Nikkei Crashes 6% Into Bear Market as SoftBank, Advantest Lead AI Chip Rout」(2026年11月6日)",
+   "url": "https://www.ibtimes.com.au/japan-nikkei-bear-market-ai-stock-selloff-1878028"
+  },
+  {
+   "title": "Nation Thailand「Asian stocks slide on November 6 after US$2.5tn tech rout」(2026年11月6日)",
+   "url": "https://www.nationthailand.com/business/investment/40073175"
+  },
+  {
+   "title": "Al Jazeera「AI stocks plunge after US election, driving down markets」(2026年11月5日)",
+   "url": "https://aljazeera.com/economy/2026/11/5/ai-stocks-plunge-after-election-driving-down-us-markets"
+  },
+  {
+   "title": "Business Standard「Why Democrats' win in US midterms could spell trouble for the AI boom」(2026年11月6日)",
+   "url": "https://www.business-standard.com/amp/world-news/us-midterms-elections-2026-trump-democrats-republicans-data-centres-stocks-126110600691_1.html"
+  },
+  {
+   "title": "Time News「US Midterm Results Trigger Sell-Off in AI and Semiconductor Shares」(2026年11月6日)",
+   "url": "https://time.news/us-midterm-results-trigger-sell-off-in-ai-and-semiconductor-shares/"
+  },
+  {
+   "title": "Yahoo Finance(Zacks)「Stock Market News for Nov 6, 2026」",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-nov-6-132900980.html"
+  },
+  {
+   "title": "メ〜テレ(名古屋テレビ)「トヨタ中間決算 売上高過去最高の26兆9624億円」(2026年11月5日)",
+   "url": "https://www.nagoyatv.com/news/?id=037900"
+  },
+  {
+   "title": "BigGo ファイナンス「【Toyota FY2026 Q2 決算説明会】トヨタ、通期営業益を5,000億円上方修正し3.9兆円へ」(2026年11月5日)",
+   "url": "https://finance.biggo.jp/news/JP_7203.T_2026-11-05"
+  },
+  {
+   "title": "NHK「トヨタ中間決算 増収増益 利益見通しも上方修正」(2026年11月5日)",
+   "url": "https://news.web.nhk/newsweb/na/nd-20261105de71126"
+  },
+  {
+   "title": "Search Engine Journal「Google's Search Volume Is About 5x ChatGPT's, OpenAI Says」(2026年11月3日)",
+   "url": "https://searchenginejournal.com/googles-search-volume-is-about-5x-chatgpts-openai-says/595817"
+  }
+ ],
+ "publish": {
+  "long": "2026-11-14T07:00:00+09:00",
+  "shorts": [
+   "2026-11-14T12:00:00+09:00",
+   "2026-11-14T21:00:00+09:00"
+  ]
+ }
+}

@@ -1,0 +1,1016 @@
+{
+ "id": "2026-11-10-toyota-raises-forecast",
+ "episode": "#24",
+ "date": "2026-11-05",
+ "series": "決算と数字の英語",
+ "title_card": {
+  "line1": "売上は過去最高、見通しも上方修正。",
+  "line2": "トヨタの決算を英語の数字で読む"
+ },
+ "publish": {
+  "long": "2026-11-10T07:00:00+09:00",
+  "shorts": [
+   "2026-11-10T12:00:00+09:00",
+   "2026-11-10T21:00:00+09:00"
+  ]
+ },
+ "phrases": [
+  {
+   "en": "raise the forecast",
+   "jp": "見通しを引き上げる・上方修正する",
+   "ex": "We should raise the forecast after strong sales in October.",
+   "ex_jp": "10月の売上が好調だったので、見通しを引き上げるべきです。"
+  },
+  {
+   "en": "a record high",
+   "jp": "過去最高",
+   "ex": "Online orders hit a record high last month.",
+   "ex_jp": "先月、オンラインの受注が過去最高になりました。"
+  },
+  {
+   "en": "we can't afford to be complacent",
+   "jp": "油断はできない",
+   "ex": "Sales are up, but we can't afford to be complacent.",
+   "ex_jp": "売上は伸びていますが、油断はできません。"
+  }
+ ],
+ "words": [
+  {
+   "en": "trillion",
+   "jp": "兆"
+  },
+  {
+   "en": "operating profit",
+   "jp": "営業利益"
+  },
+  {
+   "en": "weaker yen",
+   "jp": "円安"
+  }
+ ],
+ "homework": {
+  "en": "Say 26.96 trillion yen in English.",
+  "jp": "26.96兆円を英語で言うと?",
+  "hl": [
+   "trillion"
+  ],
+  "say": "最後に宿題です。26.96兆円を、英語で声に出して言ってみてください。答えを、コメント欄に英語のつづりで書いてみましょう。"
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "beats": [
+    {
+     "id": "h01",
+     "kind": "jp",
+     "jp": "トヨタの4月から9月の売上高は、26兆9624億円。この時期として、過去最高です。",
+     "en": "Toyota's revenue for April to September hit a record 26.96 trillion yen.",
+     "hl": [
+      "record"
+     ],
+     "vis": {
+      "t": "counter",
+      "kicker": "TOYOTA · APR–SEP 2026",
+      "to": 26.96,
+      "decimals": 2,
+      "suffix": "兆円",
+      "color": "green",
+      "sub": "4〜9月の売上高 過去最高",
+      "note": "前年同期比 +9.5%"
+     }
+    },
+    {
+     "id": "h02",
+     "kind": "jp",
+     "jp": "さらに、1年間の利益の見通しを、5000億円引き上げました。この数字、英語で言えますか。",
+     "en": "It also raised its full-year profit forecast by 500 billion yen.",
+     "hl": [
+      "raised",
+      "forecast"
+     ],
+     "vis": {
+      "t": "hero_side",
+      "big": "+5000億円",
+      "color": "green",
+      "text": "raise the forecast",
+      "jp": "見通しを引き上げる"
+     }
+    },
+    {
+     "id": "h03",
+     "kind": "jp",
+     "jp": "今日はこのニュースから、会議で使える英語を3つ。最後に答え合わせをします。",
+     "en": "Three phrases for your next meeting. Answers at the end.",
+     "vis": {
+      "t": "teaser"
+     }
+    }
+   ]
+  },
+  {
+   "id": "what",
+   "chapter": "決算のポイント",
+   "beats": [
+    {
+     "id": "n01",
+     "kind": "jp",
+     "jp": "トヨタは11月5日、4月から9月までの中間決算を発表しました。",
+     "en": "Toyota reported its first-half results on November 5.",
+     "vis": {
+      "t": "cards",
+      "show": 1,
+      "footer": "トヨタ 2026年4〜9月期(前年同期比)",
+      "items": [
+       {
+        "name": "売上高 Revenue",
+        "big": "26.96兆円",
+        "sub": "+9.5%",
+        "note": "過去最高",
+        "color": "green"
+       },
+       {
+        "name": "営業利益 Operating profit",
+        "big": "2.19兆円",
+        "sub": "+9.2%",
+        "note": "3年ぶりの増益",
+        "color": "green"
+       },
+       {
+        "name": "純利益 Net profit",
+        "big": "2.24兆円",
+        "sub": "+26.1%",
+        "color": "gold"
+       }
+      ]
+     }
+    },
+    {
+     "id": "n02",
+     "kind": "jp",
+     "jp": "本業のもうけを示す営業利益は、2兆1911億円。9.2%増えて、3年ぶりの増益です。",
+     "en": "Operating profit rose 9.2% to 2.19 trillion yen, its first rise in three years.",
+     "vis": {
+      "t": "cards",
+      "show": 2,
+      "footer": "トヨタ 2026年4〜9月期(前年同期比)",
+      "items": [
+       {
+        "name": "売上高 Revenue",
+        "big": "26.96兆円",
+        "sub": "+9.5%",
+        "note": "過去最高",
+        "color": "green"
+       },
+       {
+        "name": "営業利益 Operating profit",
+        "big": "2.19兆円",
+        "sub": "+9.2%",
+        "note": "3年ぶりの増益",
+        "color": "green"
+       },
+       {
+        "name": "純利益 Net profit",
+        "big": "2.24兆円",
+        "sub": "+26.1%",
+        "color": "gold"
+       }
+      ]
+     }
+    },
+    {
+     "id": "n03",
+     "kind": "jp",
+     "jp": "純利益は、2兆2364億円で、26.1%の増加でした。",
+     "en": "Net profit jumped 26.1% to 2.24 trillion yen.",
+     "vis": {
+      "t": "cards",
+      "show": 3,
+      "footer": "トヨタ 2026年4〜9月期(前年同期比)",
+      "items": [
+       {
+        "name": "売上高 Revenue",
+        "big": "26.96兆円",
+        "sub": "+9.5%",
+        "note": "過去最高",
+        "color": "green"
+       },
+       {
+        "name": "営業利益 Operating profit",
+        "big": "2.19兆円",
+        "sub": "+9.2%",
+        "note": "3年ぶりの増益",
+        "color": "green"
+       },
+       {
+        "name": "純利益 Net profit",
+        "big": "2.24兆円",
+        "sub": "+26.1%",
+        "color": "gold"
+       }
+      ]
+     }
+    },
+    {
+     "id": "n04",
+     "kind": "jp",
+     "jp": "売上高は、この時期として過去最高。英語では、ア・レコード・ハイ、と言います。",
+     "en": "Revenue hit 'a record high' for the period.",
+     "hl": [
+      "a record high"
+     ],
+     "star": true,
+     "vis": {
+      "t": "cards",
+      "show": 3,
+      "footer": "トヨタ 2026年4〜9月期(前年同期比)",
+      "items": [
+       {
+        "name": "売上高 Revenue",
+        "big": "26.96兆円",
+        "sub": "+9.5%",
+        "note": "過去最高",
+        "color": "green"
+       },
+       {
+        "name": "営業利益 Operating profit",
+        "big": "2.19兆円",
+        "sub": "+9.2%",
+        "note": "3年ぶりの増益",
+        "color": "green"
+       },
+       {
+        "name": "純利益 Net profit",
+        "big": "2.24兆円",
+        "sub": "+26.1%",
+        "color": "gold"
+       }
+      ]
+     }
+    },
+    {
+     "id": "n05",
+     "kind": "en_insert",
+     "jp": "売上高は過去最高になった",
+     "en": "Revenue hit a record high.",
+     "hl": [
+      "a record high"
+     ],
+     "star": true,
+     "vis": {
+      "t": "cards",
+      "show": 3,
+      "footer": "トヨタ 2026年4〜9月期(前年同期比)",
+      "items": [
+       {
+        "name": "売上高 Revenue",
+        "big": "26.96兆円",
+        "sub": "+9.5%",
+        "note": "過去最高",
+        "color": "green"
+       },
+       {
+        "name": "営業利益 Operating profit",
+        "big": "2.19兆円",
+        "sub": "+9.2%",
+        "note": "3年ぶりの増益",
+        "color": "green"
+       },
+       {
+        "name": "純利益 Net profit",
+        "big": "2.24兆円",
+        "sub": "+26.1%",
+        "color": "gold"
+       }
+      ]
+     }
+    },
+    {
+     "id": "n06",
+     "kind": "jp",
+     "jp": "追い風は、円安です。1ドル146円だった前の年から、159円まで円安が進み、利益を押し上げました。",
+     "en": "A weaker yen, from 146 to 159 per dollar, boosted profits.",
+     "vis": {
+      "t": "vs",
+      "left": {
+       "en": "weaker yen",
+       "label": "円安",
+       "val": "1ドル146円→159円",
+       "up": true,
+       "color": "green"
+      },
+      "right": {
+       "en": "costs",
+       "label": "材料費・関税",
+       "val": "重しに",
+       "up": false,
+       "color": "red"
+      },
+      "mid": "それでも"
+     }
+    },
+    {
+     "id": "n07",
+     "kind": "jp",
+     "jp": "一方で、材料費の高騰や中国市場の減速が、重しになりました。",
+     "en": "But higher material costs and a slower China weighed on results.",
+     "vis": {
+      "t": "vs",
+      "left": {
+       "en": "weaker yen",
+       "label": "円安",
+       "val": "1ドル146円→159円",
+       "up": true,
+       "color": "green"
+      },
+      "right": {
+       "en": "costs",
+       "label": "材料費・関税",
+       "val": "重しに",
+       "up": false,
+       "color": "red"
+      },
+      "mid": "それでも"
+     }
+    }
+   ]
+  },
+  {
+   "id": "numbers",
+   "chapter": "大きな数字を英語で",
+   "beats": [
+    {
+     "id": "k01",
+     "kind": "jp",
+     "jp": "ここで、大きな数字の言い方です。英語には、万や億の単位がありません。3けたごとに区切って数えます。",
+     "en": "English has no word for 'man' or 'oku.' It counts in groups of three digits.",
+     "vis": {
+      "t": "points",
+      "show": 1,
+      "items": [
+       {
+        "num": "1",
+        "head": "1兆",
+        "big": "one\ntrillion",
+        "sub": "ワン・トリリオン",
+        "color": "gold"
+       },
+       {
+        "num": "2",
+        "head": "1000億",
+        "big": "100\nbillion",
+        "sub": "ハンドレッド・ビリオン",
+        "color": "blue"
+       },
+       {
+        "num": "3",
+        "head": "26.96兆",
+        "big": "26.96\ntrillion",
+        "sub": "トゥエンティシックス・\nポイント・ナイン・シックス",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "k02",
+     "kind": "jp",
+     "jp": "1兆は、ワン・トリリオン。1000億は、ハンドレッド・ビリオンです。",
+     "en": "One 'cho' is one trillion. 100 'oku' is 100 billion.",
+     "hl": [
+      "trillion",
+      "billion"
+     ],
+     "vis": {
+      "t": "points",
+      "show": 2,
+      "items": [
+       {
+        "num": "1",
+        "head": "1兆",
+        "big": "one\ntrillion",
+        "sub": "ワン・トリリオン",
+        "color": "gold"
+       },
+       {
+        "num": "2",
+        "head": "1000億",
+        "big": "100\nbillion",
+        "sub": "ハンドレッド・ビリオン",
+        "color": "blue"
+       },
+       {
+        "num": "3",
+        "head": "26.96兆",
+        "big": "26.96\ntrillion",
+        "sub": "トゥエンティシックス・\nポイント・ナイン・シックス",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "k03",
+     "kind": "jp",
+     "jp": "26.96兆円は、トゥエンティシックス・ポイント・ナイン・シックス・トリリオン円。小数点は、ポイントと読みます。",
+     "en": "26.96 trillion yen: read the decimal point as 'point.'",
+     "hl": [
+      "point"
+     ],
+     "vis": {
+      "t": "points",
+      "show": 3,
+      "items": [
+       {
+        "num": "1",
+        "head": "1兆",
+        "big": "one\ntrillion",
+        "sub": "ワン・トリリオン",
+        "color": "gold"
+       },
+       {
+        "num": "2",
+        "head": "1000億",
+        "big": "100\nbillion",
+        "sub": "ハンドレッド・ビリオン",
+        "color": "blue"
+       },
+       {
+        "num": "3",
+        "head": "26.96兆",
+        "big": "26.96\ntrillion",
+        "sub": "トゥエンティシックス・\nポイント・ナイン・シックス",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "k04",
+     "kind": "jp",
+     "jp": "ちなみに、5000億円は、ファイブ・ハンドレッド・ビリオン円です。",
+     "en": "And 500 billion yen is 'five hundred billion yen.'",
+     "hl": [
+      "five hundred billion"
+     ],
+     "vis": {
+      "t": "points",
+      "show": 3,
+      "items": [
+       {
+        "num": "1",
+        "head": "1兆",
+        "big": "one\ntrillion",
+        "sub": "ワン・トリリオン",
+        "color": "gold"
+       },
+       {
+        "num": "2",
+        "head": "1000億",
+        "big": "100\nbillion",
+        "sub": "ハンドレッド・ビリオン",
+        "color": "blue"
+       },
+       {
+        "num": "3",
+        "head": "26.96兆",
+        "big": "26.96\ntrillion",
+        "sub": "トゥエンティシックス・\nポイント・ナイン・シックス",
+        "color": "green"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "why",
+   "chapter": "上方修正の中身",
+   "beats": [
+    {
+     "id": "y01",
+     "kind": "jp",
+     "jp": "8月の時点では、トヨタは減益を予想していました。それが今回、増益の見通しに変わりました。",
+     "en": "In August, Toyota expected lower profit. Now it expects growth.",
+     "vis": {
+      "t": "bars",
+      "title": "通期の営業利益の見通し(2027年3月期)",
+      "unit": "兆円",
+      "items": [
+       {
+        "label": "8月の見通し",
+        "value": 3.4,
+        "display": "3.4兆円(減益予想)",
+        "color": "muted"
+       },
+       {
+        "label": "11月の見通し",
+        "value": 3.9,
+        "display": "3.9兆円(増益に)",
+        "color": "green"
+       }
+      ],
+      "note": "5000億円の上方修正。売上高の見通しは53.5兆円で過去最高"
+     }
+    },
+    {
+     "id": "y02",
+     "kind": "jp",
+     "jp": "1年間の営業利益の見通しは、5000億円引き上げて、3兆9000億円です。",
+     "en": "It raised its operating profit forecast by 500 billion to 3.9 trillion yen.",
+     "hl": [
+      "raised"
+     ],
+     "vis": {
+      "t": "bars",
+      "title": "通期の営業利益の見通し(2027年3月期)",
+      "unit": "兆円",
+      "items": [
+       {
+        "label": "8月の見通し",
+        "value": 3.4,
+        "display": "3.4兆円(減益予想)",
+        "color": "muted"
+       },
+       {
+        "label": "11月の見通し",
+        "value": 3.9,
+        "display": "3.9兆円(増益に)",
+        "color": "green"
+       }
+      ],
+      "note": "5000億円の上方修正。売上高の見通しは53.5兆円で過去最高"
+     }
+    },
+    {
+     "id": "y03",
+     "kind": "jp",
+     "jp": "見通しを引き上げる。英語では、レイズ・ザ・フォーキャスト、と言います。",
+     "en": "To revise a forecast upward is to 'raise the forecast.'",
+     "hl": [
+      "raise the forecast"
+     ],
+     "star": true,
+     "vis": {
+      "t": "bars",
+      "title": "通期の営業利益の見通し(2027年3月期)",
+      "unit": "兆円",
+      "items": [
+       {
+        "label": "8月の見通し",
+        "value": 3.4,
+        "display": "3.4兆円(減益予想)",
+        "color": "muted"
+       },
+       {
+        "label": "11月の見通し",
+        "value": 3.9,
+        "display": "3.9兆円(増益に)",
+        "color": "green"
+       }
+      ],
+      "note": "5000億円の上方修正。売上高の見通しは53.5兆円で過去最高"
+     }
+    },
+    {
+     "id": "y04",
+     "kind": "en_insert",
+     "jp": "見通しを引き上げました",
+     "en": "We raised the forecast.",
+     "hl": [
+      "raised the forecast"
+     ],
+     "star": true,
+     "vis": {
+      "t": "bars",
+      "title": "通期の営業利益の見通し(2027年3月期)",
+      "unit": "兆円",
+      "items": [
+       {
+        "label": "8月の見通し",
+        "value": 3.4,
+        "display": "3.4兆円(減益予想)",
+        "color": "muted"
+       },
+       {
+        "label": "11月の見通し",
+        "value": 3.9,
+        "display": "3.9兆円(増益に)",
+        "color": "green"
+       }
+      ],
+      "note": "5000億円の上方修正。売上高の見通しは53.5兆円で過去最高"
+     }
+    },
+    {
+     "id": "y05",
+     "kind": "jp",
+     "jp": "上方修正、という堅い言葉を、英語ではこのくらいシンプルに言えます。下げるときは、ロワー・ザ・フォーキャストです。",
+     "en": "Simple English works. To cut it, say 'lower the forecast.'",
+     "hl": [
+      "lower the forecast"
+     ],
+     "vis": {
+      "t": "bars",
+      "title": "通期の営業利益の見通し(2027年3月期)",
+      "unit": "兆円",
+      "items": [
+       {
+        "label": "8月の見通し",
+        "value": 3.4,
+        "display": "3.4兆円(減益予想)",
+        "color": "muted"
+       },
+       {
+        "label": "11月の見通し",
+        "value": 3.9,
+        "display": "3.9兆円(増益に)",
+        "color": "green"
+       }
+      ],
+      "note": "5000億円の上方修正。売上高の見通しは53.5兆円で過去最高"
+     }
+    },
+    {
+     "id": "y06",
+     "kind": "jp",
+     "jp": "なぜ上向いたのか。ひとつは、ガソリン価格の高止まりで、燃費のよいハイブリッド車が売れたことです。",
+     "en": "High gasoline prices made fuel-efficient hybrids popular.",
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "ガソリン高",
+        "mid": "燃費のよい車へ",
+        "res": "ハイブリッド車が人気",
+        "ok": true
+       },
+       {
+        "a": "関税の負担",
+        "mid": "原価改善で吸収",
+        "res": "北米が黒字に転換",
+        "ok": true
+       },
+       {
+        "a": "中国の減速・材料費",
+        "mid": "逆風",
+        "res": "まだ跳ね返せていない",
+        "ok": false
+       }
+      ]
+     }
+    },
+    {
+     "id": "y07",
+     "kind": "jp",
+     "jp": "もうひとつは、関税の負担を、原価改善で吸収したことです。北米は、前の年の赤字から黒字に変わりました。",
+     "en": "Cost cuts absorbed tariffs, and North America swung to a profit.",
+     "vis": {
+      "t": "timeline",
+      "items": [
+       {
+        "when": "北米",
+        "text": "前年の2340億円の赤字 → 1661億円の黒字に",
+        "color": "green"
+       },
+       {
+        "when": "電動車",
+        "text": "販売に占める割合が55.6%に(前年46.7%)",
+        "color": "gold"
+       },
+       {
+        "when": "関税",
+        "text": "通期の影響はおよそ1.1兆円の見込み",
+        "color": "red"
+       }
+      ],
+      "show": 3
+     }
+    },
+    {
+     "id": "y08",
+     "kind": "jp",
+     "jp": "それでも、宮崎CFOは、数字が反転したからと、おごることが最大のリスクだ、と話しました。関税や中東の影響は、まだ跳ね返せていない、と言います。",
+     "en": "The CFO warned that complacency is the biggest risk now.",
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "数字が反転したからと",
+       "おごることが",
+       "最大のリスク"
+      ],
+      "hl": [
+       "最大のリスク"
+      ],
+      "by": "宮崎CFO, トヨタ自動車(11月5日の決算説明会)"
+     }
+    },
+    {
+     "id": "y09",
+     "kind": "jp",
+     "jp": "この、おごってはいけない、油断はできない、を英語で言うと、ウィー・キャント・アフォード・トゥ・ビー・コンプレイスント。",
+     "en": "In English: we can't afford to be complacent.",
+     "hl": [
+      "we can't afford to be complacent"
+     ],
+     "star": true,
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "数字が反転したからと",
+       "おごることが",
+       "最大のリスク"
+      ],
+      "hl": [
+       "最大のリスク"
+      ],
+      "by": "宮崎CFO, トヨタ自動車(11月5日の決算説明会)"
+     }
+    },
+    {
+     "id": "y10",
+     "kind": "en_insert",
+     "jp": "油断はできない",
+     "en": "We can't afford to be complacent.",
+     "hl": [
+      "can't afford to be complacent"
+     ],
+     "star": true,
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "数字が反転したからと",
+       "おごることが",
+       "最大のリスク"
+      ],
+      "hl": [
+       "最大のリスク"
+      ],
+      "by": "宮崎CFO, トヨタ自動車(11月5日の決算説明会)"
+     }
+    },
+    {
+     "id": "y11",
+     "kind": "jp",
+     "jp": "キャント・アフォードは、そんな余裕はない、という意味。好調な数字を報告したあとに、ひとこと添えると引き締まります。",
+     "en": "'Can't afford' means there's no room for it. Add it after good news.",
+     "hl": [
+      "can't afford"
+     ],
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "数字が反転したからと",
+       "おごることが",
+       "最大のリスク"
+      ],
+      "hl": [
+       "最大のリスク"
+      ],
+      "by": "宮崎CFO, トヨタ自動車(11月5日の決算説明会)"
+     }
+    }
+   ]
+  },
+  {
+   "id": "insight",
+   "chapter": "私たちへの意味",
+   "beats": [
+    {
+     "id": "i01",
+     "kind": "jp",
+     "jp": "ここからは、日本で働く私たちにとっての意味を考えます。",
+     "en": "What does this mean for those of us working in Japan?",
+     "vis": {
+      "t": "statement",
+      "kicker": "SO WHAT?",
+      "text": "日本で働く私たちにとっての意味"
+     }
+    },
+    {
+     "id": "i02",
+     "kind": "jp",
+     "jp": "読み取れるのは、円安が大きな追い風になっていることです。1ドル159円という前提で、利益が膨らみました。",
+     "en": "A weak yen, at 159 per dollar, inflated the profits.",
+     "vis": {
+      "t": "points",
+      "show": 1,
+      "items": [
+       {
+        "head": "読み取れること",
+        "big": "円安が\n追い風",
+        "sub": "1ドル159円の前提で\n利益が膨らんだ",
+        "color": "gold"
+       },
+       {
+        "head": "逆の見方",
+        "big": "円高なら\n逆回転",
+        "sub": "為替しだいで\n数字は変わる",
+        "color": "blue"
+       },
+       {
+        "head": "日本の現場",
+        "big": "数字は\n英語で",
+        "sub": "兆・億を\n言い換える練習を",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i03",
+     "kind": "jp",
+     "jp": "一方で、逆の見方もあります。円高に振れれば、同じ仕組みで利益は減ります。トヨタも、通期は1ドル157円を前提にしています。",
+     "en": "But if the yen strengthens, the same effect works in reverse.",
+     "vis": {
+      "t": "points",
+      "show": 2,
+      "items": [
+       {
+        "head": "読み取れること",
+        "big": "円安が\n追い風",
+        "sub": "1ドル159円の前提で\n利益が膨らんだ",
+        "color": "gold"
+       },
+       {
+        "head": "逆の見方",
+        "big": "円高なら\n逆回転",
+        "sub": "為替しだいで\n数字は変わる",
+        "color": "blue"
+       },
+       {
+        "head": "日本の現場",
+        "big": "数字は\n英語で",
+        "sub": "兆・億を\n言い換える練習を",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i04",
+     "kind": "jp",
+     "jp": "そして、海外との会議では、兆や億の数字がよく出ます。トリリオンとビリオンで、すぐに言い換えられるよう練習しておきましょう。",
+     "en": "In global meetings, practice turning cho and oku into trillions and billions.",
+     "hl": [
+      "trillions",
+      "billions"
+     ],
+     "vis": {
+      "t": "points",
+      "show": 3,
+      "items": [
+       {
+        "head": "読み取れること",
+        "big": "円安が\n追い風",
+        "sub": "1ドル159円の前提で\n利益が膨らんだ",
+        "color": "gold"
+       },
+       {
+        "head": "逆の見方",
+        "big": "円高なら\n逆回転",
+        "sub": "為替しだいで\n数字は変わる",
+        "color": "blue"
+       },
+       {
+        "head": "日本の現場",
+        "big": "数字は\n英語で",
+        "sub": "兆・億を\n言い換える練習を",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i05",
+     "kind": "jp",
+     "jp": "好調な数字を報告するときは、ア・レコード・ハイ。そのあとに、ウィー・キャント・アフォード・トゥ・ビー・コンプレイスント、と続ければ、信頼されます。",
+     "en": "Report 'a record high,' then add: we can't afford to be complacent.",
+     "hl": [
+      "a record high",
+      "can't afford to be complacent"
+     ],
+     "vis": {
+      "t": "points",
+      "show": 3,
+      "items": [
+       {
+        "head": "読み取れること",
+        "big": "円安が\n追い風",
+        "sub": "1ドル159円の前提で\n利益が膨らんだ",
+        "color": "gold"
+       },
+       {
+        "head": "逆の見方",
+        "big": "円高なら\n逆回転",
+        "sub": "為替しだいで\n数字は変わる",
+        "color": "blue"
+       },
+       {
+        "head": "日本の現場",
+        "big": "数字は\n英語で",
+        "sub": "兆・億を\n言い換える練習を",
+        "color": "green"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "「見通しを引き上げる」は英語で?raise the forecastの使い方|トヨタが上方修正【ビジネス英語ニュース #24】",
+  "summary": "トヨタは2026年11月5日、4〜9月期の売上高が26兆9624億円と過去最高になり、通期の営業利益見通しを5000億円引き上げたと発表しました。兆や億を英語でどう言うか、決算報告で使える英語とあわせて学びます。",
+  "tags": [
+   "ビジネス英語",
+   "英語学習",
+   "ニュース英語",
+   "時事英語",
+   "会議 英語",
+   "トヨタ",
+   "Toyota",
+   "決算",
+   "上方修正",
+   "数字 英語",
+   "兆 英語",
+   "円安",
+   "教養",
+   "社会人 英語",
+   "business English"
+  ]
+ },
+ "thumbnail": {
+  "big": "26.96兆",
+  "big_color": "green",
+  "under": "過去最高の売上",
+  "badge": "トヨタ決算",
+  "badge_color": "gold",
+  "question": "英語で言える?",
+  "pill": "raise the forecast",
+  "bottom": "会議で使える英語3つ",
+  "crack": false
+ },
+ "shorts": [
+  {
+   "phrase": 0,
+   "news_hook": [
+    "トヨタが",
+    "5000億円上方修正"
+   ],
+   "hook": [
+    "「見通しを",
+    "引き上げる」英語で?"
+   ],
+   "ctx": "トヨタが利益の見通しを5000億円引き上げた",
+   "title": "「見通しを引き上げる」は英語で?トヨタが5000億円の上方修正 #ビジネス英語 #shorts",
+   "ig_caption": "「見通しを引き上げる(上方修正する)」を英語で言えますか?\n\n✅ raise the forecast\n見通しを引き上げる・上方修正する\n\n例文:We should raise the forecast after strong sales in October.\n(10月の売上が好調だったので、見通しを引き上げるべきです。)\n\nトヨタは11月5日、通期の営業利益の見通しを5000億円引き上げ、3兆9000億円にしました。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  },
+  {
+   "phrase": 2,
+   "style": "quiz",
+   "badge": "会議で使う英語|中級",
+   "news_hook": [
+    "好調なときの",
+    "ひとこと"
+   ],
+   "hook": [
+    "can't afford to be",
+    "complacent って?"
+   ],
+   "ctx": "好調な数字を報告したあとに添える、引き締めの一言",
+   "title": "「we can't afford to be complacent」の意味、わかる?|会議の英語 #shorts",
+   "ig_caption": "「we can't afford to be complacent」の意味、わかりますか?\n\n✅ we can't afford to be complacent\n油断はできない\n\n例文:Sales are up, but we can't afford to be complacent.\n(売上は伸びていますが、油断はできません。)\n\nトヨタのCFOは、数字が反転したからとおごることが最大のリスクだと話しました。好調な報告のあとに添えたい一言です。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  }
+ ],
+ "sources": [
+  {
+   "title": "メ〜テレ(名古屋テレビ)「トヨタ中間決算 売上高過去最高の26兆9624億円」(2026年11月5日)",
+   "url": "https://www.nagoyatv.com/news/?id=037900"
+  },
+  {
+   "title": "BigGo ファイナンス「【Toyota FY2026 Q2 決算説明会】トヨタ、通期営業益を5,000億円上方修正し3.9兆円へ」(2026年11月5日)",
+   "url": "https://finance.biggo.jp/news/JP_7203.T_2026-11-05"
+  },
+  {
+   "title": "NHK「トヨタ中間決算 増収増益 利益見通しも上方修正」(2026年11月5日)",
+   "url": "https://news.web.nhk/newsweb/na/nd-20261105de71126"
+  }
+ ],
+ "readings": [
+  [
+   "CFO",
+   "シーエフオー"
+  ],
+  [
+   "26兆9624億円",
+   "にじゅうろくちょう きゅうせんろっぴゃくにじゅうよんおくえん"
+  ],
+  [
+   "2兆1911億円",
+   "にちょう せんきゅうひゃくじゅういちおくえん"
+  ],
+  [
+   "2兆2364億円",
+   "にちょう にせんさんびゃくろくじゅうよんおくえん"
+  ]
+ ]
+}

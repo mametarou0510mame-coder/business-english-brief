@@ -166,6 +166,20 @@ def v_outro(d, ep, b, vt):
     if v == 0:
         a = ease(vt / 0.5)
         spaced(d, (W / 2, 190), "TODAY'S PHRASES", F("in_bl", 48), mix(GOLD, a), 8, "m")
+        if len(P) > 3:  # weekly compilation: compact 3-column grid so all phrases fit above the subtitles
+            cols = 3
+            rows = (len(P) + cols - 1) // cols
+            ch = min(150, (770 - 260) // rows)
+            cw = 1700 // cols
+            for i, p_ in enumerate(P):
+                p = ease((vt - 0.2 - i * 0.06) / 0.45)
+                x0, y0 = 110 + (i % cols) * cw, 260 + (i // cols) * ch
+                rr(d, (x0, y0, x0 + cw - 20, y0 + ch - 10), 16, fill=mix(PANEL, p), outline=mix(LINE, p), width=2)
+                txt(d, (x0 + 20, y0 + (ch - 10) / 2), f"{i + 1:02d}", F("in_bl", 26), mix(GOLD, p), "lm")
+                txt(d, (x0 + 75, y0 + (ch - 10) * 0.34), p_["en"], fit_font("in_b", 30, p_["en"], cw - 115, 18), mix(TEXT, p), "lm")
+                txt(d, (x0 + 75, y0 + (ch - 10) * 0.72), p_["jp"], fit_font("jp_m", 20, p_["jp"], cw - 115, 14), mix(GOLD, p), "lm")
+            txt(d, (1790, 795), "保存して、明日の会議前に見返そう", F("jp_m", 28), mix(MUTED, ease((vt - 1.0) / 0.5)), "rm")
+            return
         for i, p_ in enumerate(P):
             p = ease((vt - 0.2 - i * 0.2) / 0.45)
             y0 = 270 + i * 165

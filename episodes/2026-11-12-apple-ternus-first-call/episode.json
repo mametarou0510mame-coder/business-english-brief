@@ -1,0 +1,768 @@
+{
+ "id": "2026-11-12-apple-ternus-first-call",
+ "episode": "#26",
+ "date": "2026-11-02",
+ "series": "経営者の一言を読む",
+ "title_card": {
+  "line1": "アップル新CEO、最初の一言。",
+  "line2": "ターナス氏の英語を読む"
+ },
+ "publish": {
+  "long": "2026-11-12T07:00:00+09:00",
+  "shorts": [
+   "2026-11-12T12:00:00+09:00",
+   "2026-11-12T21:00:00+09:00"
+  ]
+ },
+ "phrases": [
+  {
+   "en": "it's a privilege to",
+   "jp": "〜できて光栄です",
+   "ex": "It's a privilege to work with you on this project.",
+   "ex_jp": "このプロジェクトでご一緒できて光栄です。"
+  },
+  {
+   "en": "unprecedented",
+   "jp": "前例のない・かつてない",
+   "ex": "The demand we're seeing this year is unprecedented.",
+   "ex_jp": "今年の需要は、前例のない水準です。"
+  },
+  {
+   "en": "a compelling reason",
+   "jp": "説得力のある理由・決め手",
+   "ex": "We need a compelling reason for clients to switch.",
+   "ex_jp": "顧客に乗り換えてもらうには、説得力のある理由が必要です。"
+  }
+ ],
+ "words": [
+  {
+   "en": "earnings call",
+   "jp": "決算説明会"
+  },
+  {
+   "en": "gross margin",
+   "jp": "粗利率"
+  },
+  {
+   "en": "succeed",
+   "jp": "後を継ぐ"
+  }
+ ],
+ "homework": {
+  "en": "Introduce yourself with 'It's a privilege to...'",
+  "jp": "「光栄です」で自己紹介してみよう",
+  "hl": [
+   "privilege"
+  ],
+  "say": "最後に宿題です。新しいチームに入ったつもりで、イッツ・ア・プリビレッジ・トゥを使った自己紹介を、コメント欄に英語で書いてみてください。"
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "beats": [
+    {
+     "id": "h01",
+     "kind": "jp",
+     "jp": "アップルの新しいCEOとして、初めての決算説明会です。今日は、こうして皆さんとお話しできて光栄です。",
+     "en": "'It's a privilege to be with you for the first time as Apple CEO.'",
+     "hl": [
+      "It's a privilege to"
+     ],
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "It's a privilege to be with you",
+       "for the first time",
+       "as Apple CEO."
+      ],
+      "hl": [
+       "It's a privilege to"
+      ],
+      "by": "John Ternus, CEO, Apple(11月2日の決算説明会)"
+     }
+    },
+    {
+     "id": "h02",
+     "kind": "jp",
+     "jp": "ティム・クック氏の後を継いだ、ジョン・ターナス氏の第一声です。この光栄です、を英語でどう言うか、わかりますか。",
+     "en": "The first words of John Ternus, who succeeded Tim Cook.",
+     "vis": {
+      "t": "timeline",
+      "items": [
+       {
+        "when": "2026年9月1日",
+        "text": "ジョン・ターナス氏が、ティム・クック氏の後を継いでCEOに",
+        "color": "gold"
+       },
+       {
+        "when": "11月2日",
+        "text": "CEOとして初めての決算説明会",
+        "color": "blue"
+       },
+       {
+        "when": "10〜12月期",
+        "text": "会社の歴史で最高の売上を見込む",
+        "color": "green"
+       }
+      ],
+      "show": 1
+     }
+    },
+    {
+     "id": "h03",
+     "kind": "jp",
+     "jp": "今日はこのニュースから、会議で使える英語を3つ。最後に答え合わせをします。",
+     "en": "Three phrases for your next meeting. Answers at the end.",
+     "vis": {
+      "t": "teaser"
+     }
+    }
+   ]
+  },
+  {
+   "id": "what",
+   "chapter": "決算のポイント",
+   "beats": [
+    {
+     "id": "n01",
+     "kind": "jp",
+     "jp": "ターナス氏は、9月1日にCEOになりました。11月2日が、CEOとして初めての決算説明会です。",
+     "en": "Ternus became CEO on September 1. November 2 was his first earnings call.",
+     "vis": {
+      "t": "timeline",
+      "items": [
+       {
+        "when": "2026年9月1日",
+        "text": "ジョン・ターナス氏が、ティム・クック氏の後を継いでCEOに",
+        "color": "gold"
+       },
+       {
+        "when": "11月2日",
+        "text": "CEOとして初めての決算説明会",
+        "color": "blue"
+       },
+       {
+        "when": "10〜12月期",
+        "text": "会社の歴史で最高の売上を見込む",
+        "color": "green"
+       }
+      ],
+      "show": 2
+     }
+    },
+    {
+     "id": "n02",
+     "kind": "jp",
+     "jp": "7月から9月の売上は、1145億ドル。前の年より12%増えて、この時期として過去最高でした。",
+     "en": "Revenue rose 12% to $114.5 billion, a record for the quarter.",
+     "vis": {
+      "t": "counter",
+      "kicker": "APPLE · JUL–SEP 2026",
+      "to": 114.5,
+      "decimals": 1,
+      "prefix": "$",
+      "suffix": "B",
+      "color": "green",
+      "sub": "7〜9月の売上 前年比 +12%",
+      "note": "この時期として過去最高"
+     }
+    },
+    {
+     "id": "n03",
+     "kind": "jp",
+     "jp": "伸びたのは、マックが24%、iPhoneが17%。サービスの売上も、過去最高です。一方で、iPadは10%減りました。",
+     "en": "Mac grew 24% and iPhone 17%, while iPad fell 10%.",
+     "vis": {
+      "t": "bars",
+      "title": "製品ごとの売上の伸び(前年比)",
+      "unit": "%",
+      "items": [
+       {
+        "label": "Mac",
+        "value": 24,
+        "display": "+24%",
+        "color": "green"
+       },
+       {
+        "label": "iPhone",
+        "value": 17,
+        "display": "+17%",
+        "color": "green"
+       },
+       {
+        "label": "サービス",
+        "value": 10,
+        "display": "+10%",
+        "color": "gold"
+       },
+       {
+        "label": "iPad",
+        "value": -10,
+        "display": "−10%",
+        "color": "red"
+       }
+      ],
+      "note": "iPhoneの売上は576億ドル。サービスは過去最高の316億ドル"
+     }
+    },
+    {
+     "id": "n04",
+     "kind": "jp",
+     "jp": "さらに、10月から12月は、会社の歴史で最高の売上になる見込みだと、CFOが話しました。",
+     "en": "The CFO expects the best revenue quarter in Apple's history.",
+     "vis": {
+      "t": "timeline",
+      "items": [
+       {
+        "when": "2026年9月1日",
+        "text": "ジョン・ターナス氏が、ティム・クック氏の後を継いでCEOに",
+        "color": "gold"
+       },
+       {
+        "when": "11月2日",
+        "text": "CEOとして初めての決算説明会",
+        "color": "blue"
+       },
+       {
+        "when": "10〜12月期",
+        "text": "会社の歴史で最高の売上を見込む",
+        "color": "green"
+       }
+      ],
+      "show": 3
+     }
+    }
+   ]
+  },
+  {
+   "id": "why",
+   "chapter": "新CEOの一言を読む",
+   "beats": [
+    {
+     "id": "y01",
+     "kind": "jp",
+     "jp": "では、ターナス氏の言葉を、詳しく見てみましょう。まずは、最初のあいさつです。",
+     "en": "Let's look closely at his words, starting with his greeting.",
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "It's a privilege to be with you",
+       "for the first time",
+       "as Apple CEO."
+      ],
+      "hl": [
+       "It's a privilege to"
+      ],
+      "by": "John Ternus, CEO, Apple(11月2日の決算説明会)"
+     }
+    },
+    {
+     "id": "y02",
+     "kind": "jp",
+     "jp": "イッツ・ア・プリビレッジ・トゥ。〜できて光栄です、という意味です。後ろに、動詞を続けます。",
+     "en": "'It's a privilege to' plus a verb means you're honored to do something.",
+     "hl": [
+      "It's a privilege to"
+     ],
+     "star": true,
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "It's a privilege to be with you",
+       "for the first time",
+       "as Apple CEO."
+      ],
+      "hl": [
+       "It's a privilege to"
+      ],
+      "by": "John Ternus, CEO, Apple(11月2日の決算説明会)"
+     }
+    },
+    {
+     "id": "y03",
+     "kind": "en_insert",
+     "jp": "皆さんとご一緒できて光栄です",
+     "en": "It's a privilege to be with you.",
+     "hl": [
+      "It's a privilege to"
+     ],
+     "star": true,
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "It's a privilege to be with you",
+       "for the first time",
+       "as Apple CEO."
+      ],
+      "hl": [
+       "It's a privilege to"
+      ],
+      "by": "John Ternus, CEO, Apple(11月2日の決算説明会)"
+     }
+    },
+    {
+     "id": "y04",
+     "kind": "jp",
+     "jp": "新しい役職についたときや、大事な取引先との初めての会議で、そのまま使えます。",
+     "en": "Use it in a new role or a first meeting with an important client.",
+     "hl": [
+      "privilege"
+     ],
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "It's a privilege to be with you",
+       "for the first time",
+       "as Apple CEO."
+      ],
+      "hl": [
+       "It's a privilege to"
+      ],
+      "by": "John Ternus, CEO, Apple(11月2日の決算説明会)"
+     }
+    },
+    {
+     "id": "y05",
+     "kind": "jp",
+     "jp": "次は、メモリーの値段についての一言です。AIブームで、メモリーの価格が上がり続けています。",
+     "en": "Next, memory prices, which keep rising because of the AI boom.",
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "What we're seeing",
+       "with memory pricing right now",
+       "is unprecedented"
+      ],
+      "hl": [
+       "unprecedented"
+      ],
+      "by": "John Ternus, CEO, Apple(決算説明会)"
+     }
+    },
+    {
+     "id": "y06",
+     "kind": "jp",
+     "jp": "今、メモリーの価格で起きていることは、前例がない。ターナス氏は、こう話しました。",
+     "en": "He said what's happening with memory pricing is unprecedented.",
+     "hl": [
+      "unprecedented"
+     ],
+     "star": true,
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "What we're seeing",
+       "with memory pricing right now",
+       "is unprecedented"
+      ],
+      "hl": [
+       "unprecedented"
+      ],
+      "by": "John Ternus, CEO, Apple(決算説明会)"
+     }
+    },
+    {
+     "id": "y07",
+     "kind": "en_insert",
+     "jp": "前例のない",
+     "en": "unprecedented",
+     "hl": [
+      "unprecedented"
+     ],
+     "star": true,
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "What we're seeing",
+       "with memory pricing right now",
+       "is unprecedented"
+      ],
+      "hl": [
+       "unprecedented"
+      ],
+      "by": "John Ternus, CEO, Apple(決算説明会)"
+     }
+    },
+    {
+     "id": "y08",
+     "kind": "jp",
+     "jp": "プレシデントは、前例。そこに、否定のアンがついて、前例のない、になります。",
+     "en": "A 'precedent' is an earlier example. 'Unprecedented' means there's none.",
+     "hl": [
+      "unprecedented"
+     ],
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "What we're seeing",
+       "with memory pricing right now",
+       "is unprecedented"
+      ],
+      "hl": [
+       "unprecedented"
+      ],
+      "by": "John Ternus, CEO, Apple(決算説明会)"
+     }
+    },
+    {
+     "id": "y09",
+     "kind": "jp",
+     "jp": "アップルは、6月と9月の値上げで、その一部を補う考えです。それでも、10月から12月は、メモリーのコストがさらに増えると見ています。",
+     "en": "Price increases in June and September will offset part of it, but costs will rise further.",
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "AIブーム",
+        "mid": "メモリーの奪い合い",
+        "res": "メモリーの価格が高騰",
+        "ok": false
+       },
+       {
+        "a": "メモリー高",
+        "mid": "部品のコスト増",
+        "res": "利益率が下がる",
+        "ok": false
+       },
+       {
+        "a": "6月と9月の値上げ",
+        "mid": "一部を相殺",
+        "res": "それでも10〜12月はコスト増",
+        "ok": false
+       }
+      ]
+     }
+    },
+    {
+     "id": "y10",
+     "kind": "jp",
+     "jp": "そのため、売上は伸びても、粗利率は47.9%から、45から46%に下がる見通しです。株価は、決算のあと3%近く下がりました。",
+     "en": "So gross margin is guided down to 45–46%, and shares fell nearly 3%.",
+     "vis": {
+      "t": "vs",
+      "left": {
+       "en": "revenue",
+       "label": "10〜12月の売上",
+       "val": "+7〜10%",
+       "up": true,
+       "color": "green"
+      },
+      "right": {
+       "en": "gross margin",
+       "label": "粗利率",
+       "val": "47.9%→45〜46%",
+       "up": false,
+       "color": "red"
+      },
+      "mid": "でも"
+     }
+    },
+    {
+     "id": "y11",
+     "kind": "jp",
+     "jp": "そして、新しいiPhoneなどのハードについて、ターナス氏は、買い替えや乗り換えの、説得力のある理由になる、と話しました。",
+     "en": "He said the new hardware offers a compelling reason to upgrade or switch.",
+     "hl": [
+      "a compelling reason"
+     ],
+     "star": true,
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "It offers a compelling reason",
+       "for upgrading or switching."
+      ],
+      "hl": [
+       "a compelling reason"
+      ],
+      "by": "John Ternus, CEO, Apple(決算説明会)"
+     }
+    },
+    {
+     "id": "y12",
+     "kind": "en_insert",
+     "jp": "説得力のある理由",
+     "en": "a compelling reason",
+     "hl": [
+      "a compelling reason"
+     ],
+     "star": true,
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "It offers a compelling reason",
+       "for upgrading or switching."
+      ],
+      "hl": [
+       "a compelling reason"
+      ],
+      "by": "John Ternus, CEO, Apple(決算説明会)"
+     }
+    },
+    {
+     "id": "y13",
+     "kind": "jp",
+     "jp": "コンペリングは、思わず動かされる、という強い言葉。提案の決め手を説明するときに使えます。",
+     "en": "'Compelling' means strong enough to move people. Great for proposals.",
+     "hl": [
+      "compelling"
+     ],
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "It offers a compelling reason",
+       "for upgrading or switching."
+      ],
+      "hl": [
+       "a compelling reason"
+      ],
+      "by": "John Ternus, CEO, Apple(決算説明会)"
+     }
+    }
+   ]
+  },
+  {
+   "id": "insight",
+   "chapter": "私たちへの意味",
+   "beats": [
+    {
+     "id": "i01",
+     "kind": "jp",
+     "jp": "ここからは、日本で働く私たちにとっての意味を考えます。",
+     "en": "What does this mean for those of us working in Japan?",
+     "vis": {
+      "t": "statement",
+      "kicker": "SO WHAT?",
+      "text": "日本で働く私たちにとっての意味"
+     }
+    },
+    {
+     "id": "i02",
+     "kind": "jp",
+     "jp": "日本の会議では、よろしくお願いします、で始めることが多いですよね。英語には、ぴったりの言葉がありません。",
+     "en": "Japanese meetings start with 'yoroshiku,' which has no exact English match.",
+     "vis": {
+      "t": "points",
+      "show": 1,
+      "items": [
+       {
+        "head": "日本の職場",
+        "big": "就任の一言\nを英語で",
+        "sub": "It's a privilege to\n+ 動詞",
+        "color": "gold"
+       },
+       {
+        "head": "逆の見方",
+        "big": "堅すぎる\n場面も",
+        "sub": "社内なら\nI'm glad to で十分",
+        "color": "blue"
+       },
+       {
+        "head": "身近な影響",
+        "big": "メモリー高\nは身近にも",
+        "sub": "値上げの理由を\n英語で説明",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i03",
+     "kind": "jp",
+     "jp": "新しい役職や、初めての相手との会議では、イッツ・ア・プリビレッジ・トゥ・ワーク・ウィズ・ユー。これで、敬意がきちんと伝わります。",
+     "en": "Try: It's a privilege to work with you.",
+     "hl": [
+      "It's a privilege to"
+     ],
+     "vis": {
+      "t": "points",
+      "show": 1,
+      "items": [
+       {
+        "head": "日本の職場",
+        "big": "就任の一言\nを英語で",
+        "sub": "It's a privilege to\n+ 動詞",
+        "color": "gold"
+       },
+       {
+        "head": "逆の見方",
+        "big": "堅すぎる\n場面も",
+        "sub": "社内なら\nI'm glad to で十分",
+        "color": "blue"
+       },
+       {
+        "head": "身近な影響",
+        "big": "メモリー高\nは身近にも",
+        "sub": "値上げの理由を\n英語で説明",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i04",
+     "kind": "jp",
+     "jp": "ただし、逆の見方もあります。社内の気軽なミーティングでは、少し堅すぎることも。アイム・グラッド・トゥ、で十分な場面もあります。",
+     "en": "But it can sound too formal. In casual meetings, 'I'm glad to' is enough.",
+     "vis": {
+      "t": "points",
+      "show": 2,
+      "items": [
+       {
+        "head": "日本の職場",
+        "big": "就任の一言\nを英語で",
+        "sub": "It's a privilege to\n+ 動詞",
+        "color": "gold"
+       },
+       {
+        "head": "逆の見方",
+        "big": "堅すぎる\n場面も",
+        "sub": "社内なら\nI'm glad to で十分",
+        "color": "blue"
+       },
+       {
+        "head": "身近な影響",
+        "big": "メモリー高\nは身近にも",
+        "sub": "値上げの理由を\n英語で説明",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i05",
+     "kind": "jp",
+     "jp": "メモリーの値上がりは、身近な製品にも及んでいます。任天堂も、メモリーの高騰を背景に、スイッチ2を値上げしました。値上げの理由を説明するときにも、アンプレシデンテッドが使えます。",
+     "en": "Nintendo also raised Switch 2 prices amid rising memory costs.",
+     "hl": [
+      "unprecedented"
+     ],
+     "vis": {
+      "t": "points",
+      "show": 3,
+      "items": [
+       {
+        "head": "日本の職場",
+        "big": "就任の一言\nを英語で",
+        "sub": "It's a privilege to\n+ 動詞",
+        "color": "gold"
+       },
+       {
+        "head": "逆の見方",
+        "big": "堅すぎる\n場面も",
+        "sub": "社内なら\nI'm glad to で十分",
+        "color": "blue"
+       },
+       {
+        "head": "身近な影響",
+        "big": "メモリー高\nは身近にも",
+        "sub": "値上げの理由を\n英語で説明",
+        "color": "green"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "「〜できて光栄です」は英語で?It's a privilege toの使い方|アップル新CEOの第一声【ビジネス英語ニュース #26】",
+  "summary": "アップルのジョン・ターナスCEOは2026年11月2日、CEOとして初めての決算説明会に臨みました。7〜9月の売上は過去最高の1145億ドル。新CEOの第一声と、メモリー高騰についての言葉から、会議で使える英語を学びます。",
+  "tags": [
+   "ビジネス英語",
+   "英語学習",
+   "ニュース英語",
+   "時事英語",
+   "会議 英語",
+   "アップル",
+   "Apple",
+   "iPhone",
+   "ターナス",
+   "決算",
+   "経営者 英語",
+   "自己紹介 英語",
+   "教養",
+   "社会人 英語",
+   "business English"
+  ]
+ },
+ "thumbnail": {
+  "big": "新CEO",
+  "big_color": "gold",
+  "under": "アップル",
+  "badge": "最初の一言",
+  "badge_color": "gold",
+  "question": "何と言った?",
+  "pill": "It's a privilege to",
+  "bottom": "会議で使える英語3つ",
+  "crack": false
+ },
+ "shorts": [
+  {
+   "phrase": 0,
+   "news_hook": [
+    "アップル新CEO",
+    "最初の一言"
+   ],
+   "hook": [
+    "「〜できて光栄です」",
+    "英語で言うと?"
+   ],
+   "ctx": "アップルの新CEOが、初めての決算説明会で使った第一声",
+   "title": "「〜できて光栄です」は英語で?アップル新CEOの第一声 #ビジネス英語 #shorts",
+   "ig_caption": "「〜できて光栄です」を英語で言えますか?\n\n✅ it's a privilege to\n〜できて光栄です\n\n例文:It's a privilege to work with you on this project.\n(このプロジェクトでご一緒できて光栄です。)\n\nティム・クック氏の後を継いだアップルのターナスCEOが、初めての決算説明会で使った第一声です。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  },
+  {
+   "phrase": 1,
+   "style": "quiz",
+   "badge": "会議で使う英語|中級",
+   "news_hook": [
+    "メモリーの値段が",
+    "かつてない?"
+   ],
+   "hook": [
+    "unprecedented",
+    "どういう意味?"
+   ],
+   "ctx": "アップルのCEOがメモリー価格について使った一言",
+   "title": "「unprecedented」の意味、わかる?|会議の英語 #shorts",
+   "ig_caption": "「unprecedented」の意味、わかりますか?\n\n✅ unprecedented\n前例のない・かつてない\n\n例文:The demand we're seeing this year is unprecedented.\n(今年の需要は、前例のない水準です。)\n\nアップルのターナスCEOが、AIブームで上がり続けるメモリーの価格について使った言葉です。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Six Colors「Hello, everyone, it's John: Apple's Q4 2026 earnings call transcript」(2026年11月)",
+   "url": "https://sixcolors.com/post/2026/11/hello-everyone-its-john-apples-q4-2026-earnings-call-transcript/"
+  },
+  {
+   "title": "MacRumors「Apple's Q4 2026 Earnings Call Takeaways」(2026年11月2日)",
+   "url": "https://www.macrumors.com/2026/11/02/apple-q4-2026-earnings-takeaways/"
+  },
+  {
+   "title": "SiliconANGLE「Apple's stock drops as new CEO John Ternus delivers his first earnings call」(2026年11月2日)",
+   "url": "https://siliconangle.com/2026/11/02/apples-stock-drops-as-new-ceo-john-ternus-delivers-his-first-earnings-call/"
+  },
+  {
+   "title": "Malay Mail(AFP)「Nintendo profit tumbles 29pc as Switch 2 sales cool」(2026年11月5日)",
+   "url": "https://www.malaymail.com/news/money/2026/11/05/nintendo-profit-tumbles-29pc-as-switch-2-sales-cool-but-zelda-remake-offers-fresh-hope/242095"
+  }
+ ],
+ "readings": [
+  [
+   "CEO",
+   "シーイーオー"
+  ],
+  [
+   "CFO",
+   "シーエフオー"
+  ],
+  [
+   "iPad",
+   "アイパッド"
+  ],
+  [
+   "iPhone",
+   "アイフォーン"
+  ]
+ ]
+}

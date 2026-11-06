@@ -1,0 +1,818 @@
+{
+ "id": "2026-11-11-chatgpt-google-fifth",
+ "episode": "#25",
+ "date": "2026-11-03",
+ "series": "テックとAI",
+ "title_card": {
+  "line1": "ChatGPTは、グーグルの5分の1?",
+  "line2": "AIと検索の数字を英語で読む"
+ },
+ "publish": {
+  "long": "2026-11-11T07:00:00+09:00",
+  "shorts": [
+   "2026-11-11T12:00:00+09:00",
+   "2026-11-11T21:00:00+09:00"
+  ]
+ },
+ "phrases": [
+  {
+   "en": "roughly one-fifth",
+   "jp": "約5分の1",
+   "ex": "Online sales are roughly one-fifth of our total revenue.",
+   "ex_jp": "オンライン販売は、売上全体の約5分の1です。"
+  },
+  {
+   "en": "an apples-to-apples comparison",
+   "jp": "同じ条件での比較",
+   "ex": "This isn't an apples-to-apples comparison, because the periods are different.",
+   "ex_jp": "期間が違うので、これは同じ条件での比較ではありません。"
+  },
+  {
+   "en": "it depends on how you define",
+   "jp": "〜をどう定義するかによる",
+   "ex": "It depends on how you define an active user.",
+   "ex_jp": "アクティブユーザーをどう定義するかによります。"
+  }
+ ],
+ "words": [
+  {
+   "en": "search volume",
+   "jp": "検索数"
+  },
+  {
+   "en": "weekly active users",
+   "jp": "週に使う人の数"
+  },
+  {
+   "en": "referral traffic",
+   "jp": "ほかのサイトから送られてくる訪問"
+  }
+ ],
+ "homework": {
+  "en": "What is roughly one-fifth of your workday?",
+  "jp": "仕事の約5分の1を占めるものは?",
+  "hl": [
+   "roughly one-fifth"
+  ],
+  "say": "最後に宿題です。あなたの仕事時間の、およそ5分の1を占めているものは何ですか。ラフリー・ワンフィフスを使って、コメント欄に英語で書いてみてください。"
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "beats": [
+    {
+     "id": "h01",
+     "kind": "jp",
+     "jp": "ChatGPTで調べものをする回数は、すでにグーグル検索の、およそ5分の1。OpenAIの担当者が、こう明かしました。",
+     "en": "ChatGPT now handles roughly one-fifth of Google's search volume, OpenAI says.",
+     "hl": [
+      "roughly one-fifth"
+     ],
+     "vis": {
+      "t": "hero_side",
+      "big": "1/5",
+      "color": "gold",
+      "text": "roughly one-fifth",
+      "jp": "約5分の1"
+     }
+    },
+    {
+     "id": "h02",
+     "kind": "jp",
+     "jp": "ただし、この数字には、大きな注意書きがあります。数え方が、まったく違うのです。",
+     "en": "But there's a big catch: they count very differently.",
+     "vis": {
+      "t": "vs",
+      "left": {
+       "en": "ChatGPT",
+       "label": "検索のような質問",
+       "val": "1",
+       "up": true,
+       "color": "green"
+      },
+      "right": {
+       "en": "Google",
+       "label": "検索",
+       "val": "5",
+       "up": true,
+       "color": "blue"
+      },
+      "mid": "対"
+     }
+    },
+    {
+     "id": "h03",
+     "kind": "jp",
+     "jp": "今日はこのニュースから、会議で使える英語を3つ。最後に答え合わせをします。",
+     "en": "Three phrases for your next meeting. Answers at the end.",
+     "vis": {
+      "t": "teaser"
+     }
+    }
+   ]
+  },
+  {
+   "id": "what",
+   "chapter": "何が起きたか",
+   "beats": [
+    {
+     "id": "n01",
+     "kind": "jp",
+     "jp": "発言したのは、ChatGPTの消費者向け製品の責任者、アダム・フライ氏です。11月2日、ニューヨークでの取材で話しました。",
+     "en": "Adam Fry, ChatGPT's consumer product lead, spoke in New York on November 2.",
+     "vis": {
+      "t": "people",
+      "total": 5,
+      "hit": 1,
+      "label": "グーグルの検索5回に対して、ChatGPTは1回",
+      "panel": {
+       "kicker": "OPENAI'S CLAIM",
+       "big": "約1/5",
+       "color": "gold",
+       "sub": "roughly one-fifth",
+       "note": "OpenAIの担当者の発言(独自の数え方)",
+       "size": 150
+      }
+     }
+    },
+    {
+     "id": "n02",
+     "kind": "jp",
+     "jp": "ChatGPTに来る、検索のような質問の数は、グーグルのおよそ5分の1だ、と言います。",
+     "en": "He said ChatGPT gets roughly one-fifth as many search-like queries as Google.",
+     "hl": [
+      "roughly one-fifth"
+     ],
+     "vis": {
+      "t": "people",
+      "total": 5,
+      "hit": 1,
+      "label": "グーグルの検索5回に対して、ChatGPTは1回",
+      "panel": {
+       "kicker": "OPENAI'S CLAIM",
+       "big": "約1/5",
+       "color": "gold",
+       "sub": "roughly one-fifth",
+       "note": "OpenAIの担当者の発言(独自の数え方)",
+       "size": 150
+      }
+     }
+    },
+    {
+     "id": "n03",
+     "kind": "jp",
+     "jp": "およそ5分の1は、英語でラフリー・ワンフィフス。ラフリーは、だいたい、という意味です。",
+     "en": "'Roughly one-fifth' means about 20%.",
+     "hl": [
+      "roughly one-fifth"
+     ],
+     "star": true,
+     "vis": {
+      "t": "people",
+      "total": 5,
+      "hit": 1,
+      "label": "グーグルの検索5回に対して、ChatGPTは1回",
+      "panel": {
+       "kicker": "OPENAI'S CLAIM",
+       "big": "約1/5",
+       "color": "gold",
+       "sub": "roughly one-fifth",
+       "note": "OpenAIの担当者の発言(独自の数え方)",
+       "size": 150
+      }
+     }
+    },
+    {
+     "id": "n04",
+     "kind": "en_insert",
+     "jp": "約5分の1",
+     "en": "roughly one-fifth",
+     "hl": [
+      "roughly one-fifth"
+     ],
+     "star": true,
+     "vis": {
+      "t": "people",
+      "total": 5,
+      "hit": 1,
+      "label": "グーグルの検索5回に対して、ChatGPTは1回",
+      "panel": {
+       "kicker": "OPENAI'S CLAIM",
+       "big": "約1/5",
+       "color": "gold",
+       "sub": "roughly one-fifth",
+       "note": "OpenAIの担当者の発言(独自の数え方)",
+       "size": 150
+      }
+     }
+    },
+    {
+     "id": "n05",
+     "kind": "jp",
+     "jp": "英語の分数は、上の数字をそのまま、下の数字を、フィフスやサードのように順番の言い方で読みます。3分の1は、ワンサードです。",
+     "en": "Fractions use ordinals on the bottom: one-fifth, one-third.",
+     "hl": [
+      "one-fifth",
+      "one-third"
+     ],
+     "vis": {
+      "t": "hero_side",
+      "big": "1/5",
+      "color": "gold",
+      "text": "roughly one-fifth",
+      "jp": "約5分の1"
+     }
+    },
+    {
+     "id": "n06",
+     "kind": "jp",
+     "jp": "あわせて、ChatGPTを週に使う人は12億人。およそ2か月で、10億人から増えたと言います。",
+     "en": "Weekly users reached 1.2 billion, up from 1 billion in about two months.",
+     "vis": {
+      "t": "counter",
+      "kicker": "CHATGPT WEEKLY USERS",
+      "to": 1.2,
+      "decimals": 1,
+      "suffix": "B",
+      "color": "green",
+      "sub": "週に使う人 12億人",
+      "note": "約2か月で10億人から増加(OpenAIの発表)"
+     }
+    },
+    {
+     "id": "n07",
+     "kind": "jp",
+     "jp": "音声で使う人は週に2億5000万人、広告の売上は、年間10億ドルを超えるペースだと話しています。",
+     "en": "250 million use voice weekly, and ads top a $1 billion annual run rate, he said.",
+     "vis": {
+      "t": "network",
+      "title": "ChatGPTの広がり(OpenAIの発表)",
+      "center": {
+       "label": "ChatGPT",
+       "sub": "週12億人"
+      },
+      "nodes": [
+       {
+        "label": "検索 グーグルの約1/5",
+        "color": "gold"
+       },
+       {
+        "label": "音声 週2億5000万人",
+        "color": "blue"
+       },
+       {
+        "label": "画像 週15億枚",
+        "color": "green"
+       },
+       {
+        "label": "広告 年10億ドル超",
+        "color": "red"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "why",
+   "chapter": "数字の落とし穴",
+   "beats": [
+    {
+     "id": "y01",
+     "kind": "jp",
+     "jp": "では、この5分の1は、どう数えたのでしょうか。フライ氏は、こう説明しました。",
+     "en": "So how was it counted? Fry explained.",
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "Every time you ask a question",
+       "and go search the web,",
+       "that's a search."
+      ],
+      "hl": [
+       "that's a search"
+      ],
+      "by": "Adam Fry, ChatGPT consumer product lead, OpenAI(Big Technologyの取材)"
+     }
+    },
+    {
+     "id": "y02",
+     "kind": "jp",
+     "jp": "質問をして、ChatGPTがウェブを調べに行けば、それが1回の検索だ、というのです。",
+     "en": "Any question that sends ChatGPT to the web counts as one search.",
+     "hl": [
+      "that's a search"
+     ],
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "Every time you ask a question",
+       "and go search the web,",
+       "that's a search."
+      ],
+      "hl": [
+       "that's a search"
+      ],
+      "by": "Adam Fry, ChatGPT consumer product lead, OpenAI(Big Technologyの取材)"
+     }
+    },
+    {
+     "id": "y03",
+     "kind": "jp",
+     "jp": "一方、調査会社のAhrefsは、2月に、同じような比較を、約12%と推計していました。数え方が違えば、答えも変わります。",
+     "en": "Research firm Ahrefs estimated about 12% in February, using a different method.",
+     "vis": {
+      "t": "bars",
+      "title": "ChatGPTはグーグルの何%?(数え方で変わる)",
+      "unit": "%",
+      "items": [
+       {
+        "label": "Ahrefsの推計(2月)",
+        "value": 12,
+        "display": "約12%",
+        "color": "muted"
+       },
+       {
+        "label": "OpenAIの発言(11月)",
+        "value": 20,
+        "display": "約20%",
+        "color": "gold"
+       }
+      ],
+      "note": "数え方も時期も違うので、単純には比べられない"
+     }
+    },
+    {
+     "id": "y04",
+     "kind": "jp",
+     "jp": "比べるときに、条件をそろえること。これを英語で、アップルズ・トゥ・アップルズ・コンパリソンと言います。",
+     "en": "A fair, like-for-like comparison is 'an apples-to-apples comparison.'",
+     "hl": [
+      "an apples-to-apples comparison"
+     ],
+     "star": true,
+     "vis": {
+      "t": "bars",
+      "title": "ChatGPTはグーグルの何%?(数え方で変わる)",
+      "unit": "%",
+      "items": [
+       {
+        "label": "Ahrefsの推計(2月)",
+        "value": 12,
+        "display": "約12%",
+        "color": "muted"
+       },
+       {
+        "label": "OpenAIの発言(11月)",
+        "value": 20,
+        "display": "約20%",
+        "color": "gold"
+       }
+      ],
+      "note": "数え方も時期も違うので、単純には比べられない"
+     }
+    },
+    {
+     "id": "y05",
+     "kind": "en_insert",
+     "jp": "これは同じ条件での比較ではない",
+     "en": "It's not an apples-to-apples comparison.",
+     "hl": [
+      "apples-to-apples"
+     ],
+     "star": true,
+     "vis": {
+      "t": "bars",
+      "title": "ChatGPTはグーグルの何%?(数え方で変わる)",
+      "unit": "%",
+      "items": [
+       {
+        "label": "Ahrefsの推計(2月)",
+        "value": 12,
+        "display": "約12%",
+        "color": "muted"
+       },
+       {
+        "label": "OpenAIの発言(11月)",
+        "value": 20,
+        "display": "約20%",
+        "color": "gold"
+       }
+      ],
+      "note": "数え方も時期も違うので、単純には比べられない"
+     }
+    },
+    {
+     "id": "y06",
+     "kind": "jp",
+     "jp": "りんごはりんごと比べよう、という意味です。りんごとオレンジでは比べられない、という言い方もあります。",
+     "en": "Compare apples with apples, not apples with oranges.",
+     "hl": [
+      "apples"
+     ],
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "OpenAI",
+        "mid": "ウェブを調べた質問",
+        "res": "1回の検索と数える",
+        "ok": true
+       },
+       {
+        "a": "Ahrefs",
+        "mid": "質問の種類で分類",
+        "res": "検索の代わりかで判断",
+        "ok": true
+       },
+       {
+        "a": "グーグル",
+        "mid": "伸び率だけを公表",
+        "res": "総数は比べられない",
+        "ok": false
+       }
+      ]
+     }
+    },
+    {
+     "id": "y07",
+     "kind": "jp",
+     "jp": "しかもグーグルは、検索の伸び率は公表していますが、総数は出していません。フライ氏も、グーグルのどの数字と比べたのかは、明かしていません。",
+     "en": "Google shares growth rates, not totals, and Fry didn't say which Google figure he used.",
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "OpenAI",
+        "mid": "ウェブを調べた質問",
+        "res": "1回の検索と数える",
+        "ok": true
+       },
+       {
+        "a": "Ahrefs",
+        "mid": "質問の種類で分類",
+        "res": "検索の代わりかで判断",
+        "ok": true
+       },
+       {
+        "a": "グーグル",
+        "mid": "伸び率だけを公表",
+        "res": "総数は比べられない",
+        "ok": false
+       }
+      ]
+     }
+    },
+    {
+     "id": "y08",
+     "kind": "jp",
+     "jp": "つまり、何を1回の検索と呼ぶのか。その定義しだい、というわけです。",
+     "en": "In short, it depends on how you define a search.",
+     "hl": [
+      "it depends on how you define"
+     ],
+     "star": true,
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "OpenAI",
+        "mid": "ウェブを調べた質問",
+        "res": "1回の検索と数える",
+        "ok": true
+       },
+       {
+        "a": "Ahrefs",
+        "mid": "質問の種類で分類",
+        "res": "検索の代わりかで判断",
+        "ok": true
+       },
+       {
+        "a": "グーグル",
+        "mid": "伸び率だけを公表",
+        "res": "総数は比べられない",
+        "ok": false
+       }
+      ]
+     }
+    },
+    {
+     "id": "y09",
+     "kind": "en_insert",
+     "jp": "検索をどう定義するかによります",
+     "en": "It depends on how you define a search.",
+     "hl": [
+      "It depends on how you define"
+     ],
+     "star": true,
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "OpenAI",
+        "mid": "ウェブを調べた質問",
+        "res": "1回の検索と数える",
+        "ok": true
+       },
+       {
+        "a": "Ahrefs",
+        "mid": "質問の種類で分類",
+        "res": "検索の代わりかで判断",
+        "ok": true
+       },
+       {
+        "a": "グーグル",
+        "mid": "伸び率だけを公表",
+        "res": "総数は比べられない",
+        "ok": false
+       }
+      ]
+     }
+    },
+    {
+     "id": "y10",
+     "kind": "jp",
+     "jp": "イット・ディペンズ・オン・ハウ・ユー・ディファイン。数字の議論がかみ合わないときに、とても便利な一言です。",
+     "en": "Use it when people argue past each other about numbers.",
+     "hl": [
+      "depends on how you define"
+     ],
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "Every time you ask a question",
+       "and go search the web,",
+       "that's a search."
+      ],
+      "hl": [
+       "that's a search"
+      ],
+      "by": "Adam Fry, ChatGPT consumer product lead, OpenAI(Big Technologyの取材)"
+     }
+    }
+   ]
+  },
+  {
+   "id": "insight",
+   "chapter": "私たちへの意味",
+   "beats": [
+    {
+     "id": "i01",
+     "kind": "jp",
+     "jp": "ここからは、日本で働く私たちにとっての意味を考えます。",
+     "en": "What does this mean for those of us working in Japan?",
+     "vis": {
+      "t": "statement",
+      "kicker": "SO WHAT?",
+      "text": "日本で働く私たちにとっての意味"
+     }
+    },
+    {
+     "id": "i02",
+     "kind": "jp",
+     "jp": "読み取れるのは、調べものの一部が、検索からAIとの会話に移り始めていることです。",
+     "en": "Some searching is moving from search boxes to AI chats.",
+     "vis": {
+      "t": "points",
+      "show": 1,
+      "items": [
+       {
+        "head": "読み取れること",
+        "big": "調べ方が\n変わり始めた",
+        "sub": "検索の一部が\nAIとの会話へ",
+        "color": "gold"
+       },
+       {
+        "head": "逆の見方",
+        "big": "数字は\n自己申告",
+        "sub": "訪問はいまも\nグーグルが圧倒的",
+        "color": "blue"
+       },
+       {
+        "head": "日本の現場",
+        "big": "数字を見たら\n定義を聞く",
+        "sub": "How do you\ndefine it?",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i03",
+     "kind": "jp",
+     "jp": "一方で、逆の見方もあります。数字はOpenAIの自己申告で、外部の確認はありません。ウェブサイトへ人を送る力では、グーグルがいまも圧倒的です。",
+     "en": "But the figure is self-reported, and Google still sends far more visitors to websites.",
+     "vis": {
+      "t": "bars",
+      "title": "ウェブサイトへ送られてくる訪問の割合(10月)",
+      "unit": "%",
+      "items": [
+       {
+        "label": "グーグル",
+        "value": 24.74,
+        "display": "24.74%",
+        "color": "blue"
+       },
+       {
+        "label": "ChatGPT",
+        "value": 0.36,
+        "display": "0.36%",
+        "color": "gold"
+       }
+      ],
+      "note": "Ahrefsが調べた約11万8000サイトのデータ"
+     }
+    },
+    {
+     "id": "i04",
+     "kind": "jp",
+     "jp": "Ahrefsの10月のデータでは、サイトへの訪問のうち、グーグル経由が24.74%、ChatGPT経由は0.36%でした。",
+     "en": "In Ahrefs' October data, Google drove 24.74% of visits, ChatGPT 0.36%.",
+     "vis": {
+      "t": "bars",
+      "title": "ウェブサイトへ送られてくる訪問の割合(10月)",
+      "unit": "%",
+      "items": [
+       {
+        "label": "グーグル",
+        "value": 24.74,
+        "display": "24.74%",
+        "color": "blue"
+       },
+       {
+        "label": "ChatGPT",
+        "value": 0.36,
+        "display": "0.36%",
+        "color": "gold"
+       }
+      ],
+      "note": "Ahrefsが調べた約11万8000サイトのデータ"
+     }
+    },
+    {
+     "id": "i05",
+     "kind": "jp",
+     "jp": "日本でも、ウェブ集客や広報の担当者は、グーグルだけでなく、AIにどう紹介されるかも気にする時代です。ただ、効果は、自社の数字で確かめましょう。",
+     "en": "Marketers in Japan should watch AI answers too, but check their own data.",
+     "vis": {
+      "t": "points",
+      "show": 2,
+      "items": [
+       {
+        "head": "読み取れること",
+        "big": "調べ方が\n変わり始めた",
+        "sub": "検索の一部が\nAIとの会話へ",
+        "color": "gold"
+       },
+       {
+        "head": "逆の見方",
+        "big": "数字は\n自己申告",
+        "sub": "訪問はいまも\nグーグルが圧倒的",
+        "color": "blue"
+       },
+       {
+        "head": "日本の現場",
+        "big": "数字を見たら\n定義を聞く",
+        "sub": "How do you\ndefine it?",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i06",
+     "kind": "jp",
+     "jp": "そして会議で、すごい数字が出てきたら、イット・ディペンズ・オン・ハウ・ユー・ディファイン、と定義を確かめる。それが、数字に強い人の英語です。",
+     "en": "When a big number appears, check the definition first.",
+     "hl": [
+      "depends on how you define"
+     ],
+     "vis": {
+      "t": "points",
+      "show": 3,
+      "items": [
+       {
+        "head": "読み取れること",
+        "big": "調べ方が\n変わり始めた",
+        "sub": "検索の一部が\nAIとの会話へ",
+        "color": "gold"
+       },
+       {
+        "head": "逆の見方",
+        "big": "数字は\n自己申告",
+        "sub": "訪問はいまも\nグーグルが圧倒的",
+        "color": "blue"
+       },
+       {
+        "head": "日本の現場",
+        "big": "数字を見たら\n定義を聞く",
+        "sub": "How do you\ndefine it?",
+        "color": "green"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "「約5分の1」は英語で?roughly one-fifthの使い方|ChatGPTはグーグルの5分の1?【ビジネス英語ニュース #25】",
+  "summary": "OpenAIの担当者は2026年11月、ChatGPTの検索のような質問の数が、グーグルのおよそ5分の1に達したと話しました。ただし数え方は大きく違います。分数の英語と、数字を比べるときに使える英語を学びます。",
+  "tags": [
+   "ビジネス英語",
+   "英語学習",
+   "ニュース英語",
+   "時事英語",
+   "会議 英語",
+   "ChatGPT",
+   "OpenAI",
+   "グーグル",
+   "Google",
+   "検索",
+   "AI",
+   "分数 英語",
+   "教養",
+   "社会人 英語",
+   "business English"
+  ]
+ },
+ "thumbnail": {
+  "big": "1/5",
+  "big_color": "gold",
+  "under": "グーグル検索の",
+  "badge": "ChatGPT",
+  "badge_color": "gold",
+  "question": "本当に?",
+  "pill": "roughly one-fifth",
+  "bottom": "会議で使える英語3つ",
+  "crack": false
+ },
+ "shorts": [
+  {
+   "phrase": 0,
+   "news_hook": [
+    "ChatGPTが",
+    "グーグルの5分の1?"
+   ],
+   "hook": [
+    "「約5分の1」を",
+    "英語で言うと?"
+   ],
+   "ctx": "OpenAIが、ChatGPTの検索の規模を説明した英語",
+   "title": "「約5分の1」は英語で?ChatGPTがグーグル検索の5分の1に #ビジネス英語 #shorts",
+   "ig_caption": "「約5分の1」を英語で言えますか?\n\n✅ roughly one-fifth\n約5分の1\n\n例文:Online sales are roughly one-fifth of our total revenue.\n(オンライン販売は、売上全体の約5分の1です。)\n\nOpenAIの担当者は、ChatGPTの検索のような質問が、グーグルの約5分の1になったと話しました。ただし数え方は独自です。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  },
+  {
+   "phrase": 1,
+   "style": "quiz",
+   "badge": "会議で使う英語|中級",
+   "news_hook": [
+    "その比較、",
+    "公平ですか?"
+   ],
+   "hook": [
+    "apples-to-apples",
+    "どういう意味?"
+   ],
+   "ctx": "数字を比べるときに、条件がそろっているかを確かめる一言",
+   "title": "「an apples-to-apples comparison」の意味、わかる?|会議の英語 #shorts",
+   "ig_caption": "「an apples-to-apples comparison」の意味、わかりますか?\n\n✅ an apples-to-apples comparison\n同じ条件での比較\n\n例文:This isn't an apples-to-apples comparison, because the periods are different.\n(期間が違うので、これは同じ条件での比較ではありません。)\n\nりんごはりんごと比べよう、という発想の表現です。ChatGPTとグーグルの検索数の比較も、数え方が違うので単純には比べられません。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Search Engine Journal「Google's Search Volume Is About 5x ChatGPT's, OpenAI Says」(2026年11月3日)",
+   "url": "https://searchenginejournal.com/googles-search-volume-is-about-5x-chatgpts-openai-says/595817"
+  },
+  {
+   "title": "explainx.ai「ChatGPT 1.2 billion weekly users, search 20% of Google: claimed vs verified」(2026年11月3日)",
+   "url": "https://explainx.ai/blog/chatgpt-1-2-billion-weekly-users-search-20-percent-of-google-adam-fry-voice-250-million-claimed-vs-verified-2026"
+  },
+  {
+   "title": "NewsBytes「OpenAI says ChatGPT handles about 20% of Google's search queries」(2026年11月4日)",
+   "url": "https://www.newsbytesapp.com/news/science/openai-says-chatgpt-handles-about-20-of-googles-search-queries/tldr"
+  }
+ ],
+ "readings": [
+  [
+   "Ahrefs",
+   "エイチレフス"
+  ],
+  [
+   "OpenAI",
+   "オープンエーアイ"
+  ],
+  [
+   "ChatGPT",
+   "チャットジーピーティー"
+  ],
+  [
+   "24.74%",
+   "にじゅうよんてんななよんパーセント"
+  ],
+  [
+   "0.36%",
+   "れいてんさんろくパーセント"
+  ]
+ ]
+}

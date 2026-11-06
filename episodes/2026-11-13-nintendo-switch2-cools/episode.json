@@ -1,0 +1,958 @@
+{
+ "id": "2026-11-13-nintendo-switch2-cools",
+ "episode": "#27",
+ "date": "2026-11-05",
+ "series": "海外メディアが報じる日本",
+ "title_card": {
+  "line1": "スイッチ2、勢いに陰り?",
+  "line2": "海外メディアが報じた任天堂"
+ },
+ "publish": {
+  "long": "2026-11-13T07:00:00+09:00",
+  "shorts": [
+   "2026-11-13T12:00:00+09:00",
+   "2026-11-13T21:00:00+09:00"
+  ]
+ },
+ "phrases": [
+  {
+   "en": "lose momentum",
+   "jp": "勢いを失う・失速する",
+   "ex": "We can't let the project lose momentum.",
+   "ex_jp": "このプロジェクトの勢いを、失わせるわけにはいきません。"
+  },
+  {
+   "en": "pass on the cost",
+   "jp": "コストを価格に転嫁する",
+   "ex": "We may have to pass on the cost to customers.",
+   "ex_jp": "そのコストを、お客様に転嫁せざるを得ないかもしれません。"
+  },
+  {
+   "en": "keep customers engaged",
+   "jp": "顧客の関心をつなぎとめる",
+   "ex": "Regular updates keep customers engaged.",
+   "ex_jp": "定期的な更新が、お客様の関心をつなぎとめます。"
+  }
+ ],
+ "words": [
+  {
+   "en": "blockbuster",
+   "jp": "大ヒット作"
+  },
+  {
+   "en": "installed base",
+   "jp": "すでに使われている台数"
+  },
+  {
+   "en": "remake",
+   "jp": "リメイク版"
+  }
+ ],
+ "homework": {
+  "en": "What keeps you engaged at work?",
+  "jp": "仕事で、あなたのやる気を保つものは?",
+  "hl": [
+   "engaged"
+  ],
+  "say": "最後に宿題です。仕事で、あなたのやる気や関心を保ってくれるものは何ですか。英語で、コメント欄に書いてみてください。"
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "beats": [
+    {
+     "id": "h01",
+     "kind": "jp",
+     "jp": "スイッチ2の勢いが落ちた。11月5日、海外のメディアは、任天堂の決算をこう伝えました。",
+     "en": "On November 5, global media said Switch 2 sales were cooling.",
+     "vis": {
+      "t": "globe",
+      "title": "海外メディアが報じる任天堂",
+      "lon": 175,
+      "lat": 25,
+      "points": [
+       {
+        "label": "京都 任天堂",
+        "lat": 35.0,
+        "lon": 135.8,
+        "color": "gold"
+       },
+       {
+        "label": "パリ AFP",
+        "lat": 48.9,
+        "lon": 2.35,
+        "color": "blue"
+       },
+       {
+        "label": "ダブリン RTE",
+        "lat": 53.3,
+        "lon": -6.3,
+        "color": "blue"
+       },
+       {
+        "label": "ニューヨーク Bloomberg",
+        "lat": 40.7,
+        "lon": -74.0,
+        "color": "blue"
+       }
+      ],
+      "arcs": [
+       [
+        0,
+        1
+       ],
+       [
+        0,
+        2
+       ],
+       [
+        0,
+        3
+       ]
+      ],
+      "lines": [
+       {
+        "text": "Switch 2 sales cool",
+        "color": "red"
+       },
+       {
+        "text": "スイッチ2の勢いが落ちた",
+        "color": "text"
+       }
+      ]
+     }
+    },
+    {
+     "id": "h02",
+     "kind": "jp",
+     "jp": "7月から9月の純利益は、前の年より29%減りました。この、勢いが落ちる、を英語でどう言うでしょう。",
+     "en": "Quarterly net profit fell 29%. How do you say 'losing steam' in English?",
+     "vis": {
+      "t": "hero",
+      "kicker": "Nintendo · Jul–Sep net profit",
+      "big": "−29%",
+      "color": "red",
+      "sub": "7〜9月の純利益 735億円",
+      "sub_color": "gold"
+     }
+    },
+    {
+     "id": "h03",
+     "kind": "jp",
+     "jp": "今日はこのニュースから、会議で使える英語を3つ。最後に答え合わせをします。",
+     "en": "Three phrases for your next meeting. Answers at the end.",
+     "vis": {
+      "t": "teaser"
+     }
+    }
+   ]
+  },
+  {
+   "id": "what",
+   "chapter": "海外はどう報じたか",
+   "beats": [
+    {
+     "id": "n01",
+     "kind": "jp",
+     "jp": "アイルランドの公共放送RTEは、スイッチ2の販売が鈍り、四半期の純利益が減った、と見出しをつけました。",
+     "en": "Ireland's RTE said profit dropped as Switch 2 unit sales slowed.",
+     "vis": {
+      "t": "cards",
+      "show": 1,
+      "footer": "11月5日 海外メディアの見出し",
+      "items": [
+       {
+        "name": "RTE(アイルランド)",
+        "big": "slow",
+        "sub": "Switch 2 unit\nsales slow",
+        "note": "販売が鈍る",
+        "color": "red"
+       },
+       {
+        "name": "AFP(フランス)",
+        "big": "cool",
+        "sub": "Switch 2 sales cool",
+        "note": "熱が冷める",
+        "color": "red"
+       },
+       {
+        "name": "Gamereactor(欧州)",
+        "big": "26M",
+        "sub": "launch surge cools",
+        "note": "発売直後の勢いが落ち着く",
+        "color": "gold"
+       }
+      ]
+     }
+    },
+    {
+     "id": "n02",
+     "kind": "jp",
+     "jp": "フランスのAFP通信は、スイッチ2の売れ行きが冷めた、と表現しています。",
+     "en": "France's AFP wrote that Switch 2 sales had cooled.",
+     "vis": {
+      "t": "cards",
+      "show": 2,
+      "footer": "11月5日 海外メディアの見出し",
+      "items": [
+       {
+        "name": "RTE(アイルランド)",
+        "big": "slow",
+        "sub": "Switch 2 unit\nsales slow",
+        "note": "販売が鈍る",
+        "color": "red"
+       },
+       {
+        "name": "AFP(フランス)",
+        "big": "cool",
+        "sub": "Switch 2 sales cool",
+        "note": "熱が冷める",
+        "color": "red"
+       },
+       {
+        "name": "Gamereactor(欧州)",
+        "big": "26M",
+        "sub": "launch surge cools",
+        "note": "発売直後の勢いが落ち着く",
+        "color": "gold"
+       }
+      ]
+     }
+    },
+    {
+     "id": "n03",
+     "kind": "jp",
+     "jp": "7月から9月の純利益は、735億円。ブルームバーグがまとめた、アナリストの予想822億円にも届きませんでした。",
+     "en": "Net profit was 73.5 billion yen, below the 82.2 billion analysts expected.",
+     "vis": {
+      "t": "hero",
+      "kicker": "Nintendo · Jul–Sep net profit",
+      "big": "−29%",
+      "color": "red",
+      "sub": "7〜9月の純利益 735億円",
+      "sub_color": "gold"
+     }
+    },
+    {
+     "id": "n04",
+     "kind": "jp",
+     "jp": "4月から9月のスイッチ2の販売は、およそ649万台。前の年の同じ時期の、約1040万台から大きく減りました。",
+     "en": "Switch 2 sold about 6.5 million in six months, down from about 10.4 million.",
+     "vis": {
+      "t": "bars",
+      "title": "スイッチ2の販売台数(4〜9月)",
+      "unit": "万台",
+      "items": [
+       {
+        "label": "2025年",
+        "value": 1040,
+        "display": "約1040万台",
+        "color": "muted"
+       },
+       {
+        "label": "2026年",
+        "value": 649,
+        "display": "約649万台",
+        "color": "red"
+       }
+      ],
+      "note": "累計では2635万台(9月末時点)"
+     }
+    },
+    {
+     "id": "n05",
+     "kind": "jp",
+     "jp": "それでも、発売からの累計は、2635万台に達しています。",
+     "en": "Still, lifetime sales reached 26.35 million units.",
+     "vis": {
+      "t": "counter",
+      "kicker": "SWITCH 2 · LIFETIME",
+      "to": 26.35,
+      "decimals": 2,
+      "suffix": "M",
+      "color": "gold",
+      "sub": "発売からの累計 2635万台",
+      "note": "2026年9月30日時点(任天堂)"
+     }
+    },
+    {
+     "id": "n06",
+     "kind": "jp",
+     "jp": "このように、それまでの勢いがなくなることを、英語でルーズ・モメンタムと言います。",
+     "en": "When something loses its drive, it 'loses momentum.'",
+     "hl": [
+      "loses momentum"
+     ],
+     "star": true,
+     "vis": {
+      "t": "cards",
+      "show": 3,
+      "footer": "11月5日 海外メディアの見出し",
+      "items": [
+       {
+        "name": "RTE(アイルランド)",
+        "big": "slow",
+        "sub": "Switch 2 unit\nsales slow",
+        "note": "販売が鈍る",
+        "color": "red"
+       },
+       {
+        "name": "AFP(フランス)",
+        "big": "cool",
+        "sub": "Switch 2 sales cool",
+        "note": "熱が冷める",
+        "color": "red"
+       },
+       {
+        "name": "Gamereactor(欧州)",
+        "big": "26M",
+        "sub": "launch surge cools",
+        "note": "発売直後の勢いが落ち着く",
+        "color": "gold"
+       }
+      ]
+     }
+    },
+    {
+     "id": "n07",
+     "kind": "en_insert",
+     "jp": "スイッチ2は、勢いを失っている",
+     "en": "Switch 2 is losing momentum.",
+     "hl": [
+      "losing momentum"
+     ],
+     "star": true,
+     "vis": {
+      "t": "cards",
+      "show": 3,
+      "footer": "11月5日 海外メディアの見出し",
+      "items": [
+       {
+        "name": "RTE(アイルランド)",
+        "big": "slow",
+        "sub": "Switch 2 unit\nsales slow",
+        "note": "販売が鈍る",
+        "color": "red"
+       },
+       {
+        "name": "AFP(フランス)",
+        "big": "cool",
+        "sub": "Switch 2 sales cool",
+        "note": "熱が冷める",
+        "color": "red"
+       },
+       {
+        "name": "Gamereactor(欧州)",
+        "big": "26M",
+        "sub": "launch surge cools",
+        "note": "発売直後の勢いが落ち着く",
+        "color": "gold"
+       }
+      ]
+     }
+    },
+    {
+     "id": "n08",
+     "kind": "jp",
+     "jp": "モメンタムは、勢い。会議では、プロジェクトの勢いを失わないように、という使い方がよく出てきます。",
+     "en": "'Momentum' is drive. Teams often say: don't let the project lose momentum.",
+     "hl": [
+      "lose momentum"
+     ],
+     "vis": {
+      "t": "cards",
+      "show": 3,
+      "footer": "11月5日 海外メディアの見出し",
+      "items": [
+       {
+        "name": "RTE(アイルランド)",
+        "big": "slow",
+        "sub": "Switch 2 unit\nsales slow",
+        "note": "販売が鈍る",
+        "color": "red"
+       },
+       {
+        "name": "AFP(フランス)",
+        "big": "cool",
+        "sub": "Switch 2 sales cool",
+        "note": "熱が冷める",
+        "color": "red"
+       },
+       {
+        "name": "Gamereactor(欧州)",
+        "big": "26M",
+        "sub": "launch surge cools",
+        "note": "発売直後の勢いが落ち着く",
+        "color": "gold"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "why",
+   "chapter": "なぜ失速したのか",
+   "beats": [
+    {
+     "id": "y01",
+     "kind": "jp",
+     "jp": "理由のひとつは、値上げです。AIブームで、メモリーの部品が値上がりしています。",
+     "en": "One reason: memory chips got pricier because of the AI boom.",
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "AIブーム",
+        "mid": "メモリーが値上がり",
+        "res": "スイッチ2を値上げ",
+        "ok": false
+       },
+       {
+        "a": "大ヒット作が少ない",
+        "mid": "買う理由が弱い",
+        "res": "本体の販売が鈍る",
+        "ok": false
+       },
+       {
+        "a": "ソフトは堅調",
+        "mid": "関税の返還も",
+        "res": "営業利益は約5割増",
+        "ok": true
+       }
+      ]
+     }
+    },
+    {
+     "id": "y02",
+     "kind": "jp",
+     "jp": "アメリカでは9月1日から、スイッチ2の値段が、449.99ドルから499.99ドルに上がりました。",
+     "en": "In the U.S., the price rose from $449.99 to $499.99 on September 1.",
+     "vis": {
+      "t": "timeline",
+      "items": [
+       {
+        "when": "9月1日",
+        "text": "アメリカで449.99ドル → 499.99ドルに値上げ",
+        "color": "red"
+       },
+       {
+        "when": "11月5日",
+        "text": "決算発表。1年間の純利益の予想3100億円は据え置き",
+        "color": "gold"
+       },
+       {
+        "when": "11月5日",
+        "text": "ゼルダ「時のオカリナ」のリメイク版が発売",
+        "color": "green"
+       }
+      ],
+      "show": 1
+     }
+    },
+    {
+     "id": "y03",
+     "kind": "jp",
+     "jp": "部品のコストを、販売価格に上乗せすること。英語で、パス・オン・ザ・コストと言います。",
+     "en": "Adding higher costs to your prices is to 'pass on the cost.'",
+     "hl": [
+      "pass on the cost"
+     ],
+     "star": true,
+     "vis": {
+      "t": "vs",
+      "left": {
+       "en": "memory cost",
+       "label": "部品のコスト",
+       "val": "上昇",
+       "up": true,
+       "color": "red"
+      },
+      "right": {
+       "en": "price",
+       "label": "販売価格(米国)",
+       "val": "$449.99→$499.99",
+       "up": true,
+       "color": "gold"
+      },
+      "mid": "転嫁"
+     }
+    },
+    {
+     "id": "y04",
+     "kind": "en_insert",
+     "jp": "コストを、お客様に転嫁する",
+     "en": "pass on the cost to customers",
+     "hl": [
+      "pass on the cost"
+     ],
+     "star": true,
+     "vis": {
+      "t": "vs",
+      "left": {
+       "en": "memory cost",
+       "label": "部品のコスト",
+       "val": "上昇",
+       "up": true,
+       "color": "red"
+      },
+      "right": {
+       "en": "price",
+       "label": "販売価格(米国)",
+       "val": "$449.99→$499.99",
+       "up": true,
+       "color": "gold"
+      },
+      "mid": "転嫁"
+     }
+    },
+    {
+     "id": "y05",
+     "kind": "jp",
+     "jp": "パス・オンは、次の人に回す、という意味。日本でも、価格転嫁は、今まさに多くの会社の課題です。",
+     "en": "'Pass on' means hand it along. Price pass-through is a hot topic in Japan.",
+     "hl": [
+      "pass on"
+     ],
+     "vis": {
+      "t": "vs",
+      "left": {
+       "en": "memory cost",
+       "label": "部品のコスト",
+       "val": "上昇",
+       "up": true,
+       "color": "red"
+      },
+      "right": {
+       "en": "price",
+       "label": "販売価格(米国)",
+       "val": "$449.99→$499.99",
+       "up": true,
+       "color": "gold"
+      },
+      "mid": "転嫁"
+     }
+    },
+    {
+     "id": "y06",
+     "kind": "jp",
+     "jp": "また、アナリストの中には、大ヒット作が出ていないことも、普及が遅れている理由だ、という声があります。",
+     "en": "Some analysts say a lack of blockbuster games has slowed adoption.",
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "AIブーム",
+        "mid": "メモリーが値上がり",
+        "res": "スイッチ2を値上げ",
+        "ok": false
+       },
+       {
+        "a": "大ヒット作が少ない",
+        "mid": "買う理由が弱い",
+        "res": "本体の販売が鈍る",
+        "ok": false
+       },
+       {
+        "a": "ソフトは堅調",
+        "mid": "関税の返還も",
+        "res": "営業利益は約5割増",
+        "ok": true
+       }
+      ]
+     }
+    },
+    {
+     "id": "y07",
+     "kind": "jp",
+     "jp": "一方で、ゲームソフトの売れ行きは堅調で、アメリカの関税の返還もあり、4月から9月の営業利益は、およそ5割増えました。",
+     "en": "Steady software and U.S. tariff refunds lifted six-month operating profit nearly 50%.",
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "AIブーム",
+        "mid": "メモリーが値上がり",
+        "res": "スイッチ2を値上げ",
+        "ok": false
+       },
+       {
+        "a": "大ヒット作が少ない",
+        "mid": "買う理由が弱い",
+        "res": "本体の販売が鈍る",
+        "ok": false
+       },
+       {
+        "a": "ソフトは堅調",
+        "mid": "関税の返還も",
+        "res": "営業利益は約5割増",
+        "ok": true
+       }
+      ]
+     }
+    },
+    {
+     "id": "y08",
+     "kind": "jp",
+     "jp": "任天堂は、すでにある利用者とソフトの品ぞろえを生かして、遊ぶ人の関心をつなぎとめる、と説明しています。",
+     "en": "Nintendo says it will use its user base and lineup to keep players engaged.",
+     "hl": [
+      "keep players engaged"
+     ],
+     "vis": {
+      "t": "timeline",
+      "items": [
+       {
+        "when": "9月1日",
+        "text": "アメリカで449.99ドル → 499.99ドルに値上げ",
+        "color": "red"
+       },
+       {
+        "when": "11月5日",
+        "text": "決算発表。1年間の純利益の予想3100億円は据え置き",
+        "color": "gold"
+       },
+       {
+        "when": "11月5日",
+        "text": "ゼルダ「時のオカリナ」のリメイク版が発売",
+        "color": "green"
+       }
+      ],
+      "show": 3
+     }
+    },
+    {
+     "id": "y09",
+     "kind": "jp",
+     "jp": "この、関心をつなぎとめる、を仕事で使うなら、キープ・カスタマーズ・エンゲージド。お客様を飽きさせない、という意味です。",
+     "en": "At work, say 'keep customers engaged.'",
+     "hl": [
+      "keep customers engaged"
+     ],
+     "star": true,
+     "vis": {
+      "t": "timeline",
+      "items": [
+       {
+        "when": "9月1日",
+        "text": "アメリカで449.99ドル → 499.99ドルに値上げ",
+        "color": "red"
+       },
+       {
+        "when": "11月5日",
+        "text": "決算発表。1年間の純利益の予想3100億円は据え置き",
+        "color": "gold"
+       },
+       {
+        "when": "11月5日",
+        "text": "ゼルダ「時のオカリナ」のリメイク版が発売",
+        "color": "green"
+       }
+      ],
+      "show": 3
+     }
+    },
+    {
+     "id": "y10",
+     "kind": "en_insert",
+     "jp": "お客様の関心をつなぎとめる",
+     "en": "keep customers engaged",
+     "hl": [
+      "keep customers engaged"
+     ],
+     "star": true,
+     "vis": {
+      "t": "timeline",
+      "items": [
+       {
+        "when": "9月1日",
+        "text": "アメリカで449.99ドル → 499.99ドルに値上げ",
+        "color": "red"
+       },
+       {
+        "when": "11月5日",
+        "text": "決算発表。1年間の純利益の予想3100億円は据え置き",
+        "color": "gold"
+       },
+       {
+        "when": "11月5日",
+        "text": "ゼルダ「時のオカリナ」のリメイク版が発売",
+        "color": "green"
+       }
+      ],
+      "show": 3
+     }
+    },
+    {
+     "id": "y11",
+     "kind": "jp",
+     "jp": "ちょうど11月5日には、ゼルダの伝説、時のオカリナのリメイク版が発売されました。評価サイトでは、100点満点で96点です。",
+     "en": "A Zelda remake launched November 5 with a 96 out of 100 review score.",
+     "vis": {
+      "t": "timeline",
+      "items": [
+       {
+        "when": "9月1日",
+        "text": "アメリカで449.99ドル → 499.99ドルに値上げ",
+        "color": "red"
+       },
+       {
+        "when": "11月5日",
+        "text": "決算発表。1年間の純利益の予想3100億円は据え置き",
+        "color": "gold"
+       },
+       {
+        "when": "11月5日",
+        "text": "ゼルダ「時のオカリナ」のリメイク版が発売",
+        "color": "green"
+       }
+      ],
+      "show": 3
+     }
+    }
+   ]
+  },
+  {
+   "id": "insight",
+   "chapter": "私たちへの意味",
+   "beats": [
+    {
+     "id": "i01",
+     "kind": "jp",
+     "jp": "ここからは、日本で働く私たちにとっての意味を考えます。",
+     "en": "What does this mean for those of us working in Japan?",
+     "vis": {
+      "t": "statement",
+      "kicker": "SO WHAT?",
+      "text": "日本で働く私たちにとっての意味"
+     }
+    },
+    {
+     "id": "i02",
+     "kind": "jp",
+     "jp": "同じ週に決算を発表したソニーは、1年間の利益の予想を、1兆3300億円に引き上げました。ゲームと映画が好調でした。",
+     "en": "Sony, reporting the same week, raised its full-year profit forecast to 1.33 trillion yen.",
+     "vis": {
+      "t": "vs",
+      "left": {
+       "en": "Nintendo",
+       "label": "任天堂",
+       "val": "予想を据え置き",
+       "up": false,
+       "color": "muted"
+      },
+      "right": {
+       "en": "Sony",
+       "label": "ソニー",
+       "val": "予想を引き上げ",
+       "up": true,
+       "color": "green"
+      },
+      "mid": "対"
+     }
+    },
+    {
+     "id": "i03",
+     "kind": "jp",
+     "jp": "海外の見方は、失速と期待の両方です。数字は弱いものの、ゼルダが販売を押し上げるかに注目しています。",
+     "en": "Foreign media see both a slowdown and hope from Zelda.",
+     "vis": {
+      "t": "points",
+      "show": 1,
+      "items": [
+       {
+        "head": "海外の見方",
+        "big": "失速と\n期待の両方",
+        "sub": "数字は弱いが\nゼルダに注目",
+        "color": "gold"
+       },
+       {
+        "head": "逆の見方",
+        "big": "利益は\n増えている",
+        "sub": "上半期の営業利益は\n約5割増",
+        "color": "blue"
+       },
+       {
+        "head": "日本の現場",
+        "big": "値上げを\n英語で説明",
+        "sub": "pass on\nthe cost",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i04",
+     "kind": "jp",
+     "jp": "一方で、逆の見方もあります。四半期では減益でも、4月から9月では、純利益は11%増えています。1年の予想も変えていません。",
+     "en": "But six-month net profit is still up 11%, and the forecast is unchanged.",
+     "vis": {
+      "t": "points",
+      "show": 2,
+      "items": [
+       {
+        "head": "海外の見方",
+        "big": "失速と\n期待の両方",
+        "sub": "数字は弱いが\nゼルダに注目",
+        "color": "gold"
+       },
+       {
+        "head": "逆の見方",
+        "big": "利益は\n増えている",
+        "sub": "上半期の営業利益は\n約5割増",
+        "color": "blue"
+       },
+       {
+        "head": "日本の現場",
+        "big": "値上げを\n英語で説明",
+        "sub": "pass on\nthe cost",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i05",
+     "kind": "jp",
+     "jp": "そして、日本の職場でも、材料費の高騰で、値上げを説明する場面が増えています。海外の取引先には、ウィー・ハフ・トゥ・パス・オン・ザ・コスト、と理由と一緒に伝えましょう。",
+     "en": "When you raise prices, explain why: we have to pass on the cost.",
+     "hl": [
+      "pass on the cost"
+     ],
+     "vis": {
+      "t": "points",
+      "show": 3,
+      "items": [
+       {
+        "head": "海外の見方",
+        "big": "失速と\n期待の両方",
+        "sub": "数字は弱いが\nゼルダに注目",
+        "color": "gold"
+       },
+       {
+        "head": "逆の見方",
+        "big": "利益は\n増えている",
+        "sub": "上半期の営業利益は\n約5割増",
+        "color": "blue"
+       },
+       {
+        "head": "日本の現場",
+        "big": "値上げを\n英語で説明",
+        "sub": "pass on\nthe cost",
+        "color": "green"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "「勢いを失う」は英語で?lose momentumの使い方|任天堂スイッチ2が失速?【ビジネス英語ニュース #27】",
+  "summary": "任天堂は2026年11月5日、7〜9月の純利益が前年より29%減ったと発表し、海外メディアは「スイッチ2の売れ行きが冷めた」と報じました。値上げの背景にあるメモリー高騰も含め、会議で使える英語を学びます。",
+  "tags": [
+   "ビジネス英語",
+   "英語学習",
+   "ニュース英語",
+   "時事英語",
+   "会議 英語",
+   "任天堂",
+   "Nintendo",
+   "スイッチ2",
+   "Switch 2",
+   "決算",
+   "値上げ",
+   "海外の反応",
+   "教養",
+   "社会人 英語",
+   "business English"
+  ]
+ },
+ "thumbnail": {
+  "big": "−29%",
+  "big_color": "red",
+  "under": "7〜9月の純利益",
+  "badge": "任天堂",
+  "badge_color": "gold",
+  "question": "スイッチ2失速?",
+  "pill": "lose momentum",
+  "bottom": "会議で使える英語3つ",
+  "crack": true
+ },
+ "shorts": [
+  {
+   "phrase": 0,
+   "news_hook": [
+    "スイッチ2",
+    "勢いに陰り?"
+   ],
+   "hook": [
+    "「勢いを失う」を",
+    "英語で言うと?"
+   ],
+   "ctx": "海外メディアが任天堂の決算を伝えたときの英語",
+   "title": "「勢いを失う」は英語で?任天堂スイッチ2の販売が失速 #ビジネス英語 #shorts",
+   "ig_caption": "「勢いを失う・失速する」を英語で言えますか?\n\n✅ lose momentum\n勢いを失う・失速する\n\n例文:We can't let the project lose momentum.\n(このプロジェクトの勢いを、失わせるわけにはいきません。)\n\n任天堂の7〜9月の純利益は29%減。海外メディアは、スイッチ2の売れ行きが冷めたと報じました。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  },
+  {
+   "phrase": 1,
+   "style": "quiz",
+   "badge": "会議で使う英語|中級",
+   "news_hook": [
+    "スイッチ2",
+    "値上げの理由"
+   ],
+   "hook": [
+    "pass on the cost",
+    "どういう意味?"
+   ],
+   "ctx": "値上げの理由を説明するときに使う一言",
+   "title": "「pass on the cost」の意味、わかる?|会議の英語 #shorts",
+   "ig_caption": "「pass on the cost」の意味、わかりますか?\n\n✅ pass on the cost\nコストを価格に転嫁する\n\n例文:We may have to pass on the cost to customers.\n(そのコストを、お客様に転嫁せざるを得ないかもしれません。)\n\nAIブームでメモリーが値上がりし、任天堂もスイッチ2を値上げしました。値上げの理由を伝えるときの定番表現です。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  }
+ ],
+ "sources": [
+  {
+   "title": "RTÉ「Nintendo quarterly net profit drops as Switch 2 unit sales slow」(2026年11月5日)",
+   "url": "https://www.rte.ie/news/business/2026/1105/1598070-nintendo-quarterly-results/"
+  },
+  {
+   "title": "Malay Mail(AFP)「Nintendo profit tumbles 29pc as Switch 2 sales cool, but Zelda remake offers fresh hope」(2026年11月5日)",
+   "url": "https://www.malaymail.com/news/money/2026/11/05/nintendo-profit-tumbles-29pc-as-switch-2-sales-cool-but-zelda-remake-offers-fresh-hope/242095"
+  },
+  {
+   "title": "Business Recorder(AFP)「Nintendo quarterly net profit drops as Switch 2 unit sales slow」(2026年11月5日)",
+   "url": "https://www.brecorder.com/news/40447560/nintendo-quarterly-net-profit-drops-as-switch-2-unit-sales-slow"
+  },
+  {
+   "title": "Gamereactor「Nintendo earnings: Switch 2 passes 26 million as launch surge cools」(2026年11月5日)",
+   "url": "https://www.gamereactor.eu/nintendo-switch-2-26-35-million-sales/"
+  },
+  {
+   "title": "Tech Insider「Nintendo Earnings Nov. 5: 16.5M Switch 2 Test」(2026年10月31日)",
+   "url": "https://tech-insider.org/nintendo-earnings-nov-5-switch-2-16-5-million-forecast-2026/"
+  }
+ ],
+ "readings": [
+  [
+   "RTE",
+   "アールティーイー"
+  ],
+  [
+   "AFP",
+   "エーエフピー"
+  ],
+  [
+   "449.99ドル",
+   "よんひゃくよんじゅうきゅうてんきゅうきゅうドル"
+  ],
+  [
+   "499.99ドル",
+   "よんひゃくきゅうじゅうきゅうてんきゅうきゅうドル"
+  ],
+  [
+   "時のオカリナ",
+   "ときのオカリナ"
+  ]
+ ]
+}

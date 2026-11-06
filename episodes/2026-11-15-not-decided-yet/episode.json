@@ -1,0 +1,681 @@
+{
+ "id": "2026-11-15-not-decided-yet",
+ "episode": "#29",
+ "date": "2026-11-02",
+ "series": "場面別の英語",
+ "title_card": {
+  "line1": "まだ決まっていないとき、",
+  "line2": "信頼を失わない伝え方"
+ },
+ "publish": {
+  "long": "2026-11-15T07:00:00+09:00",
+  "shorts": [
+   "2026-11-15T12:00:00+09:00",
+   "2026-11-15T21:00:00+09:00"
+  ]
+ },
+ "phrases": [
+  {
+   "en": "as things stand",
+   "jp": "現時点では・今のところ",
+   "ex": "As things stand, we can ship by the end of the month.",
+   "ex_jp": "現時点では、月末までに出荷できます。"
+  },
+  {
+   "en": "I can't give you a firm date",
+   "jp": "確実な日付はまだ言えない",
+   "ex": "I'm sorry, but I can't give you a firm date yet.",
+   "ex_jp": "申し訳ありませんが、確実な日付はまだお伝えできません。"
+  },
+  {
+   "en": "I'll keep you posted",
+   "jp": "随時お知らせします",
+   "ex": "I'll keep you posted on the delivery schedule.",
+   "ex_jp": "納品のスケジュールは、随時お知らせします。"
+  }
+ ],
+ "words": [
+  {
+   "en": "timeline",
+   "jp": "スケジュール・時期の見通し"
+  },
+  {
+   "en": "firm",
+   "jp": "確定した"
+  },
+  {
+   "en": "update",
+   "jp": "最新情報・途中経過"
+  }
+ ],
+ "homework": {
+  "en": "What can't you give a firm date for yet?",
+  "jp": "まだ日付を約束できないことは?",
+  "hl": [
+   "firm date"
+  ],
+  "say": "最後に宿題です。あなたの仕事で、まだ確実な日付を言えないことは何ですか。今日の3つのステップで、英語にしてコメント欄に書いてみてください。"
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "beats": [
+    {
+     "id": "h01",
+     "kind": "jp",
+     "jp": "いつ届きますか、と海外の相手に聞かれた。でも、まだ決まっていない。そんなとき、つい、来週の金曜です、と言ってしまっていませんか。",
+     "en": "Asked for a date you don't know yet? Don't just promise one.",
+     "vis": {
+      "t": "vs",
+      "left": {
+       "en": "\"Next Friday!\"",
+       "label": "とりあえず約束",
+       "val": "守れないかも",
+       "up": false,
+       "color": "red"
+      },
+      "right": {
+       "en": "\"As things stand...\"",
+       "label": "わかる範囲で伝える",
+       "val": "信頼が残る",
+       "up": true,
+       "color": "green"
+      },
+      "mid": "どっち?"
+     }
+    },
+    {
+     "id": "h02",
+     "kind": "jp",
+     "jp": "今日は、まだ決まっていないことを、信頼を失わずに伝える英語を、3つのステップで学びます。",
+     "en": "Today: three steps to share what's still uncertain.",
+     "hl": [
+      "keep you posted"
+     ],
+     "vis": {
+      "t": "hero_side",
+      "big": "未定",
+      "color": "gold",
+      "text": "keep you posted",
+      "jp": "随時お知らせする"
+     }
+    },
+    {
+     "id": "h03",
+     "kind": "jp",
+     "jp": "今日はこのニュースから、会議で使える英語を3つ。最後に答え合わせをします。",
+     "en": "Three phrases for your next meeting. Answers at the end.",
+     "vis": {
+      "t": "teaser"
+     }
+    }
+   ]
+  },
+  {
+   "id": "news",
+   "chapter": "ニュースでは",
+   "beats": [
+    {
+     "id": "n01",
+     "kind": "jp",
+     "jp": "今週取り上げたアップルの決算が、ひとつの例です。新しいiPhone Duoは、需要に供給が追いついていません。",
+     "en": "Apple can't make enough iPhone Duos to meet demand.",
+     "vis": {
+      "t": "cards",
+      "show": 2,
+      "footer": "今週取り上げたアップルの決算から(MacRumorsの報道)",
+      "items": [
+       {
+        "name": "iPhone Duo",
+        "big": "供給不足",
+        "sub": "需要に追いつかない",
+        "note": "11月2日の決算説明会",
+        "color": "red"
+       },
+       {
+        "name": "いつ追いつく?",
+        "big": "時期は未定",
+        "sub": "no timeline",
+        "note": "ターナスCEOがロイターに",
+        "color": "gold"
+       }
+      ]
+     }
+    },
+    {
+     "id": "n02",
+     "kind": "jp",
+     "jp": "ターナスCEOは、いつ追いつくかの時期は示せない、とロイター通信に話しました。わからないことは、わからないと伝えたわけです。",
+     "en": "Its CEO told Reuters there's no timeline yet for supply to catch up.",
+     "vis": {
+      "t": "cards",
+      "show": 2,
+      "footer": "今週取り上げたアップルの決算から(MacRumorsの報道)",
+      "items": [
+       {
+        "name": "iPhone Duo",
+        "big": "供給不足",
+        "sub": "需要に追いつかない",
+        "note": "11月2日の決算説明会",
+        "color": "red"
+       },
+       {
+        "name": "いつ追いつく?",
+        "big": "時期は未定",
+        "sub": "no timeline",
+        "note": "ターナスCEOがロイターに",
+        "color": "gold"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "s1",
+   "chapter": "ステップ1 わかっていることを伝える",
+   "beats": [
+    {
+     "id": "s11",
+     "kind": "jp",
+     "jp": "ステップ1は、今わかっていることを伝えることです。切り出しに使えるのが、アズ・シングズ・スタンド。現時点では、という意味です。",
+     "en": "Step 1: share what you know. Start with 'as things stand.'",
+     "hl": [
+      "as things stand"
+     ],
+     "star": true,
+     "vis": {
+      "t": "statement",
+      "kicker": "STEP 1",
+      "text": "わかっていることを伝える",
+      "sub": "As things stand, ..."
+     }
+    },
+    {
+     "id": "s12",
+     "kind": "en_insert",
+     "jp": "現時点では、月末までに出荷できます",
+     "en": "As things stand, we can ship by the end of the month.",
+     "hl": [
+      "As things stand"
+     ],
+     "star": true,
+     "vis": {
+      "t": "statement",
+      "kicker": "STEP 1",
+      "text": "わかっていることを伝える",
+      "sub": "As things stand, ..."
+     }
+    },
+    {
+     "id": "s13",
+     "kind": "jp",
+     "jp": "スタンドは、物事が今どう立っているか、つまり今の状況のこと。状況が変わるかもしれない、という含みも、自然に伝わります。",
+     "en": "It quietly signals that things may still change.",
+     "hl": [
+      "as things stand"
+     ],
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "わかっていること",
+        "mid": "As things stand",
+        "res": "現時点での事実を伝える",
+        "ok": true
+       },
+       {
+        "a": "わからないこと",
+        "mid": "firm date yet",
+        "res": "未定だと正直に言う",
+        "ok": true
+       },
+       {
+        "a": "次の連絡",
+        "mid": "keep you posted",
+        "res": "いつ連絡するかを約束",
+        "ok": true
+       }
+      ]
+     }
+    },
+    {
+     "id": "s14",
+     "kind": "jp",
+     "jp": "フォー・ナウ、今のところ、も同じように使えます。会議で何度も使うなら、言い換えを持っておくと便利です。",
+     "en": "'For now' works the same way, so you can vary it.",
+     "hl": [
+      "For now"
+     ],
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "わかっていること",
+        "mid": "As things stand",
+        "res": "現時点での事実を伝える",
+        "ok": true
+       },
+       {
+        "a": "わからないこと",
+        "mid": "firm date yet",
+        "res": "未定だと正直に言う",
+        "ok": true
+       },
+       {
+        "a": "次の連絡",
+        "mid": "keep you posted",
+        "res": "いつ連絡するかを約束",
+        "ok": true
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "chapter": "ステップ2 未定のことは未定と言う",
+   "beats": [
+    {
+     "id": "s21",
+     "kind": "jp",
+     "jp": "ステップ2は、決まっていないことを、正直に伝えることです。確実な日付は、まだ言えません。アイ・キャント・ギブ・ユー・ア・ファーム・デート。",
+     "en": "Step 2: be honest about what's open. I can't give you a firm date yet.",
+     "hl": [
+      "I can't give you a firm date"
+     ],
+     "star": true,
+     "vis": {
+      "t": "statement",
+      "kicker": "STEP 2",
+      "text": "未定のことは、未定と言う",
+      "sub": "I can't give you a firm date yet."
+     }
+    },
+    {
+     "id": "s22",
+     "kind": "en_insert",
+     "jp": "確実な日付は、まだお伝えできません",
+     "en": "I can't give you a firm date yet.",
+     "hl": [
+      "I can't give you a firm date"
+     ],
+     "star": true,
+     "vis": {
+      "t": "statement",
+      "kicker": "STEP 2",
+      "text": "未定のことは、未定と言う",
+      "sub": "I can't give you a firm date yet."
+     }
+    },
+    {
+     "id": "s23",
+     "kind": "jp",
+     "jp": "ファームは、固い、確かな、という意味。ファーム・デートで、確定した日付です。最後に、イェット、まだ、を付けると、いずれ伝える、という前向きな響きになります。",
+     "en": "'Firm' means fixed. Adding 'yet' shows you'll share it later.",
+     "hl": [
+      "firm",
+      "yet"
+     ],
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "わかっていること",
+        "mid": "As things stand",
+        "res": "現時点での事実を伝える",
+        "ok": true
+       },
+       {
+        "a": "わからないこと",
+        "mid": "firm date yet",
+        "res": "未定だと正直に言う",
+        "ok": true
+       },
+       {
+        "a": "次の連絡",
+        "mid": "keep you posted",
+        "res": "いつ連絡するかを約束",
+        "ok": true
+       }
+      ]
+     }
+    },
+    {
+     "id": "s24",
+     "kind": "jp",
+     "jp": "日付の代わりに、ファーム・ナンバー、確定した数字、とも言えます。見積もりや予算の話でも使えます。",
+     "en": "You can also say 'a firm number' for quotes and budgets.",
+     "hl": [
+      "a firm number"
+     ],
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "わかっていること",
+        "mid": "As things stand",
+        "res": "現時点での事実を伝える",
+        "ok": true
+       },
+       {
+        "a": "わからないこと",
+        "mid": "firm date yet",
+        "res": "未定だと正直に言う",
+        "ok": true
+       },
+       {
+        "a": "次の連絡",
+        "mid": "keep you posted",
+        "res": "いつ連絡するかを約束",
+        "ok": true
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "chapter": "ステップ3 次の連絡を約束する",
+   "beats": [
+    {
+     "id": "s31",
+     "kind": "jp",
+     "jp": "ステップ3は、次の連絡を約束することです。随時お知らせします。アイル・キープ・ユー・ポステッド。",
+     "en": "Step 3: promise an update. I'll keep you posted.",
+     "hl": [
+      "I'll keep you posted"
+     ],
+     "star": true,
+     "vis": {
+      "t": "statement",
+      "kicker": "STEP 3",
+      "text": "次にいつ連絡するかを約束する",
+      "sub": "I'll keep you posted."
+     }
+    },
+    {
+     "id": "s32",
+     "kind": "en_insert",
+     "jp": "随時お知らせします",
+     "en": "I'll keep you posted.",
+     "hl": [
+      "I'll keep you posted"
+     ],
+     "star": true,
+     "vis": {
+      "t": "statement",
+      "kicker": "STEP 3",
+      "text": "次にいつ連絡するかを約束する",
+      "sub": "I'll keep you posted."
+     }
+    },
+    {
+     "id": "s33",
+     "kind": "jp",
+     "jp": "ポストは、掲示板に貼るイメージです。新しい情報が入ったら、すぐに貼り出す、という意味になります。",
+     "en": "'Posted' is like pinning news on a board as it comes in.",
+     "hl": [
+      "posted"
+     ],
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "わかっていること",
+        "mid": "As things stand",
+        "res": "現時点での事実を伝える",
+        "ok": true
+       },
+       {
+        "a": "わからないこと",
+        "mid": "firm date yet",
+        "res": "未定だと正直に言う",
+        "ok": true
+       },
+       {
+        "a": "次の連絡",
+        "mid": "keep you posted",
+        "res": "いつ連絡するかを約束",
+        "ok": true
+       }
+      ]
+     }
+    },
+    {
+     "id": "s34",
+     "kind": "jp",
+     "jp": "さらに、次にいつ連絡するかを入れると、相手はもっと安心します。たとえば、金曜までにご連絡します、と付け加えます。",
+     "en": "Add when you'll update them, like 'by Friday.'",
+     "hl": [
+      "by Friday"
+     ],
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "I can't give you",
+       "a firm date yet,",
+       "but I'll update you by Friday."
+      ],
+      "hl": [
+       "a firm date",
+       "by Friday"
+      ],
+      "by": "おすすめの言い方"
+     }
+    },
+    {
+     "id": "s35",
+     "kind": "jp",
+     "jp": "わかっていることを伝え、未定のことは未定と言い、次の連絡を約束する。この順番で話せば、決まっていないことでも、相手との信頼は残ります。",
+     "en": "Share what's known, admit what isn't, then promise an update.",
+     "vis": {
+      "t": "timeline",
+      "items": [
+       {
+        "when": "月曜",
+        "text": "As things stand, we expect a two-week delay.",
+        "color": "gold"
+       },
+       {
+        "when": "水曜",
+        "text": "I can't give you a firm date yet.",
+        "color": "blue"
+       },
+       {
+        "when": "金曜",
+        "text": "I'll keep you posted — next update on Friday.",
+        "color": "green"
+       }
+      ],
+      "show": 3
+     }
+    }
+   ]
+  },
+  {
+   "id": "meaning",
+   "chapter": "日本の職場では",
+   "beats": [
+    {
+     "id": "m01",
+     "kind": "jp",
+     "jp": "日本の職場では、確定するまで、連絡を控えることもあります。でも海外の相手は、途中経過を早めに知りたいと考えることが多いです。",
+     "en": "In Japan we often wait until it's final. Overseas partners usually want updates early.",
+     "vis": {
+      "t": "points",
+      "show": 1,
+      "items": [
+       {
+        "head": "日本の職場",
+        "big": "確定まで\n黙らない",
+        "sub": "途中経過を\n先に共有",
+        "color": "gold"
+       },
+       {
+        "head": "逆の見方",
+        "big": "言いすぎ\nにも注意",
+        "sub": "未確定の数字は\n約束に聞こえる",
+        "color": "blue"
+       },
+       {
+        "head": "コツ",
+        "big": "次の連絡日\nを入れる",
+        "sub": "by Friday\nby 3 p.m.",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "m02",
+     "kind": "jp",
+     "jp": "一方で、逆の見方もあります。未確定の数字を、具体的に言いすぎると、それが約束に聞こえてしまうこともあります。",
+     "en": "But overly specific guesses can sound like promises.",
+     "vis": {
+      "t": "points",
+      "show": 2,
+      "items": [
+       {
+        "head": "日本の職場",
+        "big": "確定まで\n黙らない",
+        "sub": "途中経過を\n先に共有",
+        "color": "gold"
+       },
+       {
+        "head": "逆の見方",
+        "big": "言いすぎ\nにも注意",
+        "sub": "未確定の数字は\n約束に聞こえる",
+        "color": "blue"
+       },
+       {
+        "head": "コツ",
+        "big": "次の連絡日\nを入れる",
+        "sub": "by Friday\nby 3 p.m.",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "m03",
+     "kind": "jp",
+     "jp": "だからこそ、アズ・シングズ・スタンドで、今の時点の話だと示しておく。そして最後に、次の連絡日を入れる。これが、いちばんのコツです。",
+     "en": "So frame it with 'as things stand,' and always give a next update date.",
+     "hl": [
+      "as things stand"
+     ],
+     "vis": {
+      "t": "points",
+      "show": 3,
+      "items": [
+       {
+        "head": "日本の職場",
+        "big": "確定まで\n黙らない",
+        "sub": "途中経過を\n先に共有",
+        "color": "gold"
+       },
+       {
+        "head": "逆の見方",
+        "big": "言いすぎ\nにも注意",
+        "sub": "未確定の数字は\n約束に聞こえる",
+        "color": "blue"
+       },
+       {
+        "head": "コツ",
+        "big": "次の連絡日\nを入れる",
+        "sub": "by Friday\nby 3 p.m.",
+        "color": "green"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "「随時お知らせします」は英語で?I'll keep you postedの使い方|未定のことを伝える【ビジネス英語ニュース #29】",
+  "summary": "納期や日付がまだ決まっていないとき、海外の相手にどう伝えればよいか。アップルのCEOが新型iPhoneの供給について「時期は示せない」と話した例から、信頼を失わない3つのステップと英語を学びます。",
+  "tags": [
+   "ビジネス英語",
+   "英語学習",
+   "ニュース英語",
+   "時事英語",
+   "会議 英語",
+   "ビジネスメール 英語",
+   "納期 英語",
+   "未定 英語",
+   "keep you posted",
+   "アップル",
+   "場面別",
+   "教養",
+   "社会人 英語",
+   "business English"
+  ]
+ },
+ "thumbnail": {
+  "big": "未定",
+  "big_color": "gold",
+  "under": "まだ決まっていない",
+  "badge": "会議とメールの英語",
+  "badge_color": "gold",
+  "question": "どう伝える?",
+  "pill": "I'll keep you posted",
+  "bottom": "会議で使える英語3つ",
+  "crack": false
+ },
+ "shorts": [
+  {
+   "phrase": 2,
+   "news_hook": [
+    "まだ決まって",
+    "いないとき"
+   ],
+   "hook": [
+    "「随時お知らせします」",
+    "英語で言うと?"
+   ],
+   "ctx": "日付がまだ決まっていないときに、信頼を残す一言",
+   "title": "「随時お知らせします」は英語で?未定のことを伝える一言 #ビジネス英語 #shorts",
+   "ig_caption": "「随時お知らせします」を英語で言えますか?\n\n✅ I'll keep you posted\n随時お知らせします\n\n例文:I'll keep you posted on the delivery schedule.\n(納品のスケジュールは、随時お知らせします。)\n\n納期などがまだ決まっていないときに、次の連絡を約束する一言です。金曜までに、などと連絡日を添えるとさらに安心されます。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  },
+  {
+   "phrase": 0,
+   "style": "quiz",
+   "badge": "会議で使う英語|中級",
+   "news_hook": [
+    "今わかって",
+    "いることだけ"
+   ],
+   "hook": [
+    "as things stand",
+    "どういう意味?"
+   ],
+   "ctx": "状況が変わるかもしれないときの、会議の定番表現",
+   "title": "「as things stand」の意味、わかる?|会議の英語 #shorts",
+   "ig_caption": "「as things stand」の意味、わかりますか?\n\n✅ as things stand\n現時点では・今のところ\n\n例文:As things stand, we can ship by the end of the month.\n(現時点では、月末までに出荷できます。)\n\n今の状況では、という意味で、状況が変わるかもしれないという含みも伝わります。未確定のことを話すときの切り出しに便利です。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  }
+ ],
+ "sources": [
+  {
+   "title": "MacRumors「Apple's Q4 2026 Earnings Call Takeaways」(2026年11月2日)",
+   "url": "https://www.macrumors.com/2026/11/02/apple-q4-2026-earnings-takeaways/"
+  },
+  {
+   "title": "Six Colors「Hello, everyone, it's John: Apple's Q4 2026 earnings call transcript」(2026年11月)",
+   "url": "https://sixcolors.com/post/2026/11/hello-everyone-its-john-apples-q4-2026-earnings-call-transcript/"
+  }
+ ],
+ "readings": [
+  [
+   "CEO",
+   "シーイーオー"
+  ],
+  [
+   "iPhone Duo",
+   "アイフォーン デュオ"
+  ]
+ ]
+}
