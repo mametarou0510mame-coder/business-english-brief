@@ -48,3 +48,19 @@ Check (fill in on 11/14 and 11/21):
 - 11/07 ops change (owner): hot topics are published immediately (series 速報, see CLAUDE.md). Track hot vs scheduled
   views separately from 11/14; candidate hypothesis for Cycle 2: "a hot story published the same day gets ≥3× the
   views of a scheduled one".
+- 11/07 analytics now readable (YouTube Analytics + IG insights, stats run 11/07 18:28 JST). Baseline (all videos so far):
+  traffic = Shorts feed 3,844 views vs YouTube search 106 / channel page 12. Median short: 71–97 views, avg view 11–13 s,
+  ~50% viewed. Long: median 2 views, avg 63 s (31%). IG reels: median 23 views / reach 13, saves ≈0, shares 0.
+  → Discovery is almost only the Shorts feed; search brings nothing yet, long videos are not found at all.
+
+## Pivot watch: search-first / TOEIC format (owner idea 11/07 — decide at the Cycle 1 end, 11/21)
+
+Owner suggests we may pivot to a format people search for (e.g. TOEIC). Decide on 11/21 with these rules:
+- **Pivot signal:** YouTube search stays < 5% of views AND weekday news longs stay at median < 10 views AND the quiz short
+  (H2) beats the news short. Then news is not what people come for — the phrase/quiz is.
+- **If pivot:** Cycle 2 tests a search-first format while keeping the news as the "example sentence" source:
+  (a) quiz shorts titled with a searched tag, e.g. `「<phrase>」の意味、わかる?|TOEIC730点・会議の英語 #shorts`;
+  (b) the Saturday long as a searchable list, e.g. `【TOEIC頻出】ビジネス英語◯選|聞き流し`;
+  (c) before writing, dispatch `competitors.yml` (already scans 「TOEIC 英単語」) and pick wording from what ranks.
+  Metric: search-traffic views and median views of TOEIC-tagged vs untagged quiz shorts.
+- **If not:** keep the news concept; revisit at the end of Cycle 2.
