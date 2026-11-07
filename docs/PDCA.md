@@ -45,3 +45,6 @@ Check (fill in on 11/14 and 11/21):
   H3: Saturday #28 is the first `compile-week` listening video (18 phrases, ~8 min). Engine: outro now uses a compact
   grid when an episode has more than 3 phrases. Baseline at start (stats 11/07, videos ≥3 days old):
   median short 33 views, median long 0, IG 130 followers. First Check on 11/14 (only #16–#22 will be ≥3 days old).
+- 11/07 ops change (owner): hot topics are published immediately (series 速報, see CLAUDE.md). Track hot vs scheduled
+  views separately from 11/14; candidate hypothesis for Cycle 2: "a hot story published the same day gets ≥3× the
+  views of a scheduled one".

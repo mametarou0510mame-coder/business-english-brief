@@ -65,6 +65,30 @@ Format spec: `docs/FORMAT.md`. Engine: `engine/`. State: `state/published.json`,
    what you changed), then the 7 titles with publish times and YouTube Studio links,
    anything you were unsure about, and anything that needs their action.
 
+## Hot topics: publish now (速報, owner rule 2026-11-07)
+
+A hot story is published **immediately**, not scheduled. A daily Claude task (「BEB 速報チェック」, every day 18:37 JST)
+checks for one; the Saturday weekly task applies the same rule while researching.
+
+1. **Is it hot?** All of these must be true:
+   - it broke in the last ~24 hours and is at or near the top of Japanese news rankings today
+     (Yahoo!ニュース 経済・国内のランキング, NHK, 日経のトップ), or it is the day's biggest global business headline;
+   - Japanese viewers already know the company/topic (reach rule H1), and it gives at least one genuinely useful meeting phrase;
+   - it is not already covered or scheduled in `episodes/` (check titles and `sources` of the last 7 and next 7 days);
+   - it is not a disaster, accident, crime or death story with victims (we don't build lessons on tragedy).
+   If nothing qualifies: do nothing — no commit, no notification. When in doubt, it is not hot.
+2. **Limits:** at most 1 hot episode per day and 3 per week. Scheduled episodes stay as they are (hot ones are extra;
+   never delete or reschedule a scheduled video).
+3. **Make it** like a Weekly Brief episode (all quality rules above apply; 3–5 min is fine), with:
+   - `series`: `"速報"`, `episode`: next number after the highest in `episodes/`, `id`: `<today>-<slug>`, `date`: the news date;
+   - `publish.long` and `publish.shorts[0]`: the current JST time (`YYYY-MM-DDTHH:MM:00+09:00`, not in the future) →
+     the engine uploads them as **public now** and queues the reel immediately; `publish.shorts[1]`: +3 hours
+     (the H2 quiz short);
+   - `thumbnail.badge`: `"速報"` (badge_color `red`); title follows the normal search-first pattern.
+4. Validate, look at the preview sheet and thumbnail, commit only that folder, push, and watch "Build & schedule" to the end
+   (one episode takes ~20–30 min). The Saturday compilation picks up hot episodes' phrases automatically.
+5. Notify the owner (PushNotification, Japanese): the title, why it was hot, the YouTube link.
+
 ## Things that need the owner (never do these yourself)
 
 Creating accounts, entering passwords or tokens, changing GitHub secrets, accepting new terms, spending money.
