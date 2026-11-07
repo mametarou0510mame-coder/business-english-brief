@@ -1,5 +1,5 @@
 {
- "at": "2026-11-06T20:13:14.172252+00:00",
+ "at": "2026-11-07T09:28:18.217474+00:00",
  "youtube": [
   {
    "ep": "2026-10-25-amex-ai-cuts",
@@ -11,7 +11,15 @@
    "views": 2,
    "likes": 0,
    "comments": 0,
-   "series": "経営者の一言を読む"
+   "series": "経営者の一言を読む",
+   "analytics": {
+    "video": "EO71FC_qIbA",
+    "views": 2,
+    "estimatedMinutesWatched": 0,
+    "averageViewDuration": 28,
+    "averageViewPercentage": 9.77,
+    "subscribersGained": 0
+   }
   },
   {
    "ep": "2026-10-25-amex-ai-cuts",
@@ -24,7 +32,15 @@
    "likes": 0,
    "comments": 0,
    "series": "経営者の一言を読む",
-   "style": "news"
+   "style": "news",
+   "analytics": {
+    "video": "WmHgRZRfrmQ",
+    "views": 85,
+    "estimatedMinutesWatched": 3,
+    "averageViewDuration": 13,
+    "averageViewPercentage": 50.92,
+    "subscribersGained": 0
+   }
   },
   {
    "ep": "2026-10-25-amex-ai-cuts",
@@ -62,7 +78,15 @@
    "likes": 0,
    "comments": 0,
    "series": "テックとAI",
-   "style": "news"
+   "style": "news",
+   "analytics": {
+    "video": "vzcCXNq3zsE",
+    "views": 226,
+    "estimatedMinutesWatched": 24,
+    "averageViewDuration": 21,
+    "averageViewPercentage": 56.92,
+    "subscribersGained": 0
+   }
   },
   {
    "ep": "2026-10-25-iphone-duo-china",
@@ -87,7 +111,15 @@
    "likes": 1,
    "comments": 0,
    "series": "テックとAI",
-   "style": "news"
+   "style": "news",
+   "analytics": {
+    "video": "uXw7wjXW8M8",
+    "views": 320,
+    "estimatedMinutesWatched": 21,
+    "averageViewDuration": 11,
+    "averageViewPercentage": 34.69,
+    "subscribersGained": 0
+   }
   },
   {
    "ep": "2026-10-25-japan-cpi-boj",
@@ -137,7 +169,15 @@
    "likes": 4,
    "comments": 0,
    "series": "Weekly Brief",
-   "style": "news"
+   "style": "news",
+   "analytics": {
+    "video": "GKmkz1BXJog",
+    "views": 896,
+    "estimatedMinutesWatched": 75,
+    "averageViewDuration": 13,
+    "averageViewPercentage": 53.11,
+    "subscribersGained": 1
+   }
   },
   {
    "ep": "2026-10-25-meta-25bn-ruling",
@@ -162,7 +202,15 @@
    "likes": 2,
    "comments": 0,
    "series": "Weekly Brief",
-   "style": "news"
+   "style": "news",
+   "analytics": {
+    "video": "FwOmLWLV0-s",
+    "views": 541,
+    "estimatedMinutesWatched": 31,
+    "averageViewDuration": 14,
+    "averageViewPercentage": 55.74,
+    "subscribersGained": 0
+   }
   },
   {
    "ep": "2026-10-25-moderna-data-leak",
@@ -171,10 +219,18 @@
    "title": "「期待を上回る」は英語で?exceed expectationsの使い方|モデルナ株が急落【ビジネス英語ニュース #10】",
    "privacy": "public",
    "published": "2026-10-26T06:01:30Z",
-   "views": 8,
+   "views": 9,
    "likes": 0,
    "comments": 0,
-   "series": "決算と数字の英語"
+   "series": "決算と数字の英語",
+   "analytics": {
+    "video": "AC3uWGdC8sg",
+    "views": 7,
+    "estimatedMinutesWatched": 10,
+    "averageViewDuration": 104,
+    "averageViewPercentage": 49.55,
+    "subscribersGained": 0
+   }
   },
   {
    "ep": "2026-10-25-moderna-data-leak",
@@ -187,7 +243,15 @@
    "likes": 2,
    "comments": 0,
    "series": "決算と数字の英語",
-   "style": "news"
+   "style": "news",
+   "analytics": {
+    "video": "boghDZVudgQ",
+    "views": 71,
+    "estimatedMinutesWatched": 7,
+    "averageViewDuration": 21,
+    "averageViewPercentage": 69.77,
+    "subscribersGained": 0
+   }
   },
   {
    "ep": "2026-10-25-php-ai-flaws",
@@ -212,7 +276,15 @@
    "likes": 0,
    "comments": 0,
    "series": "テックとAI",
-   "style": "news"
+   "style": "news",
+   "analytics": {
+    "video": "JTneh8XXhCo",
+    "views": 1,
+    "estimatedMinutesWatched": 0,
+    "averageViewDuration": 9,
+    "averageViewPercentage": 36.08,
+    "subscribersGained": 0
+   }
   },
   {
    "ep": "2026-10-25-salesforce-braze",
@@ -249,7 +321,15 @@
    "views": 2,
    "likes": 0,
    "comments": 0,
-   "series": "経営者の一言を読む"
+   "series": "経営者の一言を読む",
+   "analytics": {
+    "video": "6kD6KW6qh1c",
+    "views": 2,
+    "estimatedMinutesWatched": 2,
+    "averageViewDuration": 63,
+    "averageViewPercentage": 30.709999999999997,
+    "subscribersGained": 0
+   }
   },
   {
    "ep": "2026-10-25-spacex-tesla-merger",
@@ -262,7 +342,15 @@
    "likes": 3,
    "comments": 0,
    "series": "経営者の一言を読む",
-   "style": "news"
+   "style": "news",
+   "analytics": {
+    "video": "v0GYRSWwwHY",
+    "views": 158,
+    "estimatedMinutesWatched": 9,
+    "averageViewDuration": 17,
+    "averageViewPercentage": 65.77,
+    "subscribersGained": 0
+   }
   },
   {
    "ep": "2026-10-25-volvo-cars-guidance",
@@ -274,7 +362,15 @@
    "views": 1,
    "likes": 0,
    "comments": 0,
-   "series": "決算と数字の英語"
+   "series": "決算と数字の英語",
+   "analytics": {
+    "video": "InfWZrSQb-E",
+    "views": 1,
+    "estimatedMinutesWatched": 0,
+    "averageViewDuration": 0,
+    "averageViewPercentage": 0,
+    "subscribersGained": 0
+   }
   },
   {
    "ep": "2026-10-25-volvo-cars-guidance",
@@ -287,7 +383,15 @@
    "likes": 3,
    "comments": 0,
    "series": "決算と数字の英語",
-   "style": "news"
+   "style": "news",
+   "analytics": {
+    "video": "2Xu5mh-DEiw",
+    "views": 739,
+    "estimatedMinutesWatched": 90,
+    "averageViewDuration": 22,
+    "averageViewPercentage": 81.56,
+    "subscribersGained": 1
+   }
   },
   {
    "ep": "2026-10-29-robinhood-ecosystem",
@@ -299,7 +403,15 @@
    "views": 3,
    "likes": 0,
    "comments": 0,
-   "series": "経営者の一言を読む"
+   "series": "経営者の一言を読む",
+   "analytics": {
+    "video": "OgQWwdPZzgM",
+    "views": 3,
+    "estimatedMinutesWatched": 7,
+    "averageViewDuration": 141,
+    "averageViewPercentage": 55.34,
+    "subscribersGained": 0
+   }
   },
   {
    "ep": "2026-10-29-robinhood-ecosystem",
@@ -312,7 +424,15 @@
    "likes": 0,
    "comments": 0,
    "series": "経営者の一言を読む",
-   "style": "news"
+   "style": "news",
+   "analytics": {
+    "video": "aOBjuoRQ0QI",
+    "views": 77,
+    "estimatedMinutesWatched": 4,
+    "averageViewDuration": 13,
+    "averageViewPercentage": 52.11,
+    "subscribersGained": 0
+   }
   },
   {
    "ep": "2026-10-29-robinhood-ecosystem",
@@ -325,7 +445,15 @@
    "likes": 0,
    "comments": 0,
    "series": "経営者の一言を読む",
-   "style": "news"
+   "style": "news",
+   "analytics": {
+    "video": "gkZVpimkYQQ",
+    "views": 14,
+    "estimatedMinutesWatched": 1,
+    "averageViewDuration": 17,
+    "averageViewPercentage": 66.29,
+    "subscribersGained": 0
+   }
   },
   {
    "ep": "2026-10-30-softbank-ai-fears",
@@ -350,7 +478,15 @@
    "likes": 0,
    "comments": 0,
    "series": "海外メディアが報じる日本",
-   "style": "news"
+   "style": "news",
+   "analytics": {
+    "video": "myJyIVTB-dM",
+    "views": 6,
+    "estimatedMinutesWatched": 0,
+    "averageViewDuration": 14,
+    "averageViewPercentage": 59.13,
+    "subscribersGained": 0
+   }
   },
   {
    "ep": "2026-10-30-softbank-ai-fears",
@@ -363,7 +499,15 @@
    "likes": 1,
    "comments": 0,
    "series": "海外メディアが報じる日本",
-   "style": "news"
+   "style": "news",
+   "analytics": {
+    "video": "2LR6RCE2aQo",
+    "views": 5,
+    "estimatedMinutesWatched": 0,
+    "averageViewDuration": 11,
+    "averageViewPercentage": 46.33,
+    "subscribersGained": 0
+   }
   },
   {
    "ep": "2026-10-31-weekly-review",
@@ -388,7 +532,15 @@
    "likes": 0,
    "comments": 0,
    "series": "今週の英単語 総復習",
-   "style": "news"
+   "style": "news",
+   "analytics": {
+    "video": "PGe8Z2AVveA",
+    "views": 7,
+    "estimatedMinutesWatched": 0,
+    "averageViewDuration": 4,
+    "averageViewPercentage": 19.61,
+    "subscribersGained": 0
+   }
   },
   {
    "ep": "2026-10-31-weekly-review",
@@ -401,7 +553,15 @@
    "likes": 0,
    "comments": 0,
    "series": "今週の英単語 総復習",
-   "style": "news"
+   "style": "news",
+   "analytics": {
+    "video": "mLUOsO3thTY",
+    "views": 18,
+    "estimatedMinutesWatched": 0,
+    "averageViewDuration": 8,
+    "averageViewPercentage": 35.26,
+    "subscribersGained": 0
+   }
   },
   {
    "ep": "2026-11-01-disagree-politely",
@@ -426,7 +586,15 @@
    "likes": 0,
    "comments": 0,
    "series": "場面別の英語",
-   "style": "news"
+   "style": "news",
+   "analytics": {
+    "video": "a4tRiPg38MU",
+    "views": 8,
+    "estimatedMinutesWatched": 1,
+    "averageViewDuration": 16,
+    "averageViewPercentage": 63.72,
+    "subscribersGained": 0
+   }
   },
   {
    "ep": "2026-11-01-disagree-politely",
@@ -439,7 +607,15 @@
    "likes": 3,
    "comments": 0,
    "series": "場面別の英語",
-   "style": "news"
+   "style": "news",
+   "analytics": {
+    "video": "0y10hV4IiAY",
+    "views": 220,
+    "estimatedMinutesWatched": 12,
+    "averageViewDuration": 16,
+    "averageViewPercentage": 64.8,
+    "subscribersGained": 0
+   }
   },
   {
    "ep": "2026-11-02-big-tech-ai-bill",
@@ -464,7 +640,15 @@
    "likes": 0,
    "comments": 0,
    "series": "Weekly Brief",
-   "style": "news"
+   "style": "news",
+   "analytics": {
+    "video": "fDHxIhdT1VQ",
+    "views": 62,
+    "estimatedMinutesWatched": 2,
+    "averageViewDuration": 10,
+    "averageViewPercentage": 42.66,
+    "subscribersGained": 0
+   }
   },
   {
    "ep": "2026-11-02-big-tech-ai-bill",
@@ -477,7 +661,15 @@
    "likes": 1,
    "comments": 0,
    "series": "Weekly Brief",
-   "style": "news"
+   "style": "news",
+   "analytics": {
+    "video": "VRHuGm1Ng_w",
+    "views": 300,
+    "estimatedMinutesWatched": 32,
+    "averageViewDuration": 52,
+    "averageViewPercentage": 228.96,
+    "subscribersGained": 0
+   }
   },
   {
    "ep": "2026-11-03-intel-pc-slowdown",
@@ -502,7 +694,15 @@
    "likes": 0,
    "comments": 0,
    "series": "決算と数字の英語",
-   "style": "news"
+   "style": "news",
+   "analytics": {
+    "video": "4iCwwDjowMQ",
+    "views": 48,
+    "estimatedMinutesWatched": 1,
+    "averageViewDuration": 14,
+    "averageViewPercentage": 57.49999999999999,
+    "subscribersGained": 0
+   }
   },
   {
    "ep": "2026-11-03-intel-pc-slowdown",
@@ -515,7 +715,15 @@
    "likes": 0,
    "comments": 0,
    "series": "決算と数字の英語",
-   "style": "news"
+   "style": "news",
+   "analytics": {
+    "video": "Xg2CGxKu_Yw",
+    "views": 103,
+    "estimatedMinutesWatched": 3,
+    "averageViewDuration": 9,
+    "averageViewPercentage": 41.45,
+    "subscribersGained": 0
+   }
   },
   {
    "ep": "2026-11-04-oracle-ai-chips",
@@ -540,7 +748,15 @@
    "likes": 1,
    "comments": 0,
    "series": "テックとAI",
-   "style": "news"
+   "style": "news",
+   "analytics": {
+    "video": "s99mI415t1c",
+    "views": 8,
+    "estimatedMinutesWatched": 0,
+    "averageViewDuration": 12,
+    "averageViewPercentage": 43.93,
+    "subscribersGained": 0
+   }
   },
   {
    "ep": "2026-11-04-oracle-ai-chips",
@@ -553,7 +769,15 @@
    "likes": 0,
    "comments": 0,
    "series": "テックとAI",
-   "style": "news"
+   "style": "news",
+   "analytics": {
+    "video": "NTa6IxW8DWo",
+    "views": 97,
+    "estimatedMinutesWatched": 1,
+    "averageViewDuration": 10,
+    "averageViewPercentage": 39.63,
+    "subscribersGained": 0
+   }
   },
   {
    "ep": "2026-11-05-microsoft-demand-supply",
@@ -578,7 +802,15 @@
    "likes": 0,
    "comments": 0,
    "series": "経営者の一言を読む",
-   "style": "news"
+   "style": "news",
+   "analytics": {
+    "video": "4aCaLj8fKkY",
+    "views": 3,
+    "estimatedMinutesWatched": 0,
+    "averageViewDuration": 4,
+    "averageViewPercentage": 14.19,
+    "subscribersGained": 0
+   }
   },
   {
    "ep": "2026-11-05-microsoft-demand-supply",
@@ -612,7 +844,7 @@
    "title": "「おおむね一致している」は英語で?日銀が物価2%到達と判断 #ビジネス英語 #shorts",
    "privacy": "public",
    "published": "2026-11-06T03:00:20Z",
-   "views": 4,
+   "views": 5,
    "likes": 0,
    "comments": 0,
    "series": "海外メディアが報じる日本",
@@ -625,7 +857,7 @@
    "title": "「行き過ぎる・上回ってしまう」は英語で?日銀が物価の上振れを警戒 #ビジネス英語 #shorts",
    "privacy": "public",
    "published": "2026-11-06T12:00:35Z",
-   "views": 0,
+   "views": 1,
    "likes": 0,
    "comments": 0,
    "series": "海外メディアが報じる日本",
@@ -636,8 +868,8 @@
    "kind": "long",
    "id": "-JoaXcoJy44",
    "title": "「選択肢を残しておく」は英語で?keep our options openの使い方|今週のニュース英語 総復習【ビジネス英語ニュース #21】",
-   "privacy": "private",
-   "published": "2026-11-01T09:08:26Z",
+   "privacy": "public",
+   "published": "2026-11-06T22:00:13Z",
    "views": 0,
    "likes": 0,
    "comments": 0,
@@ -648,9 +880,9 @@
    "kind": "short1",
    "id": "IASYuNQFm28",
    "title": "「予測に届かない」は英語で?数字の報告で使える一言 #ビジネス英語 #shorts",
-   "privacy": "private",
-   "published": "2026-11-01T09:08:33Z",
-   "views": 0,
+   "privacy": "public",
+   "published": "2026-11-07T03:00:19Z",
+   "views": 87,
    "likes": 0,
    "comments": 0,
    "series": "今週の英単語 総復習",
@@ -706,244 +938,734 @@
    "comments": 0,
    "series": "場面別の英語",
    "style": "news"
+  },
+  {
+   "ep": "2026-11-09-midterms-ai-selloff",
+   "kind": "long",
+   "id": "IY3_5mzr30k",
+   "title": "「見直す」は英語で?reassessの使い方|米選挙で日経平均6%安【ビジネス英語ニュース #23】",
+   "privacy": "private",
+   "published": "2026-11-06T21:52:59Z",
+   "views": 0,
+   "likes": 0,
+   "comments": 0,
+   "series": "Weekly Brief"
+  },
+  {
+   "ep": "2026-11-09-midterms-ai-selloff",
+   "kind": "short1",
+   "id": "98aMh_udcJU",
+   "title": "「見直す」は英語で?米選挙のあと日経平均が6%安 #ビジネス英語 #shorts",
+   "privacy": "private",
+   "published": "2026-11-06T21:53:06Z",
+   "views": 0,
+   "likes": 0,
+   "comments": 0,
+   "series": "Weekly Brief",
+   "style": "news"
+  },
+  {
+   "ep": "2026-11-09-midterms-ai-selloff",
+   "kind": "short2",
+   "id": "EhKoyeUBAxk",
+   "title": "「rein in」の意味、わかる?|会議の英語 #shorts",
+   "privacy": "private",
+   "published": "2026-11-06T21:53:08Z",
+   "views": 0,
+   "likes": 0,
+   "comments": 0,
+   "series": "Weekly Brief",
+   "style": "quiz"
+  },
+  {
+   "ep": "2026-11-10-toyota-raises-forecast",
+   "kind": "long",
+   "id": "PB_7EGsuLno",
+   "title": "「見通しを引き上げる」は英語で?raise the forecastの使い方|トヨタが上方修正【ビジネス英語ニュース #24】",
+   "privacy": "private",
+   "published": "2026-11-06T21:53:10Z",
+   "views": 0,
+   "likes": 0,
+   "comments": 0,
+   "series": "決算と数字の英語"
+  },
+  {
+   "ep": "2026-11-10-toyota-raises-forecast",
+   "kind": "short1",
+   "id": "0kcCUR_jCCo",
+   "title": "「見通しを引き上げる」は英語で?トヨタが5000億円の上方修正 #ビジネス英語 #shorts",
+   "privacy": "private",
+   "published": "2026-11-06T21:53:18Z",
+   "views": 0,
+   "likes": 0,
+   "comments": 0,
+   "series": "決算と数字の英語",
+   "style": "news"
+  },
+  {
+   "ep": "2026-11-10-toyota-raises-forecast",
+   "kind": "short2",
+   "id": "vX-PEUvxqFs",
+   "title": "「we can't afford to be complacent」の意味、わかる?|会議の英語 #shorts",
+   "privacy": "private",
+   "published": "2026-11-06T21:53:20Z",
+   "views": 0,
+   "likes": 0,
+   "comments": 0,
+   "series": "決算と数字の英語",
+   "style": "quiz"
+  },
+  {
+   "ep": "2026-11-11-chatgpt-google-fifth",
+   "kind": "long",
+   "id": "13lKM2LFuXo",
+   "title": "「約5分の1」は英語で?roughly one-fifthの使い方|ChatGPTはグーグルの5分の1?【ビジネス英語ニュース #25】",
+   "privacy": "private",
+   "published": "2026-11-06T21:53:22Z",
+   "views": 0,
+   "likes": 0,
+   "comments": 0,
+   "series": "テックとAI"
+  },
+  {
+   "ep": "2026-11-11-chatgpt-google-fifth",
+   "kind": "short1",
+   "id": "v7CYuY7EtZY",
+   "title": "「約5分の1」は英語で?ChatGPTがグーグル検索の5分の1に #ビジネス英語 #shorts",
+   "privacy": "private",
+   "published": "2026-11-06T21:53:27Z",
+   "views": 0,
+   "likes": 0,
+   "comments": 0,
+   "series": "テックとAI",
+   "style": "news"
+  },
+  {
+   "ep": "2026-11-11-chatgpt-google-fifth",
+   "kind": "short2",
+   "id": "ZORCUlSbTd0",
+   "title": "「an apples-to-apples comparison」の意味、わかる?|会議の英語 #shorts",
+   "privacy": "private",
+   "published": "2026-11-06T21:53:29Z",
+   "views": 0,
+   "likes": 0,
+   "comments": 0,
+   "series": "テックとAI",
+   "style": "quiz"
+  },
+  {
+   "ep": "2026-11-12-apple-ternus-first-call",
+   "kind": "long",
+   "id": "tomTrRAzZrs",
+   "title": "「〜できて光栄です」は英語で?It's a privilege toの使い方|アップル新CEOの第一声【ビジネス英語ニュース #26】",
+   "privacy": "private",
+   "published": "2026-11-06T21:53:31Z",
+   "views": 0,
+   "likes": 0,
+   "comments": 0,
+   "series": "経営者の一言を読む"
+  },
+  {
+   "ep": "2026-11-12-apple-ternus-first-call",
+   "kind": "short1",
+   "id": "B0fukgiqXyQ",
+   "title": "「〜できて光栄です」は英語で?アップル新CEOの第一声 #ビジネス英語 #shorts",
+   "privacy": "private",
+   "published": "2026-11-06T21:53:36Z",
+   "views": 0,
+   "likes": 0,
+   "comments": 0,
+   "series": "経営者の一言を読む",
+   "style": "news"
+  },
+  {
+   "ep": "2026-11-12-apple-ternus-first-call",
+   "kind": "short2",
+   "id": "OvX9mYi9EpU",
+   "title": "「unprecedented」の意味、わかる?|会議の英語 #shorts",
+   "privacy": "private",
+   "published": "2026-11-06T21:53:38Z",
+   "views": 0,
+   "likes": 0,
+   "comments": 0,
+   "series": "経営者の一言を読む",
+   "style": "quiz"
+  },
+  {
+   "ep": "2026-11-13-nintendo-switch2-cools",
+   "kind": "long",
+   "id": "hdSFF4kAkRo",
+   "title": "「勢いを失う」は英語で?lose momentumの使い方|任天堂スイッチ2が失速?【ビジネス英語ニュース #27】",
+   "privacy": "private",
+   "published": "2026-11-06T21:53:40Z",
+   "views": 0,
+   "likes": 0,
+   "comments": 0,
+   "series": "海外メディアが報じる日本"
+  },
+  {
+   "ep": "2026-11-13-nintendo-switch2-cools",
+   "kind": "short1",
+   "id": "gn7FxAR03HY",
+   "title": "「勢いを失う」は英語で?任天堂スイッチ2の販売が失速 #ビジネス英語 #shorts",
+   "privacy": "private",
+   "published": "2026-11-06T21:53:44Z",
+   "views": 0,
+   "likes": 0,
+   "comments": 0,
+   "series": "海外メディアが報じる日本",
+   "style": "news"
+  },
+  {
+   "ep": "2026-11-13-nintendo-switch2-cools",
+   "kind": "short2",
+   "id": "hNLVPA4SfOI",
+   "title": "「pass on the cost」の意味、わかる?|会議の英語 #shorts",
+   "privacy": "private",
+   "published": "2026-11-06T21:53:46Z",
+   "views": 0,
+   "likes": 0,
+   "comments": 0,
+   "series": "海外メディアが報じる日本",
+   "style": "quiz"
+  },
+  {
+   "ep": "2026-11-14-weekly-listening",
+   "kind": "long",
+   "id": "-9M_GZdSEHs",
+   "title": "【聞き流し】会議で使えるビジネス英語18フレーズ|トヨタ・アップル・任天堂のニュースから【ビジネス英語ニュース #28】",
+   "privacy": "private",
+   "published": "2026-11-06T21:53:48Z",
+   "views": 0,
+   "likes": 0,
+   "comments": 0,
+   "series": "今週の英単語 総復習"
+  },
+  {
+   "ep": "2026-11-14-weekly-listening",
+   "kind": "short1",
+   "id": "xqVSPgt84NY",
+   "title": "「it depends on how you define」の意味、わかる?|会議の英語 #shorts",
+   "privacy": "private",
+   "published": "2026-11-06T21:53:55Z",
+   "views": 0,
+   "likes": 0,
+   "comments": 0,
+   "series": "今週の英単語 総復習",
+   "style": "quiz"
+  },
+  {
+   "ep": "2026-11-14-weekly-listening",
+   "kind": "short2",
+   "id": "sqR6d4__g3U",
+   "title": "「a compelling reason」の意味、わかる?|会議の英語 #shorts",
+   "privacy": "private",
+   "published": "2026-11-06T21:53:56Z",
+   "views": 0,
+   "likes": 0,
+   "comments": 0,
+   "series": "今週の英単語 総復習",
+   "style": "quiz"
+  },
+  {
+   "ep": "2026-11-15-not-decided-yet",
+   "kind": "long",
+   "id": "lPZSt64F2rE",
+   "title": "「随時お知らせします」は英語で?I'll keep you postedの使い方|未定のことを伝える【ビジネス英語ニュース #29】",
+   "privacy": "private",
+   "published": "2026-11-06T21:53:59Z",
+   "views": 0,
+   "likes": 0,
+   "comments": 0,
+   "series": "場面別の英語"
+  },
+  {
+   "ep": "2026-11-15-not-decided-yet",
+   "kind": "short1",
+   "id": "1JNa8q909p0",
+   "title": "「随時お知らせします」は英語で?未定のことを伝える一言 #ビジネス英語 #shorts",
+   "privacy": "private",
+   "published": "2026-11-06T21:54:06Z",
+   "views": 0,
+   "likes": 0,
+   "comments": 0,
+   "series": "場面別の英語",
+   "style": "news"
+  },
+  {
+   "ep": "2026-11-15-not-decided-yet",
+   "kind": "short2",
+   "id": "mGnNqVun1WI",
+   "title": "「as things stand」の意味、わかる?|会議の英語 #shorts",
+   "privacy": "private",
+   "published": "2026-11-06T21:54:08Z",
+   "views": 0,
+   "likes": 0,
+   "comments": 0,
+   "series": "場面別の英語",
+   "style": "quiz"
   }
  ],
  "instagram": [
   {
    "ep": "2026-10-25-china-ai-export-controls",
    "permalink": "https://www.instagram.com/reel/De6OU22mQ01/",
-   "error": "Instagram API 400: b'{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\""
+   "views": 153,
+   "reach": 134,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 2
   },
   {
    "ep": "2026-10-25-iphone-duo-china",
    "permalink": "https://www.instagram.com/reel/De6OsX6Elbx/",
-   "error": "Instagram API 400: b'{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\""
+   "views": 156,
+   "reach": 142,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 3
   },
   {
    "ep": "2026-10-25-japan-cpi-boj",
    "permalink": "https://www.instagram.com/reel/De6PEFaD6Oc/",
-   "error": "Instagram API 400: b'{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\""
+   "views": 21,
+   "reach": 13,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 3
   },
   {
    "ep": "2026-10-25-kfc-coca-cola",
    "permalink": "https://www.instagram.com/reel/De8mG0jmAsp/",
-   "error": "Instagram API 400: b'{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\""
+   "views": 222,
+   "reach": 187,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 2
   },
   {
    "ep": "2026-10-25-meta-25bn-ruling",
    "permalink": "https://www.instagram.com/reel/De8mfFRDifd/",
-   "error": "Instagram API 400: b'{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\""
+   "views": 19,
+   "reach": 18,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0
   },
   {
    "ep": "2026-10-25-moderna-data-leak",
    "permalink": "https://www.instagram.com/reel/De8m22pAb9z/",
-   "error": "Instagram API 400: b'{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\""
+   "views": 20,
+   "reach": 14,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 1
   },
   {
    "ep": "2026-10-25-php-ai-flaws",
    "permalink": "https://www.instagram.com/reel/De8nO_jCIKP/",
-   "error": "Instagram API 400: b'{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\""
+   "views": 19,
+   "reach": 13,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 2
   },
   {
    "ep": "2026-10-25-salesforce-braze",
    "permalink": "https://www.instagram.com/reel/De8nmUjDRPr/",
-   "error": "Instagram API 400: b'{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\""
+   "views": 15,
+   "reach": 11,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 1
   },
   {
    "ep": "2026-10-25-amex-ai-cuts",
    "permalink": "https://www.instagram.com/p/De9JI-yl_gV/",
-   "error": "Instagram API 400: b'{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\""
+   "views": 29,
+   "reach": 10,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 1
   },
   {
    "ep": "2026-10-25-php-ai-flaws",
    "permalink": "https://www.instagram.com/p/De-bHAGALGZ/",
-   "error": "Instagram API 400: b'{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\""
+   "views": 22,
+   "reach": 8,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 1
   },
   {
    "ep": "2026-10-25-meta-25bn-ruling",
    "permalink": "https://www.instagram.com/p/De_r68ZGMpO/",
-   "error": "Instagram API 400: b'{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\""
+   "views": 24,
+   "reach": 9,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 1
   },
   {
    "ep": "2026-10-25-salesforce-braze",
    "permalink": "https://www.instagram.com/p/DfBABwQGIqT/",
-   "error": "Instagram API 400: b'{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\""
+   "views": 32,
+   "reach": 16,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 2
   },
   {
    "ep": "2026-10-25-spacex-tesla-merger",
    "permalink": "https://www.instagram.com/p/DfBfZmXkZZa/",
-   "error": "Instagram API 400: b'{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\""
+   "views": 20,
+   "reach": 13,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 3
   },
   {
    "ep": "2026-10-25-china-ai-export-controls",
    "permalink": "https://www.instagram.com/p/DfDlRtEjqEX/",
-   "error": "Instagram API 400: b'{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\""
+   "views": 27,
+   "reach": 9,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 2
   },
   {
    "ep": "2026-10-25-kfc-coca-cola",
    "permalink": "https://www.instagram.com/p/DfEpkfGjfo7/",
-   "error": "Instagram API 400: b'{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\""
+   "views": 32,
+   "reach": 11,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 1
   },
   {
    "ep": "2026-10-25-iphone-duo-china",
    "permalink": "https://www.instagram.com/p/DfGKQ35mAq4/",
-   "error": "Instagram API 400: b'{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\""
+   "views": 39,
+   "reach": 10,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 2
   },
   {
    "ep": "2026-10-25-spacex-tesla-merger",
    "permalink": "https://www.instagram.com/reel/De_sUGEji7c/",
-   "error": "Instagram API 400: b'{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\""
+   "views": 15,
+   "reach": 8,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 1
   },
   {
    "ep": "2026-10-25-volvo-cars-guidance",
    "permalink": "https://www.instagram.com/reel/De_t_uWji6t/",
-   "error": "Instagram API 400: b'{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\""
+   "views": 12,
+   "reach": 13,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 1
   },
   {
    "ep": "2026-10-29-robinhood-ecosystem",
    "permalink": "https://www.instagram.com/reel/DfBhsulDMQB/",
-   "error": "Instagram API 400: b'{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\""
+   "views": 19,
+   "reach": 20,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 4
   },
   {
    "ep": "2026-10-29-robinhood-ecosystem",
    "permalink": "https://www.instagram.com/reel/DfCcckZgTh6/",
-   "error": "Instagram API 400: b'{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\""
+   "views": 23,
+   "reach": 17,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 2
   },
   {
    "ep": "2026-10-30-softbank-ai-fears",
    "permalink": "https://www.instagram.com/reel/DfEEhZKEmfN/",
-   "error": "Instagram API 400: b'{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\""
+   "views": 13,
+   "reach": 10,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 1
   },
   {
    "ep": "2026-10-30-softbank-ai-fears",
    "permalink": "https://www.instagram.com/reel/DfFBS-1kWmj/",
-   "error": "Instagram API 400: b'{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\""
+   "views": 28,
+   "reach": 23,
+   "saved": 1,
+   "shares": 0,
+   "total_interactions": 3
   },
   {
    "ep": "2026-10-29-robinhood-ecosystem",
    "permalink": "https://www.instagram.com/p/DfJN3UzGOqE/",
-   "error": "Instagram API 400: b'{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\""
+   "views": 30,
+   "reach": 9,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 1
   },
   {
    "ep": "2026-10-30-softbank-ai-fears",
    "permalink": "https://www.instagram.com/p/DfKKnvHGFAj/",
-   "error": "Instagram API 400: b'{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\""
+   "views": 19,
+   "reach": 10,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 2
   },
   {
    "ep": "2026-10-31-weekly-review",
    "permalink": "https://www.instagram.com/p/DfLTEAlmErT/",
-   "error": "Instagram API 400: b'{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\""
+   "views": 15,
+   "reach": 5,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 1
   },
   {
    "ep": "2026-10-31-weekly-review",
    "permalink": "https://www.instagram.com/reel/DfGpYCpEs6R/",
-   "error": "Instagram API 400: b'{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\""
+   "views": 103,
+   "reach": 84,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 4
   },
   {
    "ep": "2026-10-31-weekly-review",
    "permalink": "https://www.instagram.com/reel/DfHmGyDFL-x/",
-   "error": "Instagram API 400: b'{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\""
+   "views": 83,
+   "reach": 68,
+   "saved": 2,
+   "shares": 0,
+   "total_interactions": 4
   },
   {
    "ep": "2026-11-01-disagree-politely",
    "permalink": "https://www.instagram.com/reel/DfJOLw4DGbW/",
-   "error": "Instagram API 400: b'{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\""
+   "views": 168,
+   "reach": 138,
+   "saved": 1,
+   "shares": 0,
+   "total_interactions": 4
   },
   {
    "ep": "2026-11-01-disagree-politely",
    "permalink": "https://www.instagram.com/reel/DfKLBwskyVd/",
-   "error": "Instagram API 400: b'{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\""
+   "views": 89,
+   "reach": 81,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 2
   },
   {
    "ep": "2026-11-01-disagree-politely",
    "permalink": "https://www.instagram.com/p/DfMYW-umKcd/",
-   "error": "Instagram API 400: b'{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\""
+   "views": 23,
+   "reach": 9,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 1
   },
   {
    "ep": "2026-11-02-big-tech-ai-bill",
    "permalink": "https://www.instagram.com/reel/DfOYur_jnXL/",
-   "error": "Instagram API 400: b'{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\""
+   "views": 26,
+   "reach": 17,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 1
   },
   {
    "ep": "2026-11-02-big-tech-ai-bill",
    "permalink": "https://www.instagram.com/reel/DfPWHJwgSWT/",
-   "error": "Instagram API 400: b'{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\""
+   "views": 11,
+   "reach": 10,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0
   },
   {
    "ep": "2026-11-03-intel-pc-slowdown",
    "permalink": "https://www.instagram.com/reel/DfQ9BvHDb3S/",
-   "error": "Instagram API 400: b'{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\""
+   "views": 20,
+   "reach": 12,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 2
   },
   {
    "ep": "2026-11-03-intel-pc-slowdown",
    "permalink": "https://www.instagram.com/reel/DfR6uB5AlEs/",
-   "error": "Instagram API 400: b'{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\""
+   "views": 18,
+   "reach": 15,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 3
   },
   {
    "ep": "2026-11-04-oracle-ai-chips",
    "permalink": "https://www.instagram.com/reel/DfTh9g3GaBl/",
-   "error": "Instagram API 400: b'{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\""
+   "views": 17,
+   "reach": 10,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0
   },
   {
    "ep": "2026-11-04-oracle-ai-chips",
    "permalink": "https://www.instagram.com/reel/DfUfZybkaLm/",
-   "error": "Instagram API 400: b'{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\""
+   "views": 24,
+   "reach": 16,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0
   },
   {
    "ep": "2026-11-02-big-tech-ai-bill",
    "permalink": "https://www.instagram.com/p/DfN4LL7F-Ek/",
-   "error": "Instagram API 400: b'{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\""
+   "views": 20,
+   "reach": 8,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 1
   },
   {
    "ep": "2026-11-03-intel-pc-slowdown",
    "permalink": "https://www.instagram.com/p/DfQdwo5jXm8/",
-   "error": "Instagram API 400: b'{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\""
+   "views": 26,
+   "reach": 7,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 1
   },
   {
    "ep": "2026-11-04-oracle-ai-chips",
    "permalink": "https://www.instagram.com/p/DfTC3MllxBo/",
-   "error": "Instagram API 400: b'{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\""
+   "views": 7,
+   "reach": 3,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0
   },
   {
    "ep": "2026-11-05-microsoft-demand-supply",
    "permalink": "https://www.instagram.com/p/DfVnovMEnyr/",
-   "error": "Instagram API 400: b'{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\""
+   "views": 20,
+   "reach": 7,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 2
   },
   {
    "ep": "2026-11-05-microsoft-demand-supply",
    "permalink": "https://www.instagram.com/reel/DfWHDxpCv3L/",
-   "error": "Instagram API 400: b'{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\""
+   "views": 14,
+   "reach": 11,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0
   },
   {
    "ep": "2026-11-05-microsoft-demand-supply",
    "permalink": "https://www.instagram.com/reel/DfXE0VhgDmA/",
-   "error": "Instagram API 400: b'{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\""
+   "views": 32,
+   "reach": 24,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 1
   },
   {
    "ep": "2026-11-06-boj-target-met",
    "permalink": "https://www.instagram.com/reel/DfYrreYCRgx/",
-   "error": "Instagram API 400: b'{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\""
+   "views": 55,
+   "reach": 52,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 1
   },
   {
    "ep": "2026-11-06-boj-target-met",
    "permalink": "https://www.instagram.com/reel/DfZpORUCZoe/",
-   "error": "Instagram API 400: b'{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\""
+   "views": 47,
+   "reach": 38,
+   "saved": 1,
+   "shares": 0,
+   "total_interactions": 2
+  },
+  {
+   "ep": "2026-11-07-weekly-review",
+   "permalink": "https://www.instagram.com/reel/DfbP7T0go4n/",
+   "views": 51,
+   "reach": 37,
+   "saved": 1,
+   "shares": 0,
+   "total_interactions": 2
   },
   {
    "ep": "2026-11-06-boj-target-met",
    "permalink": "https://www.instagram.com/p/DfYMlcSjzGV/",
-   "error": "Instagram API 400: b'{\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\""
+   "views": 22,
+   "reach": 7,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0
+  },
+  {
+   "ep": "2026-11-07-weekly-review",
+   "permalink": "https://www.instagram.com/p/Dfawz9Nn-TF/",
+   "views": 18,
+   "reach": 5,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0
   }
  ],
  "channel": {
-  "viewCount": "4075",
+  "viewCount": "4076",
   "subscriberCount": "2",
   "hiddenSubscriberCount": false,
-  "videoCount": "50"
+  "videoCount": "52"
  },
+ "traffic": [
+  [
+   "SHORTS",
+   3844
+  ],
+  [
+   "YT_SEARCH",
+   106
+  ],
+  [
+   "YT_OTHER_PAGE",
+   70
+  ],
+  [
+   "YT_CHANNEL",
+   12
+  ],
+  [
+   "EXT_URL",
+   2
+  ],
+  [
+   "NO_LINK_OTHER",
+   0
+  ]
+ ],
  "ig_account": {
   "id": "17841415781522836",
   "followers_count": 130,
-  "media_count": 45
+  "media_count": 47
  }
 }
