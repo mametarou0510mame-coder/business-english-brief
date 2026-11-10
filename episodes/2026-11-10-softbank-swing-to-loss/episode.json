@@ -1,0 +1,899 @@
+{
+ "id": "2026-11-10-softbank-swing-to-loss",
+ "episode": "#30",
+ "date": "2026-11-10",
+ "series": "速報",
+ "title_card": {
+  "line1": "黒字から一転、7680億円の赤字。",
+  "line2": "ソフトバンクGの決算を英語で読む"
+ },
+ "publish": {
+  "long": "2026-11-10T18:43:00+09:00",
+  "shorts": [
+   "2026-11-10T18:43:00+09:00",
+   "2026-11-10T21:43:00+09:00"
+  ]
+ },
+ "phrases": [
+  {
+   "en": "swing to a loss",
+   "jp": "赤字に転落する",
+   "ex": "We may swing to a loss this quarter if the yen keeps rising.",
+   "ex_jp": "円高が続けば、今期は赤字に転落するかもしれません。"
+  },
+  {
+   "en": "take a hit",
+   "jp": "打撃を受ける",
+   "ex": "Our margins will take a hit if material costs keep rising.",
+   "ex_jp": "材料費が上がり続ければ、利益率は打撃を受けます。"
+  },
+  {
+   "en": "cut our losses",
+   "jp": "傷が浅いうちに手を引く",
+   "ex": "If the pilot doesn't work by March, we should cut our losses.",
+   "ex_jp": "3月までに試験導入がうまくいかなければ、早めに手を引くべきです。"
+  }
+ ],
+ "words": [
+  {
+   "en": "net loss",
+   "jp": "最終赤字"
+  },
+  {
+   "en": "advance payment",
+   "jp": "前払い金"
+  },
+  {
+   "en": "non-refundable",
+   "jp": "返金されない"
+  }
+ ],
+ "homework": {
+  "en": "Use 'take a hit' in a sentence about your work.",
+  "jp": "take a hitを使って、仕事の英文を1つ",
+  "hl": [
+   "take a hit"
+  ],
+  "say": "最後に宿題です。take a hitを使って、あなたの仕事についての英文を1つ作ってみてください。コメント欄で待っています。"
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "beats": [
+    {
+     "id": "h01",
+     "kind": "jp",
+     "jp": "ソフトバンクグループが、今日発表した中間決算。7680億円の最終赤字に転落しました。",
+     "en": "SoftBank Group just reported a ¥768 billion net loss.",
+     "vis": {
+      "t": "hero",
+      "kicker": "SOFTBANK GROUP · APR–SEP 2026",
+      "big": "−7680億円",
+      "color": "red",
+      "crack": true,
+      "sub": "最終赤字に転落",
+      "sub_color": "gold"
+     }
+    },
+    {
+     "id": "h02",
+     "kind": "jp",
+     "jp": "黒字から赤字へ、ガラッと変わる。これを英語で、どう言うでしょうか。",
+     "en": "How do you say profit flipped to a loss in English?",
+     "vis": {
+      "t": "hero_side",
+      "big": "赤字",
+      "color": "red",
+      "text": "swing to a loss",
+      "jp": "赤字に転落する"
+     },
+     "hl": [
+      "swing to a loss"
+     ]
+    },
+    {
+     "id": "h03",
+     "kind": "jp",
+     "jp": "今日は速報です。このニュースから、会議で使える英語を3つ。最後に答え合わせをします。",
+     "en": "Breaking news, and three phrases for your next meeting.",
+     "vis": {
+      "t": "teaser"
+     }
+    }
+   ]
+  },
+  {
+   "id": "what",
+   "chapter": "何が起きたか",
+   "beats": [
+    {
+     "id": "n01",
+     "kind": "jp",
+     "jp": "ソフトバンクグループは11月10日、4月から9月までの決算を発表しました。最終的な損益は、7680億円の赤字です。",
+     "en": "On November 10, SoftBank Group posted a ¥768 billion net loss for April to September.",
+     "vis": {
+      "t": "vs",
+      "left": {
+       "en": "last year",
+       "label": "前年の4〜9月",
+       "val": "+2兆9240億円",
+       "up": true,
+       "color": "green"
+      },
+      "right": {
+       "en": "this year",
+       "label": "今年の4〜9月",
+       "val": "−7680億円",
+       "up": false,
+       "color": "red"
+      },
+      "mid": "→"
+     },
+     "hl": [
+      "net loss"
+     ]
+    },
+    {
+     "id": "n02",
+     "kind": "jp",
+     "jp": "前の年の同じ時期は、2兆9240億円の黒字でした。大きな黒字から、一気に赤字に転落したのです。",
+     "en": "A year earlier, it made a ¥2.9 trillion profit. It swung to a loss.",
+     "vis": {
+      "t": "vs",
+      "left": {
+       "en": "last year",
+       "label": "前年の4〜9月",
+       "val": "+2兆9240億円",
+       "up": true,
+       "color": "green"
+      },
+      "right": {
+       "en": "this year",
+       "label": "今年の4〜9月",
+       "val": "−7680億円",
+       "up": false,
+       "color": "red"
+      },
+      "mid": "→"
+     },
+     "hl": [
+      "swung to a loss"
+     ],
+     "star": true
+    },
+    {
+     "id": "n03",
+     "kind": "en_insert",
+     "jp": "赤字に転落する",
+     "en": "swing to a loss",
+     "hl": [
+      "swing to a loss"
+     ],
+     "star": true,
+     "vis": {
+      "t": "hero_side",
+      "big": "赤字",
+      "color": "red",
+      "text": "swing to a loss",
+      "jp": "赤字に転落する"
+     }
+    },
+    {
+     "id": "n04",
+     "kind": "jp",
+     "jp": "7月から9月の3か月だけで見ると、赤字はおよそ1兆1000億円。前の年は、およそ2兆5000億円の黒字でした。",
+     "en": "For July to September alone, the loss was about ¥1.1 trillion.",
+     "vis": {
+      "t": "counter",
+      "kicker": "JUL–SEP 2026 · NET LOSS",
+      "big": "約1.1兆円",
+      "color": "red",
+      "sub": "7〜9月の3か月だけで",
+      "note": "前年同期は約2.5兆円の黒字"
+     }
+    },
+    {
+     "id": "n05",
+     "kind": "jp",
+     "jp": "ただし、投資でもうけが出ていなかったわけではありません。投資の利益は1兆7258億円。そのうち、インテル株で1兆628億円の利益が出ています。",
+     "en": "Investment gains were still ¥1.7 trillion, including ¥1.06 trillion from Intel.",
+     "vis": {
+      "t": "bars",
+      "title": "4〜9月の主な損益(億円)",
+      "unit": "億円",
+      "items": [
+       {
+        "label": "投資の利益",
+        "value": 17258,
+        "display": "+1兆7258",
+        "color": "green"
+       },
+       {
+        "label": "うちインテル株",
+        "value": 10628,
+        "display": "+1兆628",
+        "color": "green"
+       },
+       {
+        "label": "米DC関連の損失",
+        "value": 5972,
+        "display": "−5972",
+        "color": "red"
+       }
+      ],
+      "note": "出典:ロイター(2026年11月10日)"
+     }
+    },
+    {
+     "id": "n06",
+     "kind": "jp",
+     "jp": "足を引っ張ったのは、アメリカのデータセンター事業での損失、5972億円でした。",
+     "en": "The drag was a ¥597 billion loss on its US data center business.",
+     "vis": {
+      "t": "bars",
+      "title": "4〜9月の主な損益(億円)",
+      "unit": "億円",
+      "items": [
+       {
+        "label": "投資の利益",
+        "value": 17258,
+        "display": "+1兆7258",
+        "color": "green"
+       },
+       {
+        "label": "うちインテル株",
+        "value": 10628,
+        "display": "+1兆628",
+        "color": "green"
+       },
+       {
+        "label": "米DC関連の損失",
+        "value": 5972,
+        "display": "−5972",
+        "color": "red"
+       }
+      ],
+      "note": "出典:ロイター(2026年11月10日)"
+     },
+     "hl": [
+      "drag"
+     ]
+    },
+    {
+     "id": "n07",
+     "kind": "jp",
+     "jp": "なお、会社は今年度の業績予想を出していません。",
+     "en": "The company did not give a full-year forecast.",
+     "vis": {
+      "t": "bars",
+      "title": "4〜9月の主な損益(億円)",
+      "unit": "億円",
+      "items": [
+       {
+        "label": "投資の利益",
+        "value": 17258,
+        "display": "+1兆7258",
+        "color": "green"
+       },
+       {
+        "label": "うちインテル株",
+        "value": 10628,
+        "display": "+1兆628",
+        "color": "green"
+       },
+       {
+        "label": "米DC関連の損失",
+        "value": 5972,
+        "display": "−5972",
+        "color": "red"
+       }
+      ],
+      "note": "出典:ロイター(2026年11月10日)"
+     }
+    }
+   ]
+  },
+  {
+   "id": "why",
+   "chapter": "なぜ赤字になったのか",
+   "beats": [
+    {
+     "id": "y01",
+     "kind": "jp",
+     "jp": "ソフトバンクグループは、OpenAIの株の約13%を持つなど、AIに大きく賭けてきました。",
+     "en": "SoftBank has bet big on AI, including a roughly 13% stake in OpenAI.",
+     "vis": {
+      "t": "network",
+      "title": "ソフトバンクグループの主な投資先",
+      "center": {
+       "label": "SoftBank Group",
+       "sub": "投資会社"
+      },
+      "nodes": [
+       {
+        "label": "OpenAI 約13%",
+        "color": "gold"
+       },
+       {
+        "label": "Intel",
+        "color": "blue"
+       },
+       {
+        "label": "Arm",
+        "color": "blue"
+       },
+       {
+        "label": "米AIデータセンター",
+        "color": "red"
+       }
+      ]
+     },
+     "hl": [
+      "bet big"
+     ]
+    },
+    {
+     "id": "y02",
+     "kind": "jp",
+     "jp": "その中心の一つが、アメリカで進めるAI向けデータセンターです。",
+     "en": "One key bet is AI data centers in the United States.",
+     "vis": {
+      "t": "network",
+      "title": "ソフトバンクグループの主な投資先",
+      "center": {
+       "label": "SoftBank Group",
+       "sub": "投資会社"
+      },
+      "nodes": [
+       {
+        "label": "OpenAI 約13%",
+        "color": "gold"
+       },
+       {
+        "label": "Intel",
+        "color": "blue"
+       },
+       {
+        "label": "Arm",
+        "color": "blue"
+       },
+       {
+        "label": "米AIデータセンター",
+        "color": "red"
+       }
+      ]
+     }
+    },
+    {
+     "id": "y03",
+     "kind": "jp",
+     "jp": "データセンターには、大量の電気が必要です。発電設備は届くまで時間がかかるため、前払いで早めに確保していました。",
+     "en": "Power equipment takes time to arrive, so it paid in advance to secure it.",
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "発電設備は届くまで時間がかかる",
+        "mid": "先手",
+        "res": "前払いで早めに確保",
+        "ok": true
+       },
+       {
+        "a": "計画の条件が変わる",
+        "mid": "見直し",
+        "res": "返金されない前払い 4570億円",
+        "ok": false
+       },
+       {
+        "a": "契約の変更・精算",
+        "mid": "精算",
+        "res": "損失 1402億円",
+        "ok": false
+       }
+      ]
+     },
+     "hl": [
+      "paid in advance"
+     ]
+    },
+    {
+     "id": "y04",
+     "kind": "jp",
+     "jp": "ところが、計画の条件が変わり、調達の計画を見直しました。返金されない前払い金が4570億円、契約の変更などで1402億円の損失です。",
+     "en": "Plans changed. ¥457 billion in non-refundable deposits was lost.",
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "発電設備は届くまで時間がかかる",
+        "mid": "先手",
+        "res": "前払いで早めに確保",
+        "ok": true
+       },
+       {
+        "a": "計画の条件が変わる",
+        "mid": "見直し",
+        "res": "返金されない前払い 4570億円",
+        "ok": false
+       },
+       {
+        "a": "契約の変更・精算",
+        "mid": "精算",
+        "res": "損失 1402億円",
+        "ok": false
+       }
+      ]
+     },
+     "hl": [
+      "non-refundable"
+     ]
+    },
+    {
+     "id": "y05",
+     "kind": "jp",
+     "jp": "発電関連の設備に支払った金額は、これまでに累計1兆5008億円にのぼります。",
+     "en": "It has paid about ¥1.5 trillion for power equipment so far.",
+     "vis": {
+      "t": "counter",
+      "kicker": "PAID SO FAR · POWER EQUIPMENT",
+      "big": "1兆5008億円",
+      "color": "gold",
+      "sub": "発電関連の設備契約に支払った累計",
+      "note": "出典:ロイター"
+     }
+    },
+    {
+     "id": "y06",
+     "kind": "jp",
+     "jp": "財務費用も、7月から9月で4620億円と、前の年の2倍以上に増えました。",
+     "en": "Financing costs more than doubled to ¥462 billion last quarter.",
+     "vis": {
+      "t": "counter",
+      "kicker": "PAID SO FAR · POWER EQUIPMENT",
+      "big": "1兆5008億円",
+      "color": "gold",
+      "sub": "発電関連の設備契約に支払った累計",
+      "note": "出典:ロイター"
+     },
+     "hl": [
+      "more than doubled"
+     ]
+    },
+    {
+     "id": "y07",
+     "kind": "jp",
+     "jp": "利益が大きく打撃を受けた。この「打撃を受ける」は、英語でtake a hitと言います。",
+     "en": "Profits took a big hit. In English: take a hit.",
+     "vis": {
+      "t": "hero_side",
+      "big": "5972億円",
+      "color": "red",
+      "text": "take a hit",
+      "jp": "打撃を受ける"
+     },
+     "hl": [
+      "take a hit"
+     ],
+     "star": true
+    },
+    {
+     "id": "y08",
+     "kind": "en_insert",
+     "jp": "打撃を受ける",
+     "en": "take a hit",
+     "hl": [
+      "take a hit"
+     ],
+     "star": true,
+     "vis": {
+      "t": "hero_side",
+      "big": "5972億円",
+      "color": "red",
+      "text": "take a hit",
+      "jp": "打撃を受ける"
+     }
+    },
+    {
+     "id": "y09",
+     "kind": "jp",
+     "jp": "後藤芳光CFOは、技術の進歩やビジネスモデルを見直したうえで損失を計上した、と説明。「より良い着地」を目指した、と話しています。",
+     "en": "The CFO said they reviewed the plan and aimed for a better landing.",
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "We aimed for",
+       "a better landing."
+      ],
+      "hl": [
+       "a better landing"
+      ],
+      "by": "後藤芳光CFO(ロイター報道の発言を英訳)"
+     },
+     "hl": [
+      "a better landing"
+     ]
+    },
+    {
+     "id": "y10",
+     "kind": "jp",
+     "jp": "損失を確定させてでも、計画を見直す。こうした判断を、英語の会議ではcut our lossesと言います。",
+     "en": "Accepting a loss to change course is called cutting your losses.",
+     "vis": {
+      "t": "hero_side",
+      "big": "見直し",
+      "color": "gold",
+      "text": "cut our losses",
+      "jp": "傷が浅いうちに手を引く"
+     },
+     "hl": [
+      "cut our losses"
+     ],
+     "star": true
+    },
+    {
+     "id": "y11",
+     "kind": "en_insert",
+     "jp": "傷が浅いうちに手を引く",
+     "en": "cut our losses",
+     "hl": [
+      "cut our losses"
+     ],
+     "star": true,
+     "vis": {
+      "t": "hero_side",
+      "big": "見直し",
+      "color": "gold",
+      "text": "cut our losses",
+      "jp": "傷が浅いうちに手を引く"
+     }
+    }
+   ]
+  },
+  {
+   "id": "insight",
+   "chapter": "私たちへの意味",
+   "beats": [
+    {
+     "id": "i01",
+     "kind": "jp",
+     "jp": "ここからは、日本で働く私たちにとっての意味を考えます。",
+     "en": "What does this mean for those of us working in Japan?",
+     "vis": {
+      "t": "statement",
+      "kicker": "SO WHAT?",
+      "text": "日本で働く私たちにとっての意味"
+     }
+    },
+    {
+     "id": "i02",
+     "kind": "jp",
+     "jp": "一つ目は、品薄なものを先払いで押さえる戦略のリスクです。半導体や部材の先行発注は、日本の製造業や調達の現場でもよくある話です。",
+     "en": "Paying early to secure scarce goods is common in Japan too, and it carries risk.",
+     "vis": {
+      "t": "points",
+      "show": 1,
+      "items": [
+       {
+        "head": "リスク",
+        "big": "先払いで確保",
+        "sub": "条件が変われば返ってこない",
+        "color": "red"
+       },
+       {
+        "head": "逆の見方",
+        "big": "始まったばかり",
+        "sub": "CFOは5〜10年で成長と説明",
+        "color": "blue"
+       },
+       {
+        "head": "会議では",
+        "big": "数字+理由+次の手",
+        "sub": "悪い報告ほどセットで",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i03",
+     "kind": "jp",
+     "jp": "計画が変われば、前払いは返ってこないかもしれない。発注の会議で、その条件まで英語で確認できるかが大事です。",
+     "en": "If plans change, deposits may not come back. Check the terms.",
+     "vis": {
+      "t": "points",
+      "show": 1,
+      "items": [
+       {
+        "head": "リスク",
+        "big": "先払いで確保",
+        "sub": "条件が変われば返ってこない",
+        "color": "red"
+       },
+       {
+        "head": "逆の見方",
+        "big": "始まったばかり",
+        "sub": "CFOは5〜10年で成長と説明",
+        "color": "blue"
+       },
+       {
+        "head": "会議では",
+        "big": "数字+理由+次の手",
+        "sub": "悪い報告ほどセットで",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i04",
+     "kind": "jp",
+     "jp": "一方で、逆の見方もあります。後藤CFOは、データセンター事業は始まったばかりで、今後5年から10年で大きくなると話しています。",
+     "en": "The CFO says the data center business has just started and will grow over 5 to 10 years.",
+     "vis": {
+      "t": "points",
+      "show": 2,
+      "items": [
+       {
+        "head": "リスク",
+        "big": "先払いで確保",
+        "sub": "条件が変われば返ってこない",
+        "color": "red"
+       },
+       {
+        "head": "逆の見方",
+        "big": "始まったばかり",
+        "sub": "CFOは5〜10年で成長と説明",
+        "color": "blue"
+       },
+       {
+        "head": "会議では",
+        "big": "数字+理由+次の手",
+        "sub": "悪い報告ほどセットで",
+        "color": "green"
+       }
+      ]
+     },
+     "hl": [
+      "just started"
+     ]
+    },
+    {
+     "id": "i05",
+     "kind": "jp",
+     "jp": "さらに、取引先から今後10年で最大21億ドルの割引を受ける権利も得ています。損失だけで判断するのは早い、という見方です。",
+     "en": "It also won up to $2.1 billion in future discounts from suppliers.",
+     "vis": {
+      "t": "points",
+      "show": 2,
+      "items": [
+       {
+        "head": "リスク",
+        "big": "先払いで確保",
+        "sub": "条件が変われば返ってこない",
+        "color": "red"
+       },
+       {
+        "head": "逆の見方",
+        "big": "始まったばかり",
+        "sub": "CFOは5〜10年で成長と説明",
+        "color": "blue"
+       },
+       {
+        "head": "会議では",
+        "big": "数字+理由+次の手",
+        "sub": "悪い報告ほどセットで",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i06",
+     "kind": "jp",
+     "jp": "そして三つ目。悪い数字を報告するときは、数字と理由と次の手をセットで話す。今日のフレーズは、そのまま使えます。",
+     "en": "When reporting bad numbers, give the number, the reason, and the next step.",
+     "vis": {
+      "t": "points",
+      "show": 3,
+      "items": [
+       {
+        "head": "リスク",
+        "big": "先払いで確保",
+        "sub": "条件が変われば返ってこない",
+        "color": "red"
+       },
+       {
+        "head": "逆の見方",
+        "big": "始まったばかり",
+        "sub": "CFOは5〜10年で成長と説明",
+        "color": "blue"
+       },
+       {
+        "head": "会議では",
+        "big": "数字+理由+次の手",
+        "sub": "悪い報告ほどセットで",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i07",
+     "kind": "jp",
+     "jp": "今期は赤字に転落した。理由はこれで、傷が浅いうちに手を引いた。英語でも、この順番で話してみてください。",
+     "en": "We swung to a loss, here's why, and we cut our losses early.",
+     "vis": {
+      "t": "points",
+      "show": 3,
+      "items": [
+       {
+        "head": "リスク",
+        "big": "先払いで確保",
+        "sub": "条件が変われば返ってこない",
+        "color": "red"
+       },
+       {
+        "head": "逆の見方",
+        "big": "始まったばかり",
+        "sub": "CFOは5〜10年で成長と説明",
+        "color": "blue"
+       },
+       {
+        "head": "会議では",
+        "big": "数字+理由+次の手",
+        "sub": "悪い報告ほどセットで",
+        "color": "green"
+       }
+      ]
+     },
+     "hl": [
+      "swung to a loss",
+      "cut our losses"
+     ]
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "「赤字に転落する」は英語で?swing to a lossの使い方|ソフトバンクG 7680億円赤字【ビジネス英語ニュース #30】",
+  "summary": "ソフトバンクグループは2026年11月10日、4〜9月期の最終損益が7680億円の赤字に転落したと発表しました。米国のAIデータセンター向け発電設備の計画見直しで5972億円の損失を計上。このニュースを日本語で解説し、会議で使える英語を身につけます。",
+  "tags": [
+   "ビジネス英語",
+   "英語学習",
+   "ニュース英語",
+   "時事英語",
+   "会議 英語",
+   "ソフトバンクグループ",
+   "SoftBank",
+   "決算",
+   "赤字",
+   "データセンター",
+   "OpenAI",
+   "速報",
+   "business English"
+  ]
+ },
+ "thumbnail": {
+  "big": "7680億",
+  "big_color": "red",
+  "under": "最終赤字",
+  "badge": "速報",
+  "badge_color": "red",
+  "question": "英語で言える?",
+  "pill": "swing to a loss",
+  "bottom": "会議で使える英語3つ",
+  "crack": false
+ },
+ "shorts": [
+  {
+   "phrase": 0,
+   "news_hook": [
+    "ソフトバンクGが",
+    "7680億円の赤字"
+   ],
+   "hook": [
+    "「赤字に転落」",
+    "英語で言える?"
+   ],
+   "ctx": "ソフトバンクGが黒字から一転、7680億円の赤字に",
+   "title": "「赤字に転落する」は英語で?ソフトバンクGが7680億円の赤字 #ビジネス英語 #shorts",
+   "ig_caption": "「赤字に転落する」を英語で言えますか?\n\n✅ swing to a loss\n赤字に転落する\n\n例文:We may swing to a loss this quarter if the yen keeps rising.\n(円高が続けば、今期は赤字に転落するかもしれません。)\n\nソフトバンクグループは11月10日、4〜9月期が7680億円の最終赤字になったと発表しました。前年同期は2兆9240億円の黒字でした。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  },
+  {
+   "phrase": 2,
+   "style": "quiz",
+   "badge": "会議で使う英語|中級",
+   "news_hook": [
+    "計画を見直す",
+    "ときの一言"
+   ],
+   "hook": [
+    "cut our losses",
+    "って?"
+   ],
+   "ctx": "うまくいかない計画から、早めに手を引くときの表現",
+   "title": "「cut our losses」の意味、わかる?|会議の英語 #shorts",
+   "ig_caption": "「cut our losses」の意味、わかりますか?\n\n✅ cut our losses\n傷が浅いうちに手を引く\n\n例文:If the pilot doesn't work by March, we should cut our losses.\n(3月までに試験導入がうまくいかなければ、早めに手を引くべきです。)\n\nソフトバンクグループは、米データセンター向けの設備調達を見直し、5972億円の損失を計上しました。損失を確定させてでも方向を変える判断に使う表現です。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  }
+ ],
+ "sources": [
+  {
+   "title": "NHK「ソフトバンクグループ中間決算 7680億円の最終赤字」(2026年11月10日)",
+   "url": "https://news.web.nhk/newsweb/na/nd-20261110de73545"
+  },
+  {
+   "title": "ロイター「ソフトバンクＧ、4－9月期7680億円の赤字 米データセンター事業で損失5972億円」(Yahoo!ファイナンス)",
+   "url": "https://finance.yahoo.co.jp/news/detail/15a0e66477466c4811c1ad74cc9c75acfe8951e0"
+  },
+  {
+   "title": "The Star (Reuters)「SoftBank books $7 billion quarterly loss on US data centre hit」",
+   "url": "https://www.thestar.com.my/tech/tech-news/2026/11/10/softbank-swings-to-7-billion-net-loss-in-second-quarter"
+  },
+  {
+   "title": "株長「ソフトバンクグループ(9984)決算 2026年11月 内容まとめ」",
+   "url": "https://kabucho.com/reports/sbg-9984-fy2027-q2-earnings-report"
+  },
+  {
+   "title": "Investing.com「Earnings call transcript: SoftBank Q2 2026」",
+   "url": "https://uk.investing.com/news/stock-market-news/earnings-call-transcript-softbank-q2-2026-loss-weighs-on-results-stock-jumps-14-93CH-4970620"
+  }
+ ],
+ "readings": [
+  [
+   "CFO",
+   "シーエフオー"
+  ],
+  [
+   "7680億円",
+   "ななせんろっぴゃくはちじゅうおくえん"
+  ],
+  [
+   "2兆9240億円",
+   "にちょう きゅうせんにひゃくよんじゅうおくえん"
+  ],
+  [
+   "1兆1000億円",
+   "いっちょう せんおくえん"
+  ],
+  [
+   "2兆5000億円",
+   "にちょう ごせんおくえん"
+  ],
+  [
+   "1兆7258億円",
+   "いっちょう ななせんにひゃくごじゅうはちおくえん"
+  ],
+  [
+   "1兆628億円",
+   "いっちょう ろっぴゃくにじゅうはちおくえん"
+  ],
+  [
+   "5972億円",
+   "ごせんきゅうひゃくななじゅうにおくえん"
+  ],
+  [
+   "4570億円",
+   "よんせんごひゃくななじゅうおくえん"
+  ],
+  [
+   "1402億円",
+   "せんよんひゃくにおくえん"
+  ],
+  [
+   "1兆5008億円",
+   "いっちょう ごせんはちおくえん"
+  ],
+  [
+   "4620億円",
+   "よんせんろっぴゃくにじゅうおくえん"
+  ],
+  [
+   "21億ドル",
+   "にじゅういちおくドル"
+  ],
+  [
+   "後藤芳光",
+   "ごとう よしみつ"
+  ]
+ ]
+}
