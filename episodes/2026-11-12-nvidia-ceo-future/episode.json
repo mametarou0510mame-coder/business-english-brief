@@ -1,0 +1,1004 @@
+{
+ "id": "2026-11-12-nvidia-ceo-future",
+ "episode": "#31",
+ "date": "2026-11-12",
+ "series": "速報",
+ "title_card": {
+  "line1": "創業者CEOの進退は?",
+  "line2": "エヌビディア取締役会のニュースを英語で読む"
+ },
+ "publish": {
+  "long": "2026-11-12T18:49:00+09:00",
+  "shorts": [
+   "2026-11-12T18:49:00+09:00",
+   "2026-11-12T21:49:00+09:00"
+  ]
+ },
+ "phrases": [
+  {
+   "en": "succession plan",
+   "jp": "後継者計画",
+   "ex": "We need a succession plan before Tanaka-san retires next year.",
+   "ex_jp": "田中さんが来年退職する前に、後継者計画が必要です。"
+  },
+  {
+   "en": "key-person risk",
+   "jp": "特定の人に頼りすぎるリスク",
+   "ex": "Only Sato-san knows this system. That's a key-person risk.",
+   "ex_jp": "このシステムが分かるのは佐藤さんだけ。属人化のリスクです。"
+  },
+  {
+   "en": "weigh our options",
+   "jp": "選択肢を比較検討する",
+   "ex": "Let's weigh our options before we reply to the client.",
+   "ex_jp": "お客様に返事をする前に、選択肢を比較検討しましょう。"
+  }
+ ],
+ "words": [
+  {
+   "en": "board of directors",
+   "jp": "取締役会"
+  },
+  {
+   "en": "interim CEO",
+   "jp": "暫定CEO"
+  },
+  {
+   "en": "independent director",
+   "jp": "独立取締役"
+  }
+ ],
+ "homework": {
+  "en": "Is there a key-person risk on your team?",
+  "jp": "あなたのチームに、属人化のリスクはある?",
+  "hl": [
+   "key-person risk"
+  ],
+  "say": "最後に宿題です。あなたのチームに、key-person riskはありますか。英語で一文、コメント欄に書いてみてください。"
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "beats": [
+    {
+     "id": "h01",
+     "kind": "jp",
+     "jp": "AI半導体の巨人、エヌビディア。創業者のCEOを解任するかどうか、取締役会が話し合っていると報じられました。",
+     "en": "Nvidia's board is reportedly deciding whether to remove its founder CEO.",
+     "vis": {
+      "t": "hero",
+      "kicker": "NVIDIA · BOARD MEETING",
+      "big": "CEO解任?",
+      "color": "red",
+      "crack": false,
+      "sub": "取締役会が進退を協議(報道)",
+      "sub_color": "gold"
+     }
+    },
+    {
+     "id": "h02",
+     "kind": "jp",
+     "jp": "会社の行方が、たった一人に懸かっている。これを英語で、どう言うでしょうか。",
+     "en": "When a company depends on one person — how do you say that in English?",
+     "vis": {
+      "t": "hero_side",
+      "big": "1人",
+      "color": "red",
+      "text": "key-person risk",
+      "jp": "特定の人に頼りすぎるリスク"
+     }
+    },
+    {
+     "id": "h03",
+     "kind": "jp",
+     "jp": "今日は速報です。このニュースから、会議で使える英語を3つ。最後に答え合わせをします。",
+     "en": "Breaking news, and three phrases for your next meeting.",
+     "vis": {
+      "t": "teaser"
+     }
+    }
+   ]
+  },
+  {
+   "id": "what",
+   "chapter": "何が起きたか",
+   "beats": [
+    {
+     "id": "n01",
+     "kind": "jp",
+     "jp": "きっかけは、10月末の米紙の報道です。フアンCEOが、中国の情報機関との関係が疑われる人物と、親しい関係にあったと伝えられました。",
+     "en": "In late October, a US paper reported Huang was close to a person suspected of ties to Chinese intelligence.",
+     "vis": {
+      "t": "timeline",
+      "show": 1,
+      "items": [
+       {
+        "when": "10/29",
+        "text": "米紙が中国との関係をめぐる疑惑を報道",
+        "color": "muted"
+       },
+       {
+        "when": "11/8",
+        "text": "取締役会が独立調査を発表/本人は社内で謝罪",
+        "color": "blue"
+       },
+       {
+        "when": "11/11",
+        "text": "部下との関係も報道/解任準備と米紙",
+        "color": "red"
+       },
+       {
+        "when": "11/11夜",
+        "text": "取締役会が会合(結論は未発表)",
+        "color": "gold"
+       },
+       {
+        "when": "11/17",
+        "text": "決算発表の予定",
+        "color": "text"
+       }
+      ]
+     }
+    },
+    {
+     "id": "n02",
+     "kind": "jp",
+     "jp": "取締役会は11月8日、独立した調査を始めたと発表。会社の機密が漏れたと考える理由はない、とも説明しました。",
+     "en": "On November 8, the board launched an independent review and said it saw no sign secrets were compromised.",
+     "vis": {
+      "t": "timeline",
+      "show": 2,
+      "items": [
+       {
+        "when": "10/29",
+        "text": "米紙が中国との関係をめぐる疑惑を報道",
+        "color": "muted"
+       },
+       {
+        "when": "11/8",
+        "text": "取締役会が独立調査を発表/本人は社内で謝罪",
+        "color": "blue"
+       },
+       {
+        "when": "11/11",
+        "text": "部下との関係も報道/解任準備と米紙",
+        "color": "red"
+       },
+       {
+        "when": "11/11夜",
+        "text": "取締役会が会合(結論は未発表)",
+        "color": "gold"
+       },
+       {
+        "when": "11/17",
+        "text": "決算発表の予定",
+        "color": "text"
+       }
+      ]
+     }
+    },
+    {
+     "id": "n03",
+     "kind": "jp",
+     "jp": "フアン氏は社員へのメモで、妻を裏切ったことを認めて謝罪し、全責任を負うと書いています。",
+     "en": "In a memo to staff, Huang admitted being unfaithful and took full responsibility.",
+     "vis": {
+      "t": "timeline",
+      "show": 2,
+      "items": [
+       {
+        "when": "10/29",
+        "text": "米紙が中国との関係をめぐる疑惑を報道",
+        "color": "muted"
+       },
+       {
+        "when": "11/8",
+        "text": "取締役会が独立調査を発表/本人は社内で謝罪",
+        "color": "blue"
+       },
+       {
+        "when": "11/11",
+        "text": "部下との関係も報道/解任準備と米紙",
+        "color": "red"
+       },
+       {
+        "when": "11/11夜",
+        "text": "取締役会が会合(結論は未発表)",
+        "color": "gold"
+       },
+       {
+        "when": "11/17",
+        "text": "決算発表の予定",
+        "color": "text"
+       }
+      ]
+     }
+    },
+    {
+     "id": "n04",
+     "kind": "jp",
+     "jp": "そして11月11日。部下の幹部との関係も報じられ、米紙は、取締役会が解任の準備をしていると伝えました。",
+     "en": "On November 11, a relationship with a subordinate was reported, and the board was said to be preparing his removal.",
+     "vis": {
+      "t": "timeline",
+      "show": 3,
+      "items": [
+       {
+        "when": "10/29",
+        "text": "米紙が中国との関係をめぐる疑惑を報道",
+        "color": "muted"
+       },
+       {
+        "when": "11/8",
+        "text": "取締役会が独立調査を発表/本人は社内で謝罪",
+        "color": "blue"
+       },
+       {
+        "when": "11/11",
+        "text": "部下との関係も報道/解任準備と米紙",
+        "color": "red"
+       },
+       {
+        "when": "11/11夜",
+        "text": "取締役会が会合(結論は未発表)",
+        "color": "gold"
+       },
+       {
+        "when": "11/17",
+        "text": "決算発表の予定",
+        "color": "text"
+       }
+      ]
+     }
+    },
+    {
+     "id": "n05",
+     "kind": "jp",
+     "jp": "取締役会は11日の夜に会合を開きましたが、日本時間12日夕方の時点で、結論は発表されていません。",
+     "en": "The board met that night. As of Thursday evening in Japan, no decision has been announced.",
+     "vis": {
+      "t": "timeline",
+      "show": 4,
+      "items": [
+       {
+        "when": "10/29",
+        "text": "米紙が中国との関係をめぐる疑惑を報道",
+        "color": "muted"
+       },
+       {
+        "when": "11/8",
+        "text": "取締役会が独立調査を発表/本人は社内で謝罪",
+        "color": "blue"
+       },
+       {
+        "when": "11/11",
+        "text": "部下との関係も報道/解任準備と米紙",
+        "color": "red"
+       },
+       {
+        "when": "11/11夜",
+        "text": "取締役会が会合(結論は未発表)",
+        "color": "gold"
+       },
+       {
+        "when": "11/17",
+        "text": "決算発表の予定",
+        "color": "text"
+       }
+      ]
+     }
+    },
+    {
+     "id": "n06",
+     "kind": "jp",
+     "jp": "報道のあと、エヌビディアの株価は、時間外の取引で8%以上下がりました。",
+     "en": "Nvidia shares fell more than 8% in after-hours trading.",
+     "vis": {
+      "t": "counter",
+      "kicker": "AFTER-HOURS · NOV 11",
+      "big": "−8%超",
+      "color": "red",
+      "sub": "解任準備の報道のあと",
+      "note": "時間外取引"
+     }
+    },
+    {
+     "id": "n07",
+     "kind": "jp",
+     "jp": "この下落が続けば、調査の発表から失われた時価総額は、およそ6000億ドルにのぼる計算です。",
+     "en": "If that holds, about $600 billion in market value has been lost since the review began.",
+     "vis": {
+      "t": "counter",
+      "kicker": "MARKET VALUE LOST",
+      "big": "約6000億ドル",
+      "color": "red",
+      "sub": "調査の発表以降(下落が続いた場合)",
+      "note": "出典:ロイター報道(RTE)"
+     }
+    }
+   ]
+  },
+  {
+   "id": "why",
+   "chapter": "なぜ大問題なのか",
+   "beats": [
+    {
+     "id": "y01",
+     "kind": "jp",
+     "jp": "フアン氏は1993年にエヌビディアを創業。直属の部下は、およそ60人いると報じられています。",
+     "en": "Huang founded Nvidia in 1993 and reportedly has about 60 direct reports.",
+     "vis": {
+      "t": "network",
+      "title": "創業者CEOに集まる役割",
+      "center": {
+       "label": "Jensen Huang",
+       "sub": "創業者・CEO(1993年〜)"
+      },
+      "nodes": [
+       {
+        "label": "直属の部下 約60人",
+        "color": "gold"
+       },
+       {
+        "label": "製品・技術",
+        "color": "blue"
+       },
+       {
+        "label": "顧客",
+        "color": "blue"
+       },
+       {
+        "label": "投資家",
+        "color": "blue"
+       },
+       {
+        "label": "政府",
+        "color": "blue"
+       }
+      ],
+      "inward": true
+     }
+    },
+    {
+     "id": "y02",
+     "kind": "jp",
+     "jp": "ところが、誰が次のトップになるのか。その計画は、公には示されていませんでした。",
+     "en": "Yet there was no public plan for who would lead next.",
+     "vis": {
+      "t": "network",
+      "title": "創業者CEOに集まる役割",
+      "center": {
+       "label": "Jensen Huang",
+       "sub": "創業者・CEO(1993年〜)"
+      },
+      "nodes": [
+       {
+        "label": "直属の部下 約60人",
+        "color": "gold"
+       },
+       {
+        "label": "製品・技術",
+        "color": "blue"
+       },
+       {
+        "label": "顧客",
+        "color": "blue"
+       },
+       {
+        "label": "投資家",
+        "color": "blue"
+       },
+       {
+        "label": "政府",
+        "color": "blue"
+       }
+      ],
+      "inward": true
+     }
+    },
+    {
+     "id": "y03",
+     "kind": "jp",
+     "jp": "後継者を前もって決めて、育てておく計画。英語では、succession planと言います。",
+     "en": "A plan for who takes over is a succession plan.",
+     "vis": {
+      "t": "hero_side",
+      "big": "後継者",
+      "color": "gold",
+      "text": "succession plan",
+      "jp": "後継者計画"
+     },
+     "hl": [
+      "succession plan"
+     ],
+     "star": true
+    },
+    {
+     "id": "y04",
+     "kind": "en_insert",
+     "jp": "後継者計画",
+     "en": "succession plan",
+     "vis": {
+      "t": "hero_side",
+      "big": "後継者",
+      "color": "gold",
+      "text": "succession plan",
+      "jp": "後継者計画"
+     },
+     "hl": [
+      "succession plan"
+     ],
+     "star": true
+    },
+    {
+     "id": "y05",
+     "kind": "jp",
+     "jp": "アナリストが指摘しているのは、一人に頼りすぎるリスク。英語では、key-person riskと言います。",
+     "en": "Analysts point to depending too much on one person: key-person risk.",
+     "vis": {
+      "t": "hero_side",
+      "big": "1人",
+      "color": "red",
+      "text": "key-person risk",
+      "jp": "特定の人に頼りすぎるリスク"
+     },
+     "hl": [
+      "key-person risk"
+     ],
+     "star": true
+    },
+    {
+     "id": "y06",
+     "kind": "en_insert",
+     "jp": "特定の人に頼りすぎるリスク",
+     "en": "key-person risk",
+     "vis": {
+      "t": "hero_side",
+      "big": "1人",
+      "color": "red",
+      "text": "key-person risk",
+      "jp": "特定の人に頼りすぎるリスク"
+     },
+     "hl": [
+      "key-person risk"
+     ],
+     "star": true
+    },
+    {
+     "id": "y07",
+     "kind": "jp",
+     "jp": "専門家らは米誌への寄稿で、会社が、まるで創業者が不死身で、決して間違えないかのように運営されていた、と指摘しています。",
+     "en": "Commentators wrote the company was run as if its founder were immortal and infallible.",
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "as though its founder were",
+       "both immortal and infallible"
+      ],
+      "hl": [
+       "immortal and infallible"
+      ],
+      "by": "ソネンフェルド氏ら(TIME誌への寄稿)"
+     }
+    },
+    {
+     "id": "y08",
+     "kind": "jp",
+     "jp": "では、取締役会はどう判断するのか。寄稿によると、選択肢は、解任、休職、注意処分の3つでした。",
+     "en": "The board's choices, they wrote, were removal, a leave of absence, or a reprimand.",
+     "vis": {
+      "t": "cards",
+      "show": 3,
+      "footer": "取締役会の選択肢(TIME誌への寄稿より)",
+      "items": [
+       {
+        "name": "解任",
+        "big": "Remove",
+        "sub": "removal",
+        "color": "red"
+       },
+       {
+        "name": "休職",
+        "big": "Leave",
+        "sub": "leave of absence",
+        "color": "gold"
+       },
+       {
+        "name": "注意処分",
+        "big": "Reprimand",
+        "sub": "reprimand",
+        "color": "blue"
+       }
+      ]
+     }
+    },
+    {
+     "id": "y09",
+     "kind": "jp",
+     "jp": "いくつかの選択肢を並べて、よく比べる。英語の会議では、weigh our optionsと言います。",
+     "en": "Comparing choices carefully is to weigh our options.",
+     "vis": {
+      "t": "hero_side",
+      "big": "3択",
+      "color": "gold",
+      "text": "weigh our options",
+      "jp": "選択肢を比較検討する"
+     },
+     "hl": [
+      "weigh our options"
+     ],
+     "star": true
+    },
+    {
+     "id": "y10",
+     "kind": "en_insert",
+     "jp": "選択肢を比較検討する",
+     "en": "weigh our options",
+     "vis": {
+      "t": "hero_side",
+      "big": "3択",
+      "color": "gold",
+      "text": "weigh our options",
+      "jp": "選択肢を比較検討する"
+     },
+     "hl": [
+      "weigh our options"
+     ],
+     "star": true
+    },
+    {
+     "id": "y11",
+     "kind": "jp",
+     "jp": "エヌビディアの取締役は11人。フアン氏以外は、全員が独立した取締役です。",
+     "en": "Nvidia has 11 directors, all independent except Huang.",
+     "vis": {
+      "t": "counter",
+      "kicker": "BOARD OF DIRECTORS",
+      "big": "11人",
+      "color": "gold",
+      "sub": "フアン氏以外は全員が独立取締役",
+      "note": "過半数の賛成で、理由を問わず解任できる"
+     }
+    },
+    {
+     "id": "y12",
+     "kind": "jp",
+     "jp": "会社の決まりでは、取締役の過半数が賛成すれば、理由を問わずCEOを解任できます。",
+     "en": "A majority of directors can remove the CEO, with or without cause.",
+     "vis": {
+      "t": "counter",
+      "kicker": "BOARD OF DIRECTORS",
+      "big": "11人",
+      "color": "gold",
+      "sub": "フアン氏以外は全員が独立取締役",
+      "note": "過半数の賛成で、理由を問わず解任できる"
+     }
+    },
+    {
+     "id": "y13",
+     "kind": "jp",
+     "jp": "フアン氏の持ち株は約3.6%。会社の行方を決めるのは、本人ではなく取締役会です。",
+     "en": "Huang owns about 3.6%, so the board, not Huang, decides.",
+     "vis": {
+      "t": "counter",
+      "kicker": "HUANG'S STAKE",
+      "big": "約3.6%",
+      "color": "blue",
+      "sub": "フアン氏の持ち株",
+      "note": "決めるのは本人ではなく取締役会"
+     }
+    },
+    {
+     "id": "y14",
+     "kind": "jp",
+     "jp": "暫定のCEO候補として、報道では、コレット・クレスCFOや、イアン・バック氏の名前が挙がっています。",
+     "en": "Reports name CFO Colette Kress and executive Ian Buck as possible interim CEOs.",
+     "vis": {
+      "t": "cards",
+      "show": 2,
+      "footer": "暫定CEOの候補として報道で名前が出ている人",
+      "items": [
+       {
+        "name": "Colette Kress",
+        "big": "CFO",
+        "sub": "最高財務責任者",
+        "note": "報道",
+        "color": "gold"
+       },
+       {
+        "name": "Ian Buck",
+        "big": "VP",
+        "sub": "副社長(ハイパースケール担当)",
+        "note": "報道",
+        "color": "blue"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "insight",
+   "chapter": "私たちへの意味",
+   "beats": [
+    {
+     "id": "i01",
+     "kind": "jp",
+     "jp": "ここからは、日本で働く私たちにとっての意味を考えます。",
+     "en": "What does this mean for those of us working in Japan?",
+     "vis": {
+      "t": "statement",
+      "kicker": "SO WHAT?",
+      "text": "日本で働く私たちにとっての意味"
+     }
+    },
+    {
+     "id": "i02",
+     "kind": "jp",
+     "jp": "日本の上場企業も、無関係ではありません。コーポレートガバナンス・コードは、取締役会に、CEOの後継者計画への関与を求めています。",
+     "en": "Japan's governance code asks boards to be involved in CEO succession planning.",
+     "vis": {
+      "t": "points",
+      "show": 1,
+      "items": [
+       {
+        "head": "日本の上場企業も",
+        "big": "後継者計画",
+        "sub": "取締役会の関与が求められる",
+        "color": "gold"
+       },
+       {
+        "head": "職場でも",
+        "big": "属人化",
+        "sub": "「あの人しか分からない」",
+        "color": "red"
+       },
+       {
+        "head": "逆の見方",
+        "big": "創業者の力",
+        "sub": "計画だけでは代われない",
+        "color": "blue"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i03",
+     "kind": "jp",
+     "jp": "候補者を時間をかけて育てるよう、取締役会がしっかり監督すべきだ、とされています。",
+     "en": "Boards should oversee the long-term development of successors.",
+     "vis": {
+      "t": "points",
+      "show": 1,
+      "items": [
+       {
+        "head": "日本の上場企業も",
+        "big": "後継者計画",
+        "sub": "取締役会の関与が求められる",
+        "color": "gold"
+       },
+       {
+        "head": "職場でも",
+        "big": "属人化",
+        "sub": "「あの人しか分からない」",
+        "color": "red"
+       },
+       {
+        "head": "逆の見方",
+        "big": "創業者の力",
+        "sub": "計画だけでは代われない",
+        "color": "blue"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i04",
+     "kind": "jp",
+     "jp": "これは社長だけの話ではありません。あの人しか分からない仕事、いわゆる属人化も、立派なkey-person riskです。",
+     "en": "It's not only about CEOs. 'Only one person knows how' is key-person risk too.",
+     "vis": {
+      "t": "points",
+      "show": 2,
+      "items": [
+       {
+        "head": "日本の上場企業も",
+        "big": "後継者計画",
+        "sub": "取締役会の関与が求められる",
+        "color": "gold"
+       },
+       {
+        "head": "職場でも",
+        "big": "属人化",
+        "sub": "「あの人しか分からない」",
+        "color": "red"
+       },
+       {
+        "head": "逆の見方",
+        "big": "創業者の力",
+        "sub": "計画だけでは代われない",
+        "color": "blue"
+       }
+      ]
+     },
+     "hl": [
+      "key-person risk"
+     ]
+    },
+    {
+     "id": "i05",
+     "kind": "jp",
+     "jp": "引き継ぎ資料を作り、代わりの担当者を決めておく。会議では、まずリスクに名前を付けて共有することが第一歩です。",
+     "en": "Write handover notes and name a backup. Naming the risk is the first step.",
+     "vis": {
+      "t": "points",
+      "show": 2,
+      "items": [
+       {
+        "head": "日本の上場企業も",
+        "big": "後継者計画",
+        "sub": "取締役会の関与が求められる",
+        "color": "gold"
+       },
+       {
+        "head": "職場でも",
+        "big": "属人化",
+        "sub": "「あの人しか分からない」",
+        "color": "red"
+       },
+       {
+        "head": "逆の見方",
+        "big": "創業者の力",
+        "sub": "計画だけでは代われない",
+        "color": "blue"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i06",
+     "kind": "jp",
+     "jp": "一方で、逆の見方もあります。フアン氏の強みは、技術を実際の製品に変える力だ、との指摘があります。",
+     "en": "On the other hand, some say his strength is turning technology into real products.",
+     "vis": {
+      "t": "points",
+      "show": 3,
+      "items": [
+       {
+        "head": "日本の上場企業も",
+        "big": "後継者計画",
+        "sub": "取締役会の関与が求められる",
+        "color": "gold"
+       },
+       {
+        "head": "職場でも",
+        "big": "属人化",
+        "sub": "「あの人しか分からない」",
+        "color": "red"
+       },
+       {
+        "head": "逆の見方",
+        "big": "創業者の力",
+        "sub": "計画だけでは代われない",
+        "color": "blue"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i07",
+     "kind": "jp",
+     "jp": "解任はアメリカに深刻な打撃になりかねない、という警告も出ています。計画だけでは、創業者の代わりはつくれない、という見方です。",
+     "en": "Others warn his removal could seriously hurt the US. A plan alone can't replace a founder.",
+     "vis": {
+      "t": "points",
+      "show": 3,
+      "items": [
+       {
+        "head": "日本の上場企業も",
+        "big": "後継者計画",
+        "sub": "取締役会の関与が求められる",
+        "color": "gold"
+       },
+       {
+        "head": "職場でも",
+        "big": "属人化",
+        "sub": "「あの人しか分からない」",
+        "color": "red"
+       },
+       {
+        "head": "逆の見方",
+        "big": "創業者の力",
+        "sub": "計画だけでは代われない",
+        "color": "blue"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i08",
+     "kind": "jp",
+     "jp": "エヌビディアの決算発表は、11月17日の予定です。取締役会がどんな結論を出すのか、注目です。",
+     "en": "Nvidia reports earnings on November 17. All eyes are on the board.",
+     "vis": {
+      "t": "timeline",
+      "show": 5,
+      "items": [
+       {
+        "when": "10/29",
+        "text": "米紙が中国との関係をめぐる疑惑を報道",
+        "color": "muted"
+       },
+       {
+        "when": "11/8",
+        "text": "取締役会が独立調査を発表/本人は社内で謝罪",
+        "color": "blue"
+       },
+       {
+        "when": "11/11",
+        "text": "部下との関係も報道/解任準備と米紙",
+        "color": "red"
+       },
+       {
+        "when": "11/11夜",
+        "text": "取締役会が会合(結論は未発表)",
+        "color": "gold"
+       },
+       {
+        "when": "11/17",
+        "text": "決算発表の予定",
+        "color": "text"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "「後継者計画」は英語で?succession planの使い方|エヌビディアCEO進退を協議【ビジネス英語ニュース #31】",
+  "summary": "米エヌビディアの取締役会が、創業者のジェンスン・フアンCEOの解任を含めて進退を協議していると、2026年11月11日に米メディアが報じました。結論はまだ発表されていません。このニュースを日本語で解説し、会議で使える英語「succession plan」「key-person risk」「weigh our options」を身につけます。",
+  "tags": [
+   "ビジネス英語",
+   "英語学習",
+   "ニュース英語",
+   "時事英語",
+   "会議 英語",
+   "エヌビディア",
+   "NVIDIA",
+   "ジェンスン・フアン",
+   "後継者計画",
+   "サクセッションプラン",
+   "コーポレートガバナンス",
+   "速報",
+   "business English"
+  ]
+ },
+ "thumbnail": {
+  "big": "CEO解任?",
+  "big_color": "red",
+  "under": "エヌビディア取締役会",
+  "badge": "速報",
+  "badge_color": "red",
+  "question": "英語で言える?",
+  "pill": "succession plan",
+  "bottom": "会議で使える英語3つ",
+  "crack": false
+ },
+ "shorts": [
+  {
+   "phrase": 0,
+   "news_hook": [
+    "エヌビディア",
+    "CEOの進退を協議"
+   ],
+   "hook": [
+    "「後継者計画」",
+    "英語で言える?"
+   ],
+   "ctx": "エヌビディアの取締役会が、創業者CEOの進退を協議と報道",
+   "title": "「後継者計画」は英語で?エヌビディアがCEOの進退を協議 #ビジネス英語 #shorts",
+   "ig_caption": "「後継者計画」を英語で言えますか?\n\n✅ succession plan\n後継者計画\n\n例文:We need a succession plan before Tanaka-san retires next year.\n(田中さんが来年退職する前に、後継者計画が必要です。)\n\n米エヌビディアの取締役会が、創業者のフアンCEOの進退を協議していると報じられました(11月11日・米メディア)。公表された後継者計画はなかったとされています。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  },
+  {
+   "phrase": 1,
+   "style": "quiz",
+   "badge": "会議で使う英語|中級",
+   "news_hook": [
+    "一人に頼る",
+    "職場の危うさ"
+   ],
+   "hook": [
+    "key-person risk",
+    "って?"
+   ],
+   "ctx": "「あの人しか分からない」状態の危うさを伝える表現",
+   "title": "「key-person risk」の意味、わかる?|会議の英語 #shorts",
+   "ig_caption": "「key-person risk」の意味、わかりますか?\n\n✅ key-person risk\n特定の人に頼りすぎるリスク\n\n例文:Only Sato-san knows this system. That's a key-person risk.\n(このシステムが分かるのは佐藤さんだけ。属人化のリスクです。)\n\n創業者CEOの進退が報じられたエヌビディアでも、アナリストがこのリスクを指摘しています。職場の「属人化」を英語で伝えるときにも使えます。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  }
+ ],
+ "sources": [
+  {
+   "title": "The Next Web「Jensen Huang's fate hangs on Nvidia's board after overnight meeting」(2026年11月12日)",
+   "url": "https://thenextweb.com/news/nvidia-board-meeting-jensen-huang-ouster-no-decision"
+  },
+  {
+   "title": "RTÉ「Nvidia board meets to decide CEO Huang's future」(2026年11月12日・ロイター)",
+   "url": "https://www.rte.ie/news/business/2026/1112/1598921-nvidia-board-meets-to-decide-ceo-huangs-future/"
+  },
+  {
+   "title": "CBS News「Nvidia's board preparing to oust CEO Jensen Huang, sources say」(2026年11月11日)",
+   "url": "https://www.cbsnews.com/news/nvidia-board-ceo-jensen-huang-china/"
+  },
+  {
+   "title": "ABC News「Nvidia board reportedly preparing to oust CEO Jensen Huang」(2026年11月11日)",
+   "url": "https://abcnews.com/US/nvidia-board-reportedly-preparing-oust-ceo-jensen-huang/story?id=138062059"
+  },
+  {
+   "title": "TIME「What Comes Next for NVIDIA」(2026年11月11日)",
+   "url": "https://time.com/article/2026/11/11/what-comes-next-for-nvidia/"
+  },
+  {
+   "title": "ブルーミングビット「エヌビディア揺らぐ、ジェンスン・フアンCEO解任を協議」(2026年11月12日)",
+   "url": "https://jp.bloomingbit.io/feed/news/124276"
+  },
+  {
+   "title": "みんかぶFX「東京時間に伝わった指標・ニュース」(2026年11月12日)",
+   "url": "https://fx.minkabu.jp/news/384254"
+  },
+  {
+   "title": "Mercer「サクセッションプラン(後継者計画)」コーポレートガバナンス・コード補充原則4-1③",
+   "url": "https://www.mercer.com/ja-jp/insights/total-rewards/executive-compensation/succession-plan/"
+  }
+ ],
+ "readings": [
+  [
+   "CEO",
+   "シーイーオー"
+  ],
+  [
+   "CFO",
+   "シーエフオー"
+  ],
+  [
+   "6000億ドル",
+   "ろくせんおくドル"
+  ],
+  [
+   "3.6%",
+   "さんてんろくパーセント"
+  ],
+  [
+   "8%",
+   "はちパーセント"
+  ],
+  [
+   "1993年",
+   "せんきゅうひゃくきゅうじゅうさんねん"
+  ],
+  [
+   "属人化",
+   "ぞくじんか"
+  ],
+  [
+   "11日",
+   "じゅういちにち"
+  ],
+  [
+   "12日",
+   "じゅうににち"
+  ],
+  [
+   "17日",
+   "じゅうしちにち"
+  ],
+  [
+   "米紙",
+   "べいし"
+  ],
+  [
+   "米誌",
+   "べいし"
+  ]
+ ]
+}
