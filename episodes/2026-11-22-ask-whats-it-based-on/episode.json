@@ -1,0 +1,746 @@
+{
+ "id": "2026-11-22-ask-whats-it-based-on",
+ "episode": "#38",
+ "date": "2026-11-10",
+ "series": "場面別の英語",
+ "title_card": {
+  "line1": "その数字、根拠は?",
+  "line2": "失礼にならない確認の英語"
+ },
+ "publish": {
+  "long": "2026-11-22T07:00:00+09:00",
+  "shorts": [
+   "2026-11-22T12:00:00+09:00",
+   "2026-11-22T21:00:00+09:00"
+  ]
+ },
+ "phrases": [
+  {
+   "en": "What's that based on?",
+   "jp": "それは何に基づいていますか(根拠は?)",
+   "ex": "That's a great number. What's that based on?",
+   "ex_jp": "すごい数字ですね。何に基づいた数字ですか?"
+  },
+  {
+   "en": "Could you walk me through",
+   "jp": "〜を順を追って説明していただけますか",
+   "ex": "Could you walk me through the cost estimate?",
+   "ex_jp": "費用の見積もりを、順を追って説明していただけますか?"
+  },
+  {
+   "en": "Just to clarify",
+   "jp": "確認ですが",
+   "ex": "Just to clarify, is that per month or per year?",
+   "ex_jp": "確認ですが、それは月あたりですか、年あたりですか?"
+  }
+ ],
+ "words": [
+  {
+   "en": "assumption",
+   "jp": "前提"
+  },
+  {
+   "en": "estimate",
+   "jp": "見積もり"
+  },
+  {
+   "en": "benchmark",
+   "jp": "比較の基準"
+  }
+ ],
+ "homework": {
+  "en": "What number would you like to double-check this week?",
+  "jp": "今週、確かめたい数字は?",
+  "hl": [
+   "double-check"
+  ],
+  "say": "最後に宿題です。今週の仕事で、根拠を確かめたい数字は何ですか。英語で、コメント欄に書いてみてください。"
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "beats": [
+    {
+     "id": "h01",
+     "kind": "jp",
+     "jp": "成功率は96%です。会議でこう言われたら、あなたはそのまま信じますか。",
+     "en": "'Our success rate is 96%.' Would you take that at face value in a meeting?",
+     "vis": {
+      "t": "statement",
+      "kicker": "SCENE",
+      "text": "その数字、どうやって出したの?",
+      "sub": "会議でよくある場面"
+     }
+    },
+    {
+     "id": "h02",
+     "kind": "jp",
+     "jp": "かといって、本当ですか、と聞くと角が立ちます。今日は、数字の根拠を、失礼なく確かめる英語です。",
+     "en": "But 'Really?' can sound rude. Today: checking where a number comes from, politely.",
+     "vis": {
+      "t": "vs",
+      "left": {
+       "en": "accept it",
+       "label": "そのまま信じる",
+       "val": "あとで困る",
+       "up": false,
+       "color": "red"
+      },
+      "right": {
+       "en": "ask politely",
+       "label": "ていねいに確かめる",
+       "val": "信頼が増す",
+       "up": true,
+       "color": "green"
+      },
+      "mid": "どっち?"
+     }
+    },
+    {
+     "id": "h03",
+     "kind": "jp",
+     "jp": "使えるフレーズは3つ。最後に答え合わせをします。",
+     "en": "Three phrases. Answers at the end.",
+     "vis": {
+      "t": "teaser"
+     }
+    }
+   ]
+  },
+  {
+   "id": "news",
+   "chapter": "今週のニュースから",
+   "beats": [
+    {
+     "id": "s01",
+     "kind": "jp",
+     "jp": "今週、グーグルのAIで動く人型ロボットが、工場の試験で、成功率96%を出したと発表されました。",
+     "en": "This week, Google said its AI-powered humanoids hit 96% in a factory trial.",
+     "vis": {
+      "t": "hero_side",
+      "big": "96%",
+      "color": "gold",
+      "text": "success rate",
+      "jp": "工場での成功率"
+     }
+    },
+    {
+     "id": "s02",
+     "kind": "jp",
+     "jp": "ところが、何回試したのか、何を成功と数えたのかは、公表されていません。人と比べた数字もありません。",
+     "en": "But the number of trials, what counted as success, and a human benchmark weren't disclosed.",
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "成功率96%",
+        "mid": "何回試した?",
+        "res": "公表なし",
+        "ok": false
+       },
+       {
+        "a": "成功の定義",
+        "mid": "何を成功と数えた?",
+        "res": "公表なし",
+        "ok": false
+       },
+       {
+        "a": "比べる相手",
+        "mid": "人間なら何%?",
+        "res": "数字なし",
+        "ok": false
+       }
+      ]
+     }
+    },
+    {
+     "id": "s03",
+     "kind": "jp",
+     "jp": "数字が大きいほど、その前提を確かめたくなります。そこで使える、3つのフレーズです。",
+     "en": "The bigger the number, the more you want to check it. Here are three phrases.",
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "成功率96%",
+        "mid": "何回試した?",
+        "res": "公表なし",
+        "ok": false
+       },
+       {
+        "a": "成功の定義",
+        "mid": "何を成功と数えた?",
+        "res": "公表なし",
+        "ok": false
+       },
+       {
+        "a": "比べる相手",
+        "mid": "人間なら何%?",
+        "res": "数字なし",
+        "ok": false
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "p1",
+   "chapter": "ステップ1 根拠を聞く",
+   "beats": [
+    {
+     "id": "p01",
+     "kind": "jp",
+     "jp": "まずは、ワッツ・ザット・ベイスト・オン。それは何に基づいていますか、という意味です。",
+     "en": "First: 'What's that based on?'",
+     "hl": [
+      "What's that based on?"
+     ],
+     "star": true,
+     "vis": {
+      "t": "hero_side",
+      "big": "根拠",
+      "color": "gold",
+      "text": "What's that based on?",
+      "jp": "何に基づいた数字ですか"
+     }
+    },
+    {
+     "id": "p02",
+     "kind": "en_insert",
+     "jp": "何に基づいていますか",
+     "en": "What's that based on?",
+     "hl": [
+      "What's that based on?"
+     ],
+     "star": true,
+     "vis": {
+      "t": "hero_side",
+      "big": "根拠",
+      "color": "gold",
+      "text": "What's that based on?",
+      "jp": "何に基づいた数字ですか"
+     }
+    },
+    {
+     "id": "p03",
+     "kind": "jp",
+     "jp": "相手を疑うのではなく、数字の出どころを聞くだけ。だから、失礼になりにくいのです。",
+     "en": "You're asking about the source, not doubting the person, so it isn't rude.",
+     "vis": {
+      "t": "hero_side",
+      "big": "根拠",
+      "color": "gold",
+      "text": "What's that based on?",
+      "jp": "何に基づいた数字ですか"
+     }
+    },
+    {
+     "id": "p04",
+     "kind": "jp",
+     "jp": "前に、ザッツ・ア・グレート・ナンバー、すごい数字ですね、と一言添えると、さらに柔らかくなります。",
+     "en": "Add 'That's a great number' first to soften it.",
+     "hl": [
+      "That's a great number"
+     ],
+     "vis": {
+      "t": "hero_side",
+      "big": "根拠",
+      "color": "gold",
+      "text": "What's that based on?",
+      "jp": "何に基づいた数字ですか"
+     }
+    },
+    {
+     "id": "p04b",
+     "kind": "jp",
+     "jp": "例えば、来期は売上が2割伸びます、と言われたら。グレート、ワッツ・ザット・ベイスト・オン、と返します。",
+     "en": "If someone says sales will grow 20% next year: 'Great. What's that based on?'",
+     "hl": [
+      "What's that based on?"
+     ],
+     "vis": {
+      "t": "hero_side",
+      "big": "根拠",
+      "color": "gold",
+      "text": "What's that based on?",
+      "jp": "何に基づいた数字ですか"
+     }
+    }
+   ]
+  },
+  {
+   "id": "p2",
+   "chapter": "ステップ2 説明してもらう",
+   "beats": [
+    {
+     "id": "p05",
+     "kind": "jp",
+     "jp": "次は、クッジュー・ウォーク・ミー・スルー。順を追って説明していただけますか、です。",
+     "en": "Next: 'Could you walk me through...?'",
+     "hl": [
+      "Could you walk me through"
+     ],
+     "star": true,
+     "vis": {
+      "t": "timeline",
+      "show": 3,
+      "items": [
+       {
+        "when": "STEP 1",
+        "text": "何回試したのか",
+        "color": "blue"
+       },
+       {
+        "when": "STEP 2",
+        "text": "何を成功と数えたのか",
+        "color": "gold"
+       },
+       {
+        "when": "STEP 3",
+        "text": "何と比べたのか",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "p06",
+     "kind": "en_insert",
+     "jp": "数字を、順を追って説明していただけますか",
+     "en": "Could you walk me through the numbers?",
+     "hl": [
+      "Could you walk me through"
+     ],
+     "star": true,
+     "vis": {
+      "t": "timeline",
+      "show": 3,
+      "items": [
+       {
+        "when": "STEP 1",
+        "text": "何回試したのか",
+        "color": "blue"
+       },
+       {
+        "when": "STEP 2",
+        "text": "何を成功と数えたのか",
+        "color": "gold"
+       },
+       {
+        "when": "STEP 3",
+        "text": "何と比べたのか",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "p07",
+     "kind": "jp",
+     "jp": "ウォーク・スルーは、一緒に歩いて案内する、というイメージ。計算の手順を、一歩ずつ見せてもらいます。",
+     "en": "Picture someone walking you through a building, one step at a time.",
+     "hl": [
+      "walk me through"
+     ],
+     "vis": {
+      "t": "timeline",
+      "show": 3,
+      "items": [
+       {
+        "when": "STEP 1",
+        "text": "何回試したのか",
+        "color": "blue"
+       },
+       {
+        "when": "STEP 2",
+        "text": "何を成功と数えたのか",
+        "color": "gold"
+       },
+       {
+        "when": "STEP 3",
+        "text": "何と比べたのか",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "p07b",
+     "kind": "jp",
+     "jp": "例えば、見積もりの金額が思ったより高いとき。クッジュー・ウォーク・ミー・スルー・ザ・エスティメイト、と頼んでみましょう。",
+     "en": "If a quote looks high, try: 'Could you walk me through the estimate?'",
+     "hl": [
+      "Could you walk me through"
+     ],
+     "vis": {
+      "t": "timeline",
+      "show": 3,
+      "items": [
+       {
+        "when": "STEP 1",
+        "text": "何回試したのか",
+        "color": "blue"
+       },
+       {
+        "when": "STEP 2",
+        "text": "何を成功と数えたのか",
+        "color": "gold"
+       },
+       {
+        "when": "STEP 3",
+        "text": "何と比べたのか",
+        "color": "green"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "p3",
+   "chapter": "ステップ3 確認する",
+   "beats": [
+    {
+     "id": "p08",
+     "kind": "jp",
+     "jp": "最後は、ジャスト・トゥ・クラリファイ。確認ですが、という前置きです。",
+     "en": "Finally: 'Just to clarify...'",
+     "hl": [
+      "Just to clarify"
+     ],
+     "star": true,
+     "vis": {
+      "t": "cards",
+      "show": 3,
+      "footer": "数字の食い違いが起きやすいところ",
+      "items": [
+       {
+        "name": "期間",
+        "big": "月?年?",
+        "sub": "per month / per year",
+        "note": "月あたりか、年あたりか",
+        "color": "gold"
+       },
+       {
+        "name": "範囲",
+        "big": "全部?",
+        "sub": "all or some",
+        "note": "全体か、一部か",
+        "color": "blue"
+       },
+       {
+        "name": "単位",
+        "big": "件?%?",
+        "sub": "number or percent",
+        "note": "件数か、割合か",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "p09",
+     "kind": "en_insert",
+     "jp": "確認ですが、それは月あたりですか",
+     "en": "Just to clarify, is that per month?",
+     "hl": [
+      "Just to clarify"
+     ],
+     "star": true,
+     "vis": {
+      "t": "cards",
+      "show": 3,
+      "footer": "数字の食い違いが起きやすいところ",
+      "items": [
+       {
+        "name": "期間",
+        "big": "月?年?",
+        "sub": "per month / per year",
+        "note": "月あたりか、年あたりか",
+        "color": "gold"
+       },
+       {
+        "name": "範囲",
+        "big": "全部?",
+        "sub": "all or some",
+        "note": "全体か、一部か",
+        "color": "blue"
+       },
+       {
+        "name": "単位",
+        "big": "件?%?",
+        "sub": "number or percent",
+        "note": "件数か、割合か",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "p10",
+     "kind": "jp",
+     "jp": "月あたりか年あたりか、全体か一部か。数字の期間や範囲は、思い込みで食い違いがちです。",
+     "en": "Per month or per year? All or some? Period and scope are easy to misread.",
+     "vis": {
+      "t": "cards",
+      "show": 3,
+      "footer": "数字の食い違いが起きやすいところ",
+      "items": [
+       {
+        "name": "期間",
+        "big": "月?年?",
+        "sub": "per month / per year",
+        "note": "月あたりか、年あたりか",
+        "color": "gold"
+       },
+       {
+        "name": "範囲",
+        "big": "全部?",
+        "sub": "all or some",
+        "note": "全体か、一部か",
+        "color": "blue"
+       },
+       {
+        "name": "単位",
+        "big": "件?%?",
+        "sub": "number or percent",
+        "note": "件数か、割合か",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "p10b",
+     "kind": "jp",
+     "jp": "とくにオンライン会議では、聞き間違いも起きやすいもの。ジャスト・トゥ・クラリファイで、短く確かめましょう。",
+     "en": "Online calls make mishearing easy. A quick 'Just to clarify' saves trouble.",
+     "hl": [
+      "Just to clarify"
+     ],
+     "vis": {
+      "t": "cards",
+      "show": 3,
+      "footer": "数字の食い違いが起きやすいところ",
+      "items": [
+       {
+        "name": "期間",
+        "big": "月?年?",
+        "sub": "per month / per year",
+        "note": "月あたりか、年あたりか",
+        "color": "gold"
+       },
+       {
+        "name": "範囲",
+        "big": "全部?",
+        "sub": "all or some",
+        "note": "全体か、一部か",
+        "color": "blue"
+       },
+       {
+        "name": "単位",
+        "big": "件?%?",
+        "sub": "number or percent",
+        "note": "件数か、割合か",
+        "color": "green"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "insight",
+   "chapter": "日本の職場では",
+   "beats": [
+    {
+     "id": "i01",
+     "kind": "jp",
+     "jp": "ここからは、日本で働く私たちにとっての意味を考えます。",
+     "en": "What does this mean for those of us working in Japan?",
+     "vis": {
+      "t": "statement",
+      "kicker": "SO WHAT?",
+      "text": "日本で働く私たちにとっての意味"
+     }
+    },
+    {
+     "id": "i02",
+     "kind": "jp",
+     "jp": "日本の会議では、数字に疑問があっても、その場で聞きにくい空気がありがちです。",
+     "en": "In Japanese meetings, it can feel awkward to question a number on the spot.",
+     "vis": {
+      "t": "points",
+      "show": 1,
+      "items": [
+       {
+        "head": "日本の会議",
+        "big": "その場で\n聞きにくい",
+        "sub": "だから\n型を持っておく",
+        "color": "gold"
+       },
+       {
+        "head": "順番",
+        "big": "ほめる→\n根拠を聞く",
+        "sub": "great number →\nbased on?",
+        "color": "green"
+       },
+       {
+        "head": "逆の見方",
+        "big": "全部聞くと\n進まない",
+        "sub": "判断を左右する\n数字に絞る",
+        "color": "blue"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i03",
+     "kind": "jp",
+     "jp": "だからこそ、決まった言い方を持っておくと楽です。まずほめて、それから根拠を聞く。この順番で十分です。",
+     "en": "So keep a set phrase: praise first, then ask what it's based on.",
+     "vis": {
+      "t": "points",
+      "show": 2,
+      "items": [
+       {
+        "head": "日本の会議",
+        "big": "その場で\n聞きにくい",
+        "sub": "だから\n型を持っておく",
+        "color": "gold"
+       },
+       {
+        "head": "順番",
+        "big": "ほめる→\n根拠を聞く",
+        "sub": "great number →\nbased on?",
+        "color": "green"
+       },
+       {
+        "head": "逆の見方",
+        "big": "全部聞くと\n進まない",
+        "sub": "判断を左右する\n数字に絞る",
+        "color": "blue"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i04",
+     "kind": "jp",
+     "jp": "一方で、逆の見方もあります。すべての数字を確かめていたら、会議が進みません。判断を左右する数字だけに絞りましょう。",
+     "en": "But checking every figure stalls meetings. Focus on the numbers that drive the decision.",
+     "vis": {
+      "t": "points",
+      "show": 3,
+      "items": [
+       {
+        "head": "日本の会議",
+        "big": "その場で\n聞きにくい",
+        "sub": "だから\n型を持っておく",
+        "color": "gold"
+       },
+       {
+        "head": "順番",
+        "big": "ほめる→\n根拠を聞く",
+        "sub": "great number →\nbased on?",
+        "color": "green"
+       },
+       {
+        "head": "逆の見方",
+        "big": "全部聞くと\n進まない",
+        "sub": "判断を左右する\n数字に絞る",
+        "color": "blue"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "「根拠は?」は英語で?What's that based on?の使い方|数字の根拠を失礼なく聞く【ビジネス英語ニュース #38】",
+  "summary": "会議で出てきた数字の根拠を、失礼にならずに確かめる英語を3つ紹介します。今週のニュース(グーグルの人型ロボットの成功率96%)を例に、What's that based on? / Could you walk me through / Just to clarify の使い方を学びます。",
+  "tags": [
+   "ビジネス英語",
+   "英語学習",
+   "会議 英語",
+   "英語 フレーズ",
+   "確認 英語",
+   "根拠 英語",
+   "場面別",
+   "英会話",
+   "ニュース英語",
+   "社会人 英語",
+   "教養",
+   "business English"
+  ]
+ },
+ "thumbnail": {
+  "big": "根拠は?",
+  "big_color": "gold",
+  "under": "会議で数字を確かめる",
+  "badge": "場面別",
+  "badge_color": "gold",
+  "question": "失礼にならない?",
+  "pill": "What's that based on?",
+  "bottom": "会議で使える英語3つ",
+  "crack": false
+ },
+ "shorts": [
+  {
+   "phrase": 0,
+   "news_hook": [
+    "その数字",
+    "根拠は?"
+   ],
+   "hook": [
+    "「根拠は?」を",
+    "英語で言うと?"
+   ],
+   "ctx": "会議で数字の根拠を、ていねいに聞く一言",
+   "title": "「根拠は?」は英語で?失礼にならない数字の確認 #ビジネス英語 #shorts",
+   "ig_caption": "「それは何に基づいていますか(根拠は?)」を英語で言えますか?\n\n✅ What's that based on?\nそれは何に基づいていますか(根拠は?)\n\n例文:That's a great number. What's that based on?\n(すごい数字ですね。何に基づいた数字ですか?)\n\n成功率96%と言われたら?疑うのではなく、数字の出どころを聞くだけなので、失礼になりにくい一言です。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  },
+  {
+   "phrase": 1,
+   "style": "quiz",
+   "badge": "会議で使う英語|中級",
+   "news_hook": [
+    "説明を",
+    "頼むとき"
+   ],
+   "hook": [
+    "walk me through",
+    "どういう意味?"
+   ],
+   "ctx": "計算や手順を、順を追って説明してもらう一言",
+   "title": "「walk me through」の意味、わかる?|会議の英語 #shorts",
+   "ig_caption": "「Could you walk me through」の意味、わかりますか?\n\n✅ Could you walk me through\n〜を順を追って説明していただけますか\n\n例文:Could you walk me through the cost estimate?\n(費用の見積もりを、順を追って説明していただけますか?)\n\n見積もりや計算の手順を、一歩ずつ見せてもらいたいときの定番表現です。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Google DeepMind「Gemini Robotics 2.5: Accelerating Physical Intelligence」(2026年11月10日)",
+   "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/"
+  },
+  {
+   "title": "QUE.com「Google's Gemini Robotics 2.5 Hits 96% on Mercedes-Benz Lines, but the Last 4% Is the Real Test」(2026年11月)",
+   "url": "https://que.com/googles-gemini-robotics-2-5-hits-96-on-mercedes-benz-lines-but-the-last-4-is-the-real-test-for-factory-humanoids/"
+  }
+ ],
+ "readings": [
+  [
+   "AI",
+   "エーアイ"
+  ],
+  [
+   "96%",
+   "きゅうじゅうろくパーセント"
+  ],
+  [
+   "2割",
+   "にわり"
+  ]
+ ]
+}

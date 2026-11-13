@@ -1,0 +1,750 @@
+{
+ "id": "2026-11-17-honda-tailwind",
+ "episode": "#33",
+ "date": "2026-11-10",
+ "series": "決算と数字の英語",
+ "title_card": {
+  "line1": "ホンダ、純利益予想5000億円に",
+  "line2": "追い風と足かせを英語で"
+ },
+ "publish": {
+  "long": "2026-11-17T07:00:00+09:00",
+  "shorts": [
+   "2026-11-17T12:00:00+09:00",
+   "2026-11-17T21:00:00+09:00"
+  ]
+ },
+ "phrases": [
+  {
+   "en": "a tailwind",
+   "jp": "追い風・好材料",
+   "ex": "The weaker yen was a tailwind for our exports.",
+   "ex_jp": "円安が、輸出の追い風になりました。"
+  },
+  {
+   "en": "a drag on",
+   "jp": "〜の足かせ・重荷",
+   "ex": "Higher shipping costs were a drag on profits.",
+   "ex_jp": "輸送費の上昇が、利益の足かせになりました。"
+  },
+  {
+   "en": "stay flexible",
+   "jp": "柔軟に対応できるようにしておく",
+   "ex": "Let's stay flexible until the client decides.",
+   "ex_jp": "お客様が決めるまで、柔軟に対応できるようにしておきましょう。"
+  }
+ ],
+ "words": [
+  {
+   "en": "net profit",
+   "jp": "純利益"
+  },
+  {
+   "en": "full-year forecast",
+   "jp": "通期の予想"
+  },
+  {
+   "en": "headwind",
+   "jp": "向かい風"
+  }
+ ],
+ "homework": {
+  "en": "What is a tailwind for your team right now?",
+  "jp": "いま、あなたのチームの追い風は?",
+  "hl": [
+   "tailwind"
+  ],
+  "say": "最後に宿題です。いま、あなたのチームにとっての追い風は何ですか。英語で、コメント欄に書いてみてください。"
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "beats": [
+    {
+     "id": "h01",
+     "kind": "jp",
+     "jp": "ホンダは11月10日、今年度の純利益の予想を、4000億円から5000億円に引き上げました。",
+     "en": "On November 10, Honda raised its full-year profit forecast from 400 to 500 billion yen.",
+     "vis": {
+      "t": "hero",
+      "kicker": "HONDA · FULL-YEAR NET PROFIT",
+      "big": "5000億円",
+      "color": "green",
+      "sub": "通期の純利益予想(4000億円から上方修正)",
+      "sub_color": "gold"
+     }
+    },
+    {
+     "id": "h02",
+     "kind": "jp",
+     "jp": "何が利益を押し上げ、何が足を引っ張ったのか。決算の数字を、英語で読んでいきます。",
+     "en": "What pushed profit up, and what held it back? Let's read the numbers in English.",
+     "vis": {
+      "t": "hero",
+      "kicker": "HONDA · FULL-YEAR NET PROFIT",
+      "big": "5000億円",
+      "color": "green",
+      "sub": "通期の純利益予想(4000億円から上方修正)",
+      "sub_color": "gold"
+     }
+    },
+    {
+     "id": "h03",
+     "kind": "jp",
+     "jp": "今日はこのニュースから、会議で使える英語を3つ。最後に答え合わせをします。",
+     "en": "Three phrases for your next meeting. Answers at the end.",
+     "vis": {
+      "t": "teaser"
+     }
+    }
+   ]
+  },
+  {
+   "id": "what",
+   "chapter": "決算の数字",
+   "beats": [
+    {
+     "id": "n01",
+     "kind": "jp",
+     "jp": "4月から9月の純利益は、5167億円。前の年の同じ時期より、65.7%増えました。",
+     "en": "First-half net profit was 516.7 billion yen, up 65.7% from a year earlier.",
+     "vis": {
+      "t": "bars",
+      "title": "ホンダ 4〜9月の純利益",
+      "unit": "億円",
+      "items": [
+       {
+        "label": "2025年",
+        "value": 3118,
+        "display": "3118億円",
+        "color": "muted"
+       },
+       {
+        "label": "2026年",
+        "value": 5167,
+        "display": "5167億円",
+        "color": "green"
+       }
+      ],
+      "note": "前年同期比 +65.7%"
+     }
+    },
+    {
+     "id": "n01b",
+     "kind": "jp",
+     "jp": "売上高は、12兆円を超えて13.2%増。英語では、トゥエルブ・トリリオン・円。兆は、トリリオンと言います。",
+     "en": "Revenue topped 12 trillion yen, up 13.2%. 'Cho' is 'trillion' in English.",
+     "vis": {
+      "t": "counter",
+      "kicker": "HONDA · H1 REVENUE",
+      "big": "12兆円",
+      "color": "blue",
+      "sub": "4〜9月の売上高 +13.2%",
+      "note": "英語では twelve trillion yen"
+     }
+    },
+    {
+     "id": "n02",
+     "kind": "jp",
+     "jp": "けん引役のひとつは、バイクです。4月から9月の二輪の販売は、1190万台で過去最高。ブラジルやインドで好調でした。",
+     "en": "Motorcycles led: a record 11.9 million sold in six months, strong in Brazil and India.",
+     "vis": {
+      "t": "counter",
+      "kicker": "HONDA · MOTORCYCLES",
+      "to": 1190,
+      "suffix": "万台",
+      "color": "gold",
+      "sub": "4〜9月の二輪の販売 過去最高",
+      "note": "前の年は約1080万台"
+     }
+    },
+    {
+     "id": "n03",
+     "kind": "jp",
+     "jp": "この台数を英語で言うと、イレブン・ポイント・ナイン・ミリオン。1190万は、11.9ミリオンです。",
+     "en": "In English, that's 11.9 million units.",
+     "vis": {
+      "t": "hero_side",
+      "big": "11.9M",
+      "color": "gold",
+      "text": "eleven point nine million",
+      "jp": "1190万台"
+     }
+    },
+    {
+     "id": "n04",
+     "kind": "jp",
+     "jp": "ミリオンは100万。1000万を超える数は、ミリオンの前に小数を付けて言うと、すっきり伝わります。",
+     "en": "A million is 100万. For big numbers, put a decimal before 'million.'",
+     "vis": {
+      "t": "hero_side",
+      "big": "11.9M",
+      "color": "gold",
+      "text": "eleven point nine million",
+      "jp": "1190万台"
+     }
+    },
+    {
+     "id": "n05",
+     "kind": "jp",
+     "jp": "もうひとつの理由は、為替です。ホンダは、為替が有利に動いたことを、予想を引き上げた理由に挙げています。",
+     "en": "The other factor: favorable exchange rates, which Honda cited for the upgrade.",
+     "vis": {
+      "t": "vs",
+      "left": {
+       "en": "exchange rate",
+       "label": "為替",
+       "val": "有利に",
+       "up": true,
+       "color": "green"
+      },
+      "right": {
+       "en": "forecast",
+       "label": "通期の利益予想",
+       "val": "上方修正",
+       "up": true,
+       "color": "green"
+      },
+      "mid": "追い風"
+     }
+    },
+    {
+     "id": "n06",
+     "kind": "jp",
+     "jp": "このように、後ろから押してくれる好材料を、英語で、ア・テイルウィンドと言います。",
+     "en": "Something that pushes you forward is 'a tailwind.'",
+     "hl": [
+      "a tailwind"
+     ],
+     "star": true,
+     "vis": {
+      "t": "vs",
+      "left": {
+       "en": "exchange rate",
+       "label": "為替",
+       "val": "有利に",
+       "up": true,
+       "color": "green"
+      },
+      "right": {
+       "en": "forecast",
+       "label": "通期の利益予想",
+       "val": "上方修正",
+       "up": true,
+       "color": "green"
+      },
+      "mid": "追い風"
+     }
+    },
+    {
+     "id": "n07",
+     "kind": "en_insert",
+     "jp": "円安が追い風になった",
+     "en": "The weaker yen was a tailwind.",
+     "hl": [
+      "a tailwind"
+     ],
+     "star": true,
+     "vis": {
+      "t": "vs",
+      "left": {
+       "en": "exchange rate",
+       "label": "為替",
+       "val": "有利に",
+       "up": true,
+       "color": "green"
+      },
+      "right": {
+       "en": "forecast",
+       "label": "通期の利益予想",
+       "val": "上方修正",
+       "up": true,
+       "color": "green"
+      },
+      "mid": "追い風"
+     }
+    },
+    {
+     "id": "n08",
+     "kind": "jp",
+     "jp": "テイルは、しっぽ。後ろから吹く風、つまり追い風です。逆に、向かい風はヘッドウィンドと言います。",
+     "en": "'Tail' means the back. The opposite, a wind in your face, is a headwind.",
+     "hl": [
+      "tailwind",
+      "headwind"
+     ],
+     "vis": {
+      "t": "vs",
+      "left": {
+       "en": "exchange rate",
+       "label": "為替",
+       "val": "有利に",
+       "up": true,
+       "color": "green"
+      },
+      "right": {
+       "en": "forecast",
+       "label": "通期の利益予想",
+       "val": "上方修正",
+       "up": true,
+       "color": "green"
+      },
+      "mid": "追い風"
+     }
+    }
+   ]
+  },
+  {
+   "id": "why",
+   "chapter": "利益の足を引っ張ったもの",
+   "beats": [
+    {
+     "id": "y01",
+     "kind": "jp",
+     "jp": "一方で、重荷もありました。電気自動車の戦略を見直したことによる損失が、4848億円にのぼりました。",
+     "en": "But changes to its EV strategy cost about 484.8 billion yen.",
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "EV戦略の見直し",
+        "mid": "4848億円",
+        "res": "利益を押し下げ",
+        "ok": false
+       },
+       {
+        "a": "二輪が過去最高",
+        "mid": "ブラジル・インド",
+        "res": "利益を押し上げ",
+        "ok": true
+       },
+       {
+        "a": "為替が有利に動く",
+        "mid": "関税対策も",
+        "res": "通期予想を上方修正",
+        "ok": true
+       }
+      ]
+     }
+    },
+    {
+     "id": "y02",
+     "kind": "jp",
+     "jp": "このように、全体の足を引っ張るものを、英語で、ア・ドラッグ・オンと言います。",
+     "en": "Something that holds results back is 'a drag on' them.",
+     "hl": [
+      "a drag on"
+     ],
+     "star": true,
+     "vis": {
+      "t": "hero_side",
+      "big": "−4848億円",
+      "color": "red",
+      "text": "a drag on profits",
+      "jp": "利益の足かせ"
+     }
+    },
+    {
+     "id": "y03",
+     "kind": "en_insert",
+     "jp": "EVの損失が、利益の足かせになった",
+     "en": "EV losses were a drag on profits.",
+     "hl": [
+      "a drag on"
+     ],
+     "star": true,
+     "vis": {
+      "t": "hero_side",
+      "big": "−4848億円",
+      "color": "red",
+      "text": "a drag on profits",
+      "jp": "利益の足かせ"
+     }
+    },
+    {
+     "id": "y04",
+     "kind": "jp",
+     "jp": "ドラッグは、重いものを引きずる、という意味。成長のスピードを落とすもの、というイメージです。",
+     "en": "'Drag' means pulling something heavy. It slows you down.",
+     "vis": {
+      "t": "hero_side",
+      "big": "−4848億円",
+      "color": "red",
+      "text": "a drag on profits",
+      "jp": "利益の足かせ"
+     }
+    },
+    {
+     "id": "y05",
+     "kind": "jp",
+     "jp": "実際、7月から9月の3か月だけを見ると、純利益は658億円。前の年より42.8%減っています。",
+     "en": "July to September alone, net profit fell 42.8% to 65.8 billion yen.",
+     "vis": {
+      "t": "counter",
+      "kicker": "HONDA · JUL–SEP NET PROFIT",
+      "big": "−42.8%",
+      "color": "red",
+      "sub": "7〜9月の純利益 658億円",
+      "note": "前年同期比(株探の集計)"
+     }
+    },
+    {
+     "id": "y06",
+     "kind": "jp",
+     "jp": "ホンダは一部のEVの計画をやめました。ただ、将来EVの人気が高まれば、生産を切り替えられるようにしておく、としています。",
+     "en": "Honda dropped some EV models, but says it will stay flexible to switch later.",
+     "hl": [
+      "stay flexible"
+     ],
+     "vis": {
+      "t": "timeline",
+      "show": 3,
+      "items": [
+       {
+        "when": "いま",
+        "text": "一部のEVの計画を中止。米国ではハイブリッドの需要増を見込む",
+        "color": "gold"
+       },
+       {
+        "when": "2029年",
+        "text": "オハイオ州の工場などで、北米の生産能力を191万台へ",
+        "color": "green"
+       },
+       {
+        "when": "将来",
+        "text": "EVの人気が高まれば、生産を切り替えられるようにしておく",
+        "color": "blue"
+       }
+      ]
+     }
+    },
+    {
+     "id": "y07",
+     "kind": "jp",
+     "jp": "状況が変わっても対応できるように、構えておく。英語では、ステイ・フレキシブルと言います。",
+     "en": "Being ready to adapt is to 'stay flexible.'",
+     "hl": [
+      "stay flexible"
+     ],
+     "star": true,
+     "vis": {
+      "t": "timeline",
+      "show": 3,
+      "items": [
+       {
+        "when": "いま",
+        "text": "一部のEVの計画を中止。米国ではハイブリッドの需要増を見込む",
+        "color": "gold"
+       },
+       {
+        "when": "2029年",
+        "text": "オハイオ州の工場などで、北米の生産能力を191万台へ",
+        "color": "green"
+       },
+       {
+        "when": "将来",
+        "text": "EVの人気が高まれば、生産を切り替えられるようにしておく",
+        "color": "blue"
+       }
+      ]
+     }
+    },
+    {
+     "id": "y08",
+     "kind": "en_insert",
+     "jp": "柔軟に対応できるようにしておきます",
+     "en": "We'll stay flexible.",
+     "hl": [
+      "stay flexible"
+     ],
+     "star": true,
+     "vis": {
+      "t": "timeline",
+      "show": 3,
+      "items": [
+       {
+        "when": "いま",
+        "text": "一部のEVの計画を中止。米国ではハイブリッドの需要増を見込む",
+        "color": "gold"
+       },
+       {
+        "when": "2029年",
+        "text": "オハイオ州の工場などで、北米の生産能力を191万台へ",
+        "color": "green"
+       },
+       {
+        "when": "将来",
+        "text": "EVの人気が高まれば、生産を切り替えられるようにしておく",
+        "color": "blue"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "insight",
+   "chapter": "私たちへの意味",
+   "beats": [
+    {
+     "id": "i01",
+     "kind": "jp",
+     "jp": "ここからは、日本で働く私たちにとっての意味を考えます。",
+     "en": "What does this mean for those of us working in Japan?",
+     "vis": {
+      "t": "statement",
+      "kicker": "SO WHAT?",
+      "text": "日本で働く私たちにとっての意味"
+     }
+    },
+    {
+     "id": "i02",
+     "kind": "jp",
+     "jp": "決算の数字は、期間で印象が大きく変わります。半年では65.7%増、3か月では42.8%減。同じ会社の数字です。",
+     "en": "Periods matter: up 65.7% over six months, down 42.8% for the quarter. Same company.",
+     "vis": {
+      "t": "points",
+      "show": 1,
+      "items": [
+       {
+        "head": "数字の読み方",
+        "big": "半年と\n3か月",
+        "sub": "+65.7%と\n−42.8%",
+        "color": "gold"
+       },
+       {
+        "head": "日本の現場",
+        "big": "追い風と\n足かせを分ける",
+        "sub": "tailwind /\na drag on",
+        "color": "green"
+       },
+       {
+        "head": "逆の見方",
+        "big": "為替は\n実力ではない",
+        "sub": "円高なら\n向かい風に",
+        "color": "blue"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i03",
+     "kind": "jp",
+     "jp": "日本の会議で業績を英語で報告するなら、追い風と足かせを分けて話すと、伝わりやすくなります。",
+     "en": "When you report results, separate the tailwinds from the drags.",
+     "vis": {
+      "t": "points",
+      "show": 2,
+      "items": [
+       {
+        "head": "数字の読み方",
+        "big": "半年と\n3か月",
+        "sub": "+65.7%と\n−42.8%",
+        "color": "gold"
+       },
+       {
+        "head": "日本の現場",
+        "big": "追い風と\n足かせを分ける",
+        "sub": "tailwind /\na drag on",
+        "color": "green"
+       },
+       {
+        "head": "逆の見方",
+        "big": "為替は\n実力ではない",
+        "sub": "円高なら\n向かい風に",
+        "color": "blue"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i04",
+     "kind": "jp",
+     "jp": "例えば、円安は追い風、原材料費は足かせ。一言ずつ添えるだけで、数字の背景がはっきりします。",
+     "en": "The weak yen helped, materials hurt. One line each makes the numbers clear.",
+     "vis": {
+      "t": "points",
+      "show": 2,
+      "items": [
+       {
+        "head": "数字の読み方",
+        "big": "半年と\n3か月",
+        "sub": "+65.7%と\n−42.8%",
+        "color": "gold"
+       },
+       {
+        "head": "日本の現場",
+        "big": "追い風と\n足かせを分ける",
+        "sub": "tailwind /\na drag on",
+        "color": "green"
+       },
+       {
+        "head": "逆の見方",
+        "big": "為替は\n実力ではない",
+        "sub": "円高なら\n向かい風に",
+        "color": "blue"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i05",
+     "kind": "jp",
+     "jp": "一方で、逆の見方もあります。為替の追い風は、自分たちの実力ではありません。円高に振れれば、向かい風にもなります。",
+     "en": "But a currency tailwind isn't your own strength. If the yen rises, it becomes a headwind.",
+     "vis": {
+      "t": "points",
+      "show": 3,
+      "items": [
+       {
+        "head": "数字の読み方",
+        "big": "半年と\n3か月",
+        "sub": "+65.7%と\n−42.8%",
+        "color": "gold"
+       },
+       {
+        "head": "日本の現場",
+        "big": "追い風と\n足かせを分ける",
+        "sub": "tailwind /\na drag on",
+        "color": "green"
+       },
+       {
+        "head": "逆の見方",
+        "big": "為替は\n実力ではない",
+        "sub": "円高なら\n向かい風に",
+        "color": "blue"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "「追い風」は英語で?a tailwindの使い方|ホンダが利益予想を上方修正【ビジネス英語ニュース #33】",
+  "summary": "ホンダは2026年11月10日、今年度の純利益予想を5000億円に引き上げました。過去最高の二輪販売と為替が追い風になる一方、EV関連の損失が重荷に。決算説明で使える a tailwind / a drag on / stay flexible と、大きな数字の英語の言い方を学びます。",
+  "tags": [
+   "ビジネス英語",
+   "英語学習",
+   "ニュース英語",
+   "決算 英語",
+   "数字 英語",
+   "会議 英語",
+   "ホンダ",
+   "Honda",
+   "円安",
+   "決算",
+   "上方修正",
+   "社会人 英語",
+   "教養",
+   "business English"
+  ]
+ },
+ "thumbnail": {
+  "big": "5000億円",
+  "big_color": "green",
+  "under": "通期の純利益予想",
+  "badge": "ホンダ",
+  "badge_color": "gold",
+  "question": "追い風は何?",
+  "pill": "a tailwind",
+  "bottom": "決算で使える英語3つ",
+  "crack": false
+ },
+ "shorts": [
+  {
+   "phrase": 0,
+   "news_hook": [
+    "ホンダ",
+    "利益予想を上げた"
+   ],
+   "hook": [
+    "「追い風」を",
+    "英語で言うと?"
+   ],
+   "ctx": "業績の好材料を説明するときの英語",
+   "title": "「追い風」は英語で?ホンダが純利益予想を5000億円に #ビジネス英語 #shorts",
+   "ig_caption": "「追い風」を英語で言えますか?\n\n✅ a tailwind\n追い風・好材料\n\n例文:The weaker yen was a tailwind for our exports.\n(円安が、輸出の追い風になりました。)\n\nホンダは今年度の純利益予想を5000億円に引き上げました。為替や過去最高のバイク販売が追い風に。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  },
+  {
+   "phrase": 1,
+   "style": "quiz",
+   "badge": "会議で使う英語|中級",
+   "news_hook": [
+    "EVの損失",
+    "4848億円"
+   ],
+   "hook": [
+    "a drag on",
+    "どういう意味?"
+   ],
+   "ctx": "業績の足を引っ張った理由を説明する一言",
+   "title": "「a drag on」の意味、わかる?|会議の英語 #shorts",
+   "ig_caption": "「a drag on」の意味、わかりますか?\n\n✅ a drag on\n〜の足かせ・重荷\n\n例文:Higher shipping costs were a drag on profits.\n(輸送費の上昇が、利益の足かせになりました。)\n\nホンダはEV戦略の見直しで4848億円の損失。業績報告で「何が足を引っ張ったか」を言うときの定番です。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  }
+ ],
+ "sources": [
+  {
+   "title": "AP(Spectrum News NY1)「Honda reports robust results on the back of healthy motorcycle sales」(2026年11月10日)",
+   "url": "https://ny1.com/nyc/all-boroughs/ap-top-news/2026/11/10/honda-reports-robust-results-on-the-back-of-healthy-motorcycle-sales"
+  },
+  {
+   "title": "株探「ホンダ、今期最終を25%上方修正」(2026年11月10日)",
+   "url": "https://s.kabutan.jp/news/k202611100129/"
+  },
+  {
+   "title": "CarLife Signal「ホンダ中間決算 純利益1.6倍以上に増加 最終利益も5000億円予想に上方修正」(2026年11月11日)",
+   "url": "https://carlife.mekameka-tool.com/2026/11/11/%E3%83%9B%E3%83%B3%E3%83%80%E4%B8%AD%E9%96%93%E6%B1%BA%E7%AE%97%E3%80%80%E7%B4%94%E5%88%A9%E7%9B%8A1-6%E5%80%8D%E4%BB%A5%E4%B8%8A%E3%81%AB%E5%A2%97%E5%8A%A0%E3%80%80%E6%9C%80%E7%B5%82%E5%88%A9/"
+  }
+ ],
+ "readings": [
+  [
+   "EV",
+   "イーブイ"
+  ],
+  [
+   "4848億円",
+   "よんせんはっぴゃくよんじゅうはちおくえん"
+  ],
+  [
+   "5167億円",
+   "ごせんひゃくろくじゅうななおくえん"
+  ],
+  [
+   "1190万台",
+   "せんひゃくきゅうじゅうまんだい"
+  ],
+  [
+   "1190万",
+   "せんひゃくきゅうじゅうまん"
+  ],
+  [
+   "658億円",
+   "ろっぴゃくごじゅうはちおくえん"
+  ],
+  [
+   "65.7%",
+   "ろくじゅうごてんななパーセント"
+  ],
+  [
+   "42.8%",
+   "よんじゅうにてんはちパーセント"
+  ],
+  [
+   "11.9ミリオン",
+   "イレブン・ポイント・ナイン・ミリオン"
+  ],
+  [
+   "10日",
+   "とおか"
+  ],
+  [
+   "12兆円",
+   "じゅうにちょうえん"
+  ],
+  [
+   "13.2%",
+   "じゅうさんてんにパーセント"
+  ]
+ ]
+}

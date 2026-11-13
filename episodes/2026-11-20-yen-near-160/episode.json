@@ -1,0 +1,813 @@
+{
+ "id": "2026-11-20-yen-near-160",
+ "episode": "#36",
+ "date": "2026-11-12",
+ "series": "海外メディアが報じる日本",
+ "title_card": {
+  "line1": "1ドル160円に迫る円安",
+  "line2": "海外メディアはどう報じたか"
+ },
+ "publish": {
+  "long": "2026-11-20T07:00:00+09:00",
+  "shorts": [
+   "2026-11-20T12:00:00+09:00",
+   "2026-11-20T21:00:00+09:00"
+  ]
+ },
+ "phrases": [
+  {
+   "en": "a weaker yen",
+   "jp": "円安",
+   "ex": "A weaker yen makes our imported parts more expensive.",
+   "ex_jp": "円安で、輸入部品が高くなります。"
+  },
+  {
+   "en": "stay in close contact with",
+   "jp": "〜と緊密に連絡を取り合う",
+   "ex": "We'll stay in close contact with the supplier this week.",
+   "ex_jp": "今週は、仕入れ先と緊密に連絡を取り合います。"
+  },
+  {
+   "en": "push up costs",
+   "jp": "コストを押し上げる",
+   "ex": "Higher energy prices will push up costs for everyone.",
+   "ex_jp": "エネルギー価格の上昇は、誰にとってもコストを押し上げます。"
+  }
+ ],
+ "words": [
+  {
+   "en": "intervention",
+   "jp": "為替介入"
+  },
+  {
+   "en": "rate hike",
+   "jp": "利上げ"
+  },
+  {
+   "en": "exchange rate",
+   "jp": "為替レート"
+  }
+ ],
+ "homework": {
+  "en": "How does a weaker yen affect your work?",
+  "jp": "円安は、あなたの仕事にどう影響する?",
+  "hl": [
+   "weaker yen"
+  ],
+  "say": "最後に宿題です。円安は、あなたの仕事にどんな影響がありますか。英語で、コメント欄に書いてみてください。"
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "beats": [
+    {
+     "id": "h01",
+     "kind": "jp",
+     "jp": "1ドル、160円。11月12日、円がこの節目に迫ったことを、海外のメディアが伝えました。",
+     "en": "On November 12, global media reported the yen nearing 160 per dollar.",
+     "vis": {
+      "t": "globe",
+      "title": "海外メディアが報じる円安",
+      "lon": -165,
+      "lat": 30,
+      "points": [
+       {
+        "label": "東京 財務省",
+        "lat": 35.7,
+        "lon": 139.7,
+        "color": "gold"
+       },
+       {
+        "label": "米国",
+        "lat": 38.9,
+        "lon": -77.0,
+        "color": "blue"
+       }
+      ],
+      "arcs": [
+       [
+        0,
+        1
+       ]
+      ],
+      "lines": [
+       {
+        "text": "Yen nears 160 per dollar",
+        "color": "red"
+       },
+       {
+        "text": "1ドル160円に迫る円安",
+        "color": "text"
+       }
+      ]
+     }
+    },
+    {
+     "id": "h02",
+     "kind": "jp",
+     "jp": "アジアの取引の早い時間に、1ドル159円94銭。およそ2か月ぶりの円安です。円安を、英語でどう言うでしょう。",
+     "en": "Early in Asia, the dollar hit 159.94 yen, the weakest yen in two months. How do you say 'weak yen'?",
+     "vis": {
+      "t": "hero",
+      "kicker": "USD/JPY · 11/12",
+      "big": "159.94円",
+      "color": "red",
+      "crack": true,
+      "sub": "1ドルあたり 約2か月ぶりの円安水準",
+      "sub_color": "gold"
+     }
+    },
+    {
+     "id": "h03",
+     "kind": "jp",
+     "jp": "今日はこのニュースから、会議で使える英語を3つ。最後に答え合わせをします。",
+     "en": "Three phrases for your next meeting. Answers at the end.",
+     "vis": {
+      "t": "teaser"
+     }
+    }
+   ]
+  },
+  {
+   "id": "what",
+   "chapter": "海外はどう報じたか",
+   "beats": [
+    {
+     "id": "n01",
+     "kind": "jp",
+     "jp": "時事通信の英語版は、財務省の三村財務官が、最近の動きは速すぎる、と警告したと伝えました。",
+     "en": "Jiji's English service reported top currency official Atsushi Mimura warning that moves were too fast.",
+     "vis": {
+      "t": "cards",
+      "show": 1,
+      "footer": "11月12日 海外メディアの報道",
+      "items": [
+       {
+        "name": "時事通信 英語版",
+        "big": "too rapid",
+        "sub": "FX chief warns",
+        "note": "動きが速すぎる",
+        "color": "gold"
+       },
+       {
+        "name": "The Private Banker",
+        "big": "160",
+        "sub": "the 160 line",
+        "note": "夏の介入を思い出させる",
+        "color": "red"
+       },
+       {
+        "name": "日本政府",
+        "big": "日米",
+        "sub": "close contact",
+        "note": "米財務省と緊密に連絡",
+        "color": "blue"
+       }
+      ]
+     }
+    },
+    {
+     "id": "n02",
+     "kind": "jp",
+     "jp": "ここ数日の動きは、速すぎるという強い印象がある。三村財務官は、記者団にこう述べています。",
+     "en": "'The moves in the last few days have been too rapid,' Mimura told reporters.",
+     "hl": [
+      "too rapid"
+     ],
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "We have a strong impression that",
+       "the moves in the last few days",
+       "have been too rapid."
+      ],
+      "hl": [
+       "too rapid"
+      ],
+      "by": "三村淳 財務官(11月12日、時事通信)"
+     }
+    },
+    {
+     "id": "n03",
+     "kind": "jp",
+     "jp": "海外の金融メディアは、円が160円の線まで下がり、日本の当局が、夏の介入を市場に思い出させた、と報じました。",
+     "en": "A finance outlet said the yen slid to the 160 line as Tokyo reminded markets of its summer action.",
+     "vis": {
+      "t": "cards",
+      "show": 2,
+      "footer": "11月12日 海外メディアの報道",
+      "items": [
+       {
+        "name": "時事通信 英語版",
+        "big": "too rapid",
+        "sub": "FX chief warns",
+        "note": "動きが速すぎる",
+        "color": "gold"
+       },
+       {
+        "name": "The Private Banker",
+        "big": "160",
+        "sub": "the 160 line",
+        "note": "夏の介入を思い出させる",
+        "color": "red"
+       },
+       {
+        "name": "日本政府",
+        "big": "日米",
+        "sub": "close contact",
+        "note": "米財務省と緊密に連絡",
+        "color": "blue"
+       }
+      ]
+     }
+    },
+    {
+     "id": "n04",
+     "kind": "jp",
+     "jp": "背景にあるのは、アメリカの利上げの観測です。今週の主役は日本ではなく、ドルだ、と分析されています。",
+     "en": "Behind it: bets on a U.S. rate hike. Analysts say the dollar, not Japan, is driving this week.",
+     "vis": {
+      "t": "vs",
+      "left": {
+       "en": "dollar",
+       "label": "ドル",
+       "val": "上昇",
+       "up": true,
+       "color": "green"
+      },
+      "right": {
+       "en": "yen",
+       "label": "円",
+       "val": "下落",
+       "up": false,
+       "color": "red"
+      },
+      "mid": "1ドル 約160円"
+     }
+    },
+    {
+     "id": "n05",
+     "kind": "jp",
+     "jp": "このように、円の価値が下がることを、英語で、ア・ウィーカー・円と言います。",
+     "en": "When the yen loses value, we say 'a weaker yen.'",
+     "hl": [
+      "a weaker yen"
+     ],
+     "star": true,
+     "vis": {
+      "t": "vs",
+      "left": {
+       "en": "dollar",
+       "label": "ドル",
+       "val": "上昇",
+       "up": true,
+       "color": "green"
+      },
+      "right": {
+       "en": "yen",
+       "label": "円",
+       "val": "下落",
+       "up": false,
+       "color": "red"
+      },
+      "mid": "1ドル 約160円"
+     }
+    },
+    {
+     "id": "n06",
+     "kind": "en_insert",
+     "jp": "ドルに対する円安",
+     "en": "a weaker yen against the dollar",
+     "hl": [
+      "a weaker yen"
+     ],
+     "star": true,
+     "vis": {
+      "t": "vs",
+      "left": {
+       "en": "dollar",
+       "label": "ドル",
+       "val": "上昇",
+       "up": true,
+       "color": "green"
+      },
+      "right": {
+       "en": "yen",
+       "label": "円",
+       "val": "下落",
+       "up": false,
+       "color": "red"
+      },
+      "mid": "1ドル 約160円"
+     }
+    },
+    {
+     "id": "n07",
+     "kind": "jp",
+     "jp": "ウィーク・円とも言いますが、ウィーカーと比べる形にすると、前より安くなった、という変化が伝わります。",
+     "en": "'Weak yen' works too, but 'weaker' shows the change.",
+     "hl": [
+      "weaker"
+     ],
+     "vis": {
+      "t": "vs",
+      "left": {
+       "en": "dollar",
+       "label": "ドル",
+       "val": "上昇",
+       "up": true,
+       "color": "green"
+      },
+      "right": {
+       "en": "yen",
+       "label": "円",
+       "val": "下落",
+       "up": false,
+       "color": "red"
+      },
+      "mid": "1ドル 約160円"
+     }
+    }
+   ]
+  },
+  {
+   "id": "why",
+   "chapter": "なぜ政府は警戒するのか",
+   "beats": [
+    {
+     "id": "y01",
+     "kind": "jp",
+     "jp": "政府が警戒するのには、理由があります。7月末、円は一時、1ドル164円近くまで下がりました。およそ39年8か月ぶりの安さです。",
+     "en": "In late July, the yen briefly neared 164, its weakest in about 39 years and 8 months.",
+     "vis": {
+      "t": "timeline",
+      "show": 1,
+      "items": [
+       {
+        "when": "7月末",
+        "text": "一時1ドル164円近く。約39年8か月ぶりの円安",
+        "color": "red"
+       },
+       {
+        "when": "7/30〜8/3",
+        "text": "政府・日銀が15兆円超の円買い介入。7/31は日米協調(約28年ぶり)",
+        "color": "gold"
+       },
+       {
+        "when": "11月12日",
+        "text": "再び160円近くに。財務官が「速すぎる」と警告",
+        "color": "red"
+       }
+      ]
+     }
+    },
+    {
+     "id": "y02",
+     "kind": "jp",
+     "jp": "政府と日銀は、7月30日から8月3日にかけて、15兆円を超える円買いの介入を行いました。",
+     "en": "From July 30 to August 3, Japan bought more than 15 trillion yen's worth of yen.",
+     "vis": {
+      "t": "timeline",
+      "show": 2,
+      "items": [
+       {
+        "when": "7月末",
+        "text": "一時1ドル164円近く。約39年8か月ぶりの円安",
+        "color": "red"
+       },
+       {
+        "when": "7/30〜8/3",
+        "text": "政府・日銀が15兆円超の円買い介入。7/31は日米協調(約28年ぶり)",
+        "color": "gold"
+       },
+       {
+        "when": "11月12日",
+        "text": "再び160円近くに。財務官が「速すぎる」と警告",
+        "color": "red"
+       }
+      ]
+     }
+    },
+    {
+     "id": "y03",
+     "kind": "jp",
+     "jp": "7月31日の介入は、日本とアメリカが協調した、およそ28年ぶりのものでした。",
+     "en": "The July 31 move was the first joint U.S.–Japan action in about 28 years.",
+     "vis": {
+      "t": "timeline",
+      "show": 2,
+      "items": [
+       {
+        "when": "7月末",
+        "text": "一時1ドル164円近く。約39年8か月ぶりの円安",
+        "color": "red"
+       },
+       {
+        "when": "7/30〜8/3",
+        "text": "政府・日銀が15兆円超の円買い介入。7/31は日米協調(約28年ぶり)",
+        "color": "gold"
+       },
+       {
+        "when": "11月12日",
+        "text": "再び160円近くに。財務官が「速すぎる」と警告",
+        "color": "red"
+       }
+      ]
+     }
+    },
+    {
+     "id": "y04",
+     "kind": "jp",
+     "jp": "そして11月12日、再び160円近くに。木原官房長官は、財務省を通じて、アメリカの財務省と緊密に連絡を取っていく、と述べています。",
+     "en": "Now, near 160 again, Japan says it will stay in close contact with the U.S. Treasury.",
+     "hl": [
+      "stay in close contact with"
+     ],
+     "vis": {
+      "t": "timeline",
+      "show": 3,
+      "items": [
+       {
+        "when": "7月末",
+        "text": "一時1ドル164円近く。約39年8か月ぶりの円安",
+        "color": "red"
+       },
+       {
+        "when": "7/30〜8/3",
+        "text": "政府・日銀が15兆円超の円買い介入。7/31は日米協調(約28年ぶり)",
+        "color": "gold"
+       },
+       {
+        "when": "11月12日",
+        "text": "再び160円近くに。財務官が「速すぎる」と警告",
+        "color": "red"
+       }
+      ]
+     }
+    },
+    {
+     "id": "y05",
+     "kind": "jp",
+     "jp": "こまめに連絡を取り合い、情報を共有し続ける。英語で、ステイ・イン・クロース・コンタクト・ウィズと言います。",
+     "en": "Keeping each other informed is to 'stay in close contact with' someone.",
+     "hl": [
+      "stay in close contact with"
+     ],
+     "star": true,
+     "vis": {
+      "t": "hero_side",
+      "big": "日米",
+      "color": "blue",
+      "text": "in close contact",
+      "jp": "緊密に連絡を取り合う"
+     }
+    },
+    {
+     "id": "y06",
+     "kind": "en_insert",
+     "jp": "アメリカと緊密に連絡を取り合う",
+     "en": "We'll stay in close contact with the U.S.",
+     "hl": [
+      "stay in close contact with"
+     ],
+     "star": true,
+     "vis": {
+      "t": "hero_side",
+      "big": "日米",
+      "color": "blue",
+      "text": "in close contact",
+      "jp": "緊密に連絡を取り合う"
+     }
+    },
+    {
+     "id": "y07",
+     "kind": "jp",
+     "jp": "クロースは、近い、という意味。会議で、取引先と密に連絡します、と伝えるときにも使えます。",
+     "en": "'Close' means near. Use it for keeping in touch with partners.",
+     "vis": {
+      "t": "hero_side",
+      "big": "日米",
+      "color": "blue",
+      "text": "in close contact",
+      "jp": "緊密に連絡を取り合う"
+     }
+    }
+   ]
+  },
+  {
+   "id": "insight",
+   "chapter": "私たちへの意味",
+   "beats": [
+    {
+     "id": "i01",
+     "kind": "jp",
+     "jp": "ここからは、日本で働く私たちにとっての意味を考えます。",
+     "en": "What does this mean for those of us working in Japan?",
+     "vis": {
+      "t": "statement",
+      "kicker": "SO WHAT?",
+      "text": "日本で働く私たちにとっての意味"
+     }
+    },
+    {
+     "id": "i02",
+     "kind": "jp",
+     "jp": "円安は、立場によって意味が変わります。今週のホンダのように、輸出の多い会社には、為替が追い風になります。",
+     "en": "A weak yen means different things. For exporters like Honda, it's a tailwind.",
+     "vis": {
+      "t": "points",
+      "show": 1,
+      "items": [
+       {
+        "head": "輸出の多い会社",
+        "big": "追い風",
+        "sub": "海外の売上が\n円で増える",
+        "color": "green"
+       },
+       {
+        "head": "輸入に頼る会社",
+        "big": "コスト高",
+        "sub": "push up\ncosts",
+        "color": "red"
+       },
+       {
+        "head": "逆の見方",
+        "big": "円安が\n続くとは限らない",
+        "sub": "介入や利上げの\n観測も",
+        "color": "blue"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i03",
+     "kind": "jp",
+     "jp": "一方、輸入に頼る会社や家計には、負担になります。円安が物価を押し上げれば、政権の負担にもなる、という分析もあります。",
+     "en": "For importers and households it hurts, and analysts say rising prices could cost the government.",
+     "vis": {
+      "t": "points",
+      "show": 2,
+      "items": [
+       {
+        "head": "輸出の多い会社",
+        "big": "追い風",
+        "sub": "海外の売上が\n円で増える",
+        "color": "green"
+       },
+       {
+        "head": "輸入に頼る会社",
+        "big": "コスト高",
+        "sub": "push up\ncosts",
+        "color": "red"
+       },
+       {
+        "head": "逆の見方",
+        "big": "円安が\n続くとは限らない",
+        "sub": "介入や利上げの\n観測も",
+        "color": "blue"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i04",
+     "kind": "jp",
+     "jp": "コストや物価を押し上げる。英語で、プッシュ・アップ・コスツと言います。",
+     "en": "To raise costs is to 'push up costs.'",
+     "hl": [
+      "push up costs"
+     ],
+     "star": true,
+     "vis": {
+      "t": "points",
+      "show": 2,
+      "items": [
+       {
+        "head": "輸出の多い会社",
+        "big": "追い風",
+        "sub": "海外の売上が\n円で増える",
+        "color": "green"
+       },
+       {
+        "head": "輸入に頼る会社",
+        "big": "コスト高",
+        "sub": "push up\ncosts",
+        "color": "red"
+       },
+       {
+        "head": "逆の見方",
+        "big": "円安が\n続くとは限らない",
+        "sub": "介入や利上げの\n観測も",
+        "color": "blue"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i05",
+     "kind": "en_insert",
+     "jp": "円安がコストを押し上げる",
+     "en": "A weaker yen will push up costs.",
+     "hl": [
+      "push up costs"
+     ],
+     "star": true,
+     "vis": {
+      "t": "points",
+      "show": 2,
+      "items": [
+       {
+        "head": "輸出の多い会社",
+        "big": "追い風",
+        "sub": "海外の売上が\n円で増える",
+        "color": "green"
+       },
+       {
+        "head": "輸入に頼る会社",
+        "big": "コスト高",
+        "sub": "push up\ncosts",
+        "color": "red"
+       },
+       {
+        "head": "逆の見方",
+        "big": "円安が\n続くとは限らない",
+        "sub": "介入や利上げの\n観測も",
+        "color": "blue"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i06",
+     "kind": "jp",
+     "jp": "一方で、逆の見方もあります。介入への警戒や、12月の日銀の利上げを見込んで、円高に動くと読む専門家もいます。",
+     "en": "On the flip side, some strategists expect the yen to rebound on intervention or a BOJ hike.",
+     "vis": {
+      "t": "points",
+      "show": 3,
+      "items": [
+       {
+        "head": "輸出の多い会社",
+        "big": "追い風",
+        "sub": "海外の売上が\n円で増える",
+        "color": "green"
+       },
+       {
+        "head": "輸入に頼る会社",
+        "big": "コスト高",
+        "sub": "push up\ncosts",
+        "color": "red"
+       },
+       {
+        "head": "逆の見方",
+        "big": "円安が\n続くとは限らない",
+        "sub": "介入や利上げの\n観測も",
+        "color": "blue"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i07",
+     "kind": "jp",
+     "jp": "日本の職場では、海外との取引の見積もりに、1ドル何円を前提にしたかを、必ず書き添えておきましょう。",
+     "en": "In quotes for overseas deals, always state the exchange rate you assumed.",
+     "vis": {
+      "t": "statement",
+      "kicker": "TIP",
+      "text": "見積もりには、前提の為替レートを",
+      "sub": "Exchange rate assumed: ___ yen per dollar"
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "「円安」は英語で?a weaker yenの使い方|1ドル160円に迫る円安【ビジネス英語ニュース #36】",
+  "summary": "2026年11月12日、円は1ドル160円に迫り、三村財務官は「動きが速すぎる」と警告しました。夏の為替介入の経緯とあわせて、海外メディアの報道から a weaker yen / stay in close contact with / push up costs を学びます。",
+  "tags": [
+   "ビジネス英語",
+   "英語学習",
+   "ニュース英語",
+   "時事英語",
+   "会議 英語",
+   "円安",
+   "為替",
+   "為替介入",
+   "160円",
+   "財務省",
+   "日本経済",
+   "海外の反応",
+   "社会人 英語",
+   "教養",
+   "business English"
+  ]
+ },
+ "thumbnail": {
+  "big": "160円",
+  "big_color": "red",
+  "under": "1ドルあたり",
+  "badge": "円安",
+  "badge_color": "gold",
+  "question": "海外はどう見た?",
+  "pill": "a weaker yen",
+  "bottom": "会議で使える英語3つ",
+  "crack": true
+ },
+ "shorts": [
+  {
+   "phrase": 0,
+   "news_hook": [
+    "1ドル160円に",
+    "迫る円安"
+   ],
+   "hook": [
+    "「円安」を",
+    "英語で言うと?"
+   ],
+   "ctx": "為替の話をするときの基本の英語",
+   "title": "「円安」は英語で?1ドル160円に迫り財務官が警告 #ビジネス英語 #shorts",
+   "ig_caption": "「円安」を英語で言えますか?\n\n✅ a weaker yen\n円安\n\n例文:A weaker yen makes our imported parts more expensive.\n(円安で、輸入部品が高くなります。)\n\n11月12日、円は1ドル160円に迫り、財務官が「動きが速すぎる」と警告しました。為替の話で必ず使う表現です。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  },
+  {
+   "phrase": 1,
+   "style": "quiz",
+   "badge": "会議で使う英語|中級",
+   "news_hook": [
+    "日本と米国",
+    "財務省が連携"
+   ],
+   "hook": [
+    "stay in close contact",
+    "どういう意味?"
+   ],
+   "ctx": "取引先と密に連絡すると伝える一言",
+   "title": "「stay in close contact」の意味、わかる?|会議の英語 #shorts",
+   "ig_caption": "「stay in close contact with」の意味、わかりますか?\n\n✅ stay in close contact with\n〜と緊密に連絡を取り合う\n\n例文:We'll stay in close contact with the supplier this week.\n(今週は、仕入れ先と緊密に連絡を取り合います。)\n\n円安を受けて、日本政府は米財務省と緊密に連絡を取ると説明しました。取引先とのメールや会議でも使えます。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  }
+ ],
+ "sources": [
+  {
+   "title": "nippon.com(時事通信)「Japan Forex Official Warns against Yen's Rapid Fall」(2026年11月12日)",
+   "url": "https://nippon.com/en/articles/-/57310"
+  },
+  {
+   "title": "The Private Banker「Yen Slides to the 160-Per-Dollar Line as Tokyo Reminds Markets of Its Summer Intervention」(2026年11月12日)",
+   "url": "https://leprivatebanker.com/2026/11/12/yen-slides-to-the-160-per-dollar-line-as-tokyo-reminds-markets-of-its-summer-intervention/"
+  },
+  {
+   "title": "AP(Spectrum News NY1)「Honda reports robust results on the back of healthy motorcycle sales」(2026年11月10日)",
+   "url": "https://ny1.com/nyc/all-boroughs/ap-top-news/2026/11/10/honda-reports-robust-results-on-the-back-of-healthy-motorcycle-sales"
+  }
+ ],
+ "readings": [
+  [
+   "159円94銭",
+   "ひゃくごじゅうきゅうえん きゅうじゅうよんせん"
+  ],
+  [
+   "160円",
+   "ひゃくろくじゅうえん"
+  ],
+  [
+   "164円",
+   "ひゃくろくじゅうよえん"
+  ],
+  [
+   "三村",
+   "みむら"
+  ],
+  [
+   "木原",
+   "きはら"
+  ],
+  [
+   "日銀",
+   "にちぎん"
+  ],
+  [
+   "15兆円",
+   "じゅうごちょうえん"
+  ],
+  [
+   "39年8か月",
+   "さんじゅうくねん はっかげつ"
+  ],
+  [
+   "ウィーカー・円",
+   "ウィーカー・イェン"
+  ],
+  [
+   "ウィーク・円",
+   "ウィーク・イェン"
+  ],
+  [
+   "12日",
+   "じゅうににち"
+  ],
+  [
+   "3日",
+   "みっか"
+  ]
+ ]
+}

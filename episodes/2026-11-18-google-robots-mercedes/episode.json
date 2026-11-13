@@ -1,0 +1,756 @@
+{
+ "id": "2026-11-18-google-robots-mercedes",
+ "episode": "#34",
+ "date": "2026-11-10",
+ "series": "テックとAI",
+ "title_card": {
+  "line1": "人型ロボットが工場で働く",
+  "line2": "グーグルのAI、成功率96%"
+ },
+ "publish": {
+  "long": "2026-11-18T07:00:00+09:00",
+  "shorts": [
+   "2026-11-18T12:00:00+09:00",
+   "2026-11-18T21:00:00+09:00"
+  ]
+ },
+ "phrases": [
+  {
+   "en": "a proof of concept",
+   "jp": "概念実証(PoC)・小さく試す検証",
+   "ex": "Let's start with a proof of concept before we commit.",
+   "ex_jp": "本格導入の前に、まずは小さく検証から始めましょう。"
+  },
+  {
+   "en": "scale up",
+   "jp": "規模を拡大する",
+   "ex": "If the pilot works, we'll scale up next year.",
+   "ex_jp": "試験導入がうまくいけば、来年、規模を拡大します。"
+  },
+  {
+   "en": "work alongside",
+   "jp": "〜と一緒に働く・並んで働く",
+   "ex": "The new tool will work alongside our staff, not replace them.",
+   "ex_jp": "新しいツールは、社員の代わりではなく、社員と一緒に働くものです。"
+  }
+ ],
+ "words": [
+  {
+   "en": "humanoid",
+   "jp": "人型ロボット"
+  },
+  {
+   "en": "success rate",
+   "jp": "成功率"
+  },
+  {
+   "en": "labor shortage",
+   "jp": "人手不足"
+  }
+ ],
+ "homework": {
+  "en": "Which task would you hand to a robot first?",
+  "jp": "最初にロボットに任せたい仕事は?",
+  "hl": [
+   "hand to a robot"
+  ],
+  "say": "最後に宿題です。あなたの仕事で、最初にロボットに任せたい作業は何ですか。英語で、コメント欄に書いてみてください。"
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "beats": [
+    {
+     "id": "h01",
+     "kind": "jp",
+     "jp": "成功率96%。グーグルのAIで動く人型ロボットが、メルセデス・ベンツの工場で、部品を仕分けました。",
+     "en": "96% success: humanoids running Google's AI sorted parts at Mercedes-Benz plants.",
+     "vis": {
+      "t": "hero_side",
+      "big": "96%",
+      "color": "green",
+      "text": "success rate",
+      "jp": "工場での成功率"
+     }
+    },
+    {
+     "id": "h02",
+     "kind": "jp",
+     "jp": "ただし、これはまだ本番ではなく、試しの段階。この、小さく試す検証を、英語で何と言うでしょう。",
+     "en": "But it's still a trial, not full production. What do you call a test like this?",
+     "vis": {
+      "t": "hero_side",
+      "big": "96%",
+      "color": "green",
+      "text": "success rate",
+      "jp": "工場での成功率"
+     }
+    },
+    {
+     "id": "h03",
+     "kind": "jp",
+     "jp": "今日はこのニュースから、会議で使える英語を3つ。最後に答え合わせをします。",
+     "en": "Three phrases for your next meeting. Answers at the end.",
+     "vis": {
+      "t": "teaser"
+     }
+    }
+   ]
+  },
+  {
+   "id": "what",
+   "chapter": "何が起きたか",
+   "beats": [
+    {
+     "id": "n01",
+     "kind": "jp",
+     "jp": "11月10日、グーグル・ディープマインドが発表しました。試験の舞台は、ハンガリーとドイツにある、メルセデス・ベンツの工場です。",
+     "en": "On November 10, Google DeepMind shared results from Mercedes-Benz plants in Hungary and Germany.",
+     "vis": {
+      "t": "globe",
+      "title": "人型ロボットの工場試験",
+      "lon": 15,
+      "lat": 30,
+      "points": [
+       {
+        "label": "ケチケメート(ハンガリー)",
+        "lat": 46.9,
+        "lon": 19.7,
+        "color": "gold"
+       },
+       {
+        "label": "ジンデルフィンゲン(ドイツ)",
+        "lat": 48.7,
+        "lon": 9.0,
+        "color": "gold"
+       }
+      ],
+      "arcs": [
+       [
+        0,
+        1
+       ]
+      ],
+      "lines": [
+       {
+        "text": "Humanoids on the line",
+        "color": "gold"
+       },
+       {
+        "text": "メルセデスの2つの工場で試験",
+        "color": "text"
+       }
+      ]
+     }
+    },
+    {
+     "id": "n02",
+     "kind": "jp",
+     "jp": "頭脳は、グーグルのAI、ジェミニ・ロボティクス2.5。体は、アプトロニク社の人型ロボット、アポロ2です。",
+     "en": "The brain: Gemini Robotics 2.5. The body: Apptronik's Apollo 2 humanoid.",
+     "vis": {
+      "t": "cards",
+      "show": 2,
+      "footer": "グーグル・ディープマインドの発表(11月10日)",
+      "items": [
+       {
+        "name": "AI(頭脳)",
+        "big": "Gemini",
+        "sub": "Gemini Robotics 2.5",
+        "note": "グーグル・ディープマインド",
+        "color": "blue"
+       },
+       {
+        "name": "ロボット(体)",
+        "big": "Apollo 2",
+        "sub": "humanoid",
+        "note": "アプトロニク社の人型ロボット",
+        "color": "gold"
+       },
+       {
+        "name": "仕事",
+        "big": "仕分け",
+        "sub": "kitting",
+        "note": "金属の部品を車ごとのトレーへ",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "n03",
+     "kind": "jp",
+     "jp": "仕事は、箱に入った金属の部品を、車1台ごとのトレーに仕分ける作業。この成功率が、96%でした。",
+     "en": "The job: sorting metal brackets from bins into trays for each car. Success rate: 96%.",
+     "vis": {
+      "t": "cards",
+      "show": 3,
+      "footer": "グーグル・ディープマインドの発表(11月10日)",
+      "items": [
+       {
+        "name": "AI(頭脳)",
+        "big": "Gemini",
+        "sub": "Gemini Robotics 2.5",
+        "note": "グーグル・ディープマインド",
+        "color": "blue"
+       },
+       {
+        "name": "ロボット(体)",
+        "big": "Apollo 2",
+        "sub": "humanoid",
+        "note": "アプトロニク社の人型ロボット",
+        "color": "gold"
+       },
+       {
+        "name": "仕事",
+        "big": "仕分け",
+        "sub": "kitting",
+        "note": "金属の部品を車ごとのトレーへ",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "n04",
+     "kind": "jp",
+     "jp": "グーグルによると、200を超える作業で、前のモデルより成功率が上がりました。道具箱のふたを閉める作業は、0%から93%に。",
+     "en": "Google says success rose across 200+ tasks. Closing a toolbox lid went from 0% to 93%.",
+     "vis": {
+      "t": "bars",
+      "title": "成功率の変化(グーグルの自社評価)",
+      "unit": "%",
+      "items": [
+       {
+        "label": "ふたを閉める 前",
+        "value": 0,
+        "display": "0%",
+        "color": "muted"
+       },
+       {
+        "label": "ふたを閉める 新",
+        "value": 93,
+        "display": "93%",
+        "color": "green"
+       },
+       {
+        "label": "ズボンをたたむ 前",
+        "value": 0,
+        "display": "0%",
+        "color": "muted"
+       },
+       {
+        "label": "ズボンをたたむ 新",
+        "value": 40,
+        "display": "40%",
+        "color": "gold"
+       }
+      ]
+     }
+    },
+    {
+     "id": "n05",
+     "kind": "jp",
+     "jp": "ただ、報道では、今回の結果は広く実用化された証拠ではなく、まだ試しの段階だ、と指摘されています。",
+     "en": "Reports stress it's still a trial, not proof of wide commercial use.",
+     "vis": {
+      "t": "statement",
+      "kicker": "PROOF OF CONCEPT",
+      "text": "まだ本番ではなく、試しの段階",
+      "sub": "a proof of concept = 概念実証"
+     }
+    },
+    {
+     "id": "n06",
+     "kind": "jp",
+     "jp": "アイデアが本当に使えるかを、小さく試して確かめること。英語で、ア・プルーフ・オブ・コンセプトと言います。",
+     "en": "A small test to check an idea works is 'a proof of concept.'",
+     "hl": [
+      "a proof of concept"
+     ],
+     "star": true,
+     "vis": {
+      "t": "statement",
+      "kicker": "PROOF OF CONCEPT",
+      "text": "まだ本番ではなく、試しの段階",
+      "sub": "a proof of concept = 概念実証"
+     }
+    },
+    {
+     "id": "n07",
+     "kind": "en_insert",
+     "jp": "まだ概念実証の段階です",
+     "en": "It's still a proof of concept.",
+     "hl": [
+      "a proof of concept"
+     ],
+     "star": true,
+     "vis": {
+      "t": "statement",
+      "kicker": "PROOF OF CONCEPT",
+      "text": "まだ本番ではなく、試しの段階",
+      "sub": "a proof of concept = 概念実証"
+     }
+    },
+    {
+     "id": "n08",
+     "kind": "jp",
+     "jp": "日本でも、ピーオーシーと略して、新しいシステムを入れる前の会議でよく使われます。",
+     "en": "In Japan it's often shortened to 'PoC' before rolling out new systems.",
+     "hl": [
+      "PoC"
+     ],
+     "vis": {
+      "t": "statement",
+      "kicker": "PROOF OF CONCEPT",
+      "text": "まだ本番ではなく、試しの段階",
+      "sub": "a proof of concept = 概念実証"
+     }
+    }
+   ]
+  },
+  {
+   "id": "why",
+   "chapter": "本番への壁",
+   "beats": [
+    {
+     "id": "y01",
+     "kind": "jp",
+     "jp": "96%と聞くと高く見えますが、裏を返せば、25回に1回はうまくいかない、ということです。",
+     "en": "96% sounds high, but it means roughly one miss in every 25 tries.",
+     "vis": {
+      "t": "people",
+      "total": 25,
+      "hit": 1,
+      "label": "25回に1回はうまくいかない計算",
+      "panel": {
+       "kicker": "SUCCESS RATE",
+       "big": "96%",
+       "color": "gold",
+       "sub": "残りの4%が課題"
+      }
+     }
+    },
+    {
+     "id": "y02",
+     "kind": "jp",
+     "jp": "動き続ける生産ラインでは、1回のミスが流れを止めかねません。試験の回数や、何を成功と数えたかも、公表されていません。",
+     "en": "On a moving line, one miss can stop the flow. Trial counts weren't disclosed.",
+     "vis": {
+      "t": "people",
+      "total": 25,
+      "hit": 1,
+      "label": "25回に1回はうまくいかない計算",
+      "panel": {
+       "kicker": "SUCCESS RATE",
+       "big": "96%",
+       "color": "gold",
+       "sub": "残りの4%が課題"
+      }
+     }
+    },
+    {
+     "id": "y03",
+     "kind": "jp",
+     "jp": "次の壁は、台数を増やすこと。台数が増えれば、まれなミスの影響も大きくなります。",
+     "en": "The next hurdle is more robots. At scale, rare errors matter more.",
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "工場で試験",
+        "mid": "成功率96%",
+        "res": "まだ概念実証",
+        "ok": true
+       },
+       {
+        "a": "台数を増やす",
+        "mid": "ミスの影響も拡大",
+        "res": "信頼性が課題",
+        "ok": false
+       },
+       {
+        "a": "費用・保守",
+        "mid": "数字は未公表",
+        "res": "採算はこれから",
+        "ok": false
+       }
+      ]
+     }
+    },
+    {
+     "id": "y04",
+     "kind": "jp",
+     "jp": "小さく始めたものを、大きく広げる。英語で、スケール・アップと言います。",
+     "en": "Growing a small start into something big is to 'scale up.'",
+     "hl": [
+      "scale up"
+     ],
+     "star": true,
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "工場で試験",
+        "mid": "成功率96%",
+        "res": "まだ概念実証",
+        "ok": true
+       },
+       {
+        "a": "台数を増やす",
+        "mid": "ミスの影響も拡大",
+        "res": "信頼性が課題",
+        "ok": false
+       },
+       {
+        "a": "費用・保守",
+        "mid": "数字は未公表",
+        "res": "採算はこれから",
+        "ok": false
+       }
+      ]
+     }
+    },
+    {
+     "id": "y05",
+     "kind": "en_insert",
+     "jp": "規模を拡大できるか",
+     "en": "Can we scale up?",
+     "hl": [
+      "scale up"
+     ],
+     "star": true,
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "工場で試験",
+        "mid": "成功率96%",
+        "res": "まだ概念実証",
+        "ok": true
+       },
+       {
+        "a": "台数を増やす",
+        "mid": "ミスの影響も拡大",
+        "res": "信頼性が課題",
+        "ok": false
+       },
+       {
+        "a": "費用・保守",
+        "mid": "数字は未公表",
+        "res": "採算はこれから",
+        "ok": false
+       }
+      ]
+     }
+    },
+    {
+     "id": "y06",
+     "kind": "jp",
+     "jp": "ロボットを作ったアプトロニクのCEOは、実際の工場で、人と一緒に役立つ仕事をする。それこそがアポロを作った目的だ、と話しています。",
+     "en": "Apptronik's CEO says useful work alongside people in real factories is why they built Apollo.",
+     "hl": [
+      "alongside people"
+     ],
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "This is what we built Apollo for:",
+       "useful work alongside people",
+       "in real industrial settings."
+      ],
+      "hl": [
+       "alongside people"
+      ],
+      "by": "Jeff Cardenas, CEO, Apptronik"
+     }
+    },
+    {
+     "id": "y07",
+     "kind": "jp",
+     "jp": "人の代わりではなく、人と並んで働く。英語では、ワーク・アロングサイドと言います。",
+     "en": "Working next to people, not replacing them, is to 'work alongside' them.",
+     "hl": [
+      "work alongside"
+     ],
+     "star": true,
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "This is what we built Apollo for:",
+       "useful work alongside people",
+       "in real industrial settings."
+      ],
+      "hl": [
+       "alongside people"
+      ],
+      "by": "Jeff Cardenas, CEO, Apptronik"
+     }
+    },
+    {
+     "id": "y08",
+     "kind": "en_insert",
+     "jp": "ロボットが、人と一緒に働く",
+     "en": "Robots will work alongside people.",
+     "hl": [
+      "work alongside"
+     ],
+     "star": true,
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "This is what we built Apollo for:",
+       "useful work alongside people",
+       "in real industrial settings."
+      ],
+      "hl": [
+       "alongside people"
+      ],
+      "by": "Jeff Cardenas, CEO, Apptronik"
+     }
+    }
+   ]
+  },
+  {
+   "id": "insight",
+   "chapter": "私たちへの意味",
+   "beats": [
+    {
+     "id": "i01",
+     "kind": "jp",
+     "jp": "ここからは、日本で働く私たちにとっての意味を考えます。",
+     "en": "What does this mean for those of us working in Japan?",
+     "vis": {
+      "t": "statement",
+      "kicker": "SO WHAT?",
+      "text": "日本で働く私たちにとっての意味"
+     }
+    },
+    {
+     "id": "i02",
+     "kind": "jp",
+     "jp": "日本では、人手が足りずに倒産する会社が増えています。今年1月から6月は227件で、上半期として過去最多でした。",
+     "en": "In Japan, labor-shortage bankruptcies hit a first-half record of 227 this year.",
+     "vis": {
+      "t": "counter",
+      "kicker": "JAPAN · LABOR-SHORTAGE BANKRUPTCIES",
+      "to": 227,
+      "suffix": "件",
+      "color": "red",
+      "sub": "人手不足倒産 2026年1〜6月",
+      "note": "上半期として過去最多(帝国データバンク)"
+     }
+    },
+    {
+     "id": "i03",
+     "kind": "jp",
+     "jp": "人手が足りない現場では、部品の仕分けのような単純な作業から、ロボットに任せる、という考え方があります。",
+     "en": "Short-staffed sites could start robots on simple jobs like sorting parts.",
+     "vis": {
+      "t": "points",
+      "show": 1,
+      "items": [
+       {
+        "head": "日本の現場",
+        "big": "単純な作業\nから任せる",
+        "sub": "部品の仕分け\nなど",
+        "color": "gold"
+       },
+       {
+        "head": "会議では",
+        "big": "まずは\nPoCから",
+        "sub": "a proof of\nconcept",
+        "color": "green"
+       },
+       {
+        "head": "逆の見方",
+        "big": "最後の数%が\nいちばん難しい",
+        "sub": "費用や保守は\n未公表",
+        "color": "blue"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i04",
+     "kind": "jp",
+     "jp": "社内で新しい技術を提案するなら、いきなり全面導入ではなく、まずは概念実証から。そう言うと、賛成も得やすくなります。",
+     "en": "When proposing new tech, start with a proof of concept, not a full rollout.",
+     "hl": [
+      "proof of concept"
+     ],
+     "vis": {
+      "t": "points",
+      "show": 2,
+      "items": [
+       {
+        "head": "日本の現場",
+        "big": "単純な作業\nから任せる",
+        "sub": "部品の仕分け\nなど",
+        "color": "gold"
+       },
+       {
+        "head": "会議では",
+        "big": "まずは\nPoCから",
+        "sub": "a proof of\nconcept",
+        "color": "green"
+       },
+       {
+        "head": "逆の見方",
+        "big": "最後の数%が\nいちばん難しい",
+        "sub": "費用や保守は\n未公表",
+        "color": "blue"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i05",
+     "kind": "jp",
+     "jp": "一方で、逆の見方もあります。最後の数パーセントを埋めるのが一番難しく、費用や保守の数字も、まだ公表されていません。",
+     "en": "But closing the last few percent is hardest, and costs haven't been disclosed.",
+     "vis": {
+      "t": "points",
+      "show": 3,
+      "items": [
+       {
+        "head": "日本の現場",
+        "big": "単純な作業\nから任せる",
+        "sub": "部品の仕分け\nなど",
+        "color": "gold"
+       },
+       {
+        "head": "会議では",
+        "big": "まずは\nPoCから",
+        "sub": "a proof of\nconcept",
+        "color": "green"
+       },
+       {
+        "head": "逆の見方",
+        "big": "最後の数%が\nいちばん難しい",
+        "sub": "費用や保守は\n未公表",
+        "color": "blue"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "「概念実証」は英語で?a proof of conceptの使い方|人型ロボが工場で成功率96%【ビジネス英語ニュース #34】",
+  "summary": "グーグル・ディープマインドは2026年11月10日、AIで動く人型ロボットがメルセデス・ベンツの工場の試験で、部品の仕分けに96%成功したと発表しました。まだ試しの段階という指摘も含めて、a proof of concept / scale up / work alongside を学びます。",
+  "tags": [
+   "ビジネス英語",
+   "英語学習",
+   "ニュース英語",
+   "時事英語",
+   "会議 英語",
+   "グーグル",
+   "Google",
+   "Gemini",
+   "メルセデス・ベンツ",
+   "人型ロボット",
+   "PoC",
+   "人手不足",
+   "社会人 英語",
+   "教養",
+   "business English"
+  ]
+ },
+ "thumbnail": {
+  "big": "96%",
+  "big_color": "green",
+  "under": "工場での成功率",
+  "badge": "Google",
+  "badge_color": "gold",
+  "question": "ロボットが同僚に?",
+  "pill": "a proof of concept",
+  "bottom": "会議で使える英語3つ",
+  "crack": false
+ },
+ "shorts": [
+  {
+   "phrase": 0,
+   "news_hook": [
+    "人型ロボットが",
+    "工場で働いた"
+   ],
+   "hook": [
+    "「概念実証」を",
+    "英語で言うと?"
+   ],
+   "ctx": "新しい技術を小さく試すときの英語",
+   "title": "「概念実証」は英語で?グーグルのロボットが成功率96% #ビジネス英語 #shorts",
+   "ig_caption": "「概念実証(PoC)」を英語で言えますか?\n\n✅ a proof of concept\n概念実証(PoC)・小さく試す検証\n\n例文:Let's start with a proof of concept before we commit.\n(本格導入の前に、まずは小さく検証から始めましょう。)\n\nグーグルのAIで動く人型ロボットが、メルセデスの工場の試験で成功率96%。ただし、まだ試しの段階です。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  },
+  {
+   "phrase": 2,
+   "style": "quiz",
+   "badge": "会議で使う英語|中級",
+   "news_hook": [
+    "ロボットは",
+    "同僚になる?"
+   ],
+   "hook": [
+    "work alongside",
+    "どういう意味?"
+   ],
+   "ctx": "AIやロボットと人の関係を話すときの一言",
+   "title": "「work alongside」の意味、わかる?|会議の英語 #shorts",
+   "ig_caption": "「work alongside」の意味、わかりますか?\n\n✅ work alongside\n〜と一緒に働く・並んで働く\n\n例文:The new tool will work alongside our staff, not replace them.\n(新しいツールは、社員の代わりではなく、社員と一緒に働くものです。)\n\nロボットを作った会社のCEOは「人と一緒に役立つ仕事をする」ことが目的だと話しています。AI導入の会議で使える表現です。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Google DeepMind「Gemini Robotics 2.5: Accelerating Physical Intelligence」(2026年11月10日)",
+   "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/"
+  },
+  {
+   "title": "Interesting Engineering「Google's Gemini Robotics 2.5 scores 96% in factory trial after tackling 200 tasks」(2026年11月10日)",
+   "url": "https://interestingengineering.com/ai-robotics/google-gemini-robotics-2-5-humanoid-factory-trial"
+  },
+  {
+   "title": "QUE.com「Google's Gemini Robotics 2.5 Hits 96% on Mercedes-Benz Lines, but the Last 4% Is the Real Test」(2026年11月)",
+   "url": "https://que.com/googles-gemini-robotics-2-5-hits-96-on-mercedes-benz-lines-but-the-last-4-is-the-real-test-for-factory-humanoids/"
+  },
+  {
+   "title": "Web担当者Forum「2026年上半期の企業倒産、5,335件で4年連続増 物価高・人手不足倒産は過去最多【TDB調べ】」(2026年7月14日)",
+   "url": "https://webtan.impress.co.jp/n/2026/07/14/52964"
+  }
+ ],
+ "readings": [
+  [
+   "AI",
+   "エーアイ"
+  ],
+  [
+   "2.5",
+   "にーてんご"
+  ],
+  [
+   "96%",
+   "きゅうじゅうろくパーセント"
+  ],
+  [
+   "93%",
+   "きゅうじゅうさんパーセント"
+  ],
+  [
+   "0%",
+   "ゼロパーセント"
+  ],
+  [
+   "227件",
+   "にひゃくにじゅうななけん"
+  ],
+  [
+   "10日",
+   "とおか"
+  ],
+  [
+   "25回",
+   "にじゅうごかい"
+  ]
+ ]
+}

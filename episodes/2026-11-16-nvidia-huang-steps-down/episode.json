@@ -1,0 +1,793 @@
+{
+ "id": "2026-11-16-nvidia-huang-steps-down",
+ "episode": "#32",
+ "date": "2026-11-12",
+ "series": "Weekly Brief",
+ "title_card": {
+  "line1": "エヌビディア創業者が辞任",
+  "line2": "暫定トップはCFO"
+ },
+ "publish": {
+  "long": "2026-11-16T07:00:00+09:00",
+  "shorts": [
+   "2026-11-16T12:00:00+09:00",
+   "2026-11-16T21:00:00+09:00"
+  ]
+ },
+ "phrases": [
+  {
+   "en": "step down",
+   "jp": "辞任する・職を退く",
+   "ex": "Our director will step down at the end of March.",
+   "ex_jp": "部長は、3月末で退任します。"
+  },
+  {
+   "en": "effective immediately",
+   "jp": "即日発効・本日から有効",
+   "ex": "The new travel policy is effective immediately.",
+   "ex_jp": "新しい出張規程は、本日から適用です。"
+  },
+  {
+   "en": "on an interim basis",
+   "jp": "暫定的に・当面の間",
+   "ex": "Ms. Sato will lead the team on an interim basis.",
+   "ex_jp": "当面の間、佐藤さんがチームを率います。"
+  }
+ ],
+ "words": [
+  {
+   "en": "founder",
+   "jp": "創業者"
+  },
+  {
+   "en": "board of directors",
+   "jp": "取締役会"
+  },
+  {
+   "en": "successor",
+   "jp": "後任"
+  }
+ ],
+ "homework": {
+  "en": "Who would step in if your boss left tomorrow?",
+  "jp": "明日上司がいなくなったら、誰が代わる?",
+  "hl": [
+   "step in"
+  ],
+  "say": "最後に宿題です。もし明日、上司が急にいなくなったら、誰が代わりを務めますか。英語で、コメント欄に書いてみてください。"
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "beats": [
+    {
+     "id": "h01",
+     "kind": "jp",
+     "jp": "33年間、エヌビディアを率いてきた創業者、ジェンスン・フアン氏。11月12日、CEOを辞任しました。",
+     "en": "Nvidia founder Jensen Huang, CEO for 33 years, resigned on November 12.",
+     "vis": {
+      "t": "counter",
+      "kicker": "NVIDIA · JENSEN HUANG",
+      "to": 33,
+      "suffix": "年",
+      "color": "gold",
+      "sub": "CEOとして率いた年数",
+      "note": "2026年11月12日 辞任を発表"
+     }
+    },
+    {
+     "id": "h02",
+     "kind": "jp",
+     "jp": "辞任は、その日のうちに有効。株価は一時、およそ14%下がりました。この、即日、を英語でどう言うでしょう。",
+     "en": "It took effect that same day, and shares fell up to 14%. How do you say 'as of today'?",
+     "vis": {
+      "t": "hero",
+      "kicker": "NVIDIA · 11/12 株価(一時)",
+      "big": "−14%",
+      "color": "red",
+      "crack": true,
+      "sub": "11日の終値と比べて",
+      "sub_color": "gold"
+     }
+    },
+    {
+     "id": "h03",
+     "kind": "jp",
+     "jp": "今日はこのニュースから、会議で使える英語を3つ。最後に答え合わせをします。",
+     "en": "Three phrases for your next meeting. Answers at the end.",
+     "vis": {
+      "t": "teaser"
+     }
+    }
+   ]
+  },
+  {
+   "id": "what",
+   "chapter": "何が起きたか",
+   "beats": [
+    {
+     "id": "n01",
+     "kind": "jp",
+     "jp": "経緯を振り返ります。11月8日、フアン氏は私生活の問題を認めて謝罪。取締役会は、独立した調査を始めました。",
+     "en": "On November 8, Huang admitted personal wrongdoing, and the board opened an independent probe.",
+     "vis": {
+      "t": "timeline",
+      "show": 1,
+      "items": [
+       {
+        "when": "11月8日",
+        "text": "フアン氏が私生活の問題を認めて謝罪。取締役会は独立した調査を開始",
+        "color": "gold"
+       },
+       {
+        "when": "11月11日",
+        "text": "取締役会が解任を検討と報道",
+        "color": "red"
+       },
+       {
+        "when": "11月12日",
+        "text": "CEOと取締役を辞任。CFOが暫定CEOに",
+        "color": "red"
+       }
+      ]
+     }
+    },
+    {
+     "id": "n02",
+     "kind": "jp",
+     "jp": "きっかけは、中国の情報機関との関係が疑われる人物をめぐる報道です。取締役会は、国の安全が損なわれたと考える理由はない、としています。",
+     "en": "Reports tied him to someone suspected of links to Chinese intelligence. The board sees no security breach.",
+     "vis": {
+      "t": "timeline",
+      "show": 1,
+      "items": [
+       {
+        "when": "11月8日",
+        "text": "フアン氏が私生活の問題を認めて謝罪。取締役会は独立した調査を開始",
+        "color": "gold"
+       },
+       {
+        "when": "11月11日",
+        "text": "取締役会が解任を検討と報道",
+        "color": "red"
+       },
+       {
+        "when": "11月12日",
+        "text": "CEOと取締役を辞任。CFOが暫定CEOに",
+        "color": "red"
+       }
+      ]
+     }
+    },
+    {
+     "id": "n03",
+     "kind": "jp",
+     "jp": "11日には、直属の部下だった幹部との関係も報じられ、取締役会が解任を検討していると伝えられました。",
+     "en": "On the 11th, a relationship with a direct report was reported, and the board weighed removing him.",
+     "vis": {
+      "t": "timeline",
+      "show": 2,
+      "items": [
+       {
+        "when": "11月8日",
+        "text": "フアン氏が私生活の問題を認めて謝罪。取締役会は独立した調査を開始",
+        "color": "gold"
+       },
+       {
+        "when": "11月11日",
+        "text": "取締役会が解任を検討と報道",
+        "color": "red"
+       },
+       {
+        "when": "11月12日",
+        "text": "CEOと取締役を辞任。CFOが暫定CEOに",
+        "color": "red"
+       }
+      ]
+     }
+    },
+    {
+     "id": "n04",
+     "kind": "jp",
+     "jp": "そして12日。フアン氏は、CEOと取締役を辞任しました。会社は、辞任の理由を説明していません。",
+     "en": "On the 12th, Huang left as CEO and from the board. Nvidia gave no reason.",
+     "vis": {
+      "t": "timeline",
+      "show": 3,
+      "items": [
+       {
+        "when": "11月8日",
+        "text": "フアン氏が私生活の問題を認めて謝罪。取締役会は独立した調査を開始",
+        "color": "gold"
+       },
+       {
+        "when": "11月11日",
+        "text": "取締役会が解任を検討と報道",
+        "color": "red"
+       },
+       {
+        "when": "11月12日",
+        "text": "CEOと取締役を辞任。CFOが暫定CEOに",
+        "color": "red"
+       }
+      ]
+     }
+    },
+    {
+     "id": "n05",
+     "kind": "jp",
+     "jp": "トップがその職を退くこと。英語では、ステップ・ダウンと言います。",
+     "en": "Leaving a top job is to 'step down.'",
+     "hl": [
+      "step down"
+     ],
+     "star": true,
+     "vis": {
+      "t": "hero_side",
+      "big": "辞任",
+      "color": "red",
+      "text": "step down",
+      "jp": "その職を退く"
+     }
+    },
+    {
+     "id": "n06",
+     "kind": "en_insert",
+     "jp": "フアン氏は、CEOを退いた",
+     "en": "Huang stepped down as CEO.",
+     "hl": [
+      "stepped down"
+     ],
+     "star": true,
+     "vis": {
+      "t": "hero_side",
+      "big": "辞任",
+      "color": "red",
+      "text": "step down",
+      "jp": "その職を退く"
+     }
+    },
+    {
+     "id": "n07",
+     "kind": "jp",
+     "jp": "ステップ・ダウンは、壇上から一段下りる、というイメージ。退任を伝える、ていねいな定番の表現です。",
+     "en": "Picture stepping down from a stage. It's the polite, standard way to say someone is leaving.",
+     "hl": [
+      "step down"
+     ],
+     "vis": {
+      "t": "hero_side",
+      "big": "辞任",
+      "color": "red",
+      "text": "step down",
+      "jp": "その職を退く"
+     }
+    },
+    {
+     "id": "n08",
+     "kind": "jp",
+     "jp": "しかも今回の辞任は、発表したその日から効力を持ちました。いわゆる、即日発効です。",
+     "en": "And the resignation took effect that very day.",
+     "vis": {
+      "t": "hero",
+      "kicker": "RESIGNATION",
+      "big": "即日",
+      "color": "gold",
+      "sub": "effective immediately",
+      "sub_color": "text"
+     }
+    },
+    {
+     "id": "n09",
+     "kind": "en_insert",
+     "jp": "即日発効",
+     "en": "effective immediately",
+     "hl": [
+      "effective immediately"
+     ],
+     "star": true,
+     "vis": {
+      "t": "hero",
+      "kicker": "RESIGNATION",
+      "big": "即日",
+      "color": "gold",
+      "sub": "effective immediately",
+      "sub_color": "text"
+     }
+    },
+    {
+     "id": "n10",
+     "kind": "jp",
+     "jp": "エフェクティブ・イミーディエトリー。社内の通知でもよく見かけます。新しいルールは本日から、という意味です。",
+     "en": "You'll see it in office notices too: the new rule applies from today.",
+     "hl": [
+      "effective immediately"
+     ],
+     "star": true,
+     "vis": {
+      "t": "hero",
+      "kicker": "RESIGNATION",
+      "big": "即日",
+      "color": "gold",
+      "sub": "effective immediately",
+      "sub_color": "text"
+     }
+    }
+   ]
+  },
+  {
+   "id": "next",
+   "chapter": "暫定トップは誰か",
+   "beats": [
+    {
+     "id": "k01",
+     "kind": "jp",
+     "jp": "後任が決まるまで会社を率いるのは、最高財務責任者のコレット・クレス氏。CFOも兼ねたまま、CEOの職務を担います。",
+     "en": "Until a successor is named, CFO Colette Kress leads as interim CEO, while staying CFO.",
+     "vis": {
+      "t": "cards",
+      "show": 1,
+      "footer": "エヌビディアの新しい体制(11月12日発表)",
+      "items": [
+       {
+        "name": "コレット・クレス",
+        "big": "暫定CEO",
+        "sub": "interim CEO",
+        "note": "2013年からCFO。CFOも兼任",
+        "color": "gold"
+       },
+       {
+        "name": "ハーヴェイ・ジョーンズ",
+        "big": "会長",
+        "sub": "chair",
+        "note": "同社で初めての会長",
+        "color": "blue"
+       },
+       {
+        "name": "正式な後任",
+        "big": "選定中",
+        "sub": "inside & outside",
+        "note": "社内外の候補を検討",
+        "color": "muted"
+       }
+      ]
+     }
+    },
+    {
+     "id": "k02",
+     "kind": "jp",
+     "jp": "クレス氏がCFOになったのは2013年。その間に、年間の売上高は、41億ドルから2159億ドルに増えました。",
+     "en": "Since she became CFO in 2013, annual revenue grew from $4.1 billion to $215.9 billion.",
+     "vis": {
+      "t": "counter",
+      "kicker": "NVIDIA · ANNUAL REVENUE",
+      "prefix": "$",
+      "to": 215.9,
+      "decimals": 1,
+      "suffix": "B",
+      "color": "green",
+      "sub": "2026年度の売上高",
+      "note": "2014年度は41.3億ドル(アルジャジーラ)"
+     }
+    },
+    {
+     "id": "k03",
+     "kind": "jp",
+     "jp": "取締役会は、クレス氏が事業や顧客、財務に詳しく、移行の間も通常どおりの運営を保てる、と説明しています。",
+     "en": "The board says she knows the business, customers and finances, and can keep things running.",
+     "vis": {
+      "t": "cards",
+      "show": 2,
+      "footer": "エヌビディアの新しい体制(11月12日発表)",
+      "items": [
+       {
+        "name": "コレット・クレス",
+        "big": "暫定CEO",
+        "sub": "interim CEO",
+        "note": "2013年からCFO。CFOも兼任",
+        "color": "gold"
+       },
+       {
+        "name": "ハーヴェイ・ジョーンズ",
+        "big": "会長",
+        "sub": "chair",
+        "note": "同社で初めての会長",
+        "color": "blue"
+       },
+       {
+        "name": "正式な後任",
+        "big": "選定中",
+        "sub": "inside & outside",
+        "note": "社内外の候補を検討",
+        "color": "muted"
+       }
+      ]
+     }
+    },
+    {
+     "id": "k04",
+     "kind": "jp",
+     "jp": "会長には、ハーヴェイ・ジョーンズ氏。エヌビディアで初めての会長です。",
+     "en": "Harvey Jones becomes the company's first chair.",
+     "vis": {
+      "t": "cards",
+      "show": 3,
+      "footer": "エヌビディアの新しい体制(11月12日発表)",
+      "items": [
+       {
+        "name": "コレット・クレス",
+        "big": "暫定CEO",
+        "sub": "interim CEO",
+        "note": "2013年からCFO。CFOも兼任",
+        "color": "gold"
+       },
+       {
+        "name": "ハーヴェイ・ジョーンズ",
+        "big": "会長",
+        "sub": "chair",
+        "note": "同社で初めての会長",
+        "color": "blue"
+       },
+       {
+        "name": "正式な後任",
+        "big": "選定中",
+        "sub": "inside & outside",
+        "note": "社内外の候補を検討",
+        "color": "muted"
+       }
+      ]
+     }
+    },
+    {
+     "id": "k05",
+     "kind": "jp",
+     "jp": "正式な後任が決まるまでの、つなぎの形。英語で、オン・アン・インテリム・ベイシスと言います。",
+     "en": "Filling a role until a permanent pick is made is doing it 'on an interim basis.'",
+     "hl": [
+      "on an interim basis"
+     ],
+     "star": true,
+     "vis": {
+      "t": "hero_side",
+      "big": "暫定",
+      "color": "gold",
+      "text": "on an interim basis",
+      "jp": "当面の間・暫定的に"
+     }
+    },
+    {
+     "id": "k06",
+     "kind": "en_insert",
+     "jp": "クレス氏が、暫定的にエヌビディアを率いる",
+     "en": "Kress will lead Nvidia on an interim basis.",
+     "hl": [
+      "on an interim basis"
+     ],
+     "star": true,
+     "vis": {
+      "t": "hero_side",
+      "big": "暫定",
+      "color": "gold",
+      "text": "on an interim basis",
+      "jp": "当面の間・暫定的に"
+     }
+    },
+    {
+     "id": "k07",
+     "kind": "jp",
+     "jp": "インテリムは、合間の、という意味。人事の発表で、暫定の担当者を示すときに使います。",
+     "en": "'Interim' means in-between. It marks a temporary appointment.",
+     "hl": [
+      "interim"
+     ],
+     "vis": {
+      "t": "hero_side",
+      "big": "暫定",
+      "color": "gold",
+      "text": "on an interim basis",
+      "jp": "当面の間・暫定的に"
+     }
+    },
+    {
+     "id": "k08",
+     "kind": "jp",
+     "jp": "正式な後任は、社内と社外の両方から選ぶ方針です。報道では、アームのレネ・ハースCEOなどの名前も挙がっています。",
+     "en": "The board will look inside and outside. Names like Arm CEO Rene Haas have been floated.",
+     "vis": {
+      "t": "network",
+      "title": "次のCEOは?(報道で名前が挙がった人)",
+      "inward": true,
+      "center": {
+       "label": "次のCEO",
+       "sub": "next CEO"
+      },
+      "nodes": [
+       {
+        "label": "クレス(暫定)",
+        "color": "gold"
+       },
+       {
+        "label": "イアン・バック",
+        "color": "blue"
+       },
+       {
+        "label": "レネ・ハース(アーム)",
+        "color": "blue"
+       },
+       {
+        "label": "リサ・スー(AMD)",
+        "color": "blue"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "insight",
+   "chapter": "私たちへの意味",
+   "beats": [
+    {
+     "id": "i01",
+     "kind": "jp",
+     "jp": "ここからは、日本で働く私たちにとっての意味を考えます。",
+     "en": "What does this mean for those of us working in Japan?",
+     "vis": {
+      "t": "statement",
+      "kicker": "SO WHAT?",
+      "text": "日本で働く私たちにとっての意味"
+     }
+    },
+    {
+     "id": "i02",
+     "kind": "jp",
+     "jp": "トップの突然の交代は、ひとごとではありません。日本の職場でも、急な異動や休職で、担当が突然いなくなることがあります。",
+     "en": "Sudden changes happen in Japan too: a transfer or leave can remove someone overnight.",
+     "vis": {
+      "t": "points",
+      "show": 1,
+      "items": [
+       {
+        "head": "日本の職場",
+        "big": "急な交代は\nよくある",
+        "sub": "異動・休職・退職",
+        "color": "gold"
+       },
+       {
+        "head": "準備",
+        "big": "代わりを\n決めておく",
+        "sub": "on an interim\nbasis",
+        "color": "green"
+       },
+       {
+        "head": "逆の見方",
+        "big": "暫定が長いと\n不安が残る",
+        "sub": "大きな決定が\n先送りに",
+        "color": "blue"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i03",
+     "kind": "jp",
+     "jp": "そんなとき、誰が当面の間を引き受けるのか。暫定の担当を前もって決めておけば、慌てずにすみます。",
+     "en": "Decide in advance who covers on an interim basis, and nobody panics.",
+     "hl": [
+      "on an interim basis"
+     ],
+     "vis": {
+      "t": "points",
+      "show": 2,
+      "items": [
+       {
+        "head": "日本の職場",
+        "big": "急な交代は\nよくある",
+        "sub": "異動・休職・退職",
+        "color": "gold"
+       },
+       {
+        "head": "準備",
+        "big": "代わりを\n決めておく",
+        "sub": "on an interim\nbasis",
+        "color": "green"
+       },
+       {
+        "head": "逆の見方",
+        "big": "暫定が長いと\n不安が残る",
+        "sub": "大きな決定が\n先送りに",
+        "color": "blue"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i04",
+     "kind": "jp",
+     "jp": "海外の取引先には、佐藤が当面の間担当します、と伝えましょう。英語では、サトウ・ウィル・カバー・オン・アン・インテリム・ベイシスです。",
+     "en": "Tell partners: Sato will cover on an interim basis.",
+     "hl": [
+      "on an interim basis"
+     ],
+     "vis": {
+      "t": "points",
+      "show": 2,
+      "items": [
+       {
+        "head": "日本の職場",
+        "big": "急な交代は\nよくある",
+        "sub": "異動・休職・退職",
+        "color": "gold"
+       },
+       {
+        "head": "準備",
+        "big": "代わりを\n決めておく",
+        "sub": "on an interim\nbasis",
+        "color": "green"
+       },
+       {
+        "head": "逆の見方",
+        "big": "暫定が長いと\n不安が残る",
+        "sub": "大きな決定が\n先送りに",
+        "color": "blue"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i05",
+     "kind": "jp",
+     "jp": "一方で、逆の見方もあります。暫定の体制が長引くと、社員や取引先が不安になり、大きな決定も先送りされがちだ、という見方です。",
+     "en": "But a long interim period can unsettle staff and partners, and big decisions may wait.",
+     "vis": {
+      "t": "points",
+      "show": 3,
+      "items": [
+       {
+        "head": "日本の職場",
+        "big": "急な交代は\nよくある",
+        "sub": "異動・休職・退職",
+        "color": "gold"
+       },
+       {
+        "head": "準備",
+        "big": "代わりを\n決めておく",
+        "sub": "on an interim\nbasis",
+        "color": "green"
+       },
+       {
+        "head": "逆の見方",
+        "big": "暫定が長いと\n不安が残る",
+        "sub": "大きな決定が\n先送りに",
+        "color": "blue"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i06",
+     "kind": "jp",
+     "jp": "エヌビディアは、決算発表の予定は変えないとしています。新しい体制で、最初の決算に注目が集まります。",
+     "en": "Nvidia's earnings schedule is unchanged. All eyes are on the first report under new leadership.",
+     "vis": {
+      "t": "statement",
+      "kicker": "WHAT'S NEXT",
+      "text": "新しい体制で、最初の決算へ",
+      "sub": "決算発表の予定は変更なし"
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "「辞任する」は英語で?step downの使い方|エヌビディアCEOが辞任【ビジネス英語ニュース #32】",
+  "summary": "エヌビディアは2026年11月12日、創業者ジェンスン・フアン氏のCEO辞任(即日発効)を発表し、コレット・クレスCFOが暫定CEOに就きました。人事の発表でよく使う step down / effective immediately / on an interim basis を、ニュースと一緒に学びます。",
+  "tags": [
+   "ビジネス英語",
+   "英語学習",
+   "ニュース英語",
+   "時事英語",
+   "会議 英語",
+   "エヌビディア",
+   "Nvidia",
+   "ジェンスン・フアン",
+   "CEO 辞任",
+   "暫定CEO",
+   "人事 英語",
+   "社会人 英語",
+   "教養",
+   "business English"
+  ]
+ },
+ "thumbnail": {
+  "big": "辞任",
+  "big_color": "red",
+  "under": "33年率いた創業者",
+  "badge": "エヌビディア",
+  "badge_color": "gold",
+  "question": "暫定トップは?",
+  "pill": "step down",
+  "bottom": "会議で使える英語3つ",
+  "crack": true
+ },
+ "shorts": [
+  {
+   "phrase": 0,
+   "news_hook": [
+    "エヌビディア",
+    "CEOが辞任"
+   ],
+   "hook": [
+    "「辞任する」を",
+    "英語で言うと?"
+   ],
+   "ctx": "エヌビディアのCEO辞任を伝えた英語",
+   "title": "「辞任する」は英語で?エヌビディアのフアンCEOが退任 #ビジネス英語 #shorts",
+   "ig_caption": "「辞任する」を英語で言えますか?\n\n✅ step down\n辞任する・職を退く\n\n例文:Our director will step down at the end of March.\n(部長は、3月末で退任します。)\n\nエヌビディアの創業者フアン氏が、33年務めたCEOを辞任。人事の発表でいちばんよく使う表現です。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  },
+  {
+   "phrase": 1,
+   "style": "quiz",
+   "badge": "会議で使う英語|中級",
+   "news_hook": [
+    "CEOの辞任は",
+    "その日のうちに"
+   ],
+   "hook": [
+    "effective immediately",
+    "どういう意味?"
+   ],
+   "ctx": "人事やルール変更の通知でよく見る一言",
+   "title": "「effective immediately」の意味、わかる?|会議の英語 #shorts",
+   "ig_caption": "「effective immediately」の意味、わかりますか?\n\n✅ effective immediately\n即日発効・本日から有効\n\n例文:The new travel policy is effective immediately.\n(新しい出張規程は、本日から適用です。)\n\nエヌビディアのCEO辞任は、発表したその日から有効でした。社内の通知メールでもよく見る表現です。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Al Jazeera「Why did Nvidia CEO Jensen Huang resign, and who is Colette Kress?」(2026年11月12日)",
+   "url": "https://www.aljazeera.com/news/2026/11/12/why-did-nvidia-ceo-jensen-huang-resign-and-who-is-colette-kress"
+  },
+  {
+   "title": "風傳媒 日本語版「NVIDIAフアン氏、CEOを即日辞任 クレスCFOが暫定CEO、後任選び開始」(2026年11月13日)",
+   "url": "https://japan.storm.mg/articles/1181248"
+  },
+  {
+   "title": "NHK「NVIDIA フアンCEOが辞任 業界全体に影響も 株価は11日終値比 一時およそ14%の大幅な下落」(2026年11月12日)",
+   "url": "https://news.web.nhk/newsweb/na/nd-20261112de75078"
+  }
+ ],
+ "readings": [
+  [
+   "Nvidia",
+   "エヌビディア"
+  ],
+  [
+   "41億ドル",
+   "よんじゅういちおくドル"
+  ],
+  [
+   "2159億ドル",
+   "にせんひゃくごじゅうきゅうおくドル"
+  ],
+  [
+   "33年間",
+   "さんじゅうさんねんかん"
+  ],
+  [
+   "8日",
+   "ようか"
+  ],
+  [
+   "11日",
+   "じゅういちにち"
+  ],
+  [
+   "12日",
+   "じゅうににち"
+  ],
+  [
+   "14%",
+   "じゅうよんパーセント"
+  ]
+ ]
+}

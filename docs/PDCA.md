@@ -53,6 +53,23 @@ Check (fill in on 11/14 and 11/21):
   ~50% viewed. Long: median 2 views, avg 63 s (31%). IG reels: median 23 views / reach 13, saves ≈0, shares 0.
   → Discovery is almost only the Shorts feed; search brings nothing yet, long videos are not found at all.
 
+- 11/14 Check (stats 11/14 05:21 JST). Channel 4 subs (was 2), 4,982 total views (4,019 on 11/06). Traffic: Shorts feed 4,600 /
+  YouTube search 131 (2.6%) / channel page 23. IG 147 followers (130 on 11/07).
+  Only #23, #24 and 速報 #30 are ≥3 days old, so most numbers below are early (age 0–2 days marked).
+  - H1 (known topics): shorts ≥3 days of week 2 = 12, 43, 21, 8, 213, 74 → median 32 (baseline 33) — no lift yet.
+    Younger: Nintendo 226/134 (age 0), ChatGPT 63/6, Nvidia 速報 37/19, Apple new CEO 9/7. Pattern: the **top headline in
+    Japanese media / a Japanese household name** (SoftBank loss, Nintendo) reaches; a famous foreign brand alone does not (Apple 9).
+    → KEEP, sharpened: rank candidates by "is it top news in Japan this week" first, brand fame second.
+  - H2 (quiz vs news short, same episode): 43/12, 8/21, 74/213, 6/63, 7/9, 19/37, 134/226 → quiz wins 1 of 7, median quiz 19 vs
+    news 37 (0.5×; target ≥1.5×). Caveat: the quiz short goes up 9 h later, so it is always younger at snapshot time.
+    → KEEP the A/B to the cycle end (11/21), but it is on track to FAIL. Weekly listening #28 has 2 quiz-only shorts (0 so far, age <1 day).
+  - H3 (listening long): #28 goes live 11/14 07:00 — no data yet. Weekday longs still median 0–1 view. → KEEP, judge 11/21.
+  - H4 (IG 127 → 250): +17 followers/week → ~165 by 11/20, target missed. Reels reach 12–190. → KEEP posting; rethink in Cycle 2.
+  - 速報 vs scheduled (same age 1–4 days): 速報 news shorts 213, 37 vs scheduled news shorts 12, 21, 63, 9 → early sign for the
+    Cycle 2 candidate hypothesis "hot ≥3× scheduled".
+  - Applied to #32–#38 (11/16–11/22): Nvidia CEO resignation (NHK top story), Honda results, Google robots at Mercedes,
+    docomo/KDDI/SoftBank CEOs' apologies, yen at 160 — all Japan-known names. Shorts: news-first + quiz A/B unchanged.
+
 ## Pivot watch: search-first / TOEIC format (owner idea 11/07 — decide at the Cycle 1 end, 11/21)
 
 Owner suggests we may pivot to a format people search for (e.g. TOEIC). Decide on 11/21 with these rules:

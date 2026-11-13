@@ -1,0 +1,337 @@
+{
+ "id": "2026-11-21-weekly-listening",
+ "episode": "#37",
+ "date": "2026-11-21",
+ "series": "今週の英単語 総復習",
+ "title_card": {
+  "line1": "今週の会議英語、18フレーズ。",
+  "line2": "聞き流しで、まとめて復習"
+ },
+ "phrases": [
+  {
+   "en": "as things stand",
+   "jp": "現時点では・今のところ",
+   "ex": "As things stand, we can ship by the end of the month.",
+   "ex_jp": "現時点では、月末までに出荷できます。",
+   "src": "#29"
+  },
+  {
+   "en": "I can't give you a firm date",
+   "jp": "確実な日付はまだ言えない",
+   "ex": "I'm sorry, but I can't give you a firm date yet.",
+   "ex_jp": "申し訳ありませんが、確実な日付はまだお伝えできません。",
+   "src": "#29"
+  },
+  {
+   "en": "I'll keep you posted",
+   "jp": "随時お知らせします",
+   "ex": "I'll keep you posted on the delivery schedule.",
+   "ex_jp": "納品のスケジュールは、随時お知らせします。",
+   "src": "#29"
+  },
+  {
+   "en": "step down",
+   "jp": "辞任する・職を退く",
+   "ex": "Our director will step down at the end of March.",
+   "ex_jp": "部長は、3月末で退任します。",
+   "src": "#32"
+  },
+  {
+   "en": "effective immediately",
+   "jp": "即日発効・本日から有効",
+   "ex": "The new travel policy is effective immediately.",
+   "ex_jp": "新しい出張規程は、本日から適用です。",
+   "src": "#32"
+  },
+  {
+   "en": "on an interim basis",
+   "jp": "暫定的に・当面の間",
+   "ex": "Ms. Sato will lead the team on an interim basis.",
+   "ex_jp": "当面の間、佐藤さんがチームを率います。",
+   "src": "#32"
+  },
+  {
+   "en": "a tailwind",
+   "jp": "追い風・好材料",
+   "ex": "The weaker yen was a tailwind for our exports.",
+   "ex_jp": "円安が、輸出の追い風になりました。",
+   "src": "#33"
+  },
+  {
+   "en": "a drag on",
+   "jp": "〜の足かせ・重荷",
+   "ex": "Higher shipping costs were a drag on profits.",
+   "ex_jp": "輸送費の上昇が、利益の足かせになりました。",
+   "src": "#33"
+  },
+  {
+   "en": "stay flexible",
+   "jp": "柔軟に対応できるようにしておく",
+   "ex": "Let's stay flexible until the client decides.",
+   "ex_jp": "お客様が決めるまで、柔軟に対応できるようにしておきましょう。",
+   "src": "#33"
+  },
+  {
+   "en": "a proof of concept",
+   "jp": "概念実証(PoC)・小さく試す検証",
+   "ex": "Let's start with a proof of concept before we commit.",
+   "ex_jp": "本格導入の前に、まずは小さく検証から始めましょう。",
+   "src": "#34"
+  },
+  {
+   "en": "scale up",
+   "jp": "規模を拡大する",
+   "ex": "If the pilot works, we'll scale up next year.",
+   "ex_jp": "試験導入がうまくいけば、来年、規模を拡大します。",
+   "src": "#34"
+  },
+  {
+   "en": "work alongside",
+   "jp": "〜と一緒に働く・並んで働く",
+   "ex": "The new tool will work alongside our staff, not replace them.",
+   "ex_jp": "新しいツールは、社員の代わりではなく、社員と一緒に働くものです。",
+   "src": "#34"
+  },
+  {
+   "en": "sincerely apologize for",
+   "jp": "〜を心よりおわびする",
+   "ex": "We sincerely apologize for the delay in our reply.",
+   "ex_jp": "ご返信が遅くなり、心よりおわび申し上げます。",
+   "src": "#35"
+  },
+  {
+   "en": "make sure this doesn't happen again",
+   "jp": "二度と起きないようにする",
+   "ex": "We'll review our checks to make sure this doesn't happen again.",
+   "ex_jp": "二度と起きないよう、確認の手順を見直します。",
+   "src": "#35"
+  },
+  {
+   "en": "a wake-up call",
+   "jp": "目を覚まさせる出来事・警鐘",
+   "ex": "Losing that client was a wake-up call for our team.",
+   "ex_jp": "あの取引先を失ったことは、チームにとって警鐘でした。",
+   "src": "#35"
+  },
+  {
+   "en": "a weaker yen",
+   "jp": "円安",
+   "ex": "A weaker yen makes our imported parts more expensive.",
+   "ex_jp": "円安で、輸入部品が高くなります。",
+   "src": "#36"
+  },
+  {
+   "en": "stay in close contact with",
+   "jp": "〜と緊密に連絡を取り合う",
+   "ex": "We'll stay in close contact with the supplier this week.",
+   "ex_jp": "今週は、仕入れ先と緊密に連絡を取り合います。",
+   "src": "#36"
+  },
+  {
+   "en": "push up costs",
+   "jp": "コストを押し上げる",
+   "ex": "Higher energy prices will push up costs for everyone.",
+   "ex_jp": "エネルギー価格の上昇は、誰にとってもコストを押し上げます。",
+   "src": "#36"
+  }
+ ],
+ "words": [
+  {
+   "en": "founder",
+   "jp": "創業者"
+  },
+  {
+   "en": "net profit",
+   "jp": "純利益"
+  },
+  {
+   "en": "data breach",
+   "jp": "情報漏えい"
+  }
+ ],
+ "homework": {
+  "en": "Which phrase will you use first?",
+  "jp": "最初に使うフレーズはどれ?",
+  "hl": [
+   "use first"
+  ],
+  "say": "最後に宿題です。今週のフレーズの中で、最初に使ってみたいものはどれですか。コメント欄に書いてみてください。"
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "beats": [
+    {
+     "id": "h01",
+     "kind": "jp",
+     "jp": "エヌビディア、ホンダ、グーグル、ドコモ、そして円安。今週のニュースで学んだ、会議で使える英語18フレーズを、まとめて復習します。",
+     "en": "Nvidia, Honda, Google, Docomo and the yen: let's review this week's 18 meeting phrases.",
+     "vis": {
+      "t": "hero",
+      "kicker": "weekly listening",
+      "big": "18フレーズ",
+      "color": "gold",
+      "sub": "今週の会議英語をまとめて復習",
+      "sub_color": "text"
+     }
+    },
+    {
+     "id": "h02",
+     "kind": "jp",
+     "jp": "英語のあとに少し間があるので、意味を思い出してから、答えを聞いてください。作業しながらの聞き流しにもどうぞ。",
+     "en": "There's a pause after each phrase. Recall the meaning, then hear the answer.",
+     "vis": {
+      "t": "points",
+      "show": 3,
+      "items": [
+       {
+        "head": "STEP",
+        "big": "英語を聞く",
+        "sub": "フレーズと例文",
+        "color": "blue"
+       },
+       {
+        "head": "STEP",
+        "big": "思い出す",
+        "sub": "意味を考える間",
+        "color": "gold"
+       },
+       {
+        "head": "STEP",
+        "big": "答え合わせ",
+        "sub": "日本語の意味",
+        "color": "green"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "【聞き流し】会議で使えるビジネス英語18フレーズ|エヌビディア・ホンダ・円安のニュースから【ビジネス英語ニュース #37】",
+  "summary": "今週のニュース動画(エヌビディアCEO辞任、ホンダ決算、グーグルの人型ロボット、携帯3社トップの謝罪、1ドル160円の円安)で学んだ、会議やメールで使えるビジネス英語18フレーズを、英語→間→日本語→例文の順でまとめて復習します。作業中の聞き流しにも使えます。",
+  "tags": [
+   "聞き流し",
+   "ビジネス英語 フレーズ",
+   "会議 英語",
+   "英語 リスニング",
+   "まとめ",
+   "ビジネス英語",
+   "英語学習",
+   "エヌビディア",
+   "ホンダ",
+   "円安",
+   "社会人 英語",
+   "business English"
+  ]
+ },
+ "thumbnail": {
+  "big": "18",
+  "big_color": "gold",
+  "under": "会議の英語フレーズ",
+  "badge": "聞き流し",
+  "badge_color": "gold",
+  "question": "今週のまとめ",
+  "pill": "weekly review",
+  "bottom": "ニュースで覚えるビジネス英語",
+  "crack": false
+ },
+ "shorts": [
+  {
+   "phrase": 5,
+   "style": "quiz",
+   "badge": "会議で使う英語|中級",
+   "news_hook": [
+    "担当が",
+    "急にいなくなったら"
+   ],
+   "hook": [
+    "on an interim basis",
+    "どういう意味?"
+   ],
+   "ctx": "担当の交代を伝えるときに使う一言",
+   "title": "「on an interim basis」の意味、わかる?|会議の英語 #shorts",
+   "ig_caption": "「on an interim basis」の意味、わかりますか?\n\n✅ on an interim basis\n暫定的に・当面の間\n\n例文:Ms. Sato will lead the team on an interim basis.\n(当面の間、佐藤さんがチームを率います。)\n\nエヌビディアのCEO辞任後、CFOが後任決定までトップを務めることに。人事のお知らせメールの定番表現です。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  },
+  {
+   "phrase": 6,
+   "style": "quiz",
+   "badge": "会議で使う英語|中級",
+   "news_hook": [
+    "業績の",
+    "好材料を言う"
+   ],
+   "hook": [
+    "a tailwind",
+    "どういう意味?"
+   ],
+   "ctx": "業績報告で好材料を説明する一言",
+   "title": "「a tailwind」の意味、わかる?|会議の英語 #shorts",
+   "ig_caption": "「a tailwind」の意味、わかりますか?\n\n✅ a tailwind\n追い風・好材料\n\n例文:The weaker yen was a tailwind for our exports.\n(円安が、輸出の追い風になりました。)\n\nホンダは為替や過去最高のバイク販売が追い風になり、利益予想を引き上げました。決算報告でよく使う表現です。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  }
+ ],
+ "sources": [
+  {
+   "title": "MacRumors「Apple's Q4 2026 Earnings Call Takeaways」(2026年11月2日)",
+   "url": "https://www.macrumors.com/2026/11/02/apple-q4-2026-earnings-takeaways/"
+  },
+  {
+   "title": "Six Colors「Hello, everyone, it's John: Apple's Q4 2026 earnings call transcript」(2026年11月)",
+   "url": "https://sixcolors.com/post/2026/11/hello-everyone-its-john-apples-q4-2026-earnings-call-transcript/"
+  },
+  {
+   "title": "Al Jazeera「Why did Nvidia CEO Jensen Huang resign, and who is Colette Kress?」(2026年11月12日)",
+   "url": "https://www.aljazeera.com/news/2026/11/12/why-did-nvidia-ceo-jensen-huang-resign-and-who-is-colette-kress"
+  },
+  {
+   "title": "風傳媒 日本語版「NVIDIAフアン氏、CEOを即日辞任 クレスCFOが暫定CEO、後任選び開始」(2026年11月13日)",
+   "url": "https://japan.storm.mg/articles/1181248"
+  },
+  {
+   "title": "NHK「NVIDIA フアンCEOが辞任 業界全体に影響も 株価は11日終値比 一時およそ14%の大幅な下落」(2026年11月12日)",
+   "url": "https://news.web.nhk/newsweb/na/nd-20261112de75078"
+  },
+  {
+   "title": "AP(Spectrum News NY1)「Honda reports robust results on the back of healthy motorcycle sales」(2026年11月10日)",
+   "url": "https://ny1.com/nyc/all-boroughs/ap-top-news/2026/11/10/honda-reports-robust-results-on-the-back-of-healthy-motorcycle-sales"
+  },
+  {
+   "title": "株探「ホンダ、今期最終を25%上方修正」(2026年11月10日)",
+   "url": "https://s.kabutan.jp/news/k202611100129/"
+  },
+  {
+   "title": "CarLife Signal「ホンダ中間決算 純利益1.6倍以上に増加 最終利益も5000億円予想に上方修正」(2026年11月11日)",
+   "url": "https://carlife.mekameka-tool.com/2026/11/11/%E3%83%9B%E3%83%B3%E3%83%80%E4%B8%AD%E9%96%93%E6%B1%BA%E7%AE%97%E3%80%80%E7%B4%94%E5%88%A9%E7%9B%8A1-6%E5%80%8D%E4%BB%A5%E4%B8%8A%E3%81%AB%E5%A2%97%E5%8A%A0%E3%80%80%E6%9C%80%E7%B5%82%E5%88%A9/"
+  },
+  {
+   "title": "Google DeepMind「Gemini Robotics 2.5: Accelerating Physical Intelligence」(2026年11月10日)",
+   "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/"
+  },
+  {
+   "title": "Interesting Engineering「Google's Gemini Robotics 2.5 scores 96% in factory trial after tackling 200 tasks」(2026年11月10日)",
+   "url": "https://interestingengineering.com/ai-robotics/google-gemini-robotics-2-5-humanoid-factory-trial"
+  },
+  {
+   "title": "QUE.com「Google's Gemini Robotics 2.5 Hits 96% on Mercedes-Benz Lines, but the Last 4% Is the Real Test」(2026年11月)",
+   "url": "https://que.com/googles-gemini-robotics-2-5-hits-96-on-mercedes-benz-lines-but-the-last-4-is-the-real-test-for-factory-humanoids/"
+  },
+  {
+   "title": "Web担当者Forum「2026年上半期の企業倒産、5,335件で4年連続増 物価高・人手不足倒産は過去最多【TDB調べ】」(2026年7月14日)",
+   "url": "https://webtan.impress.co.jp/n/2026/07/14/52964"
+  }
+ ],
+ "publish": {
+  "long": "2026-11-21T07:00:00+09:00",
+  "shorts": [
+   "2026-11-21T12:00:00+09:00",
+   "2026-11-21T21:00:00+09:00"
+  ]
+ },
+ "readings": [
+  [
+   "KDDI",
+   "ケーディーディーアイ"
+  ]
+ ]
+}

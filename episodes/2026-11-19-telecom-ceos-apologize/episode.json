@@ -1,0 +1,743 @@
+{
+ "id": "2026-11-19-telecom-ceos-apologize",
+ "episode": "#35",
+ "date": "2026-11-09",
+ "series": "経営者の一言を読む",
+ "title_card": {
+  "line1": "好決算なのに、トップが謝罪",
+  "line2": "携帯3社とサイバー攻撃"
+ },
+ "publish": {
+  "long": "2026-11-19T07:00:00+09:00",
+  "shorts": [
+   "2026-11-19T12:00:00+09:00",
+   "2026-11-19T21:00:00+09:00"
+  ]
+ },
+ "phrases": [
+  {
+   "en": "sincerely apologize for",
+   "jp": "〜を心よりおわびする",
+   "ex": "We sincerely apologize for the delay in our reply.",
+   "ex_jp": "ご返信が遅くなり、心よりおわび申し上げます。"
+  },
+  {
+   "en": "make sure this doesn't happen again",
+   "jp": "二度と起きないようにする",
+   "ex": "We'll review our checks to make sure this doesn't happen again.",
+   "ex_jp": "二度と起きないよう、確認の手順を見直します。"
+  },
+  {
+   "en": "a wake-up call",
+   "jp": "目を覚まさせる出来事・警鐘",
+   "ex": "Losing that client was a wake-up call for our team.",
+   "ex_jp": "あの取引先を失ったことは、チームにとって警鐘でした。"
+  }
+ ],
+ "words": [
+  {
+   "en": "unauthorized access",
+   "jp": "不正アクセス"
+  },
+  {
+   "en": "data breach",
+   "jp": "情報漏えい"
+  },
+  {
+   "en": "vulnerability",
+   "jp": "脆弱性"
+  }
+ ],
+ "homework": {
+  "en": "How would you apologize to a client for a delay?",
+  "jp": "取引先に、遅れをどうおわびする?",
+  "hl": [
+   "apologize"
+  ],
+  "say": "最後に宿題です。取引先に、納品の遅れをおわびするなら、英語でどう書きますか。コメント欄に書いてみてください。"
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "beats": [
+    {
+     "id": "h01",
+     "kind": "jp",
+     "jp": "大変残念で、痛恨の思いだ。ソフトバンクの宮川社長は、11月9日の決算会見で、こう語りました。",
+     "en": "'Deeply regrettable and painful,' SoftBank's CEO said at his November 9 earnings briefing.",
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "大変残念で、",
+       "痛恨の思いだ"
+      ],
+      "hl": [
+       "痛恨の思い"
+      ],
+      "by": "ソフトバンク 宮川潤一社長(11月9日)"
+     }
+    },
+    {
+     "id": "h02",
+     "kind": "jp",
+     "jp": "ドコモ、ソフトバンク、KDDI。好決算のはずの会見で、携帯3社のトップが、サイバー攻撃について語りました。",
+     "en": "Docomo, SoftBank, KDDI: at upbeat earnings briefings, all three bosses addressed cyberattacks.",
+     "vis": {
+      "t": "hero",
+      "kicker": "DOCOMO · SOFTBANK · KDDI",
+      "big": "異例の謝罪",
+      "color": "red",
+      "sub": "好決算の会見で、トップが相次いで",
+      "sub_color": "gold"
+     }
+    },
+    {
+     "id": "h03",
+     "kind": "jp",
+     "jp": "今日は、トップの言葉から、おわびと再発防止を伝える英語を3つ。最後に答え合わせをします。",
+     "en": "Three phrases for apologizing and preventing a repeat. Answers at the end.",
+     "vis": {
+      "t": "teaser"
+     }
+    }
+   ]
+  },
+  {
+   "id": "what",
+   "chapter": "何が起きたか",
+   "beats": [
+    {
+     "id": "n01",
+     "kind": "jp",
+     "jp": "ドコモでは11月4日に不正アクセスが見つかり、最大でおよそ30万件の顧客情報が流出しました。",
+     "en": "At Docomo, unauthorized access found on November 4 exposed up to about 300,000 customer records.",
+     "vis": {
+      "t": "cards",
+      "show": 1,
+      "footer": "携帯3社とサイバー攻撃(ニュースイッチなど)",
+      "items": [
+       {
+        "name": "NTTドコモ",
+        "big": "約30万件",
+        "sub": "data leaked",
+        "note": "オンラインショップなどに不正アクセス",
+        "color": "red"
+       },
+       {
+        "name": "ソフトバンク",
+        "big": "障害",
+        "sub": "cloud outage",
+        "note": "10月、グループのクラウドに不正アクセス",
+        "color": "red"
+       },
+       {
+        "name": "KDDI",
+        "big": "調査",
+        "sub": "possible leak",
+        "note": "一部サービスで流出の可能性",
+        "color": "gold"
+       }
+      ]
+     }
+    },
+    {
+     "id": "n02",
+     "kind": "jp",
+     "jp": "流出したのは、氏名や住所、生年月日、電話番号など。マイドコモなどのサービスも止まりました。",
+     "en": "Names, addresses, birth dates and phone numbers were exposed, and My docomo was suspended.",
+     "vis": {
+      "t": "counter",
+      "kicker": "NTT DOCOMO",
+      "to": 30,
+      "suffix": "万件",
+      "color": "red",
+      "sub": "流出した顧客情報(最大)",
+      "note": "氏名・住所・生年月日・電話番号など"
+     }
+    },
+    {
+     "id": "n03",
+     "kind": "jp",
+     "jp": "ソフトバンクでも10月、グループ会社のクラウドに不正アクセスがあり、サービスが止まりました。",
+     "en": "SoftBank's group cloud was hit in October, causing an outage.",
+     "vis": {
+      "t": "cards",
+      "show": 2,
+      "footer": "携帯3社とサイバー攻撃(ニュースイッチなど)",
+      "items": [
+       {
+        "name": "NTTドコモ",
+        "big": "約30万件",
+        "sub": "data leaked",
+        "note": "オンラインショップなどに不正アクセス",
+        "color": "red"
+       },
+       {
+        "name": "ソフトバンク",
+        "big": "障害",
+        "sub": "cloud outage",
+        "note": "10月、グループのクラウドに不正アクセス",
+        "color": "red"
+       },
+       {
+        "name": "KDDI",
+        "big": "調査",
+        "sub": "possible leak",
+        "note": "一部サービスで流出の可能性",
+        "color": "gold"
+       }
+      ]
+     }
+    },
+    {
+     "id": "n04",
+     "kind": "jp",
+     "jp": "KDDIも、一部のサービスで、顧客の情報が流出した可能性がある、としています。",
+     "en": "KDDI says customer data may have leaked from some services.",
+     "vis": {
+      "t": "cards",
+      "show": 3,
+      "footer": "携帯3社とサイバー攻撃(ニュースイッチなど)",
+      "items": [
+       {
+        "name": "NTTドコモ",
+        "big": "約30万件",
+        "sub": "data leaked",
+        "note": "オンラインショップなどに不正アクセス",
+        "color": "red"
+       },
+       {
+        "name": "ソフトバンク",
+        "big": "障害",
+        "sub": "cloud outage",
+        "note": "10月、グループのクラウドに不正アクセス",
+        "color": "red"
+       },
+       {
+        "name": "KDDI",
+        "big": "調査",
+        "sub": "possible leak",
+        "note": "一部サービスで流出の可能性",
+        "color": "gold"
+       }
+      ]
+     }
+    },
+    {
+     "id": "n05",
+     "kind": "jp",
+     "jp": "ドコモは、お客様をはじめ関係する皆さまに、大きな迷惑と心配をかけたとして、深くおわびしています。",
+     "en": "Docomo deeply apologized for the trouble and worry it caused.",
+     "vis": {
+      "t": "hero_side",
+      "big": "謝罪",
+      "color": "gold",
+      "text": "sincerely apologize",
+      "jp": "心よりおわび申し上げます"
+     }
+    },
+    {
+     "id": "n06",
+     "kind": "jp",
+     "jp": "この、心よりおわび申し上げます。英語では、ウィー・シンシアリー・アポロジャイズ・フォーと言います。",
+     "en": "In English: 'We sincerely apologize for...'",
+     "hl": [
+      "sincerely apologize for"
+     ],
+     "star": true,
+     "vis": {
+      "t": "hero_side",
+      "big": "謝罪",
+      "color": "gold",
+      "text": "sincerely apologize",
+      "jp": "心よりおわび申し上げます"
+     }
+    },
+    {
+     "id": "n07",
+     "kind": "en_insert",
+     "jp": "ご不便をおかけし、心よりおわびします",
+     "en": "We sincerely apologize for the inconvenience.",
+     "hl": [
+      "sincerely apologize for"
+     ],
+     "star": true,
+     "vis": {
+      "t": "hero_side",
+      "big": "謝罪",
+      "color": "gold",
+      "text": "sincerely apologize",
+      "jp": "心よりおわび申し上げます"
+     }
+    },
+    {
+     "id": "n08",
+     "kind": "jp",
+     "jp": "シンシアリーは、心から。ソーリーより改まった言い方で、お客様へのメールにも使えます。",
+     "en": "'Sincerely' means from the heart. It's more formal than 'sorry.'",
+     "hl": [
+      "sincerely"
+     ],
+     "vis": {
+      "t": "hero_side",
+      "big": "謝罪",
+      "color": "gold",
+      "text": "sincerely apologize",
+      "jp": "心よりおわび申し上げます"
+     }
+    }
+   ]
+  },
+  {
+   "id": "words",
+   "chapter": "トップの言葉を読む",
+   "beats": [
+    {
+     "id": "q01",
+     "kind": "jp",
+     "jp": "宮川社長は、今後同じことが起きないよう、グループ会社を徹底的に点検した、と話しました。",
+     "en": "Miyakawa said they inspected every group company so it won't happen again.",
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "今後同じことが起きないよう、",
+       "グループ会社の",
+       "徹底的な点検を行った"
+      ],
+      "hl": [
+       "同じことが起きないよう"
+      ],
+      "by": "ソフトバンク 宮川潤一社長"
+     }
+    },
+    {
+     "id": "q02",
+     "kind": "jp",
+     "jp": "同じことを二度と起こさない。英語では、メイク・シュア・ディス・ダズント・ハプン・アゲインと言います。",
+     "en": "To prevent a repeat: 'make sure this doesn't happen again.'",
+     "hl": [
+      "make sure this doesn't happen again"
+     ],
+     "star": true,
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "今後同じことが起きないよう、",
+       "グループ会社の",
+       "徹底的な点検を行った"
+      ],
+      "hl": [
+       "同じことが起きないよう"
+      ],
+      "by": "ソフトバンク 宮川潤一社長"
+     }
+    },
+    {
+     "id": "q03",
+     "kind": "en_insert",
+     "jp": "二度と起きないようにします",
+     "en": "We'll make sure this doesn't happen again.",
+     "hl": [
+      "make sure this doesn't happen again"
+     ],
+     "star": true,
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "今後同じことが起きないよう、",
+       "グループ会社の",
+       "徹底的な点検を行った"
+      ],
+      "hl": [
+       "同じことが起きないよう"
+      ],
+      "by": "ソフトバンク 宮川潤一社長"
+     }
+    },
+    {
+     "id": "q04",
+     "kind": "jp",
+     "jp": "宮川社長によると、攻撃に向けた偵察は、1か月に6億回を超え、前の年のおよそ2倍。AIで攻撃も速くなっています。",
+     "en": "He said probing tops 600 million a month, about double last year, and AI makes attacks faster.",
+     "vis": {
+      "t": "counter",
+      "kicker": "SOFTBANK · RECONNAISSANCE",
+      "big": "6億回超",
+      "color": "red",
+      "sub": "攻撃者による偵察 1か月あたり",
+      "note": "前の年のおよそ2倍(宮川社長)"
+     }
+    },
+    {
+     "id": "q05",
+     "kind": "jp",
+     "jp": "ドコモの前田社長は、攻撃が高度になる中で、チェックの仕方や項目を見直さなければならない、と述べました。",
+     "en": "Docomo's Maeda said checks must be rethought as attacks grow more sophisticated.",
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "攻撃が高度化している中で、",
+       "チェックの仕方や項目を",
+       "見直していかなければいけない"
+      ],
+      "hl": [
+       "見直して"
+      ],
+      "by": "NTTドコモ 前田義晃社長"
+     }
+    },
+    {
+     "id": "q06",
+     "kind": "jp",
+     "jp": "KDDIの松田社長は、弱点が見つかったら、修正のプログラムを早めに当てるべきだ、と話しています。",
+     "en": "KDDI's Matsuda said fixes should be applied quickly once a weakness is found.",
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "脆弱性が見つかった場合に、",
+       "パッチを早めに当てるべきだ"
+      ],
+      "hl": [
+       "早めに"
+      ],
+      "by": "KDDI 松田浩路社長"
+     }
+    },
+    {
+     "id": "q07",
+     "kind": "jp",
+     "jp": "3人に共通するのは、これまでのやり方を見直す、ということ。このように、気づかせてくれる出来事を、ア・ウェイクアップ・コールと言います。",
+     "en": "All three are rethinking old habits. An event that jolts you is 'a wake-up call.'",
+     "hl": [
+      "a wake-up call"
+     ],
+     "star": true,
+     "vis": {
+      "t": "statement",
+      "kicker": "A WAKE-UP CALL",
+      "text": "やり方を見直すきっかけ",
+      "sub": "目を覚まさせる出来事"
+     }
+    },
+    {
+     "id": "q08",
+     "kind": "en_insert",
+     "jp": "これは警鐘だった",
+     "en": "This was a wake-up call.",
+     "hl": [
+      "a wake-up call"
+     ],
+     "star": true,
+     "vis": {
+      "t": "statement",
+      "kicker": "A WAKE-UP CALL",
+      "text": "やり方を見直すきっかけ",
+      "sub": "目を覚まさせる出来事"
+     }
+    },
+    {
+     "id": "q09",
+     "kind": "jp",
+     "jp": "ウェイクアップ・コールは、ホテルのモーニングコールのこと。眠っていた危機感を起こす出来事、という意味です。",
+     "en": "Like a hotel wake-up call, it wakes you to a risk you'd ignored.",
+     "vis": {
+      "t": "statement",
+      "kicker": "A WAKE-UP CALL",
+      "text": "やり方を見直すきっかけ",
+      "sub": "目を覚まさせる出来事"
+     }
+    }
+   ]
+  },
+  {
+   "id": "insight",
+   "chapter": "私たちへの意味",
+   "beats": [
+    {
+     "id": "i01",
+     "kind": "jp",
+     "jp": "ここからは、日本で働く私たちにとっての意味を考えます。",
+     "en": "What does this mean for those of us working in Japan?",
+     "vis": {
+      "t": "statement",
+      "kicker": "SO WHAT?",
+      "text": "日本で働く私たちにとっての意味"
+     }
+    },
+    {
+     "id": "i02",
+     "kind": "jp",
+     "jp": "英語のおわびは、謝るだけで終わらせないのがポイント。必ず、次にどうするかを続けて言いましょう。",
+     "en": "In English, don't stop at sorry. Always say what you'll do next.",
+     "vis": {
+      "t": "points",
+      "show": 1,
+      "items": [
+       {
+        "head": "英語のおわび",
+        "big": "おわび+\n次の一手",
+        "sub": "apologize →\nmake sure…",
+        "color": "gold"
+       },
+       {
+        "head": "日本の現場",
+        "big": "更新を\n後回しにしない",
+        "sub": "経営が\n判断を変える",
+        "color": "green"
+       },
+       {
+        "head": "逆の見方",
+        "big": "言葉だけでは\n信頼は戻らない",
+        "sub": "原因と対策の\n説明が先",
+        "color": "blue"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i03",
+     "kind": "jp",
+     "jp": "シンシアリー・アポロジャイズの後に、メイク・シュア・ディス・ダズント・ハプン・アゲイン。この2つをセットで使います。",
+     "en": "Pair 'sincerely apologize' with 'make sure this doesn't happen again.'",
+     "hl": [
+      "sincerely apologize",
+      "make sure this doesn't happen again"
+     ],
+     "vis": {
+      "t": "points",
+      "show": 1,
+      "items": [
+       {
+        "head": "英語のおわび",
+        "big": "おわび+\n次の一手",
+        "sub": "apologize →\nmake sure…",
+        "color": "gold"
+       },
+       {
+        "head": "日本の現場",
+        "big": "更新を\n後回しにしない",
+        "sub": "経営が\n判断を変える",
+        "color": "green"
+       },
+       {
+        "head": "逆の見方",
+        "big": "言葉だけでは\n信頼は戻らない",
+        "sub": "原因と対策の\n説明が先",
+        "color": "blue"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i04",
+     "kind": "jp",
+     "jp": "松田社長は、システムを止めたくない現場の思いもわかるが、経営の側から判断を変えよう、と言っています。",
+     "en": "Matsuda says leaders must change the call, even if staff want systems running nonstop.",
+     "vis": {
+      "t": "points",
+      "show": 2,
+      "items": [
+       {
+        "head": "英語のおわび",
+        "big": "おわび+\n次の一手",
+        "sub": "apologize →\nmake sure…",
+        "color": "gold"
+       },
+       {
+        "head": "日本の現場",
+        "big": "更新を\n後回しにしない",
+        "sub": "経営が\n判断を変える",
+        "color": "green"
+       },
+       {
+        "head": "逆の見方",
+        "big": "言葉だけでは\n信頼は戻らない",
+        "sub": "原因と対策の\n説明が先",
+        "color": "blue"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i05",
+     "kind": "jp",
+     "jp": "日本の職場でも、忙しいからと、更新を後回しにしていないか。自分の仕事に置き換えて、考えてみましょう。",
+     "en": "At your workplace, are updates put off because everyone's busy? Worth asking.",
+     "vis": {
+      "t": "points",
+      "show": 2,
+      "items": [
+       {
+        "head": "英語のおわび",
+        "big": "おわび+\n次の一手",
+        "sub": "apologize →\nmake sure…",
+        "color": "gold"
+       },
+       {
+        "head": "日本の現場",
+        "big": "更新を\n後回しにしない",
+        "sub": "経営が\n判断を変える",
+        "color": "green"
+       },
+       {
+        "head": "逆の見方",
+        "big": "言葉だけでは\n信頼は戻らない",
+        "sub": "原因と対策の\n説明が先",
+        "color": "blue"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i06",
+     "kind": "jp",
+     "jp": "一方で、逆の見方もあります。おわびの言葉だけでは、信頼は戻りません。ドコモは、発表の時点で、侵入の経路をまだ調べていました。",
+     "en": "But words alone don't rebuild trust. Docomo was still tracing how attackers got in.",
+     "vis": {
+      "t": "points",
+      "show": 3,
+      "items": [
+       {
+        "head": "英語のおわび",
+        "big": "おわび+\n次の一手",
+        "sub": "apologize →\nmake sure…",
+        "color": "gold"
+       },
+       {
+        "head": "日本の現場",
+        "big": "更新を\n後回しにしない",
+        "sub": "経営が\n判断を変える",
+        "color": "green"
+       },
+       {
+        "head": "逆の見方",
+        "big": "言葉だけでは\n信頼は戻らない",
+        "sub": "原因と対策の\n説明が先",
+        "color": "blue"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "「心よりおわびします」は英語で?sincerely apologize forの使い方|携帯3社トップが謝罪【ビジネス英語ニュース #35】",
+  "summary": "ドコモで最大約30万件の顧客情報が流出するなど、携帯3社がサイバー攻撃を受け、2026年11月の決算会見ではトップが相次いで謝罪と再発防止を語りました。おわびのメールや会議で使える sincerely apologize for / make sure this doesn't happen again / a wake-up call を学びます。",
+  "tags": [
+   "ビジネス英語",
+   "英語学習",
+   "ニュース英語",
+   "謝罪 英語",
+   "おわび 英語",
+   "会議 英語",
+   "ドコモ",
+   "ソフトバンク",
+   "KDDI",
+   "サイバー攻撃",
+   "情報漏えい",
+   "社会人 英語",
+   "教養",
+   "business English"
+  ]
+ },
+ "thumbnail": {
+  "big": "30万件",
+  "big_color": "red",
+  "under": "ドコモの顧客情報",
+  "badge": "携帯3社",
+  "badge_color": "gold",
+  "question": "トップの謝罪",
+  "pill": "sincerely apologize",
+  "bottom": "おわびの英語3つ",
+  "crack": true
+ },
+ "shorts": [
+  {
+   "phrase": 0,
+   "news_hook": [
+    "携帯3社",
+    "トップが謝罪"
+   ],
+   "hook": [
+    "「心よりおわび」を",
+    "英語で言うと?"
+   ],
+   "ctx": "お客様へのおわびのメールで使う英語",
+   "title": "「心よりおわびします」は英語で?携帯3社トップの謝罪 #ビジネス英語 #shorts",
+   "ig_caption": "「〜を心よりおわびする」を英語で言えますか?\n\n✅ sincerely apologize for\n〜を心よりおわびする\n\n例文:We sincerely apologize for the delay in our reply.\n(ご返信が遅くなり、心よりおわび申し上げます。)\n\nドコモで最大約30万件の顧客情報が流出。携帯3社のトップが決算会見で相次いで謝罪しました。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  },
+  {
+   "phrase": 2,
+   "style": "quiz",
+   "badge": "会議で使う英語|中級",
+   "news_hook": [
+    "サイバー攻撃",
+    "月6億回超"
+   ],
+   "hook": [
+    "a wake-up call",
+    "どういう意味?"
+   ],
+   "ctx": "失敗から学ぶときに使う一言",
+   "title": "「a wake-up call」の意味、わかる?|会議の英語 #shorts",
+   "ig_caption": "「a wake-up call」の意味、わかりますか?\n\n✅ a wake-up call\n目を覚まさせる出来事・警鐘\n\n例文:Losing that client was a wake-up call for our team.\n(あの取引先を失ったことは、チームにとって警鐘でした。)\n\n携帯3社のトップは、そろって「これまでのやり方を見直す」と語りました。失敗や事件を振り返るときの定番表現です。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  }
+ ],
+ "sources": [
+  {
+   "title": "ニュースイッチ(日刊工業新聞)「携帯3社トップが異例の謝罪…好決算の影でサイバー禍、会見で語ったこと」(2026年11月12日)",
+   "url": "https://newswitch.jp/p/50779"
+  },
+  {
+   "title": "nippon.com(時事通信)NTTドコモの顧客情報流出についての記事(2026年11月5日)",
+   "url": "https://www.nippon.com/en/articles/-/56982"
+  },
+  {
+   "title": "ケータイ Watch ドコモの不正アクセス・個人情報漏えいについての記事(2026年11月5日)",
+   "url": "https://k-tai.watch.impress.co.jp/docs/news/2154103.html"
+  },
+  {
+   "title": "NHK「NTTドコモ 最大29万件余の顧客情報流出で社長陳謝」(2026年11月6日)",
+   "url": "https://news.web.nhk/newsweb/na/nd-20261106de71859"
+  }
+ ],
+ "readings": [
+  [
+   "宮川",
+   "みやかわ"
+  ],
+  [
+   "前田",
+   "まえだ"
+  ],
+  [
+   "松田",
+   "まつだ"
+  ],
+  [
+   "30万件",
+   "さんじゅうまんけん"
+  ],
+  [
+   "6億回",
+   "ろくおくかい"
+  ],
+  [
+   "4日",
+   "よっか"
+  ],
+  [
+   "9日",
+   "ここのか"
+  ],
+  [
+   "KDDI",
+   "ケーディーディーアイ"
+  ],
+  [
+   "マイドコモ",
+   "マイ ドコモ"
+  ]
+ ]
+}
