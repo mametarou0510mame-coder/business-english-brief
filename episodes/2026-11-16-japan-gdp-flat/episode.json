@@ -1,0 +1,722 @@
+{
+ "id": "2026-11-16-japan-gdp-flat",
+ "episode": "#39",
+ "date": "2026-11-16",
+ "series": "速報",
+ "title_card": {
+  "line1": "日本経済、4期ぶりマイナス",
+  "line2": "GDPのニュースを英語で読む"
+ },
+ "publish": {
+  "long": "2026-11-16T18:42:00+09:00",
+  "shorts": [
+   "2026-11-16T18:42:00+09:00",
+   "2026-11-16T21:42:00+09:00"
+  ]
+ },
+ "phrases": [
+  {
+   "en": "flat",
+   "jp": "横ばい",
+   "ex": "Sales were flat compared with last quarter.",
+   "ex_jp": "売上は前の四半期と比べて横ばいでした。"
+  },
+  {
+   "en": "below expectations",
+   "jp": "予想を下回る",
+   "ex": "Our Q3 results came in below expectations.",
+   "ex_jp": "第3四半期の結果は、予想を下回りました。"
+  },
+  {
+   "en": "weigh on",
+   "jp": "〜の重しになる",
+   "ex": "Higher material costs will weigh on our profits this year.",
+   "ex_jp": "原材料費の上昇が、今年の利益の重しになりそうです。"
+  }
+ ],
+ "words": [
+  {
+   "en": "contract",
+   "jp": "(経済が)縮小する"
+  },
+  {
+   "en": "annualized",
+   "jp": "年率換算の"
+  },
+  {
+   "en": "private consumption",
+   "jp": "個人消費"
+  }
+ ],
+ "homework": {
+  "en": "What number at work was flat recently?",
+  "jp": "最近、横ばいだった仕事の数字は?",
+  "hl": [
+   "flat"
+  ],
+  "say": "最後に宿題です。最近、あなたの仕事で横ばいだった数字は何ですか。flatを使って英語で一文、コメント欄に書いてみてください。"
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "beats": [
+    {
+     "id": "h01",
+     "kind": "jp",
+     "jp": "日本の7月から9月のGDPが発表されました。実質で年率0.1%のマイナス。4四半期ぶりのマイナス成長です。",
+     "en": "Japan's real GDP shrank 0.1% annualized in July–September, the first contraction in four quarters.",
+     "vis": {
+      "t": "hero",
+      "kicker": "JAPAN GDP · JUL–SEP 2026",
+      "big": "−0.1%",
+      "color": "red",
+      "crack": false,
+      "sub": "年率換算・4四半期ぶりのマイナス成長",
+      "sub_color": "gold"
+     }
+    },
+    {
+     "id": "h02",
+     "kind": "jp",
+     "jp": "でも実は、前の期とほとんど変わらない数字です。「横ばい」を英語で、さっと言えますか。",
+     "en": "But it barely moved from the last quarter. Can you say 'no change' in one English word?",
+     "vis": {
+      "t": "hero_side",
+      "big": "±0",
+      "color": "gold",
+      "text": "flat",
+      "jp": "横ばい"
+     }
+    },
+    {
+     "id": "h03",
+     "kind": "jp",
+     "jp": "今日は速報です。このニュースから、会議で使える英語を3つ。最後に答え合わせをします。",
+     "en": "Breaking news, and three phrases for your next meeting.",
+     "vis": {
+      "t": "teaser"
+     }
+    }
+   ]
+  },
+  {
+   "id": "what",
+   "chapter": "何が起きたか",
+   "beats": [
+    {
+     "id": "n01",
+     "kind": "jp",
+     "jp": "内閣府が11月16日に発表した1次速報。物価の影響を除いた実質GDPは、前の期と比べて0.02%の減少でした。",
+     "en": "The Cabinet Office's first estimate: real GDP slipped just 0.02% from the previous quarter.",
+     "vis": {
+      "t": "counter",
+      "kicker": "REAL GDP · QUARTER ON QUARTER",
+      "big": "−0.02%",
+      "color": "gold",
+      "sub": "前期比(年率換算では−0.1%)",
+      "note": "内閣府・1次速報(11月16日)"
+     }
+    },
+    {
+     "id": "n02",
+     "kind": "jp",
+     "jp": "ほとんど動いていない数字。英語では、flatと言います。グラフの線が平らなイメージです。",
+     "en": "When a number hardly moves, we say it's flat.",
+     "vis": {
+      "t": "hero_side",
+      "big": "±0",
+      "color": "gold",
+      "text": "flat",
+      "jp": "横ばい"
+     },
+     "hl": [
+      "flat"
+     ],
+     "star": true
+    },
+    {
+     "id": "n03",
+     "kind": "en_insert",
+     "jp": "横ばい",
+     "en": "flat",
+     "vis": {
+      "t": "hero_side",
+      "big": "±0",
+      "color": "gold",
+      "text": "flat",
+      "jp": "横ばい"
+     },
+     "hl": [
+      "flat"
+     ],
+     "star": true
+    },
+    {
+     "id": "n04",
+     "kind": "jp",
+     "jp": "民間の予測では、年率0.2%のプラス成長が見込まれていました。結果はマイナス。予想に届きませんでした。",
+     "en": "Economists had expected 0.2% annualized growth. The result was negative.",
+     "vis": {
+      "t": "bars",
+      "title": "実質GDP成長率(年率換算)",
+      "unit": "%",
+      "items": [
+       {
+        "label": "民間予想",
+        "value": 0.2,
+        "display": "+0.2%",
+        "color": "green"
+       },
+       {
+        "label": "結果",
+        "value": -0.1,
+        "display": "−0.1%",
+        "color": "red"
+       }
+      ],
+      "note": "予想:民間13機関の平均(新華社)"
+     }
+    },
+    {
+     "id": "n05",
+     "kind": "jp",
+     "jp": "予想より悪い結果。英語では、below expectationsと言います。決算の報告でもよく使います。",
+     "en": "A result worse than forecast came in below expectations.",
+     "vis": {
+      "t": "hero_side",
+      "big": "予想",
+      "color": "red",
+      "text": "below expectations",
+      "jp": "予想を下回る"
+     },
+     "hl": [
+      "below expectations"
+     ],
+     "star": true
+    },
+    {
+     "id": "n06",
+     "kind": "en_insert",
+     "jp": "予想を下回る",
+     "en": "below expectations",
+     "vis": {
+      "t": "hero_side",
+      "big": "予想",
+      "color": "red",
+      "text": "below expectations",
+      "jp": "予想を下回る"
+     },
+     "hl": [
+      "below expectations"
+     ],
+     "star": true
+    }
+   ]
+  },
+  {
+   "id": "why",
+   "chapter": "なぜマイナスに?",
+   "beats": [
+    {
+     "id": "y01",
+     "kind": "jp",
+     "jp": "中身を見ると、明暗が分かれました。GDPの半分以上を占める個人消費は0.3%減。2四半期続けてのマイナスです。",
+     "en": "Private consumption, over half of GDP, fell 0.3% for a second straight quarter.",
+     "vis": {
+      "t": "vs",
+      "left": {
+       "en": "consumption",
+       "label": "個人消費",
+       "val": "−0.3%",
+       "up": false,
+       "color": "red"
+      },
+      "right": {
+       "en": "capex",
+       "label": "設備投資",
+       "val": "+1.6%",
+       "up": true,
+       "color": "green"
+      },
+      "mid": "前期比"
+     }
+    },
+    {
+     "id": "y02",
+     "kind": "jp",
+     "jp": "一方、企業の設備投資は1.6%増。AI関連のサーバーや、半導体の製造装置への投資が引っぱりました。",
+     "en": "Business investment rose 1.6%, led by AI servers and chipmaking equipment.",
+     "vis": {
+      "t": "vs",
+      "left": {
+       "en": "consumption",
+       "label": "個人消費",
+       "val": "−0.3%",
+       "up": false,
+       "color": "red"
+      },
+      "right": {
+       "en": "capex",
+       "label": "設備投資",
+       "val": "+1.6%",
+       "up": true,
+       "color": "green"
+      },
+      "mid": "前期比"
+     }
+    },
+    {
+     "id": "y03",
+     "kind": "jp",
+     "jp": "消費が弱かった理由として、物価高で実質的に使えるお金が減ったことや、天候不順、前の期の駆け込み需要の反動が挙げられています。",
+     "en": "Reasons cited: higher prices, bad weather, and payback after earlier rush buying.",
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "物価の上昇",
+        "mid": "購買力↓",
+        "res": "消費が減る",
+        "ok": false
+       },
+       {
+        "a": "天候不順",
+        "mid": "衣料・宿泊↓",
+        "res": "消費が減る",
+        "ok": false
+       },
+       {
+        "a": "前期の駆け込み",
+        "mid": "反動減",
+        "res": "消費が減る",
+        "ok": false
+       }
+      ]
+     }
+    },
+    {
+     "id": "y04",
+     "kind": "jp",
+     "jp": "何かが重しになって、数字を押し下げる。英語では、weigh onと言います。物価高が消費にweigh onした、という使い方です。",
+     "en": "When something drags a number down, it weighs on it. Higher prices weighed on spending.",
+     "vis": {
+      "t": "hero_side",
+      "big": "物価高",
+      "color": "red",
+      "text": "weigh on",
+      "jp": "〜の重しになる"
+     },
+     "hl": [
+      "weigh on",
+      "weighs on",
+      "weighed on"
+     ],
+     "star": true
+    },
+    {
+     "id": "y05",
+     "kind": "en_insert",
+     "jp": "〜の重しになる",
+     "en": "weigh on",
+     "vis": {
+      "t": "hero_side",
+      "big": "物価高",
+      "color": "red",
+      "text": "weigh on",
+      "jp": "〜の重しになる"
+     },
+     "hl": [
+      "weigh on"
+     ],
+     "star": true
+    },
+    {
+     "id": "y06",
+     "kind": "jp",
+     "jp": "海外とのやり取りもマイナスに働きました。輸出は0.2%減。原油の輸入が増えたことなどで、輸入は2.5%増えました。",
+     "en": "Trade also dragged: exports fell 0.2%, while imports rose 2.5%, partly on crude oil.",
+     "vis": {
+      "t": "cards",
+      "show": 2,
+      "footer": "前期比(7〜9月期・1次速報)",
+      "items": [
+       {
+        "name": "輸出",
+        "big": "−0.2%",
+        "sub": "サービスの輸出が減少",
+        "color": "red"
+       },
+       {
+        "name": "輸入",
+        "big": "+2.5%",
+        "sub": "原油の輸入が増加",
+        "color": "gold"
+       },
+       {
+        "name": "名目GDP",
+        "big": "+0.4%",
+        "sub": "物価の上昇分を含む",
+        "color": "blue"
+       }
+      ]
+     }
+    },
+    {
+     "id": "y07",
+     "kind": "jp",
+     "jp": "輸入が増えると、GDPの計算では押し下げ要因になります。なお、物価の上昇分を含む名目GDPは、0.4%増えています。",
+     "en": "Imports are subtracted from GDP. Nominal GDP, which includes price rises, grew 0.4%.",
+     "vis": {
+      "t": "cards",
+      "show": 3,
+      "footer": "前期比(7〜9月期・1次速報)",
+      "items": [
+       {
+        "name": "輸出",
+        "big": "−0.2%",
+        "sub": "サービスの輸出が減少",
+        "color": "red"
+       },
+       {
+        "name": "輸入",
+        "big": "+2.5%",
+        "sub": "原油の輸入が増加",
+        "color": "gold"
+       },
+       {
+        "name": "名目GDP",
+        "big": "+0.4%",
+        "sub": "物価の上昇分を含む",
+        "color": "blue"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "insight",
+   "chapter": "私たちへの意味",
+   "beats": [
+    {
+     "id": "i01",
+     "kind": "jp",
+     "jp": "ここからは、日本で働く私たちにとっての意味を考えます。",
+     "en": "What does this mean for those of us working in Japan?",
+     "vis": {
+      "t": "statement",
+      "kicker": "SO WHAT?",
+      "text": "日本で働く私たちにとっての意味"
+     }
+    },
+    {
+     "id": "i02",
+     "kind": "jp",
+     "jp": "まずは報告の言葉選び。見出しはマイナス成長でも、前の期と比べればほぼflat。見出しと中身の数字を分けて伝えるのが、会議では大切です。",
+     "en": "First, word choice: the headline says contraction, but quarter on quarter it's flat. Separate the two.",
+     "vis": {
+      "t": "points",
+      "show": 1,
+      "items": [
+       {
+        "head": "報告の言葉選び",
+        "big": "flat",
+        "sub": "見出しと中身を分ける",
+        "color": "gold"
+       },
+       {
+        "head": "金利の行方",
+        "big": "12月?",
+        "sub": "日銀の利上げ観測",
+        "color": "blue"
+       },
+       {
+        "head": "逆の見方",
+        "big": "一時的",
+        "sub": "天候要因は戻る",
+        "color": "green"
+       }
+      ]
+     },
+     "hl": [
+      "flat"
+     ]
+    },
+    {
+     "id": "i03",
+     "kind": "jp",
+     "jp": "次に金利です。市場では、日銀が12月の会合で利上げするとの見方が広がっています。今回の数字でも、その流れは変わらないという声が出ています。",
+     "en": "Markets widely expect a BOJ rate hike in December, and some economists say this data won't change that.",
+     "vis": {
+      "t": "points",
+      "show": 2,
+      "items": [
+       {
+        "head": "報告の言葉選び",
+        "big": "flat",
+        "sub": "見出しと中身を分ける",
+        "color": "gold"
+       },
+       {
+        "head": "金利の行方",
+        "big": "12月?",
+        "sub": "日銀の利上げ観測",
+        "color": "blue"
+       },
+       {
+        "head": "逆の見方",
+        "big": "一時的",
+        "sub": "天候要因は戻る",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i04",
+     "kind": "jp",
+     "jp": "利上げは、住宅ローンや会社の借り入れの金利に関わります。経理や営業の会議でも、話題になりそうです。",
+     "en": "Rate hikes affect mortgages and corporate borrowing, so expect the topic in finance and sales meetings.",
+     "vis": {
+      "t": "points",
+      "show": 2,
+      "items": [
+       {
+        "head": "報告の言葉選び",
+        "big": "flat",
+        "sub": "見出しと中身を分ける",
+        "color": "gold"
+       },
+       {
+        "head": "金利の行方",
+        "big": "12月?",
+        "sub": "日銀の利上げ観測",
+        "color": "blue"
+       },
+       {
+        "head": "逆の見方",
+        "big": "一時的",
+        "sub": "天候要因は戻る",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i05",
+     "kind": "jp",
+     "jp": "一方で、逆の見方もあります。ニッセイ基礎研究所は、天候による一時的な影響が大きく、10月から12月はプラス成長に戻ると予測しています。",
+     "en": "On the other hand, NLI Research sees the weather effect as temporary and forecasts growth in October–December.",
+     "vis": {
+      "t": "points",
+      "show": 3,
+      "items": [
+       {
+        "head": "報告の言葉選び",
+        "big": "flat",
+        "sub": "見出しと中身を分ける",
+        "color": "gold"
+       },
+       {
+        "head": "金利の行方",
+        "big": "12月?",
+        "sub": "日銀の利上げ観測",
+        "color": "blue"
+       },
+       {
+        "head": "逆の見方",
+        "big": "一時的",
+        "sub": "天候要因は戻る",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i06",
+     "kind": "jp",
+     "jp": "ただし、物価の上昇が続けば、消費の回復は鈍くなりかねない、とも指摘しています。12月8日には、改定された2次速報が出ます。",
+     "en": "But it warns rising prices could slow the recovery. A revised estimate is due December 8.",
+     "vis": {
+      "t": "points",
+      "show": 3,
+      "items": [
+       {
+        "head": "報告の言葉選び",
+        "big": "flat",
+        "sub": "見出しと中身を分ける",
+        "color": "gold"
+       },
+       {
+        "head": "金利の行方",
+        "big": "12月?",
+        "sub": "日銀の利上げ観測",
+        "color": "blue"
+       },
+       {
+        "head": "逆の見方",
+        "big": "一時的",
+        "sub": "天候要因は戻る",
+        "color": "green"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "「横ばい」は英語で?flatの使い方|GDP4期ぶりマイナス成長【ビジネス英語ニュース #39】",
+  "summary": "内閣府が2026年11月16日に発表した7〜9月期の実質GDP1次速報は、前期比0.02%減、年率0.1%減で、4四半期ぶりのマイナス成長でした。個人消費が0.3%減った一方、設備投資は1.6%増えました。このニュースを日本語で解説し、会議で使える英語「flat」「below expectations」「weigh on」を身につけます。",
+  "tags": [
+   "ビジネス英語",
+   "英語学習",
+   "ニュース英語",
+   "時事英語",
+   "会議 英語",
+   "GDP",
+   "日本経済",
+   "マイナス成長",
+   "個人消費",
+   "横ばい 英語",
+   "日銀",
+   "速報",
+   "business English"
+  ]
+ },
+ "thumbnail": {
+  "big": "−0.1%",
+  "big_color": "red",
+  "under": "GDP 4期ぶりマイナス",
+  "badge": "速報",
+  "badge_color": "red",
+  "question": "英語で言える?",
+  "pill": "flat",
+  "bottom": "会議で使える英語3つ",
+  "crack": true
+ },
+ "shorts": [
+  {
+   "phrase": 0,
+   "news_hook": [
+    "日本のGDP",
+    "4期ぶりマイナス"
+   ],
+   "hook": [
+    "「横ばい」",
+    "英語で言える?"
+   ],
+   "ctx": "7〜9月期の実質GDPは前期比ほぼ横ばい、年率0.1%減",
+   "title": "「横ばい」は英語で?日本のGDPが4期ぶりマイナス #ビジネス英語 #shorts",
+   "ig_caption": "「横ばい」を英語で言えますか?\n\n✅ flat\n横ばい\n\n例文:Sales were flat compared with last quarter.\n(売上は前の四半期と比べて横ばいでした。)\n\n日本の7〜9月期の実質GDPは、前期比0.02%減とほぼ横ばい。年率では0.1%減で、4四半期ぶりのマイナス成長でした(11月16日・内閣府)。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  },
+  {
+   "phrase": 2,
+   "style": "quiz",
+   "badge": "会議で使う英語|中級",
+   "news_hook": [
+    "物価高が",
+    "消費の重しに"
+   ],
+   "hook": [
+    "weigh on",
+    "って?"
+   ],
+   "ctx": "コストや物価が数字を押し下げるときに使う表現",
+   "title": "「weigh on」の意味、わかる?|会議の英語 #shorts",
+   "ig_caption": "「weigh on」の意味、わかりますか?\n\n✅ weigh on\n〜の重しになる\n\n例文:Higher material costs will weigh on our profits this year.\n(原材料費の上昇が、今年の利益の重しになりそうです。)\n\n日本の7〜9月期GDPでは、物価高などが個人消費の重しになり、4四半期ぶりのマイナス成長になりました。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  }
+ ],
+ "sources": [
+  {
+   "title": "ニッセイ基礎研究所「QE速報:2026年7-9月期の実質GDPは前期比▲0.0%(年率▲0.1%)」(2026年11月16日)",
+   "url": "https://www.nli-research.co.jp/report/detail/id=87344?site=nli"
+  },
+  {
+   "title": "Xinhua「Japan's Q3 real GDP shrinks 0.1 pct」(2026年11月16日)",
+   "url": "https://english.news.cn/20261116/0c28de96af58410caa740fd0f0001fe6/c.html"
+  },
+  {
+   "title": "Seoul Economic Daily「Japan's GDP Shrinks 0.1% in Third Quarter, First Drop in a Year」(2026年11月16日)",
+   "url": "https://en.sedaily.com/world/2026/11/16/japans-gdp-shrinks-01-percent-in-third-quarter-first-drop"
+  },
+  {
+   "title": "NOVAIST「2026年7〜9月期の実質GDP、年率0.1%減 4四半期ぶりマイナス成長」(2026年11月16日)",
+   "url": "https://novaist.jp/articles/japan-economy-shrinks/"
+  },
+  {
+   "title": "みんかぶFX「東京時間に伝わった指標・ニュース」(2026年11月16日)",
+   "url": "https://fx.minkabu.jp/news/384528"
+  }
+ ],
+ "readings": [
+  [
+   "0.02%",
+   "れいてんれいにパーセント"
+  ],
+  [
+   "0.1%",
+   "れいてんいちパーセント"
+  ],
+  [
+   "0.2%",
+   "れいてんにパーセント"
+  ],
+  [
+   "0.3%",
+   "れいてんさんパーセント"
+  ],
+  [
+   "0.4%",
+   "れいてんよんパーセント"
+  ],
+  [
+   "1.6%",
+   "いってんろくパーセント"
+  ],
+  [
+   "2.5%",
+   "にいてんごパーセント"
+  ],
+  [
+   "4四半期",
+   "よんしはんき"
+  ],
+  [
+   "2四半期",
+   "にしはんき"
+  ],
+  [
+   "16日",
+   "じゅうろくにち"
+  ],
+  [
+   "12月8日",
+   "じゅうにがつようか"
+  ],
+  [
+   "日銀",
+   "にちぎん"
+  ],
+  [
+   "内閣府",
+   "ないかくふ"
+  ],
+  [
+   "1次速報",
+   "いちじそくほう"
+  ],
+  [
+   "2次速報",
+   "にじそくほう"
+  ],
+  [
+   "GDP",
+   "ジーディーピー"
+  ],
+  [
+   "駆け込み",
+   "かけこみ"
+  ]
+ ]
+}
