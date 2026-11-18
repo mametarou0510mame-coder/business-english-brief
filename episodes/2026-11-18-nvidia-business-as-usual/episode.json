@@ -1,0 +1,889 @@
+{
+ "id": "2026-11-18-nvidia-business-as-usual",
+ "episode": "#40",
+ "date": "2026-11-18",
+ "series": "速報",
+ "title_card": {
+  "line1": "エヌビディア、売上2倍",
+  "line2": "暫定CEOの初決算を英語で"
+ },
+ "publish": {
+  "long": "2026-11-18T18:41:00+09:00",
+  "shorts": [
+   "2026-11-18T18:41:00+09:00",
+   "2026-11-18T21:41:00+09:00"
+  ]
+ },
+ "phrases": [
+  {
+   "en": "business as usual",
+   "jp": "通常どおり",
+   "ex": "During the office move, it's business as usual for our customers.",
+   "ex_jp": "オフィス移転中も、お客様への対応は通常どおりです。"
+  },
+  {
+   "en": "on track",
+   "jp": "予定どおり進んでいる",
+   "ex": "The new system is on track for an April launch.",
+   "ex_jp": "新システムは、4月の稼働に向けて予定どおり進んでいます。"
+  },
+  {
+   "en": "stay disciplined",
+   "jp": "規律を保つ",
+   "ex": "Sales are strong, but we need to stay disciplined on costs.",
+   "ex_jp": "売上は好調ですが、コストについては規律を保つ必要があります。"
+  }
+ ],
+ "words": [
+  {
+   "en": "interim CEO",
+   "jp": "暫定CEO"
+  },
+  {
+   "en": "guidance",
+   "jp": "業績見通し"
+  },
+  {
+   "en": "commitments",
+   "jp": "(支払いなどの)約束・確約"
+  }
+ ],
+ "homework": {
+  "en": "What project of yours is on track right now?",
+  "jp": "いま予定どおり進んでいる仕事は?",
+  "hl": [
+   "on track"
+  ],
+  "say": "最後に宿題です。いま、あなたの仕事で予定どおり進んでいるものは何ですか。on trackを使って英語で一文、コメント欄に書いてみてください。"
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "beats": [
+    {
+     "id": "h01",
+     "kind": "jp",
+     "jp": "CEOの突然の辞任から5日。エヌビディアが決算を発表しました。売上高は、1年前の2倍を超えました。",
+     "en": "Five days after its CEO quit, Nvidia reported results. Revenue more than doubled from a year ago.",
+     "vis": {
+      "t": "hero",
+      "kicker": "NVIDIA · AUG–OCT 2026",
+      "big": "×2",
+      "color": "green",
+      "crack": false,
+      "sub": "売上高 前年同期比+103%",
+      "sub_color": "gold"
+     }
+    },
+    {
+     "id": "h02",
+     "kind": "jp",
+     "jp": "トップが替わっても、会社はいつもどおり動いている。この「通常どおり」を、英語でさっと言えますか。",
+     "en": "New leader, same business. Can you say 'as normal' the way English speakers do?",
+     "vis": {
+      "t": "hero_side",
+      "big": "通常?",
+      "color": "gold",
+      "text": "business as ...",
+      "jp": "通常どおり"
+     }
+    },
+    {
+     "id": "h03",
+     "kind": "jp",
+     "jp": "今日は速報です。このニュースから、会議で使える英語を3つ。最後に答え合わせをします。",
+     "en": "Breaking news, and three phrases for your next meeting.",
+     "vis": {
+      "t": "teaser"
+     }
+    }
+   ]
+  },
+  {
+   "id": "what",
+   "chapter": "何が起きたか",
+   "beats": [
+    {
+     "id": "n01",
+     "kind": "jp",
+     "jp": "アメリカ時間の11月17日に発表された、8月から10月の売上高は1158億ドル。前の年の同じ時期より103%増えました。",
+     "en": "Revenue for August to October was $115.8 billion, up 103% year on year.",
+     "vis": {
+      "t": "counter",
+      "kicker": "REVENUE · Q3 FY2027",
+      "to": 115.8,
+      "prefix": "$",
+      "suffix": "B",
+      "decimals": 1,
+      "color": "green",
+      "sub": "売上高(8〜10月期)",
+      "note": "前年同期比+103%・前の期比+20%"
+     }
+    },
+    {
+     "id": "n02",
+     "kind": "jp",
+     "jp": "市場の予想は、およそ1091億ドルでした。それを大きく上回る結果です。",
+     "en": "The market had expected about $109.1 billion. Nvidia beat that comfortably.",
+     "vis": {
+      "t": "bars",
+      "title": "8〜10月期の売上高",
+      "unit": "億ドル",
+      "items": [
+       {
+        "label": "市場予想",
+        "value": 1091,
+        "display": "約1091億ドル",
+        "color": "muted"
+       },
+       {
+        "label": "結果",
+        "value": 1158,
+        "display": "1158億ドル",
+        "color": "green"
+       }
+      ],
+      "note": "予想:OANDA証券が伝えた市場予想"
+     }
+    },
+    {
+     "id": "n03",
+     "kind": "jp",
+     "jp": "けん引したのは、AI向けのデータセンター事業。1076億ドルで、売上の9割以上を占めます。",
+     "en": "The AI data center business brought in $107.6 billion, over 90% of the total.",
+     "vis": {
+      "t": "cards",
+      "show": 1,
+      "footer": "8〜10月期(2027年度第3四半期)",
+      "items": [
+       {
+        "name": "データセンター",
+        "big": "$107.6B",
+        "sub": "前年同期比+110%",
+        "color": "green"
+       },
+       {
+        "name": "純利益",
+        "big": "$65.3B",
+        "sub": "売上の半分以上が利益",
+        "color": "gold"
+       },
+       {
+        "name": "粗利益率",
+        "big": "74.8%",
+        "sub": "前の期の75.0%から小幅低下",
+        "color": "blue"
+       }
+      ]
+     }
+    },
+    {
+     "id": "n04",
+     "kind": "jp",
+     "jp": "純利益は653億ドル。売上の半分以上が、利益として残った計算です。",
+     "en": "Net income was $65.3 billion, more than half of revenue.",
+     "vis": {
+      "t": "cards",
+      "show": 3,
+      "footer": "8〜10月期(2027年度第3四半期)",
+      "items": [
+       {
+        "name": "データセンター",
+        "big": "$107.6B",
+        "sub": "前年同期比+110%",
+        "color": "green"
+       },
+       {
+        "name": "純利益",
+        "big": "$65.3B",
+        "sub": "売上の半分以上が利益",
+        "color": "gold"
+       },
+       {
+        "name": "粗利益率",
+        "big": "74.8%",
+        "sub": "前の期の75.0%から小幅低下",
+        "color": "blue"
+       }
+      ]
+     }
+    },
+    {
+     "id": "n05",
+     "kind": "jp",
+     "jp": "暫定CEOのコレット・クレス氏は、勢いは本物だ、と強調しました。",
+     "en": "Interim CEO Colette Kress stressed that the momentum is real.",
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "Our momentum is real."
+      ],
+      "hl": [
+       "momentum"
+      ],
+      "by": "Colette Kress, interim CEO & CFO"
+     }
+    },
+    {
+     "id": "n06",
+     "kind": "jp",
+     "jp": "トップが替わっても、仕事はいつもどおり進む。英語では、ビジネス・アズ・ユージュアルと言います。",
+     "en": "When work goes on as normal despite a change, it's business as usual.",
+     "hl": [
+      "business as usual"
+     ],
+     "star": true,
+     "vis": {
+      "t": "hero_side",
+      "big": "平常",
+      "color": "gold",
+      "text": "business as usual",
+      "jp": "通常どおり"
+     }
+    },
+    {
+     "id": "n07",
+     "kind": "en_insert",
+     "jp": "通常どおり",
+     "en": "business as usual",
+     "hl": [
+      "business as usual"
+     ],
+     "star": true,
+     "vis": {
+      "t": "hero_side",
+      "big": "平常",
+      "color": "gold",
+      "text": "business as usual",
+      "jp": "通常どおり"
+     }
+    },
+    {
+     "id": "n08",
+     "kind": "jp",
+     "jp": "アメリカのメディアも、暫定CEOのもとで通常どおりの姿を示した、と伝えています。移転やシステム更新の案内でも、よく使う表現です。",
+     "en": "US media said Nvidia signaled business as usual. You'll see it in notices about moves and system changes too.",
+     "hl": [
+      "business as usual"
+     ],
+     "vis": {
+      "t": "hero_side",
+      "big": "平常",
+      "color": "gold",
+      "text": "business as usual",
+      "jp": "通常どおり"
+     }
+    }
+   ]
+  },
+  {
+   "id": "next",
+   "chapter": "これからの見通し",
+   "beats": [
+    {
+     "id": "x01",
+     "kind": "jp",
+     "jp": "次の11月から1月の売上見通しは、1300億ドル。プラスマイナス3%の幅を持たせています。",
+     "en": "Guidance for November to January: $130 billion, plus or minus 3%.",
+     "vis": {
+      "t": "counter",
+      "kicker": "GUIDANCE · NOV–JAN",
+      "big": "$130B",
+      "color": "gold",
+      "sub": "11〜1月期の売上見通し(±3%)",
+      "note": "中国のデータセンター向けは含まず"
+     }
+    },
+    {
+     "id": "x02",
+     "kind": "jp",
+     "jp": "ただし、この期間はいつもより1週間長い計算です。OANDA証券は、その分を除くとおよそ1207億ドルと試算しています。",
+     "en": "But the quarter has an extra week. OANDA estimates about $120.7 billion without it.",
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "見通し1300億ドル",
+        "mid": "1週間長い",
+        "res": "除くと約1207億ドル",
+        "ok": true
+       }
+      ]
+     }
+    },
+    {
+     "id": "x03",
+     "kind": "jp",
+     "jp": "さらに会社は、2028年度の売上の伸びの見通しを、70%から75%に引き上げました。",
+     "en": "Nvidia also raised its growth outlook for fiscal 2028 from 70% to about 75%.",
+     "vis": {
+      "t": "vs",
+      "left": {
+       "en": "before",
+       "label": "従来の見通し",
+       "val": "+70%",
+       "up": true,
+       "color": "muted"
+      },
+      "right": {
+       "en": "now",
+       "label": "新しい見通し",
+       "val": "+75%",
+       "up": true,
+       "color": "green"
+      },
+      "mid": "2028年度の売上の伸び"
+     }
+    },
+    {
+     "id": "x04",
+     "kind": "jp",
+     "jp": "クレス氏は、製品の計画は予定どおりだ、とも話しました。",
+     "en": "Kress also said the product roadmap is on track.",
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "Our roadmap is on track."
+      ],
+      "hl": [
+       "on track"
+      ],
+      "by": "Colette Kress, interim CEO & CFO"
+     }
+    },
+    {
+     "id": "x05",
+     "kind": "jp",
+     "jp": "計画どおりに進んでいる。英語で、オン・トラックです。列車が線路の上を、外れずに走るイメージです。",
+     "en": "Going to plan is being on track, like a train staying on the rails.",
+     "hl": [
+      "on track"
+     ],
+     "star": true,
+     "vis": {
+      "t": "hero_side",
+      "big": "予定",
+      "color": "green",
+      "text": "on track",
+      "jp": "予定どおり進んでいる"
+     }
+    },
+    {
+     "id": "x06",
+     "kind": "en_insert",
+     "jp": "予定どおり進んでいる",
+     "en": "on track",
+     "hl": [
+      "on track"
+     ],
+     "star": true,
+     "vis": {
+      "t": "hero_side",
+      "big": "予定",
+      "color": "green",
+      "text": "on track",
+      "jp": "予定どおり進んでいる"
+     }
+    },
+    {
+     "id": "x07",
+     "kind": "jp",
+     "jp": "一方、取締役会のハーヴェイ・ジョーンズ会長は、フアン氏をCEOに戻すつもりはない、と述べました。後任は社内外から探します。",
+     "en": "Chairman Harvey Jones said Huang won't return as CEO. A successor will be sought inside and outside.",
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "The board does not intend",
+       "to reinstate Jensen as CEO."
+      ],
+      "hl": [
+       "does not intend"
+      ],
+      "by": "Harvey Jones, Chairman"
+     }
+    }
+   ]
+  },
+  {
+   "id": "risk",
+   "chapter": "気になる点",
+   "beats": [
+    {
+     "id": "r01",
+     "kind": "jp",
+     "jp": "気になる点もあります。クラウドの利用契約やデータセンターの賃借など、将来の支払いの約束は1020億ドル。前の期の740億ドルから増えました。",
+     "en": "Future commitments, like cloud deals and data center leases, rose to $102 billion from $74 billion.",
+     "vis": {
+      "t": "bars",
+      "title": "将来の支払いの約束(クラウド利用・賃借など)",
+      "unit": "億ドル",
+      "items": [
+       {
+        "label": "前の期",
+        "value": 740,
+        "display": "740億ドル",
+        "color": "muted"
+       },
+       {
+        "label": "今回",
+        "value": 1020,
+        "display": "1020億ドル",
+        "color": "red"
+       }
+      ],
+      "note": "Constellation Researchの報道より"
+     }
+    },
+    {
+     "id": "r02",
+     "kind": "jp",
+     "jp": "クレス氏は、今後の投資や保証については、慎重に、規律を持って判断すると話しています。",
+     "en": "Kress said Nvidia will be thoughtful and disciplined about future investments and guarantees.",
+     "vis": {
+      "t": "bars",
+      "title": "将来の支払いの約束(クラウド利用・賃借など)",
+      "unit": "億ドル",
+      "items": [
+       {
+        "label": "前の期",
+        "value": 740,
+        "display": "740億ドル",
+        "color": "muted"
+       },
+       {
+        "label": "今回",
+        "value": 1020,
+        "display": "1020億ドル",
+        "color": "red"
+       }
+      ],
+      "note": "Constellation Researchの報道より"
+     }
+    },
+    {
+     "id": "r03",
+     "kind": "jp",
+     "jp": "勢いに流されず、お金の使い方のルールを守る。英語で、ステイ・ディシプリンドと言います。",
+     "en": "Not getting carried away with spending is to stay disciplined.",
+     "hl": [
+      "stay disciplined"
+     ],
+     "star": true,
+     "vis": {
+      "t": "hero_side",
+      "big": "規律",
+      "color": "blue",
+      "text": "stay disciplined",
+      "jp": "規律を保つ"
+     }
+    },
+    {
+     "id": "r04",
+     "kind": "en_insert",
+     "jp": "規律を保つ",
+     "en": "stay disciplined",
+     "hl": [
+      "stay disciplined"
+     ],
+     "star": true,
+     "vis": {
+      "t": "hero_side",
+      "big": "規律",
+      "color": "blue",
+      "text": "stay disciplined",
+      "jp": "規律を保つ"
+     }
+    },
+    {
+     "id": "r05",
+     "kind": "jp",
+     "jp": "また、次の期の見通しには、中国のデータセンター向けの売上を含めていません。8月から10月の中国向け出荷は、24億ドルでした。",
+     "en": "The outlook assumes no data center sales to China. Q3 shipments there were $2.4 billion.",
+     "vis": {
+      "t": "globe",
+      "title": "中国向けは見通しに含めず",
+      "lines": [
+       {
+        "text": "8〜10月の中国向け出荷 24億ドル",
+        "color": "gold"
+       },
+       {
+        "text": "11〜1月期の見通し:ゼロで計算",
+        "color": "red"
+       }
+      ],
+      "points": [
+       {
+        "label": "Nvidia(米国)",
+        "lat": 37.4,
+        "lon": -122.0,
+        "color": "green"
+       },
+       {
+        "label": "中国",
+        "lat": 39.9,
+        "lon": 116.4,
+        "color": "red"
+       }
+      ],
+      "arcs": [
+       [
+        0,
+        1
+       ]
+      ],
+      "lon": 0,
+      "lat": 30
+     }
+    }
+   ]
+  },
+  {
+   "id": "insight",
+   "chapter": "私たちへの意味",
+   "beats": [
+    {
+     "id": "i01",
+     "kind": "jp",
+     "jp": "ここからは、日本で働く私たちにとっての意味を考えます。",
+     "en": "What does this mean for those of us working in Japan?",
+     "vis": {
+      "t": "statement",
+      "kicker": "SO WHAT?",
+      "text": "日本で働く私たちにとっての意味"
+     }
+    },
+    {
+     "id": "i02",
+     "kind": "jp",
+     "jp": "まずは引き継ぎの伝え方。担当者が替わるとき、お客様への対応は通常どおりです、と一言そえる。それだけで取引先は安心します。",
+     "en": "First, handovers. When the person in charge changes, tell clients it's business as usual.",
+     "hl": [
+      "business as usual"
+     ],
+     "vis": {
+      "t": "points",
+      "show": 1,
+      "items": [
+       {
+        "head": "引き継ぎの一言",
+        "big": "as usual",
+        "sub": "取引先を安心させる",
+        "color": "gold"
+       },
+       {
+        "head": "日本への波及",
+        "big": "装置・部材",
+        "sub": "AI投資の波が届く",
+        "color": "blue"
+       },
+       {
+        "head": "逆の見方",
+        "big": "まだ早い",
+        "sub": "後任も調査も未定",
+        "color": "red"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i03",
+     "kind": "jp",
+     "jp": "次に、日本企業への波及です。AIのデータセンターには、半導体の検査装置や製造装置が欠かせません。アドバンテストや東京エレクトロンなど、日本の関連企業も多くあります。",
+     "en": "Second, the ripple effect. AI data centers need chip testing and making equipment, and many suppliers are Japanese.",
+     "vis": {
+      "t": "points",
+      "show": 2,
+      "items": [
+       {
+        "head": "引き継ぎの一言",
+        "big": "as usual",
+        "sub": "取引先を安心させる",
+        "color": "gold"
+       },
+       {
+        "head": "日本への波及",
+        "big": "装置・部材",
+        "sub": "AI投資の波が届く",
+        "color": "blue"
+       },
+       {
+        "head": "逆の見方",
+        "big": "まだ早い",
+        "sub": "後任も調査も未定",
+        "color": "red"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i04",
+     "kind": "jp",
+     "jp": "取引先のAI投資は、予定どおり進んでいるのか。オン・トラックかを確かめる質問は、営業や調達の会議で役に立ちます。",
+     "en": "Asking whether a client's AI plans are on track is useful in sales and purchasing meetings.",
+     "hl": [
+      "on track"
+     ],
+     "vis": {
+      "t": "points",
+      "show": 2,
+      "items": [
+       {
+        "head": "引き継ぎの一言",
+        "big": "as usual",
+        "sub": "取引先を安心させる",
+        "color": "gold"
+       },
+       {
+        "head": "日本への波及",
+        "big": "装置・部材",
+        "sub": "AI投資の波が届く",
+        "color": "blue"
+       },
+       {
+        "head": "逆の見方",
+        "big": "まだ早い",
+        "sub": "後任も調査も未定",
+        "color": "red"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i05",
+     "kind": "jp",
+     "jp": "一方で、逆の見方もあります。後任のCEOはまだ決まらず、取締役会の独立した調査も続いています。決算の場では、辞任や調査についての質問には答えませんでした。",
+     "en": "On the other hand, there's no permanent CEO yet, the board's probe continues, and questions about it went unanswered.",
+     "vis": {
+      "t": "points",
+      "show": 3,
+      "items": [
+       {
+        "head": "引き継ぎの一言",
+        "big": "as usual",
+        "sub": "取引先を安心させる",
+        "color": "gold"
+       },
+       {
+        "head": "日本への波及",
+        "big": "装置・部材",
+        "sub": "AI投資の波が届く",
+        "color": "blue"
+       },
+       {
+        "head": "逆の見方",
+        "big": "まだ早い",
+        "sub": "後任も調査も未定",
+        "color": "red"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i06",
+     "kind": "jp",
+     "jp": "数字が良いだけで、通常どおりと言い切るのは、まだ早い。そんな見方もあることを、覚えておきましょう。",
+     "en": "Strong numbers alone may not prove it's business as usual. Keep that view in mind too.",
+     "hl": [
+      "business as usual"
+     ],
+     "vis": {
+      "t": "points",
+      "show": 3,
+      "items": [
+       {
+        "head": "引き継ぎの一言",
+        "big": "as usual",
+        "sub": "取引先を安心させる",
+        "color": "gold"
+       },
+       {
+        "head": "日本への波及",
+        "big": "装置・部材",
+        "sub": "AI投資の波が届く",
+        "color": "blue"
+       },
+       {
+        "head": "逆の見方",
+        "big": "まだ早い",
+        "sub": "後任も調査も未定",
+        "color": "red"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "「通常どおり」は英語で?business as usualの使い方|エヌビディア決算、売上2倍【ビジネス英語ニュース #40】",
+  "summary": "エヌビディアが2026年11月17日(米国時間)に発表した8〜10月期決算は、売上高が前年同期比103%増の1158億ドルで、ジェンスン・フアン氏の辞任後、暫定CEOのコレット・クレス氏のもとで初めての決算でした。このニュースを日本語で解説し、会議で使える英語「business as usual」「on track」「stay disciplined」を身につけます。",
+  "tags": [
+   "ビジネス英語",
+   "英語学習",
+   "ニュース英語",
+   "時事英語",
+   "会議 英語",
+   "エヌビディア",
+   "NVIDIA",
+   "決算",
+   "暫定CEO",
+   "通常どおり 英語",
+   "AI",
+   "半導体",
+   "速報",
+   "business English"
+  ]
+ },
+ "thumbnail": {
+  "big": "売上2倍",
+  "big_color": "green",
+  "under": "エヌビディア 暫定CEOの初決算",
+  "badge": "速報",
+  "badge_color": "red",
+  "question": "英語で言える?",
+  "pill": "business as usual",
+  "bottom": "会議で使える英語3つ",
+  "crack": false
+ },
+ "shorts": [
+  {
+   "phrase": 0,
+   "news_hook": [
+    "エヌビディア",
+    "売上が2倍に"
+   ],
+   "hook": [
+    "「通常どおり」",
+    "英語で言える?"
+   ],
+   "ctx": "CEO辞任から5日、暫定CEOのもとで売上1158億ドルの決算",
+   "title": "「通常どおり」は英語で?エヌビディア売上2倍 #ビジネス英語 #shorts",
+   "ig_caption": "「通常どおり」を英語で言えますか?\n\n✅ business as usual\n通常どおり\n\n例文:During the office move, it's business as usual for our customers.\n(オフィス移転中も、お客様への対応は通常どおりです。)\n\nエヌビディアは、CEO辞任から5日後の決算で売上高1158億ドル(前年同期比103%増)を発表。暫定CEOのもとで「通常どおり」の姿を示しました(11月17日・米国時間)。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  },
+  {
+   "phrase": 1,
+   "style": "quiz",
+   "badge": "会議で使う英語|初級",
+   "news_hook": [
+    "計画は",
+    "予定どおり?"
+   ],
+   "hook": [
+    "on track",
+    "って?"
+   ],
+   "ctx": "計画やプロジェクトが予定どおり進んでいるときに使う表現",
+   "title": "「on track」の意味、わかる?|会議の英語 #shorts",
+   "ig_caption": "「on track」の意味、わかりますか?\n\n✅ on track\n予定どおり進んでいる\n\n例文:The new system is on track for an April launch.\n(新システムは、4月の稼働に向けて予定どおり進んでいます。)\n\nエヌビディアの暫定CEOは、決算説明で「製品の計画は予定どおり(on track)」と話しました。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  }
+ ],
+ "sources": [
+  {
+   "title": "NVIDIA「NVIDIA Announces Financial Results for Third Quarter Fiscal 2027」(SEC Form 8-K, 2026年11月17日)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000088/q3fy27pr.htm"
+  },
+  {
+   "title": "Constellation Research「Nvidia posts strong Q3, ups Q4, fiscal 2028 outlook amid Huang resignation」",
+   "url": "https://www.constellationr.com/insights/news/nvidia-posts-strong-q3-ups-q4-fiscal-2028-outlook-amid-huang-resignation"
+  },
+  {
+   "title": "PYMNTS「Nvidia Signals Business as Usual Under Interim CEO」",
+   "url": "https://www.pymnts.com/earnings/2026/nvidia-signals-business-as-usual-under-interim-ceo/"
+  },
+  {
+   "title": "OANDA証券「エヌビディア決算(8〜10月期)の結果」(2026年11月18日)",
+   "url": "https://www.oanda.jp/lab-education/market_news/20261118_nvidia_earnings_result/"
+  },
+  {
+   "title": "みんかぶFX「東京時間に伝わった指標・ニュース」(2026年11月18日)",
+   "url": "https://fx.minkabu.jp/news/384799"
+  }
+ ],
+ "readings": [
+  [
+   "Nvidia",
+   "エヌビディア"
+  ],
+  [
+   "1158億ドル",
+   "せんひゃくごじゅうはちおくドル"
+  ],
+  [
+   "1091億ドル",
+   "せんきゅうじゅういちおくドル"
+  ],
+  [
+   "1076億ドル",
+   "せんななじゅうろくおくドル"
+  ],
+  [
+   "653億ドル",
+   "ろっぴゃくごじゅうさんおくドル"
+  ],
+  [
+   "1300億ドル",
+   "せんさんびゃくおくドル"
+  ],
+  [
+   "1207億ドル",
+   "せんにひゃくななおくドル"
+  ],
+  [
+   "1020億ドル",
+   "せんにじゅうおくドル"
+  ],
+  [
+   "740億ドル",
+   "ななひゃくよんじゅうおくドル"
+  ],
+  [
+   "24億ドル",
+   "にじゅうよんおくドル"
+  ],
+  [
+   "103%",
+   "ひゃくさんパーセント"
+  ],
+  [
+   "75%",
+   "ななじゅうごパーセント"
+  ],
+  [
+   "70%",
+   "ななじゅっパーセント"
+  ],
+  [
+   "3%",
+   "さんパーセント"
+  ],
+  [
+   "9割",
+   "きゅうわり"
+  ],
+  [
+   "17日",
+   "じゅうしちにち"
+  ],
+  [
+   "5日",
+   "いつか"
+  ],
+  [
+   "2028年度",
+   "にせんにじゅうはちねんど"
+  ],
+  [
+   "1週間",
+   "いっしゅうかん"
+  ],
+  [
+   "OANDA証券",
+   "オアンダしょうけん"
+  ],
+  [
+   "取締役会",
+   "とりしまりやくかい"
+  ]
+ ]
+}
