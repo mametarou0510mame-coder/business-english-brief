@@ -1,0 +1,685 @@
+{
+ "id": "2026-11-26-nadella-somebody-else-will",
+ "episode": "#45",
+ "date": "2026-11-18",
+ "series": "経営者の一言を読む",
+ "title_card": {
+  "line1": "「やらなければ、誰かがやる」",
+  "line2": "ナデラCEOのAI予言を英語で読む"
+ },
+ "publish": {
+  "long": "2026-11-26T07:00:00+09:00",
+  "shorts": [
+   "2026-11-26T12:00:00+09:00",
+   "2026-11-26T21:00:00+09:00"
+  ]
+ },
+ "phrases": [
+  {
+   "en": "somebody else will",
+   "jp": "(自分がやらなければ)ほかの誰かがやる",
+   "ex": "If we don't make an offer today, somebody else will.",
+   "ex_jp": "今日こちらから提案しなければ、ほかの会社が提案しますよ。"
+  },
+  {
+   "en": "scramble",
+   "jp": "大急ぎで対応する・慌てて動く",
+   "ex": "We had to scramble to fix the schedule after the client's call.",
+   "ex_jp": "お客様の電話のあと、スケジュールの調整に大慌てで動きました。"
+  },
+  {
+   "en": "in some sense",
+   "jp": "ある意味では",
+   "ex": "In some sense, this delay is a good problem to have.",
+   "ex_jp": "ある意味では、この遅れは贅沢な悩みです。"
+  }
+ ],
+ "words": [
+  {
+   "en": "business model",
+   "jp": "ビジネスモデル(稼ぎ方)"
+  },
+  {
+   "en": "aggregator",
+   "jp": "まとめ・仲介サイト"
+  },
+  {
+   "en": "transactional",
+   "jp": "取引ごとの"
+  }
+ ],
+ "homework": {
+  "en": "What would you do before somebody else does?",
+  "jp": "誰かに先を越される前に、あなたがやりたいことは?",
+  "hl": [
+   "somebody else"
+  ],
+  "say": "最後に宿題です。ほかの誰かに先を越される前に、あなたがやっておきたいことは何ですか。英語で、コメント欄に書いてみてください。"
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "beats": [
+    {
+     "id": "h01",
+     "kind": "jp",
+     "jp": "AIエージェントを受け入れなければ、ほかの誰かが受け入れる。",
+     "en": "If you don't accept the agent, somebody else will.",
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "if you don't accept the agent,",
+       "somebody else will."
+      ],
+      "hl": [
+       "somebody else will"
+      ],
+      "by": "Satya Nadella, CEO, Microsoft(DealBook Summit, 11月18日)"
+     },
+     "hl": [
+      "somebody else will"
+     ]
+    },
+    {
+     "id": "h02",
+     "kind": "jp",
+     "jp": "マイクロソフトのサティア・ナデラCEOが、ネットの稼ぎ方が組み替わる、と語りました。",
+     "en": "Microsoft CEO Satya Nadella says the economics of the web will be reshuffled.",
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "if you don't accept the agent,",
+       "somebody else will."
+      ],
+      "hl": [
+       "somebody else will"
+      ],
+      "by": "Satya Nadella, CEO, Microsoft(DealBook Summit, 11月18日)"
+     }
+    },
+    {
+     "id": "h03",
+     "kind": "jp",
+     "jp": "今日はこのニュースから、会議で使える英語を3つ。最後に答え合わせをします。",
+     "en": "Three phrases for your next meeting. Answers at the end.",
+     "vis": {
+      "t": "teaser"
+     }
+    }
+   ]
+  },
+  {
+   "id": "what",
+   "chapter": "ナデラ氏は何を語ったか",
+   "beats": [
+    {
+     "id": "n01",
+     "kind": "jp",
+     "jp": "舞台は11月18日、ニューヨーク・タイムズが開いたディールブック・サミットです。",
+     "en": "He spoke at The New York Times DealBook Summit on November 18.",
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "これまで",
+        "mid": "人が検索して見る",
+        "res": "広告で稼ぐ",
+        "ok": true
+       },
+       {
+        "a": "これから?",
+        "mid": "AIが代わりに探す",
+        "res": "広告を見る人が減る",
+        "ok": false
+       },
+       {
+        "a": "ナデラ氏",
+        "mid": "稼ぎ方の組み替え",
+        "res": "取引ごとの課金へ?",
+        "ok": true
+       }
+      ]
+     }
+    },
+    {
+     "id": "n02",
+     "kind": "jp",
+     "jp": "これまでのネットは、人が検索してサイトを見て、そこに広告が出る仕組みでした。",
+     "en": "Until now, people searched, visited sites and saw ads.",
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "これまで",
+        "mid": "人が検索して見る",
+        "res": "広告で稼ぐ",
+        "ok": true
+       },
+       {
+        "a": "これから?",
+        "mid": "AIが代わりに探す",
+        "res": "広告を見る人が減る",
+        "ok": false
+       },
+       {
+        "a": "ナデラ氏",
+        "mid": "稼ぎ方の組み替え",
+        "res": "取引ごとの課金へ?",
+        "ok": true
+       }
+      ]
+     }
+    },
+    {
+     "id": "n03",
+     "kind": "jp",
+     "jp": "ナデラ氏は、AIのエージェントが人の代わりに探すようになると、この稼ぎ方そのものが揺らぐと見ています。",
+     "en": "He expects AI agents searching for us to shake up that model.",
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "これまで",
+        "mid": "人が検索して見る",
+        "res": "広告で稼ぐ",
+        "ok": true
+       },
+       {
+        "a": "これから?",
+        "mid": "AIが代わりに探す",
+        "res": "広告を見る人が減る",
+        "ok": false
+       },
+       {
+        "a": "ナデラ氏",
+        "mid": "稼ぎ方の組み替え",
+        "res": "取引ごとの課金へ?",
+        "ok": true
+       }
+      ]
+     }
+    },
+    {
+     "id": "n04",
+     "kind": "jp",
+     "jp": "広告で稼ぐ会社は、クリックや取引ごとに稼ぐ形へ、移っていくかもしれないとも語りました。",
+     "en": "Ad-based firms may shift toward pay-per-click or more transactional models, he said.",
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "これまで",
+        "mid": "人が検索して見る",
+        "res": "広告で稼ぐ",
+        "ok": true
+       },
+       {
+        "a": "これから?",
+        "mid": "AIが代わりに探す",
+        "res": "広告を見る人が減る",
+        "ok": false
+       },
+       {
+        "a": "ナデラ氏",
+        "mid": "稼ぎ方の組み替え",
+        "res": "取引ごとの課金へ?",
+        "ok": true
+       }
+      ]
+     },
+     "hl": [
+      "transactional"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "q1",
+   "chapter": "誰かがやる",
+   "beats": [
+    {
+     "id": "q01",
+     "kind": "jp",
+     "jp": "例として挙げたのが、アマゾンです。アマゾンはAIのエージェントを締め出しています。",
+     "en": "He discussed Amazon, which blocks AI agents.",
+     "vis": {
+      "t": "cards",
+      "show": 2,
+      "footer": "ナデラ氏がDealBookで触れた例",
+      "items": [
+       {
+        "name": "Amazon",
+        "big": "締め出す",
+        "sub": "AIエージェントをブロック",
+        "note": "自社サイトを守る",
+        "color": "red"
+       },
+       {
+        "name": "Shopify",
+        "big": "受け入れる",
+        "sub": "AIを通す可能性",
+        "note": "それが有利になりうる",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q02",
+     "kind": "jp",
+     "jp": "一方で、ショッピファイのように受け入れる側が、有利になりうると話しました。",
+     "en": "A platform like Shopify could let them in and gain an edge.",
+     "vis": {
+      "t": "cards",
+      "show": 2,
+      "footer": "ナデラ氏がDealBookで触れた例",
+      "items": [
+       {
+        "name": "Amazon",
+        "big": "締め出す",
+        "sub": "AIエージェントをブロック",
+        "note": "自社サイトを守る",
+        "color": "red"
+       },
+       {
+        "name": "Shopify",
+        "big": "受け入れる",
+        "sub": "AIを通す可能性",
+        "note": "それが有利になりうる",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "q03",
+     "kind": "jp",
+     "jp": "そこで出たのが、冒頭の一言。受け入れなければ、ほかの誰かがやる。",
+     "en": "Hence his line: if you don't, somebody else will.",
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "if you don't accept the agent,",
+       "somebody else will."
+      ],
+      "hl": [
+       "somebody else will"
+      ],
+      "by": "Satya Nadella, CEO, Microsoft(DealBook Summit, 11月18日)"
+     },
+     "hl": [
+      "somebody else will"
+     ]
+    },
+    {
+     "id": "q04",
+     "kind": "jp",
+     "jp": "ほかの誰かがやる、は英語で、サムバディ・エルス・ウィル。後ろの動詞は省略されています。",
+     "en": "'Somebody else will' — the verb is left out.",
+     "vis": {
+      "t": "hero_side",
+      "big": "誰かがやる",
+      "color": "gold",
+      "text": "somebody else will",
+      "jp": "自分がやらなければ"
+     },
+     "star": true,
+     "hl": [
+      "somebody else will"
+     ]
+    },
+    {
+     "id": "q05",
+     "kind": "en_insert",
+     "jp": "今日提案しなければ、ほかの会社がしますよ",
+     "en": "If we don't make an offer today, somebody else will.",
+     "vis": {
+      "t": "hero_side",
+      "big": "誰かがやる",
+      "color": "gold",
+      "text": "somebody else will",
+      "jp": "自分がやらなければ"
+     },
+     "hl": [
+      "somebody else will"
+     ],
+     "star": true
+    },
+    {
+     "id": "q06",
+     "kind": "jp",
+     "jp": "決断をためらうチームの背中を押すときに、短く効く表現です。",
+     "en": "Short and strong when your team is hesitating.",
+     "vis": {
+      "t": "hero_side",
+      "big": "誰かがやる",
+      "color": "gold",
+      "text": "somebody else will",
+      "jp": "自分がやらなければ"
+     }
+    }
+   ]
+  },
+  {
+   "id": "q2",
+   "chapter": "慌てて動く",
+   "beats": [
+    {
+     "id": "q07",
+     "kind": "jp",
+     "jp": "ナデラ氏は、さらにこう続けました。特定のビジネスモデルに惚れ込んでいるなら、慌てて動くことになる。",
+     "en": "If you're in love with one business model, you'll have to scramble.",
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "if you're in love with",
+       "a particular business model,",
+       "you have to kind of scramble."
+      ],
+      "hl": [
+       "scramble"
+      ],
+      "by": "Satya Nadella, CEO, Microsoft"
+     },
+     "hl": [
+      "scramble"
+     ]
+    },
+    {
+     "id": "q08",
+     "kind": "jp",
+     "jp": "大急ぎで対応することを、英語で、スクランブルと言います。",
+     "en": "To rush to deal with something is to 'scramble.'",
+     "vis": {
+      "t": "hero_side",
+      "big": "大慌て",
+      "color": "red",
+      "text": "scramble",
+      "jp": "大急ぎで対応する"
+     },
+     "star": true,
+     "hl": [
+      "scramble"
+     ]
+    },
+    {
+     "id": "q09",
+     "kind": "en_insert",
+     "jp": "スケジュールの調整に大慌てで動きました",
+     "en": "We had to scramble to fix the schedule.",
+     "vis": {
+      "t": "hero_side",
+      "big": "大慌て",
+      "color": "red",
+      "text": "scramble",
+      "jp": "大急ぎで対応する"
+     },
+     "hl": [
+      "scramble"
+     ],
+     "star": true
+    },
+    {
+     "id": "q10",
+     "kind": "jp",
+     "jp": "スクランブルエッグのスクランブルと同じ。ばたばたとかき混ぜる様子が、慌ただしさのイメージです。",
+     "en": "Same word as scrambled eggs: a quick, messy stir.",
+     "vis": {
+      "t": "hero_side",
+      "big": "大慌て",
+      "color": "red",
+      "text": "scramble",
+      "jp": "大急ぎで対応する"
+     }
+    },
+    {
+     "id": "q11",
+     "kind": "jp",
+     "jp": "もうひとつの言葉がこちら。今の仲介サイトは、ある意味で、組み替えられる。",
+     "en": "Today's aggregators will, in some sense, be reshuffled.",
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "The current aggregators…",
+       "will get, in some sense,",
+       "reshuffled."
+      ],
+      "hl": [
+       "in some sense"
+      ],
+      "by": "Satya Nadella, CEO, Microsoft"
+     },
+     "hl": [
+      "in some sense"
+     ]
+    },
+    {
+     "id": "q12",
+     "kind": "jp",
+     "jp": "ある意味では、は英語で、イン・サム・センス。言い切らずに、見方をやわらかく示せます。",
+     "en": "'In some sense' softens a strong claim.",
+     "vis": {
+      "t": "hero_side",
+      "big": "ある意味",
+      "color": "blue",
+      "text": "in some sense",
+      "jp": "ある意味では"
+     },
+     "star": true,
+     "hl": [
+      "in some sense"
+     ]
+    },
+    {
+     "id": "q13",
+     "kind": "en_insert",
+     "jp": "ある意味では、贅沢な悩みです",
+     "en": "In some sense, it's a good problem to have.",
+     "vis": {
+      "t": "hero_side",
+      "big": "ある意味",
+      "color": "blue",
+      "text": "in some sense",
+      "jp": "ある意味では"
+     },
+     "hl": [
+      "In some sense"
+     ],
+     "star": true
+    }
+   ]
+  },
+  {
+   "id": "insight",
+   "chapter": "私たちへの意味",
+   "beats": [
+    {
+     "id": "i01",
+     "kind": "jp",
+     "jp": "ここからは、日本で働く私たちにとっての意味を考えます。",
+     "en": "What does this mean for those of us working in Japan?",
+     "vis": {
+      "t": "statement",
+      "kicker": "SO WHAT?",
+      "text": "日本で働く私たちにとっての意味"
+     }
+    },
+    {
+     "id": "i02",
+     "kind": "jp",
+     "jp": "日本の通販サイトやメディアも、検索から来る人と広告に支えられています。これからは、人より先に、AIに選ばれるかが問われそうです。",
+     "en": "Japanese shops and media rely on search and ads. Soon, AI may choose first.",
+     "vis": {
+      "t": "points",
+      "show": 1,
+      "items": [
+       {
+        "head": "日本のサイトも",
+        "big": "AIに\n選ばれるか",
+        "sub": "人の目より先に\nAIが比べる",
+        "color": "gold"
+       },
+       {
+        "head": "会議で使う",
+        "big": "先を越される\n前に",
+        "sub": "somebody else will\nで背中を押す",
+        "color": "blue"
+       },
+       {
+        "head": "逆の見方",
+        "big": "売る側の\n予言",
+        "sub": "マイクロソフトは\nAIを売る会社",
+        "color": "red"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i03",
+     "kind": "jp",
+     "jp": "社内の会議で新しい取り組みをためらう空気があるとき、サムバディ・エルス・ウィルは、角を立てずに危機感を伝えられます。",
+     "en": "When a meeting stalls, 'somebody else will' adds urgency politely.",
+     "vis": {
+      "t": "points",
+      "show": 2,
+      "items": [
+       {
+        "head": "日本のサイトも",
+        "big": "AIに\n選ばれるか",
+        "sub": "人の目より先に\nAIが比べる",
+        "color": "gold"
+       },
+       {
+        "head": "会議で使う",
+        "big": "先を越される\n前に",
+        "sub": "somebody else will\nで背中を押す",
+        "color": "blue"
+       },
+       {
+        "head": "逆の見方",
+        "big": "売る側の\n予言",
+        "sub": "マイクロソフトは\nAIを売る会社",
+        "color": "red"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i04",
+     "kind": "jp",
+     "jp": "一方で、逆の見方もあります。マイクロソフトは、AIのエージェントを売る側の会社です。この予言には、その立場も含まれていることを覚えておきましょう。",
+     "en": "On the other hand, Microsoft sells AI agents. Keep its interests in mind.",
+     "vis": {
+      "t": "points",
+      "show": 3,
+      "items": [
+       {
+        "head": "日本のサイトも",
+        "big": "AIに\n選ばれるか",
+        "sub": "人の目より先に\nAIが比べる",
+        "color": "gold"
+       },
+       {
+        "head": "会議で使う",
+        "big": "先を越される\n前に",
+        "sub": "somebody else will\nで背中を押す",
+        "color": "blue"
+       },
+       {
+        "head": "逆の見方",
+        "big": "売る側の\n予言",
+        "sub": "マイクロソフトは\nAIを売る会社",
+        "color": "red"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "「誰かがやる」は英語で?somebody else willの使い方|ナデラCEOのAI予言【ビジネス英語ニュース #45】",
+  "summary": "マイクロソフトのサティア・ナデラCEOは2026年11月18日のDealBook Summitで、AIエージェントがネットの稼ぎ方を組み替えると語りました。「受け入れなければ、誰かが受け入れる」など、経営者の言葉から somebody else will / scramble / in some sense を学びます。",
+  "tags": [
+   "ビジネス英語",
+   "英語学習",
+   "ニュース英語",
+   "経営者 英語",
+   "会議 英語",
+   "マイクロソフト",
+   "Microsoft",
+   "ナデラ",
+   "AIエージェント",
+   "DealBook",
+   "社会人 英語",
+   "TOEIC",
+   "教養",
+   "business English"
+  ]
+ },
+ "thumbnail": {
+  "big": "誰かがやる",
+  "big_color": "gold",
+  "under": "マイクロソフトCEOの一言",
+  "badge": "経営者の一言",
+  "badge_color": "blue",
+  "question": "英語で言うと?",
+  "pill": "somebody else will",
+  "bottom": "会議で使える英語3つ",
+  "crack": false
+ },
+ "shorts": [
+  {
+   "phrase": 0,
+   "style": "quiz",
+   "badge": "会議で使う英語|中級",
+   "news_hook": [
+    "マイクロソフトCEO",
+    "AIの予言"
+   ],
+   "hook": [
+    "somebody else will",
+    "どういう意味?"
+   ],
+   "ctx": "決断を促すときの短い一言",
+   "title": "「somebody else will」の意味、わかる?|会議の英語 #shorts",
+   "ig_caption": "「somebody else will」の意味、わかりますか?\n\n✅ somebody else will\n(自分がやらなければ)ほかの誰かがやる\n\n例文:If we don't make an offer today, somebody else will.\n(今日こちらから提案しなければ、ほかの会社が提案しますよ。)\n\nマイクロソフトのナデラCEOは「AIエージェントを受け入れなければ、誰かが受け入れる」と語りました。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  },
+  {
+   "phrase": 1,
+   "style": "quiz",
+   "badge": "会議で使う英語|中級",
+   "news_hook": [
+    "稼ぎ方が",
+    "変わるとき"
+   ],
+   "hook": [
+    "scramble",
+    "どういう意味?"
+   ],
+   "ctx": "急な対応を伝えるときの英語",
+   "title": "「scramble」の意味、わかる?|TOEIC730点・会議の英語 #shorts",
+   "ig_caption": "「scramble」の意味、わかりますか?\n\n✅ scramble\n大急ぎで対応する・慌てて動く\n\n例文:We had to scramble to fix the schedule after the client's call.\n(お客様の電話のあと、スケジュールの調整に大慌てで動きました。)\n\nナデラCEOは「特定のビジネスモデルに惚れ込んでいると、慌てて動くことになる」と話しました。急な対応を表す定番の一語です。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  }
+ ],
+ "sources": [
+  {
+   "title": "TechCrunch「Satya Nadella predicts AI agents will reshuffle the economics of the web」(2026年11月18日)",
+   "url": "https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web/"
+  }
+ ],
+ "readings": [
+  [
+   "18日",
+   "じゅうはちにち"
+  ],
+  [
+   "惚れ込んで",
+   "ほれこんで"
+  ],
+  [
+   "贅沢",
+   "ぜいたく"
+  ]
+ ]
+}

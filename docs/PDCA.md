@@ -81,3 +81,35 @@ Owner suggests we may pivot to a format people search for (e.g. TOEIC). Decide o
   (c) before writing, dispatch `competitors.yml` (already scans 「TOEIC 英単語」) and pick wording from what ranks.
   Metric: search-traffic views and median views of TOEIC-tagged vs untagged quiz shorts.
 - **If not:** keep the news concept; revisit at the end of Cycle 2.
+
+- 11/21 Check — Cycle 1 end (stats 11/21 05:18 JST). Channel 17 subs (4 on 11/14), 10,559 total views (4,982 on 11/14).
+  Traffic: Shorts feed 9,575 / YouTube search 277 (2.6%) / other YT pages 163 / channel page 72. IG 157 followers (147 on 11/14).
+  Videos ≥3 days old from #22 on (published 11/08–11/17 UTC): 13 episodes.
+  - H1 (known topics, median short 50 → 300): median of all 26 shorts = 82 (baseline 33, ×2.5) — target missed, direction right.
+    Top: 「it depends on how you define」921, 「pass on the cost」919, 「a drag on」658, 「weigh on」651, 「work alongside」635, 「as things stand」525.
+    Lowest: Apple new CEO 14/11, ChatGPT 66/9, Toyota 22/10. → KEEP as the default topic rule (it's the floor, not the growth lever).
+  - H2 (quiz ≥1.5× news): quiz median **162** vs news **66 = 2.5×**; quiz won 8 of 12 pairs, and **all 6 pairs from 11/13 on**
+    (919/244, 525/148, 162/90, 658/74, 635/45, 651/50). The early losses were all on 11/09–11/12 when nothing reached.
+    → **PASS. Make quiz the standard** for both shorts.
+  - H3 (listening long >5× weekday long): #28 = 4 views, avg view 21 s (5%) vs weekday median 1 view. Both ~0; no signal,
+    and the 5% retention says people leave in the first 20 s. → STOP as a growth bet (keep the Saturday slot because the
+    workflow and CLAUDE.md expect it), CHANGE its packaging in Cycle 2 (H7).
+  - H4 (IG 127 → 250): 157 (+10/week). Reels median ~80 views, saves ≈0. → FAIL. Keep posting (it's automatic), no new bet.
+  - 速報 vs scheduled news shorts (same age): 213, 54, 50 vs scheduled median 66 — no clear lift once age is equal. Not a hypothesis.
+  - **Pivot decision:** all three pivot signals are true (search 2.6% < 5%; weekday longs median 1 < 10; quiz beats news).
+    → PIVOT per the rule above: Cycle 2 tests search-first packaging; the news stays as the source of the example sentences.
+    (competitors.yml crashed on a video without `duration`; fixed in engine/competitors.py, re-run after the push.)
+
+## Cycle 2 — 2026-11-21 → 2026-12-04 (episodes #42– , 11/23–12/06)
+
+| # | hypothesis | change | metric (videos ≥3 days old) | target |
+| --- | --- | --- | --- | --- |
+| H5 | Two quiz shorts per episode beat one quiz + one news short | `shorts[0]` is also a quiz (`style: quiz`, another phrase); no news-first short on scheduled episodes (速報 keeps its news short) | median views of `shorts[0]` vs Cycle 1 news-first median 66 | ≥ 150 |
+| H6 | A searched tag in the quiz title brings search/browse views | A/B inside each episode: on Mon/Wed/Fri/Sun `shorts[0]` title = `「<en>」の意味、わかる?|TOEIC730点・会議の英語 #shorts`, `shorts[1]` keeps `…|会議の英語 #shorts`; Tue/Thu the other way round; Sat `shorts[0]` tagged | median tagged vs untagged; channel search share | tagged ≥ 1.3× untagged; search 2.6% → 5% |
+| H7 | A searchable list title makes the Saturday long findable | Saturday long title `【聞き流し】TOEIC・会議で使えるビジネス英語<N>選|…` (not 「TOEIC頻出」: we can't verify frequency) + a one-line hook so the first phrase starts within ~10 s | Saturday long views at 7 days; avg view % | ≥ 30 views; ≥ 15% |
+
+Check (fill in on 11/28 and 12/05):
+
+- 11/21 (Do): applied H5–H7 to #42–#48 (11/23–11/29). Topics: SMBC/MUFG data leak via KARTE (top Japanese news 11/18–20),
+  Walmart Q3, Apple's own AI agent (report), Nadella at DealBook, Japan's October CPI and a December BOJ hike (overseas
+  coverage), Saturday listening, Sunday "reporting an outage" (Microsoft Outlook/Teams outage 11/12).

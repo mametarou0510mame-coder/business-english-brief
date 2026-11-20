@@ -1,0 +1,291 @@
+{
+ "id": "2026-11-28-weekly-listening",
+ "episode": "#47",
+ "date": "2026-11-28",
+ "series": "今週の英単語 総復習",
+ "title_card": {
+  "line1": "今週の会議英語18フレーズ",
+  "line2": "TOEIC対策にも、聞き流しで復習"
+ },
+ "phrases": [
+  {
+   "en": "What's that based on?",
+   "jp": "それは何に基づいていますか(根拠は?)",
+   "ex": "That's a great number. What's that based on?",
+   "ex_jp": "すごい数字ですね。何に基づいた数字ですか?",
+   "src": "#38"
+  },
+  {
+   "en": "Could you walk me through",
+   "jp": "〜を順を追って説明していただけますか",
+   "ex": "Could you walk me through the cost estimate?",
+   "ex_jp": "費用の見積もりを、順を追って説明していただけますか?",
+   "src": "#38"
+  },
+  {
+   "en": "Just to clarify",
+   "jp": "確認ですが",
+   "ex": "Just to clarify, is that per month or per year?",
+   "ex_jp": "確認ですが、それは月あたりですか、年あたりですか?",
+   "src": "#38"
+  },
+  {
+   "en": "a third-party vendor",
+   "jp": "外部の委託先・取引業者",
+   "ex": "Before we sign, let's check what data a third-party vendor can see.",
+   "ex_jp": "契約の前に、外部の委託先がどのデータを見られるのか確認しましょう。",
+   "src": "#42"
+  },
+  {
+   "en": "the scope of",
+   "jp": "〜の範囲・影響範囲",
+   "ex": "We're still confirming the scope of the problem.",
+   "ex_jp": "問題の影響範囲は、まだ確認中です。",
+   "src": "#42"
+  },
+  {
+   "en": "out of an abundance of caution",
+   "jp": "念には念を入れて",
+   "ex": "Out of an abundance of caution, we've reset all shared passwords.",
+   "ex_jp": "念には念を入れて、共有パスワードをすべて変更しました。",
+   "src": "#42"
+  },
+  {
+   "en": "narrow the range",
+   "jp": "(予想の)幅を狭める",
+   "ex": "Now that we have October's numbers, we can narrow the range.",
+   "ex_jp": "10月の数字が出たので、予想の幅を狭められます。",
+   "src": "#43"
+  },
+  {
+   "en": "gain market share",
+   "jp": "シェアを伸ばす",
+   "ex": "Our goal is to gain market share in Kansai this year.",
+   "ex_jp": "今年の目標は、関西でシェアを伸ばすことです。",
+   "src": "#43"
+  },
+  {
+   "en": "the high end of",
+   "jp": "(予想の)上限・上のほう",
+   "ex": "We expect to land at the high end of the range.",
+   "ex_jp": "予想の上限あたりで着地する見込みです。",
+   "src": "#43"
+  },
+  {
+   "en": "in the early stages",
+   "jp": "まだ初期段階で",
+   "ex": "The project is still in the early stages, so the budget may change.",
+   "ex_jp": "プロジェクトはまだ初期段階なので、予算は変わるかもしれません。",
+   "src": "#44"
+  },
+  {
+   "en": "as soon as",
+   "jp": "早ければ〜にも",
+   "ex": "We could launch the new service as soon as next spring.",
+   "ex_jp": "早ければ来年の春にも、新サービスを始められます。",
+   "src": "#44"
+  },
+  {
+   "en": "on our own terms",
+   "jp": "自分たちのやり方・条件で",
+   "ex": "We want to use AI, but on our own terms.",
+   "ex_jp": "AIは使いたいですが、自分たちのルールで使いたいのです。",
+   "src": "#44"
+  },
+  {
+   "en": "somebody else will",
+   "jp": "(自分がやらなければ)ほかの誰かがやる",
+   "ex": "If we don't make an offer today, somebody else will.",
+   "ex_jp": "今日こちらから提案しなければ、ほかの会社が提案しますよ。",
+   "src": "#45"
+  },
+  {
+   "en": "scramble",
+   "jp": "大急ぎで対応する・慌てて動く",
+   "ex": "We had to scramble to fix the schedule after the client's call.",
+   "ex_jp": "お客様の電話のあと、スケジュールの調整に大慌てで動きました。",
+   "src": "#45"
+  },
+  {
+   "en": "in some sense",
+   "jp": "ある意味では",
+   "ex": "In some sense, this delay is a good problem to have.",
+   "ex_jp": "ある意味では、この遅れは贅沢な悩みです。",
+   "src": "#45"
+  },
+  {
+   "en": "for the second month in a row",
+   "jp": "2か月連続で",
+   "ex": "Orders have dropped for the second month in a row.",
+   "ex_jp": "受注が、2か月連続で減っています。",
+   "src": "#46"
+  },
+  {
+   "en": "strengthen the case for",
+   "jp": "〜を後押しする材料になる",
+   "ex": "These survey results strengthen the case for a price review.",
+   "ex_jp": "この調査結果は、価格の見直しを後押しする材料になります。",
+   "src": "#46"
+  },
+  {
+   "en": "a strong chance",
+   "jp": "〜の可能性が高い",
+   "ex": "There's a strong chance the client will ask for a discount.",
+   "ex_jp": "お客様が値引きを求めてくる可能性は高いですね。",
+   "src": "#46"
+  }
+ ],
+ "words": [
+  {
+   "en": "assumption",
+   "jp": "前提"
+  },
+  {
+   "en": "unauthorized access",
+   "jp": "不正アクセス"
+  },
+  {
+   "en": "comparable sales",
+   "jp": "既存店売上高"
+  }
+ ],
+ "homework": {
+  "en": "Which phrase will you use first?",
+  "jp": "最初に使うフレーズはどれ?",
+  "hl": [
+   "use first"
+  ],
+  "say": "最後に宿題です。今週のフレーズの中で、最初に使ってみたいものはどれですか。コメント欄に書いてみてください。"
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "beats": [
+    {
+     "id": "h01",
+     "kind": "jp",
+     "jp": "会議とTOEICで使えるビジネス英語、18フレーズ。英語のあとの間で、意味を思い出してください。",
+     "en": "18 business phrases for meetings and the TOEIC. Recall each meaning in the pause.",
+     "vis": {
+      "t": "hero",
+      "kicker": "weekly listening",
+      "big": "18フレーズ",
+      "color": "gold",
+      "sub": "今週の会議英語をまとめて復習",
+      "sub_color": "text"
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "【聞き流し】TOEIC・会議で使えるビジネス英語18選|三井住友銀・ウォルマート・アップルのニュースから【ビジネス英語ニュース #47】",
+  "summary": "今週のニュース動画(三井住友銀行の情報漏えい、ウォルマート決算、アップルのAIエージェント、ナデラCEOの発言、日本の物価と12月利上げ観測、数字の根拠の聞き方)で学んだ、会議・メールやTOEICのビジネス場面で使える英語18フレーズを、英語→間→日本語→例文の順でまとめて復習します。作業中の聞き流しにも使えます。",
+  "tags": [
+   "聞き流し",
+   "ビジネス英語 フレーズ",
+   "TOEIC 英語 フレーズ",
+   "TOEIC 聞き流し",
+   "会議 英語",
+   "英語 リスニング",
+   "まとめ",
+   "ビジネス英語",
+   "英語学習",
+   "三井住友銀行",
+   "ウォルマート",
+   "アップル",
+   "社会人 英語",
+   "business English"
+  ]
+ },
+ "thumbnail": {
+  "big": "18",
+  "big_color": "gold",
+  "under": "会議の英語フレーズ",
+  "badge": "聞き流し",
+  "badge_color": "gold",
+  "question": "TOEICにも",
+  "pill": "weekly review",
+  "bottom": "ニュースで覚えるビジネス英語",
+  "crack": false
+ },
+ "shorts": [
+  {
+   "phrase": 2,
+   "style": "quiz",
+   "badge": "会議で使う英語|初級",
+   "news_hook": [
+    "数字の確認",
+    "失礼なく"
+   ],
+   "hook": [
+    "Just to clarify",
+    "どういう意味?"
+   ],
+   "ctx": "会議で聞き返すときの前置き",
+   "title": "「Just to clarify」の意味、わかる?|TOEIC730点・会議の英語 #shorts",
+   "ig_caption": "「Just to clarify」の意味、わかりますか?\n\n✅ Just to clarify\n確認ですが\n\n例文:Just to clarify, is that per month or per year?\n(確認ですが、それは月あたりですか、年あたりですか?)\n\n会議で数字や条件を確かめるときの前置き。月あたりか年あたりか、などの食い違いを防げます。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  },
+  {
+   "phrase": 16,
+   "style": "quiz",
+   "badge": "会議で使う英語|中級",
+   "news_hook": [
+    "提案を",
+    "通したいとき"
+   ],
+   "hook": [
+    "strengthen the case for",
+    "どういう意味?"
+   ],
+   "ctx": "提案の根拠を示すときの英語",
+   "title": "「strengthen the case for」の意味、わかる?|会議の英語 #shorts",
+   "ig_caption": "「strengthen the case for」の意味、わかりますか?\n\n✅ strengthen the case for\n〜を後押しする材料になる\n\n例文:These survey results strengthen the case for a price review.\n(この調査結果は、価格の見直しを後押しする材料になります。)\n\nロイターは日本の物価の数字を「12月の利上げを後押しする材料」と報じました。提案の根拠を示すときにも使えます。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Google DeepMind「Gemini Robotics 2.5: Accelerating Physical Intelligence」(2026年11月10日)",
+   "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/"
+  },
+  {
+   "title": "QUE.com「Google's Gemini Robotics 2.5 Hits 96% on Mercedes-Benz Lines, but the Last 4% Is the Real Test」(2026年11月)",
+   "url": "https://que.com/googles-gemini-robotics-2-5-hits-96-on-mercedes-benz-lines-but-the-last-4-is-the-real-test-for-factory-humanoids/"
+  },
+  {
+   "title": "久兵衛の暮らしのニュース「三井住友銀行の委託先に不正アクセス、最大約1400万件の情報漏えいと確認方法」(2026年11月20日)",
+   "url": "https://news.isotop.jp/archives/10745"
+  },
+  {
+   "title": "SmartScope「Sumitomo Mitsui Bank: Up to 14 Million Records With Birth Dates Leaked via KARTE」(2026年11月)",
+   "url": "https://smartscope.blog/en/blog/sumitomo-mitsui-banking-corporation-up-approx-14-million-2026/"
+  },
+  {
+   "title": "CRYPTO TIMES「三井住友銀行、顧客情報が最大約1400万件流出|不正アクセスで三菱UFJに続く」(2026年11月20日)",
+   "url": "https://crypto-times.jp/news-sumitomo-mitsui-banking-corporation-up-to-approximately-14-million-customer-records-leaked/"
+  },
+  {
+   "title": "Walmart Inc.「Walmart releases Q3 FY27 earnings」(Form 8-K, SEC, 2026年11月19日)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000104169/000010416926000168/earningsreleasefy27q3.htm"
+  },
+  {
+   "title": "TechCrunch「Apple may be developing its own AI agent that runs your Mac」(2026年11月19日)",
+   "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac"
+  },
+  {
+   "title": "TechCrunch「Satya Nadella predicts AI agents will reshuffle the economics of the web」(2026年11月18日)",
+   "url": "https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web/"
+  },
+  {
+   "title": "IndexBox(ロイター配信)「Japan Core Inflation Hits 2.2% in October, Strengthening Case for December BOJ Rate Hike」(2026年11月20日)",
+   "url": "https://www.indexbox.io/blog/japan-core-inflation-hits-22-in-october-strengthening-case-for-december-boj-rate-hike/"
+  }
+ ],
+ "publish": {
+  "long": "2026-11-28T07:00:00+09:00",
+  "shorts": [
+   "2026-11-28T12:00:00+09:00",
+   "2026-11-28T21:00:00+09:00"
+  ]
+ }
+}

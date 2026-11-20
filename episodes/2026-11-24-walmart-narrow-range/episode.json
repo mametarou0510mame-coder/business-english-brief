@@ -1,0 +1,719 @@
+{
+ "id": "2026-11-24-walmart-narrow-range",
+ "episode": "#43",
+ "date": "2026-11-19",
+ "series": "決算と数字の英語",
+ "title_card": {
+  "line1": "ウォルマート、また見通しを引き上げ",
+  "line2": "「幅を狭める」を英語で"
+ },
+ "publish": {
+  "long": "2026-11-24T07:00:00+09:00",
+  "shorts": [
+   "2026-11-24T12:00:00+09:00",
+   "2026-11-24T21:00:00+09:00"
+  ]
+ },
+ "phrases": [
+  {
+   "en": "narrow the range",
+   "jp": "(予想の)幅を狭める",
+   "ex": "Now that we have October's numbers, we can narrow the range.",
+   "ex_jp": "10月の数字が出たので、予想の幅を狭められます。"
+  },
+  {
+   "en": "gain market share",
+   "jp": "シェアを伸ばす",
+   "ex": "Our goal is to gain market share in Kansai this year.",
+   "ex_jp": "今年の目標は、関西でシェアを伸ばすことです。"
+  },
+  {
+   "en": "the high end of",
+   "jp": "(予想の)上限・上のほう",
+   "ex": "We expect to land at the high end of the range.",
+   "ex_jp": "予想の上限あたりで着地する見込みです。"
+  }
+ ],
+ "words": [
+  {
+   "en": "comparable sales",
+   "jp": "既存店売上高"
+  },
+  {
+   "en": "guidance",
+   "jp": "業績見通し"
+  },
+  {
+   "en": "membership fee",
+   "jp": "会費"
+  }
+ ],
+ "homework": {
+  "en": "Where did your team gain share this year?",
+  "jp": "今年、あなたのチームはどこでシェアを伸ばした?",
+  "hl": [
+   "gain share"
+  ],
+  "say": "最後に宿題です。今年、あなたのチームはどこでシェアを伸ばしましたか。英語で、コメント欄に書いてみてください。"
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "beats": [
+    {
+     "id": "h01",
+     "kind": "jp",
+     "jp": "アメリカの小売り大手、ウォルマート。3か月の売上は、1888億ドルでした。",
+     "en": "Walmart's quarterly revenue: $188.8 billion.",
+     "vis": {
+      "t": "hero",
+      "kicker": "Walmart Q3 revenue",
+      "big": "$188.8B",
+      "color": "green",
+      "sub": "前年比 +5.2%",
+      "sub_color": "green"
+     }
+    },
+    {
+     "id": "h02",
+     "kind": "jp",
+     "jp": "そして今年の見通しを、また引き上げました。決算の数字と、見通しの英語を読んでいきます。",
+     "en": "And it raised its full-year outlook again. Let's read the numbers.",
+     "vis": {
+      "t": "hero",
+      "kicker": "Walmart Q3 revenue",
+      "big": "$188.8B",
+      "color": "green",
+      "sub": "前年比 +5.2%",
+      "sub_color": "green"
+     }
+    },
+    {
+     "id": "h03",
+     "kind": "jp",
+     "jp": "今日はこのニュースから、会議で使える英語を3つ。最後に答え合わせをします。",
+     "en": "Three phrases for your next meeting. Answers at the end.",
+     "vis": {
+      "t": "teaser"
+     }
+    }
+   ]
+  },
+  {
+   "id": "what",
+   "chapter": "決算の数字",
+   "beats": [
+    {
+     "id": "n01",
+     "kind": "jp",
+     "jp": "ウォルマートは11月19日、8月から10月の決算を発表しました。売上高は1888億ドルで、前の年より5.2%増えました。",
+     "en": "On November 19, Walmart reported revenue of $188.8 billion, up 5.2%.",
+     "vis": {
+      "t": "counter",
+      "kicker": "revenue",
+      "to": 188.8,
+      "prefix": "$",
+      "suffix": "B",
+      "decimals": 1,
+      "color": "green",
+      "sub": "one hundred eighty-eight point eight billion",
+      "note": "3か月の売上高・前年比+5.2%"
+     }
+    },
+    {
+     "id": "n02",
+     "kind": "jp",
+     "jp": "英語では、ワン・ハンドレッド・エイティエイト・ポイント・エイト・ビリオン・ダラーズ。",
+     "en": "In English: one hundred eighty-eight point eight billion dollars.",
+     "vis": {
+      "t": "counter",
+      "kicker": "revenue",
+      "to": 188.8,
+      "prefix": "$",
+      "suffix": "B",
+      "decimals": 1,
+      "color": "green",
+      "sub": "one hundred eighty-eight point eight billion",
+      "note": "3か月の売上高・前年比+5.2%"
+     },
+     "hl": [
+      "billion"
+     ]
+    },
+    {
+     "id": "n03",
+     "kind": "jp",
+     "jp": "ビリオンは10億。1888億は、188.8ビリオンです。億の単位は、10で割ってビリオンにすると言いやすくなります。",
+     "en": "A billion is 10 oku. Divide oku by ten to get billions.",
+     "vis": {
+      "t": "hero_side",
+      "big": "B",
+      "color": "gold",
+      "text": "billion = 10億",
+      "jp": "ビリオンは10億"
+     },
+     "hl": [
+      "billion"
+     ]
+    },
+    {
+     "id": "n04",
+     "kind": "jp",
+     "jp": "中身を見ると、アメリカの既存店の売上は2.9%増。ネット通販は全体で17%、広告は、アメリカで37%も伸びました。",
+     "en": "US comparable sales rose 2.9%. E-commerce grew 17%, US advertising 37%.",
+     "vis": {
+      "t": "bars",
+      "title": "伸び率(前年比)",
+      "unit": "%",
+      "items": [
+       {
+        "label": "既存店(米国)",
+        "value": 2.9,
+        "display": "+2.9%",
+        "color": "blue"
+       },
+       {
+        "label": "ネット通販(全体)",
+        "value": 17,
+        "display": "+17%",
+        "color": "gold"
+       },
+       {
+        "label": "広告(米国)",
+        "value": 37,
+        "display": "+37%",
+        "color": "green"
+       },
+       {
+        "label": "会費(全体)",
+        "value": 17,
+        "display": "+17%",
+        "color": "gold"
+       }
+      ]
+     },
+     "hl": [
+      "comparable sales"
+     ]
+    },
+    {
+     "id": "n05",
+     "kind": "jp",
+     "jp": "会員の会費収入も、世界全体で17%増えています。店で売るだけでなく、店の外でも稼ぐ形が強まっています。",
+     "en": "Membership fee income grew 17%. It earns more beyond the store shelf.",
+     "vis": {
+      "t": "bars",
+      "title": "伸び率(前年比)",
+      "unit": "%",
+      "items": [
+       {
+        "label": "既存店(米国)",
+        "value": 2.9,
+        "display": "+2.9%",
+        "color": "blue"
+       },
+       {
+        "label": "ネット通販(全体)",
+        "value": 17,
+        "display": "+17%",
+        "color": "gold"
+       },
+       {
+        "label": "広告(米国)",
+        "value": 37,
+        "display": "+37%",
+        "color": "green"
+       },
+       {
+        "label": "会費(全体)",
+        "value": 17,
+        "display": "+17%",
+        "color": "gold"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "share",
+   "chapter": "シェアを伸ばす",
+   "beats": [
+    {
+     "id": "s01",
+     "kind": "jp",
+     "jp": "ジョン・ファーナーCEOは、結果をこう説明しました。",
+     "en": "CEO John Furner summed it up.",
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "We delivered strong results,",
+       "growing our core business",
+       "and gaining market share."
+      ],
+      "hl": [
+       "gaining market share"
+      ],
+      "by": "John Furner, President and CEO, Walmart(決算発表)"
+     }
+    },
+    {
+     "id": "s02",
+     "kind": "jp",
+     "jp": "力強い結果を出し、本業を伸ばし、シェアを伸ばした。最後の部分が、今日のフレーズです。",
+     "en": "Strong results, core growth, and market share gains.",
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "We delivered strong results,",
+       "growing our core business",
+       "and gaining market share."
+      ],
+      "hl": [
+       "gaining market share"
+      ],
+      "by": "John Furner, President and CEO, Walmart(決算発表)"
+     },
+     "hl": [
+      "gaining market share"
+     ]
+    },
+    {
+     "id": "s03",
+     "kind": "jp",
+     "jp": "シェアを伸ばすは、英語で、ゲイン・マーケット・シェア。ゲインは、手に入れる、増やすという意味です。",
+     "en": "To grow your share of the market is to 'gain market share.'",
+     "vis": {
+      "t": "hero_side",
+      "big": "シェア",
+      "color": "green",
+      "text": "gain market share",
+      "jp": "シェアを伸ばす"
+     },
+     "star": true,
+     "hl": [
+      "gain market share"
+     ]
+    },
+    {
+     "id": "s04",
+     "kind": "en_insert",
+     "jp": "今期はシェアを伸ばしました",
+     "en": "We gained market share this quarter.",
+     "vis": {
+      "t": "hero_side",
+      "big": "シェア",
+      "color": "green",
+      "text": "gain market share",
+      "jp": "シェアを伸ばす"
+     },
+     "hl": [
+      "gained market share"
+     ],
+     "star": true
+    },
+    {
+     "id": "s05",
+     "kind": "jp",
+     "jp": "逆に、シェアを落とすは、ルーズ・マーケット・シェア。セットで覚えておくと便利です。",
+     "en": "The opposite is 'lose market share.'",
+     "vis": {
+      "t": "hero_side",
+      "big": "シェア",
+      "color": "green",
+      "text": "gain market share",
+      "jp": "シェアを伸ばす"
+     }
+    }
+   ]
+  },
+  {
+   "id": "range",
+   "chapter": "見通しの幅を英語で",
+   "beats": [
+    {
+     "id": "r01",
+     "kind": "jp",
+     "jp": "注目は、今年の見通しです。2月の当初は、売上の伸びを3.5%から4.5%と見ていました。",
+     "en": "In February, Walmart guided for 3.5% to 4.5% sales growth.",
+     "vis": {
+      "t": "timeline",
+      "show": 1,
+      "items": [
+       {
+        "when": "2月",
+        "text": "当初の予想: 売上 +3.5〜4.5%",
+        "color": "muted"
+       },
+       {
+        "when": "8月",
+        "text": "8月時点: +4.0〜5.0%",
+        "color": "blue"
+       },
+       {
+        "when": "11月",
+        "text": "今回: +4.9〜5.2%",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "r02",
+     "kind": "jp",
+     "jp": "8月に4.0%から5.0%へ。そして今回、4.9%から5.2%に変えました。",
+     "en": "In August, 4.0% to 5.0%. Now, 4.9% to 5.2%.",
+     "vis": {
+      "t": "timeline",
+      "show": 3,
+      "items": [
+       {
+        "when": "2月",
+        "text": "当初の予想: 売上 +3.5〜4.5%",
+        "color": "muted"
+       },
+       {
+        "when": "8月",
+        "text": "8月時点: +4.0〜5.0%",
+        "color": "blue"
+       },
+       {
+        "when": "11月",
+        "text": "今回: +4.9〜5.2%",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "r03",
+     "kind": "jp",
+     "jp": "下限が大きく上がり、幅がぐっと狭くなりました。これを英語で、ナロー・ザ・レンジと言います。",
+     "en": "The low end jumped, so the range got tighter. That's 'narrow the range.'",
+     "vis": {
+      "t": "vs",
+      "left": {
+       "en": "low end",
+       "label": "下限",
+       "val": "4.0%→4.9%",
+       "up": true,
+       "color": "green"
+      },
+      "right": {
+       "en": "high end",
+       "label": "上限",
+       "val": "5.0%→5.2%",
+       "up": true,
+       "color": "gold"
+      },
+      "mid": "売上の伸び"
+     },
+     "star": true,
+     "hl": [
+      "narrow the range"
+     ]
+    },
+    {
+     "id": "r04",
+     "kind": "en_insert",
+     "jp": "予想の幅を狭めました",
+     "en": "We've narrowed the range.",
+     "vis": {
+      "t": "hero_side",
+      "big": "幅",
+      "color": "gold",
+      "text": "narrow the range",
+      "jp": "予想の幅を狭める"
+     },
+     "hl": [
+      "narrowed the range"
+     ],
+     "star": true
+    },
+    {
+     "id": "r05",
+     "kind": "jp",
+     "jp": "ナローは、狭い。年度の終わりに近づくほど、見えてくる数字が増えるので、幅を狭められるわけです。",
+     "en": "'Narrow' means tight. Near year-end you know more, so you can narrow it.",
+     "vis": {
+      "t": "hero_side",
+      "big": "幅",
+      "color": "gold",
+      "text": "narrow the range",
+      "jp": "予想の幅を狭める"
+     }
+    },
+    {
+     "id": "r06",
+     "kind": "jp",
+     "jp": "1株あたりの利益の予想も、2.84ドルから2.89ドルに引き上げました。",
+     "en": "Adjusted EPS guidance is now $2.84 to $2.89.",
+     "vis": {
+      "t": "vs",
+      "left": {
+       "en": "low end",
+       "label": "下限",
+       "val": "4.0%→4.9%",
+       "up": true,
+       "color": "green"
+      },
+      "right": {
+       "en": "high end",
+       "label": "上限",
+       "val": "5.0%→5.2%",
+       "up": true,
+       "color": "gold"
+      },
+      "mid": "売上の伸び"
+     }
+    },
+    {
+     "id": "r07",
+     "kind": "jp",
+     "jp": "予想の幅の、上のほうを、ザ・ハイエンド・オブと言います。下のほうは、ザ・ローエンド・オブです。",
+     "en": "The top of a range is 'the high end of' it; the bottom, 'the low end.'",
+     "vis": {
+      "t": "hero_side",
+      "big": "上限",
+      "color": "gold",
+      "text": "the high end of",
+      "jp": "予想の上のほう"
+     },
+     "star": true,
+     "hl": [
+      "the high end of"
+     ]
+    },
+    {
+     "id": "r08",
+     "kind": "en_insert",
+     "jp": "予想の上限あたりで着地しそうです",
+     "en": "We expect to land at the high end of the range.",
+     "vis": {
+      "t": "hero_side",
+      "big": "上限",
+      "color": "gold",
+      "text": "the high end of",
+      "jp": "予想の上のほう"
+     },
+     "hl": [
+      "the high end of"
+     ],
+     "star": true
+    }
+   ]
+  },
+  {
+   "id": "insight",
+   "chapter": "私たちへの意味",
+   "beats": [
+    {
+     "id": "i01",
+     "kind": "jp",
+     "jp": "ここからは、日本で働く私たちにとっての意味を考えます。",
+     "en": "What does this mean for those of us working in Japan?",
+     "vis": {
+      "t": "statement",
+      "kicker": "SO WHAT?",
+      "text": "日本で働く私たちにとっての意味"
+     }
+    },
+    {
+     "id": "i02",
+     "kind": "jp",
+     "jp": "日本の会社も、業績予想を幅で出すことがあります。英語で報告するなら、フォー・ポイント・ナイン・トゥ・ファイブ・ポイント・ツー・パーセントと、範囲で言えば十分です。",
+     "en": "Japanese firms also give ranges. Just say 'four point nine to five point two percent.'",
+     "vis": {
+      "t": "points",
+      "show": 1,
+      "items": [
+       {
+        "head": "見通しの話し方",
+        "big": "幅で言う",
+        "sub": "4.9 to 5.2 percent\n範囲で伝える",
+        "color": "gold"
+       },
+       {
+        "head": "稼ぎ方",
+        "big": "店の外で\n稼ぐ",
+        "sub": "広告 +37%\n会費 +17%",
+        "color": "green"
+       },
+       {
+        "head": "逆の見方",
+        "big": "既存店は\n減速",
+        "sub": "+4.5% → +2.9%\n(米国・前年同期)",
+        "color": "red"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i03",
+     "kind": "jp",
+     "jp": "もうひとつは稼ぎ方。広告や会費のように、店のお客さまの流れそのものを収益にしています。小売りや通販の会議でも、よく出てくる論点です。",
+     "en": "Ads and memberships turn customer traffic into revenue. A common topic in retail meetings.",
+     "vis": {
+      "t": "points",
+      "show": 2,
+      "items": [
+       {
+        "head": "見通しの話し方",
+        "big": "幅で言う",
+        "sub": "4.9 to 5.2 percent\n範囲で伝える",
+        "color": "gold"
+       },
+       {
+        "head": "稼ぎ方",
+        "big": "店の外で\n稼ぐ",
+        "sub": "広告 +37%\n会費 +17%",
+        "color": "green"
+       },
+       {
+        "head": "逆の見方",
+        "big": "既存店は\n減速",
+        "sub": "+4.5% → +2.9%\n(米国・前年同期)",
+        "color": "red"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i04",
+     "kind": "jp",
+     "jp": "一方で、逆の見方もあります。アメリカの既存店の伸びは2.9%で、前の年の4.5%より鈍っています。見通しの引き上げだけで判断しないことも大切です。",
+     "en": "But US comparable sales growth slowed from 4.5% to 2.9%. Don't judge by the outlook alone.",
+     "vis": {
+      "t": "points",
+      "show": 3,
+      "items": [
+       {
+        "head": "見通しの話し方",
+        "big": "幅で言う",
+        "sub": "4.9 to 5.2 percent\n範囲で伝える",
+        "color": "gold"
+       },
+       {
+        "head": "稼ぎ方",
+        "big": "店の外で\n稼ぐ",
+        "sub": "広告 +37%\n会費 +17%",
+        "color": "green"
+       },
+       {
+        "head": "逆の見方",
+        "big": "既存店は\n減速",
+        "sub": "+4.5% → +2.9%\n(米国・前年同期)",
+        "color": "red"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "「幅を狭める」は英語で?narrow the rangeの使い方|ウォルマートが見通し引き上げ【ビジネス英語ニュース #43】",
+  "summary": "ウォルマートは2026年11月19日の決算で、売上高1888億ドル(前年比5.2%増)を発表し、今年度の見通しを引き上げました。決算や予算の会議で使う narrow the range / gain market share / the high end of と、billion を使った大きな数字の言い方を学びます。",
+  "tags": [
+   "ビジネス英語",
+   "英語学習",
+   "ニュース英語",
+   "決算 英語",
+   "数字 英語",
+   "会議 英語",
+   "ウォルマート",
+   "Walmart",
+   "決算",
+   "業績見通し",
+   "billion 言い方",
+   "社会人 英語",
+   "TOEIC",
+   "business English"
+  ]
+ },
+ "thumbnail": {
+  "big": "+5.2%",
+  "big_color": "green",
+  "under": "ウォルマートの売上高",
+  "badge": "決算と数字",
+  "badge_color": "gold",
+  "question": "見通しの幅は?",
+  "pill": "narrow the range",
+  "bottom": "決算で使える英語3つ",
+  "crack": false
+ },
+ "shorts": [
+  {
+   "phrase": 1,
+   "style": "quiz",
+   "badge": "会議で使う英語|中級",
+   "news_hook": [
+    "ウォルマート",
+    "シェアを伸ばした"
+   ],
+   "hook": [
+    "gain market share",
+    "どういう意味?"
+   ],
+   "ctx": "業績報告で成果を伝える一言",
+   "title": "「gain market share」の意味、わかる?|会議の英語 #shorts",
+   "ig_caption": "「gain market share」の意味、わかりますか?\n\n✅ gain market share\nシェアを伸ばす\n\n例文:Our goal is to gain market share in Kansai this year.\n(今年の目標は、関西でシェアを伸ばすことです。)\n\nウォルマートのCEOは決算で「本業を伸ばし、シェアを伸ばした」と説明しました。業績報告の定番表現です。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  },
+  {
+   "phrase": 0,
+   "style": "quiz",
+   "badge": "会議で使う英語|中級",
+   "news_hook": [
+    "見通しを",
+    "引き上げた"
+   ],
+   "hook": [
+    "narrow the range",
+    "どういう意味?"
+   ],
+   "ctx": "業績予想の更新を伝える英語",
+   "title": "「narrow the range」の意味、わかる?|TOEIC730点・会議の英語 #shorts",
+   "ig_caption": "「narrow the range」の意味、わかりますか?\n\n✅ narrow the range\n(予想の)幅を狭める\n\n例文:Now that we have October's numbers, we can narrow the range.\n(10月の数字が出たので、予想の幅を狭められます。)\n\nウォルマートは今年の売上見通しを「4.0〜5.0%増」から「4.9〜5.2%増」に。下限が上がって幅が狭まりました。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Walmart Inc.「Walmart releases Q3 FY27 earnings」(Form 8-K, SEC, 2026年11月19日)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000104169/000010416926000168/earningsreleasefy27q3.htm"
+  }
+ ],
+ "readings": [
+  [
+   "1888億ドル",
+   "せんはっぴゃくはちじゅうはちおくドル"
+  ],
+  [
+   "1888億",
+   "せんはっぴゃくはちじゅうはちおく"
+  ],
+  [
+   "188.8ビリオン",
+   "ひゃくはちじゅうはってんはちビリオン"
+  ],
+  [
+   "19日",
+   "じゅうくにち"
+  ],
+  [
+   "2.84ドル",
+   "にてんはちよんドル"
+  ],
+  [
+   "2.89ドル",
+   "にてんはちきゅうドル"
+  ],
+  [
+   "既存店",
+   "きぞんてん"
+  ],
+  [
+   "1株",
+   "ひとかぶ"
+  ]
+ ]
+}

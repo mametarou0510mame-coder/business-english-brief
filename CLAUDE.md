@@ -51,8 +51,10 @@ Format spec: `docs/FORMAT.md`. Engine: `engine/`. State: `state/published.json`,
    - Phrases must be genuinely useful in meetings/email, at B1–B2 level, and each example sentence must be a realistic Japanese workplace line.
    - Long video title: search-first pattern `「<phrase jp>」は英語で?<phrase en>の使い方|<news ≤20 chars>【ビジネス英語ニュース #NN】`.
    - Each episode also becomes a 5-slide Instagram carousel automatically (engine/carousel.py); keep phrases/examples short enough to fit.
-   - Shorts (PDCA H2 A/B): `shorts[0]` is news-first (`style` omitted); `shorts[1]` is phrase-first with `"style": "quiz"`,
-     `"badge": "会議で使う英語|中級"` (level: 初級/中級/上級) and a short title `「<phrase en>」の意味、わかる?|会議の英語 #shorts`.
+   - Shorts (PDCA Cycle 2, H5/H6 — H2 showed quiz 2.5× news): on scheduled episodes **both** shorts are phrase-first quizzes
+     (`"style": "quiz"`, `"badge": "会議で使う英語|中級"`, level 初級/中級/上級) on two different phrases. Title A/B:
+     Mon/Wed/Fri/Sun/Sat `shorts[0]` = `「<phrase en>」の意味、わかる?|TOEIC730点・会議の英語 #shorts` and `shorts[1]` =
+     `「<phrase en>」の意味、わかる?|会議の英語 #shorts`; Tue/Thu the other way round. 速報 episodes keep `shorts[0]` news-first.
    - Shorts: `news_hook` is the 2-line headline shown on frame 0; `hook` is 2 short lines that make people want the answer; `ig_caption` follows the #01 style
      (question → ✅ phrase → meaning → example → one line of context → 📌 保存 → ▼ YouTube → 7 hashtags).
 5. Run `python engine/build.py validate episodes/<id>` for each and **look at** `out/preview_sheet.png` and `out/thumbnail.png`.

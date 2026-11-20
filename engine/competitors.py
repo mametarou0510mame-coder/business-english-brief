@@ -40,7 +40,7 @@ def main():
         if not vids:
             continue
         vj = get(f"{Y.API}/videos?part=snippet,statistics,contentDetails&id=" + ",".join(vids))
-        vs = [{"title": v["snippet"]["title"], "views": int(v["statistics"].get("viewCount", 0)), "sec": dur(v["contentDetails"]["duration"]),
+        vs = [{"title": v["snippet"]["title"], "views": int(v["statistics"].get("viewCount", 0)), "sec": dur(v.get("contentDetails", {}).get("duration")),
                "date": v["snippet"]["publishedAt"][:10]} for v in vj.get("items", [])]
         shorts = [v for v in vs if v["sec"] <= 180]
         longs = [v for v in vs if v["sec"] > 180]

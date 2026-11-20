@@ -1,0 +1,701 @@
+{
+ "id": "2026-11-27-japan-cpi-december-hike",
+ "episode": "#46",
+ "date": "2026-11-20",
+ "series": "海外メディアが報じる日本",
+ "title_card": {
+  "line1": "物価2.2%、2か月連続で目標超え",
+  "line2": "海外は「12月利上げ」をどう報じた?"
+ },
+ "publish": {
+  "long": "2026-11-27T07:00:00+09:00",
+  "shorts": [
+   "2026-11-27T12:00:00+09:00",
+   "2026-11-27T21:00:00+09:00"
+  ]
+ },
+ "phrases": [
+  {
+   "en": "for the second month in a row",
+   "jp": "2か月連続で",
+   "ex": "Orders have dropped for the second month in a row.",
+   "ex_jp": "受注が、2か月連続で減っています。"
+  },
+  {
+   "en": "strengthen the case for",
+   "jp": "〜を後押しする材料になる",
+   "ex": "These survey results strengthen the case for a price review.",
+   "ex_jp": "この調査結果は、価格の見直しを後押しする材料になります。"
+  },
+  {
+   "en": "a strong chance",
+   "jp": "〜の可能性が高い",
+   "ex": "There's a strong chance the client will ask for a discount.",
+   "ex_jp": "お客様が値引きを求めてくる可能性は高いですね。"
+  }
+ ],
+ "words": [
+  {
+   "en": "core inflation",
+   "jp": "コア物価上昇率"
+  },
+  {
+   "en": "rate hike",
+   "jp": "利上げ"
+  },
+  {
+   "en": "policy rate",
+   "jp": "政策金利"
+  }
+ ],
+ "homework": {
+  "en": "What has risen for the second month in a row at your company?",
+  "jp": "あなたの会社で2か月連続で上がっているものは?",
+  "hl": [
+   "second month in a row"
+  ],
+  "say": "最後に宿題です。あなたの会社で、2か月連続で上がっているものは何ですか。英語で、コメント欄に書いてみてください。"
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "beats": [
+    {
+     "id": "h01",
+     "kind": "jp",
+     "jp": "日本の物価の数字を、海外のメディアは、12月の利上げにつながるニュースとして伝えました。",
+     "en": "Overseas media read Japan's price data as a step toward a December rate hike.",
+     "vis": {
+      "t": "globe",
+      "title": "海外メディアが見た日本の物価",
+      "lines": [
+       {
+        "text": "core inflation 2.2%",
+        "color": "gold"
+       },
+       {
+        "text": "December hike?",
+        "color": "green"
+       }
+      ],
+      "points": [
+       {
+        "label": "Tokyo",
+        "lat": 35.7,
+        "lon": 139.7,
+        "color": "gold"
+       },
+       {
+        "label": "London",
+        "lat": 51.5,
+        "lon": -0.1,
+        "color": "blue"
+       },
+       {
+        "label": "New York",
+        "lat": 40.7,
+        "lon": -74.0,
+        "color": "blue"
+       }
+      ],
+      "arcs": [
+       [
+        0,
+        1
+       ],
+       [
+        0,
+        2
+       ]
+      ],
+      "lon": 150,
+      "lat": 25
+     }
+    },
+    {
+     "id": "h02",
+     "kind": "jp",
+     "jp": "ロイターの記事は、利上げを後押しする材料、という見出しでした。どんな英語で報じられたのか、見ていきます。",
+     "en": "Reuters framed it as strengthening the case for a hike.",
+     "vis": {
+      "t": "globe",
+      "title": "海外メディアが見た日本の物価",
+      "lines": [
+       {
+        "text": "core inflation 2.2%",
+        "color": "gold"
+       },
+       {
+        "text": "December hike?",
+        "color": "green"
+       }
+      ],
+      "points": [
+       {
+        "label": "Tokyo",
+        "lat": 35.7,
+        "lon": 139.7,
+        "color": "gold"
+       },
+       {
+        "label": "London",
+        "lat": 51.5,
+        "lon": -0.1,
+        "color": "blue"
+       },
+       {
+        "label": "New York",
+        "lat": 40.7,
+        "lon": -74.0,
+        "color": "blue"
+       }
+      ],
+      "arcs": [
+       [
+        0,
+        1
+       ],
+       [
+        0,
+        2
+       ]
+      ],
+      "lon": 150,
+      "lat": 25
+     },
+     "hl": [
+      "strengthening the case"
+     ]
+    },
+    {
+     "id": "h03",
+     "kind": "jp",
+     "jp": "今日はこのニュースから、会議で使える英語を3つ。最後に答え合わせをします。",
+     "en": "Three phrases for your next meeting. Answers at the end.",
+     "vis": {
+      "t": "teaser"
+     }
+    }
+   ]
+  },
+  {
+   "id": "what",
+   "chapter": "物価の数字",
+   "beats": [
+    {
+     "id": "n01",
+     "kind": "jp",
+     "jp": "11月20日に発表された10月の消費者物価。生鮮食品を除いた指数は、前の年より2.2%上がりました。",
+     "en": "October core inflation, released November 20, was 2.2%.",
+     "vis": {
+      "t": "bars",
+      "title": "コア物価上昇率(前年比)",
+      "unit": "%",
+      "items": [
+       {
+        "label": "9月",
+        "value": 2.1,
+        "display": "2.1%",
+        "color": "blue"
+       },
+       {
+        "label": "10月",
+        "value": 2.2,
+        "display": "2.2%",
+        "color": "gold"
+       },
+       {
+        "label": "市場予想",
+        "value": 2.3,
+        "display": "2.3%",
+        "color": "muted"
+       }
+      ]
+     },
+     "hl": [
+      "core inflation"
+     ]
+    },
+    {
+     "id": "n02",
+     "kind": "jp",
+     "jp": "9月の2.1%より上がりましたが、市場の予想の2.3%には、わずかに届きませんでした。",
+     "en": "Up from 2.1% in September, but just below the 2.3% forecast.",
+     "vis": {
+      "t": "bars",
+      "title": "コア物価上昇率(前年比)",
+      "unit": "%",
+      "items": [
+       {
+        "label": "9月",
+        "value": 2.1,
+        "display": "2.1%",
+        "color": "blue"
+       },
+       {
+        "label": "10月",
+        "value": 2.2,
+        "display": "2.2%",
+        "color": "gold"
+       },
+       {
+        "label": "市場予想",
+        "value": 2.3,
+        "display": "2.3%",
+        "color": "muted"
+       }
+      ]
+     }
+    },
+    {
+     "id": "n03",
+     "kind": "jp",
+     "jp": "それでも、日銀の目標の2%を、2か月続けて上回りました。",
+     "en": "Still, it beat the BOJ's 2% target for the second month in a row.",
+     "vis": {
+      "t": "hero_side",
+      "big": "2か月連続",
+      "color": "gold",
+      "text": "for the second month in a row",
+      "jp": "2か月連続で"
+     },
+     "hl": [
+      "second month in a row"
+     ]
+    },
+    {
+     "id": "n04",
+     "kind": "jp",
+     "jp": "2か月連続で、は英語で、フォー・ザ・セカンド・マンス・イン・ア・ロウと言います。",
+     "en": "That's 'for the second month in a row.'",
+     "vis": {
+      "t": "hero_side",
+      "big": "2か月連続",
+      "color": "gold",
+      "text": "for the second month in a row",
+      "jp": "2か月連続で"
+     },
+     "star": true,
+     "hl": [
+      "for the second month in a row"
+     ]
+    },
+    {
+     "id": "n05",
+     "kind": "en_insert",
+     "jp": "受注が2か月連続で減っています",
+     "en": "Orders have dropped for the second month in a row.",
+     "vis": {
+      "t": "hero_side",
+      "big": "2か月連続",
+      "color": "gold",
+      "text": "for the second month in a row",
+      "jp": "2か月連続で"
+     },
+     "hl": [
+      "for the second month in a row"
+     ],
+     "star": true
+    },
+    {
+     "id": "n06",
+     "kind": "jp",
+     "jp": "ロウは、列。同じものが列のように並ぶイメージです。3か月なら、サードに変えるだけです。",
+     "en": "'Row' means a line. For three months, say 'third.'",
+     "vis": {
+      "t": "hero_side",
+      "big": "2か月連続",
+      "color": "gold",
+      "text": "for the second month in a row",
+      "jp": "2か月連続で"
+     }
+    },
+    {
+     "id": "n07",
+     "kind": "jp",
+     "jp": "中身を見ると、モノの値段は3.2%、サービスは1.4%の上昇でした。",
+     "en": "Goods prices rose 3.2%, services 1.4%.",
+     "vis": {
+      "t": "vs",
+      "left": {
+       "en": "goods",
+       "label": "モノ",
+       "val": "+3.2%",
+       "up": true,
+       "color": "red"
+      },
+      "right": {
+       "en": "services",
+       "label": "サービス",
+       "val": "+1.4%",
+       "up": true,
+       "color": "blue"
+      },
+      "mid": "10月"
+     }
+    }
+   ]
+  },
+  {
+   "id": "why",
+   "chapter": "なぜ利上げ観測なのか",
+   "beats": [
+    {
+     "id": "y01",
+     "kind": "jp",
+     "jp": "記事によると、企業は中東での戦闘や円安で上がったコストを、値段に上乗せしています。",
+     "en": "Firms are passing on costs from the Middle East conflict and the weak yen.",
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "中東の戦闘",
+        "mid": "燃料・原料高",
+        "res": "輸入コスト上昇",
+        "ok": false
+       },
+       {
+        "a": "円安",
+        "mid": "輸入品が割高に",
+        "res": "企業が値上げ",
+        "ok": false
+       },
+       {
+        "a": "物価が目標超え",
+        "mid": "日銀の判断",
+        "res": "利上げ観測",
+        "ok": true
+       }
+      ]
+     }
+    },
+    {
+     "id": "y02",
+     "kind": "jp",
+     "jp": "日銀の政策金利は、いま1.25%。多くの市場関係者が、12月18日に終わる会合で、1.5%への引き上げを予想しています。",
+     "en": "The BOJ rate is 1.25%. Many expect a rise to 1.5% at the meeting ending December 18.",
+     "vis": {
+      "t": "counter",
+      "kicker": "BOJ policy rate",
+      "big": "1.25% → 1.5%?",
+      "color": "green",
+      "sub": "12月18日に終わる会合",
+      "note": "多くの市場関係者が予想(ロイター)"
+     },
+     "hl": [
+      "policy rate"
+     ]
+    },
+    {
+     "id": "y03",
+     "kind": "jp",
+     "jp": "今回の物価の数字は、その利上げを後押しする材料だ、というのが見出しの意味です。",
+     "en": "The data adds weight to that view.",
+     "vis": {
+      "t": "hero_side",
+      "big": "後押し",
+      "color": "green",
+      "text": "strengthen the case for",
+      "jp": "〜を後押しする材料"
+     }
+    },
+    {
+     "id": "y04",
+     "kind": "jp",
+     "jp": "〜を後押しする材料になる、は英語で、ストレングスン・ザ・ケース・フォー。ケースは、ここでは主張や根拠のことです。",
+     "en": "'Strengthen the case for' — 'case' here means an argument.",
+     "vis": {
+      "t": "hero_side",
+      "big": "後押し",
+      "color": "green",
+      "text": "strengthen the case for",
+      "jp": "〜を後押しする材料"
+     },
+     "star": true,
+     "hl": [
+      "strengthen the case for"
+     ]
+    },
+    {
+     "id": "y05",
+     "kind": "en_insert",
+     "jp": "この結果は、価格の見直しを後押しします",
+     "en": "These results strengthen the case for a price review.",
+     "vis": {
+      "t": "hero_side",
+      "big": "後押し",
+      "color": "green",
+      "text": "strengthen the case for",
+      "jp": "〜を後押しする材料"
+     },
+     "hl": [
+      "strengthen the case for"
+     ],
+     "star": true
+    },
+    {
+     "id": "y06",
+     "kind": "jp",
+     "jp": "農林中金総合研究所の南武志さんは、日銀の姿勢から見て、12月の利上げの可能性は高いと見ています。",
+     "en": "Economist Takeshi Minami sees a strong chance of a December hike.",
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "a December hike",
+       "has a strong chance"
+      ],
+      "hl": [
+       "a strong chance"
+      ],
+      "by": "南武志氏(農林中金総合研究所)の見方の要旨・英訳"
+     },
+     "hl": [
+      "a strong chance"
+     ]
+    },
+    {
+     "id": "y07",
+     "kind": "jp",
+     "jp": "可能性が高い、は英語で、ア・ストロング・チャンス。確実ではないが、かなりありそう、という強さです。",
+     "en": "'A strong chance' means likely, but not certain.",
+     "vis": {
+      "t": "hero_side",
+      "big": "可能性大",
+      "color": "blue",
+      "text": "a strong chance",
+      "jp": "〜の可能性が高い"
+     },
+     "star": true,
+     "hl": [
+      "a strong chance"
+     ]
+    },
+    {
+     "id": "y08",
+     "kind": "en_insert",
+     "jp": "値引きを求められる可能性は高いです",
+     "en": "There's a strong chance they'll ask for a discount.",
+     "vis": {
+      "t": "hero_side",
+      "big": "可能性大",
+      "color": "blue",
+      "text": "a strong chance",
+      "jp": "〜の可能性が高い"
+     },
+     "hl": [
+      "a strong chance"
+     ],
+     "star": true
+    }
+   ]
+  },
+  {
+   "id": "insight",
+   "chapter": "私たちへの意味",
+   "beats": [
+    {
+     "id": "i01",
+     "kind": "jp",
+     "jp": "ここからは、日本で働く私たちにとっての意味を考えます。",
+     "en": "What does this mean for those of us working in Japan?",
+     "vis": {
+      "t": "statement",
+      "kicker": "SO WHAT?",
+      "text": "日本で働く私たちにとっての意味"
+     }
+    },
+    {
+     "id": "i02",
+     "kind": "jp",
+     "jp": "利上げが決まれば、変動金利の住宅ローンや、会社の借り入れの金利に関わってきます。12月の会合は、家計にも仕事にも身近な話です。",
+     "en": "A hike would touch variable-rate mortgages and company loans.",
+     "vis": {
+      "t": "points",
+      "show": 1,
+      "items": [
+       {
+        "head": "家計・会社",
+        "big": "借入の\n金利",
+        "sub": "変動金利の\nローンに影響",
+        "color": "gold"
+       },
+       {
+        "head": "英語の報告",
+        "big": "連続を\n言う",
+        "sub": "for the second\nmonth in a row",
+        "color": "blue"
+       },
+       {
+        "head": "逆の見方",
+        "big": "勢いは\n鈍化も",
+        "sub": "コアコア\n2.4%→2.2%",
+        "color": "red"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i03",
+     "kind": "jp",
+     "jp": "英語で月次の数字を報告するときは、連続かどうかを一言添えるだけで、流れが伝わります。",
+     "en": "When reporting monthly numbers, say whether it's a streak.",
+     "vis": {
+      "t": "points",
+      "show": 2,
+      "items": [
+       {
+        "head": "家計・会社",
+        "big": "借入の\n金利",
+        "sub": "変動金利の\nローンに影響",
+        "color": "gold"
+       },
+       {
+        "head": "英語の報告",
+        "big": "連続を\n言う",
+        "sub": "for the second\nmonth in a row",
+        "color": "blue"
+       },
+       {
+        "head": "逆の見方",
+        "big": "勢いは\n鈍化も",
+        "sub": "コアコア\n2.4%→2.2%",
+        "color": "red"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i04",
+     "kind": "jp",
+     "jp": "一方で、逆の見方もあります。生鮮食品とエネルギーを除いた指数は、2.4%から2.2%に下がり、食品の上昇も鈍っています。利上げは、まだ決まったわけではありません。",
+     "en": "But core-core slowed from 2.4% to 2.2%, and food inflation eased. Nothing is decided yet.",
+     "vis": {
+      "t": "points",
+      "show": 3,
+      "items": [
+       {
+        "head": "家計・会社",
+        "big": "借入の\n金利",
+        "sub": "変動金利の\nローンに影響",
+        "color": "gold"
+       },
+       {
+        "head": "英語の報告",
+        "big": "連続を\n言う",
+        "sub": "for the second\nmonth in a row",
+        "color": "blue"
+       },
+       {
+        "head": "逆の見方",
+        "big": "勢いは\n鈍化も",
+        "sub": "コアコア\n2.4%→2.2%",
+        "color": "red"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "「2か月連続で」は英語で?for the second month in a rowの使い方|物価2.2%で12月利上げ?【ビジネス英語ニュース #46】",
+  "summary": "2026年11月20日発表の10月の全国消費者物価(生鮮食品を除く)は2.2%上昇。日銀の目標を2か月連続で上回り、ロイターは12月の利上げを後押しする材料と報じました。月次報告で使う for the second month in a row / strengthen the case for / a strong chance を学びます。",
+  "tags": [
+   "ビジネス英語",
+   "英語学習",
+   "ニュース英語",
+   "経済 英語",
+   "会議 英語",
+   "消費者物価",
+   "物価",
+   "日銀",
+   "利上げ",
+   "インフレ",
+   "海外の反応",
+   "社会人 英語",
+   "TOEIC",
+   "business English"
+  ]
+ },
+ "thumbnail": {
+  "big": "2.2%",
+  "big_color": "red",
+  "under": "10月のコア物価上昇率",
+  "badge": "海外が報じる日本",
+  "badge_color": "blue",
+  "question": "12月に利上げ?",
+  "pill": "a strong chance",
+  "bottom": "月次報告で使える英語3つ",
+  "crack": false
+ },
+ "shorts": [
+  {
+   "phrase": 0,
+   "style": "quiz",
+   "badge": "会議で使う英語|初級",
+   "news_hook": [
+    "物価が2か月",
+    "続けて目標超え"
+   ],
+   "hook": [
+    "for the second month in a row",
+    "どういう意味?"
+   ],
+   "ctx": "月次の数字を報告するときの英語",
+   "title": "「for the second month in a row」の意味、わかる?|TOEIC730点・会議の英語 #shorts",
+   "ig_caption": "「for the second month in a row」の意味、わかりますか?\n\n✅ for the second month in a row\n2か月連続で\n\n例文:Orders have dropped for the second month in a row.\n(受注が、2か月連続で減っています。)\n\n10月のコア物価は2.2%上昇。日銀の目標の2%を、2か月連続で上回りました。月次報告の定番表現です。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  },
+  {
+   "phrase": 2,
+   "style": "quiz",
+   "badge": "会議で使う英語|中級",
+   "news_hook": [
+    "12月に",
+    "利上げはある?"
+   ],
+   "hook": [
+    "a strong chance",
+    "どういう意味?"
+   ],
+   "ctx": "見込みの強さを伝える一言",
+   "title": "「a strong chance」の意味、わかる?|会議の英語 #shorts",
+   "ig_caption": "「a strong chance」の意味、わかりますか?\n\n✅ a strong chance\n〜の可能性が高い\n\n例文:There's a strong chance the client will ask for a discount.\n(お客様が値引きを求めてくる可能性は高いですね。)\n\n物価の数字を受けて、12月の日銀の利上げの可能性は高いとの見方が出ています。確実ではないが、かなりありそう、の言い方です。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  }
+ ],
+ "sources": [
+  {
+   "title": "IndexBox(ロイター配信)「Japan Core Inflation Hits 2.2% in October, Strengthening Case for December BOJ Rate Hike」(2026年11月20日)",
+   "url": "https://www.indexbox.io/blog/japan-core-inflation-hits-22-in-october-strengthening-case-for-december-boj-rate-hike/"
+  }
+ ],
+ "readings": [
+  [
+   "20日",
+   "はつか"
+  ],
+  [
+   "18日",
+   "じゅうはちにち"
+  ],
+  [
+   "1.25%",
+   "いってんにーごパーセント"
+  ],
+  [
+   "南武志",
+   "みなみたけし"
+  ],
+  [
+   "農林中金総合研究所",
+   "のうりんちゅうきんそうごうけんきゅうじょ"
+  ],
+  [
+   "日銀",
+   "にちぎん"
+  ],
+  [
+   "コアコア",
+   "コアコア"
+  ]
+ ]
+}

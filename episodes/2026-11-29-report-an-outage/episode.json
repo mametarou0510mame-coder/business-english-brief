@@ -1,0 +1,634 @@
+{
+ "id": "2026-11-29-report-an-outage",
+ "episode": "#48",
+ "date": "2026-11-19",
+ "series": "場面別の英語",
+ "title_card": {
+  "line1": "システムが止まった!",
+  "line2": "障害を報告する英語3つ"
+ },
+ "publish": {
+  "long": "2026-11-29T07:00:00+09:00",
+  "shorts": [
+   "2026-11-29T12:00:00+09:00",
+   "2026-11-29T21:00:00+09:00"
+  ]
+ },
+ "phrases": [
+  {
+   "en": "We're aware of the issue",
+   "jp": "問題は把握しています",
+   "ex": "We're aware of the issue and are working on a fix.",
+   "ex_jp": "問題は把握しており、復旧作業を進めています。"
+  },
+  {
+   "en": "the root cause",
+   "jp": "根本原因",
+   "ex": "We haven't identified the root cause yet.",
+   "ex_jp": "根本原因は、まだ特定できていません。"
+  },
+  {
+   "en": "I'll send an update by",
+   "jp": "〜までに続報を送ります",
+   "ex": "I'll send an update by 3 p.m. today.",
+   "ex_jp": "本日15時までに、続報をお送りします。"
+  }
+ ],
+ "words": [
+  {
+   "en": "outage",
+   "jp": "(サービスの)停止・障害"
+  },
+  {
+   "en": "workaround",
+   "jp": "応急の回避策"
+  },
+  {
+   "en": "post-incident report",
+   "jp": "障害の事後報告書"
+  }
+ ],
+ "homework": {
+  "en": "How would you start an email about a system outage?",
+  "jp": "システム障害のメール、最初の一文は?",
+  "hl": [
+   "system outage"
+  ],
+  "say": "最後に宿題です。システム障害を知らせるメールを、あなたなら英語でどう書き始めますか。コメント欄に書いてみてください。"
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "beats": [
+    {
+     "id": "h01",
+     "kind": "jp",
+     "jp": "朝、メールもチャットも動かない。お客様からは、どうなっているの、と連絡が来る。",
+     "en": "Email and chat are down, and clients are asking what's going on.",
+     "vis": {
+      "t": "statement",
+      "kicker": "SCENE",
+      "text": "メールも会議も、止まった。",
+      "sub": "そのとき最初に送る一言は?"
+     }
+    },
+    {
+     "id": "h02",
+     "kind": "jp",
+     "jp": "そんなとき、最初の英語のメールに何を書くか。今週のマイクロソフトの障害を例に考えます。",
+     "en": "What goes in your first email? Let's learn from Microsoft's outage.",
+     "vis": {
+      "t": "statement",
+      "kicker": "SCENE",
+      "text": "メールも会議も、止まった。",
+      "sub": "そのとき最初に送る一言は?"
+     }
+    },
+    {
+     "id": "h03",
+     "kind": "jp",
+     "jp": "使えるフレーズは3つ。最後に答え合わせをします。",
+     "en": "Three phrases. Answers at the end.",
+     "vis": {
+      "t": "teaser"
+     }
+    }
+   ]
+  },
+  {
+   "id": "news",
+   "chapter": "今週のニュースから",
+   "beats": [
+    {
+     "id": "s01",
+     "kind": "jp",
+     "jp": "11月12日、マイクロソフトのアウトルックやチームズ、コパイロットが、およそ1日にわたって使えなくなりました。",
+     "en": "On November 12, Outlook, Teams and Copilot went down for about a day.",
+     "vis": {
+      "t": "timeline",
+      "show": 1,
+      "items": [
+       {
+        "when": "11月12日",
+        "text": "Outlook・Teams・Copilotが約1日停止",
+        "color": "red"
+       },
+       {
+        "when": "11月13日",
+        "text": "ネットワーク増強の作業が原因と説明",
+        "color": "gold"
+       },
+       {
+        "when": "11月16日",
+        "text": "3つの要因が重なったと説明を更新",
+        "color": "blue"
+       }
+      ]
+     },
+     "hl": [
+      "went down"
+     ]
+    },
+    {
+     "id": "s02",
+     "kind": "jp",
+     "jp": "サティア・ナデラCEOは、影響を受けた人たちに、本当に申し訳ない、と謝罪したと報じられています。",
+     "en": "CEO Satya Nadella reportedly said he was 'extremely sorry.'",
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "extremely sorry"
+      ],
+      "hl": [
+       "extremely sorry"
+      ],
+      "by": "Satya Nadella, CEO, Microsoft(24/7 Wall St.の報道)"
+     },
+     "hl": [
+      "extremely sorry"
+     ]
+    },
+    {
+     "id": "s03",
+     "kind": "jp",
+     "jp": "注目したいのは、原因の説明です。13日には、ネットワークの増強作業が原因と説明しました。",
+     "en": "On the 13th, Microsoft blamed a network capacity upgrade.",
+     "vis": {
+      "t": "timeline",
+      "show": 2,
+      "items": [
+       {
+        "when": "11月12日",
+        "text": "Outlook・Teams・Copilotが約1日停止",
+        "color": "red"
+       },
+       {
+        "when": "11月13日",
+        "text": "ネットワーク増強の作業が原因と説明",
+        "color": "gold"
+       },
+       {
+        "when": "11月16日",
+        "text": "3つの要因が重なったと説明を更新",
+        "color": "blue"
+       }
+      ]
+     }
+    },
+    {
+     "id": "s04",
+     "kind": "jp",
+     "jp": "ところが16日には、3つの要因が重なった、と説明が変わりました。最終的な報告は、まだ出ていません。",
+     "en": "On the 16th, it cited three combined factors. No final report yet.",
+     "vis": {
+      "t": "layers",
+      "layers": [
+       "7月の修正に隠れた不具合",
+       "ゲートウェイへの負荷の急増",
+       "サーバー能力の低下"
+      ],
+      "icing": {
+       "label": "11月16日の説明",
+       "en": "three factors",
+       "jp": "3つの要因",
+       "en2": "combined",
+       "jp2": "が重なった"
+      },
+      "glow": false,
+      "footer": "マイクロソフト幹部の説明(報道)"
+     }
+    }
+   ]
+  },
+  {
+   "id": "p1",
+   "chapter": "ステップ1 把握していると伝える",
+   "beats": [
+    {
+     "id": "p01",
+     "kind": "jp",
+     "jp": "最初の一報で大事なのは、問題を知っていると伝えること。ウィーアー・アウェア・オブ・ジ・イシューです。",
+     "en": "First, show you know: 'We're aware of the issue.'",
+     "vis": {
+      "t": "hero_side",
+      "big": "把握済み",
+      "color": "gold",
+      "text": "We're aware of the issue",
+      "jp": "問題は把握しています"
+     },
+     "star": true,
+     "hl": [
+      "We're aware of the issue"
+     ]
+    },
+    {
+     "id": "p02",
+     "kind": "en_insert",
+     "jp": "問題は把握しており、対応中です",
+     "en": "We're aware of the issue and are working on a fix.",
+     "vis": {
+      "t": "hero_side",
+      "big": "把握済み",
+      "color": "gold",
+      "text": "We're aware of the issue",
+      "jp": "問題は把握しています"
+     },
+     "hl": [
+      "We're aware of the issue"
+     ],
+     "star": true
+    },
+    {
+     "id": "p03",
+     "kind": "jp",
+     "jp": "アウェアは、気づいている。お客様が一番不安なのは、相手が気づいているかどうか、だからです。",
+     "en": "'Aware' means you know. That's what worried users want to hear first.",
+     "vis": {
+      "t": "hero_side",
+      "big": "把握済み",
+      "color": "gold",
+      "text": "We're aware of the issue",
+      "jp": "問題は把握しています"
+     }
+    },
+    {
+     "id": "p04",
+     "kind": "jp",
+     "jp": "後ろに、アンド・アー・ワーキング・オン・ア・フィックス、復旧作業中です、と続けると、さらに安心感が出ます。",
+     "en": "Add 'and are working on a fix' to sound in control.",
+     "vis": {
+      "t": "hero_side",
+      "big": "把握済み",
+      "color": "gold",
+      "text": "We're aware of the issue",
+      "jp": "問題は把握しています"
+     }
+    }
+   ]
+  },
+  {
+   "id": "p2",
+   "chapter": "ステップ2 原因は決めつけない",
+   "beats": [
+    {
+     "id": "p05",
+     "kind": "jp",
+     "jp": "次は原因。マイクロソフトの説明が途中で変わったように、最初の見立ては外れることがあります。",
+     "en": "Early explanations can change, as Microsoft's did.",
+     "vis": {
+      "t": "vs",
+      "left": {
+       "en": "guess the cause",
+       "label": "原因を決めつける",
+       "val": "あとで訂正",
+       "up": false,
+       "color": "red"
+      },
+      "right": {
+       "en": "say it's under review",
+       "label": "調査中と言う",
+       "val": "信頼が残る",
+       "up": true,
+       "color": "green"
+      },
+      "mid": "最初の報告"
+     }
+    },
+    {
+     "id": "p06",
+     "kind": "jp",
+     "jp": "だから、根本原因はまだ調べている、と正直に言う。根本原因は、英語で、ザ・ルート・コーズです。",
+     "en": "So say the root cause is still under review.",
+     "vis": {
+      "t": "hero_side",
+      "big": "根本原因",
+      "color": "red",
+      "text": "the root cause",
+      "jp": "根っこの原因"
+     },
+     "star": true,
+     "hl": [
+      "the root cause"
+     ]
+    },
+    {
+     "id": "p07",
+     "kind": "en_insert",
+     "jp": "根本原因はまだ特定できていません",
+     "en": "We haven't identified the root cause yet.",
+     "vis": {
+      "t": "hero_side",
+      "big": "根本原因",
+      "color": "red",
+      "text": "the root cause",
+      "jp": "根っこの原因"
+     },
+     "hl": [
+      "the root cause"
+     ],
+     "star": true
+    },
+    {
+     "id": "p08",
+     "kind": "jp",
+     "jp": "ルートは、木の根っこ。表に見えた症状ではなく、その下にある本当の原因、というイメージです。",
+     "en": "'Root' as in a tree: the real cause under the symptoms.",
+     "vis": {
+      "t": "hero_side",
+      "big": "根本原因",
+      "color": "red",
+      "text": "the root cause",
+      "jp": "根っこの原因"
+     }
+    }
+   ]
+  },
+  {
+   "id": "p3",
+   "chapter": "ステップ3 次の連絡を約束する",
+   "beats": [
+    {
+     "id": "p09",
+     "kind": "jp",
+     "jp": "最後に、次にいつ連絡するかを、時刻で約束します。アイル・センド・アン・アップデート・バイです。",
+     "en": "Finally, promise a time: 'I'll send an update by…'",
+     "vis": {
+      "t": "hero_side",
+      "big": "続報",
+      "color": "green",
+      "text": "I'll send an update by",
+      "jp": "〜までに続報を送ります"
+     },
+     "star": true,
+     "hl": [
+      "I'll send an update by"
+     ]
+    },
+    {
+     "id": "p10",
+     "kind": "en_insert",
+     "jp": "本日15時までに続報をお送りします",
+     "en": "I'll send an update by 3 p.m. today.",
+     "vis": {
+      "t": "hero_side",
+      "big": "続報",
+      "color": "green",
+      "text": "I'll send an update by",
+      "jp": "〜までに続報を送ります"
+     },
+     "hl": [
+      "I'll send an update by"
+     ],
+     "star": true
+    },
+    {
+     "id": "p11",
+     "kind": "jp",
+     "jp": "バイは、〜までに。直っていなくても、決めた時刻に途中経過を送るのがポイントです。",
+     "en": "'By' means no later than. Send it on time, even if it's not fixed.",
+     "vis": {
+      "t": "hero_side",
+      "big": "続報",
+      "color": "green",
+      "text": "I'll send an update by",
+      "jp": "〜までに続報を送ります"
+     }
+    },
+    {
+     "id": "p12",
+     "kind": "jp",
+     "jp": "まとめると、把握している、原因は調査中、次はいつ。この3点で、最初のメールは書けます。",
+     "en": "Aware, cause under review, next update time. That's your first email.",
+     "vis": {
+      "t": "cards",
+      "show": 3,
+      "footer": "障害報告メールの3点セット",
+      "items": [
+       {
+        "name": "1. 今の状況",
+        "big": "把握済み",
+        "sub": "We're aware of the issue",
+        "note": "まず一報",
+        "color": "gold"
+       },
+       {
+        "name": "2. 原因",
+        "big": "調査中",
+        "sub": "the root cause",
+        "note": "決めつけない",
+        "color": "red"
+       },
+       {
+        "name": "3. 次の連絡",
+        "big": "◯時までに",
+        "sub": "I'll send an update by",
+        "note": "時刻で約束",
+        "color": "green"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "insight",
+   "chapter": "日本の職場では",
+   "beats": [
+    {
+     "id": "i01",
+     "kind": "jp",
+     "jp": "ここからは、日本で働く私たちにとっての意味を考えます。",
+     "en": "What does this mean for those of us working in Japan?",
+     "vis": {
+      "t": "statement",
+      "kicker": "SO WHAT?",
+      "text": "日本で働く私たちにとっての意味"
+     }
+    },
+    {
+     "id": "i02",
+     "kind": "jp",
+     "jp": "日本の職場では、まずおわびから入るのが自然です。英語でも一言の謝罪は大切ですが、続きは事実と予定で埋めましょう。",
+     "en": "In Japan we start with an apology. In English, follow it with facts and next steps.",
+     "vis": {
+      "t": "points",
+      "show": 1,
+      "items": [
+       {
+        "head": "日本の職場",
+        "big": "まず\nおわび",
+        "sub": "でも中身は\n事実と予定",
+        "color": "gold"
+       },
+       {
+        "head": "海外の相手",
+        "big": "次はいつ?",
+        "sub": "時刻があると\n安心する",
+        "color": "blue"
+       },
+       {
+        "head": "逆の見方",
+        "big": "早すぎる\n約束",
+        "sub": "守れない時刻は\n逆効果",
+        "color": "red"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i03",
+     "kind": "jp",
+     "jp": "海外の相手は、次の連絡がいつかを知りたがります。時刻があるだけで、問い合わせの数はぐっと減ります。",
+     "en": "Overseas partners want to know when you'll update them next.",
+     "vis": {
+      "t": "points",
+      "show": 2,
+      "items": [
+       {
+        "head": "日本の職場",
+        "big": "まず\nおわび",
+        "sub": "でも中身は\n事実と予定",
+        "color": "gold"
+       },
+       {
+        "head": "海外の相手",
+        "big": "次はいつ?",
+        "sub": "時刻があると\n安心する",
+        "color": "blue"
+       },
+       {
+        "head": "逆の見方",
+        "big": "早すぎる\n約束",
+        "sub": "守れない時刻は\n逆効果",
+        "color": "red"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i04",
+     "kind": "jp",
+     "jp": "一方で、逆の見方もあります。守れない時刻を約束すると、かえって信頼を失います。少し余裕を持った時刻を選びましょう。",
+     "en": "On the other hand, a missed deadline hurts trust. Pick a time you can keep.",
+     "vis": {
+      "t": "points",
+      "show": 3,
+      "items": [
+       {
+        "head": "日本の職場",
+        "big": "まず\nおわび",
+        "sub": "でも中身は\n事実と予定",
+        "color": "gold"
+       },
+       {
+        "head": "海外の相手",
+        "big": "次はいつ?",
+        "sub": "時刻があると\n安心する",
+        "color": "blue"
+       },
+       {
+        "head": "逆の見方",
+        "big": "早すぎる\n約束",
+        "sub": "守れない時刻は\n逆効果",
+        "color": "red"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "「問題は把握しています」は英語で?We're aware of the issueの使い方|障害報告の英語【ビジネス英語ニュース #48】",
+  "summary": "システム障害が起きたとき、最初に送る英語のメールで使える3つのフレーズを紹介します。11月12日のマイクロソフトのOutlook・Teams障害で、原因の説明が途中で変わった例をもとに、We're aware of the issue / the root cause / I'll send an update by を学びます。",
+  "tags": [
+   "ビジネス英語",
+   "英語学習",
+   "会議 英語",
+   "英語 メール",
+   "障害報告 英語",
+   "トラブル 英語",
+   "場面別",
+   "マイクロソフト",
+   "Outlook",
+   "Teams",
+   "社会人 英語",
+   "TOEIC",
+   "教養",
+   "business English"
+  ]
+ },
+ "thumbnail": {
+  "big": "障害発生",
+  "big_color": "red",
+  "under": "最初のメール、何て書く?",
+  "badge": "場面別",
+  "badge_color": "gold",
+  "question": "原因は調査中…",
+  "pill": "We're aware of the issue",
+  "bottom": "トラブル報告の英語3つ",
+  "crack": true
+ },
+ "shorts": [
+  {
+   "phrase": 1,
+   "style": "quiz",
+   "badge": "会議で使う英語|中級",
+   "news_hook": [
+    "原因、もう",
+    "わかってる?"
+   ],
+   "hook": [
+    "the root cause",
+    "どういう意味?"
+   ],
+   "ctx": "障害の原因を説明するときの英語",
+   "title": "「the root cause」の意味、わかる?|TOEIC730点・会議の英語 #shorts",
+   "ig_caption": "「the root cause」の意味、わかりますか?\n\n✅ the root cause\n根本原因\n\n例文:We haven't identified the root cause yet.\n(根本原因は、まだ特定できていません。)\n\nマイクロソフトの大規模障害では、原因の説明が途中で変わりました。最初は「根本原因は調査中」と言うのが安全です。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  },
+  {
+   "phrase": 2,
+   "style": "quiz",
+   "badge": "会議で使う英語|初級",
+   "news_hook": [
+    "次の連絡は",
+    "いつ?"
+   ],
+   "hook": [
+    "I'll send an update by",
+    "どういう意味?"
+   ],
+   "ctx": "トラブル対応で次の連絡を約束する一言",
+   "title": "「I'll send an update by」の意味、わかる?|会議の英語 #shorts",
+   "ig_caption": "「I'll send an update by」の意味、わかりますか?\n\n✅ I'll send an update by\n〜までに続報を送ります\n\n例文:I'll send an update by 3 p.m. today.\n(本日15時までに、続報をお送りします。)\n\n障害対応のメールでは、直っていなくても「何時までに続報を送るか」を伝えると相手が安心します。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  }
+ ],
+ "sources": [
+  {
+   "title": "24/7 Wall St.(Yahoo Finance掲載)「Microsoft's CEO Says He's 'Extremely Sorry' for the Outlook Outage」(2026年11月19日)",
+   "url": "https://finance.yahoo.com/technology/articles/microsoft-ceo-says-extremely-sorry-123855055.html"
+  }
+ ],
+ "readings": [
+  [
+   "12日",
+   "じゅうににち"
+  ],
+  [
+   "13日",
+   "じゅうさんにち"
+  ],
+  [
+   "16日",
+   "じゅうろくにち"
+  ],
+  [
+   "15時",
+   "じゅうごじ"
+  ],
+  [
+   "1日",
+   "いちにち"
+  ]
+ ]
+}

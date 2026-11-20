@@ -1,0 +1,672 @@
+{
+ "id": "2026-11-25-apple-ai-agent",
+ "episode": "#44",
+ "date": "2026-11-19",
+ "series": "テックとAI",
+ "title_card": {
+  "line1": "アップルが「Macを操作するAI」?",
+  "line2": "求人から見えた計画を英語で"
+ },
+ "publish": {
+  "long": "2026-11-25T07:00:00+09:00",
+  "shorts": [
+   "2026-11-25T12:00:00+09:00",
+   "2026-11-25T21:00:00+09:00"
+  ]
+ },
+ "phrases": [
+  {
+   "en": "in the early stages",
+   "jp": "まだ初期段階で",
+   "ex": "The project is still in the early stages, so the budget may change.",
+   "ex_jp": "プロジェクトはまだ初期段階なので、予算は変わるかもしれません。"
+  },
+  {
+   "en": "as soon as",
+   "jp": "早ければ〜にも",
+   "ex": "We could launch the new service as soon as next spring.",
+   "ex_jp": "早ければ来年の春にも、新サービスを始められます。"
+  },
+  {
+   "en": "on our own terms",
+   "jp": "自分たちのやり方・条件で",
+   "ex": "We want to use AI, but on our own terms.",
+   "ex_jp": "AIは使いたいですが、自分たちのルールで使いたいのです。"
+  }
+ ],
+ "words": [
+  {
+   "en": "job posting",
+   "jp": "求人(情報)"
+  },
+  {
+   "en": "AI agent",
+   "jp": "操作を代行するAI"
+  },
+  {
+   "en": "full access",
+   "jp": "すべての操作権限"
+  }
+ ],
+ "homework": {
+  "en": "What task would you let an AI agent do on your PC?",
+  "jp": "パソコンのどの作業なら、AIに任せる?",
+  "hl": [
+   "AI agent"
+  ],
+  "say": "最後に宿題です。あなたのパソコンで、どの作業ならAIに任せたいですか。英語で、コメント欄に書いてみてください。"
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "beats": [
+    {
+     "id": "h01",
+     "kind": "jp",
+     "jp": "アップルが、パソコンを使えるAIを作ろうとしている。きっかけは、1件の求人でした。",
+     "en": "Is Apple building an AI that can use your computer? A job posting hints at it.",
+     "vis": {
+      "t": "hero_side",
+      "big": "求人",
+      "color": "gold",
+      "text": "an AI agent that can use a computer",
+      "jp": "パソコンを使えるAI"
+     },
+     "hl": [
+      "use a computer"
+     ]
+    },
+    {
+     "id": "h02",
+     "kind": "jp",
+     "jp": "ブルームバーグが、アップルの求人の中に、パソコンを使えるAIエージェント、という言葉を見つけたのです。",
+     "en": "Bloomberg spotted the phrase in an Apple job listing.",
+     "vis": {
+      "t": "hero_side",
+      "big": "求人",
+      "color": "gold",
+      "text": "an AI agent that can use a computer",
+      "jp": "パソコンを使えるAI"
+     }
+    },
+    {
+     "id": "h03",
+     "kind": "jp",
+     "jp": "今日はこのニュースから、会議で使える英語を3つ。最後に答え合わせをします。",
+     "en": "Three phrases for your next meeting. Answers at the end.",
+     "vis": {
+      "t": "teaser"
+     }
+    }
+   ]
+  },
+  {
+   "id": "what",
+   "chapter": "何が報じられたか",
+   "beats": [
+    {
+     "id": "n01",
+     "kind": "jp",
+     "jp": "テッククランチによると、求人は、AIエージェントの開発を率いる、上級のエンジニアリング・マネージャーの募集です。",
+     "en": "The posting is for a senior engineering manager to lead the agent work.",
+     "vis": {
+      "t": "layers",
+      "layers": [
+       "コードを書く・直す",
+       "コマンドを実行する",
+       "アプリをまたいで作業",
+       "ウェブを見て回る"
+      ],
+      "icing": {
+       "label": "求人に書かれた仕事",
+       "en": "browses the web,",
+       "jp": "ウェブを閲覧し",
+       "en2": "writes and debugs code",
+       "jp2": "コードを書いて直す"
+      },
+      "glow": true,
+      "footer": "求人より(報道)"
+     }
+    },
+    {
+     "id": "n02",
+     "kind": "jp",
+     "jp": "求人には、このAIの仕事が書かれていました。ウェブを見て回り、アプリをまたいで作業し、コマンドを実行し、コードを書いて直す。",
+     "en": "It browses the web, works across apps, runs commands, writes and debugs code.",
+     "vis": {
+      "t": "layers",
+      "layers": [
+       "コードを書く・直す",
+       "コマンドを実行する",
+       "アプリをまたいで作業",
+       "ウェブを見て回る"
+      ],
+      "icing": {
+       "label": "求人に書かれた仕事",
+       "en": "browses the web,",
+       "jp": "ウェブを閲覧し",
+       "en2": "writes and debugs code",
+       "jp2": "コードを書いて直す"
+      },
+      "glow": true,
+      "footer": "求人より(報道)"
+     },
+     "hl": [
+      "works across apps"
+     ]
+    },
+    {
+     "id": "n03",
+     "kind": "jp",
+     "jp": "つまり、人がマウスとキーボードでしている作業を、AIが代わりに進める、というイメージです。",
+     "en": "In short, an AI that does what you do with a mouse and keyboard.",
+     "vis": {
+      "t": "layers",
+      "layers": [
+       "コードを書く・直す",
+       "コマンドを実行する",
+       "アプリをまたいで作業",
+       "ウェブを見て回る"
+      ],
+      "icing": {
+       "label": "求人に書かれた仕事",
+       "en": "browses the web,",
+       "jp": "ウェブを閲覧し",
+       "en2": "writes and debugs code",
+       "jp2": "コードを書いて直す"
+      },
+      "glow": true,
+      "footer": "求人より(報道)"
+     }
+    },
+    {
+     "id": "n04",
+     "kind": "jp",
+     "jp": "ただし、ブルームバーグは、開発はまだ初期の段階だと伝えています。",
+     "en": "But Bloomberg says the work is still in the early stages.",
+     "vis": {
+      "t": "hero_side",
+      "big": "初期段階",
+      "color": "blue",
+      "text": "in the early stages",
+      "jp": "まだ始まったばかり"
+     },
+     "star": true,
+     "hl": [
+      "in the early stages"
+     ]
+    },
+    {
+     "id": "n05",
+     "kind": "jp",
+     "jp": "まだ初期段階で、を英語で、イン・ジ・アーリー・ステージズと言います。",
+     "en": "That's 'in the early stages.'",
+     "vis": {
+      "t": "hero_side",
+      "big": "初期段階",
+      "color": "blue",
+      "text": "in the early stages",
+      "jp": "まだ始まったばかり"
+     },
+     "star": true,
+     "hl": [
+      "in the early stages"
+     ]
+    },
+    {
+     "id": "n06",
+     "kind": "en_insert",
+     "jp": "プロジェクトはまだ初期段階です",
+     "en": "The project is still in the early stages.",
+     "vis": {
+      "t": "hero_side",
+      "big": "初期段階",
+      "color": "blue",
+      "text": "in the early stages",
+      "jp": "まだ始まったばかり"
+     },
+     "hl": [
+      "in the early stages"
+     ],
+     "star": true
+    },
+    {
+     "id": "n07",
+     "kind": "jp",
+     "jp": "計画が固まっていないことを、正直に、でも前向きに伝えられる表現です。",
+     "en": "It's honest about uncertainty, but still sounds positive.",
+     "vis": {
+      "t": "hero_side",
+      "big": "初期段階",
+      "color": "blue",
+      "text": "in the early stages",
+      "jp": "まだ始まったばかり"
+     }
+    }
+   ]
+  },
+  {
+   "id": "when",
+   "chapter": "いつ出るのか",
+   "beats": [
+    {
+     "id": "w1a",
+     "kind": "jp",
+     "jp": "では、いつ出てくるのか。報道では、アップルは早ければ来年の終わりにも、と考えているといいます。",
+     "en": "When? Apple has eyed a launch as soon as the end of next year, per Bloomberg.",
+     "vis": {
+      "t": "timeline",
+      "show": 3,
+      "items": [
+       {
+        "when": "10月",
+        "text": "第三者のAIへの権限に「追加の管理」を予告",
+        "color": "blue"
+       },
+       {
+        "when": "11月19日",
+        "text": "自社AIエージェントの求人が報道される",
+        "color": "gold"
+       },
+       {
+        "when": "来年末?",
+        "text": "早ければこの頃に投入を検討(報道)",
+        "color": "green"
+       }
+      ]
+     },
+     "hl": [
+      "as soon as"
+     ]
+    },
+    {
+     "id": "w1b",
+     "kind": "jp",
+     "jp": "早ければ〜にも、は英語で、アズ・スーン・アズ。時期の前につけるだけです。",
+     "en": "'As soon as' + a time = the earliest it could happen.",
+     "vis": {
+      "t": "hero_side",
+      "big": "早ければ",
+      "color": "green",
+      "text": "as soon as",
+      "jp": "早ければ〜にも"
+     },
+     "star": true,
+     "hl": [
+      "as soon as"
+     ]
+    },
+    {
+     "id": "w1c",
+     "kind": "en_insert",
+     "jp": "早ければ来年の春にも始められます",
+     "en": "We could launch as soon as next spring.",
+     "vis": {
+      "t": "hero_side",
+      "big": "早ければ",
+      "color": "green",
+      "text": "as soon as",
+      "jp": "早ければ〜にも"
+     },
+     "hl": [
+      "as soon as"
+     ],
+     "star": true
+    },
+    {
+     "id": "w1d",
+     "kind": "jp",
+     "jp": "注意したいのは、早ければ、なので、約束ではないこと。会議で使うときも、遅れる可能性を含んだ言い方です。",
+     "en": "It's the earliest case, not a promise. It leaves room for delay.",
+     "vis": {
+      "t": "hero_side",
+      "big": "早ければ",
+      "color": "green",
+      "text": "as soon as",
+      "jp": "早ければ〜にも"
+     }
+    },
+    {
+     "id": "w1e",
+     "kind": "jp",
+     "jp": "こうしたAIは、すでに各社が出しています。オープンエーアイのドッツ、アンソロピックのクロード、メタのミューズなどです。",
+     "en": "Rivals already offer agents: OpenAI's Dots, Anthropic's Claude, Meta's Muse.",
+     "vis": {
+      "t": "network",
+      "title": "パソコンを操作するAIの競争",
+      "center": {
+       "label": "AI agents",
+       "sub": "PCを使うAI"
+      },
+      "nodes": [
+       {
+        "label": "Apple(開発中と報道)",
+        "color": "gold"
+       },
+       {
+        "label": "OpenAI Dots",
+        "color": "blue"
+       },
+       {
+        "label": "Anthropic Claude",
+        "color": "blue"
+       },
+       {
+        "label": "Meta Muse",
+        "color": "blue"
+       }
+      ],
+      "inward": true
+     }
+    }
+   ]
+  },
+  {
+   "id": "terms",
+   "chapter": "自分たちの条件で",
+   "beats": [
+    {
+     "id": "k01",
+     "kind": "jp",
+     "jp": "もうひとつの動きがあります。アップルは10月、外部のAIにマックの全権限を渡すことについて、追加の管理を入れると開発者に伝えていました。",
+     "en": "In October, Apple told developers it would add controls on full access for outside agents.",
+     "vis": {
+      "t": "timeline",
+      "show": 1,
+      "items": [
+       {
+        "when": "10月",
+        "text": "第三者のAIへの権限に「追加の管理」を予告",
+        "color": "blue"
+       },
+       {
+        "when": "11月19日",
+        "text": "自社AIエージェントの求人が報道される",
+        "color": "gold"
+       },
+       {
+        "when": "来年末?",
+        "text": "早ければこの頃に投入を検討(報道)",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "k02",
+     "kind": "jp",
+     "jp": "報道では、次のマックの更新で、外部のAIに全権限を渡そうとすると、警告が出るようになるといいます。",
+     "en": "A coming macOS update will warn users before granting full access to such agents.",
+     "vis": {
+      "t": "vs",
+      "left": {
+       "en": "its own agent",
+       "label": "自社のAI",
+       "val": "開発中(報道)",
+       "up": true,
+       "color": "green"
+      },
+      "right": {
+       "en": "third-party agents",
+       "label": "他社のAI",
+       "val": "警告を表示へ",
+       "up": false,
+       "color": "red"
+      },
+      "mid": "アップル"
+     }
+    },
+    {
+     "id": "k03",
+     "kind": "jp",
+     "jp": "自社のAIは作りつつ、外のAIには慎重に。自分たちの条件で進めたい、とも読めます。",
+     "en": "Build its own, be careful with others. You could read it as AI on Apple's terms.",
+     "vis": {
+      "t": "vs",
+      "left": {
+       "en": "its own agent",
+       "label": "自社のAI",
+       "val": "開発中(報道)",
+       "up": true,
+       "color": "green"
+      },
+      "right": {
+       "en": "third-party agents",
+       "label": "他社のAI",
+       "val": "警告を表示へ",
+       "up": false,
+       "color": "red"
+      },
+      "mid": "アップル"
+     }
+    },
+    {
+     "id": "k04",
+     "kind": "jp",
+     "jp": "自分たちの条件で、は英語で、オン・アワ・オウン・タームズ。タームズは、条件という意味です。",
+     "en": "'On our own terms' means under our conditions.",
+     "vis": {
+      "t": "hero_side",
+      "big": "自分たちの",
+      "color": "gold",
+      "text": "on our own terms",
+      "jp": "自分たちの条件で"
+     },
+     "star": true,
+     "hl": [
+      "on our own terms"
+     ]
+    },
+    {
+     "id": "k05",
+     "kind": "en_insert",
+     "jp": "AIは使いたいが、自分たちのルールで",
+     "en": "We want to use AI, but on our own terms.",
+     "vis": {
+      "t": "hero_side",
+      "big": "自分たちの",
+      "color": "gold",
+      "text": "on our own terms",
+      "jp": "自分たちの条件で"
+     },
+     "hl": [
+      "on our own terms"
+     ],
+     "star": true
+    }
+   ]
+  },
+  {
+   "id": "insight",
+   "chapter": "私たちへの意味",
+   "beats": [
+    {
+     "id": "i01",
+     "kind": "jp",
+     "jp": "ここからは、日本で働く私たちにとっての意味を考えます。",
+     "en": "What does this mean for those of us working in Japan?",
+     "vis": {
+      "t": "statement",
+      "kicker": "SO WHAT?",
+      "text": "日本で働く私たちにとっての意味"
+     }
+    },
+    {
+     "id": "i02",
+     "kind": "jp",
+     "jp": "AIにパソコンの操作を任せる日は、近づいています。会社のパソコンなら、どこまで任せてよいのか、先に決めておく必要があります。",
+     "en": "Before an AI runs your work PC, decide how much it may touch.",
+     "vis": {
+      "t": "points",
+      "show": 1,
+      "items": [
+       {
+        "head": "会社のPC",
+        "big": "どこまで\n任せる?",
+        "sub": "権限の範囲を\n先に決める",
+        "color": "gold"
+       },
+       {
+        "head": "月曜の話とも",
+        "big": "外に渡す\n権限",
+        "sub": "委託先と同じ\n考え方",
+        "color": "blue"
+       },
+       {
+        "head": "逆の見方",
+        "big": "まだ\n求人だけ",
+        "sub": "アップルは\nコメントせず",
+        "color": "red"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i03",
+     "kind": "jp",
+     "jp": "これは、月曜に取り上げた委託先の情報漏えいと同じ話です。外に渡す権限が大きいほど、何かあったときの影響も大きくなります。",
+     "en": "Like Monday's vendor leak: the more access you hand over, the bigger the risk.",
+     "vis": {
+      "t": "points",
+      "show": 2,
+      "items": [
+       {
+        "head": "会社のPC",
+        "big": "どこまで\n任せる?",
+        "sub": "権限の範囲を\n先に決める",
+        "color": "gold"
+       },
+       {
+        "head": "月曜の話とも",
+        "big": "外に渡す\n権限",
+        "sub": "委託先と同じ\n考え方",
+        "color": "blue"
+       },
+       {
+        "head": "逆の見方",
+        "big": "まだ\n求人だけ",
+        "sub": "アップルは\nコメントせず",
+        "color": "red"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i04",
+     "kind": "jp",
+     "jp": "一方で、逆の見方もあります。今回わかったのは、あくまで求人の中身。アップルはコメントしておらず、計画が変わる可能性もあります。",
+     "en": "On the other hand, it's only a job posting. Apple hasn't commented, and plans can change.",
+     "vis": {
+      "t": "points",
+      "show": 3,
+      "items": [
+       {
+        "head": "会社のPC",
+        "big": "どこまで\n任せる?",
+        "sub": "権限の範囲を\n先に決める",
+        "color": "gold"
+       },
+       {
+        "head": "月曜の話とも",
+        "big": "外に渡す\n権限",
+        "sub": "委託先と同じ\n考え方",
+        "color": "blue"
+       },
+       {
+        "head": "逆の見方",
+        "big": "まだ\n求人だけ",
+        "sub": "アップルは\nコメントせず",
+        "color": "red"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "「まだ初期段階」は英語で?in the early stagesの使い方|アップルがPC操作AIを開発か【ビジネス英語ニュース #44】",
+  "summary": "ブルームバーグは2026年11月19日、アップルが「パソコンを使えるAIエージェント」の開発者を募集していると報じました。早ければ来年末にも投入を検討しているとされます。計画の段階を伝える in the early stages / as soon as / on our own terms を学びます。",
+  "tags": [
+   "ビジネス英語",
+   "英語学習",
+   "ニュース英語",
+   "テック 英語",
+   "会議 英語",
+   "アップル",
+   "Apple",
+   "AIエージェント",
+   "Mac",
+   "生成AI",
+   "社会人 英語",
+   "TOEIC",
+   "教養",
+   "business English"
+  ]
+ },
+ "thumbnail": {
+  "big": "Mac×AI",
+  "big_color": "gold",
+  "under": "アップルが自社AIエージェント?",
+  "badge": "テックとAI",
+  "badge_color": "blue",
+  "question": "いつ出る?",
+  "pill": "in the early stages",
+  "bottom": "会議で使える英語3つ",
+  "crack": false
+ },
+ "shorts": [
+  {
+   "phrase": 0,
+   "style": "quiz",
+   "badge": "会議で使う英語|中級",
+   "news_hook": [
+    "アップルの",
+    "新しいAI計画"
+   ],
+   "hook": [
+    "in the early stages",
+    "どういう意味?"
+   ],
+   "ctx": "計画の進み具合を正直に伝える一言",
+   "title": "「in the early stages」の意味、わかる?|TOEIC730点・会議の英語 #shorts",
+   "ig_caption": "「in the early stages」の意味、わかりますか?\n\n✅ in the early stages\nまだ初期段階で\n\n例文:The project is still in the early stages, so the budget may change.\n(プロジェクトはまだ初期段階なので、予算は変わるかもしれません。)\n\nアップルがパソコンを操作するAIを開発中と報道。ただし開発は「まだ初期段階」とされています。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  },
+  {
+   "phrase": 1,
+   "style": "quiz",
+   "badge": "会議で使う英語|初級",
+   "news_hook": [
+    "早ければ",
+    "来年末にも"
+   ],
+   "hook": [
+    "as soon as",
+    "どういう意味?"
+   ],
+   "ctx": "時期の見込みを伝えるときの英語",
+   "title": "「as soon as」の意味、わかる?|会議の英語 #shorts",
+   "ig_caption": "「as soon as」の意味、わかりますか?\n\n✅ as soon as\n早ければ〜にも\n\n例文:We could launch the new service as soon as next spring.\n(早ければ来年の春にも、新サービスを始められます。)\n\nアップルのAIエージェントは、早ければ来年末にも投入が検討されていると報じられました。約束ではない言い方です。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  }
+ ],
+ "sources": [
+  {
+   "title": "TechCrunch「Apple may be developing its own AI agent that runs your Mac」(2026年11月19日)",
+   "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac"
+  }
+ ],
+ "readings": [
+  [
+   "10月",
+   "じゅうがつ"
+  ],
+  [
+   "19日",
+   "じゅうくにち"
+  ],
+  [
+   "全権限",
+   "ぜんけんげん"
+  ]
+ ]
+}

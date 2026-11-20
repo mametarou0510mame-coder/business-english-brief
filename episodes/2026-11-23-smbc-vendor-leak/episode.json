@@ -1,0 +1,742 @@
+{
+ "id": "2026-11-23-smbc-vendor-leak",
+ "episode": "#42",
+ "date": "2026-11-20",
+ "series": "Weekly Brief",
+ "title_card": {
+  "line1": "三井住友銀、最大1400万件が流出",
+  "line2": "委託先からの漏えいを英語で"
+ },
+ "publish": {
+  "long": "2026-11-23T07:00:00+09:00",
+  "shorts": [
+   "2026-11-23T12:00:00+09:00",
+   "2026-11-23T21:00:00+09:00"
+  ]
+ },
+ "phrases": [
+  {
+   "en": "a third-party vendor",
+   "jp": "外部の委託先・取引業者",
+   "ex": "Before we sign, let's check what data a third-party vendor can see.",
+   "ex_jp": "契約の前に、外部の委託先がどのデータを見られるのか確認しましょう。"
+  },
+  {
+   "en": "the scope of",
+   "jp": "〜の範囲・影響範囲",
+   "ex": "We're still confirming the scope of the problem.",
+   "ex_jp": "問題の影響範囲は、まだ確認中です。"
+  },
+  {
+   "en": "out of an abundance of caution",
+   "jp": "念には念を入れて",
+   "ex": "Out of an abundance of caution, we've reset all shared passwords.",
+   "ex_jp": "念には念を入れて、共有パスワードをすべて変更しました。"
+  }
+ ],
+ "words": [
+  {
+   "en": "unauthorized access",
+   "jp": "不正アクセス"
+  },
+  {
+   "en": "data breach",
+   "jp": "情報漏えい"
+  },
+  {
+   "en": "phishing",
+   "jp": "フィッシング詐欺"
+  }
+ ],
+ "homework": {
+  "en": "Which outside services can see your customers' data?",
+  "jp": "あなたの会社の顧客データ、どの外部サービスが見られる?",
+  "hl": [
+   "outside services"
+  ],
+  "say": "最後に宿題です。あなたの会社の顧客データを、どの外部サービスが見られるか、知っていますか。英語で、コメント欄に書いてみてください。"
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "beats": [
+    {
+     "id": "h01",
+     "kind": "jp",
+     "jp": "三井住友銀行で、顧客の情報が最大でおよそ1400万件、外に漏れました。",
+     "en": "Up to about 14 million customer records leaked at SMBC.",
+     "vis": {
+      "t": "counter",
+      "kicker": "records leaked (max)",
+      "to": 1400,
+      "prefix": "最大約",
+      "suffix": "万件",
+      "color": "red",
+      "sub": "三井住友銀行 11月20日発表",
+      "note": "委託先のサービス経由"
+     }
+    },
+    {
+     "id": "h02",
+     "kind": "jp",
+     "jp": "銀行のシステムではなく、仕事を任せていた外の会社が、不正アクセスを受けたのです。",
+     "en": "The attack hit an outside company the bank worked with, not the bank itself.",
+     "vis": {
+      "t": "counter",
+      "kicker": "records leaked (max)",
+      "to": 1400,
+      "prefix": "最大約",
+      "suffix": "万件",
+      "color": "red",
+      "sub": "三井住友銀行 11月20日発表",
+      "note": "委託先のサービス経由"
+     },
+     "hl": [
+      "outside company"
+     ]
+    },
+    {
+     "id": "h03",
+     "kind": "jp",
+     "jp": "今日はこのニュースから、会議で使える英語を3つ。最後に答え合わせをします。",
+     "en": "Three phrases for your next meeting. Answers at the end.",
+     "vis": {
+      "t": "teaser"
+     }
+    }
+   ]
+  },
+  {
+   "id": "what",
+   "chapter": "何が起きたか",
+   "beats": [
+    {
+     "id": "n01",
+     "kind": "jp",
+     "jp": "きっかけは、11月13日の未明。プレイドという会社のサーバーの弱点が突かれ、データベースに入られました。",
+     "en": "Early on November 13, attackers used a server flaw at a company called PLAID.",
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "11月13日 未明",
+        "mid": "不正アクセス",
+        "res": "委託先のサービスが停止",
+        "ok": false
+       },
+       {
+        "a": "11月19日",
+        "mid": "範囲の報告",
+        "res": "最大約1400万件",
+        "ok": false
+       },
+       {
+        "a": "11月20日",
+        "mid": "銀行が公表",
+        "res": "問い合わせ窓口を開設",
+        "ok": true
+       }
+      ]
+     },
+     "hl": [
+      "server flaw"
+     ]
+    },
+    {
+     "id": "n02",
+     "kind": "jp",
+     "jp": "プレイドは、カルテというサービスを提供しています。サイトやアプリで、お客さまに合わせたお知らせを出す仕組みです。",
+     "en": "PLAID runs KARTE, a tool that shows tailored notices on websites and apps.",
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "11月13日 未明",
+        "mid": "不正アクセス",
+        "res": "委託先のサービスが停止",
+        "ok": false
+       },
+       {
+        "a": "11月19日",
+        "mid": "範囲の報告",
+        "res": "最大約1400万件",
+        "ok": false
+       },
+       {
+        "a": "11月20日",
+        "mid": "銀行が公表",
+        "res": "問い合わせ窓口を開設",
+        "ok": true
+       }
+      ]
+     }
+    },
+    {
+     "id": "n03",
+     "kind": "jp",
+     "jp": "銀行は19日に影響の範囲の報告を受け、20日に公表しました。",
+     "en": "The bank got the scope report on the 19th and went public on the 20th.",
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "11月13日 未明",
+        "mid": "不正アクセス",
+        "res": "委託先のサービスが停止",
+        "ok": false
+       },
+       {
+        "a": "11月19日",
+        "mid": "範囲の報告",
+        "res": "最大約1400万件",
+        "ok": false
+       },
+       {
+        "a": "11月20日",
+        "mid": "銀行が公表",
+        "res": "問い合わせ窓口を開設",
+        "ok": true
+       }
+      ]
+     }
+    },
+    {
+     "id": "n04",
+     "kind": "jp",
+     "jp": "同じサービスを使っていた三菱UFJ銀行も、18日に、およそ650万件の流出を発表しています。",
+     "en": "MUFG Bank, using the same service, reported about 6.5 million records on the 18th.",
+     "vis": {
+      "t": "cards",
+      "show": 3,
+      "footer": "同じサービス経由の公表(各社の最大件数・合算はできない)",
+      "items": [
+       {
+        "name": "三菱UFJ銀行",
+        "big": "約650万件",
+        "sub": "11月18日公表",
+        "note": "性別・年齢など",
+        "color": "red"
+       },
+       {
+        "name": "三井住友銀行",
+        "big": "約1400万件",
+        "sub": "11月20日公表",
+        "note": "生年月日など",
+        "color": "red"
+       },
+       {
+        "name": "JINS",
+        "big": "約1829万件",
+        "sub": "最大件数",
+        "note": "報道による",
+        "color": "gold"
+       }
+      ]
+     }
+    },
+    {
+     "id": "n05",
+     "kind": "jp",
+     "jp": "報道では、メガネのジンズや、しまむらなども被害を公表。ひとつのサービスから、多くの会社に広がりました。",
+     "en": "JINS, Shimamura and others also reported leaks. One service, many companies.",
+     "vis": {
+      "t": "network",
+      "title": "1つのサービスを、たくさんの会社が使っている",
+      "center": {
+       "label": "KARTE",
+       "sub": "プレイドのサービス"
+      },
+      "nodes": [
+       {
+        "label": "三菱UFJ銀行",
+        "color": "red"
+       },
+       {
+        "label": "三井住友銀行",
+        "color": "red"
+       },
+       {
+        "label": "JINS",
+        "color": "gold"
+       },
+       {
+        "label": "しまむら",
+        "color": "gold"
+       },
+       {
+        "label": "DHC",
+        "color": "gold"
+       }
+      ],
+      "inward": false
+     }
+    }
+   ]
+  },
+  {
+   "id": "why",
+   "chapter": "委託先のリスクを英語で",
+   "beats": [
+    {
+     "id": "y01",
+     "kind": "jp",
+     "jp": "仕事を任せる外部の会社を、英語で、ア・サードパーティー・ベンダーと言います。",
+     "en": "An outside company you rely on is 'a third-party vendor.'",
+     "vis": {
+      "t": "hero_side",
+      "big": "委託先",
+      "color": "gold",
+      "text": "a third-party vendor",
+      "jp": "外部の委託先"
+     },
+     "star": true,
+     "hl": [
+      "a third-party vendor"
+     ]
+    },
+    {
+     "id": "y02",
+     "kind": "en_insert",
+     "jp": "流出は外部の委託先から起きた",
+     "en": "The leak came from a third-party vendor.",
+     "vis": {
+      "t": "hero_side",
+      "big": "委託先",
+      "color": "gold",
+      "text": "a third-party vendor",
+      "jp": "外部の委託先"
+     },
+     "hl": [
+      "a third-party vendor"
+     ],
+     "star": true
+    },
+    {
+     "id": "y03",
+     "kind": "jp",
+     "jp": "サードパーティーは、自分たちでも相手でもない、第三者。ベンダーは、売り手や業者という意味です。",
+     "en": "'Third party' means someone outside the deal. A 'vendor' is a supplier.",
+     "vis": {
+      "t": "hero_side",
+      "big": "委託先",
+      "color": "gold",
+      "text": "a third-party vendor",
+      "jp": "外部の委託先"
+     }
+    },
+    {
+     "id": "y04",
+     "kind": "jp",
+     "jp": "次は、何がどこまで漏れたのか。影響の範囲を、英語で、ザ・スコープ・オブと言います。",
+     "en": "How far did it go? That's 'the scope of' the problem.",
+     "vis": {
+      "t": "hero_side",
+      "big": "範囲",
+      "color": "blue",
+      "text": "the scope of",
+      "jp": "〜の影響範囲"
+     },
+     "star": true,
+     "hl": [
+      "the scope of"
+     ]
+    },
+    {
+     "id": "y05",
+     "kind": "en_insert",
+     "jp": "問題の影響範囲を確認中です",
+     "en": "We're confirming the scope of the problem.",
+     "vis": {
+      "t": "hero_side",
+      "big": "範囲",
+      "color": "blue",
+      "text": "the scope of",
+      "jp": "〜の影響範囲"
+     },
+     "hl": [
+      "the scope of"
+     ],
+     "star": true
+    },
+    {
+     "id": "y06",
+     "kind": "jp",
+     "jp": "銀行によると、漏れたのは生年月日や年齢の区分、性別など。氏名や住所、口座番号、暗証番号は含まれていません。",
+     "en": "Birth dates, age brackets and gender leaked. No names, addresses, account numbers or PINs.",
+     "vis": {
+      "t": "vs",
+      "left": {
+       "en": "leaked",
+       "label": "流出した",
+       "val": "生年月日・性別など",
+       "up": false,
+       "color": "red"
+      },
+      "right": {
+       "en": "not leaked",
+       "label": "含まれない",
+       "val": "氏名・口座番号・暗証番号",
+       "up": true,
+       "color": "green"
+      },
+      "mid": "銀行の発表"
+     }
+    },
+    {
+     "id": "y07",
+     "kind": "jp",
+     "jp": "預金や取引への影響も、現時点では確認されていないとしています。",
+     "en": "The bank says no impact on deposits or transactions has been confirmed so far.",
+     "vis": {
+      "t": "vs",
+      "left": {
+       "en": "leaked",
+       "label": "流出した",
+       "val": "生年月日・性別など",
+       "up": false,
+       "color": "red"
+      },
+      "right": {
+       "en": "not leaked",
+       "label": "含まれない",
+       "val": "氏名・口座番号・暗証番号",
+       "up": true,
+       "color": "green"
+      },
+      "mid": "銀行の発表"
+     }
+    },
+    {
+     "id": "y08",
+     "kind": "jp",
+     "jp": "そのうえで銀行は、メールや電話でパスワードやカード情報を求めることは一切ない、と注意を呼びかけています。",
+     "en": "It also warns it will never ask for passwords or card details by email or phone.",
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "We will never ask you",
+       "for your password",
+       "by email or phone."
+      ],
+      "hl": [
+       "never ask"
+      ],
+      "by": "三井住友銀行のお知らせの趣旨(英訳)"
+     },
+     "hl": [
+      "never ask"
+     ]
+    },
+    {
+     "id": "y09",
+     "kind": "jp",
+     "jp": "こうした場面で企業がよく使うのが、アウト・オブ・アン・アバンダンス・オブ・コーション。念には念を入れて、という意味です。",
+     "en": "Companies often say 'out of an abundance of caution.'",
+     "vis": {
+      "t": "hero_side",
+      "big": "念のため",
+      "color": "green",
+      "text": "out of an abundance of caution",
+      "jp": "念には念を入れて"
+     },
+     "star": true,
+     "hl": [
+      "out of an abundance of caution"
+     ]
+    },
+    {
+     "id": "y10",
+     "kind": "en_insert",
+     "jp": "念には念を入れて、パスワードを変更しました",
+     "en": "Out of an abundance of caution, we reset the passwords.",
+     "vis": {
+      "t": "hero_side",
+      "big": "念のため",
+      "color": "green",
+      "text": "out of an abundance of caution",
+      "jp": "念には念を入れて"
+     },
+     "hl": [
+      "out of an abundance of caution"
+     ],
+     "star": true
+    },
+    {
+     "id": "y11",
+     "kind": "jp",
+     "jp": "アバンダンスは、たっぷり。コーションは、用心。用心をたっぷり、で、念のための対応を丁寧に伝えられます。",
+     "en": "'Abundance' means plenty; 'caution' means care. It sounds careful and calm.",
+     "vis": {
+      "t": "hero_side",
+      "big": "念のため",
+      "color": "green",
+      "text": "out of an abundance of caution",
+      "jp": "念には念を入れて"
+     }
+    }
+   ]
+  },
+  {
+   "id": "insight",
+   "chapter": "私たちへの意味",
+   "beats": [
+    {
+     "id": "i01",
+     "kind": "jp",
+     "jp": "ここからは、日本で働く私たちにとっての意味を考えます。",
+     "en": "What does this mean for those of us working in Japan?",
+     "vis": {
+      "t": "statement",
+      "kicker": "SO WHAT?",
+      "text": "日本で働く私たちにとっての意味"
+     }
+    },
+    {
+     "id": "i02",
+     "kind": "jp",
+     "jp": "お客さまから見れば、委託先かどうかは関係ありません。届いたのは、銀行の名前で預けた情報です。",
+     "en": "To customers, it doesn't matter that it was a vendor. They trusted the bank.",
+     "vis": {
+      "t": "points",
+      "show": 1,
+      "items": [
+       {
+        "head": "お客さまの目",
+        "big": "委託先でも\n銀行の責任",
+        "sub": "名前で届くのは\n会社のブランド",
+        "color": "gold"
+       },
+       {
+        "head": "会議で聞く",
+        "big": "誰が\n何を見られる?",
+        "sub": "契約前に\n確認する",
+        "color": "blue"
+       },
+       {
+        "head": "逆の見方",
+        "big": "過度な不安は\n不要",
+        "sub": "口座番号・暗証番号は\n含まれず(銀行)",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i03",
+     "kind": "jp",
+     "jp": "日本の会社では、マーケティングの道具を外部のサービスに頼るのが当たり前。だからこそ、契約の前に、誰が何を見られるのかを確かめたいところです。",
+     "en": "Japanese firms rely on outside marketing tools. Check who can see what before signing.",
+     "vis": {
+      "t": "points",
+      "show": 2,
+      "items": [
+       {
+        "head": "お客さまの目",
+        "big": "委託先でも\n銀行の責任",
+        "sub": "名前で届くのは\n会社のブランド",
+        "color": "gold"
+       },
+       {
+        "head": "会議で聞く",
+        "big": "誰が\n何を見られる?",
+        "sub": "契約前に\n確認する",
+        "color": "blue"
+       },
+       {
+        "head": "逆の見方",
+        "big": "過度な不安は\n不要",
+        "sub": "口座番号・暗証番号は\n含まれず(銀行)",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i04",
+     "kind": "jp",
+     "jp": "一方で、逆の見方もあります。漏れたのは氏名や口座番号ではない、と銀行は説明しています。必要以上に不安になることはありません。",
+     "en": "On the other hand, no names or account numbers leaked. There's no need to panic.",
+     "vis": {
+      "t": "points",
+      "show": 3,
+      "items": [
+       {
+        "head": "お客さまの目",
+        "big": "委託先でも\n銀行の責任",
+        "sub": "名前で届くのは\n会社のブランド",
+        "color": "gold"
+       },
+       {
+        "head": "会議で聞く",
+        "big": "誰が\n何を見られる?",
+        "sub": "契約前に\n確認する",
+        "color": "blue"
+       },
+       {
+        "head": "逆の見方",
+        "big": "過度な不安は\n不要",
+        "sub": "口座番号・暗証番号は\n含まれず(銀行)",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i05",
+     "kind": "jp",
+     "jp": "気をつけたいのは、この件を口実にした、なりすましのメールです。リンクは開かず、公式のアプリやサイトで確かめましょう。",
+     "en": "Watch out for fake emails that use this news. Check via the official app or site.",
+     "vis": {
+      "t": "points",
+      "show": 3,
+      "items": [
+       {
+        "head": "お客さまの目",
+        "big": "委託先でも\n銀行の責任",
+        "sub": "名前で届くのは\n会社のブランド",
+        "color": "gold"
+       },
+       {
+        "head": "会議で聞く",
+        "big": "誰が\n何を見られる?",
+        "sub": "契約前に\n確認する",
+        "color": "blue"
+       },
+       {
+        "head": "逆の見方",
+        "big": "過度な不安は\n不要",
+        "sub": "口座番号・暗証番号は\n含まれず(銀行)",
+        "color": "green"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "「外部の委託先」は英語で?a third-party vendorの使い方|三井住友銀で最大1400万件流出【ビジネス英語ニュース #42】",
+  "summary": "三井住友銀行は2026年11月20日、委託先プレイドのサービス「KARTE」への不正アクセスで、顧客情報が最大約1400万件漏えいしたと発表しました。三菱UFJ銀行なども同じサービス経由で流出を公表。情報漏えいの説明で使う a third-party vendor / the scope of / out of an abundance of caution を学びます。",
+  "tags": [
+   "ビジネス英語",
+   "英語学習",
+   "ニュース英語",
+   "会議 英語",
+   "三井住友銀行",
+   "三菱UFJ銀行",
+   "情報漏えい",
+   "不正アクセス",
+   "KARTE",
+   "プレイド",
+   "委託先 英語",
+   "社会人 英語",
+   "TOEIC",
+   "business English"
+  ]
+ },
+ "thumbnail": {
+  "big": "1400万件",
+  "big_color": "red",
+  "under": "三井住友銀の顧客情報が流出",
+  "badge": "Weekly Brief",
+  "badge_color": "gold",
+  "question": "原因は委託先?",
+  "pill": "a third-party vendor",
+  "bottom": "会議で使える英語3つ",
+  "crack": true
+ },
+ "shorts": [
+  {
+   "phrase": 0,
+   "style": "quiz",
+   "badge": "会議で使う英語|中級",
+   "news_hook": [
+    "銀行の情報漏えい",
+    "原因は委託先"
+   ],
+   "hook": [
+    "a third-party vendor",
+    "どういう意味?"
+   ],
+   "ctx": "外部の委託先のリスクを話すときの英語",
+   "title": "「a third-party vendor」の意味、わかる?|TOEIC730点・会議の英語 #shorts",
+   "ig_caption": "「a third-party vendor」の意味、わかりますか?\n\n✅ a third-party vendor\n外部の委託先・取引業者\n\n例文:Before we sign, let's check what data a third-party vendor can see.\n(契約の前に、外部の委託先がどのデータを見られるのか確認しましょう。)\n\n三井住友銀行の顧客情報が最大約1400万件流出。原因は、仕事を任せていた外部の会社への不正アクセスでした。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  },
+  {
+   "phrase": 2,
+   "style": "quiz",
+   "badge": "会議で使う英語|上級",
+   "news_hook": [
+    "念のための対応",
+    "英語で何と言う?"
+   ],
+   "hook": [
+    "out of an abundance of caution",
+    "どういう意味?"
+   ],
+   "ctx": "念のための対応を伝える、企業の定番表現",
+   "title": "「out of an abundance of caution」の意味、わかる?|会議の英語 #shorts",
+   "ig_caption": "「out of an abundance of caution」の意味、わかりますか?\n\n✅ out of an abundance of caution\n念には念を入れて\n\n例文:Out of an abundance of caution, we've reset all shared passwords.\n(念には念を入れて、共有パスワードをすべて変更しました。)\n\n情報漏えいやトラブルのお知らせで、企業がよく使う一言。丁寧で落ち着いた印象になります。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  }
+ ],
+ "sources": [
+  {
+   "title": "久兵衛の暮らしのニュース「三井住友銀行の委託先に不正アクセス、最大約1400万件の情報漏えいと確認方法」(2026年11月20日)",
+   "url": "https://news.isotop.jp/archives/10745"
+  },
+  {
+   "title": "SmartScope「Sumitomo Mitsui Bank: Up to 14 Million Records With Birth Dates Leaked via KARTE」(2026年11月)",
+   "url": "https://smartscope.blog/en/blog/sumitomo-mitsui-banking-corporation-up-approx-14-million-2026/"
+  },
+  {
+   "title": "CRYPTO TIMES「三井住友銀行、顧客情報が最大約1400万件流出|不正アクセスで三菱UFJに続く」(2026年11月20日)",
+   "url": "https://crypto-times.jp/news-sumitomo-mitsui-banking-corporation-up-to-approximately-14-million-customer-records-leaked/"
+  }
+ ],
+ "readings": [
+  [
+   "1400万件",
+   "せんよんひゃくまんけん"
+  ],
+  [
+   "650万件",
+   "ろっぴゃくごじゅうまんけん"
+  ],
+  [
+   "13日",
+   "じゅうさんにち"
+  ],
+  [
+   "19日",
+   "じゅうくにち"
+  ],
+  [
+   "20日",
+   "はつか"
+  ],
+  [
+   "18日",
+   "じゅうはちにち"
+  ],
+  [
+   "未明",
+   "みめい"
+  ],
+  [
+   "委託先",
+   "いたくさき"
+  ],
+  [
+   "三井住友銀行",
+   "みついすみともぎんこう"
+  ],
+  [
+   "三菱UFJ銀行",
+   "みつびしユーエフジェイぎんこう"
+  ],
+  [
+   "ジンズ",
+   "ジンズ"
+  ]
+ ]
+}
