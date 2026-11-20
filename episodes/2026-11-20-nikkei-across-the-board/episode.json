@@ -1,0 +1,878 @@
+{
+ "id": "2026-11-20-nikkei-across-the-board",
+ "episode": "#41",
+ "date": "2026-11-20",
+ "series": "速報",
+ "title_card": {
+  "line1": "日経平均3007円安",
+  "line2": "AI不安の全面安を英語で"
+ },
+ "publish": {
+  "long": "2026-11-20T18:42:00+09:00",
+  "shorts": [
+   "2026-11-20T18:42:00+09:00",
+   "2026-11-20T21:42:00+09:00"
+  ]
+ },
+ "phrases": [
+  {
+   "en": "across the board",
+   "jp": "全面的に・一律に",
+   "ex": "Material costs have gone up across the board this year.",
+   "ex_jp": "今年は、材料費が全面的に上がっています。"
+  },
+  {
+   "en": "ease concerns",
+   "jp": "懸念を和らげる",
+   "ex": "Sharing the test results early will help ease concerns on the client side.",
+   "ex_jp": "テスト結果を早めに共有すれば、お客様側の懸念を和らげられます。"
+  },
+  {
+   "en": "short-lived",
+   "jp": "長続きしない・一時的な",
+   "ex": "The sales boost from the campaign was short-lived.",
+   "ex_jp": "キャンペーンによる売上の伸びは、一時的なものでした。"
+  }
+ ],
+ "words": [
+  {
+   "en": "sell-off",
+   "jp": "(株などの)売りが広がること"
+  },
+  {
+   "en": "IPO",
+   "jp": "新規株式公開・上場"
+  },
+  {
+   "en": "a seven-month low",
+   "jp": "7カ月ぶりの安値"
+  }
+ ],
+ "homework": {
+  "en": "What has gone up across the board at your workplace?",
+  "jp": "職場で全面的に上がったものは?",
+  "hl": [
+   "across the board"
+  ],
+  "say": "最後に宿題です。あなたの職場で、全面的に上がったものは何ですか。アクロス・ザ・ボードを使って英語で一文、コメント欄に書いてみてください。"
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "beats": [
+    {
+     "id": "h01",
+     "kind": "jp",
+     "jp": "11月20日、日経平均株価は3007円下がりました。下げ幅は、過去5番目の大きさです。",
+     "en": "On November 20, the Nikkei fell 3,007 points, its fifth-largest point drop ever.",
+     "vis": {
+      "t": "hero",
+      "kicker": "NIKKEI 225 · 2026.11.20",
+      "big": "−3007円",
+      "color": "red",
+      "crack": true,
+      "sub": "終値 5万6436円(−5.06%)",
+      "sub_color": "gold"
+     }
+    },
+    {
+     "id": "h02",
+     "kind": "jp",
+     "jp": "東証プライムでは、9割以上の銘柄が下がる全面安。この「全面的に」を、英語でさっと言えますか。",
+     "en": "Over 90% of Prime stocks fell. Can you say 'all across' the way English speakers do?",
+     "vis": {
+      "t": "hero_side",
+      "big": "全面?",
+      "color": "gold",
+      "text": "across the ...",
+      "jp": "全面的に"
+     }
+    },
+    {
+     "id": "h03",
+     "kind": "jp",
+     "jp": "今日は速報です。このニュースから、会議で使える英語を3つ。最後に答え合わせをします。",
+     "en": "Breaking news, and three phrases for your next meeting.",
+     "vis": {
+      "t": "teaser"
+     }
+    }
+   ]
+  },
+  {
+   "id": "what",
+   "chapter": "何が起きたか",
+   "beats": [
+    {
+     "id": "n01",
+     "kind": "jp",
+     "jp": "前の日の終値は5万9444円。20日はそこから一気に下がり、5万6436円で取引を終えました。この日いちばん安い水準です。",
+     "en": "From 59,444 the day before, the index closed at 56,436, its lowest level of the day.",
+     "vis": {
+      "t": "line",
+      "title": "日経平均の終値(円)",
+      "points": [
+       {
+        "label": "11/18",
+        "value": 59024
+       },
+       {
+        "label": "11/19",
+        "value": 59444
+       },
+       {
+        "label": "11/20",
+        "value": 56437
+       }
+      ],
+      "color": "red",
+      "display": "56,436",
+      "mark": [
+       {
+        "i": 2,
+        "text": "−3,007円"
+       }
+      ],
+      "note": "出典:株探・OANDA証券"
+     }
+    },
+    {
+     "id": "n02",
+     "kind": "jp",
+     "jp": "東証株価指数、TOPIXも3.88%の下落。日経平均が5万7000円を下回って終わるのは、およそ7カ月ぶりです。",
+     "en": "TOPIX fell 3.88%. The Nikkei closed below 57,000 for the first time in about seven months.",
+     "vis": {
+      "t": "counter",
+      "kicker": "TOPIX · 2026.11.20",
+      "to": -3.88,
+      "suffix": "%",
+      "decimals": 2,
+      "color": "red",
+      "sub": "TOPIX 3674(148ポイント安)",
+      "note": "日経平均は約7カ月ぶりの安値"
+     }
+    },
+    {
+     "id": "n03",
+     "kind": "jp",
+     "jp": "特に大きく下げたのは、AIや半導体に関わる銘柄。ソフトバンクグループは14.5%、キオクシアは11.7%、アドバンテストは10.3%下がりました。",
+     "en": "AI and chip names fell hardest: SoftBank Group 14.5%, Kioxia 11.7%, Advantest 10.3%.",
+     "vis": {
+      "t": "bars",
+      "title": "20日の下落率(AI・半導体関連)",
+      "unit": "%",
+      "items": [
+       {
+        "label": "ソフトバンクG",
+        "value": 14.5,
+        "display": "−14.5%",
+        "color": "red"
+       },
+       {
+        "label": "フジクラ",
+        "value": 12.2,
+        "display": "−12.2%",
+        "color": "red"
+       },
+       {
+        "label": "キオクシア",
+        "value": 11.7,
+        "display": "−11.7%",
+        "color": "red"
+       },
+       {
+        "label": "アドバンテスト",
+        "value": 10.3,
+        "display": "−10.3%",
+        "color": "red"
+       },
+       {
+        "label": "東京エレクトロン",
+        "value": 7.1,
+        "display": "−7.1%",
+        "color": "red"
+       }
+      ],
+      "note": "出典:24/7 Wall St.・株探"
+     }
+    },
+    {
+     "id": "n04",
+     "kind": "jp",
+     "jp": "一部だけでなく、ほぼすべてが同じ方向に動く。英語では、アクロス・ザ・ボードと言います。",
+     "en": "When nearly everything moves the same way, it's across the board.",
+     "vis": {
+      "t": "hero_side",
+      "big": "全面",
+      "color": "red",
+      "text": "across the board",
+      "jp": "全面的に"
+     },
+     "hl": [
+      "across the board"
+     ],
+     "star": true
+    },
+    {
+     "id": "n05",
+     "kind": "en_insert",
+     "jp": "全面的に",
+     "en": "across the board",
+     "hl": [
+      "across the board"
+     ],
+     "star": true,
+     "vis": {
+      "t": "hero_side",
+      "big": "全面",
+      "color": "red",
+      "text": "across the board",
+      "jp": "全面的に"
+     }
+    },
+    {
+     "id": "n06",
+     "kind": "jp",
+     "jp": "株価だけでなく、値上げやコスト削減が、全部に一律にかかる場面でもよく使います。",
+     "en": "You'll also hear it for price rises or cost cuts that apply to everything.",
+     "vis": {
+      "t": "hero_side",
+      "big": "全面",
+      "color": "red",
+      "text": "across the board",
+      "jp": "全面的に"
+     },
+     "hl": [
+      "across the board"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "why",
+   "chapter": "なぜ下がったか",
+   "beats": [
+    {
+     "id": "y01",
+     "kind": "jp",
+     "jp": "きっかけはアメリカです。19日、AI企業のアンソロピックが、ナスダック市場に上場しました。調達額はおよそ810億ドルと、過去最大の規模です。",
+     "en": "It started in the US. On the 19th, AI firm Anthropic listed on Nasdaq, raising a record of about $81 billion.",
+     "vis": {
+      "t": "timeline",
+      "show": 1,
+      "items": [
+       {
+        "when": "11/19 米国",
+        "text": "アンソロピックがナスダックに上場",
+        "color": "gold"
+       },
+       {
+        "when": "11/19 米国",
+        "text": "AMD −7.7%、ナスダック −2.3%",
+        "color": "red"
+       },
+       {
+        "when": "11/20 東京",
+        "text": "日経平均 3007円安",
+        "color": "red"
+       }
+      ]
+     }
+    },
+    {
+     "id": "y02",
+     "kind": "jp",
+     "jp": "公開価格は83ドル。取引が始まると34%高く始まりましたが、勢いは続かず、初日の終値は97ドル台でした。",
+     "en": "Priced at $83, the shares opened 34% higher, but the rally faded to a close around $97.",
+     "vis": {
+      "t": "vs",
+      "left": {
+       "en": "open",
+       "label": "初値(公開価格比)",
+       "val": "+34%",
+       "up": true,
+       "color": "green"
+      },
+      "right": {
+       "en": "close",
+       "label": "初日の終値(公開価格比)",
+       "val": "+17%",
+       "up": true,
+       "color": "muted"
+      },
+      "mid": "公開価格83ドル"
+     }
+    },
+    {
+     "id": "y03",
+     "kind": "jp",
+     "jp": "盛り上がりが、すぐにしぼんでしまう。英語で、ショート・リヴドと言います。",
+     "en": "A boost that fades quickly is short-lived.",
+     "vis": {
+      "t": "hero_side",
+      "big": "一時",
+      "color": "gold",
+      "text": "short-lived",
+      "jp": "長続きしない"
+     },
+     "hl": [
+      "short-lived"
+     ],
+     "star": true
+    },
+    {
+     "id": "y04",
+     "kind": "en_insert",
+     "jp": "長続きしない",
+     "en": "short-lived",
+     "hl": [
+      "short-lived"
+     ],
+     "star": true,
+     "vis": {
+      "t": "hero_side",
+      "big": "一時",
+      "color": "gold",
+      "text": "short-lived",
+      "jp": "長続きしない"
+     }
+    },
+    {
+     "id": "y05",
+     "kind": "jp",
+     "jp": "同じ日、半導体大手のAMDは、空売り投資家のリポートを受けて7.7%下落。AMDは、法律を守っていると反論しています。ナスダック総合指数も2.3%下がりました。",
+     "en": "The same day, AMD fell 7.7% after a short seller's report, which AMD disputes. The Nasdaq lost 2.3%.",
+     "vis": {
+      "t": "timeline",
+      "show": 2,
+      "items": [
+       {
+        "when": "11/19 米国",
+        "text": "アンソロピックがナスダックに上場",
+        "color": "gold"
+       },
+       {
+        "when": "11/19 米国",
+        "text": "AMD −7.7%、ナスダック −2.3%",
+        "color": "red"
+       },
+       {
+        "when": "11/20 東京",
+        "text": "日経平均 3007円安",
+        "color": "red"
+       }
+      ]
+     }
+    },
+    {
+     "id": "y06",
+     "kind": "jp",
+     "jp": "市場関係者からは、上場があっても、AIが本当に利益を生むのかという疑問は消えなかった、という声が出ています。",
+     "en": "Market players said the listing did not remove doubts about whether AI will really pay off.",
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "米国でAI株安",
+        "mid": "上場でも疑問残る",
+        "res": "東京も全面安",
+        "ok": false
+       }
+      ]
+     }
+    },
+    {
+     "id": "y07",
+     "kind": "jp",
+     "jp": "不安や心配を、和らげる。英語で、イーズ・コンサーンズです。今回は、懸念を和らげられなかった、という形でした。",
+     "en": "To make worries smaller is to ease concerns. This time, the listing failed to ease concerns.",
+     "vis": {
+      "t": "hero_side",
+      "big": "安心",
+      "color": "blue",
+      "text": "ease concerns",
+      "jp": "懸念を和らげる"
+     },
+     "hl": [
+      "ease concerns"
+     ],
+     "star": true
+    },
+    {
+     "id": "y08",
+     "kind": "en_insert",
+     "jp": "懸念を和らげる",
+     "en": "ease concerns",
+     "hl": [
+      "ease concerns"
+     ],
+     "star": true,
+     "vis": {
+      "t": "hero_side",
+      "big": "安心",
+      "color": "blue",
+      "text": "ease concerns",
+      "jp": "懸念を和らげる"
+     }
+    },
+    {
+     "id": "y09",
+     "kind": "jp",
+     "jp": "日経平均は、この1週間で7.7%下落。台湾の株価は1週間で17.5%下がり、1991年以来の大きさです。売りはアジア全体に広がりました。",
+     "en": "The Nikkei lost 7.7% this week. Taiwan fell 17.5%, its worst week since 1991. Selling spread across Asia.",
+     "vis": {
+      "t": "globe",
+      "title": "アジアに広がった売り(1週間)",
+      "lines": [
+       {
+        "text": "日経平均 −7.7%",
+        "color": "red"
+       },
+       {
+        "text": "台湾 −17.5%(1991年以来)",
+        "color": "red"
+       },
+       {
+        "text": "韓国 −7.9%",
+        "color": "red"
+       }
+      ],
+      "points": [
+       {
+        "label": "ニューヨーク",
+        "lat": 40.7,
+        "lon": -74.0,
+        "color": "gold"
+       },
+       {
+        "label": "東京",
+        "lat": 35.7,
+        "lon": 139.7,
+        "color": "red"
+       },
+       {
+        "label": "ソウル",
+        "lat": 37.6,
+        "lon": 127.0,
+        "color": "red"
+       },
+       {
+        "label": "台北",
+        "lat": 25.0,
+        "lon": 121.5,
+        "color": "red"
+       }
+      ],
+      "arcs": [
+       [
+        0,
+        1
+       ],
+       [
+        0,
+        2
+       ],
+       [
+        0,
+        3
+       ]
+      ],
+      "lon": 170,
+      "lat": 25
+     }
+    }
+   ]
+  },
+  {
+   "id": "insight",
+   "chapter": "私たちへの意味",
+   "beats": [
+    {
+     "id": "i01",
+     "kind": "jp",
+     "jp": "ここからは、日本で働く私たちにとっての意味を考えます。",
+     "en": "What does this mean for those of us working in Japan?",
+     "vis": {
+      "t": "statement",
+      "kicker": "SO WHAT?",
+      "text": "日本で働く私たちにとっての意味"
+     }
+    },
+    {
+     "id": "i02",
+     "kind": "jp",
+     "jp": "まずは、数字を報告するときの言葉選び。全部が下がったのか、一部だけなのか。アクロス・ザ・ボードを使えば、範囲をはっきり伝えられます。",
+     "en": "First, when you report numbers, say whether a drop was across the board or only in one area.",
+     "vis": {
+      "t": "points",
+      "show": 1,
+      "items": [
+       {
+        "head": "数字の報告",
+        "big": "全部か一部か",
+        "sub": "下げの範囲をはっきり",
+        "color": "gold"
+       },
+       {
+        "head": "日本への波及",
+        "big": "装置・部材",
+        "sub": "取引先のAI投資を確認",
+        "color": "blue"
+       },
+       {
+        "head": "逆の見方",
+        "big": "株価≠業績",
+        "sub": "1日の値動きで決めない",
+        "color": "red"
+       }
+      ]
+     },
+     "hl": [
+      "across the board"
+     ]
+    },
+    {
+     "id": "i03",
+     "kind": "jp",
+     "jp": "次に、仕事への波及。半導体の装置や部材、電線のメーカーは、AI投資の計画に左右されます。取引先の計画に変更がないか、早めに確認しておくと、社内の懸念も和らげられます。",
+     "en": "Second, makers of chip tools, materials and cables depend on AI spending. Checking clients' plans early can ease concerns inside your company.",
+     "vis": {
+      "t": "points",
+      "show": 2,
+      "items": [
+       {
+        "head": "数字の報告",
+        "big": "全部か一部か",
+        "sub": "下げの範囲をはっきり",
+        "color": "gold"
+       },
+       {
+        "head": "日本への波及",
+        "big": "装置・部材",
+        "sub": "取引先のAI投資を確認",
+        "color": "blue"
+       },
+       {
+        "head": "逆の見方",
+        "big": "株価≠業績",
+        "sub": "1日の値動きで決めない",
+        "color": "red"
+       }
+      ]
+     },
+     "hl": [
+      "ease concerns"
+     ]
+    },
+    {
+     "id": "i04",
+     "kind": "jp",
+     "jp": "一方で、逆の見方もあります。今週発表されたエヌビディアの決算では、売上高が前の年の2倍を超えていました。株価の1日の動きと、会社の実際の業績は、別のものです。",
+     "en": "On the other hand, Nvidia reported revenue more than doubling this week. A day's share move is not the same as real business results.",
+     "vis": {
+      "t": "points",
+      "show": 3,
+      "items": [
+       {
+        "head": "数字の報告",
+        "big": "全部か一部か",
+        "sub": "下げの範囲をはっきり",
+        "color": "gold"
+       },
+       {
+        "head": "日本への波及",
+        "big": "装置・部材",
+        "sub": "取引先のAI投資を確認",
+        "color": "blue"
+       },
+       {
+        "head": "逆の見方",
+        "big": "株価≠業績",
+        "sub": "1日の値動きで決めない",
+        "color": "red"
+       }
+      ]
+     }
+    },
+    {
+     "id": "i05",
+     "kind": "jp",
+     "jp": "それに、この全面安の日でも、東京海上やSOMPOなど、保険の株は上がりました。本当にアクロス・ザ・ボードなのか、確かめる習慣も大切です。",
+     "en": "Even on this day, insurers like Tokio Marine and SOMPO rose. Check whether a move is really across the board.",
+     "vis": {
+      "t": "points",
+      "show": 3,
+      "items": [
+       {
+        "head": "数字の報告",
+        "big": "全部か一部か",
+        "sub": "下げの範囲をはっきり",
+        "color": "gold"
+       },
+       {
+        "head": "日本への波及",
+        "big": "装置・部材",
+        "sub": "取引先のAI投資を確認",
+        "color": "blue"
+       },
+       {
+        "head": "逆の見方",
+        "big": "株価≠業績",
+        "sub": "1日の値動きで決めない",
+        "color": "red"
+       }
+      ]
+     },
+     "hl": [
+      "across the board"
+     ]
+    },
+    {
+     "id": "i06",
+     "kind": "jp",
+     "jp": "なお、この動画は、特定の株の売り買いをすすめるものではありません。ニュースから、英語と考え方を学んでいきましょう。",
+     "en": "This video is not advice to buy or sell any stock. Let's just learn the English and the thinking.",
+     "vis": {
+      "t": "points",
+      "show": 3,
+      "items": [
+       {
+        "head": "数字の報告",
+        "big": "全部か一部か",
+        "sub": "下げの範囲をはっきり",
+        "color": "gold"
+       },
+       {
+        "head": "日本への波及",
+        "big": "装置・部材",
+        "sub": "取引先のAI投資を確認",
+        "color": "blue"
+       },
+       {
+        "head": "逆の見方",
+        "big": "株価≠業績",
+        "sub": "1日の値動きで決めない",
+        "color": "red"
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "「全面的に」は英語で?across the boardの使い方|日経平均3007円安、AI不安【ビジネス英語ニュース #41】",
+  "summary": "2026年11月20日、日経平均株価の終値は前日比3007円安の5万6436円となり、下げ幅は過去5番目、約7カ月ぶりの安値でした。前日のアンソロピック上場でもAIへの不安は消えず、AI・半導体株を中心に全面安となったこのニュースを日本語で解説し、会議で使える英語「across the board」「ease concerns」「short-lived」を身につけます。",
+  "tags": [
+   "ビジネス英語",
+   "英語学習",
+   "ニュース英語",
+   "時事英語",
+   "会議 英語",
+   "日経平均",
+   "株価",
+   "全面安",
+   "アンソロピック",
+   "AI",
+   "半導体",
+   "全面的に 英語",
+   "速報",
+   "business English"
+  ]
+ },
+ "thumbnail": {
+  "big": "−3007円",
+  "big_color": "red",
+  "under": "日経平均 AI不安で全面安",
+  "badge": "速報",
+  "badge_color": "red",
+  "question": "英語で言える?",
+  "pill": "across the board",
+  "bottom": "会議で使える英語3つ",
+  "crack": true
+ },
+ "shorts": [
+  {
+   "phrase": 0,
+   "news_hook": [
+    "日経平均",
+    "3007円安"
+   ],
+   "hook": [
+    "「全面的に」",
+    "英語で言える?"
+   ],
+   "ctx": "11月20日、東証プライムの9割以上が下がる全面安",
+   "title": "「全面的に」は英語で?日経平均3007円安 #ビジネス英語 #shorts",
+   "ig_caption": "「全面的に」を英語で言えますか?\n\n✅ across the board\n全面的に・一律に\n\n例文:Material costs have gone up across the board this year.\n(今年は、材料費が全面的に上がっています。)\n\n11月20日、日経平均は3007円安(過去5番目の下げ幅)。AI・半導体株を中心に、東証プライムの9割以上が下がる全面安でした。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  },
+  {
+   "phrase": 2,
+   "style": "quiz",
+   "badge": "会議で使う英語|中級",
+   "news_hook": [
+    "盛り上がりが",
+    "すぐしぼむ?"
+   ],
+   "hook": [
+    "short-lived",
+    "って?"
+   ],
+   "ctx": "効果や勢いが長続きしないときに使う表現",
+   "title": "「short-lived」の意味、わかる?|会議の英語 #shorts",
+   "ig_caption": "「short-lived」の意味、わかりますか?\n\n✅ short-lived\n長続きしない・一時的な\n\n例文:The sales boost from the campaign was short-lived.\n(キャンペーンによる売上の伸びは、一時的なものでした。)\n\nアンソロピックの上場初日、株価は34%高く始まりましたが、勢いは長続きしませんでした(11月19日・米国)。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  }
+ ],
+ "sources": [
+  {
+   "title": "株探ニュース「日経平均 大引け|3日ぶり急反落、ハイテク株中心に全面安」(2026年11月20日, Yahoo!ファイナンス)",
+   "url": "https://finance.yahoo.co.jp/news/detail/1d7442edb38394b5a9ebb9f337d19e1aaaddb736"
+  },
+  {
+   "title": "QUICK Money World「日経平均は5%値下がりで反落、7カ月ぶり5万7000円割れ」",
+   "url": "https://moneyworld.jp/news/detail?id=223490"
+  },
+  {
+   "title": "ABEMA TIMES「日経平均終値3007円安 AI懸念で全面安に」",
+   "url": "https://times.abema.tv/articles/-/10290931"
+  },
+  {
+   "title": "OANDA証券「日経平均サマリー(20日)」",
+   "url": "https://www.oanda.jp/lab-education/market_news/mn_1045088_202611201757/"
+  },
+  {
+   "title": "24/7 Wall St.「Taiwan Stock Market Falls 6.2% … Nikkei 225 Drops 5.1% in AI Chip Selloff」",
+   "url": "https://247wallst.com/investing/2026/11/20/taiwan-stock-market-falls-6-2-to-cap-its-worst-week-since-1991-as-kospi-closes-down-5-2-and-nikkei-225-drops-5-1-in-ai-chip-selloff/"
+  },
+  {
+   "title": "Reuters via MarketScreener「Japan's Nikkei ends 5% lower as Anthropic's IPO fails to restore AI confidence」",
+   "url": "https://www.marketscreener.com/news/japan-s-nikkei-ends-5-lower-as-anthropic-s-ipo-fails-to-restore-ai-confidence-ce785ed2d181f621"
+  },
+  {
+   "title": "Finimize「Your Daily Brief For November 20th」",
+   "url": "https://finimize.com/content/your-daily-brief-for-november-20th-2026"
+  },
+  {
+   "title": "Hervé Cuviliez「Market News — Friday 20 November 2026」",
+   "url": "https://hervecuviliez.substack.com/p/market-news-friday-20-november-2026"
+  },
+  {
+   "title": "外為どっとコム「来週の日経平均見通し(11/23〜11/27)」(2026年11月20日)",
+   "url": "https://www.gaitame.com/media/entry/2026/11/20/163154"
+  }
+ ],
+ "readings": [
+  [
+   "3007円",
+   "さんぜんななえん"
+  ],
+  [
+   "5万6436円",
+   "ごまんろくせんよんひゃくさんじゅうろくえん"
+  ],
+  [
+   "5万9444円",
+   "ごまんきゅうせんよんひゃくよんじゅうよんえん"
+  ],
+  [
+   "5万7000円",
+   "ごまんななせんえん"
+  ],
+  [
+   "3.88%",
+   "さんてんはちはちパーセント"
+  ],
+  [
+   "14.5%",
+   "じゅうよんてんごパーセント"
+  ],
+  [
+   "11.7%",
+   "じゅういってんななパーセント"
+  ],
+  [
+   "10.3%",
+   "じゅってんさんパーセント"
+  ],
+  [
+   "7.7%",
+   "ななてんななパーセント"
+  ],
+  [
+   "2.3%",
+   "にてんさんパーセント"
+  ],
+  [
+   "17.5%",
+   "じゅうななてんごパーセント"
+  ],
+  [
+   "34%",
+   "さんじゅうよんパーセント"
+  ],
+  [
+   "83ドル",
+   "はちじゅうさんドル"
+  ],
+  [
+   "97ドル",
+   "きゅうじゅうななドル"
+  ],
+  [
+   "810億ドル",
+   "はっぴゃくじゅうおくドル"
+  ],
+  [
+   "1991年",
+   "せんきゅうひゃくきゅうじゅういちねん"
+  ],
+  [
+   "19日",
+   "じゅうくにち"
+  ],
+  [
+   "20日",
+   "はつか"
+  ],
+  [
+   "7カ月",
+   "ななかげつ"
+  ],
+  [
+   "9割",
+   "きゅうわり"
+  ],
+  [
+   "1週間",
+   "いっしゅうかん"
+  ],
+  [
+   "AMD",
+   "エーエムディー"
+  ],
+  [
+   "SOMPO",
+   "ソンポ"
+  ],
+  [
+   "TOPIX",
+   "トピックス"
+  ],
+  [
+   "東証",
+   "とうしょう"
+  ],
+  [
+   "空売り",
+   "からうり"
+  ],
+  [
+   "上場",
+   "じょうじょう"
+  ],
+  [
+   "初値",
+   "はつね"
+  ]
+ ]
+}
