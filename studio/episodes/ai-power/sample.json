@@ -1,7 +1,6 @@
 {
  "title": "AI Is Hungry for Power (sample)",
- "voice": "en-US-AvaNeural",
- "rate": "-6%",
+ "voice": "af_heart",
  "scenes": [
   {
    "id": "hook",
@@ -110,5 +109,7 @@
     }
    ]
   }
- ]
+ ],
+ "tts": "kokoro",
+ "speed": 0.92
 }

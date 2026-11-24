@@ -13,13 +13,39 @@ FPS = 30
 GAP, HEAD, TAIL = 0.45, 0.6, 0.9
 
 
+_KP = None
+
+
+def kokoro_wav(text, voice, speed, path):
+    """Kokoro-82M (Apache-2.0, runs on CPU): natural English narration with no quota."""
+    global _KP
+    import numpy as np, soundfile as sf
+    from kokoro import KPipeline
+    if _KP is None:
+        _KP = KPipeline(lang_code="a" if voice.startswith("a") else "b")
+    chunks = [a for _, _, a in _KP(text, voice=voice, speed=speed)]
+    tmp = path + ".raw.wav"
+    sf.write(tmp, np.concatenate([np.asarray(c) for c in chunks]), 24000)
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", tmp, "-af",
+                    "silenceremove=start_periods=1:start_threshold=-50dB,areverse,silenceremove=start_periods=1:start_threshold=-50dB,areverse",
+                    "-ar", "48000", "-ac", "1", path], check=True)
+    os.remove(tmp)
+
+
 def tts(ep, adir):
-    key = os.environ.get("AZURE_SPEECH_KEY")
+    engine = ep.get("tts", "azure")
+    key = os.environ.get("AZURE_SPEECH_KEY") if engine == "azure" else None
+    use_kokoro = engine == "kokoro" and os.environ.get("STUDIO_TTS") != "off"
     sys.path.insert(0, os.path.join(ROOT, "engine"))
     durs = []
     for si, sc in enumerate(ep["scenes"]):
         for bi, b in enumerate(sc["beats"]):
             wav = os.path.join(adir, f"{si:02d}_{bi:02d}.wav")
+            if use_kokoro and not os.path.exists(wav):
+                try:
+                    kokoro_wav(b["en"], ep.get("voice", "af_heart"), float(ep.get("speed", 0.92)), wav)
+                except ImportError:
+                    use_kokoro = False
             if key and not os.path.exists(wav):
                 import tts as T
                 ssml = (f'<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="en-US">'
