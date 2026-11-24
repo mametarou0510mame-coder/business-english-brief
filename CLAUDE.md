@@ -1,5 +1,20 @@
 # Business English Brief — production notes
 
+## CURRENT FORMAT (owner, 2026-11-24) — read `studio/README.md`
+
+The channel now makes **studio episodes**: a world business phenomenon explained with CG-style HTML/SVG scenes, **English
+narration** and **one EN+JP subtitle band**, light "theme A" look. Per episode: long video + 1 short (also the IG reel) +
+1 IG carousel + thumbnail. Posting: per day 1 long (07:00 JST), 1 short + 1 reel (12:00), 1 carousel (21:00), by
+`.github/workflows/studio-publish.yml` from `studio/queue.json`. Stock: up to 7 days; production makes at most 2 episodes a day
+(scheduled task 「BEB 新形式の制作」). The old Japanese-narration format below (weekly task, 速報) is **retired** — its
+schedules are off; keep its code for reference only.
+
+Always talk to the owner in **Japanese**.
+
+---
+
+# (Legacy) old format notes
+
 YouTube @bizenglishbrief / Instagram @businessenglishbrief.
 Concept: 「世界のビジネスニュースで、明日の会議の英語を。」 Japanese narration explains one overseas business news story,
 English shows as subtitles, and the video ends with a quiz-style review of 3 meeting phrases (English → Japanese).
