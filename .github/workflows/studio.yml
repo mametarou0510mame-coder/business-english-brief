@@ -37,10 +37,11 @@ jobs:
       - name: Publish to studio-media branch
         run: |
           ep="${{ inputs.episode }}"; rel="${ep#studio/episodes/}"; dst="${rel%.json}.mp4"
-          git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git fetch -q origin studio-media || true
-          mkdir /tmp/m && cd /tmp/m && git init -q && git remote add origin "$GITHUB_SERVER_URL/$GITHUB_REPOSITORY" 
-          git -c http.extraheader="AUTHORIZATION: bearer ${{ github.token }}" fetch -q origin studio-media && git checkout -q studio-media || git checkout -q --orphan studio-media
-          mkdir -p "$(dirname "$dst")" && cp "$GITHUB_WORKSPACE/out.mp4" "$dst"
-          git add -A && git commit -qm "studio: $dst" && git -c http.extraheader="AUTHORIZATION: bearer ${{ github.token }}" push -q origin studio-media
+          git fetch origin studio-media --depth 1 || true
+          rm -rf /tmp/m && mkdir -p /tmp/m
+          if git rev-parse -q --verify origin/studio-media >/dev/null; then git --work-tree=/tmp/m checkout origin/studio-media -- . ; fi
+          mkdir -p "/tmp/m/$(dirname "$dst")" && cp out.mp4 "/tmp/m/$dst"
+          cd /tmp/m && git init -q -b studio-media && git add -A
+          git -c user.name="github-actions[bot]" -c user.email="41898283+github-actions[bot]@users.noreply.github.com" commit -q -m "studio: $dst"
+          git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" studio-media
           echo "::notice title=studio::pushed studio-media/$dst"
