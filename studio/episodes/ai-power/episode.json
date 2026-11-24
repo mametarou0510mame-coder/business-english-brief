@@ -543,5 +543,55 @@
     }
    ]
   }
- ]
+ ],
+ "publish": {
+  "title": "AI Is Hungry for Power|AIは電気を食べる。データセンター電力争奪戦【英語で学ぶ世界経済】",
+  "summary": "AIを支えるデータセンターの電力が急増しています。IEA(国際エネルギー機関)によると、2025年の使用量は485テラワット時で前年比17%増、2030年にはほぼ倍の950テラワット時になる見通しです。何が電力を食い、どこが詰まり、日本にどう関係するのかを、英語のナレーションと英日字幕で解説します(特定の銘柄の売買を勧めるものではありません)。",
+  "phrases": [
+   [
+    "power-hungry",
+    "電力を大量に使う"
+   ],
+   [
+    "bottleneck",
+    "ボトルネック・詰まっている所"
+   ],
+   [
+    "scramble for",
+    "〜を奪い合う"
+   ]
+  ],
+  "sources": [
+   [
+    "IEA: Key questions on energy and AI (Executive summary)",
+    "https://iea.org/reports/key-questions-on-energy-and-ai/executive-summary"
+   ],
+   [
+    "IEA: Data centre electricity use surged in 2025",
+    "https://iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"
+   ],
+   [
+    "ニュースイッチ(日刊工業新聞)2025年1月30日:電力広域的運営推進機関の需要想定",
+    "https://newswitch.jp/p/44498"
+   ]
+  ],
+  "tags": [
+   "AI",
+   "データセンター",
+   "電力",
+   "IEA",
+   "ビジネス英語",
+   "英語学習",
+   "英語リスニング",
+   "世界経済",
+   "power-hungry",
+   "英日字幕"
+  ],
+  "thumb": "studio/thumb/ai-power.jpg",
+  "short": {
+   "file": "short.mp4",
+   "title": "AIサーバー1台で、家何軒分の電気?「power-hungry」の意味は? #ビジネス英語 #shorts",
+   "ig_caption": "AIサーバーの棚ひとつで、家何軒分の電気を使うと思いますか?\n\n✅ power-hungry\n電力を大量に使う\n\n例文:This new system is quite power-hungry.\n(この新システムはかなり電力を食います。)\n\nIEAによると、2027年のAIサーバーの棚ひとつは、最大で家65軒分の電力を使うこともあります。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英語リスニング #AI #データセンター #世界経済 #英日字幕"
+  }
+ }
 }

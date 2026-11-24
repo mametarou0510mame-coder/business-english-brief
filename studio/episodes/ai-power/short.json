@@ -1,0 +1,64 @@
+{
+ "title": "AI rack = 65 homes (short)",
+ "tts": "kokoro",
+ "voice": "af_heart",
+ "speed": 0.92,
+ "portrait": {
+  "head": "<div class='q'>AIサーバーの棚ひとつ<br>家<b>何軒分</b>の電気?</div><div class='e'>power-hungry</div>"
+ },
+ "scenes": [
+  {
+   "id": "rack",
+   "chapter": "",
+   "vis": {
+    "type": "rack"
+   },
+   "beats": [
+    {
+     "en": "AI chips do huge amounts of math, and that takes power.",
+     "jp": "AIの半導体は膨大な計算をこなすので、電気を使います。",
+     "hl": [
+      "takes power",
+      "電気を使います"
+     ]
+    },
+    {
+     "en": "A 2027 AI server rack could draw as much power as 65 homes at its peak.",
+     "jp": "2027年のAIサーバーの棚ひとつは、最大で家65軒分の電力を使うことも。",
+     "hl": [
+      "as much power as",
+      "家65軒分"
+     ]
+    },
+    {
+     "en": "The power packed into each rack rose 11 times from 2020 to 2025.",
+     "jp": "棚あたりの電力密度は、2020年から2025年で11倍になりました。",
+     "hl": [
+      "11 times",
+      "11倍"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "chapter": "",
+   "vis": {
+    "type": "cta",
+    "en": "AI is power-hungry.",
+    "jp": "AIは電気を大量に使う",
+    "btn": "続きは本編で"
+   },
+   "beats": [
+    {
+     "en": "Want the full story? Watch the full video.",
+     "jp": "くわしくは本編で。英語の解説つきです。",
+     "hl": [
+      "full video",
+      "本編"
+     ]
+    }
+   ]
+  }
+ ]
+}

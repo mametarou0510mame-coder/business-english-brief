@@ -29,6 +29,7 @@ function markup(s, hl) {
 
 window.loadTimeline = function (tl) {
   TL = tl;
+  if (tl.portrait) { document.body.classList.add("portrait"); document.getElementById("phead").innerHTML = tl.portrait.head || ""; }
   const world = document.getElementById("world");
   world.innerHTML = "";
   INST = tl.scenes.map(sc => {
@@ -68,11 +69,11 @@ window.seek = function (t) {
     const on = t < b.end + 0.15;
     subsEn.innerHTML = on ? markup(b.en, [b.hl && b.hl[0]]) : "";
     subsJp.innerHTML = on ? markup(b.jp, [b.hl && b.hl[1]]) : "";
-    const fit = el => { el.style.transform = ""; const w = el.scrollWidth; const max = 1340; el.style.transform = w > max ? `scale(${max / w})` : ""; };
+    const fit = document.body.classList.contains("portrait") ? () => {} : el => { el.style.transform = ""; const w = el.scrollWidth; const max = 1340; el.style.transform = w > max ? `scale(${max / w})` : ""; };
     fit(subsEn); fit(subsJp);
     document.getElementById("subs").style.opacity = on ? 1 : 0;
     chap.textContent = shown.sc.chapter || "";
     chap.style.display = shown.sc.chapter ? "block" : "none";
   }
-  document.getElementById("progress").style.width = (1920 * t / TL.total) + "px";
+  document.getElementById("progress").style.width = ((TL.portrait ? 1080 : 1920) * t / TL.total) + "px";
 };

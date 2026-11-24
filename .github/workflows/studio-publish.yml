@@ -1,0 +1,51 @@
+name: Studio publish
+
+# Publishes a rendered studio episode now (owner-approved): YouTube long + thumbnail + short, then the Instagram reel.
+on:
+  workflow_dispatch:
+    inputs:
+      episode:
+        description: "path, e.g. studio/episodes/ai-power/episode.json"
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - name: Get rendered media
+        run: |
+          git fetch origin studio-media --depth 1
+          mkdir -p /tmp/sm && git --work-tree=/tmp/sm checkout origin/studio-media -- .
+          slug=$(basename "$(dirname "${{ inputs.episode }}")")
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
+          ffmpeg -v error -y -ss 1.5 -i /tmp/sm/$slug/short.mp4 -frames:v 1 -q:v 3 /tmp/sm/$slug/short.jpg
+          ls -la /tmp/sm/$slug
+      - name: Put the short on GitHub Pages (media branch) for Instagram
+        run: |
+          slug=$(basename "$(dirname "${{ inputs.episode }}")")
+          git fetch origin media --depth 1 || true
+          rm -rf /tmp/media && mkdir -p /tmp/media
+          if git rev-parse -q --verify origin/media >/dev/null; then git --work-tree=/tmp/media checkout origin/media -- . ; fi
+          mkdir -p /tmp/media/studio/$slug && cp /tmp/sm/$slug/short.mp4 /tmp/sm/$slug/short.jpg /tmp/media/studio/$slug/
+          cd /tmp/media && git init -q -b media && git add -A
+          git -c user.name="github-actions[bot]" -c user.email="41898283+github-actions[bot]@users.noreply.github.com" commit -q -m "studio media $slug"
+          git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" media
+      - name: Publish
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+        run: |
+          python studio/publish.py "${{ inputs.episode }}" /tmp/sm 2> err.txt || { cat err.txt; echo "::error title=publish::$(tail -c 900 err.txt | tr '\n' ' ')"; }
+      - name: Save state
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"; git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add studio/published.json 2>/dev/null && git commit -qm "studio: published state" && for i in 1 2 3; do git pull -q --rebase origin main && git push -q && break; sleep 5; done || true

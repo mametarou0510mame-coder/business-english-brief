@@ -459,3 +459,11 @@ SCENES.outro = (root, v) => {
   const sub = div(root, "left:0;right:0;top:720px;text-align:center;font:700 30px Inter;color:#606068", "Subscribe for world business news in simple English");
   return { update(ts) { q.style.opacity = E.ease(ts / 0.5); sub.style.opacity = E.ease((ts - 1) / 0.5); } };
 };
+
+// ---------------------------------------------------------------- CTA (end of a short)
+SCENES.cta = (root, v) => {
+  const q = div(root, "left:0;right:0;top:300px;text-align:center", `<div style="font:900 84px Inter">${v.en || ""}</div>
+    <div class="jpS" style="font-size:44px;margin-top:18px">${v.jp || ""}</div>
+    <div style="margin-top:50px;display:inline-block;background:#DE4A28;color:#fff;font:900 52px 'Noto Sans CJK JP';border-radius:20px;padding:18px 44px">${v.btn || ""}</div>`);
+  return { update(ts) { q.style.opacity = E.ease(ts / 0.4); q.style.transform = `scale(${0.9 + 0.1 * E.back(ts / 0.5)})`; } };
+};

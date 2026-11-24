@@ -81,7 +81,7 @@ def timeline(ep, durs):
             t += d + GAP
         t += TAIL - GAP
         scenes.append(dict(sc, start=round(start, 3), end=round(t, 3), beats=beats))
-    return {"scenes": scenes, "total": round(t, 3)}
+    return {"scenes": scenes, "total": round(t, 3), "portrait": ep.get("portrait")}
 
 
 def render_part(args):
@@ -89,7 +89,8 @@ def render_part(args):
     from playwright.sync_api import sync_playwright
     with sync_playwright() as p:
         br = p.chromium.launch(args=["--force-color-profile=srgb", "--disable-lcd-text"])
-        pg = br.new_page(viewport={"width": 1920, "height": 1080}, device_scale_factor=1)
+        vw, vh = (1080, 1920) if tl.get("portrait") else (1920, 1080)
+        pg = br.new_page(viewport={"width": vw, "height": vh}, device_scale_factor=1)
         pg.goto("file://" + os.path.join(HERE, "index.html"))
         pg.evaluate("document.fonts.ready")
         pg.evaluate("tl => loadTimeline(tl)", tl)

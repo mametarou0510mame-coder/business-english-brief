@@ -57,7 +57,7 @@ def upload(tok, path, meta):
         status["privacyStatus"] = meta.get("privacy", "public")
     body = {"snippet": {"title": meta["title"][:100], "description": meta["description"][:5000],
                         "tags": meta.get("tags", [])[:30], "categoryId": "27",
-                        "defaultLanguage": "ja", "defaultAudioLanguage": "ja"},
+                        "defaultLanguage": meta.get("lang", "ja"), "defaultAudioLanguage": meta.get("audio_lang", "ja")},
             "status": status}
     size = os.path.getsize(path)
     resp, _ = _req("POST", f"{UP}/videos?uploadType=resumable&part=snippet,status", body,
