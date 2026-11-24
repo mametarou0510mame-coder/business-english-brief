@@ -1,0 +1,101 @@
+{
+ "title": "Japan tourism offset (short)",
+ "tts": "kokoro",
+ "voice": "af_heart",
+ "speed": 0.92,
+ "portrait": {
+  "head": "<div class='q'>中国からは<b>半減</b><br>なのに過去最多?</div><div class='e'>offset</div>"
+ },
+ "scenes": [
+  {
+   "id": "split",
+   "chapter": "",
+   "vis": {
+    "type": "versus",
+    "title": "Visitors to Japan, October 2026 (vs a year earlier)",
+    "title_jp": "訪日客 2026年10月(前年同月比)",
+    "left": {
+     "title": "China",
+     "jp": "中国",
+     "value": "-47.0%",
+     "color": "red"
+    },
+    "right": {
+     "title": "South Korea",
+     "jp": "韓国",
+     "value": "+19.4%",
+     "color": "green"
+    },
+    "at": [
+     0,
+     1
+    ]
+   },
+   "beats": [
+    {
+     "en": "Visitors from China to Japan fell 47 percent in October.",
+     "jp": "10月、中国からの訪日客は47%減りました。",
+     "hl": [
+      "fell 47 percent",
+      "47%減"
+     ]
+    },
+    {
+     "en": "But visitors from South Korea, India and many others grew.",
+     "jp": "でも、韓国やインドなど多くの国・地域からの客は増えました。",
+     "hl": [
+      "grew",
+      "増えました"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rec",
+   "chapter": "",
+   "vis": {
+    "type": "bigstat",
+    "kicker": "Visitors to Japan, October 2026",
+    "value": 3.91,
+    "decimals": 2,
+    "suffix": "M",
+    "tag": "Record month",
+    "sub": "訪日客 2026年10月",
+    "src": "Source: JNTO (preliminary)",
+    "art": "plane",
+    "num_at": 0,
+    "tag_at": 0
+   },
+   "beats": [
+    {
+     "en": "They offset the drop. October was a record month: 3.91 million.",
+     "jp": "それが減少を補い、10月は過去最多の391万人でした。",
+     "hl": [
+      "offset",
+      "補い"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "chapter": "",
+   "vis": {
+    "type": "cta",
+    "en": "Growth elsewhere can offset a drop.",
+    "jp": "ほかの伸びが、落ち込みを補う",
+    "btn": "続きは本編で"
+   },
+   "beats": [
+    {
+     "en": "Want the full story? Watch the full video.",
+     "jp": "くわしくは本編で。英語の解説つきです。",
+     "hl": [
+      "full video",
+      "本編"
+     ]
+    }
+   ]
+  }
+ ]
+}
