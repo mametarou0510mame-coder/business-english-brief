@@ -1,0 +1,37 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+body{margin:0} #t{position:relative;width:1280px;height:720px;overflow:hidden;background:#F7F5F0;font-family:Inter,"Noto Sans CJK JP",sans-serif;
+background-image:linear-gradient(#ECE8E0 1px,transparent 1px),linear-gradient(90deg,#ECE8E0 1px,transparent 1px);background-size:48px 48px}
+.a{position:absolute}
+.l1{left:56px;top:70px;font:900 118px "Noto Sans CJK JP";color:#1C1C1E;line-height:1.05;letter-spacing:-.02em}
+.l1 b{color:#DE4A28}
+.num{left:60px;top:345px;font:900 104px Inter;color:#DE4A28;letter-spacing:-.03em}
+.sub{left:64px;top:470px;font:700 34px "Noto Sans CJK JP";color:#606068}
+.pill{left:60px;top:560px;background:#1A365D;color:#fff;font:800 46px Inter;border-radius:44px;padding:10px 34px}
+.logo{left:40px;top:24px;display:flex;gap:10px;align-items:center;font:700 22px Inter;color:#1C1C1E}
+.logo i{width:34px;height:34px;border-radius:8px;background:#DE4A28;color:#fff;display:grid;place-items:center;font:900 22px Inter;font-style:normal}
+.tag{right:36px;top:26px;background:#DE4A28;color:#fff;font:900 30px "Noto Sans CJK JP";border-radius:12px;padding:6px 18px;transform:rotate(3deg)}
+</style></head><body><div id="t">
+<svg class="a" style="left:0;top:0" width="1280" height="720" id="s"></svg>
+<div class="a logo"><i>B</i>Business English Brief</div>
+<div class="a l1">AIは<b>電気</b>を<br>食べる</div>
+<div class="a num">485 TWh</div>
+<div class="a sub">データセンターの電力 2025年 +17%</div>
+<div class="a pill">power-hungry</div>
+<div class="a tag">英語で学ぶ世界経済</div>
+</div>
+<script>
+const s=document.getElementById('s'),ns='http://www.w3.org/2000/svg';
+const iso=(x,y,z,ox,oy,k)=>[ox+(x-y)*.866*k,oy+(x+y)*.5*k-z*k], P=a=>a.map(p=>p.join(',')).join(' ');
+function el(t,a){const n=document.createElementNS(ns,t);for(const k in a)n.setAttribute(k,a[k]);s.appendChild(n);return n}
+const ox=880,oy=230,k=0.9;
+el('ellipse',{cx:1090,cy:560,rx:260,ry:70,fill:'#000',opacity:.07});
+for(let b=0;b<3;b++){const x0=b*175,w=150,l=320,h=120,Q=(x,y,z)=>iso(x,y,z,ox,oy,k);
+ el('polygon',{points:P([Q(x0,0,h),Q(x0+w,0,h),Q(x0+w,l,h),Q(x0,l,h)]),fill:'#D6DAE2'});
+ el('polygon',{points:P([Q(x0,l,0),Q(x0+w,l,0),Q(x0+w,l,h),Q(x0,l,h)]),fill:'#96A0B2'});
+ el('polygon',{points:P([Q(x0+w,0,0),Q(x0+w,l,0),Q(x0+w,l,h),Q(x0+w,0,h)]),fill:'#BAC2D0'});
+ for(let i=0;i<8;i++)for(let j=0;j<3;j++){const yy=20+i*37,zz=22+j*32;
+  el('polygon',{points:P([Q(x0+w,yy,zz),Q(x0+w,yy+26,zz),Q(x0+w,yy+26,zz+18),Q(x0+w,yy,zz+18)]),fill:'#FFAA3C'})}
+ for(let i=0;i<3;i++){const [cx,cy]=Q(x0+75,50+i*100,h);el('ellipse',{cx,cy,rx:27,ry:15,fill:'#96A0B2',stroke:'#BAC2D0','stroke-width':2})}}
+// lightning bolt
+el('polygon',{points:'1160,90 1090,250 1145,250 1100,390 1225,215 1165,215 1210,90',fill:'#FFD65A',stroke:'#1C1C1E','stroke-width':6,'stroke-linejoin':'round'});
+</script></body></html>
