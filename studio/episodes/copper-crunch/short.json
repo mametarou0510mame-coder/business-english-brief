@@ -19,10 +19,18 @@
     "sub": "新しい銅山:発見から生産まで",
     "src": "Source: IEA",
     "art": "copper",
-    "num_at": 1,
-    "tag_at": 1
+    "num_at": 2,
+    "tag_at": 2
    },
    "beats": [
+    {
+     "en": "Copper is in every power line, every electric car and every data center.",
+     "jp": "銅は、すべての電線、電気自動車、データセンターに使われています。",
+     "hl": [
+      "every power line",
+      "すべての電線"
+     ]
+    },
     {
      "en": "Copper prices hit record highs this year.",
      "jp": "銅の価格は今年、過去最高を記録しました。",
@@ -40,8 +48,8 @@
      ]
     },
     {
-     "en": "So supply can't catch up quickly.",
-     "jp": "だから供給はすぐには追いつけません。",
+     "en": "So supply can't catch up quickly, even when demand jumps.",
+     "jp": "だから需要が急に増えても、供給はすぐには追いつけません。",
      "hl": [
       "catch up",
       "追いつけません"
