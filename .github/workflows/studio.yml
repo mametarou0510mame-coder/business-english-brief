@@ -1,0 +1,43 @@
+name: Studio render
+
+# Renders an HTML/SVG studio episode (studio/episodes/<slug>/<name>.json) with Azure English narration.
+# The finished mp4 is pushed to the orphan branch `studio-media` (studio-media/<slug>/<name>.mp4). Uploads nothing.
+on:
+  workflow_dispatch:
+    inputs:
+      episode:
+        description: "path, e.g. studio/episodes/ai-power/sample.json"
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - name: Tools
+        run: |
+          for i in 1 2 3; do timeout 600 sudo apt-get update -qq -o Acquire::Retries=3 && timeout 900 sudo apt-get install -y -qq -o Acquire::Retries=3 ffmpeg fonts-inter fonts-noto-cjk > /dev/null && break; done
+          pip install -q playwright
+          python -m playwright install --with-deps chromium > /dev/null
+      - name: Render
+        env:
+          AZURE_SPEECH_KEY: ${{ secrets.AZURE_SPEECH_KEY }}
+          AZURE_SPEECH_REGION: ${{ secrets.AZURE_SPEECH_REGION }}
+        run: |
+          start=$(date +%s)
+          python studio/render.py "${{ inputs.episode }}" --workers 4 --out out.mp4
+          echo "::notice title=studio::rendered in $(( $(date +%s) - start ))s, $(ffprobe -v error -show_entries format=duration -of csv=p=0 out.mp4)s long"
+      - name: Publish to studio-media branch
+        run: |
+          ep="${{ inputs.episode }}"; rel="${ep#studio/episodes/}"; dst="${rel%.json}.mp4"
+          git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch -q origin studio-media || true
+          mkdir /tmp/m && cd /tmp/m && git init -q && git remote add origin "$GITHUB_SERVER_URL/$GITHUB_REPOSITORY" 
+          git -c http.extraheader="AUTHORIZATION: bearer ${{ github.token }}" fetch -q origin studio-media && git checkout -q studio-media || git checkout -q --orphan studio-media
+          mkdir -p "$(dirname "$dst")" && cp "$GITHUB_WORKSPACE/out.mp4" "$dst"
+          git add -A && git commit -qm "studio: $dst" && git -c http.extraheader="AUTHORIZATION: bearer ${{ github.token }}" push -q origin studio-media
+          echo "::notice title=studio::pushed studio-media/$dst"

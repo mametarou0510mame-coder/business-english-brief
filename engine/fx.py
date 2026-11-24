@@ -107,10 +107,13 @@ def text3d(img, cx, cy, s, fname, size, col, a=1.0, depth=16, shine_t=None):
         img.paste(mix(c, a), (x0 + k // 2, y0 + k), m)
     # soft glow
     if a > 0.5:
-        g = m.resize((max(1, m.width // 4), max(1, m.height // 4))).filter(ImageFilter.GaussianBlur(6)).resize(m.size)
+        pad = 48
+        mp = Image.new("L", (m.width + 2 * pad, m.height + 2 * pad), 0)
+        mp.paste(m, (pad, pad))
+        g = mp.resize((mp.width // 4, mp.height // 4)).filter(ImageFilter.GaussianBlur(6)).resize(mp.size)
         gk = 0.35 if (max(col) - min(col)) > 60 else 0.08
         g = g.point(lambda v: int(v * gk * a))
-        img.paste(col, (x0, y0), g)
+        img.paste(col, (x0 - pad, y0 - pad), g)
     img.paste(mix(col, a), (x0, y0), m)
     if shine_t is not None and 0 <= shine_t <= 1:
         band = Image.new("L", m.size, 0)

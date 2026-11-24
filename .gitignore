@@ -3,3 +3,8 @@ episodes/*/out/
 _media/
 __pycache__/
 *.pyc
+studio/episodes/*/*_audio/
+studio/episodes/*/*_still_*.jpg
+studio/episodes/*/*_timeline.json
+studio/episodes/*/*.mp4
+studio/episodes/*/*_parts.txt
