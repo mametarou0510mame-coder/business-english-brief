@@ -53,7 +53,7 @@ window.seek = function (t) {
     const cues = sc.beats.map(b => b.start - sc.start);
     let bi = 0;
     for (let i = 0; i < cues.length; i++) if (ts >= cues[i]) bi = i;
-    comp.update(ts, { dur, cues, bi, bt: ts - cues[bi] });
+    comp.update(ts, { dur, cues, bi, bt: ts - cues[bi], beat: sc.beats[bi], beats: sc.beats });
     // enter: slide + fade, exit: fade; slow camera push over the scene
     const pin = E.ease(ts / 0.55), pout = E.clamp((sc.end - t) / 0.35);
     const cam = 1 + 0.03 * E.easeIO(ts / Math.max(dur, 4));

@@ -10,7 +10,7 @@ from xml.sax.saxutils import escape
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 FPS = 30
-GAP, HEAD, TAIL = 0.45, 0.6, 0.9
+GAP, HEAD, TAIL = 0.65, 0.6, 1.0
 
 
 _KP = None
@@ -40,6 +40,9 @@ def tts(ep, adir):
     durs = []
     for si, sc in enumerate(ep["scenes"]):
         for bi, b in enumerate(sc["beats"]):
+            if b.get("hold"):
+                durs.append(float(b["hold"]))
+                continue
             wav = os.path.join(adir, f"{si:02d}_{bi:02d}.wav")
             if use_kokoro and not os.path.exists(wav):
                 try:

@@ -1,0 +1,547 @@
+{
+ "title": "AI Is Hungry for Power",
+ "tts": "kokoro",
+ "voice": "af_heart",
+ "speed": 0.9,
+ "scenes": [
+  {
+   "id": "hook",
+   "chapter": "AI & ELECTRICITY",
+   "vis": {
+    "type": "hook"
+   },
+   "beats": [
+    {
+     "en": "Every time you ask AI a question, a building somewhere uses electricity.",
+     "jp": "AIに質問するたびに、どこかの建物で電気が使われています。",
+     "hl": [
+      "uses electricity",
+      "電気が使われて"
+     ]
+    },
+    {
+     "en": "In 2025, data centers used 485 terawatt-hours of power.",
+     "jp": "2025年、データセンターが使った電力は485テラワット時。",
+     "hl": [
+      "485 terawatt-hours",
+      "485テラワット時"
+     ]
+    },
+    {
+     "en": "That's up 17 percent in just one year.",
+     "jp": "わずか1年で17%の増加です。",
+     "hl": [
+      "17 percent",
+      "17%"
+     ]
+    },
+    {
+     "en": "Today: why AI is so power-hungry, and why it matters for Japan.",
+     "jp": "今日は、AIがなぜ電気を食うのか、日本にどう関係するのかを見ます。",
+     "hl": [
+      "power-hungry",
+      "電気を食う"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "growth",
+   "chapter": "WHAT'S HAPPENING",
+   "vis": {
+    "type": "growth"
+   },
+   "beats": [
+    {
+     "en": "The International Energy Agency, or IEA, tracks this closely.",
+     "jp": "国際エネルギー機関(IEA)が、この動きを追っています。",
+     "hl": [
+      "tracks this closely",
+      "追っています"
+     ]
+    },
+    {
+     "en": "It expects data center power use to almost double by 2030, to 950 terawatt-hours.",
+     "jp": "2030年には、ほぼ倍の950テラワット時になる見通しです。",
+     "hl": [
+      "almost double",
+      "ほぼ倍"
+     ]
+    },
+    {
+     "en": "The fastest growth comes from data centers built for AI.",
+     "jp": "最も伸びているのは、AI向けのデータセンターです。",
+     "hl": [
+      "fastest growth",
+      "最も伸びている"
+     ]
+    },
+    {
+     "en": "Their electricity use jumped 50 percent in 2025, and could triple by 2030.",
+     "jp": "その電力使用は2025年に50%増え、2030年には3倍になる可能性があります。",
+     "hl": [
+      "triple",
+      "3倍"
+     ]
+    },
+    {
+     "en": "Even so, all data centers together will use only about 3 percent of the world's electricity in 2030.",
+     "jp": "それでも2030年、データセンター全体の電力は世界の約3%にとどまります。",
+     "hl": [
+      "about 3 percent",
+      "約3%"
+     ]
+    },
+    {
+     "en": "The problem is not the total. It's how fast it's growing, and where.",
+     "jp": "問題は総量ではなく、増える速さと場所です。",
+     "hl": [
+      "how fast",
+      "増える速さ"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rack",
+   "chapter": "WHY SO HUNGRY?",
+   "vis": {
+    "type": "rack"
+   },
+   "beats": [
+    {
+     "en": "AI chips do huge amounts of math, and that takes power.",
+     "jp": "AIの半導体は膨大な計算をこなすので、電気を使います。",
+     "hl": [
+      "takes power",
+      "電気を使います"
+     ]
+    },
+    {
+     "en": "A 2027 AI server rack could draw as much power as 65 homes at its peak.",
+     "jp": "2027年のAIサーバーの棚ひとつは、最大で家65軒分の電力を使うことも。",
+     "hl": [
+      "as much power as",
+      "家65軒分"
+     ]
+    },
+    {
+     "en": "The power packed into each rack rose 11 times from 2020 to 2025.",
+     "jp": "棚あたりの電力密度は、2020年から2025年で11倍になりました。",
+     "hl": [
+      "11 times",
+      "11倍"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "capex",
+   "chapter": "FOLLOW THE MONEY",
+   "vis": {
+    "type": "capex"
+   },
+   "beats": [
+    {
+     "en": "And the money keeps coming.",
+     "jp": "そして、お金も流れ込み続けています。",
+     "hl": [
+      "keeps coming",
+      "流れ込み続けて"
+     ]
+    },
+    {
+     "en": "Five big tech companies spent over 400 billion dollars in 2025.",
+     "jp": "大手IT企業5社の設備投資は、2025年に4000億ドルを超えました。",
+     "hl": [
+      "400 billion dollars",
+      "4000億ドル"
+     ]
+    },
+    {
+     "en": "That is expected to rise another 75 percent this year.",
+     "jp": "今年はさらに75%増える見通しです。",
+     "hl": [
+      "75 percent",
+      "75%"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bottleneck",
+   "chapter": "THE BOTTLENECKS",
+   "vis": {
+    "type": "bottleneck"
+   },
+   "beats": [
+    {
+     "en": "But you can't build power as fast as you build software.",
+     "jp": "でも、電力はソフトウェアのようには速く作れません。",
+     "hl": [
+      "as fast as",
+      "速く作れません"
+     ]
+    },
+    {
+     "en": "Connecting new data centers to the grid is getting slower.",
+     "jp": "新しいデータセンターを送電網につなぐのに、時間がかかるようになっています。",
+     "hl": [
+      "getting slower",
+      "時間がかかる"
+     ]
+    },
+    {
+     "en": "Orders for gas turbines rose 70 percent in 2025.",
+     "jp": "発電用のガスタービンの受注は、2025年に70%増えました。",
+     "hl": [
+      "70 percent",
+      "70%"
+     ]
+    },
+    {
+     "en": "Transformers are in short supply too.",
+     "jp": "変圧器も足りていません。",
+     "hl": [
+      "in short supply",
+      "足りていません"
+     ]
+    },
+    {
+     "en": "Even a key memory chip is expected to stay short until at least the end of 2027.",
+     "jp": "重要なメモリー半導体も、少なくとも2027年末まで不足が続く見通しです。",
+     "hl": [
+      "the end of 2027",
+      "2027年末"
+     ]
+    },
+    {
+     "en": "So the real bottleneck is often not the chips. It's power.",
+     "jp": "だから本当のボトルネックは、半導体より電力であることが多いのです。",
+     "hl": [
+      "bottleneck",
+      "ボトルネック"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scramble",
+   "chapter": "THE SCRAMBLE",
+   "vis": {
+    "type": "scramble"
+   },
+   "beats": [
+    {
+     "en": "Tech companies are now in a scramble for power.",
+     "jp": "IT企業はいま、電力の奪い合いをしています。",
+     "hl": [
+      "scramble for",
+      "奪い合い"
+     ]
+    },
+    {
+     "en": "In 2025, they signed about 40 percent of all corporate deals to buy renewable power.",
+     "jp": "2025年、企業の再生可能エネルギー購入契約の約4割はIT企業でした。",
+     "hl": [
+      "40 percent",
+      "約4割"
+     ]
+    },
+    {
+     "en": "Deals with small nuclear reactor projects grew from 25 to 45 gigawatts.",
+     "jp": "小型原子炉の計画との契約は、25から45ギガワットに増えました。",
+     "hl": [
+      "25 to 45 gigawatts",
+      "25から45ギガワット"
+     ]
+    },
+    {
+     "en": "Some are even building their own gas power plants next to data centers, mostly in the US.",
+     "jp": "データセンターの隣に自前のガス発電所を作る動きもあります。主に米国です。",
+     "hl": [
+      "their own gas power plants",
+      "自前のガス発電所"
+     ]
+    },
+    {
+     "en": "And big batteries help them handle sudden jumps in demand.",
+     "jp": "大きな蓄電池で、急な需要の増加に備えています。",
+     "hl": [
+      "sudden jumps",
+      "急な需要の増加"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "japan",
+   "chapter": "WHAT IT MEANS FOR JAPAN",
+   "vis": {
+    "type": "japan"
+   },
+   "beats": [
+    {
+     "en": "What about Japan?",
+     "jp": "では、日本は?",
+     "hl": [
+      "Japan",
+      "日本"
+     ]
+    },
+    {
+     "en": "Japan's grid organization, OCCTO, expects peak power demand to rise 4.4 percent by fiscal 2034.",
+     "jp": "電力広域的運営推進機関は、2034年度の最大電力需要が4.4%増えると見ています。",
+     "hl": [
+      "4.4 percent",
+      "4.4%"
+     ]
+    },
+    {
+     "en": "The main reasons are new data centers and chip factories.",
+     "jp": "主な理由は、データセンターと半導体工場の新設です。",
+     "hl": [
+      "data centers and chip factories",
+      "データセンターと半導体工場"
+     ]
+    },
+    {
+     "en": "Meanwhile, household electricity use is expected to fall.",
+     "jp": "一方で、家庭の電力使用量は減る見通しです。",
+     "hl": [
+      "expected to fall",
+      "減る見通し"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "efficiency",
+   "chapter": "THE OTHER SIDE",
+   "vis": {
+    "type": "efficiency"
+   },
+   "beats": [
+    {
+     "en": "There is good news, too. In recent years, the energy used for each AI task has fallen at least tenfold every year.",
+     "jp": "良い知らせもあります。ここ数年、AIの1回の処理に使う電力は、毎年10分の1以下に減っています。",
+     "hl": [
+      "at least tenfold",
+      "10分の1以下"
+     ]
+    },
+    {
+     "en": "The question is whether efficiency can keep up with demand.",
+     "jp": "問題は、効率化が需要の伸びに追いつけるかどうかです。",
+     "hl": [
+      "keep up with",
+      "追いつける"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "phrases",
+   "chapter": "TODAY'S ENGLISH",
+   "vis": {
+    "type": "phrases",
+    "items": [
+     {
+      "en": "power-hungry",
+      "jp": "電力を大量に使う",
+      "ex": "This new system is quite power-hungry.",
+      "ex_jp": "この新システムはかなり電力を食います。"
+     },
+     {
+      "en": "bottleneck",
+      "jp": "ボトルネック・詰まっている所",
+      "ex": "The bottleneck is our approval process.",
+      "ex_jp": "ボトルネックは社内の承認手続きです。"
+     },
+     {
+      "en": "scramble for",
+      "jp": "〜を奪い合う",
+      "key": "scrambling for",
+      "ex": "Everyone is scrambling for engineers.",
+      "ex_jp": "どの会社もエンジニアを奪い合っています。"
+     }
+    ]
+   },
+   "beats": [
+    {
+     "en": "Three phrases for your next meeting.",
+     "jp": "次の会議で使える英語を3つ。",
+     "hl": [
+      "Three phrases",
+      "英語を3つ"
+     ],
+     "step": "intro",
+     "ph": -1
+    },
+    {
+     "en": "power-hungry.",
+     "jp": "この英語の意味は?",
+     "hl": [
+      "power-hungry",
+      ""
+     ],
+     "step": "say",
+     "ph": 0
+    },
+    {
+     "en": "",
+     "jp": "考えてみよう",
+     "hl": [],
+     "step": "think",
+     "ph": 0,
+     "hold": 2.5
+    },
+    {
+     "en": "This new system is quite power-hungry.",
+     "jp": "この新システムはかなり電力を食います。",
+     "hl": [
+      "power-hungry",
+      ""
+     ],
+     "step": "ex",
+     "ph": 0
+    },
+    {
+     "en": "This new system is quite power-hungry.",
+     "jp": "もう一度。声に出して言ってみよう",
+     "hl": [
+      "power-hungry",
+      ""
+     ],
+     "step": "ex",
+     "ph": 0,
+     "repeat": true
+    },
+    {
+     "en": "",
+     "jp": "(あなたの番)",
+     "hl": [],
+     "step": "ex",
+     "ph": 0,
+     "hold": 3.0
+    },
+    {
+     "en": "bottleneck.",
+     "jp": "この英語の意味は?",
+     "hl": [
+      "bottleneck",
+      ""
+     ],
+     "step": "say",
+     "ph": 1
+    },
+    {
+     "en": "",
+     "jp": "考えてみよう",
+     "hl": [],
+     "step": "think",
+     "ph": 1,
+     "hold": 2.5
+    },
+    {
+     "en": "The bottleneck is our approval process.",
+     "jp": "ボトルネックは社内の承認手続きです。",
+     "hl": [
+      "bottleneck",
+      ""
+     ],
+     "step": "ex",
+     "ph": 1
+    },
+    {
+     "en": "The bottleneck is our approval process.",
+     "jp": "もう一度。声に出して言ってみよう",
+     "hl": [
+      "bottleneck",
+      ""
+     ],
+     "step": "ex",
+     "ph": 1,
+     "repeat": true
+    },
+    {
+     "en": "",
+     "jp": "(あなたの番)",
+     "hl": [],
+     "step": "ex",
+     "ph": 1,
+     "hold": 3.0
+    },
+    {
+     "en": "scramble for.",
+     "jp": "この英語の意味は?",
+     "hl": [
+      "scramble for",
+      ""
+     ],
+     "step": "say",
+     "ph": 2
+    },
+    {
+     "en": "",
+     "jp": "考えてみよう",
+     "hl": [],
+     "step": "think",
+     "ph": 2,
+     "hold": 2.5
+    },
+    {
+     "en": "Everyone is scrambling for engineers.",
+     "jp": "どの会社もエンジニアを奪い合っています。",
+     "hl": [
+      "scrambling for",
+      ""
+     ],
+     "step": "ex",
+     "ph": 2
+    },
+    {
+     "en": "Everyone is scrambling for engineers.",
+     "jp": "もう一度。声に出して言ってみよう",
+     "hl": [
+      "scrambling for",
+      ""
+     ],
+     "step": "ex",
+     "ph": 2,
+     "repeat": true
+    },
+    {
+     "en": "",
+     "jp": "(あなたの番)",
+     "hl": [],
+     "step": "ex",
+     "ph": 2,
+     "hold": 3.0
+    }
+   ]
+  },
+  {
+   "id": "outro",
+   "chapter": "",
+   "vis": {
+    "type": "outro",
+    "items": [
+     "power-hungry",
+     "bottleneck",
+     "scramble for"
+    ]
+   },
+   "beats": [
+    {
+     "en": "Which one will you use this week? Tell us in the comments.",
+     "jp": "今週使うのはどれですか? コメントで教えてください。",
+     "hl": [
+      "this week",
+      "今週"
+     ]
+    }
+   ]
+  }
+ ]
+}
