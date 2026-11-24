@@ -483,6 +483,9 @@ SCENES.bigstat = (root, v) => {
   if (v.art === "datacenter") art = dataCenter(svg, 1180, 330, 1);
   let globe = null;
   if (v.art === "globe") globe = worldDots(svg, 1300, 470, 330, v.markers || []);
+  let extra = null;                                   // added art: "copper" (cathode stack + coil), "plane" (jet on a route)
+  if (v.art === "copper") extra = copperArt(svg, 1380, 560);
+  if (v.art === "plane") extra = planeArt(svg, 1400, 470);
   const kick = div(root, "left:190px;top:170px;font:800 30px Inter;letter-spacing:.12em;color:#8E8E96", (v.kicker || "").toUpperCase());
   const num = div(root, "left:185px;top:215px", "", "num");
   const tag = div(root, "left:190px;top:390px;transform-origin:0 50%", v.tag || "", "tag");
@@ -494,6 +497,7 @@ SCENES.bigstat = (root, v) => {
       const c = i => cues[Math.min(i, cues.length - 1)];
       if (art) art.update([0, 1, 2].map(k => (ts - 0.2 - k * 0.25) / 0.7), 0.85);
       if (globe) globe.update(ts);
+      if (extra) extra.update(ts);
       kick.style.opacity = E.ease(ts / 0.4);
       const t0 = c(v.num_at || 0), p = E.easeIO((ts - t0 - 0.2) / 1.3);
       num.style.opacity = ts > t0 ? 1 : 0;
@@ -680,3 +684,46 @@ SCENES.quote = (root, v) => {
     <div style="font:600 28px Inter;color:#606068;margin-top:34px">— ${v.by || ""}</div>`);
   return { update(ts) { q.style.opacity = E.ease(ts / 0.5); q.style.transform = `translateY(${(1 - E.ease(ts / 0.6)) * 20}px)`; } };
 };
+
+
+// ---------------------------------------------------------------- bigstat art (added 2026-11-24): copper / plane
+function copperArt(svg, ox, oy) {
+  const g = E.el("g", {}, svg), Cu = ["#E9A57A", "#C8693F", "#A9532F"];   // top, left, right faces
+  E.el("ellipse", { cx: ox, cy: oy + 150, rx: 330, ry: 80, fill: "#000", opacity: .07 }, g);
+  const plates = [];
+  for (let k = 0; k < 6; k++) {
+    const pg = E.el("g", {}, g), Q = (x, y, z) => iso(x, y, z, ox - 160, oy - 40, 1), z0 = k * 26, w = 240, l = 300, h = 20;
+    E.el("polygon", { points: P([Q(0, l, z0), Q(w, l, z0), Q(w, l, z0 + h), Q(0, l, z0 + h)]), fill: Cu[1] }, pg);
+    E.el("polygon", { points: P([Q(w, 0, z0), Q(w, l, z0), Q(w, l, z0 + h), Q(w, 0, z0 + h)]), fill: Cu[2] }, pg);
+    E.el("polygon", { points: P([Q(0, 0, z0 + h), Q(w, 0, z0 + h), Q(w, l, z0 + h), Q(0, l, z0 + h)]), fill: Cu[0] }, pg);
+    plates.push(pg);
+  }
+  const coil = E.el("g", {}, g);
+  for (let i = 0; i < 9; i++) E.el("ellipse", { cx: ox + 230, cy: oy + 40 - i * 16, rx: 90, ry: 38, fill: "none", stroke: i % 2 ? "#C8693F" : "#E08A55", "stroke-width": 12 }, coil);
+  const tail = E.el("path", { d: `M${ox + 320},${oy - 88} C ${ox + 400},${oy - 140} ${ox + 380},${oy - 260} ${ox + 470},${oy - 300}`, fill: "none", stroke: "#E08A55", "stroke-width": 12, "stroke-linecap": "round" }, coil);
+  return { update(ts) {
+    plates.forEach((pg, k) => { const p = E.back((ts - 0.2 - k * 0.12) / 0.5); pg.setAttribute("opacity", E.clamp(p * 2)); pg.setAttribute("transform", `translate(0,${(1 - p) * -60})`); });
+    const c = E.ease((ts - 0.9) / 0.6); coil.setAttribute("opacity", c); coil.setAttribute("transform", `translate(0,${(1 - c) * 30})`);
+    const L = tail.getTotalLength(), q = E.easeIO((ts - 1.2) / 1.0); tail.setAttribute("stroke-dasharray", `${L * q} ${L}`);
+  } };
+}
+function planeArt(svg, ox, oy) {
+  const g = E.el("g", {}, svg);
+  const route = E.el("path", { d: `M${ox - 330},${oy + 260} Q ${ox - 60},${oy - 260} ${ox + 330},${oy + 80}`, fill: "none", stroke: "#1A365D", "stroke-width": 5, "stroke-dasharray": "14 14", opacity: .5 }, g);
+  const pin = E.el("g", {}, g);
+  E.el("circle", { cx: ox + 330, cy: oy + 80, r: 26, fill: "#DE4A28" }, pin);
+  E.el("circle", { cx: ox + 330, cy: oy + 80, r: 10, fill: "#fff" }, pin);
+  const jet = E.el("g", {}, g);
+  E.el("path", { d: "M-70,0 C-60,-12 50,-12 70,0 C50,12 -60,12 -70,0 Z", fill: "#1A365D" }, jet);
+  E.el("polygon", { points: "-10,-6 20,-6 -20,-70 -40,-70", fill: "#2C4F80" }, jet);
+  E.el("polygon", { points: "-10,6 20,6 -20,70 -40,70", fill: "#2C4F80" }, jet);
+  E.el("polygon", { points: "-55,-4 -42,-4 -62,-30 -72,-30", fill: "#DE4A28" }, jet);
+  E.el("polygon", { points: "-55,4 -42,4 -62,30 -72,30", fill: "#DE4A28" }, jet);
+  return { update(ts) {
+    const L = route.getTotalLength(), q = E.easeIO((ts - 0.3) / 2.4), d = Math.max(1, L * q);
+    const a = route.getPointAtLength(d), b = route.getPointAtLength(Math.max(0, d - 2));
+    jet.setAttribute("transform", `translate(${a.x},${a.y}) rotate(${Math.atan2(a.y - b.y, a.x - b.x) * 180 / Math.PI})`);
+    jet.setAttribute("opacity", E.ease(ts / 0.4)); route.setAttribute("opacity", .5 * E.ease(ts / 0.4));
+    pin.setAttribute("opacity", E.ease((ts - 2.4) / 0.4));
+  } };
+}

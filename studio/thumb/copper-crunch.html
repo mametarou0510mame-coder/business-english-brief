@@ -1,0 +1,34 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+body{margin:0} #t{position:relative;width:1280px;height:720px;overflow:hidden;background:#F7F5F0;font-family:Inter,"Noto Sans CJK JP",sans-serif;
+background-image:linear-gradient(#ECE8E0 1px,transparent 1px),linear-gradient(90deg,#ECE8E0 1px,transparent 1px);background-size:48px 48px}
+.a{position:absolute}
+.l1{left:56px;top:70px;font:900 118px "Noto Sans CJK JP";color:#1C1C1E;line-height:1.05;letter-spacing:-.02em}
+.l1 b{color:#DE4A28}
+.num{left:60px;top:345px;font:900 104px Inter;color:#DE4A28;letter-spacing:-.03em}
+.sub{left:64px;top:470px;font:700 34px "Noto Sans CJK JP";color:#606068}
+.pill{left:60px;top:560px;background:#1A365D;color:#fff;font:800 46px Inter;border-radius:44px;padding:10px 34px}
+.logo{left:40px;top:24px;display:flex;gap:10px;align-items:center;font:700 22px Inter;color:#1C1C1E}
+.logo i{width:34px;height:34px;border-radius:8px;background:#DE4A28;color:#fff;display:grid;place-items:center;font:900 22px Inter;font-style:normal}
+.tag{right:36px;top:26px;background:#DE4A28;color:#fff;font:900 30px "Noto Sans CJK JP";border-radius:12px;padding:6px 18px;transform:rotate(3deg)}
+</style></head><body><div id="t">
+<svg class="a" style="left:0;top:0" width="1280" height="720" id="s"></svg>
+<div class="a logo"><i>B</i>Business English Brief</div>
+<div class="a l1"><b>銅</b>が<br>足りない</div>
+<div class="a num">$14,500</div>
+<div class="a sub">銅の価格 1トンあたり(2026年1月に一時)</div>
+<div class="a pill">lead time</div>
+<div class="a tag">英語で学ぶ世界経済</div>
+</div>
+<script>
+const s=document.getElementById('s'),ns='http://www.w3.org/2000/svg';
+const iso=(x,y,z,ox,oy,k)=>[ox+(x-y)*.866*k,oy+(x+y)*.5*k-z*k], P=a=>a.map(p=>p.join(',')).join(' ');
+function el(t,a){const n=document.createElementNS(ns,t);for(const k in a)n.setAttribute(k,a[k]);s.appendChild(n);return n}
+el('ellipse',{cx:1060,cy:630,rx:240,ry:70,fill:'#000',opacity:.07});
+const ox=990,oy=400,k=.85,Q=(x,y,z)=>iso(x,y,z,ox,oy,k);
+for(let i=0;i<7;i++){const z0=i*26,w=240,l=300,h=20;
+ el('polygon',{points:P([Q(0,l,z0),Q(w,l,z0),Q(w,l,z0+h),Q(0,l,z0+h)]),fill:'#C8693F'});
+ el('polygon',{points:P([Q(w,0,z0),Q(w,l,z0),Q(w,l,z0+h),Q(w,0,z0+h)]),fill:'#A9532F'});
+ el('polygon',{points:P([Q(0,0,z0+h),Q(w,0,z0+h),Q(w,l,z0+h),Q(0,l,z0+h)]),fill:'#E9A57A'});}
+for(let i=0;i<10;i++)el('ellipse',{cx:1180,cy:590-i*17,rx:70,ry:30,fill:'none',stroke:i%2?'#C8693F':'#E08A55','stroke-width':12});
+el('path',{d:'M1250,430 C1290,370 1250,280 1262,160',fill:'none',stroke:'#E08A55','stroke-width':12,'stroke-linecap':'round'});
+</script></body></html>

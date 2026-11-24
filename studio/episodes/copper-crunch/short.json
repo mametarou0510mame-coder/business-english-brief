@@ -1,0 +1,73 @@
+{
+ "title": "Copper lead time (short)",
+ "tts": "kokoro",
+ "voice": "af_heart",
+ "speed": 0.92,
+ "portrait": {
+  "head": "<div class='q'>新しい銅山<br>生産まで<b>何年</b>?</div><div class='e'>lead time</div>"
+ },
+ "scenes": [
+  {
+   "id": "lead",
+   "chapter": "",
+   "vis": {
+    "type": "bigstat",
+    "kicker": "New copper mine",
+    "value": 17,
+    "suffix": " years",
+    "tag": "discovery → production",
+    "sub": "新しい銅山:発見から生産まで",
+    "src": "Source: IEA",
+    "art": "copper",
+    "num_at": 1,
+    "tag_at": 1
+   },
+   "beats": [
+    {
+     "en": "Copper prices hit record highs this year.",
+     "jp": "銅の価格は今年、過去最高を記録しました。",
+     "hl": [
+      "record highs",
+      "過去最高"
+     ]
+    },
+    {
+     "en": "But a new copper mine has a very long lead time: about 17 years.",
+     "jp": "でも新しい銅山はリードタイムがとても長く、約17年かかります。",
+     "hl": [
+      "lead time",
+      "リードタイム"
+     ]
+    },
+    {
+     "en": "So supply can't catch up quickly.",
+     "jp": "だから供給はすぐには追いつけません。",
+     "hl": [
+      "catch up",
+      "追いつけません"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "chapter": "",
+   "vis": {
+    "type": "cta",
+    "en": "Copper has a long lead time.",
+    "jp": "銅山はリードタイムが長い",
+    "btn": "続きは本編で"
+   },
+   "beats": [
+    {
+     "en": "Want the full story? Watch the full video.",
+     "jp": "くわしくは本編で。英語の解説つきです。",
+     "hl": [
+      "full video",
+      "本編"
+     ]
+    }
+   ]
+  }
+ ]
+}
