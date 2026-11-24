@@ -1,0 +1,951 @@
+{
+ "id": "2026-11-24-huang-returns",
+ "episode": "#49",
+ "date": "2026-11-24",
+ "series": "速報",
+ "title_card": {
+  "line1": "フアン氏がCEO復帰",
+  "line2": "日経平均2207円高"
+ },
+ "publish": {
+  "long": "2026-11-24T18:42:00+09:00",
+  "shorts": [
+   "2026-11-24T18:42:00+09:00",
+   "2026-11-24T21:42:00+09:00"
+  ]
+ },
+ "phrases": [
+  {
+   "en": "reverse a decision",
+   "jp": "決定を覆す・撤回する",
+   "ex": "After the customer survey, we decided to reverse a decision on the price change.",
+   "ex_jp": "顧客アンケートを受けて、値上げの決定を撤回しました。"
+  },
+  {
+   "en": "the right person",
+   "jp": "適任者・ふさわしい人",
+   "ex": "I think Ms. Tanaka is the right person to lead this project.",
+   "ex_jp": "このプロジェクトのリーダーには、田中さんが適任だと思います。"
+  },
+  {
+   "en": "bounce back",
+   "jp": "持ち直す・反発する",
+   "ex": "We expect sales to bounce back in the second quarter.",
+   "ex_jp": "第2四半期には、売上が持ち直す見込みです。"
+  }
+ ],
+ "words": [
+  {
+   "en": "reinstate",
+   "jp": "(元の職に)復帰させる"
+  },
+  {
+   "en": "unanimously",
+   "jp": "全会一致で"
+  },
+  {
+   "en": "national security",
+   "jp": "国家安全保障"
+  }
+ ],
+ "homework": {
+  "en": "Have you ever seen your company reverse a decision?",
+  "jp": "会社が決定を覆したのを見たことは?",
+  "hl": [
+   "reverse a decision"
+  ],
+  "say": "最後に宿題です。あなたの会社が、一度決めたことを覆したことはありますか。リバース・ア・ディシジョンを使って英語で一文、コメント欄に書いてみてください。"
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "beats": [
+    {
+     "id": "h01",
+     "kind": "jp",
+     "jp": "11月24日、日経平均株価は2207円上がりました。前の取引日の3007円安から、大きく値を戻しました。",
+     "en": "On November 24, the Nikkei rose 2,207 points, recovering much of its 3,007-point drop.",
+     "vis": {
+      "t": "counter",
+      "kicker": "NIKKEI 225 · 2026.11.24",
+      "to": 2207,
+      "prefix": "+",
+      "suffix": "円",
+      "color": "green",
+      "sub": "終値 5万8644円(+3.91%)",
+      "note": "前の取引日は3007円安"
+     }
+    },
+    {
+     "id": "h02",
+     "kind": "jp",
+     "jp": "きっかけは、エヌビディアの発表です。11日前に辞めたジェンスン・フアン氏が、CEOに戻ることになりました。",
+     "en": "The trigger: Nvidia brought back Jensen Huang as CEO, 11 days after he resigned.",
+     "vis": {
+      "t": "hero",
+      "kicker": "NVIDIA · 2026.11.23",
+      "big": "CEO復帰",
+      "color": "gold",
+      "sub": "辞任から11日で方針転換",
+      "sub_color": "gold"
+     }
+    },
+    {
+     "id": "h03",
+     "kind": "jp",
+     "jp": "今日は速報です。このニュースから、会議で使える英語を3つ。最後に答え合わせをします。",
+     "en": "Breaking news, and three phrases for your next meeting.",
+     "vis": {
+      "t": "teaser"
+     }
+    }
+   ]
+  },
+  {
+   "id": "what",
+   "chapter": "何が起きたか",
+   "beats": [
+    {
+     "id": "n01",
+     "kind": "jp",
+     "jp": "経緯を振り返ります。11月12日、フアン氏はCEOと取締役を辞任。財務責任者のクレス氏が、暫定のCEOになりました。",
+     "en": "Recap: on November 12, Huang left as CEO and director, and CFO Colette Kress became interim CEO.",
+     "vis": {
+      "t": "timeline",
+      "show": 1,
+      "items": [
+       {
+        "when": "11月12日",
+        "text": "フアン氏がCEOと取締役を辞任。CFOが暫定CEOに",
+        "color": "red"
+       },
+       {
+        "when": "11月17日",
+        "text": "取締役会長は、復帰の予定はないと説明",
+        "color": "muted"
+       },
+       {
+        "when": "11月23日",
+        "text": "取締役会が全会一致で、フアン氏の復帰を決定",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "n02",
+     "kind": "jp",
+     "jp": "辞任の前には、私生活の問題や、中国の情報機関との関係が疑われる人物をめぐる報道がありました。",
+     "en": "Before that, there were reports about his private life and a person suspected of ties to Chinese intelligence.",
+     "vis": {
+      "t": "timeline",
+      "show": 1,
+      "items": [
+       {
+        "when": "11月12日",
+        "text": "フアン氏がCEOと取締役を辞任。CFOが暫定CEOに",
+        "color": "red"
+       },
+       {
+        "when": "11月17日",
+        "text": "取締役会長は、復帰の予定はないと説明",
+        "color": "muted"
+       },
+       {
+        "when": "11月23日",
+        "text": "取締役会が全会一致で、フアン氏の復帰を決定",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "n03",
+     "kind": "jp",
+     "jp": "17日の決算発表のころ、取締役会長は、フアン氏が戻る予定はない、と説明していました。",
+     "en": "Around the November 17 earnings, the board chair said there were no plans for him to return.",
+     "vis": {
+      "t": "timeline",
+      "show": 2,
+      "items": [
+       {
+        "when": "11月12日",
+        "text": "フアン氏がCEOと取締役を辞任。CFOが暫定CEOに",
+        "color": "red"
+       },
+       {
+        "when": "11月17日",
+        "text": "取締役会長は、復帰の予定はないと説明",
+        "color": "muted"
+       },
+       {
+        "when": "11月23日",
+        "text": "取締役会が全会一致で、フアン氏の復帰を決定",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "n04",
+     "kind": "jp",
+     "jp": "ところが23日、取締役会は全会一致で、フアン氏を社長兼CEOに戻すと発表。その日のうちに有効です。",
+     "en": "But on the 23rd, the board unanimously reinstated him as president and CEO, starting that day.",
+     "vis": {
+      "t": "timeline",
+      "show": 3,
+      "items": [
+       {
+        "when": "11月12日",
+        "text": "フアン氏がCEOと取締役を辞任。CFOが暫定CEOに",
+        "color": "red"
+       },
+       {
+        "when": "11月17日",
+        "text": "取締役会長は、復帰の予定はないと説明",
+        "color": "muted"
+       },
+       {
+        "when": "11月23日",
+        "text": "取締役会が全会一致で、フアン氏の復帰を決定",
+        "color": "green"
+       }
+      ]
+     }
+    },
+    {
+     "id": "n05",
+     "kind": "jp",
+     "jp": "一度決めたことを、ひっくり返す。英語では、リバース・ア・ディシジョンと言います。",
+     "en": "To turn a decision around is to reverse a decision.",
+     "hl": [
+      "reverse a decision"
+     ],
+     "star": true,
+     "vis": {
+      "t": "hero_side",
+      "big": "撤回",
+      "color": "gold",
+      "text": "reverse a decision",
+      "jp": "決定を覆す"
+     }
+    },
+    {
+     "id": "n06",
+     "kind": "en_insert",
+     "jp": "決定を覆す",
+     "en": "The board reversed its decision.",
+     "hl": [
+      "reversed its decision"
+     ],
+     "star": true,
+     "vis": {
+      "t": "hero_side",
+      "big": "撤回",
+      "color": "gold",
+      "text": "reverse a decision",
+      "jp": "決定を覆す"
+     }
+    },
+    {
+     "id": "n07",
+     "kind": "jp",
+     "jp": "値上げや移転など、社内の決定を取りやめるときにも使えます。理由とセットで伝えるのが基本です。",
+     "en": "Use it for internal decisions too, like a price rise or a move. Always give the reason.",
+     "hl": [
+      "reverse a decision"
+     ],
+     "vis": {
+      "t": "hero_side",
+      "big": "撤回",
+      "color": "gold",
+      "text": "reverse a decision",
+      "jp": "決定を覆す"
+     }
+    }
+   ]
+  },
+  {
+   "id": "why",
+   "chapter": "なぜ戻したのか",
+   "beats": [
+    {
+     "id": "y01",
+     "kind": "jp",
+     "jp": "会社の発表によると、取締役会はフアン氏と何度も話し合い、その率直さと、会社を率いる力に納得した、としています。",
+     "en": "Nvidia says the board met Huang several times and was satisfied with his candor and ability to lead.",
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "The Board believes Jensen",
+       "is the right person to lead NVIDIA."
+      ],
+      "hl": [
+       "the right person"
+      ],
+      "by": "Harvey Jones, NVIDIA Board Chair"
+     }
+    },
+    {
+     "id": "y02",
+     "kind": "jp",
+     "jp": "会長は、フアン氏こそ、エヌビディアを率いるのにふさわしい人物だ、と述べました。",
+     "en": "The chair called Huang the right person to lead Nvidia.",
+     "hl": [
+      "the right person"
+     ],
+     "vis": {
+      "t": "quote",
+      "lines": [
+       "The Board believes Jensen",
+       "is the right person to lead NVIDIA."
+      ],
+      "hl": [
+       "the right person"
+      ],
+      "by": "Harvey Jones, NVIDIA Board Chair"
+     }
+    },
+    {
+     "id": "y03",
+     "kind": "jp",
+     "jp": "その仕事に、いちばん合っている人。英語で、ザ・ライト・パーソンと言います。",
+     "en": "The best fit for a role is the right person.",
+     "hl": [
+      "the right person"
+     ],
+     "star": true,
+     "vis": {
+      "t": "hero_side",
+      "big": "適任",
+      "color": "blue",
+      "text": "the right person",
+      "jp": "適任者"
+     }
+    },
+    {
+     "id": "y04",
+     "kind": "en_insert",
+     "jp": "適任者",
+     "en": "She's the right person for the job.",
+     "hl": [
+      "the right person"
+     ],
+     "star": true,
+     "vis": {
+      "t": "hero_side",
+      "big": "適任",
+      "color": "blue",
+      "text": "the right person",
+      "jp": "適任者"
+     }
+    },
+    {
+     "id": "y05",
+     "kind": "jp",
+     "jp": "人事や担当を決める会議で、だれかを推すときの定番です。前に、ザを付けるのがポイントです。",
+     "en": "It's a standard way to recommend someone for a role. Don't forget 'the'.",
+     "hl": [
+      "the right person"
+     ],
+     "vis": {
+      "t": "hero_side",
+      "big": "適任",
+      "color": "blue",
+      "text": "the right person",
+      "jp": "適任者"
+     }
+    },
+    {
+     "id": "y06",
+     "kind": "jp",
+     "jp": "取締役会は、アメリカ政府の上層部からも意見を聞き、国家安全保障上のリスクはないと判断した、と説明しています。",
+     "en": "The board says it got input from senior US officials and sees no national security risk.",
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "本人と話し合い",
+        "mid": "政府の意見も聞く",
+        "res": "復帰を決定",
+        "ok": true
+       }
+      ]
+     }
+    },
+    {
+     "id": "y07",
+     "kind": "jp",
+     "jp": "トランプ大統領は、正しく適切な判断だ、と評価しました。一方、独立した調査は、最後まで続けるとしています。",
+     "en": "President Trump praised the decision. The independent investigation will continue to the end.",
+     "vis": {
+      "t": "flow",
+      "rows": [
+       {
+        "a": "本人と話し合い",
+        "mid": "政府の意見も聞く",
+        "res": "復帰を決定",
+        "ok": true
+       },
+       {
+        "a": "独立した調査",
+        "mid": "続けて実施",
+        "res": "結論はまだ",
+        "ok": false
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "market",
+   "chapter": "市場の反応",
+   "beats": [
+    {
+     "id": "m01",
+     "kind": "jp",
+     "jp": "23日のアメリカ市場。エヌビディアの株価は31.48%上がり、165ドル台で終わりました。",
+     "en": "On the 23rd, Nvidia shares jumped 31.48% to about $165.",
+     "vis": {
+      "t": "bars",
+      "title": "11月23日の米国市場(上昇率)",
+      "unit": "%",
+      "items": [
+       {
+        "label": "エヌビディア",
+        "value": 31.48,
+        "display": "+31.5%",
+        "color": "green"
+       },
+       {
+        "label": "ナスダック総合",
+        "value": 6.51,
+        "display": "+6.5%",
+        "color": "green"
+       },
+       {
+        "label": "S&P500",
+        "value": 4.73,
+        "display": "+4.7%",
+        "color": "green"
+       },
+       {
+        "label": "NYダウ",
+        "value": 3.01,
+        "display": "+3.0%",
+        "color": "green"
+       }
+      ],
+      "note": "出典:東京報道新聞"
+     }
+    },
+    {
+     "id": "m02",
+     "kind": "jp",
+     "jp": "ナスダック総合指数は6.51%、S&P500は4.73%上昇。アメリカの株式市場全体が大きく上がりました。",
+     "en": "The Nasdaq rose 6.51% and the S&P 500 4.73%. The whole US market rallied.",
+     "vis": {
+      "t": "bars",
+      "title": "11月23日の米国市場(上昇率)",
+      "unit": "%",
+      "items": [
+       {
+        "label": "エヌビディア",
+        "value": 31.48,
+        "display": "+31.5%",
+        "color": "green"
+       },
+       {
+        "label": "ナスダック総合",
+        "value": 6.51,
+        "display": "+6.5%",
+        "color": "green"
+       },
+       {
+        "label": "S&P500",
+        "value": 4.73,
+        "display": "+4.7%",
+        "color": "green"
+       },
+       {
+        "label": "NYダウ",
+        "value": 3.01,
+        "display": "+3.0%",
+        "color": "green"
+       }
+      ],
+      "note": "出典:東京報道新聞"
+     }
+    },
+    {
+     "id": "m03",
+     "kind": "jp",
+     "jp": "そして24日の東京。アドバンテストや東京エレクトロン、ソフトバンクグループなど、AIや半導体の株が買い戻されました。",
+     "en": "Then Tokyo: AI and chip names like Advantest, Tokyo Electron and SoftBank Group were bought back.",
+     "vis": {
+      "t": "line",
+      "title": "日経平均の終値(円)",
+      "points": [
+       {
+        "label": "11/19",
+        "value": 59444
+       },
+       {
+        "label": "11/20",
+        "value": 56437
+       },
+       {
+        "label": "11/24",
+        "value": 58645
+       }
+      ],
+      "color": "green",
+      "display": "58,644",
+      "note": "出典:QUICK Money World・東京報道新聞"
+     }
+    },
+    {
+     "id": "m04",
+     "kind": "jp",
+     "jp": "日経平均の終値は、5万8644円。TOPIXも2.47%上がりました。",
+     "en": "The Nikkei closed at 58,644, and TOPIX gained 2.47%.",
+     "vis": {
+      "t": "line",
+      "title": "日経平均の終値(円)",
+      "points": [
+       {
+        "label": "11/19",
+        "value": 59444
+       },
+       {
+        "label": "11/20",
+        "value": 56437
+       },
+       {
+        "label": "11/24",
+        "value": 58645
+       }
+      ],
+      "color": "green",
+      "display": "58,644",
+      "note": "出典:QUICK Money World・東京報道新聞"
+     }
+    },
+    {
+     "id": "m05",
+     "kind": "jp",
+     "jp": "大きく下がったあと、また上がって戻る。英語で、バウンス・バックと言います。",
+     "en": "Going back up after a big fall is to bounce back.",
+     "hl": [
+      "bounce back"
+     ],
+     "star": true,
+     "vis": {
+      "t": "hero_side",
+      "big": "反発",
+      "color": "green",
+      "text": "bounce back",
+      "jp": "持ち直す・反発する"
+     }
+    },
+    {
+     "id": "m06",
+     "kind": "en_insert",
+     "jp": "持ち直す",
+     "en": "Tokyo stocks bounced back.",
+     "hl": [
+      "bounced back"
+     ],
+     "star": true,
+     "vis": {
+      "t": "hero_side",
+      "big": "反発",
+      "color": "green",
+      "text": "bounce back",
+      "jp": "持ち直す・反発する"
+     }
+    },
+    {
+     "id": "m07",
+     "kind": "jp",
+     "jp": "ボールがはね返るイメージです。株価だけでなく、売上や、人の気持ちが持ち直すときにも使います。",
+     "en": "Think of a ball bouncing. It works for sales, and for people's spirits too.",
+     "hl": [
+      "bounce back"
+     ],
+     "vis": {
+      "t": "hero_side",
+      "big": "反発",
+      "color": "green",
+      "text": "bounce back",
+      "jp": "持ち直す・反発する"
+     }
+    }
+   ]
+  },
+  {
+   "id": "insight",
+   "chapter": "私たちへの意味",
+   "beats": [
+    {
+     "id": "i01",
+     "kind": "jp",
+     "jp": "ここからは、日本で働く私たちにとっての意味を考えます。",
+     "en": "What does this mean for those of us working in Japan?",
+     "vis": {
+      "t": "statement",
+      "kicker": "SO WHAT?",
+      "text": "日本で働く私たちにとっての意味"
+     }
+    },
+    {
+     "id": "i02",
+     "kind": "jp",
+     "jp": "まずは、方針を変えるときの伝え方。海外の相手に決定の撤回を伝えるときは、何が新しく分かったのかを必ず添えましょう。今回の取締役会も、話し合いと政府の意見を理由に挙げています。",
+     "en": "First, when you reverse a decision with overseas partners, say what new information changed your mind, as the board did.",
+     "hl": [
+      "reverse a decision"
+     ],
+     "vis": {
+      "t": "points",
+      "items": [
+       {
+        "head": "方針転換の伝え方",
+        "big": "新しい情報",
+        "sub": "何が変わったかを添える",
+        "color": "gold"
+       },
+       {
+        "head": "日本への波及",
+        "big": "装置・部材",
+        "sub": "取引先のAI投資を確認",
+        "color": "blue"
+       },
+       {
+        "head": "逆の見方",
+        "big": "調査は継続中",
+        "sub": "1日の反発で決めない",
+        "color": "red"
+       }
+      ],
+      "show": 1
+     }
+    },
+    {
+     "id": "i03",
+     "kind": "jp",
+     "jp": "次に、仕事への波及。日本では、半導体の装置や部材のメーカーが、エヌビディアの動きに大きく左右されます。赤沢経済産業大臣も、日本企業への影響を注視する考えを示しました。",
+     "en": "Second, Japanese chip tool and material makers depend heavily on Nvidia. Japan's trade minister says he is watching the impact.",
+     "vis": {
+      "t": "points",
+      "items": [
+       {
+        "head": "方針転換の伝え方",
+        "big": "新しい情報",
+        "sub": "何が変わったかを添える",
+        "color": "gold"
+       },
+       {
+        "head": "日本への波及",
+        "big": "装置・部材",
+        "sub": "取引先のAI投資を確認",
+        "color": "blue"
+       },
+       {
+        "head": "逆の見方",
+        "big": "調査は継続中",
+        "sub": "1日の反発で決めない",
+        "color": "red"
+       }
+      ],
+      "show": 2
+     }
+    },
+    {
+     "id": "i04",
+     "kind": "jp",
+     "jp": "一方で、逆の見方もあります。独立した調査はまだ終わっていません。アメリカ議会では、党派を超えて復帰を疑問視する声も出ています。",
+     "en": "On the other hand, the investigation isn't over, and some US lawmakers from both parties question the return.",
+     "vis": {
+      "t": "points",
+      "items": [
+       {
+        "head": "方針転換の伝え方",
+        "big": "新しい情報",
+        "sub": "何が変わったかを添える",
+        "color": "gold"
+       },
+       {
+        "head": "日本への波及",
+        "big": "装置・部材",
+        "sub": "取引先のAI投資を確認",
+        "color": "blue"
+       },
+       {
+        "head": "逆の見方",
+        "big": "調査は継続中",
+        "sub": "1日の反発で決めない",
+        "color": "red"
+       }
+      ],
+      "show": 3
+     }
+    },
+    {
+     "id": "i05",
+     "kind": "jp",
+     "jp": "日経平均も、一時は2800円以上上がりましたが、そこから上げ幅を縮めて終わりました。1日の反発だけで、本当に持ち直したと決めるのは早いかもしれません。",
+     "en": "The Nikkei was up over 2,800 at one point but gave some back. One day's bounce may not mean a real recovery.",
+     "hl": [
+      "bounce"
+     ],
+     "vis": {
+      "t": "points",
+      "items": [
+       {
+        "head": "方針転換の伝え方",
+        "big": "新しい情報",
+        "sub": "何が変わったかを添える",
+        "color": "gold"
+       },
+       {
+        "head": "日本への波及",
+        "big": "装置・部材",
+        "sub": "取引先のAI投資を確認",
+        "color": "blue"
+       },
+       {
+        "head": "逆の見方",
+        "big": "調査は継続中",
+        "sub": "1日の反発で決めない",
+        "color": "red"
+       }
+      ],
+      "show": 3
+     }
+    },
+    {
+     "id": "i06",
+     "kind": "jp",
+     "jp": "なお、この動画は、特定の株の売り買いをすすめるものではありません。ニュースから、英語と考え方を学んでいきましょう。",
+     "en": "This video is not advice to buy or sell any stock. Let's just learn the English and the thinking.",
+     "vis": {
+      "t": "points",
+      "items": [
+       {
+        "head": "方針転換の伝え方",
+        "big": "新しい情報",
+        "sub": "何が変わったかを添える",
+        "color": "gold"
+       },
+       {
+        "head": "日本への波及",
+        "big": "装置・部材",
+        "sub": "取引先のAI投資を確認",
+        "color": "blue"
+       },
+       {
+        "head": "逆の見方",
+        "big": "調査は継続中",
+        "sub": "1日の反発で決めない",
+        "color": "red"
+       }
+      ],
+      "show": 3
+     }
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "「決定を覆す」は英語で?reverse a decisionの使い方|フアン氏CEO復帰、日経2207円高【ビジネス英語ニュース #49】",
+  "summary": "エヌビディアの取締役会は2026年11月23日、11月12日に辞任したジェンスン・フアン氏を社長兼CEOに戻すと全会一致で決めました。米国株が急伸し、24日の日経平均は2207円高の5万8644円で取引を終えました。このニュースを日本語で解説し、会議で使える英語「reverse a decision」「the right person」「bounce back」を身につけます。",
+  "tags": [
+   "ビジネス英語",
+   "英語学習",
+   "ニュース英語",
+   "時事英語",
+   "会議 英語",
+   "エヌビディア",
+   "NVIDIA",
+   "ジェンスン・フアン",
+   "CEO復帰",
+   "日経平均",
+   "半導体",
+   "決定を覆す 英語",
+   "速報",
+   "business English"
+  ]
+ },
+ "thumbnail": {
+  "big": "CEO復帰",
+  "big_color": "gold",
+  "under": "フアン氏 辞任から11日",
+  "badge": "速報",
+  "badge_color": "red",
+  "question": "英語で言える?",
+  "pill": "reverse a decision",
+  "bottom": "会議で使える英語3つ"
+ },
+ "shorts": [
+  {
+   "phrase": 0,
+   "news_hook": [
+    "フアン氏が",
+    "CEOに復帰"
+   ],
+   "hook": [
+    "「決定を覆す」",
+    "英語で言える?"
+   ],
+   "ctx": "エヌビディアは辞任から11日で、フアン氏をCEOに戻しました",
+   "title": "「決定を覆す」は英語で?フアン氏がCEO復帰 #ビジネス英語 #shorts",
+   "ig_caption": "「決定を覆す」を英語で言えますか?\n\n✅ reverse a decision\n決定を覆す・撤回する\n\n例文:After the customer survey, we decided to reverse a decision on the price change.\n(顧客アンケートを受けて、値上げの決定を撤回しました。)\n\n11月23日、エヌビディアの取締役会は、11日前に辞任したフアン氏をCEOに戻すと決めました。24日の日経平均は2207円高。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  },
+  {
+   "phrase": 2,
+   "style": "quiz",
+   "badge": "会議で使う英語|初級",
+   "news_hook": [
+    "大きく下げて",
+    "また戻る?"
+   ],
+   "hook": [
+    "bounce back",
+    "って?"
+   ],
+   "ctx": "下がったものが、また上がって戻るときの表現",
+   "title": "「bounce back」の意味、わかる?|会議の英語 #shorts",
+   "ig_caption": "「bounce back」の意味、わかりますか?\n\n✅ bounce back\n持ち直す・反発する\n\n例文:We expect sales to bounce back in the second quarter.\n(第2四半期には、売上が持ち直す見込みです。)\n\n11月24日、前の取引日に3007円下げた日経平均が、2207円高と大きく持ち直しました。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英会話 #ニュース英語 #社会人の勉強 #会議英語 #教養"
+  }
+ ],
+ "sources": [
+  {
+   "title": "NVIDIA Form 8-K press release「NVIDIA Board Reinstates Jensen Huang as President and CEO」(2026年11月23日)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000090/nov23pressrelease.htm"
+  },
+  {
+   "title": "CBS News「Nvidia reinstates Jensen Huang as CEO」",
+   "url": "https://www.cbsnews.com/news/nvidia-reinstates-jensen-huang-ceo/"
+  },
+  {
+   "title": "Fox Business「Nvidia reinstates Jensen Huang as CEO effective immediately following US government input」",
+   "url": "https://www.foxbusiness.com/markets/nvidia-reinstates-jensen-huang-ceo"
+  },
+  {
+   "title": "Yahoo Finance「Stock market today: Monday, November 23」",
+   "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-23-dow-sp-500-nasdaq-nvidia-reinstates-jensen-huang-141511975.html"
+  },
+  {
+   "title": "財経新聞「エヌビディア、ジェンスン・フアン氏がCEOに復帰―株価は一時33%急騰」",
+   "url": "https://www.zaikei.co.jp/article/20261124/878783.html"
+  },
+  {
+   "title": "JKNEWS 財経日報「ジェンスン・ファン氏、NVIDIAのCEOに復帰…取締役会が決定を覆した5つの背景」",
+   "url": "https://news.jkn.co.kr/editions/japanese/post/1118661"
+  },
+  {
+   "title": "QUICK Money World「米エヌビディア急伸受けAI半導体関連に買い集まり日経平均は大幅反発」",
+   "url": "https://moneyworld.jp/news/detail?id=223581"
+  },
+  {
+   "title": "東京報道新聞「日経平均が2207円高の5万8644円、エヌビディア前CEO復帰でAI・半導体株に買い戻し」",
+   "url": "https://tokyonewsmedia.com/archives/30850"
+  },
+  {
+   "title": "メディアIR「日経平均2207円高と急反発、フアン氏のエヌビディアCEO復帰でAI・半導体株に買い戻し」",
+   "url": "https://www.media-ir.com/news/?p=189279"
+  },
+  {
+   "title": "フィスコ(財経新聞)「日経平均は大幅反発、エヌビディアCEO復帰でAI関連株に買い戻し」",
+   "url": "https://www.zaikei.co.jp/article/20261124/878909.html"
+  },
+  {
+   "title": "みんかぶFX「東京時間に伝わった指標・ニュース」(2026年11月24日)",
+   "url": "https://fx.minkabu.jp/news/385263"
+  }
+ ],
+ "readings": [
+  [
+   "2207円",
+   "にせんにひゃくななえん"
+  ],
+  [
+   "3007円",
+   "さんぜんななえん"
+  ],
+  [
+   "5万8644円",
+   "ごまんはっせんろっぴゃくよんじゅうよんえん"
+  ],
+  [
+   "2800円",
+   "にせんはっぴゃくえん"
+  ],
+  [
+   "31.48%",
+   "さんじゅういってんよんはちパーセント"
+  ],
+  [
+   "6.51%",
+   "ろくてんごいちパーセント"
+  ],
+  [
+   "4.73%",
+   "よんてんななさんパーセント"
+  ],
+  [
+   "2.47%",
+   "にてんよんななパーセント"
+  ],
+  [
+   "165ドル",
+   "ひゃくろくじゅうごドル"
+  ],
+  [
+   "S&P500",
+   "エスアンドピーごひゃく"
+  ],
+  [
+   "TOPIX",
+   "トピックス"
+  ],
+  [
+   "11日前",
+   "じゅういちにちまえ"
+  ],
+  [
+   "12日",
+   "じゅうににち"
+  ],
+  [
+   "17日",
+   "じゅうしちにち"
+  ],
+  [
+   "23日",
+   "にじゅうさんにち"
+  ],
+  [
+   "24日",
+   "にじゅうよっか"
+  ],
+  [
+   "赤沢",
+   "あかざわ"
+  ],
+  [
+   "上層部",
+   "じょうそうぶ"
+  ],
+  [
+   "兼",
+   "けん"
+  ],
+  [
+   "率直さ",
+   "そっちょくさ"
+  ]
+ ]
+}
