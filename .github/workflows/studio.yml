@@ -12,6 +12,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: studio-render
+  cancel-in-progress: false
+
 jobs:
   render:
     runs-on: ubuntu-24.04
@@ -34,6 +38,11 @@ jobs:
           start=$(date +%s)
           python studio/render.py "${{ inputs.episode }}" --workers 4 --out out.mp4 2> err.txt || { cat err.txt; echo "::error title=studio::$(tail -c 900 err.txt | tr '\n' ' ')"; exit 1; }
           echo "::notice title=studio::rendered in $(( $(date +%s) - start ))s, $(ffprobe -v error -show_entries format=duration -of csv=p=0 out.mp4)s long"
+      - name: Carousel and short cover (episode.json only)
+        run: |
+          ep="${{ inputs.episode }}"
+          if [ "$(basename "$ep")" = "episode.json" ]; then python studio/carousel.py "$ep" carousel_out; fi
+          if [ "$(basename "$ep")" = "short.json" ]; then ffmpeg -v error -y -ss 1.5 -i out.mp4 -frames:v 1 -q:v 3 short.jpg; fi
       - name: Publish to studio-media branch
         run: |
           ep="${{ inputs.episode }}"; rel="${ep#studio/episodes/}"; dst="${rel%.json}.mp4"
@@ -41,6 +50,8 @@ jobs:
           rm -rf /tmp/m && mkdir -p /tmp/m
           if git rev-parse -q --verify origin/studio-media >/dev/null; then git --work-tree=/tmp/m checkout origin/studio-media -- . ; fi
           mkdir -p "/tmp/m/$(dirname "$dst")" && cp out.mp4 "/tmp/m/$dst" && cp "${ep%.json}_timeline.json" "/tmp/m/${dst%.mp4}_timeline.json"
+          [ -d carousel_out ] && rm -rf "/tmp/m/$(dirname "$dst")/carousel" && cp -r carousel_out "/tmp/m/$(dirname "$dst")/carousel"
+          [ -f short.jpg ] && cp short.jpg "/tmp/m/$(dirname "$dst")/short.jpg"
           cd /tmp/m && git init -q -b studio-media && git add -A
           git -c user.name="github-actions[bot]" -c user.email="41898283+github-actions[bot]@users.noreply.github.com" commit -q -m "studio: $dst"
           git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" studio-media

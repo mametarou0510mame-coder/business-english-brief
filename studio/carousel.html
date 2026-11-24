@@ -1,0 +1,36 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+body{margin:0} .s{position:relative;width:1080px;height:1350px;overflow:hidden;background:#F7F5F0;font-family:Inter,"Noto Sans CJK JP",sans-serif;color:#1C1C1E;
+background-image:linear-gradient(#ECE8E0 1px,transparent 1px),linear-gradient(90deg,#ECE8E0 1px,transparent 1px);background-size:54px 54px}
+.a{position:absolute}.logo{left:56px;top:50px;display:flex;gap:12px;align-items:center;font:700 26px Inter}
+.logo i{width:42px;height:42px;border-radius:10px;background:#DE4A28;color:#fff;display:grid;place-items:center;font:900 26px Inter;font-style:normal}
+.pg{right:56px;top:56px;font:700 26px Inter;color:#8E8E96}
+.card{left:60px;right:60px;background:#fff;border:2px solid #DCD8D0;border-radius:30px;box-shadow:0 12px 30px rgba(0,0,0,.06)}
+.hl{background:#FFD65A;border-radius:8px;padding:0 8px}
+.jp{font-family:"Noto Sans CJK JP"}
+</style></head><body><div id="root"></div>
+<script>
+window.build = function (c) {
+  const root = document.getElementById("root"); root.innerHTML = "";
+  const n = 2 + c.phrases.length;
+  const S = (i, html) => { const d = document.createElement("div"); d.className = "s"; d.id = "s" + i;
+    d.innerHTML = `<div class="a logo"><i>B</i>Business English Brief</div><div class="a pg">${i}/${n}</div>` + html; root.appendChild(d); };
+  S(1, `<div class="a jp" style="left:70px;top:190px;right:70px;font:900 104px 'Noto Sans CJK JP';line-height:1.15">${c.cover}</div>
+    <div class="a" style="left:74px;top:${c.coverTop || 560}px;font:900 150px Inter;color:#DE4A28;letter-spacing:-.03em">${c.num || ""}</div>
+    <div class="a jp" style="left:78px;top:${(c.coverTop || 560) + 190}px;right:70px;font:700 40px 'Noto Sans CJK JP';color:#606068">${c.numSub || ""}</div>
+    <div class="a" style="left:70px;bottom:120px;background:#1A365D;color:#fff;font:800 44px 'Noto Sans CJK JP';border-radius:46px;padding:14px 40px">会議で使える英語 ${c.phrases.length}つ →</div>`);
+  c.phrases.forEach((p, k) => S(k + 2, `
+    <div class="a" style="left:70px;top:170px;font:800 30px Inter;color:#DE4A28;letter-spacing:.1em">PHRASE ${k + 1}</div>
+    <div class="a card" style="top:240px;height:300px;display:grid;place-items:center"><div style="font:900 ${p.en.length > 16 ? 76 : 100}px Inter;text-align:center;padding:0 30px">${p.en}</div></div>
+    <div class="a jp" style="left:70px;right:70px;top:600px;text-align:center;font:900 62px 'Noto Sans CJK JP';color:#DE4A28">${p.jp}</div>
+    <div class="a card" style="top:760px;padding:44px 48px">
+      <div style="font:800 28px 'Noto Sans CJK JP';color:#8E8E96">例文</div>
+      <div style="font:700 48px Inter;line-height:1.3;margin-top:14px">${p.ex.replace(p.key || p.en, `<span class="hl">${p.key || p.en}</span>`)}</div>
+      <div class="jp" style="font:500 34px 'Noto Sans CJK JP';color:#606068;margin-top:18px">${p.ex_jp}</div></div>`));
+  S(n, `<div class="a jp" style="left:70px;right:70px;top:190px;font:900 72px 'Noto Sans CJK JP';line-height:1.3">${c.endTitle || "保存して、<br>次の会議の前に見返そう"}</div>
+    <div class="a card" style="top:470px;padding:40px 48px">${c.phrases.map(p => `<div style="display:flex;justify-content:space-between;gap:20px;margin:18px 0"><b style="font:800 44px Inter">${p.en}</b><span class="jp" style="font:600 34px 'Noto Sans CJK JP';color:#DE4A28;text-align:right">${p.jp}</span></div>`).join("")}</div>
+    <div class="a jp" style="left:70px;right:70px;bottom:210px;font:700 40px 'Noto Sans CJK JP';color:#606068">英語ナレーションの解説動画は<br>プロフィールのYouTubeから</div>
+    <div class="a" style="left:70px;bottom:110px;font:800 36px Inter;color:#1A365D">@businessenglishbrief</div>
+    <div class="a" style="left:70px;right:70px;bottom:40px;font:500 22px Inter;color:#8E8E96">${c.src || ""}</div>`);
+  return n;
+};
+</script></body></html>

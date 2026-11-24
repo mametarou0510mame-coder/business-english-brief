@@ -1,15 +1,28 @@
 name: Studio publish
 
-# Publishes a rendered studio episode now (owner-approved): YouTube long + thumbnail + short, then the Instagram reel.
+# Daily publishing of studio episodes (owner rule 2026-11-24): one of each per day, in studio/queue.json order.
+#   07:00 JST long video (YouTube, public)  ·  12:00 JST YouTube short + Instagram reel  ·  21:00 JST Instagram carousel
 on:
+  schedule:
+    - cron: "4 22 * * *"   # 07:04 JST
+    - cron: "4 3 * * *"    # 12:04 JST
+    - cron: "4 12 * * *"   # 21:04 JST
   workflow_dispatch:
     inputs:
-      episode:
-        description: "path, e.g. studio/episodes/ai-power/episode.json"
+      what:
+        description: "long | short | reel | carousel (comma-separated)"
         required: true
+      slug:
+        description: "optional: a specific slug"
+        required: false
 
 permissions:
   contents: write
+  pages: write
+
+concurrency:
+  group: studio-publish
+  cancel-in-progress: false
 
 jobs:
   publish:
@@ -17,23 +30,27 @@ jobs:
     timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
+      - name: Decide what to post
+        id: w
+        run: |
+          if [ -n "${{ inputs.what }}" ]; then w="${{ inputs.what }}";
+          else h=$(TZ=Asia/Tokyo date +%H); if [ "$h" -lt 10 ]; then w=long; elif [ "$h" -lt 18 ]; then w=short,reel; else w=carousel; fi; fi
+          echo "what=$w" >> "$GITHUB_OUTPUT"; echo "::notice title=publish::$w"
       - name: Get rendered media
         run: |
           git fetch origin studio-media --depth 1
           mkdir -p /tmp/sm && git --work-tree=/tmp/sm checkout origin/studio-media -- .
-          slug=$(basename "$(dirname "${{ inputs.episode }}")")
-          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
-          ffmpeg -v error -y -ss 1.5 -i /tmp/sm/$slug/short.mp4 -frames:v 1 -q:v 3 /tmp/sm/$slug/short.jpg
-          ls -la /tmp/sm/$slug
-      - name: Put the short on GitHub Pages (media branch) for Instagram
+      - name: Put Instagram media on GitHub Pages (media branch)
+        if: contains(steps.w.outputs.what, 'reel') || contains(steps.w.outputs.what, 'carousel')
         run: |
-          slug=$(basename "$(dirname "${{ inputs.episode }}")")
           git fetch origin media --depth 1 || true
           rm -rf /tmp/media && mkdir -p /tmp/media
           if git rev-parse -q --verify origin/media >/dev/null; then git --work-tree=/tmp/media checkout origin/media -- . ; fi
-          mkdir -p /tmp/media/studio/$slug && cp /tmp/sm/$slug/short.mp4 /tmp/sm/$slug/short.jpg /tmp/media/studio/$slug/
+          for d in /tmp/sm/*/; do s=$(basename "$d"); mkdir -p /tmp/media/studio/$s
+            [ -f "$d/short.mp4" ] && cp "$d/short.mp4" /tmp/media/studio/$s/ && [ -f "$d/short.jpg" ] && cp "$d/short.jpg" /tmp/media/studio/$s/
+            [ -d "$d/carousel" ] && cp -r "$d/carousel" /tmp/media/studio/$s/; done
           cd /tmp/media && git init -q -b media && git add -A
-          git -c user.name="github-actions[bot]" -c user.email="41898283+github-actions[bot]@users.noreply.github.com" commit -q -m "studio media $slug"
+          git -c user.name="github-actions[bot]" -c user.email="41898283+github-actions[bot]@users.noreply.github.com" commit -q -m "studio media $(date -u +%F)"
           git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" media
       - name: Publish
         env:
@@ -43,7 +60,12 @@ jobs:
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
         run: |
-          python studio/publish.py "${{ inputs.episode }}" /tmp/sm 2> err.txt || { cat err.txt; echo "::error title=publish::$(tail -c 900 err.txt | tr '\n' ' ')"; }
+          rc=0
+          for w in $(echo "${{ steps.w.outputs.what }}" | tr ',' ' '); do
+            slug_arg=""; [ -n "${{ inputs.slug }}" ] && slug_arg="--slug ${{ inputs.slug }}"
+            python studio/publish.py --what $w $slug_arg --media /tmp/sm 2> err.txt || { cat err.txt; echo "::error title=publish $w::$(tail -c 700 err.txt | tr '\n' ' ')"; rc=1; }
+          done
+          exit $rc
       - name: Save state
         if: always()
         run: |

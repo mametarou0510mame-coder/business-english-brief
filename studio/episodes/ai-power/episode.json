@@ -592,6 +592,34 @@
    "file": "short.mp4",
    "title": "AIサーバー1台で、家何軒分の電気?「power-hungry」の意味は? #ビジネス英語 #shorts",
    "ig_caption": "AIサーバーの棚ひとつで、家何軒分の電気を使うと思いますか?\n\n✅ power-hungry\n電力を大量に使う\n\n例文:This new system is quite power-hungry.\n(この新システムはかなり電力を食います。)\n\nIEAによると、2027年のAIサーバーの棚ひとつは、最大で家65軒分の電力を使うこともあります。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英語リスニング #AI #データセンター #世界経済 #英日字幕"
-  }
+  },
+  "carousel_caption": "AIは電気を食べる。データセンターの電力は2025年に485テラワット時、1年で17%増えました。\n\nこのニュースから、会議で使える英語を3つ。\n\n1️⃣ power-hungry\n電力を大量に使う\n\n2️⃣ bottleneck\nボトルネック・詰まっている所\n\n3️⃣ scramble for\n〜を奪い合う\n\n📌 保存して、次の会議の前に見返そう\n▼ 英語ナレーションの解説動画はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英語リスニング #AI #データセンター #世界経済 #英語フレーズ"
+ },
+ "carousel": {
+  "cover": "AIは<span style='color:#DE4A28'>電気</span>を<br>食べる",
+  "num": "485 TWh",
+  "numSub": "2025年のデータセンターの電力(前年比+17%)",
+  "phrases": [
+   {
+    "en": "power-hungry",
+    "jp": "電力を大量に使う",
+    "ex": "This new system is quite power-hungry.",
+    "ex_jp": "この新システムはかなり電力を食います。"
+   },
+   {
+    "en": "bottleneck",
+    "jp": "ボトルネック・詰まっている所",
+    "ex": "The bottleneck is our approval process.",
+    "ex_jp": "ボトルネックは社内の承認手続きです。"
+   },
+   {
+    "en": "scramble for",
+    "jp": "〜を奪い合う",
+    "key": "scrambling for",
+    "ex": "Everyone is scrambling for engineers.",
+    "ex_jp": "どの会社もエンジニアを奪い合っています。"
+   }
+  ],
+  "src": "Source: IEA (2026), OCCTO (2025)"
  }
 }

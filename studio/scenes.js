@@ -467,3 +467,216 @@ SCENES.cta = (root, v) => {
     <div style="margin-top:50px;display:inline-block;background:#DE4A28;color:#fff;font:900 52px 'Noto Sans CJK JP';border-radius:20px;padding:18px 44px">${v.btn || ""}</div>`);
   return { update(ts) { q.style.opacity = E.ease(ts / 0.4); q.style.transform = `scale(${0.9 + 0.1 * E.back(ts / 0.5)})`; } };
 };
+
+// ================================================================ GENERIC COMPONENTS (for daily episodes)
+// All take `appear` = beat index at which each item shows (defaults: one item per beat).
+function showAt(v, i, cues, def) { const k = (v.at && v.at[i] !== undefined) ? v.at[i] : def; return cues[Math.min(k, cues.length - 1)]; }
+function header(root, v) {
+  if (!v.title) return null;
+  return div(root, "left:0;right:0;top:120px;text-align:center", `<div class="h2">${v.title}</div>${v.title_jp ? `<div class="jpS" style="margin-top:6px">${v.title_jp}</div>` : ""}`);
+}
+
+// bigstat: one huge number that counts up + tag + source, optional art on the right ("datacenter" | "globe" | "none")
+SCENES.bigstat = (root, v) => {
+  const svg = stageSvg(root);
+  let art = null;
+  if (v.art === "datacenter") art = dataCenter(svg, 1180, 330, 1);
+  let globe = null;
+  if (v.art === "globe") globe = worldDots(svg, 1300, 470, 330, v.markers || []);
+  const kick = div(root, "left:190px;top:170px;font:800 30px Inter;letter-spacing:.12em;color:#8E8E96", (v.kicker || "").toUpperCase());
+  const num = div(root, "left:185px;top:215px", "", "num");
+  const tag = div(root, "left:190px;top:390px;transform-origin:0 50%", v.tag || "", "tag");
+  const sub = div(root, "left:192px;top:470px;width:760px;font:600 34px 'Noto Sans CJK JP';color:#606068", v.sub || "");
+  const src = div(root, "left:192px;top:540px", v.src || "", "src");
+  if (!v.tag) tag.style.display = "none";
+  return {
+    update(ts, { cues }) {
+      const c = i => cues[Math.min(i, cues.length - 1)];
+      if (art) art.update([0, 1, 2].map(k => (ts - 0.2 - k * 0.25) / 0.7), 0.85);
+      if (globe) globe.update(ts);
+      kick.style.opacity = E.ease(ts / 0.4);
+      const t0 = c(v.num_at || 0), p = E.easeIO((ts - t0 - 0.2) / 1.3);
+      num.style.opacity = ts > t0 ? 1 : 0;
+      const val = (v.value || 0) * p;
+      num.textContent = `${v.prefix || ""}${E.fmt(val, v.decimals || 0)}${v.suffix || ""}`;
+      pop(tag, (ts - c(v.tag_at || 1)) / 0.45);
+      sub.style.opacity = E.ease((ts - t0 - 1.0) / 0.5);
+      src.style.opacity = E.ease((ts - t0 - 1.2) / 0.5);
+    },
+  };
+};
+
+// bars: vertical bars from zero (honest scale). items: [{label, value, display, color}]; at: beat index per bar
+SCENES.bars = (root, v) => {
+  const svg = stageSvg(root);
+  const head = header(root, v);
+  const n = v.items.length, base = 800, maxH = 470, max = Math.max(...v.items.map(i => i.value));
+  const bw = Math.min(220, 900 / n), gap = Math.min(120, 600 / n), total = n * bw + (n - 1) * gap, x0 = 960 - total / 2;
+  E.el("line", { x1: x0 - 60, x2: x0 + total + 60, y1: base, y2: base, stroke: C.line, "stroke-width": 3 }, svg);
+  const bars = v.items.map((it, i) => {
+    const x = x0 + i * (bw + gap), col = it.color ? (C[it.color] || it.color) : (i === n - 1 ? C.red : C.navy);
+    const r = E.el("rect", { x, width: bw, rx: 12, fill: col }, svg);
+    const l = div(root, `left:${x - 60}px;width:${bw + 120}px;top:${base + 14}px;text-align:center;font:700 30px Inter`, it.label);
+    const t = div(root, `left:${x - 80}px;width:${bw + 160}px;text-align:center;font:900 ${n > 3 ? 40 : 54}px Inter;color:${col}`, "");
+    return { it, r, t, l };
+  });
+  const note = v.note ? div(root, "left:0;right:0;top:860px;text-align:center", v.note, "src") : null;
+  return {
+    update(ts, { cues }) {
+      if (head) head.style.opacity = E.ease(ts / 0.4);
+      bars.forEach((b, i) => {
+        const p = E.easeIO((ts - showAt(v, i, cues, Math.min(i, cues.length - 1)) - 0.15) / 1.0);
+        const h = maxH * b.it.value / max * p;
+        b.r.setAttribute("y", base - h); b.r.setAttribute("height", Math.max(0, h));
+        b.t.style.top = (base - h - (n > 3 ? 56 : 72)) + "px"; b.t.style.opacity = p > .05 ? 1 : 0;
+        b.t.textContent = b.it.display ? (p > .98 ? b.it.display : E.fmt(b.it.value * p, b.it.decimals || 0)) : E.fmt(b.it.value * p, b.it.decimals || 0);
+      });
+      if (note) note.style.opacity = E.ease((ts - 1.5) / 0.5);
+    },
+  };
+};
+
+// line: animated line chart. points: [{label, value}], display: end label, unit
+SCENES.line = (root, v) => {
+  const svg = stageSvg(root);
+  const head = header(root, v);
+  const X0 = 300, X1 = 1620, Y0 = 280, Y1 = 760, pts = v.points;
+  const vals = pts.map(p => p.value), lo = v.min !== undefined ? v.min : Math.min(0, ...vals), hi = Math.max(...vals) * 1.1;
+  for (let k = 0; k <= 4; k++) { const y = Y1 - (Y1 - Y0) * k / 4; E.el("line", { x1: X0, x2: X1, y1: y, y2: y, stroke: "#E4E0D8", "stroke-width": 2 }, svg);
+    E.el("text", { x: X0 - 16, y: y + 8, "text-anchor": "end", "font-size": 22, fill: C.muted }, svg).textContent = E.fmt(lo + (hi - lo) * k / 4, v.decimals || 0); }
+  const XY = pts.map((p, i) => [X0 + (X1 - X0) * i / Math.max(1, pts.length - 1), Y1 - (Y1 - Y0) * (p.value - lo) / (hi - lo)]);
+  pts.forEach((p, i) => { if (i % Math.max(1, Math.ceil(pts.length / 8)) === 0 || i === pts.length - 1)
+    E.el("text", { x: XY[i][0], y: Y1 + 40, "text-anchor": "middle", "font-size": 24, fill: C.sub }, svg).textContent = p.label; });
+  const area = E.el("polygon", { fill: C.red, opacity: .08 }, svg);
+  const path = E.el("polyline", { fill: "none", stroke: C.red, "stroke-width": 6, "stroke-linejoin": "round", "stroke-linecap": "round" }, svg);
+  const dot = E.el("circle", { r: 11, fill: C.red, stroke: "#fff", "stroke-width": 4 }, svg);
+  const lab = div(root, "font:900 44px Inter;color:#fff;background:#DE4A28;border-radius:14px;padding:4px 16px;white-space:nowrap", v.display || "");
+  const note = v.note ? div(root, "left:0;right:0;top:850px;text-align:center", v.note, "src") : null;
+  return {
+    update(ts, { cues }) {
+      if (head) head.style.opacity = E.ease(ts / 0.4);
+      const p = E.easeIO((ts - showAt(v, 0, cues, 0) - 0.3) / 2.2), m = p * (XY.length - 1), k = Math.floor(m);
+      const d = XY.slice(0, k + 1);
+      if (k < XY.length - 1) d.push([E.lerp(XY[k][0], XY[k + 1][0], m - k), E.lerp(XY[k][1], XY[k + 1][1], m - k)]);
+      path.setAttribute("points", P(d)); area.setAttribute("points", P([...d, [d[d.length - 1][0], Y1], [X0, Y1]]));
+      const e = d[d.length - 1]; dot.setAttribute("cx", e[0]); dot.setAttribute("cy", e[1]);
+      lab.style.left = Math.min(e[0] - 60, X1 - 260) + "px"; lab.style.top = (e[1] - 90) + "px"; lab.style.opacity = v.display && p > .98 ? 1 : 0;
+      if (note) note.style.opacity = E.ease((ts - 2) / 0.5);
+    },
+  };
+};
+
+// cards: up to 4 cards in a row, each appears on its beat. items: [{title, jp, value, note, color}]
+SCENES.cards = (root, v) => {
+  const head = header(root, v);
+  const n = v.items.length, w = Math.min(420, 1500 / n - 30), x0 = 960 - (n * w + (n - 1) * 30) / 2;
+  const els = v.items.map((it, i) => {
+    const col = C[it.color] || it.color || C.navy;
+    return div(root, `left:${x0 + i * (w + 30)}px;top:300px;width:${w}px;min-height:380px;box-sizing:border-box;background:#fff;border:3px solid ${col};border-radius:26px;padding:34px 28px;text-align:center;transform-origin:50% 60%;box-shadow:0 12px 30px rgba(0,0,0,.06)`,
+      `<div style="font:800 34px Inter;line-height:1.15">${it.title || ""}</div><div class="jpS" style="margin-top:8px;font-size:26px">${it.jp || ""}</div>
+       <div style="font:900 ${String(it.value || "").length > 8 ? 52 : 72}px Inter;color:${col};margin-top:34px">${it.value || ""}</div>
+       <div class="src" style="margin-top:14px">${it.note || ""}</div>`);
+  });
+  return { update(ts, { cues }) {
+    if (head) head.style.opacity = E.ease(ts / 0.4);
+    els.forEach((e, i) => pop(e, (ts - showAt(v, i, cues, Math.min(i, cues.length - 1)) - 0.1) / 0.45));
+  } };
+};
+
+// flow: a chain of steps A -> B -> C (cause and effect), each on its beat. items: [{title, jp, color}]
+SCENES.flow = (root, v) => {
+  const svg = stageSvg(root);
+  const head = header(root, v);
+  const n = v.items.length, w = Math.min(380, 1560 / n - 80), x0 = 960 - (n * w + (n - 1) * 80) / 2, y = 430;
+  const arrows = [], els = v.items.map((it, i) => {
+    const col = C[it.color] || it.color || (i === n - 1 ? C.red : C.navy), x = x0 + i * (w + 80);
+    if (i) arrows.push(E.el("polygon", { points: `${x - 64},${y + 70} ${x - 20},${y + 100} ${x - 64},${y + 130}`, fill: C.muted }, svg));
+    return div(root, `left:${x}px;top:${y}px;width:${w}px;height:200px;box-sizing:border-box;background:#fff;border:3px solid ${col};border-radius:24px;display:flex;flex-direction:column;justify-content:center;text-align:center;padding:10px 18px;transform-origin:50% 50%`,
+      `<div style="font:800 ${w < 300 ? 30 : 36}px Inter;line-height:1.15;color:${col}">${it.title}</div><div class="jpS" style="margin-top:10px;font-size:26px">${it.jp || ""}</div>`);
+  });
+  return { update(ts, { cues }) {
+    if (head) head.style.opacity = E.ease(ts / 0.4);
+    els.forEach((e, i) => { const t = showAt(v, i, cues, Math.min(i, cues.length - 1)); pop(e, (ts - t - 0.1) / 0.45); if (i) arrows[i - 1].setAttribute("opacity", E.ease((ts - t) / 0.3)); });
+  } };
+};
+
+// units: N icons light up one by one ("one X = N homes"). left: {label, sub}; icon: "home" | "person" | "car"
+SCENES.units = (root, v) => {
+  const svg = stageSvg(root);
+  const head = header(root, v);
+  const N = v.n, cols = Math.min(13, Math.ceil(Math.sqrt(N * 2))), x0 = v.left ? 760 : 960 - cols * 41, y0 = 260;
+  const icons = [];
+  for (let i = 0; i < N; i++) {
+    const r = Math.floor(i / cols), c = i % cols, g = E.el("g", { transform: `translate(${x0 + c * 82},${y0 + r * 92})` }, svg);
+    let a, b2;
+    if (v.icon === "person") { a = E.el("circle", { cx: 0, cy: -4, r: 13, fill: "#C8CCD4" }, g); b2 = E.el("rect", { x: -18, y: 12, width: 36, height: 30, rx: 14, fill: "#DADDE3" }, g); }
+    else if (v.icon === "car") { a = E.el("rect", { x: -26, y: 4, width: 52, height: 20, rx: 8, fill: "#C8CCD4" }, g); b2 = E.el("rect", { x: -16, y: -10, width: 32, height: 16, rx: 6, fill: "#DADDE3" }, g); }
+    else { a = E.el("polygon", { points: "-26,0 0,-22 26,0", fill: "#C8CCD4" }, g); b2 = E.el("rect", { x: -20, y: 0, width: 40, height: 30, fill: "#DADDE3" }, g); }
+    icons.push({ g, a, b2 });
+  }
+  const left = v.left ? div(root, "left:200px;top:380px;width:420px;text-align:center", `<div style="font:900 64px Inter;color:#1A365D">${v.left.label}</div><div class="jpS" style="font-size:28px;margin-top:8px">${v.left.sub || ""}</div><div style="font:900 110px Inter;color:#DE4A28;margin-top:16px">=</div>`) : null;
+  const count = div(root, `left:${x0}px;top:${y0 + Math.ceil(N / cols) * 92 + 10}px;font:900 76px Inter;color:#DE4A28`, "");
+  return { update(ts, { cues }) {
+    if (head) head.style.opacity = E.ease(ts / 0.4);
+    if (left) left.style.opacity = E.ease((ts - 0.2) / 0.4);
+    const t0 = showAt(v, 0, cues, Math.min(1, cues.length - 1)), lit = E.clamp((ts - t0 - 0.2) / 2.2) * N;
+    icons.forEach((ic, i) => { ic.g.setAttribute("opacity", E.ease((ts - 0.2 - i * 0.008) / 0.3)); const on = i < lit;
+      ic.a.setAttribute("fill", on ? "#E88A3C" : "#C8CCD4"); ic.b2.setAttribute("fill", on ? "#FFD27A" : "#DADDE3"); });
+    count.textContent = ts > t0 ? `${Math.round(lit)} ${v.unit || ""}` : "";
+  } };
+};
+
+// map: dotted world map with markers and arcs. markers: [{label, lat, lon, color}], arcs: [[i, j]]
+let LAND = null;
+function worldDots(svg, cx, cy, R, markers) { return { update() {} }; }   // (kept for bigstat art="globe")
+SCENES.map = (root, v) => {
+  const svg = stageSvg(root);
+  const head = header(root, v);
+  const X0 = 160, Y0 = 200, Wm = 1600, Hm = 660;
+  const proj = (lat, lon) => [X0 + (lon + 180) / 360 * Wm, Y0 + (85 - lat) / 145 * Hm];
+  const dots = E.el("g", {}, svg);
+  if (window.LAND_PTS) for (const [la, lo] of window.LAND_PTS) { const [x, y] = proj(la, lo); E.el("circle", { cx: x, cy: y, r: 3.4, fill: "#C9CDD6" }, dots); }
+  const ms = (v.markers || []).map((m, i) => {
+    const [x, y] = proj(m.lat, m.lon), col = C[m.color] || m.color || C.red;
+    const ring = E.el("circle", { cx: x, cy: y, r: 10, fill: "none", stroke: col, "stroke-width": 3 }, svg);
+    const dot = E.el("circle", { cx: x, cy: y, r: 10, fill: col }, svg);
+    const lab = div(root, `left:${x + 18}px;top:${y - 58}px;background:#fff;border:2px solid ${col};border-radius:12px;padding:4px 14px;font:800 26px Inter;white-space:nowrap`, `${m.label}${m.jp ? ` <span class="jpS">${m.jp}</span>` : ""}`);
+    return { x, y, ring, dot, lab };
+  });
+  const arcs = (v.arcs || []).map(([a, b]) => {
+    const A = ms[a], B = ms[b], mx = (A.x + B.x) / 2, my = Math.min(A.y, B.y) - Math.abs(A.x - B.x) * 0.25 - 40;
+    const p = E.el("path", { d: `M${A.x},${A.y} Q${mx},${my} ${B.x},${B.y}`, fill: "none", stroke: C.red, "stroke-width": 5, "stroke-linecap": "round" }, svg);
+    return p;
+  });
+  return { update(ts, { cues }) {
+    if (head) head.style.opacity = E.ease(ts / 0.4);
+    dots.setAttribute("opacity", E.ease(ts / 0.6));
+    ms.forEach((m, i) => { const t = showAt(v, i, cues, Math.min(i, cues.length - 1)), p = E.ease((ts - t) / 0.4);
+      m.dot.setAttribute("opacity", p); m.lab.style.opacity = p; const q = (ts * 0.8 + i * 0.3) % 1;
+      m.ring.setAttribute("r", 10 + 30 * q); m.ring.setAttribute("opacity", p * (1 - q)); });
+    arcs.forEach((a, k) => { const L = a.getTotalLength(), t = showAt({ at: v.arc_at }, k, cues, Math.min(k + 1, cues.length - 1));
+      const p = E.easeIO((ts - t) / 1.2); a.setAttribute("stroke-dasharray", `${L * p} ${L}`); });
+  } };
+};
+
+// versus: two sides compared. left/right: {title, jp, value, color}
+SCENES.versus = (root, v) => {
+  const head = header(root, v);
+  const side = (s, x) => div(root, `left:${x}px;top:290px;width:640px;height:420px;box-sizing:border-box;background:#fff;border:3px solid ${C[s.color] || s.color || C.navy};border-radius:28px;text-align:center;padding:50px 30px;transform-origin:50% 50%`,
+    `<div style="font:800 44px Inter">${s.title}</div><div class="jpS" style="font-size:28px;margin-top:8px">${s.jp || ""}</div><div style="font:900 96px Inter;color:${C[s.color] || s.color || C.navy};margin-top:40px">${s.value || ""}</div>`);
+  const L = side(v.left, 220), R = side(v.right, 1060);
+  const vs = div(root, "left:900px;top:450px;width:120px;text-align:center;font:900 56px Inter;color:#8E8E96", "vs");
+  return { update(ts, { cues }) {
+    if (head) head.style.opacity = E.ease(ts / 0.4);
+    pop(L, (ts - showAt(v, 0, cues, 0) - 0.1) / 0.45); pop(R, (ts - showAt(v, 1, cues, Math.min(1, cues.length - 1)) - 0.1) / 0.45);
+    vs.style.opacity = E.ease((ts - 0.6) / 0.4);
+  } };
+};
+
+// quote: a short attributed quote
+SCENES.quote = (root, v) => {
+  const q = div(root, "left:260px;right:260px;top:260px;text-align:center", `<div style="font:900 160px Georgia;color:#DE4A28;line-height:.6">“</div>
+    <div style="font:800 60px Inter;line-height:1.25">${v.text}</div><div class="jpS" style="font-size:32px;margin-top:20px">${v.jp || ""}</div>
+    <div style="font:600 28px Inter;color:#606068;margin-top:34px">— ${v.by || ""}</div>`);
+  return { update(ts) { q.style.opacity = E.ease(ts / 0.5); q.style.transform = `translateY(${(1 - E.ease(ts / 0.6)) * 20}px)`; } };
+};

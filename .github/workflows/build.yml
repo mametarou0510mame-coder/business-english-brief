@@ -8,8 +8,7 @@ on:
   push:
     branches: [main]
     paths: ["episodes/**/episode.json"]
-  schedule:
-    - cron: "10 8 * * *"   # 17:10 JST, after the YouTube API daily quota resets: retry anything not yet uploaded
+  # schedule removed 2026-11-24: the old format is retired; studio-publish.yml posts the new format
   workflow_dispatch:
     inputs:
       dry:
