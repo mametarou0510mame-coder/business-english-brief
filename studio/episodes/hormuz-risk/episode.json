@@ -1,0 +1,804 @@
+{
+ "title": "The Hormuz Risk",
+ "tts": "kokoro",
+ "voice": "af_heart",
+ "speed": 0.9,
+ "scenes": [
+  {
+   "id": "hook",
+   "chapter": "OIL ROUTE",
+   "vis": {
+    "type": "bigstat",
+    "kicker": "Oil through the Strait of Hormuz, 2025",
+    "value": 20,
+    "suffix": "M b/d",
+    "tag": "≈ 1/4 of oil traded by sea",
+    "sub": "ホルムズ海峡を通る石油(2025年、1日あたり)",
+    "src": "Source: IEA (2026)",
+    "art": "tanker",
+    "num_at": 1,
+    "tag_at": 2
+   },
+   "beats": [
+    {
+     "en": "One narrow sea lane carries a huge share of the world's oil.",
+     "jp": "細い海の道ひとつが、世界の石油の大きな部分を運んでいます。",
+     "hl": [
+      "narrow sea lane",
+      "細い海の道"
+     ]
+    },
+    {
+     "en": "In 2025, about 20 million barrels a day passed through the Strait of Hormuz.",
+     "jp": "2025年、1日に約2000万バレルがホルムズ海峡を通りました。",
+     "hl": [
+      "20 million barrels",
+      "2000万バレル"
+     ]
+    },
+    {
+     "en": "That's about a quarter of all the oil traded by sea.",
+     "jp": "海上で取引される石油の、約4分の1です。",
+     "hl": [
+      "a quarter",
+      "4分の1"
+     ]
+    },
+    {
+     "en": "Today: why this strait matters so much, especially for Japan.",
+     "jp": "今日は、この海峡がなぜ重要なのか、特に日本にとっての意味を見ます。",
+     "hl": [
+      "especially for Japan",
+      "特に日本"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "route",
+   "chapter": "WHERE IT GOES",
+   "vis": {
+    "type": "map",
+    "title": "Hormuz oil: about 80% goes to Asia",
+    "title_jp": "ホルムズ経由の石油、約8割がアジアへ(2025年)",
+    "markers": [
+     {
+      "label": "Hormuz",
+      "jp": "",
+      "lat": 26.6,
+      "lon": 56.3,
+      "color": "red"
+     },
+     {
+      "label": "India",
+      "jp": "インド",
+      "lat": 13.1,
+      "lon": 80.3,
+      "color": "navy"
+     },
+     {
+      "label": "China",
+      "jp": "中国",
+      "lat": 23.1,
+      "lon": 113.3,
+      "color": "navy"
+     },
+     {
+      "label": "Japan",
+      "jp": "日本",
+      "lat": 35.7,
+      "lon": 139.7,
+      "color": "navy"
+     }
+    ],
+    "arcs": [
+     [
+      0,
+      1
+     ],
+     [
+      0,
+      2
+     ],
+     [
+      0,
+      3
+     ]
+    ],
+    "at": [
+     0,
+     2,
+     2,
+     3
+    ],
+    "arc_at": [
+     2,
+     2,
+     3
+    ]
+   },
+   "beats": [
+    {
+     "en": "The strait lies between Iran and Oman.",
+     "jp": "海峡は、イランとオマーンのあいだにあります。",
+     "hl": [
+      "between Iran and Oman",
+      "イランとオマーンのあいだ"
+     ]
+    },
+    {
+     "en": "Most oil from Saudi Arabia, Iraq, the UAE and Kuwait leaves through it.",
+     "jp": "サウジ、イラク、UAE、クウェートの石油の多くがここを通って出ていきます。",
+     "hl": [
+      "leaves through it",
+      "ここを通って"
+     ]
+    },
+    {
+     "en": "About 80 percent of that oil goes to Asia.",
+     "jp": "その石油の約8割は、アジアに向かいます。",
+     "hl": [
+      "80 percent",
+      "約8割"
+     ]
+    },
+    {
+     "en": "The IEA says Japan and South Korea are particularly reliant on it.",
+     "jp": "IEAは、日本と韓国は特にこの海峡に頼っていると指摘しています。",
+     "hl": [
+      "particularly reliant",
+      "特に頼っている"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bypass",
+   "chapter": "IS THERE ANOTHER WAY?",
+   "vis": {
+    "type": "versus",
+    "title": "Oil per day: the strait vs pipelines around it",
+    "title_jp": "1日あたりの石油:海峡 vs 迂回パイプライン",
+    "left": {
+     "title": "Through the strait",
+     "jp": "海峡を通る量(2025年)",
+     "value": "20M",
+     "color": "navy"
+    },
+    "right": {
+     "title": "Pipelines around it",
+     "jp": "迂回できる余力(IEA)",
+     "value": "3.5–5.5M",
+     "color": "red"
+    },
+    "at": [
+     1,
+     2
+    ]
+   },
+   "beats": [
+    {
+     "en": "Can oil avoid the strait? Only partly.",
+     "jp": "海峡を避けて運べるのでしょうか。一部だけです。",
+     "hl": [
+      "Only partly",
+      "一部だけ"
+     ]
+    },
+    {
+     "en": "Normally, about 20 million barrels a day go through it.",
+     "jp": "ふだんは、1日約2000万バレルが海峡を通ります。",
+     "hl": [
+      "20 million",
+      "2000万"
+     ]
+    },
+    {
+     "en": "Spare pipeline capacity in Saudi Arabia and the UAE is only 3.5 to 5.5 million.",
+     "jp": "サウジとUAEのパイプラインの余力は、350万〜550万バレルだけです。",
+     "hl": [
+      "3.5 to 5.5 million",
+      "350万〜550万バレル"
+     ]
+    },
+    {
+     "en": "So there is no full backup route.",
+     "jp": "つまり、完全な代わりの道はありません。",
+     "hl": [
+      "no full backup",
+      "完全な代わりの道はありません"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "shock",
+   "chapter": "THE 2026 SHOCK",
+   "vis": {
+    "type": "bigstat",
+    "kicker": "North Sea Dated crude, 7 April 2026",
+    "value": 144.68,
+    "decimals": 2,
+    "prefix": "$",
+    "suffix": "",
+    "tag": "All-time high",
+    "sub": "原油価格 1バレル(2026年4月7日)",
+    "src": "Source: IEA Oil Market Report (May 2026)",
+    "art": "tanker",
+    "num_at": 1,
+    "tag_at": 2
+   },
+   "beats": [
+    {
+     "en": "In 2026, conflict in the region cut traffic through the strait.",
+     "jp": "2026年、地域の紛争で、海峡を通る船が大きく減りました。",
+     "hl": [
+      "cut traffic",
+      "大きく減りました"
+     ]
+    },
+    {
+     "en": "On April 7, a key crude price hit 144.68 dollars a barrel.",
+     "jp": "4月7日、代表的な原油価格は1バレル144.68ドルに達しました。",
+     "hl": [
+      "144.68 dollars",
+      "144.68ドル"
+     ]
+    },
+    {
+     "en": "That broke the old record from 2008.",
+     "jp": "2008年の記録を超える、過去最高です。",
+     "hl": [
+      "broke the old record",
+      "過去最高"
+     ]
+    },
+    {
+     "en": "The IEA says crude imports into Japan and China each fell about 40 percent.",
+     "jp": "IEAによると、日本と中国の原油輸入はそれぞれ約4割減りました。",
+     "hl": [
+      "40 percent",
+      "約4割"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "buffer",
+   "chapter": "JAPAN'S BUFFER",
+   "vis": {
+    "type": "bars",
+    "title": "Japan's oil reserves, end of 2025 (days)",
+    "title_jp": "日本の石油備蓄(2025年末、日数)",
+    "items": [
+     {
+      "label": "Government",
+      "value": 146,
+      "display": "146",
+      "color": "navy"
+     },
+     {
+      "label": "Companies",
+      "value": 101,
+      "display": "101",
+      "color": "navy"
+     },
+     {
+      "label": "With producers",
+      "value": 7,
+      "display": "7",
+      "color": "muted"
+     }
+    ],
+    "at": [
+     1,
+     1,
+     1
+    ]
+   },
+   "beats": [
+    {
+     "en": "Japan had a buffer: oil reserves.",
+     "jp": "日本には、備えがありました。石油の備蓄です。",
+     "hl": [
+      "buffer",
+      "備え"
+     ]
+    },
+    {
+     "en": "At the end of 2025, it held 254 days of oil in stock.",
+     "jp": "2025年末、備蓄は254日分ありました。",
+     "hl": [
+      "254 days",
+      "254日分"
+     ]
+    },
+    {
+     "en": "Most of it was held by the government and by private companies.",
+     "jp": "その大半は、国と民間企業が持っています。",
+     "hl": [
+      "the government",
+      "国"
+     ]
+    },
+    {
+     "en": "In March 2026, Japan released 45 days' worth, its biggest release ever.",
+     "jp": "2026年3月、日本は過去最大の45日分を放出しました。",
+     "hl": [
+      "45 days' worth",
+      "45日分"
+     ]
+    },
+    {
+     "en": "IEA members also agreed to make 400 million barrels available.",
+     "jp": "IEA加盟国も、4億バレルを放出することで合意しました。",
+     "hl": [
+      "400 million barrels",
+      "4億バレル"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "japan",
+   "chapter": "WHAT IT MEANS FOR JAPAN",
+   "vis": {
+    "type": "cards",
+    "title": "Japan's exposure",
+    "title_jp": "日本のエネルギーの弱点と動き",
+    "items": [
+     {
+      "title": "Crude from the Middle East",
+      "jp": "原油の中東依存度",
+      "value": ">95%",
+      "note": "ANRE (資源エネルギー庁)",
+      "color": "red"
+     },
+     {
+      "title": "World LNG via Hormuz",
+      "jp": "世界のLNG取引のうち",
+      "value": "~19%",
+      "note": "IEA, 2025",
+      "color": "navy"
+     },
+     {
+      "title": "US crude to Japan",
+      "jp": "米国産原油の輸入",
+      "value": "0.6M b/d",
+      "note": "April 2026, IEA",
+      "color": "green"
+     }
+    ],
+    "at": [
+     1,
+     3,
+     4
+    ]
+   },
+   "beats": [
+    {
+     "en": "For Japan, the big risk is concentration.",
+     "jp": "日本にとって大きなリスクは、「集中」です。",
+     "hl": [
+      "concentration",
+      "集中"
+     ]
+    },
+    {
+     "en": "Over 95 percent of Japan's crude oil comes from the Middle East.",
+     "jp": "日本の原油の95%超は、中東から来ています。",
+     "hl": [
+      "Over 95 percent",
+      "95%超"
+     ]
+    },
+    {
+     "en": "The UAE and Saudi Arabia each supply about 40 percent.",
+     "jp": "UAEとサウジアラビアが、それぞれ約4割です。",
+     "hl": [
+      "about 40 percent",
+      "約4割"
+     ]
+    },
+    {
+     "en": "Gas matters too: about 19 percent of world LNG trade passes the strait.",
+     "jp": "ガスも同じです。世界のLNG取引の約19%がこの海峡を通ります。",
+     "hl": [
+      "19 percent",
+      "約19%"
+     ]
+    },
+    {
+     "en": "In April, Japan bought about 600,000 barrels a day of US crude.",
+     "jp": "4月、日本は米国産原油を1日約60万バレル輸入しました。",
+     "hl": [
+      "US crude",
+      "米国産原油"
+     ]
+    },
+    {
+     "en": "The lesson for business: don't depend on one route.",
+     "jp": "ビジネスへの教訓は、ひとつのルートに頼らないことです。",
+     "hl": [
+      "one route",
+      "ひとつのルート"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "other",
+   "chapter": "THE OTHER SIDE",
+   "vis": {
+    "type": "flow",
+    "title": "Why prices fell from the peak",
+    "title_jp": "なぜ価格はピークから下がったか",
+    "items": [
+     {
+      "title": "High prices",
+      "jp": "高い価格",
+      "color": "navy"
+     },
+     {
+      "title": "Less demand",
+      "jp": "需要が減る",
+      "color": "green"
+     },
+     {
+      "title": "More oil from the Americas",
+      "jp": "米州の増産",
+      "color": "green"
+     },
+     {
+      "title": "Brent ≈ $93",
+      "jp": "11月19日",
+      "color": "red"
+     }
+    ],
+    "at": [
+     1,
+     1,
+     2,
+     3
+    ]
+   },
+   "beats": [
+    {
+     "en": "Not everything points to higher prices.",
+     "jp": "すべてが値上がりを示しているわけではありません。",
+     "hl": [
+      "Not everything",
+      "すべてが〜わけではない"
+     ]
+    },
+    {
+     "en": "High prices made buyers use less oil, especially in China, says Rystad Energy.",
+     "jp": "ライスタッド・エナジーによると、高値で特に中国の消費が減りました。",
+     "hl": [
+      "use less oil",
+      "消費が減りました"
+     ]
+    },
+    {
+     "en": "Producers in the US, Canada and Guyana are also pumping more.",
+     "jp": "米国、カナダ、ガイアナも増産しています。",
+     "hl": [
+      "pumping more",
+      "増産"
+     ]
+    },
+    {
+     "en": "On November 19, Brent futures were about 93 dollars a barrel.",
+     "jp": "11月19日、ブレント原油の先物は1バレル約93ドルでした。",
+     "hl": [
+      "93 dollars",
+      "約93ドル"
+     ]
+    },
+    {
+     "en": "And the IEA says faster electrification could cut oil demand over time.",
+     "jp": "IEAは、電化が速く進めば石油の需要は減りうると見ています。",
+     "hl": [
+      "faster electrification",
+      "電化が速く進めば"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "phrases",
+   "chapter": "TODAY'S ENGLISH",
+   "vis": {
+    "type": "phrases",
+    "items": [
+     {
+      "en": "exposure",
+      "jp": "(リスクに)さらされている度合い",
+      "ex": "We need to reduce our exposure to one supplier.",
+      "ex_jp": "一社への依存リスクを減らす必要があります。"
+     },
+     {
+      "en": "buffer",
+      "jp": "(在庫などの)余裕・備え",
+      "ex": "Let's keep a two-week buffer of parts.",
+      "ex_jp": "部品は2週間分の余裕を持っておきましょう。"
+     },
+     {
+      "en": "contingency plan",
+      "jp": "緊急時の代替計画",
+      "ex": "Do we have a contingency plan if shipping stops?",
+      "ex_jp": "輸送が止まった場合の代替計画はありますか?"
+     }
+    ]
+   },
+   "beats": [
+    {
+     "en": "Three phrases for your next meeting.",
+     "jp": "次の会議で使える英語を3つ。",
+     "hl": [
+      "Three phrases",
+      "英語を3つ"
+     ],
+     "step": "intro",
+     "ph": -1
+    },
+    {
+     "en": "exposure.",
+     "jp": "この英語の意味は?",
+     "hl": [
+      "exposure",
+      ""
+     ],
+     "step": "say",
+     "ph": 0
+    },
+    {
+     "en": "",
+     "jp": "考えてみよう",
+     "hl": [],
+     "step": "think",
+     "ph": 0,
+     "hold": 2.5
+    },
+    {
+     "en": "We need to reduce our exposure to one supplier.",
+     "jp": "一社への依存リスクを減らす必要があります。",
+     "hl": [
+      "exposure",
+      ""
+     ],
+     "step": "ex",
+     "ph": 0
+    },
+    {
+     "en": "We need to reduce our exposure to one supplier.",
+     "jp": "もう一度。声に出して言ってみよう",
+     "hl": [
+      "exposure",
+      ""
+     ],
+     "step": "ex",
+     "ph": 0,
+     "repeat": true
+    },
+    {
+     "en": "",
+     "jp": "(あなたの番)",
+     "hl": [],
+     "step": "ex",
+     "ph": 0,
+     "hold": 3.0
+    },
+    {
+     "en": "buffer.",
+     "jp": "この英語の意味は?",
+     "hl": [
+      "buffer",
+      ""
+     ],
+     "step": "say",
+     "ph": 1
+    },
+    {
+     "en": "",
+     "jp": "考えてみよう",
+     "hl": [],
+     "step": "think",
+     "ph": 1,
+     "hold": 2.5
+    },
+    {
+     "en": "Let's keep a two-week buffer of parts.",
+     "jp": "部品は2週間分の余裕を持っておきましょう。",
+     "hl": [
+      "buffer",
+      ""
+     ],
+     "step": "ex",
+     "ph": 1
+    },
+    {
+     "en": "Let's keep a two-week buffer of parts.",
+     "jp": "もう一度。声に出して言ってみよう",
+     "hl": [
+      "buffer",
+      ""
+     ],
+     "step": "ex",
+     "ph": 1,
+     "repeat": true
+    },
+    {
+     "en": "",
+     "jp": "(あなたの番)",
+     "hl": [],
+     "step": "ex",
+     "ph": 1,
+     "hold": 3.0
+    },
+    {
+     "en": "contingency plan.",
+     "jp": "この英語の意味は?",
+     "hl": [
+      "contingency plan",
+      ""
+     ],
+     "step": "say",
+     "ph": 2
+    },
+    {
+     "en": "",
+     "jp": "考えてみよう",
+     "hl": [],
+     "step": "think",
+     "ph": 2,
+     "hold": 2.5
+    },
+    {
+     "en": "Do we have a contingency plan if shipping stops?",
+     "jp": "輸送が止まった場合の代替計画はありますか?",
+     "hl": [
+      "contingency plan",
+      ""
+     ],
+     "step": "ex",
+     "ph": 2
+    },
+    {
+     "en": "Do we have a contingency plan if shipping stops?",
+     "jp": "もう一度。声に出して言ってみよう",
+     "hl": [
+      "contingency plan",
+      ""
+     ],
+     "step": "ex",
+     "ph": 2,
+     "repeat": true
+    },
+    {
+     "en": "",
+     "jp": "(あなたの番)",
+     "hl": [],
+     "step": "ex",
+     "ph": 2,
+     "hold": 3.0
+    }
+   ]
+  },
+  {
+   "id": "outro",
+   "chapter": "",
+   "vis": {
+    "type": "outro",
+    "items": [
+     "exposure",
+     "buffer",
+     "contingency plan"
+    ]
+   },
+   "beats": [
+    {
+     "en": "Which one will you use this week? Tell us in the comments.",
+     "jp": "今週使うのはどれですか? コメントで教えてください。",
+     "hl": [
+      "this week",
+      "今週"
+     ]
+    }
+   ]
+  }
+ ],
+ "publish": {
+  "title": "The Hormuz Risk|石油の通り道と日本の急所【英語で学ぶ世界経済】",
+  "summary": "2025年、ホルムズ海峡を1日約2000万バレルの石油が通りました(海上で取引される石油の約4分の1、IEA)。2026年の通航の減少、過去最高の原油価格、迂回パイプラインの限界、日本の備蓄と中東依存度95%超、価格がピークから下がった理由を、英語のナレーションと英日字幕で解説します(特定の銘柄の売買を勧めるものではありません)。",
+  "sources": [
+   [
+    "IEA: Strait of Hormuz 2026 Factsheet (February 2026)",
+    "https://iea.blob.core.windows.net/assets/c8248eba-8689-46d9-ae4b-b858b59c0f1c/StraitofHormuz2026-Factsheet.pdf"
+   ],
+   [
+    "IEA: Oil Market Report, 13 May 2026",
+    "https://iea.blob.core.windows.net/assets/2b89a47b-34a2-40e0-90ff-68f7ccd80715/-13MAY2026__OilMarketReport_publicversion.pdf"
+   ],
+   [
+    "IEA: Oil Market Report - June 2026",
+    "https://www.iea.org/reports/oil-market-report-june-2026"
+   ],
+   [
+    "nippon.com:石油の中東依存度95%超 ―資源エネルギー庁",
+    "https://www.nippon.com/ja/japan-data/h02718/"
+   ],
+   [
+    "nippon.com:国内備蓄石油の2割を放出へ―16日から",
+    "https://www.nippon.com/ja/japan-data/h02732/"
+   ],
+   [
+    "Reuters via GV Wire (2026-11-19): Oil prices inch up as tanker disruptions offset surplus supply outlook",
+    "https://gvwire.com/2026/11/19/oil-prices-inch-up-as-tanker-disruptions-offset-surplus-supply-outlook/"
+   ],
+   [
+    "Reuters via Khaleej Times (2026-09-08): Why isn't oil above $100 despite supply disruptions?",
+    "https://www.khaleejtimes.com/business/why-isnt-oil-above-100-despite-supply-disruptions"
+   ]
+  ],
+  "tags": [
+   "ホルムズ海峡",
+   "原油",
+   "石油",
+   "エネルギー",
+   "IEA",
+   "ビジネス英語",
+   "英語学習",
+   "英語リスニング",
+   "世界経済",
+   "英日字幕"
+  ],
+  "thumb": "studio/thumb/hormuz-risk.jpg",
+  "short": {
+   "file": "short.mp4",
+   "title": "日本の原油、中東から何%?「exposure」の意味は? #ビジネス英語 #shorts",
+   "ig_caption": "日本が輸入する原油のうち、中東から来るのは何%だと思いますか?\n\n✅ exposure\n(リスクに)さらされている度合い\n\n例文:We need to reduce our exposure to one supplier.\n(一社への依存リスクを減らす必要があります。)\n\n資源エネルギー庁によると、日本の原油の95%超は中東から。その多くがホルムズ海峡を通ります。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英語リスニング #原油 #エネルギー #世界経済 #英日字幕"
+  },
+  "carousel_caption": "石油の通り道、ホルムズ海峡。2025年は1日約2000万バレルが通りました。日本の原油の95%超は中東から。\n\nこのニュースから、会議で使える英語を3つ。\n\n1️⃣ exposure\n(リスクに)さらされている度合い\n\n2️⃣ buffer\n(在庫などの)余裕・備え\n\n3️⃣ contingency plan\n緊急時の代替計画\n\n📌 保存して、次の会議の前に見返そう\n▼ 英語ナレーションの解説動画はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英語リスニング #原油 #エネルギー #世界経済 #英語フレーズ",
+  "phrases": [
+   [
+    "exposure",
+    "(リスクに)さらされている度合い"
+   ],
+   [
+    "buffer",
+    "(在庫などの)余裕・備え"
+   ],
+   [
+    "contingency plan",
+    "緊急時の代替計画"
+   ]
+  ]
+ },
+ "carousel": {
+  "cover": "<span style='color:#DE4A28'>石油</span>の<br>通り道",
+  "num": "95%超",
+  "numSub": "日本の原油の中東依存度(資源エネルギー庁)",
+  "src": "Source: IEA (2026), 資源エネルギー庁",
+  "phrases": [
+   {
+    "en": "exposure",
+    "jp": "(リスクに)さらされている度合い",
+    "ex": "We need to reduce our exposure to one supplier.",
+    "ex_jp": "一社への依存リスクを減らす必要があります。"
+   },
+   {
+    "en": "buffer",
+    "jp": "(在庫などの)余裕・備え",
+    "ex": "Let's keep a two-week buffer of parts.",
+    "ex_jp": "部品は2週間分の余裕を持っておきましょう。"
+   },
+   {
+    "en": "contingency plan",
+    "jp": "緊急時の代替計画",
+    "ex": "Do we have a contingency plan if shipping stops?",
+    "ex_jp": "輸送が止まった場合の代替計画はありますか?"
+   }
+  ]
+ }
+}

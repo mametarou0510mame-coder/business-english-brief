@@ -1,0 +1,33 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+body{margin:0} #t{position:relative;width:1280px;height:720px;overflow:hidden;background:#F7F5F0;font-family:Inter,"Noto Sans CJK JP",sans-serif;
+background-image:linear-gradient(#ECE8E0 1px,transparent 1px),linear-gradient(90deg,#ECE8E0 1px,transparent 1px);background-size:48px 48px}
+.a{position:absolute}
+.l1{left:56px;top:70px;font:900 118px "Noto Sans CJK JP";color:#1C1C1E;line-height:1.05;letter-spacing:-.02em}
+.l1 b{color:#DE4A28}
+.num{left:60px;top:345px;font:900 104px Inter;color:#DE4A28;letter-spacing:-.03em}
+.sub{left:64px;top:470px;font:700 34px "Noto Sans CJK JP";color:#606068}
+.pill{left:60px;top:560px;background:#1A365D;color:#fff;font:800 46px Inter;border-radius:44px;padding:10px 34px}
+.logo{left:40px;top:24px;display:flex;gap:10px;align-items:center;font:700 22px Inter;color:#1C1C1E}
+.logo i{width:34px;height:34px;border-radius:8px;background:#DE4A28;color:#fff;display:grid;place-items:center;font:900 22px Inter;font-style:normal}
+.tag{right:36px;top:26px;background:#DE4A28;color:#fff;font:900 30px "Noto Sans CJK JP";border-radius:12px;padding:6px 18px;transform:rotate(3deg)}
+</style></head><body><div id="t">
+<svg class="a" style="left:0;top:0" width="1280" height="720" id="s"></svg>
+<div class="a logo"><i>B</i>Business English Brief</div>
+<div class="a l1">金利が<br><b>また上がる</b></div>
+<div class="a num">1.25%</div>
+<div class="a sub">日銀の政策金利(1995年以来の高さ)</div>
+<div class="a pill">tighten</div>
+<div class="a tag">英語で学ぶ世界経済</div>
+</div>
+<script>
+const s=document.getElementById('s'),ns='http://www.w3.org/2000/svg';
+function el(t,a){const n=document.createElementNS(ns,t);for(const k in a)n.setAttribute(k,a[k]);s.appendChild(n);return n}
+const ox=960,oy=440;
+el('ellipse',{cx:ox,cy:oy+200,rx:260,ry:50,fill:'#000',opacity:.07});
+el('polygon',{points:`${ox-210},${oy-90} ${ox},${oy-200} ${ox+210},${oy-90}`,fill:'#1A365D'});
+el('rect',{x:ox-200,y:oy-90,width:400,height:24,fill:'#2C4F80'});
+for(let k=0;k<5;k++)el('rect',{x:ox-180+k*78,y:oy-60,width:38,height:200,fill:'#F2F0EA',stroke:'#1A365D','stroke-width':4});
+el('rect',{x:ox-225,y:oy+140,width:450,height:28,fill:'#1A365D'});
+el('rect',{x:ox+215,y:oy-160,width:34,height:170,fill:'#DE4A28'});
+el('polygon',{points:`${ox+180},${oy-150} ${ox+232},${oy-240} ${ox+284},${oy-150}`,fill:'#DE4A28'});
+</script></body></html>

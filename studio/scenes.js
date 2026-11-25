@@ -486,6 +486,8 @@ SCENES.bigstat = (root, v) => {
   let extra = null;                                   // added art: "copper" (cathode stack + coil), "plane" (jet on a route)
   if (v.art === "copper") extra = copperArt(svg, 1380, 560);
   if (v.art === "plane") extra = planeArt(svg, 1400, 470);
+  if (v.art === "tanker") extra = tankerArt(svg, 1400, 520);
+  if (v.art === "bank") extra = bankArt(svg, 1400, 520);
   const kick = div(root, "left:190px;top:170px;font:800 30px Inter;letter-spacing:.12em;color:#8E8E96", (v.kicker || "").toUpperCase());
   const num = div(root, "left:185px;top:215px", "", "num");
   const tag = div(root, "left:190px;top:390px;transform-origin:0 50%", v.tag || "", "tag");
@@ -725,5 +727,45 @@ function planeArt(svg, ox, oy) {
     jet.setAttribute("transform", `translate(${a.x},${a.y}) rotate(${Math.atan2(a.y - b.y, a.x - b.x) * 180 / Math.PI})`);
     jet.setAttribute("opacity", E.ease(ts / 0.4)); route.setAttribute("opacity", .5 * E.ease(ts / 0.4));
     pin.setAttribute("opacity", E.ease((ts - 2.4) / 0.4));
+  } };
+}
+
+// ---------------------------------------------------------------- bigstat art (added 2026-11-25): tanker / bank
+function tankerArt(svg, ox, oy) {
+  const g = E.el("g", {}, svg);
+  const sea = E.el("g", {}, g);
+  for (let i = 0; i < 4; i++) E.el("path", { d: `M${ox - 360},${oy + 90 + i * 34} q 45,-16 90,0 t 90,0 t 90,0 t 90,0 t 90,0 t 90,0 t 90,0 t 90,0`, fill: "none", stroke: "#1A365D", "stroke-width": 4, opacity: .18 + i * .06 }, sea);
+  const ship = E.el("g", {}, g);
+  E.el("polygon", { points: "-300,0 260,0 310,-40 -320,-40", fill: "#1A365D" }, ship);           // hull (side)
+  E.el("polygon", { points: "-300,0 260,0 250,22 -285,22", fill: "#DE4A28" }, ship);             // red waterline
+  E.el("rect", { x: -300, y: -52, width: 590, height: 12, fill: "#2C4F80" }, ship);                // deck
+  for (let k = 0; k < 4; k++) E.el("ellipse", { cx: -170 + k * 110, cy: -60, rx: 40, ry: 12, fill: "#C8CCD4" }, ship);   // tank domes
+  E.el("rect", { x: 200, y: -150, width: 80, height: 98, rx: 6, fill: "#F2F0EA", stroke: "#1A365D", "stroke-width": 4 }, ship); // bridge
+  for (let k = 0; k < 3; k++) E.el("rect", { x: 212 + k * 22, y: -134, width: 14, height: 16, fill: "#1A365D" }, ship);
+  E.el("rect", { x: 236, y: -196, width: 22, height: 46, fill: "#DE4A28" }, ship);                 // funnel
+  const drops = [0, 1, 2].map(k => { const d = E.el("path", { d: "M0,-34 C 18,-6 22,8 0,22 C -22,8 -18,-6 0,-34 Z", fill: "#1C1C1E" }, g); return d; });
+  return { update(ts) {
+    sea.setAttribute("opacity", E.ease(ts / 0.5));
+    const p = E.easeIO((ts - 0.2) / 1.6), bob = Math.sin(ts * 2.2) * 4;
+    ship.setAttribute("transform", `translate(${ox + (1 - p) * 300},${oy + 80 + bob})`); ship.setAttribute("opacity", E.ease(ts / 0.4));
+    drops.forEach((d, k) => { const q = E.back((ts - 1.6 - k * 0.2) / 0.45); d.setAttribute("opacity", E.clamp(q * 2));
+      d.setAttribute("transform", `translate(${ox - 140 + k * 110},${oy - 150 - (1 - E.clamp(q)) * 40}) scale(${0.6 + 0.4 * E.clamp(q)})`); });
+  } };
+}
+function bankArt(svg, ox, oy) {
+  const g = E.el("g", {}, svg);
+  E.el("ellipse", { cx: ox, cy: oy + 190, rx: 330, ry: 60, fill: "#000", opacity: .07 }, g);
+  const bld = E.el("g", {}, g);
+  E.el("polygon", { points: `${ox - 260},${oy - 120} ${ox},${oy - 250} ${ox + 260},${oy - 120}`, fill: "#1A365D" }, bld);
+  E.el("rect", { x: ox - 250, y: oy - 120, width: 500, height: 26, fill: "#2C4F80" }, bld);
+  for (let k = 0; k < 5; k++) E.el("rect", { x: ox - 220 + k * 98, y: oy - 90, width: 46, height: 230, fill: "#F2F0EA", stroke: "#1A365D", "stroke-width": 4 }, bld);
+  E.el("rect", { x: ox - 280, y: oy + 140, width: 560, height: 30, fill: "#1A365D" }, bld);
+  const arrow = E.el("g", {}, g);
+  E.el("rect", { x: -18, y: -40, width: 36, height: 150, fill: "#DE4A28" }, arrow);
+  E.el("polygon", { points: "-56,-30 0,-110 56,-30", fill: "#DE4A28" }, arrow);
+  return { update(ts) {
+    const p = E.back((ts - 0.2) / 0.6); bld.setAttribute("opacity", E.clamp(p * 2)); bld.setAttribute("transform", `translate(0,${(1 - E.clamp(p)) * 40})`);
+    const q = E.easeIO((ts - 1.0) / 0.9); arrow.setAttribute("opacity", E.clamp(q * 3));
+    arrow.setAttribute("transform", `translate(${ox + 300},${oy - 20 - q * 120})`);
   } };
 }

@@ -1,0 +1,35 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+body{margin:0} #t{position:relative;width:1280px;height:720px;overflow:hidden;background:#F7F5F0;font-family:Inter,"Noto Sans CJK JP",sans-serif;
+background-image:linear-gradient(#ECE8E0 1px,transparent 1px),linear-gradient(90deg,#ECE8E0 1px,transparent 1px);background-size:48px 48px}
+.a{position:absolute}
+.l1{left:56px;top:70px;font:900 118px "Noto Sans CJK JP";color:#1C1C1E;line-height:1.05;letter-spacing:-.02em}
+.l1 b{color:#DE4A28}
+.num{left:60px;top:345px;font:900 104px Inter;color:#DE4A28;letter-spacing:-.03em}
+.sub{left:64px;top:470px;font:700 34px "Noto Sans CJK JP";color:#606068}
+.pill{left:60px;top:560px;background:#1A365D;color:#fff;font:800 46px Inter;border-radius:44px;padding:10px 34px}
+.logo{left:40px;top:24px;display:flex;gap:10px;align-items:center;font:700 22px Inter;color:#1C1C1E}
+.logo i{width:34px;height:34px;border-radius:8px;background:#DE4A28;color:#fff;display:grid;place-items:center;font:900 22px Inter;font-style:normal}
+.tag{right:36px;top:26px;background:#DE4A28;color:#fff;font:900 30px "Noto Sans CJK JP";border-radius:12px;padding:6px 18px;transform:rotate(3deg)}
+</style></head><body><div id="t">
+<svg class="a" style="left:0;top:0" width="1280" height="720" id="s"></svg>
+<div class="a logo"><i>B</i>Business English Brief</div>
+<div class="a l1">石油の<br><b>急所</b></div>
+<div class="a num">95%超</div>
+<div class="a sub" style="top:488px">日本の原油の中東依存度(ホルムズ海峡)</div>
+<div class="a pill" style="top:575px">exposure</div>
+<div class="a tag">英語で学ぶ世界経済</div>
+</div>
+<script>
+const s=document.getElementById('s'),ns='http://www.w3.org/2000/svg';
+function el(t,a){const n=document.createElementNS(ns,t);for(const k in a)n.setAttribute(k,a[k]);s.appendChild(n);return n}
+for(let i=0;i<4;i++)el('path',{d:`M720,${520+i*34} q 45,-16 90,0 t 90,0 t 90,0 t 90,0 t 90,0 t 90,0`,fill:'none',stroke:'#1A365D','stroke-width':5,opacity:.2+i*.07});
+const ox=1000,oy=500;
+el('polygon',{points:`${ox-260},${oy} ${ox+220},${oy} ${ox+262},${oy-40} ${ox-275},${oy-40}`,fill:'#1A365D'});
+el('polygon',{points:`${ox-260},${oy} ${ox+220},${oy} ${ox+210},${oy+22} ${ox-245},${oy+22}`,fill:'#DE4A28'});
+el('rect',{x:ox-260,y:oy-52,width:510,height:12,fill:'#2C4F80'});
+for(let k=0;k<4;k++)el('ellipse',{cx:ox-150+k*95,cy:oy-60,rx:36,ry:11,fill:'#C8CCD4'});
+el('rect',{x:ox+165,y:oy-150,width:76,height:98,rx:6,fill:'#F2F0EA',stroke:'#1A365D','stroke-width':4});
+for(let k=0;k<3;k++)el('rect',{x:ox+176+k*21,y:oy-134,width:13,height:16,fill:'#1A365D'});
+el('rect',{x:ox+198,y:oy-196,width:22,height:46,fill:'#DE4A28'});
+for(let k=0;k<3;k++)el('path',{d:`M${ox-120+k*100},${oy-240} c 22,32 26,48 0,64 c -26,-16 -22,-32 0,-64 z`,fill:'#1C1C1E'});
+</script></body></html>
