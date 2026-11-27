@@ -1,0 +1,21 @@
+{
+ "title": "Rice swing (short)",
+ "tts": "kokoro",
+ "voice": "af_heart",
+ "speed": 0.92,
+ "portrait": {"head": "<div class='q'>お米5kg<br><b>いくら</b>まで下がった?</div><div class='e'>pass on</div>"},
+ "scenes": [
+  {"id": "swing", "chapter": "", "vis": {"type": "bars", "title": "Rice, 5 kg bag", "title_jp": "スーパーの米5kg平均", "items": [
+    {"label": "Peak, Jan", "value": 4416, "display": "¥4,416", "color": "red"},
+    {"label": "Late Sept", "value": 2926, "display": "¥2,926", "color": "navy"}], "at": [1, 2], "note": "Source: MAFF (2026)"},
+   "beats": [
+    {"en": "In Japan, rice prices are falling fast.", "jp": "日本で、お米の値段が急に下がっています。", "hl": ["falling fast", "急に下がって"]},
+    {"en": "In January, a 5-kilo bag cost 4,416 yen on average.", "jp": "1月、5kgの平均は4,416円でした。", "hl": ["4,416 yen", "4,416円"]},
+    {"en": "By late September, it was 2,926 yen.", "jp": "9月下旬には2,926円に。", "hl": ["2,926 yen", "2,926円"]},
+    {"en": "Some convenience stores have already cut rice ball prices.", "jp": "おにぎりを値下げしたコンビニもあります。", "hl": ["cut rice ball prices", "おにぎりを値下げ"]},
+    {"en": "At work: can we pass on the savings to customers?", "jp": "仕事なら「節約分をお客様に還元できますか?」", "hl": ["pass on the savings", "還元できますか"]}
+   ]},
+  {"id": "cta", "chapter": "", "vis": {"type": "cta", "en": "Can we pass on the savings?", "jp": "その節約分を還元できますか?", "btn": "続きは本編で"},
+   "beats": [{"en": "Why did prices fall? Watch the full video.", "jp": "なぜ下がったのか。くわしくは本編で。", "hl": ["full video", "本編"]}]}
+ ]
+}

@@ -488,6 +488,8 @@ SCENES.bigstat = (root, v) => {
   if (v.art === "plane") extra = planeArt(svg, 1400, 470);
   if (v.art === "tanker") extra = tankerArt(svg, 1400, 520);
   if (v.art === "bank") extra = bankArt(svg, 1400, 520);
+  if (v.art === "rice") extra = riceArt(svg, 1400, 520);
+  if (v.art === "gold") extra = goldArt(svg, 1400, 540);
   const kick = div(root, "left:190px;top:170px;font:800 30px Inter;letter-spacing:.12em;color:#8E8E96", (v.kicker || "").toUpperCase());
   const num = div(root, "left:185px;top:215px", "", "num");
   const tag = div(root, "left:190px;top:390px;transform-origin:0 50%", v.tag || "", "tag");
@@ -767,5 +769,49 @@ function bankArt(svg, ox, oy) {
     const p = E.back((ts - 0.2) / 0.6); bld.setAttribute("opacity", E.clamp(p * 2)); bld.setAttribute("transform", `translate(0,${(1 - E.clamp(p)) * 40})`);
     const q = E.easeIO((ts - 1.0) / 0.9); arrow.setAttribute("opacity", E.clamp(q * 3));
     arrow.setAttribute("transform", `translate(${ox + 300},${oy - 20 - q * 120})`);
+  } };
+}
+
+// ---------------------------------------------------------------- bigstat art (added 2026-11-27): rice / gold
+function riceArt(svg, ox, oy) {
+  const g = E.el("g", {}, svg);
+  E.el("ellipse", { cx: ox, cy: oy + 200, rx: 320, ry: 54, fill: "#000", opacity: .07 }, g);
+  const bag = E.el("g", {}, g);                                                     // 5 kg rice bag
+  E.el("path", { d: `M${ox - 250},${oy - 170} L${ox - 40},${oy - 170} L${ox - 20},${oy + 190} L${ox - 270},${oy + 190} Z`, fill: "#FFFFFF", stroke: "#1A365D", "stroke-width": 5 }, bag);
+  E.el("rect", { x: ox - 252, y: oy - 200, width: 214, height: 34, rx: 6, fill: "#1A365D" }, bag);
+  E.el("rect", { x: ox - 225, y: oy - 40, width: 170, height: 120, rx: 12, fill: "#DE4A28" }, bag);
+  E.el("circle", { cx: ox - 140, cy: oy + 20, r: 34, fill: "#FFFFFF" }, bag);
+  const bowl = E.el("g", {}, g);                                                    // bowl of rice
+  E.el("ellipse", { cx: ox + 150, cy: oy + 70, rx: 150, ry: 60, fill: "#FFFFFF", stroke: "#E4E0D8", "stroke-width": 3 }, bowl);
+  for (let k = 0; k < 9; k++) E.el("ellipse", { cx: ox + 60 + k * 22, cy: oy + 58 - Math.sin(k / 8 * Math.PI) * 26, rx: 9, ry: 5, fill: "#E9E4D6" }, bowl);
+  E.el("path", { d: `M${ox},${oy + 80} Q${ox + 150},${oy + 250} ${ox + 300},${oy + 80} Z`, fill: "#1A365D" }, bowl);
+  E.el("rect", { x: ox + 100, y: oy + 180, width: 100, height: 18, rx: 6, fill: "#1A365D" }, bowl);
+  const arrow = E.el("g", {}, g);                                                   // price going down
+  E.el("rect", { x: -18, y: -110, width: 36, height: 120, fill: "#DE4A28" }, arrow);
+  E.el("polygon", { points: "-56,0 0,80 56,0", fill: "#DE4A28" }, arrow);
+  return { update(ts) {
+    const p = E.back((ts - 0.2) / 0.6); bag.setAttribute("opacity", E.clamp(p * 2)); bag.setAttribute("transform", `translate(0,${(1 - E.clamp(p)) * 40})`);
+    const b = E.back((ts - 0.5) / 0.6); bowl.setAttribute("opacity", E.clamp(b * 2)); bowl.setAttribute("transform", `translate(0,${(1 - E.clamp(b)) * 40})`);
+    const q = E.easeIO((ts - 1.1) / 0.9); arrow.setAttribute("opacity", E.clamp(q * 3));
+    arrow.setAttribute("transform", `translate(${ox + 330},${oy - 190 + q * 110})`);
+  } };
+}
+function goldArt(svg, ox, oy) {
+  const g = E.el("g", {}, svg);
+  E.el("ellipse", { cx: ox, cy: oy + 150, rx: 340, ry: 56, fill: "#000", opacity: .07 }, g);
+  const bar = (x, y) => { const b = E.el("g", { transform: `translate(${x},${y})` }, g);
+    E.el("polygon", { points: "-110,0 110,0 86,-70 -86,-70", fill: "#E0A526" }, b);
+    E.el("polygon", { points: "-86,-70 86,-70 74,-84 -74,-84", fill: "#F5C84C" }, b);
+    E.el("rect", { x: -50, y: -50, width: 100, height: 26, rx: 4, fill: "#C98A12", opacity: .55 }, b);
+    return b; };
+  const pos = [[-230, 140], [0, 140], [230, 140], [-115, 56], [115, 56], [0, -28]];
+  const bars = pos.map(([x, y]) => bar(ox + x, oy + y));
+  const vault = E.el("g", {}, g);                                                   // small bank pediment above
+  E.el("polygon", { points: `${ox - 150},${oy - 160} ${ox},${oy - 240} ${ox + 150},${oy - 160}`, fill: "#1A365D" }, vault);
+  E.el("rect", { x: ox - 140, y: oy - 160, width: 280, height: 18, fill: "#2C4F80" }, vault);
+  return { update(ts) {
+    bars.forEach((b, k) => { const p = E.back((ts - 0.2 - k * 0.18) / 0.5), [x, y] = pos[k];
+      b.setAttribute("opacity", E.clamp(p * 2)); b.setAttribute("transform", `translate(${ox + x},${oy + y - (1 - E.clamp(p)) * 60})`); });
+    vault.setAttribute("opacity", E.ease((ts - 1.4) / 0.5));
   } };
 }

@@ -1,0 +1,843 @@
+{
+ "title": "Why Central Banks Buy Gold",
+ "tts": "kokoro",
+ "voice": "af_heart",
+ "speed": 0.9,
+ "scenes": [
+  {
+   "id": "hook",
+   "chapter": "GOLD",
+   "vis": {
+    "type": "bigstat",
+    "kicker": "Central bank gold buying, Q3 2026",
+    "value": 321,
+    "suffix": " t",
+    "tag": "+42% vs a year ago",
+    "sub": "中央銀行の金の購入量(2026年7〜9月)",
+    "src": "Source: World Gold Council (Nov 3, 2026)",
+    "art": "gold",
+    "num_at": 1,
+    "tag_at": 2
+   },
+   "beats": [
+    {
+     "en": "Central banks around the world are buying gold, and buying more.",
+     "jp": "世界の中央銀行が金を買い、その量を増やしています。",
+     "hl": [
+      "buying gold",
+      "金を買い"
+     ]
+    },
+    {
+     "en": "From July to September, they bought 321 tonnes.",
+     "jp": "7月から9月に、321トンを買いました。",
+     "hl": [
+      "321 tonnes",
+      "321トン"
+     ]
+    },
+    {
+     "en": "That's 42 percent more than a year earlier.",
+     "jp": "前の年より42%多い量です。",
+     "hl": [
+      "42 percent more",
+      "42%多い"
+     ]
+    },
+    {
+     "en": "Today: why central banks want gold, and what it means for business.",
+     "jp": "今日は、中央銀行がなぜ金を欲しがるのか、ビジネスへの意味を見ます。",
+     "hl": [
+      "why central banks want gold",
+      "なぜ金を欲しがる"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "trend",
+   "chapter": "HOW MUCH?",
+   "vis": {
+    "type": "bars",
+    "title": "Central bank gold buying per quarter (tonnes)",
+    "title_jp": "中央銀行の金購入量(四半期・トン)",
+    "items": [
+     {
+      "label": "5-year average",
+      "value": 227,
+      "display": "227t",
+      "color": "navy"
+     },
+     {
+      "label": "Q3 2025",
+      "value": 226.3,
+      "display": "226t",
+      "color": "navy"
+     },
+     {
+      "label": "Q3 2026",
+      "value": 321,
+      "display": "321t",
+      "color": "red"
+     }
+    ],
+    "at": [
+     0,
+     1,
+     2
+    ],
+    "note": "Source: World Gold Council, Gold Demand Trends Q3 2026"
+   },
+   "beats": [
+    {
+     "en": "Over the past five years, they bought about 227 tonnes a quarter.",
+     "jp": "過去5年は、四半期あたり約227トンでした。",
+     "hl": [
+      "227 tonnes",
+      "約227トン"
+     ]
+    },
+    {
+     "en": "A year ago, it was about the same: 226 tonnes.",
+     "jp": "1年前もほぼ同じ、226トンでした。",
+     "hl": [
+      "about the same",
+      "ほぼ同じ"
+     ]
+    },
+    {
+     "en": "This quarter jumped to 321 tonnes, the most since late 2024.",
+     "jp": "今期は321トンに急増。2024年末以来の多さです。",
+     "hl": [
+      "jumped",
+      "急増"
+     ]
+    },
+    {
+     "en": "So far this year, central banks have bought 675 tonnes.",
+     "jp": "今年これまでの購入量は675トンです。",
+     "hl": [
+      "675 tonnes",
+      "675トン"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "who",
+   "chapter": "WHO IS BUYING?",
+   "vis": {
+    "type": "map",
+    "title": "Biggest reported buyers, Q3 2026",
+    "title_jp": "公表された主な買い手(2026年7〜9月)",
+    "markers": [
+     {
+      "label": "China +63t",
+      "jp": "中国",
+      "lat": 31.2,
+      "lon": 121.5,
+      "color": "red"
+     },
+     {
+      "label": "Poland +40t",
+      "jp": "ポーランド",
+      "lat": 52.2,
+      "lon": 21.0,
+      "color": "red"
+     },
+     {
+      "label": "Central Asia +28t",
+      "jp": "カザフ・ウズベク",
+      "lat": 41.3,
+      "lon": 69.3,
+      "color": "navy"
+     }
+    ],
+    "at": [
+     0,
+     1,
+     3
+    ]
+   },
+   "beats": [
+    {
+     "en": "Who is buying? China's central bank added 63 tonnes.",
+     "jp": "誰が買っているのか。中国の中央銀行は63トンを追加。",
+     "hl": [
+      "63 tonnes",
+      "63トン"
+     ]
+    },
+    {
+     "en": "Poland added 40 tonnes.",
+     "jp": "ポーランドは40トン。",
+     "hl": [
+      "40 tonnes",
+      "40トン"
+     ]
+    },
+    {
+     "en": "Poland has now reached its goal of 700 tonnes in reserves.",
+     "jp": "ポーランドは、準備で700トンという目標に達しました。",
+     "hl": [
+      "700 tonnes",
+      "700トン"
+     ]
+    },
+    {
+     "en": "Kazakhstan and Uzbekistan each added 14 tonnes.",
+     "jp": "カザフスタンとウズベキスタンが、それぞれ14トン。",
+     "hl": [
+      "14 tonnes",
+      "14トン"
+     ]
+    },
+    {
+     "en": "Russia was the only big seller, with 19 tonnes.",
+     "jp": "大きく売ったのはロシアだけで、19トンでした。",
+     "hl": [
+      "only big seller",
+      "大きく売った"
+     ]
+    },
+    {
+     "en": "And about 63 percent of the buying was not reported by country.",
+     "jp": "しかも購入の約63%は、国名が公表されていません。",
+     "hl": [
+      "not reported",
+      "公表されていません"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "why",
+   "chapter": "WHY GOLD?",
+   "vis": {
+    "type": "flow",
+    "title": "Why central banks hold gold",
+    "title_jp": "中央銀行が金を持つ理由",
+    "items": [
+     {
+      "title": "Uncertainty",
+      "jp": "財政不安・不透明感",
+      "color": "navy"
+     },
+     {
+      "title": "Diversification",
+      "jp": "資産を分散する",
+      "color": "navy"
+     },
+     {
+      "title": "Risk management",
+      "jp": "リスクを管理する",
+      "color": "navy"
+     },
+     {
+      "title": "Buy gold",
+      "jp": "金を買う",
+      "color": "red"
+     }
+    ],
+    "at": [
+     0,
+     1,
+     2,
+     4
+    ]
+   },
+   "beats": [
+    {
+     "en": "Why gold? The World Gold Council gives two main reasons.",
+     "jp": "なぜ金なのか。ワールド・ゴールド・カウンシルは主な理由を2つ挙げます。",
+     "hl": [
+      "two main reasons",
+      "主な理由を2つ"
+     ]
+    },
+    {
+     "en": "First, diversification: spreading reserves across different assets.",
+     "jp": "1つめは分散。準備資産を、いろいろな資産に分けることです。",
+     "hl": [
+      "diversification",
+      "分散"
+     ]
+    },
+    {
+     "en": "Second, risk management: protecting value when times are uncertain.",
+     "jp": "2つめはリスク管理。先行きが不透明なときに価値を守ることです。",
+     "hl": [
+      "risk management",
+      "リスク管理"
+     ]
+    },
+    {
+     "en": "The council also says fiscal concerns and uncertainty are supporting demand.",
+     "jp": "財政への不安や先行きの不透明さも、需要を支えているとしています。",
+     "hl": [
+      "fiscal concerns",
+      "財政への不安"
+     ]
+    },
+    {
+     "en": "So, more uncertainty, more gold.",
+     "jp": "不透明さが増すほど、金が買われます。",
+     "hl": [
+      "more gold",
+      "金が買われ"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "quote",
+   "chapter": "WHY GOLD?",
+   "vis": {
+    "type": "quote",
+    "text": "Central banks remained an important pillar of demand.",
+    "jp": "中央銀行は、引き続き需要の重要な柱だった",
+    "by": "Louise Street, World Gold Council, Nov 3, 2026"
+   },
+   "beats": [
+    {
+     "en": "A World Gold Council analyst calls central banks an important pillar of demand.",
+     "jp": "ワールド・ゴールド・カウンシルのアナリストは、中央銀行を需要の重要な柱と呼びます。",
+     "hl": [
+      "pillar",
+      "柱"
+     ]
+    },
+    {
+     "en": "In other words, they are one of the main supports for gold.",
+     "jp": "つまり、金を支える主な買い手の1つだということです。",
+     "hl": [
+      "main supports",
+      "主な買い手"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rest",
+   "chapter": "THE REST OF THE MARKET",
+   "vis": {
+    "type": "cards",
+    "title": "Other gold demand, Q3 2026",
+    "title_jp": "そのほかの金の需要(2026年7〜9月)",
+    "items": [
+     {
+      "title": "Gold funds (ETFs)",
+      "jp": "金のETFへの流入",
+      "value": "+211t",
+      "note": "holdings: record 4,256t",
+      "color": "green"
+     },
+     {
+      "title": "Jewellery",
+      "jp": "宝飾品(前年比)",
+      "value": "−17%",
+      "note": "weakest Q3 in the data",
+      "color": "red"
+     },
+     {
+      "title": "Electronics",
+      "jp": "電子部品(前年比)",
+      "value": "+5%",
+      "note": "72 tonnes",
+      "color": "navy"
+     }
+    ],
+    "at": [
+     0,
+     2,
+     4
+    ]
+   },
+   "beats": [
+    {
+     "en": "Investors are buying too. Gold funds took in 211 tonnes.",
+     "jp": "投資家も買っています。金のファンドには211トンが流入。",
+     "hl": [
+      "211 tonnes",
+      "211トン"
+     ]
+    },
+    {
+     "en": "Their total holdings hit a record 4,256 tonnes.",
+     "jp": "保有量は過去最高の4,256トンになりました。",
+     "hl": [
+      "a record",
+      "過去最高"
+     ]
+    },
+    {
+     "en": "But jewellery buying fell 17 percent, the weakest third quarter in the data.",
+     "jp": "でも宝飾品の需要は17%減り、7〜9月としてはデータ上最も少なくなりました。",
+     "hl": [
+      "fell 17 percent",
+      "17%減り"
+     ]
+    },
+    {
+     "en": "High prices are a big reason. The average was 4,262 dollars an ounce.",
+     "jp": "大きな理由は高い価格です。平均は1オンス4,262ドルでした。",
+     "hl": [
+      "4,262 dollars",
+      "4,262ドル"
+     ]
+    },
+    {
+     "en": "Meanwhile, gold used in electronics rose 5 percent.",
+     "jp": "一方、電子部品に使われる金は5%増えました。",
+     "hl": [
+      "electronics",
+      "電子部品"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "japan",
+   "chapter": "WHAT IT MEANS FOR JAPAN",
+   "vis": {
+    "type": "cards",
+    "title": "What it means for business in Japan",
+    "title_jp": "日本のビジネスにとっての意味",
+    "items": [
+     {
+      "title": "Priced in dollars",
+      "jp": "金はドル建て",
+      "value": "$ × ¥",
+      "note": "a weak yen makes gold dearer",
+      "color": "navy"
+     },
+     {
+      "title": "Makers & shops",
+      "jp": "部品メーカー・宝飾店",
+      "value": "Costs ↑",
+      "note": "high prices cut jewellery demand",
+      "color": "red"
+     },
+     {
+      "title": "The lesson",
+      "jp": "中央銀行から学べること",
+      "value": "Diversify",
+      "note": "suppliers · currencies · markets",
+      "color": "green"
+     }
+    ],
+    "at": [
+     0,
+     2,
+     4
+    ]
+   },
+   "beats": [
+    {
+     "en": "What does this mean for business in Japan?",
+     "jp": "日本のビジネスにとって、どんな意味があるでしょうか。",
+     "hl": [
+      "business in Japan",
+      "日本のビジネス"
+     ]
+    },
+    {
+     "en": "Gold is priced in dollars, so a weaker yen makes it even more expensive here.",
+     "jp": "金はドル建てなので、円安になると日本ではさらに高くなります。",
+     "hl": [
+      "weaker yen",
+      "円安"
+     ]
+    },
+    {
+     "en": "Electronics makers and jewellery shops feel these costs directly.",
+     "jp": "電子部品メーカーや宝飾店は、このコストを直接受けます。",
+     "hl": [
+      "feel these costs",
+      "コストを直接"
+     ]
+    },
+    {
+     "en": "For shops, high prices can mean fewer buyers, as the jewellery data shows.",
+     "jp": "店にとっては、宝飾品のデータのように、高値は買い手の減少にもつながります。",
+     "hl": [
+      "fewer buyers",
+      "買い手の減少"
+     ]
+    },
+    {
+     "en": "And there's a lesson: like central banks, don't depend on just one thing.",
+     "jp": "そして教訓も。中央銀行のように、1つのものだけに頼らないことです。",
+     "hl": [
+      "don't depend on just one thing",
+      "1つのものだけに頼らない"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "other",
+   "chapter": "THE OTHER SIDE",
+   "vis": {
+    "type": "versus",
+    "title": "Gold price, US dollars per ounce",
+    "title_jp": "金の価格(1オンスあたり・ドル)",
+    "left": {
+     "title": "Q3 2026 average",
+     "jp": "7〜9月の平均",
+     "value": "$4,262",
+     "color": "navy"
+    },
+    "right": {
+     "title": "Oct 30 low",
+     "jp": "10月30日の1年来安値",
+     "value": "$3,870",
+     "color": "red"
+    },
+    "at": [
+     0,
+     2
+    ]
+   },
+   "beats": [
+    {
+     "en": "But gold is not a one-way bet.",
+     "jp": "でも、金はいつも上がるわけではありません。",
+     "hl": [
+      "not a one-way bet",
+      "いつも上がる"
+     ]
+    },
+    {
+     "en": "In the third quarter, the average price was 4,262 dollars.",
+     "jp": "7〜9月の平均価格は4,262ドルでした。",
+     "hl": [
+      "4,262 dollars",
+      "4,262ドル"
+     ]
+    },
+    {
+     "en": "On October 30, it fell to about 3,870 dollars, a one-year low.",
+     "jp": "10月30日には約3,870ドルと、1年ぶりの安値まで下がりました。",
+     "hl": [
+      "one-year low",
+      "1年ぶりの安値"
+     ]
+    },
+    {
+     "en": "Gold pays no interest, so rising rates make holding it more costly.",
+     "jp": "金には利息がつかないので、金利が上がると持つコストが高くなります。",
+     "hl": [
+      "pays no interest",
+      "利息がつかない"
+     ]
+    },
+    {
+     "en": "The council says central bank buying does not guarantee a price floor.",
+     "jp": "カウンシルも、中央銀行の買いが価格の下支えを保証するわけではないとしています。",
+     "hl": [
+      "price floor",
+      "下支え"
+     ]
+    },
+    {
+     "en": "This is not investment advice. It's how the market works.",
+     "jp": "これは投資の助言ではありません。市場の仕組みの話です。",
+     "hl": [
+      "not investment advice",
+      "投資の助言ではありません"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "phrases",
+   "chapter": "TODAY'S ENGLISH",
+   "vis": {
+    "type": "phrases",
+    "items": [
+     {
+      "en": "diversify",
+      "jp": "分散する・多様化する",
+      "key": "diversify",
+      "ex": "We need to diversify our customer base.",
+      "ex_jp": "顧客層を広げて、分散させる必要があります。"
+     },
+     {
+      "en": "hedge against",
+      "jp": "(リスク)に備える・ヘッジする",
+      "key": "hedge against",
+      "ex": "We use contracts to hedge against a weak yen.",
+      "ex_jp": "円安に備えて、契約でヘッジしています。"
+     },
+     {
+      "en": "pillar",
+      "jp": "柱・大黒柱",
+      "key": "pillar",
+      "ex": "Overseas sales are now a key pillar of our business.",
+      "ex_jp": "海外売上は、いまや事業の大きな柱です。"
+     }
+    ]
+   },
+   "beats": [
+    {
+     "en": "Three phrases for your next meeting.",
+     "jp": "次の会議で使える英語を3つ。",
+     "hl": [
+      "Three phrases",
+      "英語を3つ"
+     ],
+     "step": "intro",
+     "ph": -1
+    },
+    {
+     "en": "diversify.",
+     "jp": "この英語の意味は?",
+     "hl": [
+      "diversify",
+      ""
+     ],
+     "step": "say",
+     "ph": 0
+    },
+    {
+     "en": "",
+     "jp": "考えてみよう",
+     "hl": [],
+     "step": "think",
+     "ph": 0,
+     "hold": 2.5
+    },
+    {
+     "en": "We need to diversify our customer base.",
+     "jp": "顧客層を広げて、分散させる必要があります。",
+     "hl": [
+      "diversify",
+      ""
+     ],
+     "step": "ex",
+     "ph": 0
+    },
+    {
+     "en": "We need to diversify our customer base.",
+     "jp": "もう一度。声に出して言ってみよう",
+     "hl": [
+      "diversify",
+      ""
+     ],
+     "step": "ex",
+     "ph": 0,
+     "repeat": true
+    },
+    {
+     "en": "",
+     "jp": "(あなたの番)",
+     "hl": [],
+     "step": "ex",
+     "ph": 0,
+     "hold": 3.0
+    },
+    {
+     "en": "hedge against.",
+     "jp": "この英語の意味は?",
+     "hl": [
+      "hedge against",
+      ""
+     ],
+     "step": "say",
+     "ph": 1
+    },
+    {
+     "en": "",
+     "jp": "考えてみよう",
+     "hl": [],
+     "step": "think",
+     "ph": 1,
+     "hold": 2.5
+    },
+    {
+     "en": "We use contracts to hedge against a weak yen.",
+     "jp": "円安に備えて、契約でヘッジしています。",
+     "hl": [
+      "hedge against",
+      ""
+     ],
+     "step": "ex",
+     "ph": 1
+    },
+    {
+     "en": "We use contracts to hedge against a weak yen.",
+     "jp": "もう一度。声に出して言ってみよう",
+     "hl": [
+      "hedge against",
+      ""
+     ],
+     "step": "ex",
+     "ph": 1,
+     "repeat": true
+    },
+    {
+     "en": "",
+     "jp": "(あなたの番)",
+     "hl": [],
+     "step": "ex",
+     "ph": 1,
+     "hold": 3.0
+    },
+    {
+     "en": "pillar.",
+     "jp": "この英語の意味は?",
+     "hl": [
+      "pillar",
+      ""
+     ],
+     "step": "say",
+     "ph": 2
+    },
+    {
+     "en": "",
+     "jp": "考えてみよう",
+     "hl": [],
+     "step": "think",
+     "ph": 2,
+     "hold": 2.5
+    },
+    {
+     "en": "Overseas sales are now a key pillar of our business.",
+     "jp": "海外売上は、いまや事業の大きな柱です。",
+     "hl": [
+      "pillar",
+      ""
+     ],
+     "step": "ex",
+     "ph": 2
+    },
+    {
+     "en": "Overseas sales are now a key pillar of our business.",
+     "jp": "もう一度。声に出して言ってみよう",
+     "hl": [
+      "pillar",
+      ""
+     ],
+     "step": "ex",
+     "ph": 2,
+     "repeat": true
+    },
+    {
+     "en": "",
+     "jp": "(あなたの番)",
+     "hl": [],
+     "step": "ex",
+     "ph": 2,
+     "hold": 3.0
+    }
+   ]
+  },
+  {
+   "id": "outro",
+   "chapter": "",
+   "vis": {
+    "type": "outro",
+    "items": [
+     "diversify",
+     "hedge against",
+     "pillar"
+    ]
+   },
+   "beats": [
+    {
+     "en": "Which one will you use this week? Tell us in the comments.",
+     "jp": "今週使うのはどれですか? コメントで教えてください。",
+     "hl": [
+      "this week",
+      "今週"
+     ]
+    }
+   ]
+  }
+ ],
+ "publish": {
+  "title": "Why Central Banks Buy Gold|中央銀行が金を買う理由。3か月で321トン【英語で学ぶ世界経済】",
+  "summary": "2026年7〜9月、世界の中央銀行は金を321トン買いました。前年より42%多く、2024年末以来の多さです。中国やポーランドなどの買い手、「分散」と「リスク管理」という理由、ETF・宝飾品・電子部品の動き、円安の日本への影響、そして金利上昇や値下がりという反対の見方を、英語のナレーションと英日字幕で解説します(投資助言ではありません)。",
+  "sources": [
+   [
+    "World Gold Council (2026-11-03): Central bank buying and ETF inflows support gold demand in Q3",
+    "https://www.gold.org/news-and-events/press-releases/central-bank-buying-and-etf-inflows-support-gold-demand-q3/"
+   ],
+   [
+    "World Gold Council: Gold Demand Trends Q3 2026 — Central Banks",
+    "https://www.gold.org/goldhub/research/gold-demand-trends/gold-demand-trends-q3-2026/central-banks"
+   ],
+   [
+    "Kitco News (2026-11-03): Gold demand remains near record highs as central bank buying surges 42% – WGC",
+    "https://www.kitco.com/news/article/2026-11-03/gold-demand-remains-near-record-highs-central-bank-buying-surges-42-wgc"
+   ],
+   [
+    "The Nation (2026-11-06): Gold hits over two-week high of US$4,146.63/oz on Nov 5",
+    "https://www.nationthailand.com/business/40073160"
+   ]
+  ],
+  "tags": [
+   "金",
+   "ゴールド",
+   "中央銀行",
+   "金価格",
+   "外貨準備",
+   "円安",
+   "ビジネス英語",
+   "英語学習",
+   "英語リスニング",
+   "世界経済"
+  ],
+  "thumb": "studio/thumb/gold-reserves.jpg",
+  "short": {
+   "file": "short.mp4",
+   "title": "中央銀行、3か月で金を何トン買った?「diversify」の意味は? #ビジネス英語 #shorts",
+   "ig_caption": "世界の中央銀行、3か月で金を何トン買ったと思いますか?\n\n✅ diversify\n分散する・多様化する\n\n例文:We need to diversify our customer base.\n(顧客層を広げて、分散させる必要があります。)\n\n2026年7〜9月、中央銀行の金の購入は321トン。前年より42%多い量です。理由は「分散」と「リスク管理」。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英語リスニング #金 #中央銀行 #世界経済 #英日字幕"
+  },
+  "carousel_caption": "2026年7〜9月、世界の中央銀行が買った金は321トン。前年より42%多い量です。\n\nこのニュースから、会議で使える英語を3つ。\n\n1️⃣ diversify\n分散する・多様化する\n\n2️⃣ hedge against\n(リスク)に備える・ヘッジする\n\n3️⃣ pillar\n柱・大黒柱\n\n📌 保存して、次の会議の前に見返そう\n▼ 英語ナレーションの解説動画はプロフィールのYouTubeから\n※投資助言ではありません\n\n#ビジネス英語 #英語学習 #英語リスニング #金 #中央銀行 #世界経済 #英語フレーズ",
+  "phrases": [
+   [
+    "diversify",
+    "分散する・多様化する"
+   ],
+   [
+    "hedge against",
+    "(リスク)に備える・ヘッジする"
+   ],
+   [
+    "pillar",
+    "柱・大黒柱"
+   ]
+  ]
+ },
+ "carousel": {
+  "cover": "中央銀行が<br><span style='color:#DE4A28'>金を買う</span>",
+  "num": "321t",
+  "numSub": "中央銀行の金購入(2026年7〜9月)",
+  "src": "Source: World Gold Council (2026)",
+  "phrases": [
+   {
+    "en": "diversify",
+    "jp": "分散する・多様化する",
+    "key": "diversify",
+    "ex": "We need to diversify our customer base.",
+    "ex_jp": "顧客層を広げて、分散させる必要があります。"
+   },
+   {
+    "en": "hedge against",
+    "jp": "(リスク)に備える・ヘッジする",
+    "key": "hedge against",
+    "ex": "We use contracts to hedge against a weak yen.",
+    "ex_jp": "円安に備えて、契約でヘッジしています。"
+   },
+   {
+    "en": "pillar",
+    "jp": "柱・大黒柱",
+    "key": "pillar",
+    "ex": "Overseas sales are now a key pillar of our business.",
+    "ex_jp": "海外売上は、いまや事業の大きな柱です。"
+   }
+  ]
+ }
+}

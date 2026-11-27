@@ -1,0 +1,37 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+body{margin:0} #t{position:relative;width:1280px;height:720px;overflow:hidden;background:#F7F5F0;font-family:Inter,"Noto Sans CJK JP",sans-serif;
+background-image:linear-gradient(#ECE8E0 1px,transparent 1px),linear-gradient(90deg,#ECE8E0 1px,transparent 1px);background-size:48px 48px}
+.a{position:absolute}
+.l1{left:56px;top:70px;font:900 118px "Noto Sans CJK JP";color:#1C1C1E;line-height:1.05;letter-spacing:-.02em}
+.l1 b{color:#DE4A28}
+.num{left:60px;top:345px;font:900 104px Inter;color:#DE4A28;letter-spacing:-.03em}
+.sub{left:64px;top:470px;font:700 34px "Noto Sans CJK JP";color:#606068}
+.pill{left:60px;top:560px;background:#1A365D;color:#fff;font:800 46px Inter;border-radius:44px;padding:10px 34px}
+.logo{left:40px;top:24px;display:flex;gap:10px;align-items:center;font:700 22px Inter;color:#1C1C1E}
+.logo i{width:34px;height:34px;border-radius:8px;background:#DE4A28;color:#fff;display:grid;place-items:center;font:900 22px Inter;font-style:normal}
+.tag{right:36px;top:26px;background:#DE4A28;color:#fff;font:900 30px "Noto Sans CJK JP";border-radius:12px;padding:6px 18px;transform:rotate(3deg)}
+</style></head><body><div id="t">
+<svg class="a" style="left:0;top:0" width="1280" height="720" id="s"></svg>
+<div class="a logo"><i>B</i>Business English Brief</div>
+<div class="a l1">お米が<br><b>余りはじめた</b></div>
+<div class="a num">¥2,926</div>
+<div class="a sub">米5kg平均(4,416円から下落)</div>
+<div class="a pill">pass on</div>
+<div class="a tag">英語で学ぶ世界経済</div>
+</div>
+<script>
+const s=document.getElementById('s'),ns='http://www.w3.org/2000/svg';
+function el(t,a){const n=document.createElementNS(ns,t);for(const k in a)n.setAttribute(k,a[k]);s.appendChild(n);return n}
+const ox=1010,oy=430;
+el('ellipse',{cx:ox,cy:oy+215,rx:250,ry:44,fill:'#000',opacity:.07});
+el('path',{d:`M${ox-190},${oy-150} L${ox-10},${oy-150} L${ox+8},${oy+205} L${ox-208},${oy+205} Z`,fill:'#fff',stroke:'#1A365D','stroke-width':5});
+el('rect',{x:ox-192,y:oy-180,width:184,height:32,rx:6,fill:'#1A365D'});
+el('rect',{x:ox-170,y:oy-20,width:140,height:110,rx:12,fill:'#DE4A28'});
+el('circle',{cx:ox-100,cy:oy+35,r:30,fill:'#fff'});
+el('ellipse',{cx:ox+150,cy:oy+100,rx:120,ry:48,fill:'#fff',stroke:'#E4E0D8','stroke-width':3});
+for(let k=0;k<8;k++)el('ellipse',{cx:ox+75+k*21,cy:oy+90-Math.sin(k/7*Math.PI)*22,rx:8,ry:5,fill:'#E9E4D6'});
+el('path',{d:`M${ox+30},${oy+108} Q${ox+150},${oy+250} ${ox+270},${oy+108} Z`,fill:'#1A365D'});
+el('rect',{x:ox+110,y:oy+190,width:80,height:16,rx:5,fill:'#1A365D'});
+el('rect',{x:ox+175,y:oy-190,width:34,height:120,fill:'#DE4A28'});
+el('polygon',{points:`${ox+140},${oy-75} ${ox+192},${oy+5} ${ox+244},${oy-75}`,fill:'#DE4A28'});
+</script></body></html>
