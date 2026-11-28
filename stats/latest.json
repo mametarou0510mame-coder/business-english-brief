@@ -1,5 +1,5 @@
 {
- "at": "2026-11-20T20:18:28.409277+00:00",
+ "at": "2026-11-28T02:05:55.369963+00:00",
  "youtube": [
   {
    "ep": "2026-10-25-amex-ai-cuts",
@@ -95,7 +95,7 @@
    "title": "「売り切れる」は英語で?sell outの使い方|折りたたみiPhoneが中国で即完売【ビジネス英語ニュース #09】",
    "privacy": "public",
    "published": "2026-10-25T07:55:49Z",
-   "views": 0,
+   "views": 2,
    "likes": 0,
    "comments": 0,
    "series": "テックとAI"
@@ -164,7 +164,15 @@
    "views": 1,
    "likes": 0,
    "comments": 0,
-   "series": "Weekly Brief"
+   "series": "Weekly Brief",
+   "analytics": {
+    "video": "GpyFyy07H_g",
+    "views": 1,
+    "estimatedMinutesWatched": 0,
+    "averageViewDuration": 0,
+    "averageViewPercentage": 0,
+    "subscribersGained": 0
+   }
   },
   {
    "ep": "2026-10-25-kfc-coca-cola",
@@ -247,14 +255,14 @@
    "title": "「期待を上回る」は英語で?良い結果なのにモデルナ株が急落 #ビジネス英語 #shorts",
    "privacy": "public",
    "published": "2026-10-26T06:01:39Z",
-   "views": 72,
+   "views": 73,
    "likes": 2,
    "comments": 0,
    "series": "決算と数字の英語",
    "style": "news",
    "analytics": {
     "video": "boghDZVudgQ",
-    "views": 72,
+    "views": 73,
     "estimatedMinutesWatched": 7,
     "averageViewDuration": 21,
     "averageViewPercentage": 69.77,
@@ -301,7 +309,7 @@
    "title": "「足りない部分を埋める」は英語で?fill a gapの使い方|セールスフォースがBraze買収【ビジネス英語ニュース #04】",
    "privacy": "public",
    "published": "2026-10-26T06:01:49Z",
-   "views": 1,
+   "views": 2,
    "likes": 0,
    "comments": 0,
    "series": "決算と数字の英語",
@@ -334,13 +342,13 @@
    "title": "「時期尚早だ」は英語で?it's premature toの使い方|スペースXとテスラが合併?【ビジネス英語ニュース #05】",
    "privacy": "public",
    "published": "2026-10-26T06:02:03Z",
-   "views": 2,
+   "views": 3,
    "likes": 0,
    "comments": 0,
    "series": "経営者の一言を読む",
    "analytics": {
     "video": "6kD6KW6qh1c",
-    "views": 2,
+    "views": 3,
     "estimatedMinutesWatched": 2,
     "averageViewDuration": 63,
     "averageViewPercentage": 30.709999999999997,
@@ -730,7 +738,7 @@
    "title": "「〜に届かない」は英語で?インテル株が3割近く急落 #ビジネス英語 #shorts",
    "privacy": "public",
    "published": "2026-11-03T03:00:26Z",
-   "views": 49,
+   "views": 48,
    "likes": 0,
    "comments": 0,
    "series": "決算と数字の英語",
@@ -778,10 +786,10 @@
    "series": "テックとAI",
    "analytics": {
     "video": "pR_MSufbxBs",
-    "views": 3,
+    "views": 4,
     "estimatedMinutesWatched": 1,
-    "averageViewDuration": 31,
-    "averageViewPercentage": 11.73,
+    "averageViewDuration": 26,
+    "averageViewPercentage": 9.88,
     "subscribersGained": 0
    }
   },
@@ -1018,10 +1026,10 @@
    "series": "場面別の英語",
    "analytics": {
     "video": "y7X8vFjPFQ0",
-    "views": 1,
-    "estimatedMinutesWatched": 0,
-    "averageViewDuration": 7,
-    "averageViewPercentage": 3.06,
+    "views": 2,
+    "estimatedMinutesWatched": 4,
+    "averageViewDuration": 126,
+    "averageViewPercentage": 51.55,
     "subscribersGained": 0
    }
   },
@@ -1190,10 +1198,18 @@
    "title": "「約5分の1」は英語で?roughly one-fifthの使い方|ChatGPTはグーグルの5分の1?【ビジネス英語ニュース #25】",
    "privacy": "public",
    "published": "2026-11-10T22:00:06Z",
-   "views": 0,
+   "views": 1,
    "likes": 0,
    "comments": 0,
-   "series": "テックとAI"
+   "series": "テックとAI",
+   "analytics": {
+    "video": "13lKM2LFuXo",
+    "views": 1,
+    "estimatedMinutesWatched": 5,
+    "averageViewDuration": 317,
+    "averageViewPercentage": 99.86,
+    "subscribersGained": 0
+   }
   },
   {
    "ep": "2026-11-11-chatgpt-google-fifth",
@@ -1202,14 +1218,14 @@
    "title": "「約5分の1」は英語で?ChatGPTがグーグル検索の5分の1に #ビジネス英語 #shorts",
    "privacy": "public",
    "published": "2026-11-11T03:00:13Z",
-   "views": 66,
+   "views": 67,
    "likes": 0,
    "comments": 0,
    "series": "テックとAI",
    "style": "news",
    "analytics": {
     "video": "v7CYuY7EtZY",
-    "views": 66,
+    "views": 67,
     "estimatedMinutesWatched": 4,
     "averageViewDuration": 14,
     "averageViewPercentage": 52.88,
@@ -1223,17 +1239,17 @@
    "title": "「an apples-to-apples comparison」の意味、わかる?|会議の英語 #shorts",
    "privacy": "public",
    "published": "2026-11-11T12:00:24Z",
-   "views": 9,
+   "views": 10,
    "likes": 0,
    "comments": 0,
    "series": "テックとAI",
    "style": "quiz",
    "analytics": {
     "video": "ZORCUlSbTd0",
-    "views": 9,
-    "estimatedMinutesWatched": 0,
-    "averageViewDuration": 26,
-    "averageViewPercentage": 120.23000000000002,
+    "views": 10,
+    "estimatedMinutesWatched": 1,
+    "averageViewDuration": 23,
+    "averageViewPercentage": 105.45,
     "subscribersGained": 0
    }
   },
@@ -1264,17 +1280,17 @@
    "title": "「〜できて光栄です」は英語で?アップル新CEOの第一声 #ビジネス英語 #shorts",
    "privacy": "public",
    "published": "2026-11-12T03:00:13Z",
-   "views": 14,
+   "views": 15,
    "likes": 0,
    "comments": 0,
    "series": "経営者の一言を読む",
    "style": "news",
    "analytics": {
     "video": "B0fukgiqXyQ",
-    "views": 13,
+    "views": 15,
     "estimatedMinutesWatched": 2,
     "averageViewDuration": 19,
-    "averageViewPercentage": 78.02,
+    "averageViewPercentage": 77.21,
     "subscribersGained": 0
    }
   },
@@ -1339,17 +1355,17 @@
    "title": "「pass on the cost」の意味、わかる?|会議の英語 #shorts",
    "privacy": "public",
    "published": "2026-11-13T12:00:35Z",
-   "views": 919,
+   "views": 920,
    "likes": 2,
    "comments": 0,
    "series": "海外メディアが報じる日本",
    "style": "quiz",
    "analytics": {
     "video": "hNLVPA4SfOI",
-    "views": 919,
+    "views": 920,
     "estimatedMinutesWatched": 69,
-    "averageViewDuration": 13,
-    "averageViewPercentage": 77.76,
+    "averageViewDuration": 14,
+    "averageViewPercentage": 77.95,
     "subscribersGained": 0
    }
   },
@@ -1360,16 +1376,16 @@
    "title": "【聞き流し】会議で使えるビジネス英語18フレーズ|トヨタ・アップル・任天堂のニュースから【ビジネス英語ニュース #28】",
    "privacy": "public",
    "published": "2026-11-13T22:00:02Z",
-   "views": 4,
+   "views": 6,
    "likes": 0,
    "comments": 0,
    "series": "今週の英単語 総復習",
    "analytics": {
     "video": "-9M_GZdSEHs",
-    "views": 3,
+    "views": 5,
     "estimatedMinutesWatched": 1,
-    "averageViewDuration": 21,
-    "averageViewPercentage": 5.11,
+    "averageViewDuration": 15,
+    "averageViewPercentage": 3.6799999999999997,
     "subscribersGained": 0
    }
   },
@@ -1422,10 +1438,18 @@
    "title": "「随時お知らせします」は英語で?I'll keep you postedの使い方|未定のことを伝える【ビジネス英語ニュース #29】",
    "privacy": "public",
    "published": "2026-11-14T22:00:15Z",
-   "views": 0,
+   "views": 2,
    "likes": 0,
    "comments": 0,
-   "series": "場面別の英語"
+   "series": "場面別の英語",
+   "analytics": {
+    "video": "lPZSt64F2rE",
+    "views": 2,
+    "estimatedMinutesWatched": 0,
+    "averageViewDuration": 22,
+    "averageViewPercentage": 7.64,
+    "subscribersGained": 0
+   }
   },
   {
    "ep": "2026-11-15-not-decided-yet",
@@ -1497,8 +1521,8 @@
     "video": "6851VoPOXIA",
     "views": 213,
     "estimatedMinutesWatched": 15,
-    "averageViewDuration": 20,
-    "averageViewPercentage": 74.81,
+    "averageViewDuration": 21,
+    "averageViewPercentage": 76.15,
     "subscribersGained": 0
    }
   },
@@ -1550,17 +1574,17 @@
    "title": "「後継者計画」は英語で?エヌビディアがCEOの進退を協議 #ビジネス英語 #shorts",
    "privacy": "public",
    "published": "2026-11-12T10:03:08Z",
-   "views": 54,
+   "views": 56,
    "likes": 0,
    "comments": 0,
    "series": "速報",
    "style": "news",
    "analytics": {
     "video": "zm6xjRs17KE",
-    "views": 54,
+    "views": 56,
     "estimatedMinutesWatched": 2,
-    "averageViewDuration": 25,
-    "averageViewPercentage": 86.63,
+    "averageViewDuration": 26,
+    "averageViewPercentage": 90.82,
     "subscribersGained": 0
    }
   },
@@ -1612,14 +1636,14 @@
    "title": "「辞任する」は英語で?エヌビディアのフアンCEOが退任 #ビジネス英語 #shorts",
    "privacy": "public",
    "published": "2026-11-16T03:00:07Z",
-   "views": 90,
+   "views": 91,
    "likes": 0,
    "comments": 0,
    "series": "Weekly Brief",
    "style": "news",
    "analytics": {
     "video": "ZZjB7pITIRc",
-    "views": 88,
+    "views": 91,
     "estimatedMinutesWatched": 4,
     "averageViewDuration": 11,
     "averageViewPercentage": 44.65,
@@ -1640,7 +1664,7 @@
    "style": "quiz",
    "analytics": {
     "video": "9d4zg1yf3xk",
-    "views": 161,
+    "views": 162,
     "estimatedMinutesWatched": 6,
     "averageViewDuration": 10,
     "averageViewPercentage": 54.11,
@@ -1660,7 +1684,7 @@
    "series": "決算と数字の英語",
    "analytics": {
     "video": "HBmCCI_gNCU",
-    "views": 1,
+    "views": 2,
     "estimatedMinutesWatched": 0,
     "averageViewDuration": 19,
     "averageViewPercentage": 6.7299999999999995,
@@ -1674,14 +1698,14 @@
    "title": "「追い風」は英語で?ホンダが純利益予想を5000億円に #ビジネス英語 #shorts",
    "privacy": "public",
    "published": "2026-11-17T03:00:13Z",
-   "views": 74,
+   "views": 75,
    "likes": 0,
    "comments": 0,
    "series": "決算と数字の英語",
    "style": "news",
    "analytics": {
     "video": "Vrt4cVE_gzg",
-    "views": 73,
+    "views": 75,
     "estimatedMinutesWatched": 3,
     "averageViewDuration": 10,
     "averageViewPercentage": 45.34,
@@ -1695,17 +1719,17 @@
    "title": "「a drag on」の意味、わかる?|会議の英語 #shorts",
    "privacy": "public",
    "published": "2026-11-17T12:00:06Z",
-   "views": 658,
+   "views": 660,
    "likes": 2,
    "comments": 0,
    "series": "決算と数字の英語",
    "style": "quiz",
    "analytics": {
     "video": "470EoCUKnl4",
-    "views": 606,
-    "estimatedMinutesWatched": 41,
+    "views": 659,
+    "estimatedMinutesWatched": 45,
     "averageViewDuration": 9,
-    "averageViewPercentage": 58.56,
+    "averageViewPercentage": 57.50999999999999,
     "subscribersGained": 3
    }
   },
@@ -1728,15 +1752,15 @@
    "title": "「概念実証」は英語で?グーグルのロボットが成功率96% #ビジネス英語 #shorts",
    "privacy": "public",
    "published": "2026-11-18T03:00:04Z",
-   "views": 45,
+   "views": 47,
    "likes": 0,
    "comments": 0,
    "series": "テックとAI",
    "style": "news",
    "analytics": {
     "video": "QDLWEI9Xmrw",
-    "views": 42,
-    "estimatedMinutesWatched": 0,
+    "views": 47,
+    "estimatedMinutesWatched": 1,
     "averageViewDuration": 5,
     "averageViewPercentage": 18.38,
     "subscribersGained": 0
@@ -1749,18 +1773,18 @@
    "title": "「work alongside」の意味、わかる?|会議の英語 #shorts",
    "privacy": "public",
    "published": "2026-11-18T12:00:39Z",
-   "views": 635,
+   "views": 632,
    "likes": 2,
    "comments": 0,
    "series": "テックとAI",
    "style": "quiz",
    "analytics": {
     "video": "7t6SShQIOdE",
-    "views": 307,
-    "estimatedMinutesWatched": 25,
-    "averageViewDuration": 15,
-    "averageViewPercentage": 74.01,
-    "subscribersGained": 0
+    "views": 632,
+    "estimatedMinutesWatched": 45,
+    "averageViewDuration": 12,
+    "averageViewPercentage": 59.38,
+    "subscribersGained": 1
    }
   },
   {
@@ -1782,17 +1806,17 @@
    "title": "「心よりおわびします」は英語で?携帯3社トップの謝罪 #ビジネス英語 #shorts",
    "privacy": "public",
    "published": "2026-11-19T03:00:11Z",
-   "views": 65,
+   "views": 64,
    "likes": 0,
    "comments": 0,
    "series": "経営者の一言を読む",
    "style": "news",
    "analytics": {
     "video": "fLFdrdfL4Jc",
-    "views": 63,
-    "estimatedMinutesWatched": 1,
-    "averageViewDuration": 7,
-    "averageViewPercentage": 24.33,
+    "views": 64,
+    "estimatedMinutesWatched": 2,
+    "averageViewDuration": 8,
+    "averageViewPercentage": 30.070000000000004,
     "subscribersGained": 0
    }
   },
@@ -1807,7 +1831,15 @@
    "likes": 2,
    "comments": 0,
    "series": "経営者の一言を読む",
-   "style": "quiz"
+   "style": "quiz",
+   "analytics": {
+    "video": "iAO2WQZGHVY",
+    "views": 159,
+    "estimatedMinutesWatched": 13,
+    "averageViewDuration": 24,
+    "averageViewPercentage": 129.28,
+    "subscribersGained": 0
+   }
   },
   {
    "ep": "2026-11-20-yen-near-160",
@@ -1828,11 +1860,19 @@
    "title": "「円安」は英語で?1ドル160円に迫り財務官が警告 #ビジネス英語 #shorts",
    "privacy": "public",
    "published": "2026-11-20T03:00:13Z",
-   "views": 53,
-   "likes": 1,
+   "views": 100,
+   "likes": 2,
    "comments": 0,
    "series": "海外メディアが報じる日本",
-   "style": "news"
+   "style": "news",
+   "analytics": {
+    "video": "lrkOizZ1lmc",
+    "views": 100,
+    "estimatedMinutesWatched": 5,
+    "averageViewDuration": 14,
+    "averageViewPercentage": 57.53,
+    "subscribersGained": 0
+   }
   },
   {
    "ep": "2026-11-20-yen-near-160",
@@ -1841,19 +1881,27 @@
    "title": "「stay in close contact」の意味、わかる?|会議の英語 #shorts",
    "privacy": "public",
    "published": "2026-11-20T12:00:07Z",
-   "views": 145,
-   "likes": 0,
+   "views": 707,
+   "likes": 2,
    "comments": 0,
    "series": "海外メディアが報じる日本",
-   "style": "quiz"
+   "style": "quiz",
+   "analytics": {
+    "video": "ED0y0MQRm-8",
+    "views": 707,
+    "estimatedMinutesWatched": 56,
+    "averageViewDuration": 18,
+    "averageViewPercentage": 91.11,
+    "subscribersGained": 0
+   }
   },
   {
    "ep": "2026-11-21-weekly-listening",
    "kind": "long",
    "id": "H6V0dxnZPmY",
    "title": "【聞き流し】会議で使えるビジネス英語18フレーズ|エヌビディア・ホンダ・円安のニュースから【ビジネス英語ニュース #37】",
-   "privacy": "private",
-   "published": "2026-11-13T21:35:19Z",
+   "privacy": "public",
+   "published": "2026-11-20T22:00:30Z",
    "views": 0,
    "likes": 0,
    "comments": 0,
@@ -1864,34 +1912,50 @@
    "kind": "short1",
    "id": "x6EGAK_w40Y",
    "title": "「on an interim basis」の意味、わかる?|会議の英語 #shorts",
-   "privacy": "private",
-   "published": "2026-11-13T21:35:24Z",
-   "views": 0,
-   "likes": 0,
+   "privacy": "public",
+   "published": "2026-11-21T03:00:02Z",
+   "views": 468,
+   "likes": 3,
    "comments": 0,
    "series": "今週の英単語 総復習",
-   "style": "quiz"
+   "style": "quiz",
+   "analytics": {
+    "video": "x6EGAK_w40Y",
+    "views": 468,
+    "estimatedMinutesWatched": 34,
+    "averageViewDuration": 14,
+    "averageViewPercentage": 75.44,
+    "subscribersGained": 0
+   }
   },
   {
    "ep": "2026-11-21-weekly-listening",
    "kind": "short2",
    "id": "aMpD2V2jlBE",
    "title": "「a tailwind」の意味、わかる?|会議の英語 #shorts",
-   "privacy": "private",
-   "published": "2026-11-13T21:35:25Z",
-   "views": 0,
+   "privacy": "public",
+   "published": "2026-11-21T12:00:22Z",
+   "views": 94,
    "likes": 0,
    "comments": 0,
    "series": "今週の英単語 総復習",
-   "style": "quiz"
+   "style": "quiz",
+   "analytics": {
+    "video": "aMpD2V2jlBE",
+    "views": 94,
+    "estimatedMinutesWatched": 7,
+    "averageViewDuration": 25,
+    "averageViewPercentage": 147.81,
+    "subscribersGained": 0
+   }
   },
   {
    "ep": "2026-11-22-ask-whats-it-based-on",
    "kind": "long",
    "id": "wOPITw5j46U",
    "title": "「根拠は?」は英語で?What's that based on?の使い方|数字の根拠を失礼なく聞く【ビジネス英語ニュース #38】",
-   "privacy": "private",
-   "published": "2026-11-13T21:35:27Z",
+   "privacy": "public",
+   "published": "2026-11-21T22:00:34Z",
    "views": 0,
    "likes": 0,
    "comments": 0,
@@ -1902,26 +1966,42 @@
    "kind": "short1",
    "id": "B7TG-YHupR8",
    "title": "「根拠は?」は英語で?失礼にならない数字の確認 #ビジネス英語 #shorts",
-   "privacy": "private",
-   "published": "2026-11-13T21:35:32Z",
-   "views": 0,
+   "privacy": "public",
+   "published": "2026-11-22T03:00:36Z",
+   "views": 100,
    "likes": 0,
    "comments": 0,
    "series": "場面別の英語",
-   "style": "news"
+   "style": "news",
+   "analytics": {
+    "video": "B7TG-YHupR8",
+    "views": 100,
+    "estimatedMinutesWatched": 4,
+    "averageViewDuration": 11,
+    "averageViewPercentage": 42.81,
+    "subscribersGained": 0
+   }
   },
   {
    "ep": "2026-11-22-ask-whats-it-based-on",
    "kind": "short2",
    "id": "y3nduojasHs",
    "title": "「walk me through」の意味、わかる?|会議の英語 #shorts",
-   "privacy": "private",
-   "published": "2026-11-13T21:35:34Z",
-   "views": 0,
-   "likes": 0,
+   "privacy": "public",
+   "published": "2026-11-22T12:00:22Z",
+   "views": 925,
+   "likes": 5,
    "comments": 0,
    "series": "場面別の英語",
-   "style": "quiz"
+   "style": "quiz",
+   "analytics": {
+    "video": "y3nduojasHs",
+    "views": 920,
+    "estimatedMinutesWatched": 68,
+    "averageViewDuration": 13,
+    "averageViewPercentage": 72.25,
+    "subscribersGained": 1
+   }
   },
   {
    "ep": "2026-11-16-japan-gdp-flat",
@@ -1930,13 +2010,13 @@
    "title": "「横ばい」は英語で?flatの使い方|GDP4期ぶりマイナス成長【ビジネス英語ニュース #39】",
    "privacy": "public",
    "published": "2026-11-16T09:51:48Z",
-   "views": 3,
+   "views": 6,
    "likes": 0,
    "comments": 0,
    "series": "速報",
    "analytics": {
     "video": "6O4IHK_dW9A",
-    "views": 2,
+    "views": 6,
     "estimatedMinutesWatched": 0,
     "averageViewDuration": 0,
     "averageViewPercentage": 0,
@@ -1950,15 +2030,15 @@
    "title": "「横ばい」は英語で?日本のGDPが4期ぶりマイナス #ビジネス英語 #shorts",
    "privacy": "public",
    "published": "2026-11-16T09:51:28Z",
-   "views": 50,
+   "views": 51,
    "likes": 0,
    "comments": 0,
    "series": "速報",
    "style": "news",
    "analytics": {
     "video": "gxbm6LQpZr0",
-    "views": 48,
-    "estimatedMinutesWatched": 0,
+    "views": 51,
+    "estimatedMinutesWatched": 1,
     "averageViewDuration": 12,
     "averageViewPercentage": 49.23,
     "subscribersGained": 0
@@ -1971,14 +2051,14 @@
    "title": "「weigh on」の意味、わかる?|会議の英語 #shorts",
    "privacy": "public",
    "published": "2026-11-16T12:42:19Z",
-   "views": 651,
+   "views": 652,
    "likes": 1,
    "comments": 0,
    "series": "速報",
    "style": "quiz",
    "analytics": {
     "video": "6FHdw6J5VBk",
-    "views": 651,
+    "views": 652,
     "estimatedMinutesWatched": 71,
     "averageViewDuration": 22,
     "averageViewPercentage": 127.24,
@@ -2004,17 +2084,17 @@
    "title": "「通常どおり」は英語で?エヌビディア売上2倍 #ビジネス英語 #shorts",
    "privacy": "public",
    "published": "2026-11-18T11:04:48Z",
-   "views": 6,
+   "views": 7,
    "likes": 0,
    "comments": 0,
    "series": "速報",
    "style": "news",
    "analytics": {
     "video": "ef_lkS7HE64",
-    "views": 3,
+    "views": 7,
     "estimatedMinutesWatched": 0,
-    "averageViewDuration": 11,
-    "averageViewPercentage": 40.59,
+    "averageViewDuration": 13,
+    "averageViewPercentage": 47.24,
     "subscribersGained": 0
    }
   },
@@ -2025,17 +2105,17 @@
    "title": "「on track」の意味、わかる?|会議の英語 #shorts",
    "privacy": "public",
    "published": "2026-11-18T12:41:14Z",
-   "views": 42,
+   "views": 43,
    "likes": 0,
    "comments": 0,
    "series": "速報",
    "style": "quiz",
    "analytics": {
     "video": "juyTuQp74rM",
-    "views": 26,
-    "estimatedMinutesWatched": 1,
+    "views": 43,
+    "estimatedMinutesWatched": 2,
     "averageViewDuration": 9,
-    "averageViewPercentage": 51.04,
+    "averageViewPercentage": 51.73,
     "subscribersGained": 0
    }
   },
@@ -2058,11 +2138,19 @@
    "title": "「全面的に」は英語で?日経平均3007円安 #ビジネス英語 #shorts",
    "privacy": "public",
    "published": "2026-11-20T09:54:08Z",
-   "views": 46,
-   "likes": 0,
+   "views": 260,
+   "likes": 1,
    "comments": 0,
    "series": "速報",
-   "style": "news"
+   "style": "news",
+   "analytics": {
+    "video": "yZD2UwA300A",
+    "views": 259,
+    "estimatedMinutesWatched": 16,
+    "averageViewDuration": 13,
+    "averageViewPercentage": 50.9,
+    "subscribersGained": 0
+   }
   },
   {
    "ep": "2026-11-20-nikkei-across-the-board",
@@ -2071,11 +2159,349 @@
    "title": "「short-lived」の意味、わかる?|会議の英語 #shorts",
    "privacy": "public",
    "published": "2026-11-20T12:42:33Z",
-   "views": 86,
+   "views": 254,
    "likes": 1,
    "comments": 0,
    "series": "速報",
+   "style": "quiz",
+   "analytics": {
+    "video": "YsROj8kJ8Yg",
+    "views": 254,
+    "estimatedMinutesWatched": 13,
+    "averageViewDuration": 11,
+    "averageViewPercentage": 63.43,
+    "subscribersGained": 1
+   }
+  },
+  {
+   "ep": "2026-11-23-smbc-vendor-leak",
+   "kind": "long",
+   "id": "TzH26VoK8qg",
+   "title": "「外部の委託先」は英語で?a third-party vendorの使い方|三井住友銀で最大1400万件流出【ビジネス英語ニュース #42】",
+   "privacy": "public",
+   "published": "2026-11-22T22:00:36Z",
+   "views": 1,
+   "likes": 0,
+   "comments": 0,
+   "series": "Weekly Brief",
+   "analytics": {
+    "video": "TzH26VoK8qg",
+    "views": 1,
+    "estimatedMinutesWatched": 1,
+    "averageViewDuration": 66,
+    "averageViewPercentage": 22.97,
+    "subscribersGained": 0
+   }
+  },
+  {
+   "ep": "2026-11-23-smbc-vendor-leak",
+   "kind": "short1",
+   "id": "hqOj5m5z_rA",
+   "title": "「a third-party vendor」の意味、わかる?|TOEIC730点・会議の英語 #shorts",
+   "privacy": "public",
+   "published": "2026-11-23T03:00:17Z",
+   "views": 114,
+   "likes": 1,
+   "comments": 0,
+   "series": "Weekly Brief",
+   "style": "quiz",
+   "analytics": {
+    "video": "hqOj5m5z_rA",
+    "views": 113,
+    "estimatedMinutesWatched": 10,
+    "averageViewDuration": 12,
+    "averageViewPercentage": 58.41,
+    "subscribersGained": 0
+   }
+  },
+  {
+   "ep": "2026-11-23-smbc-vendor-leak",
+   "kind": "short2",
+   "id": "LaMfdcgH1bA",
+   "title": "「out of an abundance of caution」の意味、わかる?|会議の英語 #shorts",
+   "privacy": "public",
+   "published": "2026-11-23T12:00:12Z",
+   "views": 125,
+   "likes": 1,
+   "comments": 0,
+   "series": "Weekly Brief",
+   "style": "quiz",
+   "analytics": {
+    "video": "LaMfdcgH1bA",
+    "views": 124,
+    "estimatedMinutesWatched": 9,
+    "averageViewDuration": 15,
+    "averageViewPercentage": 71.88,
+    "subscribersGained": 0
+   }
+  },
+  {
+   "ep": "2026-11-25-apple-ai-agent",
+   "kind": "long",
+   "id": "oQCOZy0WPHs",
+   "title": "「まだ初期段階」は英語で?in the early stagesの使い方|アップルがPC操作AIを開発か【ビジネス英語ニュース #44】",
+   "privacy": "public",
+   "published": "2026-11-24T22:00:06Z",
+   "views": 0,
+   "likes": 0,
+   "comments": 0,
+   "series": "テックとAI"
+  },
+  {
+   "ep": "2026-11-25-apple-ai-agent",
+   "kind": "short1",
+   "id": "TgeansBMNAY",
+   "title": "「in the early stages」の意味、わかる?|TOEIC730点・会議の英語 #shorts",
+   "privacy": "public",
+   "published": "2026-11-25T03:00:03Z",
+   "views": 7,
+   "likes": 0,
+   "comments": 0,
+   "series": "テックとAI",
+   "style": "quiz",
+   "analytics": {
+    "video": "TgeansBMNAY",
+    "views": 6,
+    "estimatedMinutesWatched": 0,
+    "averageViewDuration": 22,
+    "averageViewPercentage": 113.27000000000001,
+    "subscribersGained": 0
+   }
+  },
+  {
+   "ep": "2026-11-25-apple-ai-agent",
+   "kind": "short2",
+   "id": "1Z0bSql3B9c",
+   "title": "「as soon as」の意味、わかる?|会議の英語 #shorts",
+   "privacy": "public",
+   "published": "2026-11-25T12:00:20Z",
+   "views": 44,
+   "likes": 0,
+   "comments": 0,
+   "series": "テックとAI",
+   "style": "quiz",
+   "analytics": {
+    "video": "1Z0bSql3B9c",
+    "views": 42,
+    "estimatedMinutesWatched": 3,
+    "averageViewDuration": 14,
+    "averageViewPercentage": 80.73,
+    "subscribersGained": 0
+   }
+  },
+  {
+   "ep": "2026-11-26-nadella-somebody-else-will",
+   "kind": "long",
+   "id": "M8ykwE5XTkE",
+   "title": "「誰かがやる」は英語で?somebody else willの使い方|ナデラCEOのAI予言【ビジネス英語ニュース #45】",
+   "privacy": "public",
+   "published": "2026-11-25T22:00:32Z",
+   "views": 0,
+   "likes": 0,
+   "comments": 0,
+   "series": "経営者の一言を読む"
+  },
+  {
+   "ep": "2026-11-26-nadella-somebody-else-will",
+   "kind": "short1",
+   "id": "xkv93-DsIqY",
+   "title": "「somebody else will」の意味、わかる?|会議の英語 #shorts",
+   "privacy": "public",
+   "published": "2026-11-26T03:00:08Z",
+   "views": 5,
+   "likes": 0,
+   "comments": 0,
+   "series": "経営者の一言を読む",
+   "style": "quiz",
+   "analytics": {
+    "video": "xkv93-DsIqY",
+    "views": 3,
+    "estimatedMinutesWatched": 0,
+    "averageViewDuration": 6,
+    "averageViewPercentage": 30.65,
+    "subscribersGained": 0
+   }
+  },
+  {
+   "ep": "2026-11-26-nadella-somebody-else-will",
+   "kind": "short2",
+   "id": "JNdb7e1U4_c",
+   "title": "「scramble」の意味、わかる?|TOEIC730点・会議の英語 #shorts",
+   "privacy": "public",
+   "published": "2026-11-26T12:00:24Z",
+   "views": 1,
+   "likes": 0,
+   "comments": 0,
+   "series": "経営者の一言を読む",
    "style": "quiz"
+  },
+  {
+   "ep": "2026-11-27-japan-cpi-december-hike",
+   "kind": "long",
+   "id": "p3UU9sGfjkw",
+   "title": "「2か月連続で」は英語で?for the second month in a rowの使い方|物価2.2%で12月利上げ?【ビジネス英語ニュース #46】",
+   "privacy": "public",
+   "published": "2026-11-26T22:00:17Z",
+   "views": 0,
+   "likes": 0,
+   "comments": 0,
+   "series": "海外メディアが報じる日本"
+  },
+  {
+   "ep": "2026-11-27-japan-cpi-december-hike",
+   "kind": "short1",
+   "id": "AEmb2sx3aME",
+   "title": "「for the second month in a row」の意味、わかる?|TOEIC730点・会議の英語 #shorts",
+   "privacy": "public",
+   "published": "2026-11-27T03:00:13Z",
+   "views": 4,
+   "likes": 1,
+   "comments": 0,
+   "series": "海外メディアが報じる日本",
+   "style": "quiz"
+  },
+  {
+   "ep": "2026-11-27-japan-cpi-december-hike",
+   "kind": "short2",
+   "id": "yBll2FX3uZg",
+   "title": "「a strong chance」の意味、わかる?|会議の英語 #shorts",
+   "privacy": "public",
+   "published": "2026-11-27T12:00:01Z",
+   "views": 7,
+   "likes": 0,
+   "comments": 0,
+   "series": "海外メディアが報じる日本",
+   "style": "quiz"
+  },
+  {
+   "ep": "2026-11-28-weekly-listening",
+   "kind": "long",
+   "id": "-7-_zk5A_1o",
+   "title": "【聞き流し】TOEIC・会議で使えるビジネス英語18選|三井住友銀・ウォルマート・アップルのニュースから【ビジネス英語ニュース #47】",
+   "privacy": "public",
+   "published": "2026-11-27T22:00:28Z",
+   "views": 0,
+   "likes": 0,
+   "comments": 0,
+   "series": "今週の英単語 総復習"
+  },
+  {
+   "ep": "2026-11-28-weekly-listening",
+   "kind": "short1",
+   "id": "oxsByZKnqQo",
+   "title": "「Just to clarify」の意味、わかる?|TOEIC730点・会議の英語 #shorts",
+   "privacy": "private",
+   "published": "2026-11-20T21:38:29Z",
+   "views": 0,
+   "likes": 0,
+   "comments": 0,
+   "series": "今週の英単語 総復習",
+   "style": "quiz"
+  },
+  {
+   "ep": "2026-11-28-weekly-listening",
+   "kind": "short2",
+   "id": "llk4a4vtD9c",
+   "title": "「strengthen the case for」の意味、わかる?|会議の英語 #shorts",
+   "privacy": "private",
+   "published": "2026-11-20T21:38:37Z",
+   "views": 0,
+   "likes": 0,
+   "comments": 0,
+   "series": "今週の英単語 総復習",
+   "style": "quiz"
+  },
+  {
+   "ep": "2026-11-29-report-an-outage",
+   "kind": "long",
+   "id": "DoRNt9hZTMo",
+   "title": "「問題は把握しています」は英語で?We're aware of the issueの使い方|障害報告の英語【ビジネス英語ニュース #48】",
+   "privacy": "private",
+   "published": "2026-11-20T21:38:57Z",
+   "views": 0,
+   "likes": 0,
+   "comments": 0,
+   "series": "場面別の英語"
+  },
+  {
+   "ep": "2026-11-29-report-an-outage",
+   "kind": "short1",
+   "id": "hwCS8iFtEyk",
+   "title": "「the root cause」の意味、わかる?|TOEIC730点・会議の英語 #shorts",
+   "privacy": "private",
+   "published": "2026-11-20T21:39:04Z",
+   "views": 0,
+   "likes": 0,
+   "comments": 0,
+   "series": "場面別の英語",
+   "style": "quiz"
+  },
+  {
+   "ep": "2026-11-29-report-an-outage",
+   "kind": "short2",
+   "id": "g7dPef0IUXo",
+   "title": "「I'll send an update by」の意味、わかる?|会議の英語 #shorts",
+   "privacy": "private",
+   "published": "2026-11-20T21:39:06Z",
+   "views": 0,
+   "likes": 0,
+   "comments": 0,
+   "series": "場面別の英語",
+   "style": "quiz"
+  },
+  {
+   "ep": "2026-11-24-walmart-narrow-range",
+   "kind": "long",
+   "id": "JOL93-PUaH8",
+   "title": "「幅を狭める」は英語で?narrow the rangeの使い方|ウォルマートが見通し引き上げ【ビジネス英語ニュース #43】",
+   "privacy": "public",
+   "published": "2026-11-23T22:00:09Z",
+   "views": 0,
+   "likes": 0,
+   "comments": 0,
+   "series": "決算と数字の英語"
+  },
+  {
+   "ep": "2026-11-24-walmart-narrow-range",
+   "kind": "short1",
+   "id": "h0VqBolInkc",
+   "title": "「gain market share」の意味、わかる?|会議の英語 #shorts",
+   "privacy": "public",
+   "published": "2026-11-24T03:00:11Z",
+   "views": 2,
+   "likes": 0,
+   "comments": 0,
+   "series": "決算と数字の英語",
+   "style": "quiz",
+   "analytics": {
+    "video": "h0VqBolInkc",
+    "views": 1,
+    "estimatedMinutesWatched": 0,
+    "averageViewDuration": 0,
+    "averageViewPercentage": 0,
+    "subscribersGained": 0
+   }
+  },
+  {
+   "ep": "2026-11-24-walmart-narrow-range",
+   "kind": "short2",
+   "id": "gIIephWbEGQ",
+   "title": "「narrow the range」の意味、わかる?|TOEIC730点・会議の英語 #shorts",
+   "privacy": "public",
+   "published": "2026-11-24T12:00:05Z",
+   "views": 10,
+   "likes": 1,
+   "comments": 0,
+   "series": "決算と数字の英語",
+   "style": "quiz",
+   "analytics": {
+    "video": "gIIephWbEGQ",
+    "views": 9,
+    "estimatedMinutesWatched": 0,
+    "averageViewDuration": 15,
+    "averageViewPercentage": 79.46,
+    "subscribersGained": 0
+   }
   }
  ],
  "instagram": [
@@ -2181,7 +2607,7 @@
   {
    "ep": "2026-10-25-salesforce-braze",
    "permalink": "https://www.instagram.com/p/DfBABwQGIqT/",
-   "views": 51,
+   "views": 54,
    "reach": 17,
    "saved": 1,
    "shares": 0,
@@ -2190,7 +2616,7 @@
   {
    "ep": "2026-10-25-spacex-tesla-merger",
    "permalink": "https://www.instagram.com/p/DfBfZmXkZZa/",
-   "views": 38,
+   "views": 45,
    "reach": 14,
    "saved": 1,
    "shares": 0,
@@ -2199,7 +2625,7 @@
   {
    "ep": "2026-10-25-china-ai-export-controls",
    "permalink": "https://www.instagram.com/p/DfDlRtEjqEX/",
-   "views": 46,
+   "views": 51,
    "reach": 11,
    "saved": 1,
    "shares": 0,
@@ -2217,7 +2643,7 @@
   {
    "ep": "2026-10-25-iphone-duo-china",
    "permalink": "https://www.instagram.com/p/DfGKQ35mAq4/",
-   "views": 54,
+   "views": 58,
    "reach": 12,
    "saved": 1,
    "shares": 0,
@@ -2280,7 +2706,7 @@
   {
    "ep": "2026-10-29-robinhood-ecosystem",
    "permalink": "https://www.instagram.com/p/DfJN3UzGOqE/",
-   "views": 44,
+   "views": 46,
    "reach": 11,
    "saved": 1,
    "shares": 0,
@@ -2298,7 +2724,7 @@
   {
    "ep": "2026-10-31-weekly-review",
    "permalink": "https://www.instagram.com/p/DfLTEAlmErT/",
-   "views": 34,
+   "views": 39,
    "reach": 7,
    "saved": 1,
    "shares": 0,
@@ -2343,7 +2769,7 @@
   {
    "ep": "2026-11-01-disagree-politely",
    "permalink": "https://www.instagram.com/p/DfMYW-umKcd/",
-   "views": 39,
+   "views": 44,
    "reach": 11,
    "saved": 1,
    "shares": 0,
@@ -2397,8 +2823,8 @@
   {
    "ep": "2026-11-04-oracle-ai-chips",
    "permalink": "https://www.instagram.com/reel/DfUfZybkaLm/",
-   "views": 30,
-   "reach": 19,
+   "views": 32,
+   "reach": 20,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0
@@ -2415,7 +2841,7 @@
   {
    "ep": "2026-11-03-intel-pc-slowdown",
    "permalink": "https://www.instagram.com/p/DfQdwo5jXm8/",
-   "views": 48,
+   "views": 50,
    "reach": 10,
    "saved": 1,
    "shares": 0,
@@ -2433,7 +2859,7 @@
   {
    "ep": "2026-11-05-microsoft-demand-supply",
    "permalink": "https://www.instagram.com/p/DfVnovMEnyr/",
-   "views": 38,
+   "views": 41,
    "reach": 9,
    "saved": 1,
    "shares": 0,
@@ -2505,7 +2931,7 @@
   {
    "ep": "2026-11-07-weekly-review",
    "permalink": "https://www.instagram.com/p/Dfawz9Nn-TF/",
-   "views": 43,
+   "views": 45,
    "reach": 7,
    "saved": 1,
    "shares": 0,
@@ -2523,7 +2949,7 @@
   {
    "ep": "2026-11-08-bad-news-early",
    "permalink": "https://www.instagram.com/reel/Dfd1J6Zge-A/",
-   "views": 129,
+   "views": 130,
    "reach": 115,
    "saved": 1,
    "shares": 0,
@@ -2532,8 +2958,8 @@
   {
    "ep": "2026-11-08-bad-news-early",
    "permalink": "https://www.instagram.com/reel/DfexCdqj5cd/",
-   "views": 148,
-   "reach": 128,
+   "views": 149,
+   "reach": 129,
    "saved": 0,
    "shares": 0,
    "total_interactions": 2
@@ -2541,7 +2967,7 @@
   {
    "ep": "2026-11-09-midterms-ai-selloff",
    "permalink": "https://www.instagram.com/reel/DfgaWbrD4_Q/",
-   "views": 33,
+   "views": 35,
    "reach": 28,
    "saved": 1,
    "shares": 0,
@@ -2550,8 +2976,8 @@
   {
    "ep": "2026-11-09-midterms-ai-selloff",
    "permalink": "https://www.instagram.com/reel/DfhYOb0EmaC/",
-   "views": 69,
-   "reach": 55,
+   "views": 71,
+   "reach": 56,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0
@@ -2559,8 +2985,8 @@
   {
    "ep": "2026-11-10-toyota-raises-forecast",
    "permalink": "https://www.instagram.com/reel/Dfi-hjVDr37/",
-   "views": 49,
-   "reach": 47,
+   "views": 51,
+   "reach": 48,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0
@@ -2568,8 +2994,8 @@
   {
    "ep": "2026-11-10-toyota-raises-forecast",
    "permalink": "https://www.instagram.com/reel/Dfj8hwMjlfR/",
-   "views": 142,
-   "reach": 122,
+   "views": 144,
+   "reach": 123,
    "saved": 1,
    "shares": 1,
    "total_interactions": 2
@@ -2577,8 +3003,8 @@
   {
    "ep": "2026-11-11-chatgpt-google-fifth",
    "permalink": "https://www.instagram.com/reel/Dflj1UfEyL_/",
-   "views": 34,
-   "reach": 29,
+   "views": 35,
+   "reach": 30,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0
@@ -2595,8 +3021,8 @@
   {
    "ep": "2026-11-12-apple-ternus-first-call",
    "permalink": "https://www.instagram.com/reel/DfoIn-6CdP4/",
-   "views": 41,
-   "reach": 30,
+   "views": 42,
+   "reach": 31,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0
@@ -2604,8 +3030,8 @@
   {
    "ep": "2026-11-12-apple-ternus-first-call",
    "permalink": "https://www.instagram.com/reel/DfpGfUqgQbT/",
-   "views": 130,
-   "reach": 110,
+   "views": 132,
+   "reach": 112,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0
@@ -2613,8 +3039,8 @@
   {
    "ep": "2026-11-13-nintendo-switch2-cools",
    "permalink": "https://www.instagram.com/reel/DfqtR0QDrQY/",
-   "views": 135,
-   "reach": 119,
+   "views": 137,
+   "reach": 120,
    "saved": 1,
    "shares": 0,
    "total_interactions": 2
@@ -2622,8 +3048,8 @@
   {
    "ep": "2026-11-13-nintendo-switch2-cools",
    "permalink": "https://www.instagram.com/reel/DfrrF2kDvNO/",
-   "views": 167,
-   "reach": 146,
+   "views": 171,
+   "reach": 147,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0
@@ -2631,8 +3057,8 @@
   {
    "ep": "2026-11-14-weekly-listening",
    "permalink": "https://www.instagram.com/reel/DftRryTj6O2/",
-   "views": 186,
-   "reach": 148,
+   "views": 189,
+   "reach": 150,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0
@@ -2640,8 +3066,8 @@
   {
    "ep": "2026-11-14-weekly-listening",
    "permalink": "https://www.instagram.com/reel/DfuN3XADKC3/",
-   "views": 127,
-   "reach": 114,
+   "views": 128,
+   "reach": 115,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0
@@ -2649,8 +3075,8 @@
   {
    "ep": "2026-11-15-not-decided-yet",
    "permalink": "https://www.instagram.com/reel/Dfv2vg_Dyn7/",
-   "views": 149,
-   "reach": 128,
+   "views": 151,
+   "reach": 130,
    "saved": 2,
    "shares": 0,
    "total_interactions": 3
@@ -2658,8 +3084,8 @@
   {
    "ep": "2026-11-15-not-decided-yet",
    "permalink": "https://www.instagram.com/reel/Dfwy4M9gvRQ/",
-   "views": 298,
-   "reach": 263,
+   "views": 300,
+   "reach": 264,
    "saved": 4,
    "shares": 0,
    "total_interactions": 7
@@ -2676,7 +3102,7 @@
   {
    "ep": "2026-11-10-toyota-raises-forecast",
    "permalink": "https://www.instagram.com/p/DfifeR9mMNP/",
-   "views": 37,
+   "views": 39,
    "reach": 9,
    "saved": 1,
    "shares": 0,
@@ -2694,8 +3120,8 @@
   {
    "ep": "2026-11-12-apple-ternus-first-call",
    "permalink": "https://www.instagram.com/p/DfnqX76l5s4/",
-   "views": 22,
-   "reach": 7,
+   "views": 25,
+   "reach": 8,
    "saved": 0,
    "shares": 0,
    "total_interactions": 1
@@ -2703,8 +3129,8 @@
   {
    "ep": "2026-11-13-nintendo-switch2-cools",
    "permalink": "https://www.instagram.com/p/DfqN0iRIH70/",
-   "views": 26,
-   "reach": 10,
+   "views": 28,
+   "reach": 11,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0
@@ -2712,8 +3138,8 @@
   {
    "ep": "2026-11-14-weekly-listening",
    "permalink": "https://www.instagram.com/p/DfsynxVl8-y/",
-   "views": 17,
-   "reach": 7,
+   "views": 20,
+   "reach": 8,
    "saved": 0,
    "shares": 0,
    "total_interactions": 1
@@ -2721,8 +3147,8 @@
   {
    "ep": "2026-11-15-not-decided-yet",
    "permalink": "https://www.instagram.com/p/DfvWyL0jOuv/",
-   "views": 38,
-   "reach": 10,
+   "views": 47,
+   "reach": 12,
    "saved": 1,
    "shares": 0,
    "total_interactions": 2
@@ -2739,8 +3165,8 @@
   {
    "ep": "2026-11-10-softbank-swing-to-loss",
    "permalink": "https://www.instagram.com/reel/Dfj85L7jICW/",
-   "views": 64,
-   "reach": 61,
+   "views": 66,
+   "reach": 62,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0
@@ -2748,8 +3174,8 @@
   {
    "ep": "2026-11-10-softbank-swing-to-loss",
    "permalink": "https://www.instagram.com/p/DfwzUcHE9AI/",
-   "views": 28,
-   "reach": 9,
+   "views": 42,
+   "reach": 10,
    "saved": 1,
    "shares": 0,
    "total_interactions": 2
@@ -2757,8 +3183,8 @@
   {
    "ep": "2026-11-12-nvidia-ceo-future",
    "permalink": "https://www.instagram.com/reel/DfozNIZikKx/",
-   "views": 90,
-   "reach": 80,
+   "views": 94,
+   "reach": 82,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0
@@ -2766,8 +3192,8 @@
   {
    "ep": "2026-11-12-nvidia-ceo-future",
    "permalink": "https://www.instagram.com/reel/DfpG2c_GvEl/",
-   "views": 132,
-   "reach": 114,
+   "views": 134,
+   "reach": 115,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0
@@ -2775,8 +3201,8 @@
   {
    "ep": "2026-11-12-nvidia-ceo-future",
    "permalink": "https://www.instagram.com/p/Dfx8F-9k-Hs/",
-   "views": 18,
-   "reach": 8,
+   "views": 23,
+   "reach": 9,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0
@@ -2793,8 +3219,8 @@
   {
    "ep": "2026-11-16-nvidia-huang-steps-down",
    "permalink": "https://www.instagram.com/reel/Dfzm4PJFfFr/",
-   "views": 165,
-   "reach": 151,
+   "views": 168,
+   "reach": 153,
    "saved": 2,
    "shares": 0,
    "total_interactions": 2
@@ -2802,8 +3228,8 @@
   {
    "ep": "2026-11-17-honda-tailwind",
    "permalink": "https://www.instagram.com/reel/Df1AiKMCEh7/",
-   "views": 106,
-   "reach": 98,
+   "views": 110,
+   "reach": 99,
    "saved": 0,
    "shares": 0,
    "total_interactions": 1
@@ -2811,8 +3237,8 @@
   {
    "ep": "2026-11-17-honda-tailwind",
    "permalink": "https://www.instagram.com/reel/Df1-Jn3D8N_/",
-   "views": 134,
-   "reach": 116,
+   "views": 140,
+   "reach": 119,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0
@@ -2820,8 +3246,8 @@
   {
    "ep": "2026-11-19-telecom-ceos-apologize",
    "permalink": "https://www.instagram.com/reel/Df6JujLD6pR/",
-   "views": 92,
-   "reach": 84,
+   "views": 98,
+   "reach": 87,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0
@@ -2829,17 +3255,26 @@
   {
    "ep": "2026-11-20-yen-near-160",
    "permalink": "https://www.instagram.com/reel/Df8tx-ble_p/",
-   "views": 96,
-   "reach": 87,
+   "views": 105,
+   "reach": 96,
    "saved": 1,
    "shares": 0,
    "total_interactions": 1
   },
   {
+   "ep": "2026-11-21-weekly-listening",
+   "permalink": "https://www.instagram.com/reel/Df_QniXCYUg/",
+   "views": 128,
+   "reach": 110,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 3
+  },
+  {
    "ep": "2026-11-16-nvidia-huang-steps-down",
    "permalink": "https://www.instagram.com/p/DfzFJL0l5Df/",
-   "views": 26,
-   "reach": 8,
+   "views": 40,
+   "reach": 10,
    "saved": 1,
    "shares": 0,
    "total_interactions": 2
@@ -2847,8 +3282,8 @@
   {
    "ep": "2026-11-17-honda-tailwind",
    "permalink": "https://www.instagram.com/p/Df0hUwFl4x0/",
-   "views": 24,
-   "reach": 7,
+   "views": 31,
+   "reach": 10,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0
@@ -2856,8 +3291,8 @@
   {
    "ep": "2026-11-18-google-robots-mercedes",
    "permalink": "https://www.instagram.com/p/Df3G4Brk4Lw/",
-   "views": 23,
-   "reach": 7,
+   "views": 27,
+   "reach": 9,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0
@@ -2865,8 +3300,8 @@
   {
    "ep": "2026-11-19-telecom-ceos-apologize",
    "permalink": "https://www.instagram.com/p/Df6KKN8E-bw/",
-   "views": 25,
-   "reach": 7,
+   "views": 33,
+   "reach": 10,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0
@@ -2874,17 +3309,35 @@
   {
    "ep": "2026-11-20-yen-near-160",
    "permalink": "https://www.instagram.com/p/Df8uNhtk_9P/",
-   "views": 12,
-   "reach": 5,
+   "views": 33,
+   "reach": 10,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0
   },
   {
+   "ep": "2026-11-21-weekly-listening",
+   "permalink": "https://www.instagram.com/p/Df_RC-hmq2s/",
+   "views": 40,
+   "reach": 10,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0
+  },
+  {
+   "ep": "2026-11-22-ask-whats-it-based-on",
+   "permalink": "https://www.instagram.com/p/DgBv6vkEtLU/",
+   "views": 40,
+   "reach": 11,
+   "saved": 1,
+   "shares": 0,
+   "total_interactions": 1
+  },
+  {
    "ep": "2026-11-16-japan-gdp-flat",
    "permalink": "https://www.instagram.com/reel/DfzFdllABG2/",
-   "views": 133,
-   "reach": 112,
+   "views": 137,
+   "reach": 114,
    "saved": 0,
    "shares": 0,
    "total_interactions": 1
@@ -2892,17 +3345,35 @@
   {
    "ep": "2026-11-16-japan-gdp-flat",
    "permalink": "https://www.instagram.com/reel/DfznQ1pjwhZ/",
-   "views": 133,
-   "reach": 113,
+   "views": 134,
+   "reach": 114,
    "saved": 2,
    "shares": 0,
    "total_interactions": 2
   },
   {
+   "ep": "2026-11-16-japan-gdp-flat",
+   "permalink": "https://www.instagram.com/p/DgCprhak34D/",
+   "views": 39,
+   "reach": 13,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0
+  },
+  {
    "ep": "2026-11-18-nvidia-business-as-usual",
    "permalink": "https://www.instagram.com/reel/Df4ai4tnBpp/",
-   "views": 115,
-   "reach": 107,
+   "views": 123,
+   "reach": 111,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 0
+  },
+  {
+   "ep": "2026-11-18-nvidia-business-as-usual",
+   "permalink": "https://www.instagram.com/p/DgDggjtl7EH/",
+   "views": 30,
+   "reach": 9,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0
@@ -2910,52 +3381,87 @@
   {
    "ep": "2026-11-20-nikkei-across-the-board",
    "permalink": "https://www.instagram.com/reel/Df9Yj3mjV1c/",
-   "views": 32,
-   "reach": 26,
+   "views": 88,
+   "reach": 77,
    "saved": 0,
    "shares": 0,
    "total_interactions": 0
+  },
+  {
+   "ep": "2026-11-23-smbc-vendor-leak",
+   "permalink": "https://www.instagram.com/reel/DgEXkDwnG25/",
+   "views": 109,
+   "reach": 89,
+   "saved": 1,
+   "shares": 0,
+   "total_interactions": 3
+  },
+  {
+   "ep": "2026-11-23-smbc-vendor-leak",
+   "permalink": "https://www.instagram.com/reel/DgFWfj9Fb49/",
+   "views": 148,
+   "reach": 123,
+   "saved": 1,
+   "shares": 0,
+   "total_interactions": 3
+  },
+  {
+   "ep": "2026-11-24-walmart-narrow-range",
+   "permalink": "https://www.instagram.com/reel/DgHTAhDEmHI/",
+   "views": 133,
+   "reach": 115,
+   "saved": 0,
+   "shares": 0,
+   "total_interactions": 1
   }
  ],
  "channel": {
-  "viewCount": "10559",
-  "subscriberCount": "17",
+  "viewCount": "14005",
+  "subscriberCount": "21",
   "hiddenSubscriberCount": false,
-  "videoCount": "107"
+  "videoCount": "134"
  },
  "traffic": [
   [
    "SHORTS",
-   9575
+   13224
   ],
   [
    "YT_SEARCH",
-   277
+   388
   ],
   [
    "YT_OTHER_PAGE",
-   163
+   236
   ],
   [
    "YT_CHANNEL",
-   72
+   113
   ],
   [
    "RELATED_VIDEO",
-   8
+   14
   ],
   [
    "NO_LINK_OTHER",
-   3
+   4
+  ],
+  [
+   "PLAYLIST",
+   4
   ],
   [
    "EXT_URL",
    3
+  ],
+  [
+   "SUBSCRIBER",
+   1
   ]
  ],
  "ig_account": {
   "id": "17841415781522836",
-  "followers_count": 157,
-  "media_count": 103
+  "followers_count": 167,
+  "media_count": 118
  }
 }
