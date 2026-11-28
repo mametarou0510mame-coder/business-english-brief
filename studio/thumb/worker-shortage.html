@@ -1,0 +1,35 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+body{margin:0} #t{position:relative;width:1280px;height:720px;overflow:hidden;background:#F7F5F0;font-family:Inter,"Noto Sans CJK JP",sans-serif;
+background-image:linear-gradient(#ECE8E0 1px,transparent 1px),linear-gradient(90deg,#ECE8E0 1px,transparent 1px);background-size:48px 48px}
+.a{position:absolute}
+.l1{left:56px;top:70px;font:900 118px "Noto Sans CJK JP";color:#1C1C1E;line-height:1.05;letter-spacing:-.02em}
+.l1 b{color:#DE4A28}
+.num{left:60px;top:345px;font:900 104px Inter;color:#DE4A28;letter-spacing:-.03em}
+.sub{left:64px;top:470px;font:700 34px "Noto Sans CJK JP";color:#606068}
+.pill{left:60px;top:560px;background:#1A365D;color:#fff;font:800 46px Inter;border-radius:44px;padding:10px 34px}
+.logo{left:40px;top:24px;display:flex;gap:10px;align-items:center;font:700 22px Inter;color:#1C1C1E}
+.logo i{width:34px;height:34px;border-radius:8px;background:#DE4A28;color:#fff;display:grid;place-items:center;font:900 22px Inter;font-style:normal}
+.tag{right:36px;top:26px;background:#DE4A28;color:#fff;font:900 30px "Noto Sans CJK JP";border-radius:12px;padding:6px 18px;transform:rotate(3deg)}
+</style></head><body><div id="t">
+<svg class="a" style="left:0;top:0" width="1280" height="720" id="s"></svg>
+<div class="a logo"><i>B</i>Business English Brief</div>
+<div class="a l1">人手不足の<br><b>倒産が最多</b></div>
+<div class="a num">240件</div>
+<div class="a sub">人手不足による倒産(2026年4〜9月)</div>
+<div class="a pill">short-staffed</div>
+<div class="a tag">英語で学ぶ世界経済</div>
+</div>
+<script>
+const s=document.getElementById('s'),ns='http://www.w3.org/2000/svg';
+function el(t,a,p){const n=document.createElementNS(ns,t);for(const k in a)n.setAttribute(k,a[k]);(p||s).appendChild(n);return n}
+const ox=1020,oy=470;
+el('ellipse',{cx:ox,cy:oy+175,rx:250,ry:40,fill:'#000',opacity:.07});
+el('rect',{x:ox-200,y:oy-110,width:400,height:280,fill:'#FFFFFF',stroke:'#1A365D','stroke-width':5});
+for(let k=0;k<5;k++)el('rect',{x:ox-215+k*86,y:oy-165,width:86,height:58,fill:k%2?'#FFFFFF':'#DE4A28',stroke:'#DE4A28','stroke-width':3});
+el('rect',{x:ox-215,y:oy-190,width:430,height:28,rx:6,fill:'#1A365D'});
+for(let k=0;k<8;k++)el('rect',{x:ox-170,y:oy-80+k*30,width:340,height:24,fill:'#C8CCD4'});
+const g=el('g',{transform:`translate(${ox},${oy+30}) rotate(-6)`});
+el('rect',{x:-115,y:-52,width:230,height:104,rx:10,fill:'#FFAA3C',stroke:'#1C1C1E','stroke-width':4},g);
+const t1=el('text',{x:0,y:-4,'text-anchor':'middle','font-size':44,'font-weight':900,fill:'#1C1C1E','font-family':'Noto Sans CJK JP'},g);t1.textContent='求人中';
+const t2=el('text',{x:0,y:36,'text-anchor':'middle','font-size':26,'font-weight':800,fill:'#1C1C1E','font-family':'Inter'},g);t2.textContent='STAFF WANTED';
+</script></body></html>

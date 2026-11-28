@@ -1,0 +1,840 @@
+{
+ "title": "Too Few Workers",
+ "tts": "kokoro",
+ "voice": "af_heart",
+ "speed": 0.9,
+ "scenes": [
+  {
+   "id": "hook",
+   "chapter": "TOO FEW WORKERS",
+   "vis": {
+    "type": "bigstat",
+    "kicker": "Labour-shortage bankruptcies, Apr–Sep 2026",
+    "value": 240,
+    "suffix": " firms",
+    "tag": "Record high",
+    "sub": "人手不足による倒産(2026年4〜9月)",
+    "src": "Source: Tokyo Shoko Research (Oct 2026)",
+    "art": "shop",
+    "num_at": 1,
+    "tag_at": 2
+   },
+   "beats": [
+    {
+     "en": "In Japan, more companies are closing because they can't find enough workers.",
+     "jp": "日本では、働き手が見つからずに閉じる会社が増えています。",
+     "hl": [
+      "can't find enough workers",
+      "働き手が見つからず"
+     ]
+    },
+    {
+     "en": "From April to September, 240 firms went bankrupt because of labour shortages.",
+     "jp": "4月から9月に、人手不足で倒産した会社は240社。",
+     "hl": [
+      "240 firms",
+      "240社"
+     ]
+    },
+    {
+     "en": "That's up 17 percent, and a record high.",
+     "jp": "17%の増加で、過去最多です。",
+     "hl": [
+      "a record high",
+      "過去最多"
+     ]
+    },
+    {
+     "en": "Today: why this is happening, and what it means for your business.",
+     "jp": "今日は、なぜ起きているのか、ビジネスへの意味を見ます。",
+     "hl": [
+      "why this is happening",
+      "なぜ起きている"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "trend",
+   "chapter": "HOW BIG?",
+   "vis": {
+    "type": "bars",
+    "title": "Labour-shortage bankruptcies in August",
+    "title_jp": "人手不足による倒産(8月)",
+    "items": [
+     {
+      "label": "Aug 2025",
+      "value": 23,
+      "display": "23",
+      "color": "navy"
+     },
+     {
+      "label": "Aug 2026",
+      "value": 32,
+      "display": "32",
+      "color": "red"
+     }
+    ],
+    "at": [
+     1,
+     2
+    ],
+    "note": "Source: Tokyo Shoko Research, via Jiji Press"
+   },
+   "beats": [
+    {
+     "en": "Look at August alone.",
+     "jp": "8月だけを見てみましょう。",
+     "hl": [
+      "August alone",
+      "8月だけ"
+     ]
+    },
+    {
+     "en": "A year ago, there were 23 cases.",
+     "jp": "1年前は23件でした。",
+     "hl": [
+      "23 cases",
+      "23件"
+     ]
+    },
+    {
+     "en": "This August, there were 32, a record for the month.",
+     "jp": "今年の8月は32件で、8月として過去最多です。",
+     "hl": [
+      "a record",
+      "過去最多"
+     ]
+    },
+    {
+     "en": "And in October, 50 more firms failed for the same reason.",
+     "jp": "そして10月にも、同じ理由で50社が倒産しました。",
+     "hl": [
+      "50 more firms",
+      "50社"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wider",
+   "chapter": "HOW BIG?",
+   "vis": {
+    "type": "cards",
+    "title": "All bankruptcies, Apr–Sep 2026",
+    "title_jp": "倒産全体(2026年4〜9月)",
+    "items": [
+     {
+      "title": "All industries",
+      "jp": "全産業",
+      "value": "5,373",
+      "note": "most since FY2013",
+      "color": "red"
+     },
+     {
+      "title": "Services",
+      "jp": "サービス業(飲食店など)",
+      "value": "1,828",
+      "note": "the largest group",
+      "color": "navy"
+     },
+     {
+      "title": "Construction",
+      "jp": "建設業",
+      "value": "1,035",
+      "note": "second largest",
+      "color": "navy"
+     }
+    ],
+    "at": [
+     0,
+     2,
+     3
+    ]
+   },
+   "beats": [
+    {
+     "en": "The bigger picture: 5,373 companies went bankrupt from April to September.",
+     "jp": "全体では、4月から9月に5,373社が倒産しました。",
+     "hl": [
+      "5,373 companies",
+      "5,373社"
+     ]
+    },
+    {
+     "en": "That's the most for that period since fiscal 2013.",
+     "jp": "この期間としては、2013年度以来の多さです。",
+     "hl": [
+      "since fiscal 2013",
+      "2013年度以来"
+     ]
+    },
+    {
+     "en": "Services, including restaurants, had the most cases: 1,828.",
+     "jp": "最も多いのは飲食店などのサービス業で、1,828件。",
+     "hl": [
+      "Services",
+      "サービス業"
+     ]
+    },
+    {
+     "en": "Construction was next, with 1,035.",
+     "jp": "次が建設業で、1,035件でした。",
+     "hl": [
+      "Construction",
+      "建設業"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "why",
+   "chapter": "WHY?",
+   "vis": {
+    "type": "flow",
+    "title": "How a worker shortage closes a company",
+    "title_jp": "人手不足が会社を閉じさせる流れ",
+    "items": [
+     {
+      "title": "Fewer workers",
+      "jp": "働き手の奪い合い",
+      "color": "navy"
+     },
+     {
+      "title": "Wages rise",
+      "jp": "賃金が上がる",
+      "color": "navy"
+     },
+     {
+      "title": "Small firms fall behind",
+      "jp": "中小が追いつけない",
+      "color": "navy"
+     },
+     {
+      "title": "Staff leave, firm closes",
+      "jp": "人が辞め、倒産へ",
+      "color": "red"
+     }
+    ],
+    "at": [
+     0,
+     1,
+     2,
+     3
+    ]
+   },
+   "beats": [
+    {
+     "en": "Why? Companies are competing hard for fewer workers.",
+     "jp": "なぜか。少ない働き手を、会社どうしが激しく奪い合っているからです。",
+     "hl": [
+      "competing hard",
+      "激しく奪い合って"
+     ]
+    },
+    {
+     "en": "So wages go up, and big companies can usually afford it.",
+     "jp": "賃金は上がり、大企業はたいてい払えます。",
+     "hl": [
+      "wages go up",
+      "賃金は上がり"
+     ]
+    },
+    {
+     "en": "But many small firms can't keep up with these pay rises.",
+     "jp": "でも多くの中小企業は、その賃上げについていけません。",
+     "hl": [
+      "can't keep up",
+      "ついていけません"
+     ]
+    },
+    {
+     "en": "Workers leave, the shop is short-staffed, and some firms have to close.",
+     "jp": "人が辞め、店は人手が足りなくなり、閉じるしかない会社も出ます。",
+     "hl": [
+      "short-staffed",
+      "人手が足りなく"
+     ]
+    },
+    {
+     "en": "Most are tiny: about 90 percent had fewer than 10 employees.",
+     "jp": "多くは小さな会社。約9割が従業員10人未満です(2026年上半期)。",
+     "hl": [
+      "fewer than 10 employees",
+      "従業員10人未満"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wages",
+   "chapter": "WHY?",
+   "vis": {
+    "type": "versus",
+    "title": "2026 spring wage rises (Rengo, final)",
+    "title_jp": "2026年の春闘の賃上げ率(連合・最終集計)",
+    "left": {
+     "title": "All unions",
+     "jp": "全体",
+     "value": "5.01%",
+     "color": "navy"
+    },
+    "right": {
+     "title": "Small unions",
+     "jp": "300人未満の組合",
+     "value": "4.69%",
+     "color": "red"
+    },
+    "at": [
+     1,
+     2
+    ]
+   },
+   "beats": [
+    {
+     "en": "Look at this year's spring wage talks.",
+     "jp": "今年の春闘を見てみましょう。",
+     "hl": [
+      "spring wage talks",
+      "春闘"
+     ]
+    },
+    {
+     "en": "Overall, unions won pay rises of 5.01 percent.",
+     "jp": "全体の賃上げ率は5.01%でした。",
+     "hl": [
+      "5.01 percent",
+      "5.01%"
+     ]
+    },
+    {
+     "en": "At smaller unions, it was 4.69 percent.",
+     "jp": "小さな組合では4.69%です。",
+     "hl": [
+      "4.69 percent",
+      "4.69%"
+     ]
+    },
+    {
+     "en": "The union group Rengo had aimed for 6 percent or more at small firms.",
+     "jp": "連合は、中小で6%以上を目指していました。",
+     "hl": [
+      "6 percent",
+      "6%以上"
+     ]
+    },
+    {
+     "en": "This gap makes it harder for small firms to retain staff.",
+     "jp": "この差が、中小企業が人を引き留めるのを難しくします。",
+     "hl": [
+      "retain staff",
+      "人を引き留める"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "quote",
+   "chapter": "WHY?",
+   "vis": {
+    "type": "quote",
+    "text": "Overly ambitious wage hikes could further strain companies' cash flows.",
+    "jp": "無理な賃上げは、企業の資金繰りをさらに圧迫しかねない",
+    "by": "Tokyo Shoko Research, Sept 2026 (via Jiji Press)"
+   },
+   "beats": [
+    {
+     "en": "Tokyo Shoko Research warns that overly ambitious wage hikes could strain cash flow.",
+     "jp": "東京商工リサーチは、無理な賃上げが資金繰りを圧迫しかねないと警告しています。",
+     "hl": [
+      "cash flow",
+      "資金繰り"
+     ]
+    },
+    {
+     "en": "Firms must pay more to keep people, but paying too much can also hurt.",
+     "jp": "人を保つには払う必要がある。でも払いすぎても苦しくなるのです。",
+     "hl": [
+      "paying too much",
+      "払いすぎ"
+     ]
+    },
+    {
+     "en": "More than half of the 240 cases were linked to rising personnel costs.",
+     "jp": "240件の半分以上は、人件費の上昇が原因でした。",
+     "hl": [
+      "rising personnel costs",
+      "人件費の上昇"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "japan",
+   "chapter": "WHAT IT MEANS FOR YOU",
+   "vis": {
+    "type": "cards",
+    "title": "What it means for business in Japan",
+    "title_jp": "日本のビジネスにとっての意味",
+    "items": [
+     {
+      "title": "Managers",
+      "jp": "経営する人",
+      "value": "Save labour",
+      "note": "apps · automation",
+      "color": "navy"
+     },
+     {
+      "title": "Buyers",
+      "jp": "仕入れ・発注する人",
+      "value": "Check suppliers",
+      "note": "a key supplier may close",
+      "color": "red"
+     },
+     {
+      "title": "Workers",
+      "jp": "働く人",
+      "value": "More options",
+      "note": "skills are in demand",
+      "color": "green"
+     }
+    ],
+    "at": [
+     1,
+     3,
+     4
+    ]
+   },
+   "beats": [
+    {
+     "en": "What does this mean for business in Japan?",
+     "jp": "日本のビジネスにとって、どんな意味があるでしょうか。",
+     "hl": [
+      "business in Japan",
+      "日本のビジネス"
+     ]
+    },
+    {
+     "en": "For managers: invest to save labour, like ordering apps or automation.",
+     "jp": "経営者は、注文アプリや自動化など、省力化に投資すること。",
+     "hl": [
+      "save labour",
+      "省力化"
+     ]
+    },
+    {
+     "en": "Prime Minister Takaichi says the government supports labour-saving investment.",
+     "jp": "高市首相も、省力化投資を支援するとしています。",
+     "hl": [
+      "labour-saving investment",
+      "省力化投資"
+     ]
+    },
+    {
+     "en": "For buyers: check your suppliers. A small, key supplier could suddenly close.",
+     "jp": "発注する側は、取引先を確認。小さくても重要な取引先が、突然なくなるかもしれません。",
+     "hl": [
+      "check your suppliers",
+      "取引先を確認"
+     ]
+    },
+    {
+     "en": "For workers: your skills have more value, and you have more options.",
+     "jp": "働く人にとっては、スキルの価値が上がり、選択肢が増えます。",
+     "hl": [
+      "more options",
+      "選択肢が増え"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "other",
+   "chapter": "THE OTHER SIDE",
+   "vis": {
+    "type": "cards",
+    "title": "The other side",
+    "title_jp": "別の見方",
+    "items": [
+     {
+      "title": "Higher pay",
+      "jp": "賃金は上がっている",
+      "value": "+5.01%",
+      "note": "2026 spring wage rise",
+      "color": "green"
+     },
+     {
+      "title": "Bankruptcies, 2025",
+      "jp": "2025年の倒産件数",
+      "value": "10,300",
+      "note": "most since 2012 — not a record",
+      "color": "navy"
+     },
+     {
+      "title": "Pricing",
+      "jp": "値上げ",
+      "value": "Easier",
+      "note": "to pass on costs (S&P Global)",
+      "color": "navy"
+     }
+    ],
+    "at": [
+     1,
+     2,
+     4
+    ]
+   },
+   "beats": [
+    {
+     "en": "But there's another side to this story.",
+     "jp": "でも、別の見方もあります。",
+     "hl": [
+      "another side",
+      "別の見方"
+     ]
+    },
+    {
+     "en": "Higher pay is good news for many workers.",
+     "jp": "賃金が上がるのは、多くの働き手にとって良いニュースです。",
+     "hl": [
+      "good news",
+      "良いニュース"
+     ]
+    },
+    {
+     "en": "And last year's total was 10,300 bankruptcies.",
+     "jp": "そして昨年の倒産は10,300件でした。",
+     "hl": [
+      "10,300",
+      "10,300件"
+     ]
+    },
+    {
+     "en": "That's the most since 2012, so it was higher back then.",
+     "jp": "2012年以来の多さで、当時はもっと多かったのです。",
+     "hl": [
+      "the most since 2012",
+      "2012年以来"
+     ]
+    },
+    {
+     "en": "Harumi Taguchi of S&P Global says firms now find it easier to pass on costs.",
+     "jp": "S&Pグローバルのチーフエコノミストは、コストを価格に転嫁しやすくなったと言います。",
+     "hl": [
+      "easier",
+      "しやすく"
+     ]
+    },
+    {
+     "en": "The real question: can small firms raise productivity fast enough?",
+     "jp": "本当の問題は、中小企業が生産性を十分速く上げられるかです。",
+     "hl": [
+      "raise productivity",
+      "生産性を上げ"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "phrases",
+   "chapter": "TODAY'S ENGLISH",
+   "vis": {
+    "type": "phrases",
+    "items": [
+     {
+      "en": "short-staffed",
+      "jp": "人手が足りない",
+      "key": "short-staffed",
+      "ex": "We're short-staffed this week, so replies may be slow.",
+      "ex_jp": "今週は人手が足りないので、返信が遅れるかもしれません。"
+     },
+     {
+      "en": "retain",
+      "jp": "(人材を)引き留める・確保する",
+      "key": "retain",
+      "ex": "We need to retain our best people.",
+      "ex_jp": "優秀な人材を引き留める必要があります。"
+     },
+     {
+      "en": "cash flow",
+      "jp": "資金繰り・キャッシュフロー",
+      "key": "cash flow",
+      "ex": "Big pay rises could hurt our cash flow.",
+      "ex_jp": "大幅な賃上げは、資金繰りを苦しくするかもしれません。"
+     }
+    ]
+   },
+   "beats": [
+    {
+     "en": "Three phrases for your next meeting.",
+     "jp": "次の会議で使える英語を3つ。",
+     "hl": [
+      "Three phrases",
+      "英語を3つ"
+     ],
+     "step": "intro",
+     "ph": -1
+    },
+    {
+     "en": "short-staffed.",
+     "jp": "この英語の意味は?",
+     "hl": [
+      "short-staffed",
+      ""
+     ],
+     "step": "say",
+     "ph": 0
+    },
+    {
+     "en": "",
+     "jp": "考えてみよう",
+     "hl": [],
+     "step": "think",
+     "ph": 0,
+     "hold": 2.5
+    },
+    {
+     "en": "We're short-staffed this week, so replies may be slow.",
+     "jp": "今週は人手が足りないので、返信が遅れるかもしれません。",
+     "hl": [
+      "short-staffed",
+      ""
+     ],
+     "step": "ex",
+     "ph": 0
+    },
+    {
+     "en": "We're short-staffed this week, so replies may be slow.",
+     "jp": "もう一度。声に出して言ってみよう",
+     "hl": [
+      "short-staffed",
+      ""
+     ],
+     "step": "ex",
+     "ph": 0,
+     "repeat": true
+    },
+    {
+     "en": "",
+     "jp": "(あなたの番)",
+     "hl": [],
+     "step": "ex",
+     "ph": 0,
+     "hold": 3.0
+    },
+    {
+     "en": "retain.",
+     "jp": "この英語の意味は?",
+     "hl": [
+      "retain",
+      ""
+     ],
+     "step": "say",
+     "ph": 1
+    },
+    {
+     "en": "",
+     "jp": "考えてみよう",
+     "hl": [],
+     "step": "think",
+     "ph": 1,
+     "hold": 2.5
+    },
+    {
+     "en": "We need to retain our best people.",
+     "jp": "優秀な人材を引き留める必要があります。",
+     "hl": [
+      "retain",
+      ""
+     ],
+     "step": "ex",
+     "ph": 1
+    },
+    {
+     "en": "We need to retain our best people.",
+     "jp": "もう一度。声に出して言ってみよう",
+     "hl": [
+      "retain",
+      ""
+     ],
+     "step": "ex",
+     "ph": 1,
+     "repeat": true
+    },
+    {
+     "en": "",
+     "jp": "(あなたの番)",
+     "hl": [],
+     "step": "ex",
+     "ph": 1,
+     "hold": 3.0
+    },
+    {
+     "en": "cash flow.",
+     "jp": "この英語の意味は?",
+     "hl": [
+      "cash flow",
+      ""
+     ],
+     "step": "say",
+     "ph": 2
+    },
+    {
+     "en": "",
+     "jp": "考えてみよう",
+     "hl": [],
+     "step": "think",
+     "ph": 2,
+     "hold": 2.5
+    },
+    {
+     "en": "Big pay rises could hurt our cash flow.",
+     "jp": "大幅な賃上げは、資金繰りを苦しくするかもしれません。",
+     "hl": [
+      "cash flow",
+      ""
+     ],
+     "step": "ex",
+     "ph": 2
+    },
+    {
+     "en": "Big pay rises could hurt our cash flow.",
+     "jp": "もう一度。声に出して言ってみよう",
+     "hl": [
+      "cash flow",
+      ""
+     ],
+     "step": "ex",
+     "ph": 2,
+     "repeat": true
+    },
+    {
+     "en": "",
+     "jp": "(あなたの番)",
+     "hl": [],
+     "step": "ex",
+     "ph": 2,
+     "hold": 3.0
+    }
+   ]
+  },
+  {
+   "id": "outro",
+   "chapter": "",
+   "vis": {
+    "type": "outro",
+    "items": [
+     "short-staffed",
+     "retain",
+     "cash flow"
+    ]
+   },
+   "beats": [
+    {
+     "en": "Which one will you use this week? Tell us in the comments.",
+     "jp": "今週使うのはどれですか? コメントで教えてください。",
+     "hl": [
+      "this week",
+      "今週"
+     ]
+    }
+   ]
+  }
+ ],
+ "publish": {
+  "title": "Too Few Workers|人手不足の倒産が過去最多。賃上げについていけない中小企業【英語で学ぶ世界経済】",
+  "summary": "2026年4〜9月、人手不足による倒産は240件と過去最多になりました(東京商工リサーチ)。働き手の奪い合いで賃金が上がり、春闘の賃上げ率は全体5.01%、小さな組合4.69%。賃上げについていけない中小企業から人が辞め、倒産に至る仕組みを、英語のナレーションと英日字幕で解説します。経営者・発注担当・働く人それぞれへの意味と、「賃上げは良いこと」「倒産件数は過去最多ではない」という反対の見方も紹介します。",
+  "sources": [
+   [
+    "Xinhua (2026-11-10): Japan corporate bankruptcies hit 934 in October, 3rd-highest this year",
+    "https://english.news.cn/20261110/8ec5754a8b814b5a80a1ff5017ffc197/c.html"
+   ],
+   [
+    "The Nation / Jiji Press (2026-09-08): Labour-shortage bankruptcies reach an August record in Japan",
+    "https://www.nationthailand.com/news/world/40070806"
+   ],
+   [
+    "BigGo Finance (2026-10-09): Japan's corporate bankruptcies hit 5,373 in fiscal first half",
+    "https://finance.biggo.com/news/bdc87f8a-c396-4ed8-8006-f757b5d0e779"
+   ],
+   [
+    "News On Japan (2026-10-12): Japan's Labor Shortage Pushes Small Businesses to the Brink",
+    "https://newsonjapan.com/article/151005.php"
+   ],
+   [
+    "The Star / Bernama-Xinhua (2026-07-08): Japan H1 corporate bankruptcies surpass 5,000 for first time in 12 years",
+    "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/07/08/japan-h1-corporate-bankruptcies-surpass-5000-for-first-time-in-12-years"
+   ],
+   [
+    "Nippon.com (2026-01-27): Japan's Corporate Bankruptcies Top 10,000 for Second Straight Year in 2025",
+    "https://www.nippon.com/en/japan-data/h02666/"
+   ],
+   [
+    "Adnkronos / Jiji Press (2026-07-03): Japan Unions Clinch 5.01 Pct Wage Hike in 2026 Shunto",
+    "https://english.adnkronos.com/2026/07/03/japan-unions-clinch-5-01-pct-wage-hike-in-2026-shunto/"
+   ]
+  ],
+  "tags": [
+   "人手不足",
+   "倒産",
+   "中小企業",
+   "賃上げ",
+   "春闘",
+   "人件費",
+   "日本経済",
+   "ビジネス英語",
+   "英語学習",
+   "世界経済"
+  ],
+  "thumb": "studio/thumb/worker-shortage.jpg",
+  "short": {
+   "file": "short.mp4",
+   "title": "人手不足の倒産、半年で何件?「short-staffed」の意味は? #ビジネス英語 #shorts",
+   "ig_caption": "人手不足で倒産した会社、半年で何件だと思いますか?\n\n✅ short-staffed\n人手が足りない\n\n例文:We're short-staffed this week, so replies may be slow.\n(今週は人手が足りないので、返信が遅れるかもしれません。)\n\n2026年4〜9月の人手不足倒産は240件で過去最多(東京商工リサーチ)。賃上げについていけない中小企業から人が辞めています。\n📌 保存して、次の会議前に見返そう\n▼ くわしい解説はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英語リスニング #人手不足 #中小企業 #日本経済 #英日字幕"
+  },
+  "carousel_caption": "2026年4〜9月、人手不足による倒産は240件で過去最多(東京商工リサーチ)。\n\nこのニュースから、会議で使える英語を3つ。\n\n1️⃣ short-staffed\n人手が足りない\n\n2️⃣ retain\n(人材を)引き留める・確保する\n\n3️⃣ cash flow\n資金繰り・キャッシュフロー\n\n📌 保存して、次の会議の前に見返そう\n▼ 英語ナレーションの解説動画はプロフィールのYouTubeから\n\n#ビジネス英語 #英語学習 #英語リスニング #人手不足 #中小企業 #日本経済 #英語フレーズ",
+  "phrases": [
+   [
+    "short-staffed",
+    "人手が足りない"
+   ],
+   [
+    "retain",
+    "(人材を)引き留める・確保する"
+   ],
+   [
+    "cash flow",
+    "資金繰り・キャッシュフロー"
+   ]
+  ]
+ },
+ "carousel": {
+  "cover": "人手不足の<br><span style='color:#DE4A28'>倒産が最多</span>",
+  "num": "240件",
+  "numSub": "人手不足による倒産(2026年4〜9月)",
+  "src": "Source: Tokyo Shoko Research (2026)",
+  "phrases": [
+   {
+    "en": "short-staffed",
+    "jp": "人手が足りない",
+    "key": "short-staffed",
+    "ex": "We're short-staffed this week, so replies may be slow.",
+    "ex_jp": "今週は人手が足りないので、返信が遅れるかもしれません。"
+   },
+   {
+    "en": "retain",
+    "jp": "(人材を)引き留める・確保する",
+    "key": "retain",
+    "ex": "We need to retain our best people.",
+    "ex_jp": "優秀な人材を引き留める必要があります。"
+   },
+   {
+    "en": "cash flow",
+    "jp": "資金繰り・キャッシュフロー",
+    "key": "cash flow",
+    "ex": "Big pay rises could hurt our cash flow.",
+    "ex_jp": "大幅な賃上げは、資金繰りを苦しくするかもしれません。"
+   }
+  ]
+ }
+}
