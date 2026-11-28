@@ -490,6 +490,8 @@ SCENES.bigstat = (root, v) => {
   if (v.art === "bank") extra = bankArt(svg, 1400, 520);
   if (v.art === "rice") extra = riceArt(svg, 1400, 520);
   if (v.art === "gold") extra = goldArt(svg, 1400, 540);
+  if (v.art === "chip") extra = chipArt(svg, 1400, 520);
+  if (v.art === "shop") extra = shopArt(svg, 1400, 520);
   const kick = div(root, "left:190px;top:170px;font:800 30px Inter;letter-spacing:.12em;color:#8E8E96", (v.kicker || "").toUpperCase());
   const num = div(root, "left:185px;top:215px", "", "num");
   const tag = div(root, "left:190px;top:390px;transform-origin:0 50%", v.tag || "", "tag");
@@ -648,7 +650,7 @@ SCENES.map = (root, v) => {
     const [x, y] = proj(m.lat, m.lon), col = C[m.color] || m.color || C.red;
     const ring = E.el("circle", { cx: x, cy: y, r: 10, fill: "none", stroke: col, "stroke-width": 3 }, svg);
     const dot = E.el("circle", { cx: x, cy: y, r: 10, fill: col }, svg);
-    const lab = div(root, `left:${x + 18}px;top:${y - 58}px;background:#fff;border:2px solid ${col};border-radius:12px;padding:4px 14px;font:800 26px Inter;white-space:nowrap`, `${m.label}${m.jp ? ` <span class="jpS">${m.jp}</span>` : ""}`);
+    const lab = div(root, `left:${x + 18 + (m.dx || 0)}px;top:${y - 58 + (m.dy || 0)}px;background:#fff;border:2px solid ${col};border-radius:12px;padding:4px 14px;font:800 26px Inter;white-space:nowrap`, `${m.label}${m.jp ? ` <span class="jpS">${m.jp}</span>` : ""}`);
     return { x, y, ring, dot, lab };
   });
   const arcs = (v.arcs || []).map(([a, b]) => {
@@ -813,5 +815,51 @@ function goldArt(svg, ox, oy) {
     bars.forEach((b, k) => { const p = E.back((ts - 0.2 - k * 0.18) / 0.5), [x, y] = pos[k];
       b.setAttribute("opacity", E.clamp(p * 2)); b.setAttribute("transform", `translate(${ox + x},${oy + y - (1 - E.clamp(p)) * 60})`); });
     vault.setAttribute("opacity", E.ease((ts - 1.4) / 0.5));
+  } };
+}
+
+// ---------------------------------------------------------------- bigstat art (added 2026-11-28): chip (memory module) / shop (short-staffed shop)
+function chipArt(svg, ox, oy) {
+  const g = E.el("g", {}, svg);
+  E.el("ellipse", { cx: ox, cy: oy + 190, rx: 330, ry: 50, fill: "#000", opacity: .07 }, g);
+  const stick = E.el("g", {}, g);                                                   // memory module (RAM stick)
+  E.el("rect", { x: ox - 300, y: oy - 40, width: 600, height: 170, rx: 10, fill: "#2F7D5B" }, stick);
+  for (let k = 0; k < 4; k++) {
+    E.el("rect", { x: ox - 270 + k * 140, y: oy - 15, width: 110, height: 100, rx: 6, fill: "#1C1C1E" }, stick);
+    E.el("rect", { x: ox - 255 + k * 140, y: oy + 0, width: 30, height: 8, rx: 2, fill: "#606068" }, stick);
+  }
+  for (let k = 0; k < 28; k++) E.el("rect", { x: ox - 285 + k * 20.5, y: oy + 108, width: 12, height: 22, fill: "#E0A526" }, stick);
+  E.el("rect", { x: ox - 8, y: oy + 104, width: 16, height: 26, fill: "#F7F5F0" }, stick);
+  const tagg = E.el("g", {}, g);                                                    // price tag
+  E.el("polygon", { points: "0,0 150,0 190,45 150,90 0,90", fill: "#DE4A28" }, tagg);
+  E.el("circle", { cx: 155, cy: 45, r: 10, fill: "#F7F5F0" }, tagg);
+  const tt = E.el("text", { x: 72, y: 62, "text-anchor": "middle", "font-size": 52, "font-weight": 900, fill: "#fff", "font-family": "Inter" }, tagg); tt.textContent = "$↑";
+  const arrow = E.el("g", {}, g);
+  E.el("rect", { x: -18, y: -10, width: 36, height: 120, fill: "#DE4A28" }, arrow);
+  E.el("polygon", { points: "-56,0 0,-80 56,0", fill: "#DE4A28" }, arrow);
+  return { update(ts) {
+    const p = E.back((ts - 0.2) / 0.6); stick.setAttribute("opacity", E.clamp(p * 2)); stick.setAttribute("transform", `translate(0,${(1 - E.clamp(p)) * 40})`);
+    const b = E.back((ts - 0.6) / 0.5); tagg.setAttribute("opacity", E.clamp(b * 2)); tagg.setAttribute("transform", `translate(${ox - 120},${oy - 220}) rotate(${-8 * E.clamp(b)})`);
+    const q = E.easeIO((ts - 1.1) / 0.9); arrow.setAttribute("opacity", E.clamp(q * 3));
+    arrow.setAttribute("transform", `translate(${ox + 230},${oy - 90 - q * 110})`);
+  } };
+}
+function shopArt(svg, ox, oy) {
+  const g = E.el("g", {}, svg);
+  E.el("ellipse", { cx: ox, cy: oy + 200, rx: 330, ry: 50, fill: "#000", opacity: .07 }, g);
+  const shop = E.el("g", {}, g);                                                    // small shop front
+  E.el("rect", { x: ox - 260, y: oy - 150, width: 520, height: 350, fill: "#FFFFFF", stroke: "#1A365D", "stroke-width": 5 }, shop);
+  for (let k = 0; k < 6; k++) E.el("rect", { x: ox - 280 + k * 93.3, y: oy - 210, width: 93.3, height: 70, fill: k % 2 ? "#FFFFFF" : "#DE4A28", stroke: "#DE4A28", "stroke-width": 3 }, shop);
+  E.el("rect", { x: ox - 280, y: oy - 240, width: 560, height: 34, rx: 6, fill: "#1A365D" }, shop);
+  const shutter = E.el("g", {}, shop);
+  for (let k = 0; k < 9; k++) E.el("rect", { x: ox - 220, y: oy - 110 + k * 32, width: 440, height: 26, fill: "#C8CCD4" }, shutter);
+  const sign = E.el("g", {}, g);                                                    // "staff wanted" sign
+  E.el("rect", { x: -120, y: -55, width: 240, height: 110, rx: 10, fill: "#FFAA3C", stroke: "#1C1C1E", "stroke-width": 4 }, sign);
+  const t1 = E.el("text", { x: 0, y: -6, "text-anchor": "middle", "font-size": 44, "font-weight": 900, fill: "#1C1C1E", "font-family": "Noto Sans CJK JP" }, sign); t1.textContent = "求人中";
+  const t2 = E.el("text", { x: 0, y: 38, "text-anchor": "middle", "font-size": 28, "font-weight": 800, fill: "#1C1C1E", "font-family": "Inter" }, sign); t2.textContent = "STAFF WANTED";
+  return { update(ts) {
+    const p = E.back((ts - 0.2) / 0.6); shop.setAttribute("opacity", E.clamp(p * 2)); shop.setAttribute("transform", `translate(0,${(1 - E.clamp(p)) * 40})`);
+    const s = E.easeIO((ts - 0.9) / 1.0); shutter.setAttribute("transform", `translate(0,${(s - 1) * 0})`); shutter.setAttribute("opacity", E.clamp(s * 1.5));
+    const b = E.back((ts - 1.4) / 0.5); sign.setAttribute("opacity", E.clamp(b * 2)); sign.setAttribute("transform", `translate(${ox + 10},${oy + 20}) rotate(${-6 * E.clamp(b)}) scale(${0.6 + 0.4 * E.clamp(b)})`);
   } };
 }

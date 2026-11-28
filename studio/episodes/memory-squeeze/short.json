@@ -1,0 +1,90 @@
+{
+ "title": "Memory squeeze (short)",
+ "tts": "kokoro",
+ "voice": "af_heart",
+ "speed": 0.92,
+ "portrait": {
+  "head": "<div class='q'>PCもスマホも<br><b>値上がり</b>するのはなぜ?</div><div class='e'>in short supply</div>"
+ },
+ "scenes": [
+  {
+   "id": "pc",
+   "chapter": "",
+   "vis": {
+    "type": "bigstat",
+    "kicker": "Average PC price rise, 2026",
+    "value": 17,
+    "prefix": "+",
+    "suffix": "%",
+    "tag": "Gartner forecast",
+    "sub": "PCの平均価格の上昇(2026年予測)",
+    "src": "Source: Gartner, via Tech Times",
+    "art": "chip",
+    "num_at": 2,
+    "tag_at": 3
+   },
+   "beats": [
+    {
+     "en": "Why are PCs and phones getting more expensive?",
+     "jp": "PCやスマホが高くなっているのはなぜ?",
+     "hl": [
+      "more expensive",
+      "高く"
+     ]
+    },
+    {
+     "en": "AI data centers are using more and more memory chips.",
+     "jp": "AIデータセンターが、メモリーチップをどんどん使っているからです。",
+     "hl": [
+      "memory chips",
+      "メモリーチップ"
+     ]
+    },
+    {
+     "en": "Gartner expects average PC prices to rise 17 percent this year.",
+     "jp": "ガートナーは、今年PCの平均価格が17%上がると予測。",
+     "hl": [
+      "17 percent",
+      "17%"
+     ]
+    },
+    {
+     "en": "Memory for PCs and phones is in short supply.",
+     "jp": "PCやスマホ用のメモリーが不足しているのです。",
+     "hl": [
+      "in short supply",
+      "不足"
+     ]
+    },
+    {
+     "en": "At work: Engineers with AI skills are in short supply.",
+     "jp": "仕事なら「AIのスキルを持つエンジニアが不足しています」。",
+     "hl": [
+      "in short supply",
+      "不足"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "chapter": "",
+   "vis": {
+    "type": "cta",
+    "en": "Engineers with AI skills are in short supply.",
+    "jp": "AIのスキルを持つエンジニアが不足しています",
+    "btn": "続きは本編で"
+   },
+   "beats": [
+    {
+     "en": "Why is memory so scarce? Watch the full video.",
+     "jp": "なぜメモリーが足りないのか。くわしくは本編で。",
+     "hl": [
+      "full video",
+      "本編"
+     ]
+    }
+   ]
+  }
+ ]
+}

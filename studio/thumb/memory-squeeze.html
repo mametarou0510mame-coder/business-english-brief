@@ -1,0 +1,34 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+body{margin:0} #t{position:relative;width:1280px;height:720px;overflow:hidden;background:#F7F5F0;font-family:Inter,"Noto Sans CJK JP",sans-serif;
+background-image:linear-gradient(#ECE8E0 1px,transparent 1px),linear-gradient(90deg,#ECE8E0 1px,transparent 1px);background-size:48px 48px}
+.a{position:absolute}
+.l1{left:56px;top:70px;font:900 118px "Noto Sans CJK JP";color:#1C1C1E;line-height:1.05;letter-spacing:-.02em}
+.l1 b{color:#DE4A28}
+.num{left:60px;top:345px;font:900 104px Inter;color:#DE4A28;letter-spacing:-.03em}
+.sub{left:64px;top:470px;font:700 34px "Noto Sans CJK JP";color:#606068}
+.pill{left:60px;top:560px;background:#1A365D;color:#fff;font:800 46px Inter;border-radius:44px;padding:10px 34px}
+.logo{left:40px;top:24px;display:flex;gap:10px;align-items:center;font:700 22px Inter;color:#1C1C1E}
+.logo i{width:34px;height:34px;border-radius:8px;background:#DE4A28;color:#fff;display:grid;place-items:center;font:900 22px Inter;font-style:normal}
+.tag{right:36px;top:26px;background:#DE4A28;color:#fff;font:900 30px "Noto Sans CJK JP";border-radius:12px;padding:6px 18px;transform:rotate(3deg)}
+</style></head><body><div id="t">
+<svg class="a" style="left:0;top:0" width="1280" height="720" id="s"></svg>
+<div class="a logo"><i>B</i>Business English Brief</div>
+<div class="a l1">AIで<br><b>メモリー不足</b></div>
+<div class="a num">+453%</div>
+<div class="a sub">キオクシアの売上(7〜9月・前年比)</div>
+<div class="a pill">in short supply</div>
+<div class="a tag">英語で学ぶ世界経済</div>
+</div>
+<script>
+const s=document.getElementById('s'),ns='http://www.w3.org/2000/svg';
+function el(t,a){const n=document.createElementNS(ns,t);for(const k in a)n.setAttribute(k,a[k]);s.appendChild(n);return n}
+const ox=1030,oy=520;
+el('ellipse',{cx:ox,cy:oy+130,rx:250,ry:40,fill:'#000',opacity:.07});
+el('rect',{x:ox-210,y:oy-40,width:420,height:130,rx:8,fill:'#2F7D5B'});
+for(let k=0;k<4;k++){el('rect',{x:ox-190+k*97,y:oy-20,width:78,height:76,rx:5,fill:'#1C1C1E'});el('rect',{x:ox-180+k*97,y:oy-8,width:22,height:6,fill:'#606068'});}
+for(let k=0;k<20;k++)el('rect',{x:ox-200+k*20.5,y:oy+70,width:11,height:18,fill:'#E0A526'});
+const g=document.createElementNS(ns,'g');g.setAttribute('transform',`translate(${ox-60},${oy-200}) rotate(-8)`);s.appendChild(g);
+[['polygon',{points:'0,0 140,0 178,42 140,84 0,84',fill:'#DE4A28'}],['circle',{cx:146,cy:42,r:9,fill:'#F7F5F0'}]].forEach(([t,a])=>{const n=document.createElementNS(ns,t);for(const k in a)n.setAttribute(k,a[k]);g.appendChild(n)});
+const tx=document.createElementNS(ns,'text');tx.setAttribute('x',66);tx.setAttribute('y',58);tx.setAttribute('text-anchor','middle');tx.setAttribute('font-size',48);tx.setAttribute('font-weight',900);tx.setAttribute('fill','#fff');tx.setAttribute('font-family','Inter');tx.textContent='$↑';g.appendChild(tx);
+el('rect',{x:ox+140,y:oy-170,width:34,height:110,fill:'#DE4A28'});el('polygon',{points:`${ox+105},${oy-170} ${ox+157},${oy-245} ${ox+209},${oy-170}`,fill:'#DE4A28'});
+</script></body></html>
