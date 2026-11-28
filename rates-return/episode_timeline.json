@@ -1,0 +1,852 @@
+{
+ "scenes": [
+  {
+   "id": "hook",
+   "chapter": "RATES",
+   "vis": {
+    "type": "bigstat",
+    "kicker": "Bank of Japan policy rate, Oct 2026",
+    "value": 1.25,
+    "decimals": 2,
+    "suffix": "%",
+    "tag": "Highest since 1995",
+    "sub": "日銀の政策金利(1995年以来の高さ)",
+    "src": "Source: BoJ via Reuters / Herald Business",
+    "art": "bank",
+    "num_at": 1,
+    "tag_at": 2
+   },
+   "beats": [
+    {
+     "en": "Around the world, central banks are raising interest rates again.",
+     "jp": "世界で、中央銀行がふたたび金利を上げています。",
+     "hl": [
+      "raising interest rates",
+      "金利を上げて"
+     ],
+     "start": 0.6,
+     "end": 4.137,
+     "audio": "00_00.wav"
+    },
+    {
+     "en": "In Japan, the policy rate is now about 1.25 percent.",
+     "jp": "日本の政策金利は、いま約1.25%です。",
+     "hl": [
+      "1.25 percent",
+      "1.25%"
+     ],
+     "start": 4.787,
+     "end": 8.985,
+     "audio": "00_01.wav"
+    },
+    {
+     "en": "That's the highest level since 1995.",
+     "jp": "1995年以来の高さです。",
+     "hl": [
+      "since 1995",
+      "1995年以来"
+     ],
+     "start": 9.635,
+     "end": 12.298,
+     "audio": "00_02.wav"
+    },
+    {
+     "en": "Today: why rates are rising, and what it means for your business.",
+     "jp": "今日は、金利がなぜ上がるのか、仕事にどう関係するのかを見ます。",
+     "hl": [
+      "why rates are rising",
+      "なぜ上がるのか"
+     ],
+     "start": 12.948,
+     "end": 16.467,
+     "audio": "00_03.wav"
+    }
+   ],
+   "start": 0.0,
+   "end": 17.467
+  },
+  {
+   "id": "three",
+   "chapter": "THREE BANKS",
+   "vis": {
+    "type": "bars",
+    "title": "Policy rates, end of October 2026",
+    "title_jp": "主要な中央銀行の政策金利(2026年10月末)",
+    "items": [
+     {
+      "label": "US Fed",
+      "value": 4.0,
+      "display": "3.75–4%",
+      "color": "navy"
+     },
+     {
+      "label": "ECB",
+      "value": 2.5,
+      "display": "2.50%",
+      "color": "navy"
+     },
+     {
+      "label": "Bank of Japan",
+      "value": 1.25,
+      "display": "1.25%",
+      "color": "red"
+     }
+    ],
+    "at": [
+     0,
+     1,
+     2
+    ]
+   },
+   "beats": [
+    {
+     "en": "The US Federal Reserve's target range is 3.75 to 4 percent.",
+     "jp": "米FRBの誘導目標は3.75〜4%です。",
+     "hl": [
+      "3.75 to 4 percent",
+      "3.75〜4%"
+     ],
+     "start": 18.067,
+     "end": 22.969,
+     "audio": "01_00.wav"
+    },
+    {
+     "en": "The European Central Bank's deposit rate is 2.5 percent.",
+     "jp": "欧州中央銀行(ECB)の預金金利は2.5%です。",
+     "hl": [
+      "2.5 percent",
+      "2.5%"
+     ],
+     "start": 23.619,
+     "end": 27.537,
+     "audio": "01_01.wav"
+    },
+    {
+     "en": "And the Bank of Japan's rate is about 1.25 percent.",
+     "jp": "そして日銀は約1.25%です。",
+     "hl": [
+      "1.25 percent",
+      "1.25%"
+     ],
+     "start": 28.187,
+     "end": 31.917,
+     "audio": "01_02.wav"
+    },
+    {
+     "en": "All three raised rates in September.",
+     "jp": "3つとも、9月に利上げしました。",
+     "hl": [
+      "All three",
+      "3つとも"
+     ],
+     "start": 32.567,
+     "end": 34.534,
+     "audio": "01_03.wav"
+    },
+    {
+     "en": "For the Fed, it was the first hike in more than three years.",
+     "jp": "FRBにとっては、3年以上ぶりの利上げでした。",
+     "hl": [
+      "first hike",
+      "利上げ"
+     ],
+     "start": 35.184,
+     "end": 38.193,
+     "audio": "01_04.wav"
+    }
+   ],
+   "start": 17.467,
+   "end": 39.193
+  },
+  {
+   "id": "why",
+   "chapter": "WHY NOW?",
+   "vis": {
+    "type": "flow",
+    "title": "How an energy shock becomes a rate hike",
+    "title_jp": "エネルギー高が利上げにつながるまで",
+    "items": [
+     {
+      "title": "Energy shock",
+      "jp": "エネルギー価格の上昇",
+      "color": "navy"
+     },
+     {
+      "title": "Prices rise",
+      "jp": "物価が上がる",
+      "color": "navy"
+     },
+     {
+      "title": "Inflation above 2%",
+      "jp": "目標の2%を超える",
+      "color": "amber"
+     },
+     {
+      "title": "Rate hikes",
+      "jp": "利上げ",
+      "color": "red"
+     }
+    ],
+    "at": [
+     1,
+     2,
+     2,
+     3
+    ]
+   },
+   "beats": [
+    {
+     "en": "Why now? A big reason is energy.",
+     "jp": "なぜ今なのか。大きな理由はエネルギーです。",
+     "hl": [
+      "energy",
+      "エネルギー"
+     ],
+     "start": 39.793,
+     "end": 41.85,
+     "audio": "02_00.wav"
+    },
+    {
+     "en": "The ECB says the Middle East conflict keeps pushing up energy prices.",
+     "jp": "ECBは、中東の紛争がエネルギー価格を押し上げていると言います。",
+     "hl": [
+      "energy prices",
+      "エネルギー価格"
+     ],
+     "start": 42.5,
+     "end": 47.113,
+     "audio": "02_01.wav"
+    },
+    {
+     "en": "That spreads to other prices. US consumer prices rose 3.7 percent in September.",
+     "jp": "それが他の物価にも広がります。米国の9月の消費者物価は3.7%上昇。",
+     "hl": [
+      "3.7 percent",
+      "3.7%"
+     ],
+     "start": 47.763,
+     "end": 53.981,
+     "audio": "02_02.wav"
+    },
+    {
+     "en": "Central banks raise rates to cool demand and bring inflation down.",
+     "jp": "中央銀行は、需要を冷やしてインフレを抑えるために利上げします。",
+     "hl": [
+      "cool demand",
+      "需要を冷やして"
+     ],
+     "start": 54.631,
+     "end": 58.522,
+     "audio": "02_03.wav"
+    }
+   ],
+   "start": 39.193,
+   "end": 59.522
+  },
+  {
+   "id": "fed",
+   "chapter": "THE FED",
+   "vis": {
+    "type": "versus",
+    "title": "Fed decision, October 28, 2026",
+    "title_jp": "FRBの判断(2026年10月28日)",
+    "left": {
+     "title": "Hold",
+     "jp": "据え置き",
+     "value": "10",
+     "color": "navy"
+    },
+    "right": {
+     "title": "Raise now",
+     "jp": "今すぐ利上げ",
+     "value": "2",
+     "color": "red"
+    },
+    "at": [
+     1,
+     2
+    ]
+   },
+   "beats": [
+    {
+     "en": "In October, the Fed kept rates on hold.",
+     "jp": "10月、FRBは金利を据え置きました。",
+     "hl": [
+      "on hold",
+      "据え置き"
+     ],
+     "start": 60.122,
+     "end": 62.475,
+     "audio": "03_00.wav"
+    },
+    {
+     "en": "Ten members voted to wait.",
+     "jp": "10人が、様子を見ることに賛成しました。",
+     "hl": [
+      "wait",
+      "様子を見る"
+     ],
+     "start": 63.125,
+     "end": 64.738,
+     "audio": "03_01.wav"
+    },
+    {
+     "en": "But two wanted to raise rates right away.",
+     "jp": "しかし2人は、すぐの利上げを求めました。",
+     "hl": [
+      "right away",
+      "すぐの"
+     ],
+     "start": 65.388,
+     "end": 67.395,
+     "audio": "03_02.wav"
+    },
+    {
+     "en": "The Fed says inflation remains elevated.",
+     "jp": "FRBは、インフレは高いままだとしています。",
+     "hl": [
+      "remains elevated",
+      "高いまま"
+     ],
+     "start": 68.045,
+     "end": 70.434,
+     "audio": "03_03.wav"
+    },
+    {
+     "en": "Many investors expect a hike in December, NPR reports.",
+     "jp": "NPRによると、多くの投資家は12月の利上げを予想しています。",
+     "hl": [
+      "a hike in December",
+      "12月の利上げ"
+     ],
+     "start": 71.084,
+     "end": 75.069,
+     "audio": "03_04.wav"
+    }
+   ],
+   "start": 59.522,
+   "end": 76.069
+  },
+  {
+   "id": "boj",
+   "chapter": "THE BANK OF JAPAN",
+   "vis": {
+    "type": "quote",
+    "text": "We will continue to raise the policy interest rate.",
+    "jp": "引き続き政策金利を引き上げていく",
+    "by": "Bank of Japan, October 30, 2026"
+   },
+   "beats": [
+    {
+     "en": "The Bank of Japan held at 1.25 percent in October.",
+     "jp": "日銀は10月、1.25%で据え置きました。",
+     "hl": [
+      "held",
+      "据え置き"
+     ],
+     "start": 76.669,
+     "end": 80.638,
+     "audio": "04_00.wav"
+    },
+    {
+     "en": "But it says it will keep raising rates if conditions allow.",
+     "jp": "でも、状況に応じて利上げを続けるとしています。",
+     "hl": [
+      "keep raising rates",
+      "利上げを続ける"
+     ],
+     "start": 81.288,
+     "end": 84.209,
+     "audio": "04_01.wav"
+    },
+    {
+     "en": "One board member already voted for a hike.",
+     "jp": "1人の委員は、すでに利上げに賛成票を投じました。",
+     "hl": [
+      "voted for a hike",
+      "利上げに賛成"
+     ],
+     "start": 84.859,
+     "end": 87.116,
+     "audio": "04_02.wav"
+    },
+    {
+     "en": "The BoJ also says underlying inflation is now near its 2 percent target.",
+     "jp": "日銀は、基調的な物価上昇率が2%目標に近づいたとも見ています。",
+     "hl": [
+      "near its 2 percent target",
+      "2%目標に近づいた"
+     ],
+     "start": 87.766,
+     "end": 92.662,
+     "audio": "04_03.wav"
+    }
+   ],
+   "start": 76.069,
+   "end": 93.662
+  },
+  {
+   "id": "japan",
+   "chapter": "WHAT IT MEANS FOR JAPAN",
+   "vis": {
+    "type": "cards",
+    "title": "What to watch in Japan",
+    "title_jp": "日本で注目すること",
+    "items": [
+     {
+      "title": "Borrowing costs",
+      "jp": "借入コスト",
+      "value": "↑",
+      "note": "loans and mortgages",
+      "color": "red"
+     },
+     {
+      "title": "The yen",
+      "jp": "円相場(2026年7月の安値)",
+      "value": "¥163.99",
+      "note": "per US dollar",
+      "color": "navy"
+     },
+     {
+      "title": "BoJ's watch list",
+      "jp": "日銀が見る要素",
+      "value": "Oil · AI · FX",
+      "note": "Herald Business",
+      "color": "green"
+     }
+    ],
+    "at": [
+     1,
+     2,
+     4
+    ]
+   },
+   "beats": [
+    {
+     "en": "What does this mean for Japan?",
+     "jp": "日本にとっては、どんな意味があるでしょうか。",
+     "hl": [
+      "Japan",
+      "日本"
+     ],
+     "start": 94.262,
+     "end": 95.728,
+     "audio": "05_00.wav"
+    },
+    {
+     "en": "Higher rates mean higher borrowing costs for companies and home buyers.",
+     "jp": "金利が上がれば、企業や住宅購入者の借入コストも上がります。",
+     "hl": [
+      "borrowing costs",
+      "借入コスト"
+     ],
+     "start": 96.378,
+     "end": 100.192,
+     "audio": "05_01.wav"
+    },
+    {
+     "en": "The yen matters too. In July, it fell to nearly 164 per dollar.",
+     "jp": "円も大事です。7月、円は1ドル164円近くまで下がりました。",
+     "hl": [
+      "nearly 164",
+      "164円近く"
+     ],
+     "start": 100.842,
+     "end": 105.959,
+     "audio": "05_02.wav"
+    },
+    {
+     "en": "Japan then stepped in and bought yen.",
+     "jp": "その後、日本は円買いの介入をしました。",
+     "hl": [
+      "stepped in",
+      "介入"
+     ],
+     "start": 106.609,
+     "end": 108.43,
+     "audio": "05_03.wav"
+    },
+    {
+     "en": "The BoJ's next steps may depend on oil, AI demand and the exchange rate.",
+     "jp": "日銀の次の一手は、原油、AI需要、為替しだいとも見られます。",
+     "hl": [
+      "exchange rate",
+      "為替"
+     ],
+     "start": 109.08,
+     "end": 113.809,
+     "audio": "05_04.wav"
+    },
+    {
+     "en": "For your company, this is a good time to check loan terms and prices.",
+     "jp": "会社としては、借入の条件や価格を見直す良い機会です。",
+     "hl": [
+      "check loan terms",
+      "借入の条件"
+     ],
+     "start": 114.459,
+     "end": 118.452,
+     "audio": "05_05.wav"
+    }
+   ],
+   "start": 93.662,
+   "end": 119.452
+  },
+  {
+   "id": "other",
+   "chapter": "THE OTHER SIDE",
+   "vis": {
+    "type": "cards",
+    "title": "The risk of going too far",
+    "title_jp": "上げすぎのリスク",
+    "items": [
+     {
+      "title": "ECB",
+      "jp": "金融環境の引き締まり",
+      "value": "Growth risk",
+      "note": "Oct 29, 2026",
+      "color": "navy"
+     },
+     {
+      "title": "BoJ, September",
+      "jp": "2人が利上げに反対",
+      "value": "7–2 vote",
+      "note": "Sept 18, 2026",
+      "color": "navy"
+     },
+     {
+      "title": "The balance",
+      "jp": "成長かインフレか",
+      "value": "Too fast / too slow",
+      "note": "",
+      "color": "red"
+     }
+    ],
+    "at": [
+     1,
+     2,
+     4
+    ]
+   },
+   "beats": [
+    {
+     "en": "Not everyone thinks more hikes are needed.",
+     "jp": "さらなる利上げが必要だと、全員が考えているわけではありません。",
+     "hl": [
+      "Not everyone",
+      "全員が〜わけではない"
+     ],
+     "start": 120.052,
+     "end": 122.037,
+     "audio": "06_00.wav"
+    },
+    {
+     "en": "The ECB warns that tighter financing could weigh on growth.",
+     "jp": "ECBは、資金調達環境の引き締まりが成長の重荷になると警告しています。",
+     "hl": [
+      "weigh on growth",
+      "成長の重荷"
+     ],
+     "start": 122.687,
+     "end": 126.26,
+     "audio": "06_01.wav"
+    },
+    {
+     "en": "At the BoJ, two members voted against the September hike.",
+     "jp": "日銀では、9月の利上げに2人が反対しました。",
+     "hl": [
+      "voted against",
+      "反対しました"
+     ],
+     "start": 126.91,
+     "end": 130.326,
+     "audio": "06_02.wav"
+    },
+    {
+     "en": "They argued the economy and prices were not strong enough yet.",
+     "jp": "経済も物価も、まだ十分に強くないという意見でした。",
+     "hl": [
+      "not strong enough",
+      "十分に強くない"
+     ],
+     "start": 130.976,
+     "end": 134.528,
+     "audio": "06_03.wav"
+    },
+    {
+     "en": "Raise too fast, and growth slows. Too slowly, and inflation stays.",
+     "jp": "上げるのが速すぎれば成長が鈍り、遅すぎればインフレが残ります。",
+     "hl": [
+      "too fast",
+      "速すぎれば"
+     ],
+     "start": 135.178,
+     "end": 139.483,
+     "audio": "06_04.wav"
+    }
+   ],
+   "start": 119.452,
+   "end": 140.483
+  },
+  {
+   "id": "phrases",
+   "chapter": "TODAY'S ENGLISH",
+   "vis": {
+    "type": "phrases",
+    "items": [
+     {
+      "en": "on hold",
+      "jp": "保留中・据え置き",
+      "ex": "The project is on hold until next quarter.",
+      "ex_jp": "そのプロジェクトは来期まで保留です。"
+     },
+     {
+      "en": "tighten",
+      "jp": "引き締める・厳しくする",
+      "ex": "We need to tighten our budget next year.",
+      "ex_jp": "来年は予算を引き締める必要があります。"
+     },
+     {
+      "en": "price in",
+      "jp": "(予想を)織り込む",
+      "key": "prices in",
+      "ex": "Our forecast already prices in a weaker yen.",
+      "ex_jp": "私たちの予測は、すでに円安を織り込んでいます。"
+     }
+    ]
+   },
+   "beats": [
+    {
+     "en": "Three phrases for your next meeting.",
+     "jp": "次の会議で使える英語を3つ。",
+     "hl": [
+      "Three phrases",
+      "英語を3つ"
+     ],
+     "step": "intro",
+     "ph": -1,
+     "start": 141.083,
+     "end": 142.825,
+     "audio": "07_00.wav"
+    },
+    {
+     "en": "on hold.",
+     "jp": "この英語の意味は?",
+     "hl": [
+      "on hold",
+      ""
+     ],
+     "step": "say",
+     "ph": 0,
+     "start": 143.475,
+     "end": 144.176,
+     "audio": "07_01.wav"
+    },
+    {
+     "en": "",
+     "jp": "考えてみよう",
+     "hl": [],
+     "step": "think",
+     "ph": 0,
+     "hold": 2.5,
+     "start": 144.826,
+     "end": 147.326,
+     "audio": "07_02.wav"
+    },
+    {
+     "en": "The project is on hold until next quarter.",
+     "jp": "そのプロジェクトは来期まで保留です。",
+     "hl": [
+      "on hold",
+      ""
+     ],
+     "step": "ex",
+     "ph": 0,
+     "start": 147.976,
+     "end": 150.379,
+     "audio": "07_03.wav"
+    },
+    {
+     "en": "The project is on hold until next quarter.",
+     "jp": "もう一度。声に出して言ってみよう",
+     "hl": [
+      "on hold",
+      ""
+     ],
+     "step": "ex",
+     "ph": 0,
+     "repeat": true,
+     "start": 151.029,
+     "end": 153.433,
+     "audio": "07_04.wav"
+    },
+    {
+     "en": "",
+     "jp": "(あなたの番)",
+     "hl": [],
+     "step": "ex",
+     "ph": 0,
+     "hold": 3.0,
+     "start": 154.083,
+     "end": 157.083,
+     "audio": "07_05.wav"
+    },
+    {
+     "en": "tighten.",
+     "jp": "この英語の意味は?",
+     "hl": [
+      "tighten",
+      ""
+     ],
+     "step": "say",
+     "ph": 1,
+     "start": 157.733,
+     "end": 158.277,
+     "audio": "07_06.wav"
+    },
+    {
+     "en": "",
+     "jp": "考えてみよう",
+     "hl": [],
+     "step": "think",
+     "ph": 1,
+     "hold": 2.5,
+     "start": 158.927,
+     "end": 161.427,
+     "audio": "07_07.wav"
+    },
+    {
+     "en": "We need to tighten our budget next year.",
+     "jp": "来年は予算を引き締める必要があります。",
+     "hl": [
+      "tighten",
+      ""
+     ],
+     "step": "ex",
+     "ph": 1,
+     "start": 162.077,
+     "end": 163.882,
+     "audio": "07_08.wav"
+    },
+    {
+     "en": "We need to tighten our budget next year.",
+     "jp": "もう一度。声に出して言ってみよう",
+     "hl": [
+      "tighten",
+      ""
+     ],
+     "step": "ex",
+     "ph": 1,
+     "repeat": true,
+     "start": 164.532,
+     "end": 166.337,
+     "audio": "07_09.wav"
+    },
+    {
+     "en": "",
+     "jp": "(あなたの番)",
+     "hl": [],
+     "step": "ex",
+     "ph": 1,
+     "hold": 3.0,
+     "start": 166.987,
+     "end": 169.987,
+     "audio": "07_10.wav"
+    },
+    {
+     "en": "price in.",
+     "jp": "この英語の意味は?",
+     "hl": [
+      "price in",
+      ""
+     ],
+     "step": "say",
+     "ph": 2,
+     "start": 170.637,
+     "end": 171.294,
+     "audio": "07_11.wav"
+    },
+    {
+     "en": "",
+     "jp": "考えてみよう",
+     "hl": [],
+     "step": "think",
+     "ph": 2,
+     "hold": 2.5,
+     "start": 171.944,
+     "end": 174.444,
+     "audio": "07_12.wav"
+    },
+    {
+     "en": "Our forecast already prices in a weaker yen.",
+     "jp": "私たちの予測は、すでに円安を織り込んでいます。",
+     "hl": [
+      "prices in",
+      ""
+     ],
+     "step": "ex",
+     "ph": 2,
+     "start": 175.094,
+     "end": 177.584,
+     "audio": "07_13.wav"
+    },
+    {
+     "en": "Our forecast already prices in a weaker yen.",
+     "jp": "もう一度。声に出して言ってみよう",
+     "hl": [
+      "prices in",
+      ""
+     ],
+     "step": "ex",
+     "ph": 2,
+     "repeat": true,
+     "start": 178.234,
+     "end": 180.726,
+     "audio": "07_14.wav"
+    },
+    {
+     "en": "",
+     "jp": "(あなたの番)",
+     "hl": [],
+     "step": "ex",
+     "ph": 2,
+     "hold": 3.0,
+     "start": 181.376,
+     "end": 184.376,
+     "audio": "07_15.wav"
+    }
+   ],
+   "start": 140.483,
+   "end": 185.376
+  },
+  {
+   "id": "outro",
+   "chapter": "",
+   "vis": {
+    "type": "outro",
+    "items": [
+     "on hold",
+     "tighten",
+     "price in"
+    ]
+   },
+   "beats": [
+    {
+     "en": "Which one will you use this week? Tell us in the comments.",
+     "jp": "今週使うのはどれですか? コメントで教えてください。",
+     "hl": [
+      "this week",
+      "今週"
+     ],
+     "start": 185.976,
+     "end": 188.95,
+     "audio": "08_00.wav"
+    }
+   ],
+   "start": 185.376,
+   "end": 189.95
+  }
+ ],
+ "total": 189.95,
+ "portrait": null
+}

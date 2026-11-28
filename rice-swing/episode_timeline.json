@@ -1,0 +1,871 @@
+{
+ "scenes": [
+  {
+   "id": "hook",
+   "chapter": "RICE",
+   "vis": {
+    "type": "bigstat",
+    "kicker": "Rice, 5 kg bag, Japanese supermarkets",
+    "value": 2926,
+    "prefix": "¥",
+    "tag": "Below ¥3,000",
+    "sub": "スーパーの米5kg平均(2026年9月下旬)",
+    "src": "Source: MAFF via BigGo Finance",
+    "art": "rice",
+    "num_at": 1,
+    "tag_at": 2
+   },
+   "beats": [
+    {
+     "en": "In Japan, rice is getting cheaper again.",
+     "jp": "日本で、お米がまた安くなっています。",
+     "hl": [
+      "cheaper again",
+      "安くなって"
+     ],
+     "start": 0.6,
+     "end": 3.065,
+     "audio": "00_00.wav"
+    },
+    {
+     "en": "In late September, a 5-kilo bag cost 2,926 yen on average.",
+     "jp": "9月下旬、5kgの平均は2,926円でした。",
+     "hl": [
+      "2,926 yen",
+      "2,926円"
+     ],
+     "start": 3.715,
+     "end": 9.537,
+     "audio": "00_01.wav"
+    },
+    {
+     "en": "That was the third week in a row below 3,000 yen.",
+     "jp": "3,000円を下回るのは3週連続です。",
+     "hl": [
+      "third week in a row",
+      "3週連続"
+     ],
+     "start": 10.187,
+     "end": 13.314,
+     "audio": "00_02.wav"
+    },
+    {
+     "en": "Today: how Japan swung from a rice shortage to a rice glut.",
+     "jp": "今日は、日本が米不足から米余りに振れた流れを見ます。",
+     "hl": [
+      "shortage to a rice glut",
+      "米不足から米余り"
+     ],
+     "start": 13.964,
+     "end": 17.54,
+     "audio": "00_03.wav"
+    }
+   ],
+   "start": 0.0,
+   "end": 18.54
+  },
+  {
+   "id": "swing",
+   "chapter": "THE SWING",
+   "vis": {
+    "type": "bars",
+    "title": "Average price of a 5 kg bag of rice",
+    "title_jp": "スーパーの米5kgの平均価格",
+    "items": [
+     {
+      "label": "Before the shortage",
+      "value": 2000,
+      "display": "~¥2,000",
+      "color": "navy"
+     },
+     {
+      "label": "Peak, Jan 2026",
+      "value": 4416,
+      "display": "¥4,416",
+      "color": "red"
+     },
+     {
+      "label": "Late Sept 2026",
+      "value": 2926,
+      "display": "¥2,926",
+      "color": "navy"
+     }
+    ],
+    "at": [
+     0,
+     1,
+     3
+    ],
+    "note": "Source: MAFF, KSP-SP via Nippon.com; MAFF via BigGo Finance"
+   },
+   "beats": [
+    {
+     "en": "Before the shortage, a bag cost about 2,000 yen.",
+     "jp": "米不足の前は、1袋およそ2,000円でした。",
+     "hl": [
+      "about 2,000 yen",
+      "およそ2,000円"
+     ],
+     "start": 19.14,
+     "end": 22.308,
+     "audio": "01_00.wav"
+    },
+    {
+     "en": "Then prices more than doubled. The peak was 4,416 yen in early January.",
+     "jp": "その後、価格は2倍以上に。1月上旬の4,416円がピークでした。",
+     "hl": [
+      "more than doubled",
+      "2倍以上"
+     ],
+     "start": 22.958,
+     "end": 29.268,
+     "audio": "01_01.wav"
+    },
+    {
+     "en": "Since then, prices have fallen week after week.",
+     "jp": "それ以降、価格は毎週のように下がっています。",
+     "hl": [
+      "week after week",
+      "毎週のように"
+     ],
+     "start": 29.918,
+     "end": 32.492,
+     "audio": "01_02.wav"
+    },
+    {
+     "en": "By late September, they had fallen for seven weeks in a row.",
+     "jp": "9月下旬には、7週連続の値下がりでした。",
+     "hl": [
+      "seven weeks in a row",
+      "7週連続"
+     ],
+     "start": 33.142,
+     "end": 36.518,
+     "audio": "01_03.wav"
+    }
+   ],
+   "start": 18.54,
+   "end": 37.518
+  },
+  {
+   "id": "why",
+   "chapter": "WHY?",
+   "vis": {
+    "type": "flow",
+    "title": "From shortage to glut",
+    "title_jp": "米不足から米余りへ",
+    "items": [
+     {
+      "title": "Shortage",
+      "jp": "米不足・価格高騰",
+      "color": "red"
+     },
+     {
+      "title": "Stockpile released",
+      "jp": "備蓄米を放出",
+      "color": "navy"
+     },
+     {
+      "title": "Big private stocks",
+      "jp": "民間在庫160万トン",
+      "color": "navy"
+     },
+     {
+      "title": "Prices fall",
+      "jp": "価格が下がる",
+      "color": "green"
+     }
+    ],
+    "at": [
+     0,
+     1,
+     2,
+     4
+    ]
+   },
+   "beats": [
+    {
+     "en": "Why did prices turn around so fast?",
+     "jp": "なぜ、こんなに早く値下がりに転じたのでしょうか。",
+     "hl": [
+      "turn around",
+      "転じた"
+     ],
+     "start": 38.118,
+     "end": 40.194,
+     "audio": "02_00.wav"
+    },
+    {
+     "en": "In 2025, the government sold 590,000 tonnes from its stockpile.",
+     "jp": "2025年、政府は備蓄米を59万トン売り出しました。",
+     "hl": [
+      "590,000 tonnes",
+      "59万トン"
+     ],
+     "start": 40.844,
+     "end": 46.289,
+     "audio": "02_01.wav"
+    },
+    {
+     "en": "At the end of July, private stocks reached 1.6 million tonnes.",
+     "jp": "7月末、民間の在庫は160万トンに達しました。",
+     "hl": [
+      "1.6 million tonnes",
+      "160万トン"
+     ],
+     "start": 46.939,
+     "end": 50.787,
+     "audio": "02_02.wav"
+    },
+    {
+     "en": "That was 700,000 tonnes more than a year earlier.",
+     "jp": "前の年より70万トン多い量です。",
+     "hl": [
+      "700,000 tonnes more",
+      "70万トン多い"
+     ],
+     "start": 51.437,
+     "end": 54.744,
+     "audio": "02_03.wav"
+    },
+    {
+     "en": "More rice on the market means lower prices.",
+     "jp": "市場にお米が増えれば、価格は下がります。",
+     "hl": [
+      "lower prices",
+      "価格は下がり"
+     ],
+     "start": 55.394,
+     "end": 58.01,
+     "audio": "02_04.wav"
+    }
+   ],
+   "start": 37.518,
+   "end": 59.01
+  },
+  {
+   "id": "stockpile",
+   "chapter": "THE STOCKPILE",
+   "vis": {
+    "type": "versus",
+    "title": "Government rice stockpile (July 2026)",
+    "title_jp": "政府の備蓄米(2026年7月時点)",
+    "left": {
+     "title": "Target level",
+     "jp": "適正な水準",
+     "value": "~1M t",
+     "color": "navy"
+    },
+    "right": {
+     "title": "After the releases",
+     "jp": "放出後の残り",
+     "value": "~320k t",
+     "color": "red"
+    },
+    "at": [
+     0,
+     2
+    ]
+   },
+   "beats": [
+    {
+     "en": "But the releases left a gap in the national stockpile.",
+     "jp": "しかし放出で、国の備蓄に穴があきました。",
+     "hl": [
+      "left a gap",
+      "穴があき"
+     ],
+     "start": 59.61,
+     "end": 62.548,
+     "audio": "03_00.wav"
+    },
+    {
+     "en": "The target level is about one million tonnes.",
+     "jp": "適正な水準は、約100万トンです。",
+     "hl": [
+      "one million tonnes",
+      "約100万トン"
+     ],
+     "start": 63.198,
+     "end": 65.727,
+     "audio": "03_01.wav"
+    },
+    {
+     "en": "In July, only about 320,000 tonnes were left.",
+     "jp": "7月時点で、残りは約32万トンでした。",
+     "hl": [
+      "320,000 tonnes",
+      "約32万トン"
+     ],
+     "start": 66.377,
+     "end": 70.064,
+     "audio": "03_02.wav"
+    },
+    {
+     "en": "Now the ministry plans to buy back about 210,000 tonnes.",
+     "jp": "農水省は、約21万トンを買い戻す計画です。",
+     "hl": [
+      "buy back",
+      "買い戻す"
+     ],
+     "start": 70.714,
+     "end": 74.851,
+     "audio": "03_03.wav"
+    }
+   ],
+   "start": 59.01,
+   "end": 75.851
+  },
+  {
+   "id": "farmers",
+   "chapter": "FARMERS",
+   "vis": {
+    "type": "cards",
+    "title": "The pressure on rice farmers",
+    "title_jp": "米農家にかかる圧力",
+    "items": [
+     {
+      "title": "Wholesale price",
+      "jp": "新米の取引価格(9月、前年比)",
+      "value": "−42%",
+      "note": "MAFF via Jiji Press",
+      "color": "red"
+     },
+     {
+      "title": "One farmer's price",
+      "jp": "千葉の農家の受取額(60kg)",
+      "value": "<¥15,000",
+      "note": "last year: ¥30,000",
+      "color": "navy"
+     },
+     {
+      "title": "Farmers over 65",
+      "jp": "主な働き手の割合",
+      "value": "~70%",
+      "note": "MAFF via Bloomberg",
+      "color": "navy"
+     }
+    ],
+    "at": [
+     1,
+     3,
+     4
+    ]
+   },
+   "beats": [
+    {
+     "en": "Cheaper rice is good for shoppers. For farmers, it's a different story.",
+     "jp": "安いお米は買う人にはうれしい。でも農家には別の話です。",
+     "hl": [
+      "a different story",
+      "別の話"
+     ],
+     "start": 76.451,
+     "end": 80.598,
+     "audio": "04_00.wav"
+    },
+    {
+     "en": "In September, the wholesale price of new rice fell 42 percent from a year earlier.",
+     "jp": "9月、新米の取引価格は前の年より42%下がりました。",
+     "hl": [
+      "42 percent",
+      "42%"
+     ],
+     "start": 81.248,
+     "end": 86.568,
+     "audio": "04_01.wav"
+    },
+    {
+     "en": "Costs like fuel and materials are still rising.",
+     "jp": "燃料や資材などのコストは、まだ上がっています。",
+     "hl": [
+      "still rising",
+      "まだ上がって"
+     ],
+     "start": 87.218,
+     "end": 89.844,
+     "audio": "04_02.wav"
+    },
+    {
+     "en": "One farmer in Chiba now gets less than half of last year's price.",
+     "jp": "千葉のある農家は、受け取る額が去年の半分以下になりました。",
+     "hl": [
+      "less than half",
+      "半分以下"
+     ],
+     "start": 90.494,
+     "end": 94.362,
+     "audio": "04_03.wav"
+    },
+    {
+     "en": "And about 70 percent of full-time farmers are over 65.",
+     "jp": "しかも主に農業で働く人の約7割が65歳以上です。",
+     "hl": [
+      "over 65",
+      "65歳以上"
+     ],
+     "start": 95.012,
+     "end": 98.852,
+     "audio": "04_04.wav"
+    }
+   ],
+   "start": 75.851,
+   "end": 99.852
+  },
+  {
+   "id": "japan",
+   "chapter": "WHAT IT MEANS FOR BUSINESS",
+   "vis": {
+    "type": "flow",
+    "title": "Who feels the change",
+    "title_jp": "この変化を感じるのは誰か",
+    "items": [
+     {
+      "title": "Lower rice costs",
+      "jp": "お米の仕入れが安く",
+      "color": "green"
+     },
+     {
+      "title": "Cheaper onigiri",
+      "jp": "コンビニがおにぎりを値下げ",
+      "color": "green"
+     },
+     {
+      "title": "Thinner farm income",
+      "jp": "農家の収入が減る",
+      "color": "amber"
+     },
+     {
+      "title": "Supply risk later",
+      "jp": "将来の供給リスク",
+      "color": "red"
+     }
+    ],
+    "at": [
+     0,
+     2,
+     3,
+     4
+    ]
+   },
+   "beats": [
+    {
+     "en": "What does this mean for business in Japan?",
+     "jp": "日本のビジネスにとって、どんな意味があるでしょうか。",
+     "hl": [
+      "business in Japan",
+      "日本のビジネス"
+     ],
+     "start": 100.452,
+     "end": 102.43,
+     "audio": "05_00.wav"
+    },
+    {
+     "en": "Restaurants and food makers can buy rice for less.",
+     "jp": "飲食店や食品メーカーは、お米を安く仕入れられます。",
+     "hl": [
+      "for less",
+      "安く"
+     ],
+     "start": 103.08,
+     "end": 105.925,
+     "audio": "05_01.wav"
+    },
+    {
+     "en": "Three convenience store chains have already cut rice ball prices.",
+     "jp": "コンビニ大手3社は、すでにおにぎりを値下げしました。",
+     "hl": [
+      "cut rice ball prices",
+      "おにぎりを値下げ"
+     ],
+     "start": 106.575,
+     "end": 110.425,
+     "audio": "05_02.wav"
+    },
+    {
+     "en": "But if farm income falls too far, fewer people may grow rice.",
+     "jp": "でも農家の収入が下がりすぎれば、米を作る人が減るかもしれません。",
+     "hl": [
+      "fewer people",
+      "作る人が減る"
+     ],
+     "start": 111.075,
+     "end": 114.73,
+     "audio": "05_03.wav"
+    },
+    {
+     "en": "Japan had 2.4 million farmers in 2000. Now it has under one million.",
+     "jp": "日本の農家は2000年に240万人。いまは100万人を下回ります。",
+     "hl": [
+      "under one million",
+      "100万人を下回り"
+     ],
+     "start": 115.38,
+     "end": 120.918,
+     "audio": "05_04.wav"
+    },
+    {
+     "en": "So it's smart to plan for both cheap rice and a future squeeze.",
+     "jp": "安い時期と、将来の品薄の両方に備えておくのが賢明です。",
+     "hl": [
+      "plan for both",
+      "両方に備えて"
+     ],
+     "start": 121.568,
+     "end": 124.901,
+     "audio": "05_05.wav"
+    }
+   ],
+   "start": 99.852,
+   "end": 125.901
+  },
+  {
+   "id": "other",
+   "chapter": "THE OTHER SIDE",
+   "vis": {
+    "type": "bigstat",
+    "kicker": "New rice, wholesale, per 60 kg, Sept 2026",
+    "value": 21293,
+    "prefix": "¥",
+    "tag": "Still 3rd highest on record",
+    "sub": "新米の取引価格(玄米60kg・9月)",
+    "src": "Source: MAFF via Jiji Press (Oct 16, 2026)",
+    "art": "rice",
+    "num_at": 1,
+    "tag_at": 2
+   },
+   "beats": [
+    {
+     "en": "Is rice really cheap now? Not everyone agrees.",
+     "jp": "お米は本当に安くなったのか。そうとは言い切れません。",
+     "hl": [
+      "really cheap",
+      "本当に安く"
+     ],
+     "start": 126.501,
+     "end": 129.386,
+     "audio": "06_00.wav"
+    },
+    {
+     "en": "The September wholesale price was 21,293 yen per 60 kilos.",
+     "jp": "9月の取引価格は、60kgあたり21,293円でした。",
+     "hl": [
+      "21,293 yen",
+      "21,293円"
+     ],
+     "start": 130.036,
+     "end": 135.988,
+     "audio": "06_01.wav"
+    },
+    {
+     "en": "Even after the drop, that is the third highest on record.",
+     "jp": "下がった後でも、過去3番目の高さです。",
+     "hl": [
+      "third highest on record",
+      "過去3番目"
+     ],
+     "start": 136.638,
+     "end": 139.939,
+     "audio": "06_02.wav"
+    },
+    {
+     "en": "Store prices are also still well above the 2,000 yen of the past.",
+     "jp": "店頭の価格も、以前の2,000円よりまだかなり高い水準です。",
+     "hl": [
+      "well above",
+      "かなり高い"
+     ],
+     "start": 140.589,
+     "end": 144.712,
+     "audio": "06_03.wav"
+    },
+    {
+     "en": "And some experts think the government released too much stockpile rice.",
+     "jp": "備蓄米を放出しすぎたと考える専門家もいます。",
+     "hl": [
+      "released too much",
+      "放出しすぎた"
+     ],
+     "start": 145.362,
+     "end": 149.006,
+     "audio": "06_04.wav"
+    },
+    {
+     "en": "Others expect prices to keep falling next year.",
+     "jp": "来年も値下がりが続くと見る専門家もいます。",
+     "hl": [
+      "keep falling",
+      "値下がりが続く"
+     ],
+     "start": 149.656,
+     "end": 152.278,
+     "audio": "06_05.wav"
+    }
+   ],
+   "start": 125.901,
+   "end": 153.278
+  },
+  {
+   "id": "phrases",
+   "chapter": "TODAY'S ENGLISH",
+   "vis": {
+    "type": "phrases",
+    "items": [
+     {
+      "en": "ease",
+      "jp": "和らぐ・落ち着く",
+      "key": "ease",
+      "ex": "Cost pressure should ease next quarter.",
+      "ex_jp": "来期はコストの圧力が和らぐはずです。"
+     },
+     {
+      "en": "pass on",
+      "jp": "転嫁する・還元する",
+      "key": "pass on",
+      "ex": "Can we pass on the savings to our customers?",
+      "ex_jp": "その分の節約を、お客様に還元できますか?"
+     },
+     {
+      "en": "go too far",
+      "jp": "やりすぎる・行きすぎる",
+      "key": "go too far",
+      "ex": "Let's not go too far with price cuts.",
+      "ex_jp": "値下げをやりすぎないようにしましょう。"
+     }
+    ]
+   },
+   "beats": [
+    {
+     "en": "Three phrases for your next meeting.",
+     "jp": "次の会議で使える英語を3つ。",
+     "hl": [
+      "Three phrases",
+      "英語を3つ"
+     ],
+     "step": "intro",
+     "ph": -1,
+     "start": 153.878,
+     "end": 155.624,
+     "audio": "07_00.wav"
+    },
+    {
+     "en": "ease.",
+     "jp": "この英語の意味は?",
+     "hl": [
+      "ease",
+      ""
+     ],
+     "step": "say",
+     "ph": 0,
+     "start": 156.274,
+     "end": 156.797,
+     "audio": "07_01.wav"
+    },
+    {
+     "en": "",
+     "jp": "考えてみよう",
+     "hl": [],
+     "step": "think",
+     "ph": 0,
+     "hold": 2.5,
+     "start": 157.447,
+     "end": 159.947,
+     "audio": "07_02.wav"
+    },
+    {
+     "en": "Cost pressure should ease next quarter.",
+     "jp": "来期はコストの圧力が和らぐはずです。",
+     "hl": [
+      "ease",
+      ""
+     ],
+     "step": "ex",
+     "ph": 0,
+     "start": 160.597,
+     "end": 162.509,
+     "audio": "07_03.wav"
+    },
+    {
+     "en": "Cost pressure should ease next quarter.",
+     "jp": "もう一度。声に出して言ってみよう",
+     "hl": [
+      "ease",
+      ""
+     ],
+     "step": "ex",
+     "ph": 0,
+     "repeat": true,
+     "start": 163.159,
+     "end": 165.071,
+     "audio": "07_04.wav"
+    },
+    {
+     "en": "",
+     "jp": "(あなたの番)",
+     "hl": [],
+     "step": "ex",
+     "ph": 0,
+     "hold": 3.0,
+     "start": 165.721,
+     "end": 168.721,
+     "audio": "07_05.wav"
+    },
+    {
+     "en": "pass on.",
+     "jp": "この英語の意味は?",
+     "hl": [
+      "pass on",
+      ""
+     ],
+     "step": "say",
+     "ph": 1,
+     "start": 169.371,
+     "end": 169.995,
+     "audio": "07_06.wav"
+    },
+    {
+     "en": "",
+     "jp": "考えてみよう",
+     "hl": [],
+     "step": "think",
+     "ph": 1,
+     "hold": 2.5,
+     "start": 170.645,
+     "end": 173.145,
+     "audio": "07_07.wav"
+    },
+    {
+     "en": "Can we pass on the savings to our customers?",
+     "jp": "その分の節約を、お客様に還元できますか?",
+     "hl": [
+      "pass on",
+      ""
+     ],
+     "step": "ex",
+     "ph": 1,
+     "start": 173.795,
+     "end": 176.031,
+     "audio": "07_08.wav"
+    },
+    {
+     "en": "Can we pass on the savings to our customers?",
+     "jp": "もう一度。声に出して言ってみよう",
+     "hl": [
+      "pass on",
+      ""
+     ],
+     "step": "ex",
+     "ph": 1,
+     "repeat": true,
+     "start": 176.681,
+     "end": 178.917,
+     "audio": "07_09.wav"
+    },
+    {
+     "en": "",
+     "jp": "(あなたの番)",
+     "hl": [],
+     "step": "ex",
+     "ph": 1,
+     "hold": 3.0,
+     "start": 179.567,
+     "end": 182.567,
+     "audio": "07_10.wav"
+    },
+    {
+     "en": "go too far.",
+     "jp": "この英語の意味は?",
+     "hl": [
+      "go too far",
+      ""
+     ],
+     "step": "say",
+     "ph": 2,
+     "start": 183.217,
+     "end": 184.023,
+     "audio": "07_11.wav"
+    },
+    {
+     "en": "",
+     "jp": "考えてみよう",
+     "hl": [],
+     "step": "think",
+     "ph": 2,
+     "hold": 2.5,
+     "start": 184.673,
+     "end": 187.173,
+     "audio": "07_12.wav"
+    },
+    {
+     "en": "Let's not go too far with price cuts.",
+     "jp": "値下げをやりすぎないようにしましょう。",
+     "hl": [
+      "go too far",
+      ""
+     ],
+     "step": "ex",
+     "ph": 2,
+     "start": 187.823,
+     "end": 189.801,
+     "audio": "07_13.wav"
+    },
+    {
+     "en": "Let's not go too far with price cuts.",
+     "jp": "もう一度。声に出して言ってみよう",
+     "hl": [
+      "go too far",
+      ""
+     ],
+     "step": "ex",
+     "ph": 2,
+     "repeat": true,
+     "start": 190.451,
+     "end": 192.43,
+     "audio": "07_14.wav"
+    },
+    {
+     "en": "",
+     "jp": "(あなたの番)",
+     "hl": [],
+     "step": "ex",
+     "ph": 2,
+     "hold": 3.0,
+     "start": 193.08,
+     "end": 196.08,
+     "audio": "07_15.wav"
+    }
+   ],
+   "start": 153.278,
+   "end": 197.08
+  },
+  {
+   "id": "outro",
+   "chapter": "",
+   "vis": {
+    "type": "outro",
+    "items": [
+     "ease",
+     "pass on",
+     "go too far"
+    ]
+   },
+   "beats": [
+    {
+     "en": "Which one will you use this week? Tell us in the comments.",
+     "jp": "今週使うのはどれですか? コメントで教えてください。",
+     "hl": [
+      "this week",
+      "今週"
+     ],
+     "start": 197.68,
+     "end": 200.654,
+     "audio": "08_00.wav"
+    }
+   ],
+   "start": 197.08,
+   "end": 201.654
+  }
+ ],
+ "total": 201.654,
+ "portrait": null
+}

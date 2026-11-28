@@ -1,0 +1,97 @@
+{
+ "scenes": [
+  {
+   "id": "lead",
+   "chapter": "",
+   "vis": {
+    "type": "bigstat",
+    "kicker": "New copper mine",
+    "value": 17,
+    "suffix": " years",
+    "tag": "discovery → production",
+    "sub": "新しい銅山:発見から生産まで",
+    "src": "Source: IEA",
+    "art": "copper",
+    "num_at": 2,
+    "tag_at": 2
+   },
+   "beats": [
+    {
+     "en": "Copper is in every power line, every electric car and every data center.",
+     "jp": "銅は、すべての電線、電気自動車、データセンターに使われています。",
+     "hl": [
+      "every power line",
+      "すべての電線"
+     ],
+     "start": 0.6,
+     "end": 5.455,
+     "audio": "00_00.wav"
+    },
+    {
+     "en": "Copper prices hit record highs this year.",
+     "jp": "銅の価格は今年、過去最高を記録しました。",
+     "hl": [
+      "record highs",
+      "過去最高"
+     ],
+     "start": 6.105,
+     "end": 8.499,
+     "audio": "00_01.wav"
+    },
+    {
+     "en": "But a new copper mine has a very long lead time: about 17 years.",
+     "jp": "でも新しい銅山はリードタイムがとても長く、約17年かかります。",
+     "hl": [
+      "lead time",
+      "リードタイム"
+     ],
+     "start": 9.149,
+     "end": 13.554,
+     "audio": "00_02.wav"
+    },
+    {
+     "en": "So supply can't catch up quickly, even when demand jumps.",
+     "jp": "だから需要が急に増えても、供給はすぐには追いつけません。",
+     "hl": [
+      "catch up",
+      "追いつけません"
+     ],
+     "start": 14.204,
+     "end": 17.557,
+     "audio": "00_03.wav"
+    }
+   ],
+   "start": 0.0,
+   "end": 18.557
+  },
+  {
+   "id": "cta",
+   "chapter": "",
+   "vis": {
+    "type": "cta",
+    "en": "Copper has a long lead time.",
+    "jp": "銅山はリードタイムが長い",
+    "btn": "続きは本編で"
+   },
+   "beats": [
+    {
+     "en": "Want the full story? Watch the full video.",
+     "jp": "くわしくは本編で。英語の解説つきです。",
+     "hl": [
+      "full video",
+      "本編"
+     ],
+     "start": 19.157,
+     "end": 21.409,
+     "audio": "01_00.wav"
+    }
+   ],
+   "start": 18.557,
+   "end": 22.409
+  }
+ ],
+ "total": 22.409,
+ "portrait": {
+  "head": "<div class='q'>新しい銅山<br>生産まで<b>何年</b>?</div><div class='e'>lead time</div>"
+ }
+}

@@ -1,0 +1,948 @@
+{
+ "scenes": [
+  {
+   "id": "hook",
+   "chapter": "JAPAN TOURISM",
+   "vis": {
+    "type": "bigstat",
+    "kicker": "Visitors to Japan, October 2026",
+    "value": 3.91,
+    "decimals": 2,
+    "suffix": "M",
+    "tag": "Record month",
+    "sub": "訪日客 2026年10月(単月で過去最多)",
+    "src": "Source: JNTO (preliminary)",
+    "art": "plane",
+    "num_at": 0,
+    "tag_at": 0
+   },
+   "beats": [
+    {
+     "en": "Japan just had its busiest month ever for foreign visitors.",
+     "jp": "日本は、外国人客が過去最も多い月を迎えました。",
+     "hl": [
+      "busiest month ever",
+      "過去最も多い月"
+     ],
+     "start": 0.6,
+     "end": 4.016,
+     "audio": "00_00.wav"
+    },
+    {
+     "en": "In October 2026, about 3.91 million people came.",
+     "jp": "2026年10月、約391万人が訪れました。",
+     "hl": [
+      "3.91 million",
+      "約391万人"
+     ],
+     "start": 4.666,
+     "end": 9.173,
+     "audio": "00_01.wav"
+    },
+    {
+     "en": "But that was only 0.4 percent more than a year earlier.",
+     "jp": "でも前の年と比べると、わずか0.4%の増加でした。",
+     "hl": [
+      "0.4 percent",
+      "0.4%"
+     ],
+     "start": 9.823,
+     "end": 13.249,
+     "audio": "00_02.wav"
+    },
+    {
+     "en": "Today: who is coming, who is not, and what businesses can learn.",
+     "jp": "今日は、誰が来て、誰が来ていないのか、企業は何を学べるのかを見ます。",
+     "hl": [
+      "what businesses can learn",
+      "企業は何を学べるのか"
+     ],
+     "start": 13.899,
+     "end": 17.519,
+     "audio": "00_03.wav"
+    }
+   ],
+   "start": 0.0,
+   "end": 18.519
+  },
+  {
+   "id": "top",
+   "chapter": "WHO IS COMING?",
+   "vis": {
+    "type": "bars",
+    "title": "Top markets, October 2026",
+    "title_jp": "国・地域別の訪日客(2026年10月)",
+    "items": [
+     {
+      "label": "S. Korea",
+      "value": 1035.8,
+      "display": "1.04M"
+     },
+     {
+      "label": "Taiwan",
+      "value": 634.6,
+      "display": "635K"
+     },
+     {
+      "label": "China",
+      "value": 379.5,
+      "display": "380K",
+      "color": "red"
+     },
+     {
+      "label": "US",
+      "value": 351.5,
+      "display": "352K",
+      "color": "navy"
+     },
+     {
+      "label": "Hong Kong",
+      "value": 202.5,
+      "display": "203K",
+      "color": "navy"
+     }
+    ],
+    "at": [
+     0,
+     2,
+     3,
+     4,
+     4
+    ]
+   },
+   "beats": [
+    {
+     "en": "Here are the biggest markets.",
+     "jp": "これが、多い国・地域です。",
+     "hl": [
+      "biggest markets",
+      "多い国・地域"
+     ],
+     "start": 19.119,
+     "end": 20.615,
+     "audio": "01_00.wav"
+    },
+    {
+     "en": "South Korea was number one, with over one million visitors, up 19 percent.",
+     "jp": "1位は韓国。100万人を超え、19%増えました。",
+     "hl": [
+      "number one",
+      "1位"
+     ],
+     "start": 21.265,
+     "end": 26.352,
+     "audio": "01_01.wav"
+    },
+    {
+     "en": "Taiwan came second, up 6.5 percent.",
+     "jp": "2位は台湾で、6.5%増。",
+     "hl": [
+      "second",
+      "2位"
+     ],
+     "start": 27.002,
+     "end": 29.954,
+     "audio": "01_02.wav"
+    },
+    {
+     "en": "China was third, but down 47 percent.",
+     "jp": "中国は3位ですが、47%減りました。",
+     "hl": [
+      "down 47 percent",
+      "47%減"
+     ],
+     "start": 30.604,
+     "end": 33.434,
+     "audio": "01_03.wav"
+    },
+    {
+     "en": "The US and Hong Kong also grew.",
+     "jp": "アメリカと香港も増えました。",
+     "hl": [
+      "also grew",
+      "増えました"
+     ],
+     "start": 34.084,
+     "end": 35.994,
+     "audio": "01_04.wav"
+    }
+   ],
+   "start": 18.519,
+   "end": 36.994
+  },
+  {
+   "id": "split",
+   "chapter": "OPPOSITE DIRECTIONS",
+   "vis": {
+    "type": "versus",
+    "title": "Change from a year earlier (October 2026)",
+    "title_jp": "前年同月比(2026年10月)",
+    "left": {
+     "title": "China",
+     "jp": "中国",
+     "value": "-47.0%",
+     "color": "red"
+    },
+    "right": {
+     "title": "South Korea",
+     "jp": "韓国",
+     "value": "+19.4%",
+     "color": "green"
+    },
+    "at": [
+     0,
+     2
+    ]
+   },
+   "beats": [
+    {
+     "en": "These two markets moved in opposite directions.",
+     "jp": "この二つの市場は、正反対に動きました。",
+     "hl": [
+      "opposite directions",
+      "正反対"
+     ],
+     "start": 37.594,
+     "end": 40.188,
+     "audio": "02_00.wav"
+    },
+    {
+     "en": "China nearly halved: 11 months of decline in a row.",
+     "jp": "中国からの客はほぼ半減。11か月連続の減少です。",
+     "hl": [
+      "nearly halved",
+      "ほぼ半減"
+     ],
+     "start": 40.838,
+     "end": 44.099,
+     "audio": "02_01.wav"
+    },
+    {
+     "en": "Visitors from South Korea jumped 19.4 percent.",
+     "jp": "韓国からの客は19.4%増えました。",
+     "hl": [
+      "jumped",
+      "増えました"
+     ],
+     "start": 44.749,
+     "end": 48.441,
+     "audio": "02_02.wav"
+    }
+   ],
+   "start": 36.994,
+   "end": 49.441
+  },
+  {
+   "id": "why",
+   "chapter": "WHY THE DROP?",
+   "vis": {
+    "type": "flow",
+    "title": "Why fewer visitors from China",
+    "title_jp": "中国からの客が減った流れ",
+    "items": [
+     {
+      "title": "Diplomatic tension",
+      "jp": "外交上の緊張",
+      "color": "navy"
+     },
+     {
+      "title": "Travel advisory",
+      "jp": "渡航の注意喚起",
+      "color": "navy"
+     },
+     {
+      "title": "Fewer flights",
+      "jp": "航空便の減便",
+      "color": "navy"
+     },
+     {
+      "title": "About half",
+      "jp": "ほぼ半減",
+      "color": "red"
+     }
+    ],
+    "at": [
+     0,
+     1,
+     2,
+     3
+    ]
+   },
+   "beats": [
+    {
+     "en": "Why the drop from China?",
+     "jp": "なぜ中国からの客が減ったのでしょう?",
+     "hl": [
+      "Why",
+      "なぜ"
+     ],
+     "start": 50.041,
+     "end": 51.28,
+     "audio": "03_00.wav"
+    },
+    {
+     "en": "After diplomatic tensions, Beijing advised people against travel to Japan.",
+     "jp": "外交上の緊張のあと、中国政府は日本への渡航に注意を呼びかけました。",
+     "hl": [
+      "advised",
+      "呼びかけました"
+     ],
+     "start": 51.93,
+     "end": 56.718,
+     "audio": "03_01.wav"
+    },
+    {
+     "en": "Airlines also cut flights.",
+     "jp": "航空会社も便を減らしました。",
+     "hl": [
+      "cut flights",
+      "便を減らしました"
+     ],
+     "start": 57.368,
+     "end": 58.912,
+     "audio": "03_02.wav"
+    },
+    {
+     "en": "As a result, visitors from China fell by about half.",
+     "jp": "その結果、中国からの客はほぼ半分になりました。",
+     "hl": [
+      "about half",
+      "ほぼ半分"
+     ],
+     "start": 59.562,
+     "end": 62.811,
+     "audio": "03_03.wav"
+    }
+   ],
+   "start": 49.441,
+   "end": 63.811
+  },
+  {
+   "id": "growth",
+   "chapter": "NEW GROWTH",
+   "vis": {
+    "type": "map",
+    "title": "Fast-growing markets (October, vs a year earlier)",
+    "title_jp": "伸びている市場(10月、前年同月比)",
+    "markers": [
+     {
+      "label": "Japan",
+      "jp": "日本",
+      "lat": 35.7,
+      "lon": 139.7,
+      "color": "navy"
+     },
+     {
+      "label": "India +44.8%",
+      "jp": "インド",
+      "lat": 28.6,
+      "lon": 77.2,
+      "color": "red"
+     },
+     {
+      "label": "Middle East +26.0%",
+      "jp": "中東",
+      "lat": 25.2,
+      "lon": 55.3,
+      "color": "red"
+     },
+     {
+      "label": "Malaysia +23.0%",
+      "jp": "マレーシア",
+      "lat": 3.1,
+      "lon": 101.7,
+      "color": "red"
+     },
+     {
+      "label": "Mexico +22.8%",
+      "jp": "メキシコ",
+      "lat": 19.4,
+      "lon": -99.1,
+      "color": "red"
+     }
+    ],
+    "arcs": [
+     [
+      1,
+      0
+     ],
+     [
+      2,
+      0
+     ],
+     [
+      3,
+      0
+     ],
+     [
+      4,
+      0
+     ]
+    ],
+    "at": [
+     0,
+     1,
+     2,
+     2,
+     3
+    ],
+    "arc_at": [
+     1,
+     2,
+     2,
+     3
+    ]
+   },
+   "beats": [
+    {
+     "en": "Meanwhile, other markets are growing fast.",
+     "jp": "一方で、ほかの市場は大きく伸びています。",
+     "hl": [
+      "growing fast",
+      "大きく伸びて"
+     ],
+     "start": 64.411,
+     "end": 66.702,
+     "audio": "04_00.wav"
+    },
+    {
+     "en": "Visitors from India rose 44.8 percent.",
+     "jp": "インドからの客は44.8%増えました。",
+     "hl": [
+      "44.8 percent",
+      "44.8%"
+     ],
+     "start": 67.352,
+     "end": 70.672,
+     "audio": "04_01.wav"
+    },
+    {
+     "en": "The Middle East was up 26 percent, and Malaysia 23 percent.",
+     "jp": "中東は26%、マレーシアは23%の増加です。",
+     "hl": [
+      "26 percent",
+      "26%"
+     ],
+     "start": 71.322,
+     "end": 75.652,
+     "audio": "04_02.wav"
+    },
+    {
+     "en": "Even Mexico grew 22.8 percent, to a monthly record.",
+     "jp": "メキシコも22.8%増え、単月で過去最多になりました。",
+     "hl": [
+      "monthly record",
+      "過去最多"
+     ],
+     "start": 76.302,
+     "end": 80.481,
+     "audio": "04_03.wav"
+    },
+    {
+     "en": "These gains helped offset the drop from China.",
+     "jp": "こうした伸びが、中国の減少を補いました。",
+     "hl": [
+      "offset",
+      "補いました"
+     ],
+     "start": 81.131,
+     "end": 83.689,
+     "audio": "04_04.wav"
+    }
+   ],
+   "start": 63.811,
+   "end": 84.689
+  },
+  {
+   "id": "trend",
+   "chapter": "THE BIG PICTURE",
+   "vis": {
+    "type": "bars",
+    "title": "Visitors to Japan per year",
+    "title_jp": "年間の訪日客数",
+    "items": [
+     {
+      "label": "2024",
+      "value": 36.9,
+      "display": "36.9M",
+      "color": "navy"
+     },
+     {
+      "label": "2025",
+      "value": 42.7,
+      "display": "42.7M",
+      "color": "red"
+     },
+     {
+      "label": "2030 goal",
+      "value": 60,
+      "display": "60M",
+      "color": "muted"
+     }
+    ],
+    "at": [
+     0,
+     1,
+     3
+    ]
+   },
+   "beats": [
+    {
+     "en": "Zoom out, and the long-term trend is still strong.",
+     "jp": "長い目で見ると、流れはまだ力強いままです。",
+     "hl": [
+      "long-term trend",
+      "長い目で見ると"
+     ],
+     "start": 85.289,
+     "end": 87.938,
+     "audio": "05_00.wav"
+    },
+    {
+     "en": "2025 was a record year, with 42.7 million visitors.",
+     "jp": "2025年は過去最多の4270万人でした。",
+     "hl": [
+      "record year",
+      "過去最多"
+     ],
+     "start": 88.588,
+     "end": 93.626,
+     "audio": "05_01.wav"
+    },
+    {
+     "en": "They spent a record 9.5 trillion yen.",
+     "jp": "使ったお金も、過去最高の9.5兆円でした。",
+     "hl": [
+      "9.5 trillion yen",
+      "9.5兆円"
+     ],
+     "start": 94.276,
+     "end": 96.751,
+     "audio": "05_02.wav"
+    },
+    {
+     "en": "The government aims for 60 million visitors a year by 2030.",
+     "jp": "政府は、2030年に年6000万人を目標にしています。",
+     "hl": [
+      "60 million",
+      "6000万人"
+     ],
+     "start": 97.401,
+     "end": 101.644,
+     "audio": "05_03.wav"
+    }
+   ],
+   "start": 84.689,
+   "end": 102.644
+  },
+  {
+   "id": "japan",
+   "chapter": "WHAT IT MEANS FOR BUSINESS",
+   "vis": {
+    "type": "cards",
+    "title": "Lessons for businesses in Japan",
+    "title_jp": "日本の企業への意味",
+    "items": [
+     {
+      "title": "One-market risk",
+      "jp": "一つの市場に頼るリスク",
+      "value": "-47%",
+      "note": "China, October 2026",
+      "color": "red"
+     },
+     {
+      "title": "Wider reach",
+      "jp": "客層を広げる",
+      "value": "20 / 23",
+      "note": "key markets hit October records",
+      "color": "green"
+     },
+     {
+      "title": "People",
+      "jp": "受け入れる人手",
+      "value": "Short",
+      "note": "labor shortages in tourism",
+      "color": "navy"
+     }
+    ],
+    "at": [
+     0,
+     2,
+     3
+    ]
+   },
+   "beats": [
+    {
+     "en": "What does this mean for businesses in Japan?",
+     "jp": "日本の企業にとって、どんな意味があるでしょう?",
+     "hl": [
+      "businesses in Japan",
+      "日本の企業"
+     ],
+     "start": 103.244,
+     "end": 105.41,
+     "audio": "06_00.wav"
+    },
+    {
+     "en": "Hotels and shops that rely heavily on one country carry a big risk.",
+     "jp": "一つの国に大きく頼るホテルや店は、大きなリスクを抱えます。",
+     "hl": [
+      "rely heavily on",
+      "大きく頼る"
+     ],
+     "start": 106.06,
+     "end": 110.371,
+     "audio": "06_01.wav"
+    },
+    {
+     "en": "In October, 20 of 23 key markets set records. The chance is to diversify.",
+     "jp": "10月は主要23市場のうち20が過去最多。客層を広げるチャンスです。",
+     "hl": [
+      "diversify",
+      "客層を広げる"
+     ],
+     "start": 111.021,
+     "end": 116.566,
+     "audio": "06_02.wav"
+    },
+    {
+     "en": "But more guests also need more staff, and tourism is short of workers.",
+     "jp": "ただ、客が増えれば人手も要ります。観光業は人手不足です。",
+     "hl": [
+      "short of workers",
+      "人手不足"
+     ],
+     "start": 117.216,
+     "end": 121.32,
+     "audio": "06_03.wav"
+    }
+   ],
+   "start": 102.644,
+   "end": 122.32
+  },
+  {
+   "id": "other",
+   "chapter": "THE OTHER SIDE",
+   "vis": {
+    "type": "bigstat",
+    "kicker": "Visitors, January–October 2026",
+    "value": -2.5,
+    "decimals": 1,
+    "suffix": "%",
+    "tag": "vs same period of 2025",
+    "sub": "2026年1〜10月の訪日客(前年同期比)",
+    "src": "Source: JNTO (preliminary)",
+    "art": "plane",
+    "num_at": 0,
+    "tag_at": 1
+   },
+   "beats": [
+    {
+     "en": "But a record month is not a record year.",
+     "jp": "でも、過去最多の月が、過去最多の年になるとは限りません。",
+     "hl": [
+      "record year",
+      "過去最多の年"
+     ],
+     "start": 122.92,
+     "end": 125.225,
+     "audio": "07_00.wav"
+    },
+    {
+     "en": "From January to October, visitors were down 2.5 percent.",
+     "jp": "1月から10月までの訪日客は、2.5%減っています。",
+     "hl": [
+      "down 2.5 percent",
+      "2.5%減"
+     ],
+     "start": 125.875,
+     "end": 130.003,
+     "audio": "07_01.wav"
+    },
+    {
+     "en": "To match 2025, about 8 million must come in November and December.",
+     "jp": "2025年に並ぶには、11〜12月に約800万人が必要です。",
+     "hl": [
+      "about 8 million",
+      "約800万人"
+     ],
+     "start": 130.653,
+     "end": 135.562,
+     "audio": "07_02.wav"
+    },
+    {
+     "en": "One big market can still move the whole total.",
+     "jp": "一つの大きな市場が、全体を動かすこともあるのです。",
+     "hl": [
+      "move the whole total",
+      "全体を動かす"
+     ],
+     "start": 136.212,
+     "end": 138.674,
+     "audio": "07_03.wav"
+    }
+   ],
+   "start": 122.32,
+   "end": 139.674
+  },
+  {
+   "id": "phrases",
+   "chapter": "TODAY'S ENGLISH",
+   "vis": {
+    "type": "phrases",
+    "items": [
+     {
+      "en": "rely heavily on",
+      "jp": "〜に大きく頼る",
+      "ex": "We rely heavily on one supplier.",
+      "ex_jp": "当社は1社の仕入れ先に大きく頼っています。"
+     },
+     {
+      "en": "offset",
+      "jp": "(損失などを)補う・相殺する",
+      "ex": "Strong sales in Asia offset the drop in Europe.",
+      "ex_jp": "アジアの好調な売上が、欧州の落ち込みを補いました。"
+     },
+     {
+      "en": "diversify",
+      "jp": "多様化する・分散する",
+      "ex": "We need to diversify our customer base.",
+      "ex_jp": "顧客層を多様化する必要があります。"
+     }
+    ]
+   },
+   "beats": [
+    {
+     "en": "Three phrases for your next meeting.",
+     "jp": "次の会議で使える英語を3つ。",
+     "hl": [
+      "Three phrases",
+      "英語を3つ"
+     ],
+     "step": "intro",
+     "ph": -1,
+     "start": 140.274,
+     "end": 142.02,
+     "audio": "08_00.wav"
+    },
+    {
+     "en": "rely heavily on.",
+     "jp": "この英語の意味は?",
+     "hl": [
+      "rely heavily on",
+      ""
+     ],
+     "step": "say",
+     "ph": 0,
+     "start": 142.67,
+     "end": 143.771,
+     "audio": "08_01.wav"
+    },
+    {
+     "en": "",
+     "jp": "考えてみよう",
+     "hl": [],
+     "step": "think",
+     "ph": 0,
+     "hold": 2.5,
+     "start": 144.421,
+     "end": 146.921,
+     "audio": "08_02.wav"
+    },
+    {
+     "en": "We rely heavily on one supplier.",
+     "jp": "当社は1社の仕入れ先に大きく頼っています。",
+     "hl": [
+      "rely heavily on",
+      ""
+     ],
+     "step": "ex",
+     "ph": 0,
+     "start": 147.571,
+     "end": 149.499,
+     "audio": "08_03.wav"
+    },
+    {
+     "en": "We rely heavily on one supplier.",
+     "jp": "もう一度。声に出して言ってみよう",
+     "hl": [
+      "rely heavily on",
+      ""
+     ],
+     "step": "ex",
+     "ph": 0,
+     "repeat": true,
+     "start": 150.149,
+     "end": 152.079,
+     "audio": "08_04.wav"
+    },
+    {
+     "en": "",
+     "jp": "(あなたの番)",
+     "hl": [],
+     "step": "ex",
+     "ph": 0,
+     "hold": 3.0,
+     "start": 152.729,
+     "end": 155.729,
+     "audio": "08_05.wav"
+    },
+    {
+     "en": "offset.",
+     "jp": "この英語の意味は?",
+     "hl": [
+      "offset",
+      ""
+     ],
+     "step": "say",
+     "ph": 1,
+     "start": 156.379,
+     "end": 157.078,
+     "audio": "08_06.wav"
+    },
+    {
+     "en": "",
+     "jp": "考えてみよう",
+     "hl": [],
+     "step": "think",
+     "ph": 1,
+     "hold": 2.5,
+     "start": 157.728,
+     "end": 160.228,
+     "audio": "08_07.wav"
+    },
+    {
+     "en": "Strong sales in Asia offset the drop in Europe.",
+     "jp": "アジアの好調な売上が、欧州の落ち込みを補いました。",
+     "hl": [
+      "offset",
+      ""
+     ],
+     "step": "ex",
+     "ph": 1,
+     "start": 160.878,
+     "end": 163.754,
+     "audio": "08_08.wav"
+    },
+    {
+     "en": "Strong sales in Asia offset the drop in Europe.",
+     "jp": "もう一度。声に出して言ってみよう",
+     "hl": [
+      "offset",
+      ""
+     ],
+     "step": "ex",
+     "ph": 1,
+     "repeat": true,
+     "start": 164.404,
+     "end": 167.277,
+     "audio": "08_09.wav"
+    },
+    {
+     "en": "",
+     "jp": "(あなたの番)",
+     "hl": [],
+     "step": "ex",
+     "ph": 1,
+     "hold": 3.0,
+     "start": 167.927,
+     "end": 170.927,
+     "audio": "08_10.wav"
+    },
+    {
+     "en": "diversify.",
+     "jp": "この英語の意味は?",
+     "hl": [
+      "diversify",
+      ""
+     ],
+     "step": "say",
+     "ph": 2,
+     "start": 171.577,
+     "end": 172.428,
+     "audio": "08_11.wav"
+    },
+    {
+     "en": "",
+     "jp": "考えてみよう",
+     "hl": [],
+     "step": "think",
+     "ph": 2,
+     "hold": 2.5,
+     "start": 173.078,
+     "end": 175.578,
+     "audio": "08_12.wav"
+    },
+    {
+     "en": "We need to diversify our customer base.",
+     "jp": "顧客層を多様化する必要があります。",
+     "hl": [
+      "diversify",
+      ""
+     ],
+     "step": "ex",
+     "ph": 2,
+     "start": 176.228,
+     "end": 178.713,
+     "audio": "08_13.wav"
+    },
+    {
+     "en": "We need to diversify our customer base.",
+     "jp": "もう一度。声に出して言ってみよう",
+     "hl": [
+      "diversify",
+      ""
+     ],
+     "step": "ex",
+     "ph": 2,
+     "repeat": true,
+     "start": 179.363,
+     "end": 181.847,
+     "audio": "08_14.wav"
+    },
+    {
+     "en": "",
+     "jp": "(あなたの番)",
+     "hl": [],
+     "step": "ex",
+     "ph": 2,
+     "hold": 3.0,
+     "start": 182.497,
+     "end": 185.497,
+     "audio": "08_15.wav"
+    }
+   ],
+   "start": 139.674,
+   "end": 186.497
+  },
+  {
+   "id": "outro",
+   "chapter": "",
+   "vis": {
+    "type": "outro",
+    "items": [
+     "rely heavily on",
+     "offset",
+     "diversify"
+    ]
+   },
+   "beats": [
+    {
+     "en": "Which one will you use this week? Tell us in the comments.",
+     "jp": "今週使うのはどれですか? コメントで教えてください。",
+     "hl": [
+      "this week",
+      "今週"
+     ],
+     "start": 187.097,
+     "end": 190.072,
+     "audio": "09_00.wav"
+    }
+   ],
+   "start": 186.497,
+   "end": 191.072
+  }
+ ],
+ "total": 191.072,
+ "portrait": null
+}

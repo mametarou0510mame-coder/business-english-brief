@@ -1,0 +1,108 @@
+{
+ "scenes": [
+  {
+   "id": "shop",
+   "chapter": "",
+   "vis": {
+    "type": "bigstat",
+    "kicker": "Labour-shortage bankruptcies, Apr–Sep 2026",
+    "value": 240,
+    "suffix": " firms",
+    "tag": "Record high",
+    "sub": "人手不足による倒産(2026年4〜9月)",
+    "src": "Source: Tokyo Shoko Research",
+    "art": "shop",
+    "num_at": 1,
+    "tag_at": 2
+   },
+   "beats": [
+    {
+     "en": "In Japan, more firms are closing because they can't find workers.",
+     "jp": "日本では、働き手が見つからずに閉じる会社が増えています。",
+     "hl": [
+      "can't find workers",
+      "働き手が見つからず"
+     ],
+     "start": 0.6,
+     "end": 4.473,
+     "audio": "00_00.wav"
+    },
+    {
+     "en": "From April to September, 240 went bankrupt for this reason.",
+     "jp": "4月から9月に、この理由で240社が倒産。",
+     "hl": [
+      "240",
+      "240社"
+     ],
+     "start": 5.123,
+     "end": 9.105,
+     "audio": "00_01.wav"
+    },
+    {
+     "en": "That's a record high.",
+     "jp": "過去最多です。",
+     "hl": [
+      "record high",
+      "過去最多"
+     ],
+     "start": 9.755,
+     "end": 10.854,
+     "audio": "00_02.wav"
+    },
+    {
+     "en": "Short-staffed means not having enough people.",
+     "jp": "short-staffed は「人手が足りない」という意味。",
+     "hl": [
+      "Short-staffed",
+      "人手が足りない"
+     ],
+     "start": 11.504,
+     "end": 13.678,
+     "audio": "00_03.wav"
+    },
+    {
+     "en": "At work: We're short-staffed this week, so replies may be slow.",
+     "jp": "仕事なら「今週は人手が足りないので、返信が遅れるかも」。",
+     "hl": [
+      "short-staffed",
+      "人手が足りない"
+     ],
+     "start": 14.328,
+     "end": 17.834,
+     "audio": "00_04.wav"
+    }
+   ],
+   "start": 0.0,
+   "end": 18.834
+  },
+  {
+   "id": "cta",
+   "chapter": "",
+   "vis": {
+    "type": "cta",
+    "en": "We're short-staffed this week.",
+    "jp": "今週は人手が足りません",
+    "btn": "続きは本編で"
+   },
+   "beats": [
+    {
+     "en": "Why can't small firms keep staff? Watch the full video.",
+     "jp": "なぜ中小企業は人を保てないのか。くわしくは本編で。",
+     "hl": [
+      "full video",
+      "本編"
+     ],
+     "start": 19.434,
+     "end": 22.622,
+     "audio": "01_00.wav"
+    }
+   ],
+   "start": 18.834,
+   "end": 23.622
+  }
+ ],
+ "total": 23.622,
+ "portrait": {
+  "head": "<div class='q'>人手不足の倒産、<br>半年で<b>何件</b>?</div><div class='e'>short-staffed</div>"
+ }
+}

@@ -1,0 +1,98 @@
+{
+ "scenes": [
+  {
+   "id": "boj",
+   "chapter": "",
+   "vis": {
+    "type": "bigstat",
+    "kicker": "Bank of Japan policy rate",
+    "value": 1.25,
+    "decimals": 2,
+    "suffix": "%",
+    "tag": "Highest since 1995",
+    "sub": "日銀の政策金利(2026年10月)",
+    "src": "Source: BoJ via Reuters",
+    "art": "bank",
+    "num_at": 1,
+    "tag_at": 2
+   },
+   "beats": [
+    {
+     "en": "Central banks around the world are tightening again.",
+     "jp": "世界の中央銀行が、ふたたび引き締めに動いています。",
+     "hl": [
+      "tightening",
+      "引き締め"
+     ],
+     "start": 0.6,
+     "end": 3.228,
+     "audio": "00_00.wav"
+    },
+    {
+     "en": "In September, the Bank of Japan raised its rate to about 1.25 percent.",
+     "jp": "9月、日銀は政策金利を約1.25%に上げました。",
+     "hl": [
+      "1.25 percent",
+      "1.25%"
+     ],
+     "start": 3.878,
+     "end": 8.97,
+     "audio": "00_01.wav"
+    },
+    {
+     "en": "That's the highest since 1995. The US and Europe also raised rates.",
+     "jp": "1995年以来の高さです。米国と欧州も利上げしました。",
+     "hl": [
+      "since 1995",
+      "1995年以来"
+     ],
+     "start": 9.62,
+     "end": 14.626,
+     "audio": "00_02.wav"
+    },
+    {
+     "en": "At work, you might say: we need to tighten our budget.",
+     "jp": "仕事なら「予算を引き締める必要がある」と言えます。",
+     "hl": [
+      "tighten our budget",
+      "予算を引き締める"
+     ],
+     "start": 15.276,
+     "end": 18.0,
+     "audio": "00_03.wav"
+    }
+   ],
+   "start": 0.0,
+   "end": 19.0
+  },
+  {
+   "id": "cta",
+   "chapter": "",
+   "vis": {
+    "type": "cta",
+    "en": "We need to tighten our budget.",
+    "jp": "予算を引き締める必要がある",
+    "btn": "続きは本編で"
+   },
+   "beats": [
+    {
+     "en": "Want the full story? Watch the full video.",
+     "jp": "くわしくは本編で。英語の解説つきです。",
+     "hl": [
+      "full video",
+      "本編"
+     ],
+     "start": 19.6,
+     "end": 21.853,
+     "audio": "01_00.wav"
+    }
+   ],
+   "start": 19.0,
+   "end": 22.853
+  }
+ ],
+ "total": 22.853,
+ "portrait": {
+  "head": "<div class='q'>日本の金利<br><b>何年ぶり</b>の高さ?</div><div class='e'>tighten</div>"
+ }
+}

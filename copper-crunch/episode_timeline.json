@@ -1,0 +1,796 @@
+{
+ "scenes": [
+  {
+   "id": "hook",
+   "chapter": "COPPER",
+   "vis": {
+    "type": "bigstat",
+    "kicker": "Copper price, January 2026",
+    "value": 14500,
+    "prefix": "$",
+    "suffix": " /t",
+    "tag": "Record high",
+    "sub": "銅の価格 1トンあたり(2026年1月、一時)",
+    "src": "Source: IEA",
+    "art": "copper",
+    "num_at": 1,
+    "tag_at": 2
+   },
+   "beats": [
+    {
+     "en": "Copper is in your phone, your car, and every power line.",
+     "jp": "銅は、スマホにも車にも、すべての電線にも入っています。",
+     "hl": [
+      "every power line",
+      "すべての電線"
+     ],
+     "start": 0.6,
+     "end": 3.809,
+     "audio": "00_00.wav"
+    },
+    {
+     "en": "In January 2026, its price briefly went above 14,500 dollars a tonne.",
+     "jp": "2026年1月、その価格は一時1トン1万4500ドルを超えました。",
+     "hl": [
+      "14,500 dollars",
+      "1万4500ドル"
+     ],
+     "start": 4.459,
+     "end": 10.89,
+     "audio": "00_01.wav"
+    },
+    {
+     "en": "Only a month earlier, it had passed 12,000 dollars for the first time.",
+     "jp": "そのわずか1か月前に、初めて1万2000ドルを超えたばかりでした。",
+     "hl": [
+      "for the first time",
+      "初めて"
+     ],
+     "start": 11.54,
+     "end": 15.815,
+     "audio": "00_02.wav"
+    },
+    {
+     "en": "Today: why copper is so tight, and what it means for Japan.",
+     "jp": "今日は、銅がなぜこれほど足りないのか、日本にどう関係するのかを見ます。",
+     "hl": [
+      "so tight",
+      "足りない"
+     ],
+     "start": 16.465,
+     "end": 19.851,
+     "audio": "00_03.wav"
+    }
+   ],
+   "start": 0.0,
+   "end": 20.851
+  },
+  {
+   "id": "demand",
+   "chapter": "WHO WANTS IT?",
+   "vis": {
+    "type": "flow",
+    "title": "Electrification needs copper",
+    "title_jp": "電化には銅が要る",
+    "items": [
+     {
+      "title": "Power grids",
+      "jp": "送電網",
+      "color": "navy"
+     },
+     {
+      "title": "Electric cars",
+      "jp": "電気自動車",
+      "color": "navy"
+     },
+     {
+      "title": "AI data centers",
+      "jp": "AIデータセンター",
+      "color": "navy"
+     },
+     {
+      "title": "More copper",
+      "jp": "銅の需要が増える",
+      "color": "red"
+     }
+    ],
+    "at": [
+     0,
+     1,
+     2,
+     3
+    ]
+   },
+   "beats": [
+    {
+     "en": "Copper carries electricity better than almost any other metal.",
+     "jp": "銅は、ほかのほとんどの金属より電気をよく通します。",
+     "hl": [
+      "carries electricity",
+      "電気をよく通します"
+     ],
+     "start": 21.451,
+     "end": 24.942,
+     "audio": "01_00.wav"
+    },
+    {
+     "en": "So the world needs more of it for power grids and electric cars.",
+     "jp": "だから世界は、送電網や電気自動車のためにもっと銅を必要としています。",
+     "hl": [
+      "power grids",
+      "送電網"
+     ],
+     "start": 25.592,
+     "end": 29.318,
+     "audio": "01_01.wav"
+    },
+    {
+     "en": "The IEA also points to data centers and AI as new sources of demand.",
+     "jp": "IEAは、データセンターとAIも新しい需要だと指摘しています。",
+     "hl": [
+      "new sources of demand",
+      "新しい需要"
+     ],
+     "start": 29.968,
+     "end": 34.968,
+     "audio": "01_02.wav"
+    },
+    {
+     "en": "Demand is expected to grow. The hard part is supply.",
+     "jp": "需要は伸びる見通しです。難しいのは、供給のほうです。",
+     "hl": [
+      "The hard part",
+      "難しいのは"
+     ],
+     "start": 35.618,
+     "end": 39.026,
+     "audio": "01_03.wav"
+    }
+   ],
+   "start": 20.851,
+   "end": 40.026
+  },
+  {
+   "id": "supply",
+   "chapter": "WHY SO TIGHT?",
+   "vis": {
+    "type": "cards",
+    "title": "Why mines can't keep up",
+    "title_jp": "鉱山が追いつけない理由",
+    "items": [
+     {
+      "title": "Poorer ore",
+      "jp": "鉱石の品位が低下",
+      "value": "-40%",
+      "note": "since 1991",
+      "color": "navy"
+     },
+     {
+      "title": "Slow to build",
+      "jp": "開発に長い時間",
+      "value": "17 years",
+      "note": "discovery to production",
+      "color": "navy"
+     },
+     {
+      "title": "Future gap",
+      "jp": "将来の供給不足",
+      "value": "30%",
+      "note": "possible deficit by 2035",
+      "color": "red"
+     }
+    ]
+   },
+   "beats": [
+    {
+     "en": "First, the ore is getting poorer. Average grades have fallen 40 percent since 1991.",
+     "jp": "まず、鉱石が薄くなっています。平均の品位は1991年から40%下がりました。",
+     "hl": [
+      "40 percent",
+      "40%"
+     ],
+     "start": 40.626,
+     "end": 46.806,
+     "audio": "02_00.wav"
+    },
+    {
+     "en": "Second, new mines have a long lead time: about 17 years.",
+     "jp": "次に、新しい鉱山はリードタイムが長く、生産まで約17年かかります。",
+     "hl": [
+      "lead time",
+      "リードタイム"
+     ],
+     "start": 47.456,
+     "end": 51.503,
+     "audio": "02_01.wav"
+    },
+    {
+     "en": "With today's projects, the IEA sees a possible 30 percent supply gap by 2035.",
+     "jp": "今の計画のままでは、2035年に30%の供給不足もありうるとIEAは見ています。",
+     "hl": [
+      "30 percent supply gap",
+      "30%の供給不足"
+     ],
+     "start": 52.153,
+     "end": 58.449,
+     "audio": "02_02.wav"
+    }
+   ],
+   "start": 40.026,
+   "end": 59.449
+  },
+  {
+   "id": "smelters",
+   "chapter": "THE SQUEEZE",
+   "vis": {
+    "type": "versus",
+    "title": "Fee for processing copper ore (benchmark)",
+    "title_jp": "銅鉱石を製錬する手数料(年間の基準)",
+    "left": {
+     "title": "2025",
+     "jp": "2025年",
+     "value": "$21",
+     "color": "navy"
+    },
+    "right": {
+     "title": "2026",
+     "jp": "2026年",
+     "value": "$0",
+     "color": "red"
+    },
+    "at": [
+     1,
+     3
+    ]
+   },
+   "beats": [
+    {
+     "en": "Between the mine and the wire, there is a smelter.",
+     "jp": "鉱山と電線のあいだには、製錬所があります。",
+     "hl": [
+      "smelter",
+      "製錬所"
+     ],
+     "start": 60.049,
+     "end": 62.56,
+     "audio": "03_00.wav"
+    },
+    {
+     "en": "Miners usually pay smelters a fee to turn ore into pure copper.",
+     "jp": "鉱山会社は普通、鉱石を純粋な銅にするための手数料を製錬所に払います。",
+     "hl": [
+      "a fee",
+      "手数料"
+     ],
+     "start": 63.21,
+     "end": 67.203,
+     "audio": "03_01.wav"
+    },
+    {
+     "en": "In 2025, the yearly benchmark fee was about 21 dollars a tonne.",
+     "jp": "2025年、その年間の基準は1トン約21ドルでした。",
+     "hl": [
+      "21 dollars",
+      "約21ドル"
+     ],
+     "start": 67.853,
+     "end": 72.987,
+     "audio": "03_02.wav"
+    },
+    {
+     "en": "In January 2026, it was set at zero, the lowest ever.",
+     "jp": "2026年1月には、過去最低のゼロに決まりました。",
+     "hl": [
+      "zero",
+      "ゼロ"
+     ],
+     "start": 73.637,
+     "end": 77.856,
+     "audio": "03_03.wav"
+    },
+    {
+     "en": "Ore is so scarce that smelters are being squeezed.",
+     "jp": "鉱石が足りないので、製錬所は圧迫されています。",
+     "hl": [
+      "squeezed",
+      "圧迫されて"
+     ],
+     "start": 78.506,
+     "end": 81.123,
+     "audio": "03_04.wav"
+    }
+   ],
+   "start": 59.449,
+   "end": 82.123
+  },
+  {
+   "id": "china",
+   "chapter": "ONE BIG PLAYER",
+   "vis": {
+    "type": "bars",
+    "title": "China's share of world copper smelting",
+    "title_jp": "世界の銅製錬に占める中国のシェア",
+    "items": [
+     {
+      "label": "2005",
+      "value": 15,
+      "display": "~15%",
+      "color": "navy"
+     },
+     {
+      "label": "2025",
+      "value": 50,
+      "display": "~50%",
+      "color": "red"
+     }
+    ],
+    "at": [
+     0,
+     1
+    ]
+   },
+   "beats": [
+    {
+     "en": "One country now does half of this work: China.",
+     "jp": "いま、この仕事の半分を一つの国が担っています。中国です。",
+     "hl": [
+      "half",
+      "半分"
+     ],
+     "start": 82.723,
+     "end": 85.31,
+     "audio": "04_00.wav"
+    },
+    {
+     "en": "Its share rose from about 15 percent in 2005 to half in 2025.",
+     "jp": "そのシェアは、2005年の約15%から2025年には半分になりました。",
+     "hl": [
+      "15 percent",
+      "約15%"
+     ],
+     "start": 85.96,
+     "end": 91.611,
+     "audio": "04_01.wav"
+    },
+    {
+     "en": "That makes the supply chain depend on one place.",
+     "jp": "そのため、供給網は一か所に頼る形になっています。",
+     "hl": [
+      "depend on one place",
+      "一か所に頼る"
+     ],
+     "start": 92.261,
+     "end": 95.141,
+     "audio": "04_02.wav"
+    }
+   ],
+   "start": 82.123,
+   "end": 96.141
+  },
+  {
+   "id": "japan",
+   "chapter": "WHAT IT MEANS FOR JAPAN",
+   "vis": {
+    "type": "bars",
+    "title": "Japan copper premium (on top of LME price)",
+    "title_jp": "国内向け銅の上乗せ価格(プレミアム)",
+    "items": [
+     {
+      "label": "2025",
+      "value": 88,
+      "display": "$88",
+      "color": "navy"
+     },
+     {
+      "label": "2026",
+      "value": 330,
+      "display": "$330",
+      "color": "red"
+     }
+    ],
+    "at": [
+     0,
+     1
+    ]
+   },
+   "beats": [
+    {
+     "en": "Japan feels this, too.",
+     "jp": "日本にも影響が出ています。",
+     "hl": [
+      "Japan",
+      "日本"
+     ],
+     "start": 96.741,
+     "end": 98.109,
+     "audio": "05_00.wav"
+    },
+    {
+     "en": "Japan's top supplier, Pan Pacific Copper, set a record 2026 premium of 330 dollars.",
+     "jp": "国内最大手パンパシフィック・カッパーの2026年の上乗せ価格は、過去最高の330ドル。",
+     "hl": [
+      "330 dollars",
+      "330ドル"
+     ],
+     "start": 98.759,
+     "end": 105.979,
+     "audio": "05_01.wav"
+    },
+    {
+     "en": "That's more than three times the 2025 level of 88 dollars.",
+     "jp": "2025年の88ドルの3倍以上です。",
+     "hl": [
+      "three times",
+      "3倍以上"
+     ],
+     "start": 106.629,
+     "end": 111.159,
+     "audio": "05_02.wav"
+    },
+    {
+     "en": "Wire and parts makers must decide how much to pass on to customers.",
+     "jp": "電線や部品のメーカーは、どこまで顧客に転嫁するかを決めなければなりません。",
+     "hl": [
+      "pass on",
+      "転嫁"
+     ],
+     "start": 111.809,
+     "end": 116.131,
+     "audio": "05_03.wav"
+    },
+    {
+     "en": "In 2025, Japan, Spain and South Korea jointly voiced concern about the low fees.",
+     "jp": "2025年、日本・スペイン・韓国は、低すぎる手数料に共同で懸念を示しました。",
+     "hl": [
+      "voiced concern",
+      "懸念を示しました"
+     ],
+     "start": 116.781,
+     "end": 122.988,
+     "audio": "05_04.wav"
+    }
+   ],
+   "start": 96.141,
+   "end": 123.988
+  },
+  {
+   "id": "other",
+   "chapter": "THE OTHER SIDE",
+   "vis": {
+    "type": "flow",
+    "title": "Can the market fix itself?",
+    "title_jp": "市場は自然に戻るか?",
+    "items": [
+     {
+      "title": "High prices",
+      "jp": "高い価格",
+      "color": "navy"
+     },
+     {
+      "title": "Recycling & mine recovery",
+      "jp": "リサイクル・鉱山の回復",
+      "color": "green"
+     },
+     {
+      "title": "Supply catches up?",
+      "jp": "供給が追いつく?",
+      "color": "red"
+     }
+    ],
+    "at": [
+     0,
+     1,
+     3
+    ]
+   },
+   "beats": [
+    {
+     "en": "Not everyone is worried.",
+     "jp": "誰もが心配しているわけではありません。",
+     "hl": [
+      "Not everyone",
+      "誰もが"
+     ],
+     "start": 124.588,
+     "end": 125.949,
+     "audio": "06_00.wav"
+    },
+    {
+     "en": "Sumitomo Metal Mining expects the ore market to return to normal as mine output recovers.",
+     "jp": "住友金属鉱山は、鉱山の生産が回復すれば、鉱石の需給は正常に戻ると見ています。",
+     "hl": [
+      "return to normal",
+      "正常に戻る"
+     ],
+     "start": 126.599,
+     "end": 132.952,
+     "audio": "06_01.wav"
+    },
+    {
+     "en": "Mitsubishi Materials plans to rely more on recycled copper.",
+     "jp": "三菱マテリアルは、リサイクルの銅をもっと使う計画です。",
+     "hl": [
+      "recycled copper",
+      "リサイクルの銅"
+     ],
+     "start": 133.602,
+     "end": 137.548,
+     "audio": "06_02.wav"
+    },
+    {
+     "en": "The question is whether new supply can arrive in time.",
+     "jp": "問題は、新しい供給が間に合うかどうかです。",
+     "hl": [
+      "in time",
+      "間に合う"
+     ],
+     "start": 138.198,
+     "end": 141.127,
+     "audio": "06_03.wav"
+    }
+   ],
+   "start": 123.988,
+   "end": 142.127
+  },
+  {
+   "id": "phrases",
+   "chapter": "TODAY'S ENGLISH",
+   "vis": {
+    "type": "phrases",
+    "items": [
+     {
+      "en": "lead time",
+      "jp": "リードタイム・準備にかかる期間",
+      "ex": "The lead time for this part is six months.",
+      "ex_jp": "この部品のリードタイムは6か月です。"
+     },
+     {
+      "en": "squeeze",
+      "jp": "(利益などを)圧迫する",
+      "key": "squeezing",
+      "ex": "Rising costs are squeezing our margins.",
+      "ex_jp": "コスト上昇が利益率を圧迫しています。"
+     },
+     {
+      "en": "pass on",
+      "jp": "(コストを)転嫁する",
+      "ex": "We can't pass on the full cost to customers.",
+      "ex_jp": "コストの全額をお客様に転嫁することはできません。"
+     }
+    ]
+   },
+   "beats": [
+    {
+     "en": "Three phrases for your next meeting.",
+     "jp": "次の会議で使える英語を3つ。",
+     "hl": [
+      "Three phrases",
+      "英語を3つ"
+     ],
+     "step": "intro",
+     "ph": -1,
+     "start": 142.727,
+     "end": 144.471,
+     "audio": "07_00.wav"
+    },
+    {
+     "en": "lead time.",
+     "jp": "この英語の意味は?",
+     "hl": [
+      "lead time",
+      ""
+     ],
+     "step": "say",
+     "ph": 0,
+     "start": 145.121,
+     "end": 145.85,
+     "audio": "07_01.wav"
+    },
+    {
+     "en": "",
+     "jp": "考えてみよう",
+     "hl": [],
+     "step": "think",
+     "ph": 0,
+     "hold": 2.5,
+     "start": 146.5,
+     "end": 149.0,
+     "audio": "07_02.wav"
+    },
+    {
+     "en": "The lead time for this part is six months.",
+     "jp": "この部品のリードタイムは6か月です。",
+     "hl": [
+      "lead time",
+      ""
+     ],
+     "step": "ex",
+     "ph": 0,
+     "start": 149.65,
+     "end": 151.735,
+     "audio": "07_03.wav"
+    },
+    {
+     "en": "The lead time for this part is six months.",
+     "jp": "もう一度。声に出して言ってみよう",
+     "hl": [
+      "lead time",
+      ""
+     ],
+     "step": "ex",
+     "ph": 0,
+     "repeat": true,
+     "start": 152.385,
+     "end": 154.47,
+     "audio": "07_04.wav"
+    },
+    {
+     "en": "",
+     "jp": "(あなたの番)",
+     "hl": [],
+     "step": "ex",
+     "ph": 0,
+     "hold": 3.0,
+     "start": 155.12,
+     "end": 158.12,
+     "audio": "07_05.wav"
+    },
+    {
+     "en": "squeeze.",
+     "jp": "この英語の意味は?",
+     "hl": [
+      "squeeze",
+      ""
+     ],
+     "step": "say",
+     "ph": 1,
+     "start": 158.77,
+     "end": 159.414,
+     "audio": "07_06.wav"
+    },
+    {
+     "en": "",
+     "jp": "考えてみよう",
+     "hl": [],
+     "step": "think",
+     "ph": 1,
+     "hold": 2.5,
+     "start": 160.064,
+     "end": 162.564,
+     "audio": "07_07.wav"
+    },
+    {
+     "en": "Rising costs are squeezing our margins.",
+     "jp": "コスト上昇が利益率を圧迫しています。",
+     "hl": [
+      "squeezing",
+      ""
+     ],
+     "step": "ex",
+     "ph": 1,
+     "start": 163.214,
+     "end": 165.449,
+     "audio": "07_08.wav"
+    },
+    {
+     "en": "Rising costs are squeezing our margins.",
+     "jp": "もう一度。声に出して言ってみよう",
+     "hl": [
+      "squeezing",
+      ""
+     ],
+     "step": "ex",
+     "ph": 1,
+     "repeat": true,
+     "start": 166.099,
+     "end": 168.333,
+     "audio": "07_09.wav"
+    },
+    {
+     "en": "",
+     "jp": "(あなたの番)",
+     "hl": [],
+     "step": "ex",
+     "ph": 1,
+     "hold": 3.0,
+     "start": 168.983,
+     "end": 171.983,
+     "audio": "07_10.wav"
+    },
+    {
+     "en": "pass on.",
+     "jp": "この英語の意味は?",
+     "hl": [
+      "pass on",
+      ""
+     ],
+     "step": "say",
+     "ph": 2,
+     "start": 172.633,
+     "end": 173.257,
+     "audio": "07_11.wav"
+    },
+    {
+     "en": "",
+     "jp": "考えてみよう",
+     "hl": [],
+     "step": "think",
+     "ph": 2,
+     "hold": 2.5,
+     "start": 173.907,
+     "end": 176.407,
+     "audio": "07_12.wav"
+    },
+    {
+     "en": "We can't pass on the full cost to customers.",
+     "jp": "コストの全額をお客様に転嫁することはできません。",
+     "hl": [
+      "pass on",
+      ""
+     ],
+     "step": "ex",
+     "ph": 2,
+     "start": 177.057,
+     "end": 179.305,
+     "audio": "07_13.wav"
+    },
+    {
+     "en": "We can't pass on the full cost to customers.",
+     "jp": "もう一度。声に出して言ってみよう",
+     "hl": [
+      "pass on",
+      ""
+     ],
+     "step": "ex",
+     "ph": 2,
+     "repeat": true,
+     "start": 179.955,
+     "end": 182.204,
+     "audio": "07_14.wav"
+    },
+    {
+     "en": "",
+     "jp": "(あなたの番)",
+     "hl": [],
+     "step": "ex",
+     "ph": 2,
+     "hold": 3.0,
+     "start": 182.854,
+     "end": 185.854,
+     "audio": "07_15.wav"
+    }
+   ],
+   "start": 142.127,
+   "end": 186.854
+  },
+  {
+   "id": "outro",
+   "chapter": "",
+   "vis": {
+    "type": "outro",
+    "items": [
+     "lead time",
+     "squeeze",
+     "pass on"
+    ]
+   },
+   "beats": [
+    {
+     "en": "Which one will you use this week? Tell us in the comments.",
+     "jp": "今週使うのはどれですか? コメントで教えてください。",
+     "hl": [
+      "this week",
+      "今週"
+     ],
+     "start": 187.454,
+     "end": 190.428,
+     "audio": "08_00.wav"
+    }
+   ],
+   "start": 186.854,
+   "end": 191.428
+  }
+ ],
+ "total": 191.428,
+ "portrait": null
+}

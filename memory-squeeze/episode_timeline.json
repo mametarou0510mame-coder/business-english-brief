@@ -1,0 +1,1015 @@
+{
+ "scenes": [
+  {
+   "id": "hook",
+   "chapter": "MEMORY",
+   "vis": {
+    "type": "bigstat",
+    "kicker": "Kioxia revenue, Jul–Sep 2026",
+    "value": 453,
+    "prefix": "+",
+    "suffix": "%",
+    "tag": "vs a year ago",
+    "sub": "キオクシアの売上高(7〜9月・前年比)",
+    "src": "Source: Kioxia results, via Blocks & Files (Nov 2, 2026)",
+    "art": "chip",
+    "num_at": 1,
+    "tag_at": 2
+   },
+   "beats": [
+    {
+     "en": "Memory chips are now one of the hottest products in the world.",
+     "jp": "メモリーチップは今、世界で最も熱い製品の1つです。",
+     "hl": [
+      "hottest products",
+      "最も熱い製品"
+     ],
+     "start": 0.6,
+     "end": 3.908,
+     "audio": "00_00.wav"
+    },
+    {
+     "en": "Japan's Kioxia sold 2.48 trillion yen of memory from July to September.",
+     "jp": "日本のキオクシアは、7〜9月に2兆4800億円を売り上げました。",
+     "hl": [
+      "2.48 trillion yen",
+      "2兆4800億円"
+     ],
+     "start": 4.558,
+     "end": 10.163,
+     "audio": "00_01.wav"
+    },
+    {
+     "en": "That's up 453 percent from a year earlier.",
+     "jp": "前の年より453%の増加です。",
+     "hl": [
+      "453 percent",
+      "453%"
+     ],
+     "start": 10.813,
+     "end": 14.123,
+     "audio": "00_02.wav"
+    },
+    {
+     "en": "Today: why memory is so expensive, and what it means for your next PC.",
+     "jp": "今日は、メモリーがなぜ高いのか、次のPCにどう響くのかを見ます。",
+     "hl": [
+      "so expensive",
+      "なぜ高い"
+     ],
+     "start": 14.773,
+     "end": 19.232,
+     "audio": "00_03.wav"
+    }
+   ],
+   "start": 0.0,
+   "end": 20.232
+  },
+  {
+   "id": "prices",
+   "chapter": "WHAT'S HAPPENING?",
+   "vis": {
+    "type": "cards",
+    "title": "Memory prices keep rising",
+    "title_jp": "メモリー価格は上がり続ける(2026年10〜12月)",
+    "items": [
+     {
+      "title": "DRAM",
+      "jp": "DRAMの契約価格(予測)",
+      "value": "+10–15%",
+      "note": "vs Jul–Sep · TrendForce",
+      "color": "red"
+     },
+     {
+      "title": "NAND flash",
+      "jp": "NANDの契約価格(予測)",
+      "value": "+15–20%",
+      "note": "vs Jul–Sep · TrendForce",
+      "color": "red"
+     },
+     {
+      "title": "Apple",
+      "jp": "粗利益率の見通し(10〜12月)",
+      "value": "45–46%",
+      "note": "from 47.9% · memory costs",
+      "color": "navy"
+     }
+    ],
+    "at": [
+     1,
+     2,
+     4
+    ]
+   },
+   "beats": [
+    {
+     "en": "And prices are still climbing.",
+     "jp": "そして、価格はまだ上がっています。",
+     "hl": [
+      "still climbing",
+      "まだ上がって"
+     ],
+     "start": 20.832,
+     "end": 22.379,
+     "audio": "01_00.wav"
+    },
+    {
+     "en": "TrendForce expects DRAM contract prices to rise 10 to 15 percent this quarter.",
+     "jp": "トレンドフォースは、今期DRAMの契約価格が10〜15%上がると予測しています。",
+     "hl": [
+      "10 to 15 percent",
+      "10〜15%"
+     ],
+     "start": 23.029,
+     "end": 28.583,
+     "audio": "01_01.wav"
+    },
+    {
+     "en": "For NAND flash, used for storage, it expects 15 to 20 percent.",
+     "jp": "記憶装置に使うNANDフラッシュは、15〜20%の上昇を予測。",
+     "hl": [
+      "15 to 20 percent",
+      "15〜20%"
+     ],
+     "start": 29.233,
+     "end": 33.586,
+     "audio": "01_02.wav"
+    },
+    {
+     "en": "Even Apple feels it. Its CEO called memory pricing unprecedented.",
+     "jp": "アップルでさえ影響を受け、CEOはメモリー価格を「前例がない」と表現しました。",
+     "hl": [
+      "unprecedented",
+      "前例がない"
+     ],
+     "start": 34.236,
+     "end": 38.714,
+     "audio": "01_03.wav"
+    },
+    {
+     "en": "Apple expects its gross margin to drop to 45 to 46 percent, mostly because of memory costs.",
+     "jp": "アップルは、主にメモリーのコストで、粗利益率が45〜46%に下がると見ています。",
+     "hl": [
+      "gross margin",
+      "粗利益率"
+     ],
+     "start": 39.364,
+     "end": 46.166,
+     "audio": "01_04.wav"
+    }
+   ],
+   "start": 20.232,
+   "end": 47.166
+  },
+  {
+   "id": "why",
+   "chapter": "WHY?",
+   "vis": {
+    "type": "flow",
+    "title": "Why memory got so expensive",
+    "title_jp": "メモリーが高くなった仕組み",
+    "items": [
+     {
+      "title": "AI data centers",
+      "jp": "AIのデータセンター",
+      "color": "navy"
+     },
+     {
+      "title": "HBM chips",
+      "jp": "AI向けの高速メモリー",
+      "color": "navy"
+     },
+     {
+      "title": "Less for PCs & phones",
+      "jp": "PC・スマホ用が減る",
+      "color": "navy"
+     },
+     {
+      "title": "Prices up",
+      "jp": "価格が上がる",
+      "color": "red"
+     }
+    ],
+    "at": [
+     0,
+     1,
+     3,
+     4
+    ]
+   },
+   "beats": [
+    {
+     "en": "Why? It starts with AI data centers.",
+     "jp": "なぜか。始まりはAIデータセンターです。",
+     "hl": [
+      "AI data centers",
+      "AIデータセンター"
+     ],
+     "start": 47.766,
+     "end": 50.111,
+     "audio": "02_00.wav"
+    },
+    {
+     "en": "AI chips need a special, very fast memory called HBM.",
+     "jp": "AIチップには、HBMという特別な高速メモリーが必要です。",
+     "hl": [
+      "HBM",
+      "HBM"
+     ],
+     "start": 50.761,
+     "end": 54.809,
+     "audio": "02_01.wav"
+    },
+    {
+     "en": "HBM uses about three times the wafer area per gigabyte of normal memory.",
+     "jp": "HBMは1ギガバイトあたり、普通のメモリーの約3倍のウエハーを使います。",
+     "hl": [
+      "three times",
+      "約3倍"
+     ],
+     "start": 55.459,
+     "end": 60.718,
+     "audio": "02_02.wav"
+    },
+    {
+     "en": "So makers have less capacity left for PCs and smartphones.",
+     "jp": "そのため、PCやスマホ向けに残る生産能力が減ります。",
+     "hl": [
+      "less capacity",
+      "生産能力が減ります"
+     ],
+     "start": 61.368,
+     "end": 64.917,
+     "audio": "02_03.wav"
+    },
+    {
+     "en": "Demand is high, memory is in short supply, and prices go up.",
+     "jp": "需要は強く、メモリーは不足し、価格が上がります。",
+     "hl": [
+      "in short supply",
+      "不足し"
+     ],
+     "start": 65.567,
+     "end": 69.497,
+     "audio": "02_04.wav"
+    }
+   ],
+   "start": 47.166,
+   "end": 70.497
+  },
+  {
+   "id": "share",
+   "chapter": "WHY?",
+   "vis": {
+    "type": "bars",
+    "title": "Data centers' share of DRAM use",
+    "title_jp": "DRAMの消費に占めるデータセンターの割合",
+    "items": [
+     {
+      "label": "2020",
+      "value": 32,
+      "display": "32%",
+      "color": "navy"
+     },
+     {
+      "label": "2025",
+      "value": 50,
+      "display": "50%",
+      "color": "navy"
+     },
+     {
+      "label": "2030 (forecast)",
+      "value": 60,
+      "display": "60%+",
+      "color": "red"
+     }
+    ],
+    "at": [
+     0,
+     1,
+     2
+    ],
+    "note": "Source: Bloomberg Intelligence, via Bloomberg (2026)"
+   },
+   "beats": [
+    {
+     "en": "Five years ago, data centers used about 32 percent of all DRAM.",
+     "jp": "5年前、データセンターが使うのはDRAM全体の約32%でした。",
+     "hl": [
+      "32 percent",
+      "約32%"
+     ],
+     "start": 71.097,
+     "end": 75.469,
+     "audio": "03_00.wav"
+    },
+    {
+     "en": "In 2025, it was about half.",
+     "jp": "2025年には、約半分になりました。",
+     "hl": [
+      "about half",
+      "約半分"
+     ],
+     "start": 76.119,
+     "end": 78.433,
+     "audio": "03_01.wav"
+    },
+    {
+     "en": "Bloomberg Intelligence projects more than 60 percent by 2030.",
+     "jp": "ブルームバーグ・インテリジェンスは、2030年に60%を超えると見ています。",
+     "hl": [
+      "more than 60 percent",
+      "60%を超える"
+     ],
+     "start": 79.083,
+     "end": 83.268,
+     "audio": "03_02.wav"
+    },
+    {
+     "en": "AI is taking a bigger slice of a limited pie.",
+     "jp": "限られたパイの中で、AIの取り分が大きくなっています。",
+     "hl": [
+      "bigger slice",
+      "取り分が大きく"
+     ],
+     "start": 83.918,
+     "end": 86.736,
+     "audio": "03_03.wav"
+    }
+   ],
+   "start": 70.497,
+   "end": 87.736
+  },
+  {
+   "id": "devices",
+   "chapter": "YOUR PC AND PHONE",
+   "vis": {
+    "type": "versus",
+    "title": "Memory's share of a PC's parts cost",
+    "title_jp": "PCの部品コストに占めるメモリーの割合(HPによる)",
+    "left": {
+     "title": "Before",
+     "jp": "以前",
+     "value": "15–18%",
+     "color": "navy"
+    },
+    "right": {
+     "title": "Now",
+     "jp": "現在",
+     "value": "35%",
+     "color": "red"
+    },
+    "at": [
+     1,
+     2
+    ]
+   },
+   "beats": [
+    {
+     "en": "This is hitting the devices we use at work.",
+     "jp": "これは、仕事で使う機器に響いています。",
+     "hl": [
+      "devices we use at work",
+      "仕事で使う機器"
+     ],
+     "start": 88.336,
+     "end": 90.905,
+     "audio": "04_00.wav"
+    },
+    {
+     "en": "HP says memory used to be 15 to 18 percent of a PC's parts cost.",
+     "jp": "HPによると、メモリーはPCの部品コストの15〜18%でした。",
+     "hl": [
+      "15 to 18 percent",
+      "15〜18%"
+     ],
+     "start": 91.555,
+     "end": 96.907,
+     "audio": "04_01.wav"
+    },
+    {
+     "en": "Now it's about 35 percent.",
+     "jp": "今は約35%です。",
+     "hl": [
+      "35 percent",
+      "約35%"
+     ],
+     "start": 97.557,
+     "end": 99.453,
+     "audio": "04_02.wav"
+    },
+    {
+     "en": "PC makers are passing on the cost, with price rises of 15 to 30 percent.",
+     "jp": "PCメーカーは15〜30%の値上げで、コストを転嫁しています。",
+     "hl": [
+      "passing on the cost",
+      "コストを転嫁"
+     ],
+     "start": 100.103,
+     "end": 105.488,
+     "audio": "04_03.wav"
+    },
+    {
+     "en": "Gartner expects average PC prices to rise 17 percent this year, and phones 13 percent.",
+     "jp": "ガートナーは今年、PCの平均価格が17%、スマホが13%上がると予測しています。",
+     "hl": [
+      "17 percent",
+      "17%"
+     ],
+     "start": 106.138,
+     "end": 112.583,
+     "audio": "04_04.wav"
+    }
+   ],
+   "start": 87.736,
+   "end": 113.583
+  },
+  {
+   "id": "quote",
+   "chapter": "YOUR PC AND PHONE",
+   "vis": {
+    "type": "quote",
+    "text": "We see the pricing for memory purchases continuing to increase.",
+    "jp": "メモリーの購入価格は、上がり続けると見ている",
+    "by": "John Ternus, Apple CEO, earnings call (Oct 2026)"
+   },
+   "beats": [
+    {
+     "en": "Apple's CEO, John Ternus, expects memory prices to keep rising after December.",
+     "jp": "アップルのジョン・ターナスCEOは、12月以降もメモリー価格が上がると見ています。",
+     "hl": [
+      "keep rising",
+      "上がる"
+     ],
+     "start": 114.183,
+     "end": 119.846,
+     "audio": "05_00.wav"
+    },
+    {
+     "en": "When even the biggest buyers can't avoid it, everyone feels it.",
+     "jp": "最大級の買い手でも避けられないなら、誰もが影響を受けます。",
+     "hl": [
+      "everyone feels it",
+      "誰もが影響"
+     ],
+     "start": 120.496,
+     "end": 123.972,
+     "audio": "05_01.wav"
+    }
+   ],
+   "start": 113.583,
+   "end": 124.972
+  },
+  {
+   "id": "who",
+   "chapter": "WHO MAKES IT?",
+   "vis": {
+    "type": "map",
+    "title": "Main memory makers",
+    "title_jp": "メモリーをつくる主な会社",
+    "markers": [
+     {
+      "label": "Samsung · SK Hynix",
+      "jp": "韓国",
+      "lat": 37.5,
+      "lon": 127.0,
+      "color": "navy"
+     },
+     {
+      "label": "Micron",
+      "jp": "米国",
+      "lat": 43.6,
+      "lon": -116.2,
+      "color": "navy"
+     },
+     {
+      "label": "Kioxia",
+      "jp": "日本",
+      "lat": 34.97,
+      "lon": 136.6,
+      "color": "red",
+      "dx": 10,
+      "dy": 84
+     }
+    ],
+    "at": [
+     0,
+     0,
+     1
+    ]
+   },
+   "beats": [
+    {
+     "en": "Who makes this memory? Mainly three companies: Samsung, SK Hynix and Micron.",
+     "jp": "誰がつくっているのか。主にサムスン、SKハイニックス、マイクロンの3社です。",
+     "hl": [
+      "three companies",
+      "3社"
+     ],
+     "start": 125.572,
+     "end": 130.765,
+     "audio": "06_00.wav"
+    },
+    {
+     "en": "Japan's Kioxia makes flash memory, used in SSDs and phones.",
+     "jp": "日本のキオクシアは、SSDやスマホに使うフラッシュメモリーをつくります。",
+     "hl": [
+      "flash memory",
+      "フラッシュメモリー"
+     ],
+     "start": 131.415,
+     "end": 135.732,
+     "audio": "06_01.wav"
+    },
+    {
+     "en": "Kioxia says its capacity for the rest of 2027 is already sold out.",
+     "jp": "キオクシアは、2027年末までの生産能力がすでに売り切れだとしています。",
+     "hl": [
+      "sold out",
+      "売り切れ"
+     ],
+     "start": 136.382,
+     "end": 141.353,
+     "audio": "06_02.wav"
+    },
+    {
+     "en": "Big customers sign multi-year deals to lock in supply.",
+     "jp": "大口の顧客は、複数年の契約で供給を確保しています。",
+     "hl": [
+      "lock in supply",
+      "供給を確保"
+     ],
+     "start": 142.003,
+     "end": 145.401,
+     "audio": "06_03.wav"
+    },
+    {
+     "en": "New factories take years to build, so relief will not come quickly.",
+     "jp": "新工場の建設には何年もかかり、すぐには楽になりません。",
+     "hl": [
+      "take years",
+      "何年も"
+     ],
+     "start": 146.051,
+     "end": 149.835,
+     "audio": "06_04.wav"
+    }
+   ],
+   "start": 124.972,
+   "end": 150.835
+  },
+  {
+   "id": "japan",
+   "chapter": "WHAT IT MEANS FOR JAPAN",
+   "vis": {
+    "type": "cards",
+    "title": "What it means for business in Japan",
+    "title_jp": "日本のビジネスにとっての意味",
+    "items": [
+     {
+      "title": "Winners",
+      "jp": "AIサーバー向けの部品",
+      "value": "Orders ↑",
+      "note": "e.g. Kioxia, Taiyo Yuden",
+      "color": "green"
+     },
+     {
+      "title": "Hit",
+      "jp": "スマホ・PC向けの部品",
+      "value": "Sales ↓",
+      "note": "e.g. Sharp, Murata, DNP",
+      "color": "red"
+     },
+     {
+      "title": "Your office",
+      "jp": "PC・スマホの買い替え",
+      "value": "Plan early",
+      "note": "budget for higher prices",
+      "color": "navy"
+     }
+    ],
+    "at": [
+     1,
+     2,
+     3
+    ]
+   },
+   "beats": [
+    {
+     "en": "What does this mean for business in Japan?",
+     "jp": "日本のビジネスにとって、どんな意味があるでしょうか。",
+     "hl": [
+      "business in Japan",
+      "日本のビジネス"
+     ],
+     "start": 151.435,
+     "end": 153.416,
+     "audio": "07_00.wav"
+    },
+    {
+     "en": "Some suppliers win. Taiyo Yuden says AI servers are lifting orders for its parts.",
+     "jp": "勝ち組もいます。太陽誘電は、AIサーバーで部品の受注が伸びているとしています。",
+     "hl": [
+      "lifting orders",
+      "受注が伸び"
+     ],
+     "start": 154.066,
+     "end": 159.206,
+     "audio": "07_01.wav"
+    },
+    {
+     "en": "Others are hit, like Sharp's phones and Murata's PC parts.",
+     "jp": "打撃を受ける会社も。シャープのスマホや、村田製作所のPC向け部品です。",
+     "hl": [
+      "Others are hit",
+      "打撃を受ける"
+     ],
+     "start": 159.856,
+     "end": 163.432,
+     "audio": "07_02.wav"
+    },
+    {
+     "en": "For your company, new PCs and phones will cost more.",
+     "jp": "皆さんの会社でも、新しいPCやスマホは高くなります。",
+     "hl": [
+      "cost more",
+      "高くなります"
+     ],
+     "start": 164.082,
+     "end": 167.231,
+     "audio": "07_03.wav"
+    },
+    {
+     "en": "So plan IT purchases early, and budget for higher prices.",
+     "jp": "IT機器の購入は早めに計画し、値上がり分を予算に入れましょう。",
+     "hl": [
+      "plan IT purchases early",
+      "早めに計画"
+     ],
+     "start": 167.881,
+     "end": 171.702,
+     "audio": "07_04.wav"
+    }
+   ],
+   "start": 150.835,
+   "end": 172.702
+  },
+  {
+   "id": "other",
+   "chapter": "THE OTHER SIDE",
+   "vis": {
+    "type": "versus",
+    "title": "High prices, weaker demand",
+    "title_jp": "価格は上がり、需要は弱まる",
+    "left": {
+     "title": "DRAM prices, Q4 (forecast)",
+     "jp": "DRAM契約価格(10〜12月予測)",
+     "value": "+10–15%",
+     "color": "navy"
+    },
+    "right": {
+     "title": "PC shipments, 2026 (forecast)",
+     "jp": "PCの出荷台数(2026年予測)",
+     "value": "−10.4%",
+     "color": "red"
+    },
+    "at": [
+     0,
+     1
+    ]
+   },
+   "beats": [
+    {
+     "en": "But high prices have a cost.",
+     "jp": "でも、高い価格には代償があります。",
+     "hl": [
+      "have a cost",
+      "代償"
+     ],
+     "start": 173.302,
+     "end": 174.909,
+     "audio": "08_00.wav"
+    },
+    {
+     "en": "Gartner expects PC shipments to fall about 10 percent this year.",
+     "jp": "ガートナーは、今年のPC出荷台数が約10%減ると予測しています。",
+     "hl": [
+      "fall about 10 percent",
+      "約10%減る"
+     ],
+     "start": 175.559,
+     "end": 179.427,
+     "audio": "08_01.wav"
+    },
+    {
+     "en": "Fewer new devices means less demand for memory later.",
+     "jp": "新しい機器が減れば、いずれメモリーの需要も減ります。",
+     "hl": [
+      "less demand",
+      "需要も減り"
+     ],
+     "start": 180.077,
+     "end": 183.29,
+     "audio": "08_02.wav"
+    },
+    {
+     "en": "And price rises are slowing, according to Micron.",
+     "jp": "マイクロンによると、値上がりの勢いも鈍っています。",
+     "hl": [
+      "slowing",
+      "鈍って"
+     ],
+     "start": 183.94,
+     "end": 186.787,
+     "audio": "08_03.wav"
+    },
+    {
+     "en": "Memory has booms and busts. In 2023, makers lost billions in a glut.",
+     "jp": "メモリーには好況と不況の波があり、2023年には供給過剰で巨額の赤字が出ました。",
+     "hl": [
+      "booms and busts",
+      "好況と不況"
+     ],
+     "start": 187.437,
+     "end": 193.065,
+     "audio": "08_04.wav"
+    },
+    {
+     "en": "This is not investment advice. It's how the market works.",
+     "jp": "これは投資の助言ではありません。市場の仕組みの話です。",
+     "hl": [
+      "not investment advice",
+      "投資の助言ではありません"
+     ],
+     "start": 193.715,
+     "end": 197.099,
+     "audio": "08_05.wav"
+    }
+   ],
+   "start": 172.702,
+   "end": 198.099
+  },
+  {
+   "id": "phrases",
+   "chapter": "TODAY'S ENGLISH",
+   "vis": {
+    "type": "phrases",
+    "items": [
+     {
+      "en": "in short supply",
+      "jp": "不足している・品薄だ",
+      "key": "in short supply",
+      "ex": "Engineers with AI skills are in short supply.",
+      "ex_jp": "AIのスキルを持つエンジニアが不足しています。"
+     },
+     {
+      "en": "pass on",
+      "jp": "(コストを)転嫁する",
+      "key": "pass on",
+      "ex": "We may have to pass on higher costs to customers.",
+      "ex_jp": "上がったコストを、お客様に転嫁せざるを得ないかもしれません。"
+     },
+     {
+      "en": "lock in",
+      "jp": "(価格・条件を)確定させる",
+      "key": "lock in",
+      "ex": "Let's lock in the price before it goes up.",
+      "ex_jp": "値上がりする前に、価格を確定させましょう。"
+     }
+    ]
+   },
+   "beats": [
+    {
+     "en": "Three phrases for your next meeting.",
+     "jp": "次の会議で使える英語を3つ。",
+     "hl": [
+      "Three phrases",
+      "英語を3つ"
+     ],
+     "step": "intro",
+     "ph": -1,
+     "start": 198.699,
+     "end": 200.441,
+     "audio": "09_00.wav"
+    },
+    {
+     "en": "in short supply.",
+     "jp": "この英語の意味は?",
+     "hl": [
+      "in short supply",
+      ""
+     ],
+     "step": "say",
+     "ph": 0,
+     "start": 201.091,
+     "end": 202.134,
+     "audio": "09_01.wav"
+    },
+    {
+     "en": "",
+     "jp": "考えてみよう",
+     "hl": [],
+     "step": "think",
+     "ph": 0,
+     "hold": 2.5,
+     "start": 202.784,
+     "end": 205.284,
+     "audio": "09_02.wav"
+    },
+    {
+     "en": "Engineers with AI skills are in short supply.",
+     "jp": "AIのスキルを持つエンジニアが不足しています。",
+     "hl": [
+      "in short supply",
+      ""
+     ],
+     "step": "ex",
+     "ph": 0,
+     "start": 205.934,
+     "end": 208.893,
+     "audio": "09_03.wav"
+    },
+    {
+     "en": "Engineers with AI skills are in short supply.",
+     "jp": "もう一度。声に出して言ってみよう",
+     "hl": [
+      "in short supply",
+      ""
+     ],
+     "step": "ex",
+     "ph": 0,
+     "repeat": true,
+     "start": 209.543,
+     "end": 212.502,
+     "audio": "09_04.wav"
+    },
+    {
+     "en": "",
+     "jp": "(あなたの番)",
+     "hl": [],
+     "step": "ex",
+     "ph": 0,
+     "hold": 3.0,
+     "start": 213.152,
+     "end": 216.152,
+     "audio": "09_05.wav"
+    },
+    {
+     "en": "pass on.",
+     "jp": "この英語の意味は?",
+     "hl": [
+      "pass on",
+      ""
+     ],
+     "step": "say",
+     "ph": 1,
+     "start": 216.802,
+     "end": 217.425,
+     "audio": "09_06.wav"
+    },
+    {
+     "en": "",
+     "jp": "考えてみよう",
+     "hl": [],
+     "step": "think",
+     "ph": 1,
+     "hold": 2.5,
+     "start": 218.075,
+     "end": 220.575,
+     "audio": "09_07.wav"
+    },
+    {
+     "en": "We may have to pass on higher costs to customers.",
+     "jp": "上がったコストを、お客様に転嫁せざるを得ないかもしれません。",
+     "hl": [
+      "pass on",
+      ""
+     ],
+     "step": "ex",
+     "ph": 1,
+     "start": 221.225,
+     "end": 223.804,
+     "audio": "09_08.wav"
+    },
+    {
+     "en": "We may have to pass on higher costs to customers.",
+     "jp": "もう一度。声に出して言ってみよう",
+     "hl": [
+      "pass on",
+      ""
+     ],
+     "step": "ex",
+     "ph": 1,
+     "repeat": true,
+     "start": 224.454,
+     "end": 227.033,
+     "audio": "09_09.wav"
+    },
+    {
+     "en": "",
+     "jp": "(あなたの番)",
+     "hl": [],
+     "step": "ex",
+     "ph": 1,
+     "hold": 3.0,
+     "start": 227.683,
+     "end": 230.683,
+     "audio": "09_10.wav"
+    },
+    {
+     "en": "lock in.",
+     "jp": "この英語の意味は?",
+     "hl": [
+      "lock in",
+      ""
+     ],
+     "step": "say",
+     "ph": 2,
+     "start": 231.333,
+     "end": 231.978,
+     "audio": "09_11.wav"
+    },
+    {
+     "en": "",
+     "jp": "考えてみよう",
+     "hl": [],
+     "step": "think",
+     "ph": 2,
+     "hold": 2.5,
+     "start": 232.628,
+     "end": 235.128,
+     "audio": "09_12.wav"
+    },
+    {
+     "en": "Let's lock in the price before it goes up.",
+     "jp": "値上がりする前に、価格を確定させましょう。",
+     "hl": [
+      "lock in",
+      ""
+     ],
+     "step": "ex",
+     "ph": 2,
+     "start": 235.778,
+     "end": 237.903,
+     "audio": "09_13.wav"
+    },
+    {
+     "en": "Let's lock in the price before it goes up.",
+     "jp": "もう一度。声に出して言ってみよう",
+     "hl": [
+      "lock in",
+      ""
+     ],
+     "step": "ex",
+     "ph": 2,
+     "repeat": true,
+     "start": 238.553,
+     "end": 240.677,
+     "audio": "09_14.wav"
+    },
+    {
+     "en": "",
+     "jp": "(あなたの番)",
+     "hl": [],
+     "step": "ex",
+     "ph": 2,
+     "hold": 3.0,
+     "start": 241.327,
+     "end": 244.327,
+     "audio": "09_15.wav"
+    }
+   ],
+   "start": 198.099,
+   "end": 245.327
+  },
+  {
+   "id": "outro",
+   "chapter": "",
+   "vis": {
+    "type": "outro",
+    "items": [
+     "in short supply",
+     "pass on",
+     "lock in"
+    ]
+   },
+   "beats": [
+    {
+     "en": "Which one will you use this week? Tell us in the comments.",
+     "jp": "今週使うのはどれですか? コメントで教えてください。",
+     "hl": [
+      "this week",
+      "今週"
+     ],
+     "start": 245.927,
+     "end": 248.901,
+     "audio": "10_00.wav"
+    }
+   ],
+   "start": 245.327,
+   "end": 249.901
+  }
+ ],
+ "total": 249.901,
+ "portrait": null
+}

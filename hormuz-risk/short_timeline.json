@@ -1,0 +1,98 @@
+{
+ "scenes": [
+  {
+   "id": "share",
+   "chapter": "",
+   "vis": {
+    "type": "bigstat",
+    "kicker": "Japan's crude oil imports",
+    "value": 95,
+    "prefix": ">",
+    "suffix": "%",
+    "tag": "from the Middle East",
+    "sub": "日本の原油の中東依存度",
+    "src": "Source: 資源エネルギー庁 (via nippon.com)",
+    "art": "tanker",
+    "num_at": 1,
+    "tag_at": 1
+   },
+   "beats": [
+    {
+     "en": "How much of Japan's crude oil comes from the Middle East?",
+     "jp": "日本の原油は、どれだけ中東から来ているでしょうか。",
+     "hl": [
+      "Middle East",
+      "中東"
+     ],
+     "start": 0.6,
+     "end": 3.447,
+     "audio": "00_00.wav"
+    },
+    {
+     "en": "Over 95 percent. And most of it sails through one strait: Hormuz.",
+     "jp": "95%超です。その多くが、ホルムズ海峡というひとつの海峡を通ります。",
+     "hl": [
+      "Over 95 percent",
+      "95%超"
+     ],
+     "start": 4.097,
+     "end": 8.534,
+     "audio": "00_01.wav"
+    },
+    {
+     "en": "That is a big exposure to one route.",
+     "jp": "ひとつのルートへの、大きな依存リスクです。",
+     "hl": [
+      "exposure",
+      "依存リスク"
+     ],
+     "start": 9.184,
+     "end": 11.1,
+     "audio": "00_02.wav"
+    },
+    {
+     "en": "Companies talk about reducing their exposure to one supplier.",
+     "jp": "企業も、一社への依存リスクを減らそうと話します。",
+     "hl": [
+      "reducing their exposure",
+      "依存リスクを減らそう"
+     ],
+     "start": 11.75,
+     "end": 15.326,
+     "audio": "00_03.wav"
+    }
+   ],
+   "start": 0.0,
+   "end": 16.326
+  },
+  {
+   "id": "cta",
+   "chapter": "",
+   "vis": {
+    "type": "cta",
+    "en": "Reduce your exposure.",
+    "jp": "依存リスクを減らす",
+    "btn": "続きは本編で"
+   },
+   "beats": [
+    {
+     "en": "Want the full story? Watch the full video.",
+     "jp": "くわしくは本編で。英語の解説つきです。",
+     "hl": [
+      "full video",
+      "本編"
+     ],
+     "start": 16.926,
+     "end": 19.179,
+     "audio": "01_00.wav"
+    }
+   ],
+   "start": 16.326,
+   "end": 20.179
+  }
+ ],
+ "total": 20.179,
+ "portrait": {
+  "head": "<div class='q'>日本の原油<br>中東から<b>何%</b>?</div><div class='e'>exposure</div>"
+ }
+}
